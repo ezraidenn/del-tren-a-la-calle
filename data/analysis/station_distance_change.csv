@@ -1,0 +1,79 @@
+station_id,station_name,state,distance_band,min_km,max_km,businesses_2019,businesses_2025,absolute_change,pct_change
+TM029,Bacalar,Quintana Roo,1-3 km,1.0,3.0,311,478,167,53.69774919614147
+TM029,Bacalar,Quintana Roo,3-5 km,3.0,5.0,555,598,43,7.747747747747748
+TM002,Boca del Cerro,Tabasco,0-1 km,0.0,1.0,1,1,0,0.0
+TM002,Boca del Cerro,Tabasco,1-3 km,1.0,3.0,1,1,0,0.0
+TM002,Boca del Cerro,Tabasco,3-5 km,3.0,5.0,0,1,1,
+TM012,Calkiní,Campeche,0-1 km,0.0,1.0,19,26,7,36.84210526315789
+TM012,Calkiní,Campeche,1-3 km,1.0,3.0,1157,1193,36,3.1114952463267067
+TM012,Calkiní,Campeche,3-5 km,3.0,5.0,98,128,30,30.612244897959183
+TM022,Cancún Aeropuerto,Quintana Roo,0-1 km,0.0,1.0,1,0,-1,-100.0
+TM022,Cancún Aeropuerto,Quintana Roo,1-3 km,1.0,3.0,382,411,29,7.591623036649215
+TM022,Cancún Aeropuerto,Quintana Roo,3-5 km,3.0,5.0,162,171,9,5.555555555555555
+TM005,Candelaria,Campeche,0-1 km,0.0,1.0,830,754,-76,-9.156626506024097
+TM005,Candelaria,Campeche,1-3 km,1.0,3.0,227,260,33,14.537444933920703
+TM005,Candelaria,Campeche,3-5 km,3.0,5.0,3,3,0,0.0
+TM007,Carrillo Puerto,Campeche,0-1 km,0.0,1.0,165,251,86,52.121212121212125
+TM007,Carrillo Puerto,Campeche,1-3 km,1.0,3.0,6,8,2,33.33333333333333
+TM034,Centenario,Campeche,0-1 km,0.0,1.0,3,8,5,166.66666666666669
+TM034,Centenario,Campeche,1-3 km,1.0,3.0,20,43,23,114.99999999999999
+TM034,Centenario,Campeche,3-5 km,3.0,5.0,0,1,1,
+TM030,Chetumal Aeropuerto,Quintana Roo,0-1 km,0.0,1.0,73,74,1,1.36986301369863
+TM030,Chetumal Aeropuerto,Quintana Roo,1-3 km,1.0,3.0,1247,1270,23,1.8444266238973537
+TM030,Chetumal Aeropuerto,Quintana Roo,3-5 km,3.0,5.0,3797,3583,-214,-5.636028443508033
+TM018,Chichén Itzá,Yucatán,3-5 km,3.0,5.0,749,860,111,14.819759679572764
+TM004,El Triunfo,Tabasco,0-1 km,0.0,1.0,484,620,136,28.09917355371901
+TM004,El Triunfo,Tabasco,1-3 km,1.0,3.0,8,10,2,25.0
+TM006,Escárcega,Campeche,0-1 km,0.0,1.0,915,1039,124,13.55191256830601
+TM006,Escárcega,Campeche,1-3 km,1.0,3.0,1394,1604,210,15.064562410329984
+TM006,Escárcega,Campeche,3-5 km,3.0,5.0,36,41,5,13.88888888888889
+TM027,Felipe Carrillo Puerto,Quintana Roo,0-1 km,0.0,1.0,2,5,3,150.0
+TM027,Felipe Carrillo Puerto,Quintana Roo,1-3 km,1.0,3.0,366,438,72,19.672131147540984
+TM027,Felipe Carrillo Puerto,Quintana Roo,3-5 km,3.0,5.0,1353,1375,22,1.6260162601626018
+TM011,Hecelchakán,Campeche,0-1 km,0.0,1.0,8,6,-2,-25.0
+TM011,Hecelchakán,Campeche,1-3 km,1.0,3.0,644,766,122,18.944099378881987
+TM011,Hecelchakán,Campeche,3-5 km,3.0,5.0,333,362,29,8.708708708708707
+TM017,Izamal,Yucatán,1-3 km,1.0,3.0,8,8,0,0.0
+TM017,Izamal,Yucatán,3-5 km,3.0,5.0,756,905,149,19.70899470899471
+TM021,Leona Vicario,Quintana Roo,0-1 km,0.0,1.0,45,74,29,64.44444444444444
+TM021,Leona Vicario,Quintana Roo,1-3 km,1.0,3.0,225,301,76,33.77777777777778
+TM028,Limones-Chacchoben,Quintana Roo,0-1 km,0.0,1.0,1,2,1,100.0
+TM028,Limones-Chacchoben,Quintana Roo,1-3 km,1.0,3.0,100,115,15,15.0
+TM013,Maxcanú,Yucatán,0-1 km,0.0,1.0,0,1,1,
+TM013,Maxcanú,Yucatán,1-3 km,1.0,3.0,694,785,91,13.112391930835734
+TM013,Maxcanú,Yucatán,3-5 km,3.0,5.0,160,185,25,15.625
+TM015,Mérida Teya,Yucatán,0-1 km,0.0,1.0,4,9,5,125.0
+TM015,Mérida Teya,Yucatán,1-3 km,1.0,3.0,35,167,132,377.1428571428571
+TM015,Mérida Teya,Yucatán,3-5 km,3.0,5.0,1353,1893,540,39.91130820399113
+TM031,Nicolás Bravo / Kohunlich,Quintana Roo,3-5 km,3.0,5.0,61,70,9,14.754098360655737
+TM020,Nuevo Xcán,Quintana Roo,1-3 km,1.0,3.0,0,1,1,
+TM001,Palenque,Chiapas,0-1 km,0.0,1.0,58,60,2,3.4482758620689653
+TM001,Palenque,Chiapas,1-3 km,1.0,3.0,3786,4378,592,15.636555731642895
+TM001,Palenque,Chiapas,3-5 km,3.0,5.0,799,937,138,17.271589486858574
+TM024,Playa del Carmen,Quintana Roo,0-1 km,0.0,1.0,578,670,92,15.916955017301039
+TM024,Playa del Carmen,Quintana Roo,1-3 km,1.0,3.0,586,721,135,23.037542662116042
+TM024,Playa del Carmen,Quintana Roo,3-5 km,3.0,5.0,579,630,51,8.808290155440414
+TM023,Puerto Morelos,Quintana Roo,0-1 km,0.0,1.0,1,1,0,0.0
+TM023,Puerto Morelos,Quintana Roo,1-3 km,1.0,3.0,0,3,3,
+TM023,Puerto Morelos,Quintana Roo,3-5 km,3.0,5.0,26,37,11,42.30769230769231
+TM009,San Francisco de Campeche,Campeche,0-1 km,0.0,1.0,3,2,-1,-33.33333333333333
+TM009,San Francisco de Campeche,Campeche,1-3 km,1.0,3.0,1197,1396,199,16.62489557226399
+TM009,San Francisco de Campeche,Campeche,3-5 km,3.0,5.0,3653,4070,417,11.415275116342732
+TM010,Tenabo,Campeche,0-1 km,0.0,1.0,3,4,1,33.33333333333333
+TM010,Tenabo,Campeche,1-3 km,1.0,3.0,519,623,104,20.03853564547206
+TM010,Tenabo,Campeche,3-5 km,3.0,5.0,6,7,1,16.666666666666664
+TM003,Tenosique,Tabasco,0-1 km,0.0,1.0,574,645,71,12.369337979094077
+TM003,Tenosique,Tabasco,1-3 km,1.0,3.0,1916,2128,212,11.064718162839249
+TM003,Tenosique,Tabasco,3-5 km,3.0,5.0,43,60,17,39.53488372093023
+TM016,Tixkokob,Yucatán,0-1 km,0.0,1.0,55,55,0,0.0
+TM016,Tixkokob,Yucatán,1-3 km,1.0,3.0,716,761,45,6.284916201117319
+TM016,Tixkokob,Yucatán,3-5 km,3.0,5.0,196,170,-26,-13.26530612244898
+TM025,Tulum,Quintana Roo,1-3 km,1.0,3.0,187,375,188,100.53475935828877
+TM025,Tulum,Quintana Roo,3-5 km,3.0,5.0,1488,2200,712,47.8494623655914
+TM026,Tulum Aeropuerto,Quintana Roo,3-5 km,3.0,5.0,0,1,1,
+TM014,Umán,Yucatán,1-3 km,1.0,3.0,89,77,-12,-13.48314606741573
+TM014,Umán,Yucatán,3-5 km,3.0,5.0,1551,1566,15,0.9671179883945842
+TM019,Valladolid,Yucatán,1-3 km,1.0,3.0,5,4,-1,-20.0
+TM019,Valladolid,Yucatán,3-5 km,3.0,5.0,1332,1550,218,16.366366366366368
+TM032,Xpujil,Campeche,1-3 km,1.0,3.0,570,722,152,26.666666666666668
+TM032,Xpujil,Campeche,3-5 km,3.0,5.0,42,80,38,90.47619047619048
