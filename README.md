@@ -20,11 +20,11 @@ Este repositorio documenta las 27 fuentes del equipo: 9 subtemas, un tipo de fue
 | | | DENUE mayo 2025 | https://www.inegi.org.mx/contenidos/masiva/denue/2025_05/denue_31_0525_csv.zip |
 | | | Censo 2020, AGEB y manzana urbana | https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/ageb_manzana/ageb_mza_urbana_31_cpv2020_csv.zip |
 | 4. Una ciudad preparada para recibirlos | Geoportal de Mérida | Unidades deportivas | https://geoportal.merida.gob.mx/unidadesdeportivas |
-| | | Centros de Desarrollo Integral | https://geoportal.merida.gob.mx/cdi |
-| | | Paraderos y Circuito Enlace | https://geoportal.merida.gob.mx/paraderos |
+| | | Circuito Enlace (transporte gratuito del Centro) | https://geoportal.merida.gob.mx/circuitoenlace |
+| | | Paraderos de transporte público | https://geoportal.merida.gob.mx/paraderos |
 | 5. Llegar del transporte al negocio | Solicitud de datos | Tren Maya: pasajeros por estación y mes | https://www.datos.gob.mx/dataset/prestacion_servicio_ferroviario_pasajeros |
 | | | ATY: ruta R901 IE-TRAM La Plancha – Teya | https://transporteyucatan.org.mx/rutas/R901 |
-| | | Ayuntamiento de Mérida: capas de vialidades, banquetas y paraderos | https://geoportal.merida.gob.mx/paraderos |
+| | | Ayuntamiento de Mérida: obras de banquetas y accesibilidad peatonal en el Centro | https://prensa.merida.gob.mx/12416/Ante-demanda-ciudadana-Cecilia-Patron-mejora-la-infraestructura-para-los-transeuntes-del-centro-historico/amp |
 | 6. Los últimos metros a pie | LiDAR | Tramo de banqueta 1 | https://github.com/ezraidenn/del-tren-a-la-calle/tree/main/fuentes/06_lidar_banquetas/6.1_tramo_1 |
 | | | Tramo de banqueta 2 | https://github.com/ezraidenn/del-tren-a-la-calle/tree/main/fuentes/06_lidar_banquetas/6.2_tramo_2 |
 | | | Tramo de banqueta 3 | https://github.com/ezraidenn/del-tren-a-la-calle/tree/main/fuentes/06_lidar_banquetas/6.3_tramo_3 |
