@@ -223,8 +223,10 @@ def regla_catalogo() -> None:
             errores.append(f"catálogo: no existe {t['archivo_csv']}")
             continue
         with open(ruta, encoding="utf-8", newline="") as f:
-            columnas = next(csv.reader(f), [])
-            filas = sum(1 for _ in f)
+            lector = csv.reader(f)
+            columnas = next(lector, [])
+            # Cuenta registros, no líneas: un campo entrecomillado puede traer saltos de línea.
+            filas = sum(1 for _ in lector)
         if str(filas) != t["filas"]:
             errores.append(f"catálogo: {t['tabla']} dice {t['filas']} filas y el archivo tiene {filas}")
         for c in t["clave"].split(";"):
