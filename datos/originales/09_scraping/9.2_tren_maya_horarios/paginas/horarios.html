@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4TFD9KBB5S"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-4TFD9KBB5S');
+	</script>
+	<title>TREN MAYA</title>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<link rel="icon" href="images/Kukulkan.svg" type="image/x-icon">
+	<!-- Stylesheets-->
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      font-size: 14px;
+      color: #000;
+    }
+
+    th, td {
+      border: 1px solid #000000;
+      padding: 6px 8px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    /* Encabezados */
+    thead th {
+      background-color: #174a4b;
+      font-weight: bold;
+    }
+
+    .main-title {
+      font-size: 16px;
+      padding: 8px;
+    }
+
+    /* Negrita para matrículas y códigos */
+    .bold {
+      font-weight: bold;
+    }
+
+    /* Ajuste para texto de rutas */
+    .ruta {
+      text-align: center;
+      white-space: normal;
+    }
+
+    /* ============ Horario Intermodal ============ */
+    .im-main-title {
+      font-family: Montserrat-bold;
+      color: #174a4b;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 28px;
+      margin: 10px 0 6px;
+    }
+    .im-main-title::after {
+      content: '';
+      display: block;
+      width: 70px;
+      height: 3px;
+      background: linear-gradient(90deg, #174a4b, #c9a13b);
+      margin: 12px auto 0;
+      border-radius: 3px;
+    }
+
+    .im-layout {
+      display: flex;
+      align-items: flex-start;
+      gap: 26px;
+      width: 100vw;
+      max-width: 1600px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0 30px;
+      box-sizing: border-box;
+    }
+    .im-visual-col {
+      flex: 0 0 46%;
+      max-width: 46%;
+      position: sticky;
+      top: 20px;
+    }
+    .im-schedule-col {
+      flex: 1;
+      min-width: 0;
+    }
+
+    @media (max-width: 991px) {
+      .im-layout { flex-direction: column; }
+      .im-visual-col,
+      .im-schedule-col {
+        flex: 1 1 auto;
+        max-width: 100%;
+        width: 100%;
+        position: static;
+      }
+    }
+
+    /* --- Carrusel con los carteles oficiales (imagen) --- */
+    .im-carousel { max-width: 100%; padding-bottom: 46px; }
+    .im-carousel .owl-stage-outer { border-radius: 20px; }
+
+    .im-poster-img {
+      background-color: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 8px 26px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+    }
+    .im-poster-img:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 34px rgba(0, 0, 0, 0.26);
+    }
+    .im-poster-img img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    /* Flechas y puntos del carrusel */
+    .im-carousel .owl-prev,
+    .im-carousel .owl-next {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 16px;
+      border-radius: 50%;
+      background-color: rgba(23, 74, 75, 0.9);
+      color: #fff;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+    .im-carousel .owl-prev::before,
+    .im-carousel .owl-next::before { content: none; }
+    .im-carousel .owl-prev i,
+    .im-carousel .owl-next i { font-size: 16px; line-height: 40px; }
+    .im-carousel .owl-prev { left: -6px; }
+    .im-carousel .owl-next { right: -6px; }
+    .im-carousel .owl-prev:hover,
+    .im-carousel .owl-next:hover {
+      background-color: #0f3536;
+      transform: translateY(-50%) scale(1.08);
+    }
+    .im-carousel .owl-dots {
+      position: static;
+      margin-top: 16px;
+      text-align: center;
+    }
+
+    /* --- Tabla completa de horarios (derecha) --- */
+    .im-table-wrap {
+      background: #ffffff;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+      padding: 6px;
+      overflow-x: auto;
+    }
+    .im-full-table {
+      width: 100%;
+      min-width: 620px;
+      border-collapse: collapse;
+      font-size: 12.5px;
+    }
+    .im-full-table thead th {
+      background: #174a4b;
+      color: #fff;
+      padding: 10px 6px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .im-full-table td {
+      padding: 7px 6px;
+      text-align: center;
+      border-bottom: 1px solid #eef1f1;
+    }
+    .im-full-table tr:last-child td { border-bottom: none; }
+    .im-full-table .im-group-row td {
+      background: #174a4b;
+      color: #ffffff;
+      font-family: Montserrat-bold;
+      font-size: 13px;
+      text-align: left;
+      padding: 10px 12px;
+      letter-spacing: 0.4px;
+    }
+    .im-full-table .im-group-row td i { margin-right: 8px; color: #c9a13b; }
+    .im-full-table .im-sub-row td {
+      background: #eef3f2;
+      color: #174a4b;
+      font-weight: bold;
+      text-align: left;
+      padding: 7px 12px;
+      font-size: 11.5px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .im-full-table tbody tr:not(.im-group-row):not(.im-sub-row):hover td {
+      background: #f7fafa;
+    }
+    .im-tarifa-cell {
+      font-family: Montserrat-bold;
+      color: #174a4b;
+      font-size: 14px;
+      background: #fbf6ea !important;
+    }
+    .im-tarifa-cell small { font-size: 9px; font-weight: normal; color: #8a7a49; }
+
+    @media (max-width: 767px) {
+      .im-full-table thead th:last-child { width: 54px; }
+      .im-tarifa-cell { font-size: 11px; }
+      .im-tarifa-cell small { font-size: 8px; }
+    }
+  </style>
+  </head>
+  <body background="images/Back.png"> 
+    <div class="page">
+      
+
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<link rel="apple-touch-icon" href="images/Kukulkan.svg">
+
+
+
+<div class="">
+
+	<div class="d-lg-none ">
+
+
+
+		<!-- 
+
+	 NAVBAR MOVILE
+
+ -->
+
+		<nav class="navbar navbar-dark navbar-background">
+
+			<a class="navbar-brand" href="index.php">
+
+				<img src="images/Imagotipo_FondoVerde_H.png" width="90" height="40" alt="Tren Maya">
+
+			</a>
+
+
+
+			<button class="navbar-toggler" type="button" aria-label="Toggle navigation" id="mobileToggle">
+
+				<span class="">
+
+
+
+					<svg class="ham hamRotate180 ham5" viewBox="0 0 100 100" width="40"
+
+						onclick="this.classList.toggle('active')">
+
+						<path class="line top"
+
+							d="m 30,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429" />
+
+						<path class="line middle" d="m 70,50 h -40" />
+
+						<path class="line bottom"
+
+							d="m 30,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429" />
+
+					</svg>
+
+
+
+				</span>
+
+			</button>
+
+		</nav>
+
+
+
+	</div>
+
+
+
+	<div class=" collapse d-lg-none " id="mobileMenu">
+
+		<div class="navbar-dropdown-background p-4 mobile-drawer ">
+
+
+
+			
+				<a href="https://www.boletosdeltrenmaya.com/" class="d-block text-white mb-3 mobile-nav-link no-decoration " >
+
+					Compra Tus Boletos
+				</a>
+
+			
+				<a href="paquetes.php" class="d-block text-white mb-3 mobile-nav-link no-decoration " >
+
+					Paquetes Turísticos
+				</a>
+
+			
+				<a href="transparencia.php" class="d-block text-white mb-3 mobile-nav-link no-decoration " >
+
+					Transparencia
+				</a>
+
+			
+				<a href="datospersonales.php" class="d-block text-white mb-3 mobile-nav-link no-decoration " >
+
+					Protección de Datos Personales
+				</a>
+
+			
+				<a href="preguntas.php" class="d-block text-white mb-3 mobile-nav-link no-decoration " >
+
+					Preguntas Frecuentes
+				</a>
+
+			
+				<a href="https://tiendatrenmaya.com/" class="d-block text-white mb-3 mobile-nav-link no-decoration " target="_blank" rel="noopener noreferrer">
+
+					Tienda Tren Maya
+				</a>
+
+			
+
+
+		</div>
+
+	</div>
+
+</div>
+
+
+
+<!-- 
+
+	 NAVBAR DESKTOP
+
+ -->
+
+<header class="navbar-wrapper d-none d-lg-block">
+
+	<nav class="navbar-bg">
+
+		<div class="navbar-container">
+
+
+
+			<div class="logo-wrapper">
+
+				<a href="index.php">
+
+					<img src="images/Imagotipo_FondoVerde_H.png" width="110" height="50" alt="Tren Maya">
+
+				</a>
+
+			</div>
+
+
+
+			<div class="menu-grid">
+
+				
+					<a href="https://www.boletosdeltrenmaya.com/" class="menu-item" >
+
+						Compra Tus Boletos
+					</a>
+
+				
+					<a href="paquetes.php" class="menu-item" >
+
+						Paquetes Turísticos
+					</a>
+
+				
+					<a href="transparencia.php" class="menu-item" >
+
+						Transparencia
+					</a>
+
+				
+					<a href="datospersonales.php" class="menu-item" >
+
+						Protección de Datos Personales
+					</a>
+
+				
+					<a href="preguntas.php" class="menu-item" >
+
+						Preguntas Frecuentes
+					</a>
+
+				
+					<a href="https://tiendatrenmaya.com/" class="menu-item" target="_blank" rel="noopener noreferrer">
+
+						Tienda Tren Maya
+					</a>
+
+				
+			</div>
+
+
+
+		</div>
+
+	</nav>
+
+</header>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<script>
+
+	document.getElementById('mobileToggle').addEventListener('click', function (e) {
+
+		e.preventDefault();
+
+		e.stopPropagation();
+
+		$('#mobileMenu').collapse('toggle');
+
+	});
+
+
+
+	document.querySelectorAll('.mobile-nav-link').forEach(link => {
+
+		link.addEventListener('click', () => {
+
+			$('#mobileMenu').collapse('hide');
+
+		});
+
+	});
+
+</script>      <!-- Base typography-->
+      <section class="section section-sm section-first bg-default text-left">
+        <div class="container">	
+
+		  <div class="row row-40 flex-lg-row-reverse justify-content-xl-between">
+            <div class="col-xl-12 col-md-12 col-lg-12"  >
+              <br /><br />
+
+              <!-- Bootstrap tabs-->
+              <div class="tabs-custom tabs-horizontal tabs-line" id="tabs-h">
+                <!-- Nav tabs-->
+                <ul class="nav nav-tabs">
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-h-1" data-toggle="tab">Horario de Trenes</a></li>
+                                  </ul>
+
+                <!-- Tab panes-->
+                <div class="tab-content">
+
+                  <div class="tab-pane fade show active" id="tabs-h-1">
+              <br />
+			  <table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#000000" style="text-align: center; font-family:Montserrat; font-size: 18px;">
+				<thead>
+				<tr style="text-align: center; background-color: #174a4b; color: white;">
+				    <th>Circulación</th>
+					<th>Ruta</th>
+					<th>Salida programada</th>
+					<th>Llegada programada</th>
+					<th>Tiempo de recorrido</th>
+					<th>Tiempo total</th>
+				</tr>
+			</thead>
+				<tbody>
+      <!-- 101 -->
+      <tr>
+        <td rowspan="3">101</td>
+        <td class="ruta">Palenque –<br>San Francisco Campeche.</td>
+        <td>8:40</td>
+        <td>13:24</td>
+        <td>4h 44m</td>
+        <td rowspan="3">10h 53m</td>
+      </tr>
+      <tr>
+        <td class="ruta">San Francisco Campeche –<br>Mérida Teya.</td>
+        
+        <td>13:34</td>
+        <td>16:12</td>
+        <td>2h 38m</td>
+      </tr>
+      <tr>
+        <td class="ruta">Mérida Teya –<br>Estación Cancún.</td>
+        
+        <td>16:22</td>
+        <td>19:53</td>
+        <td>3h 31m</td>
+      </tr>
+
+      <!-- 102 -->
+      <tr>
+        <td rowspan="3">102</td>
+        <td class="ruta">Estación Cancún –<br>Mérida Teya.</td>
+        
+        <td>8:30</td>
+        <td>12:09</td>
+        <td>3h 39m</td>
+        <td rowspan="3">11h 01m</td>
+      </tr>
+      <tr>
+        <td class="ruta">Mérida Teya –<br>San Francisco Campeche.</td>
+        
+        <td>12:19</td>
+        <td>14:42</td>
+        <td>2h 23m</td>
+      </tr>
+      <tr>
+        <td class="ruta">San Francisco Campeche –<br>Palenque.</td>
+        
+        <td>14:52</td>
+        <td>19:51</td>
+        <td>4h 59m</td>
+      </tr>
+
+      <!-- 201 -->
+      <tr>
+        <td rowspan="2">201</td>
+        <td class="ruta">San Francisco Campeche –<br>Mérida Teya.</td>
+        
+        <td>7:00</td>
+        <td>9:08</td>
+        <td>2h 08m</td>
+        <td rowspan="2">5h 49m</td>
+      </tr>
+      <tr>
+        <td class="ruta">Mérida Teya –<br>Estación Cancún.</td>
+        
+        <td>9:18</td>
+        <td>12:49</td>
+        <td>3h 31m</td>
+      </tr>
+
+      <!-- 202 -->
+      <tr>
+        <td rowspan="2">202</td>
+        <td class="ruta">Estación Cancún –<br>Mérida Teya.</td>
+        
+        <td>15:40</td>
+        <td>19:19</td>
+        <td>3h 39m</td>
+        <td rowspan="2">5h 57m</td>
+      </tr>
+      <tr>
+        <td class="ruta">Mérida Teya –<br>San Francisco Campeche.</td>
+        
+        <td>19:29</td>
+        <td>21:37</td>
+        <td>2h 08m</td>
+      </tr>
+
+      <!-- 301 & 302 -->
+      <tr>
+        <td rowspan="2">301</td>
+        <td class="ruta">Mérida Teya –<br>Estación Cancún.</td>
+        
+        <td>7:00</td>
+        <td>10:31</td>
+        <td>3h 31m</td>
+        <td rowspan="2">5h 50m</td>
+      </tr>
+      <tr>
+        <td class="ruta">Estación Cancún –<br>Tulum Aeropuerto.</td>
+        
+        <td>10:46</td>
+        <td>12:50</td>
+        <td>2h 04m</td>
+      </tr>
+      <tr>
+        <td rowspan="2">302</td>
+        <td class="ruta">Tulum Aeropuerto –<br>Estación Cancún.</td>
+        
+        <td>16:55</td>
+        <td>18:59</td>
+        <td>2h 04m</td>
+        <td rowspan="2">5h 39m</td>
+      </tr>
+      <tr>
+        <td class="ruta">Estación Cancún –<br>Mérida Teya.</td>
+        
+        <td>19:10</td>
+        <td>22:34</td>
+        <td>3h 24m</td>
+      </tr>
+
+      <!-- 303 & 304 -->
+      <tr>
+        <td>303</td>
+        <td class="ruta">Mérida Teya –<br>Estación Cancún.</td>
+        
+        <td>15:20</td>
+        <td>18:56</td>
+        <td></td>
+        <td>3h 36m</td>
+      </tr>
+      <tr>
+        <td>304</td>
+        <td class="ruta">Estación Cancún –<br>Mérida Teya.</td>
+        
+        <td>10:50</td>
+        <td>14:19</td>
+        <td></td>
+        <td>3h 29m</td>
+      </tr>
+
+      <!-- 305 & 306 -->
+      <tr>
+        <td>305</td>
+        <td class="ruta">Mérida Teya –<br>Estación Cancún.</td>
+        
+        <td>10:45</td>
+        <td>14:19</td>
+        <td></td>
+        <td>3h 34m</td>
+      </tr>
+      <tr>
+        <td>306</td>
+        <td class="ruta">Estación Cancún –<br>Mérida Teya.</td>
+        
+        <td>7:00</td>
+        <td>10:37</td>
+        <td></td>
+        <td>3h 37m</td>
+      </tr>
+
+      <!-- 307 & 308 -->
+      <tr>
+        <td>307</td>
+        <td class="ruta">Mérida Teya –<br>Estación Cancún.</td>
+        
+        <td>13:05</td>
+        <td>16:19</td>
+        <td></td>
+        <td>3h 14m</td>
+      </tr>
+      <tr>
+        <td>308</td>
+        <td class="ruta">Estación Cancún –<br>Mérida Teya.</td>
+        
+        <td>17:30</td>
+        <td>20:39</td>
+        <td></td>
+        <td>3h 09m</td>
+      </tr>
+
+      <!-- 501 -->
+      <tr>
+        <td rowspan="2">501</td>
+        <td class="ruta">Palenque –<br>San Francisco Campeche.</td>
+        
+        <td>7:15</td>
+        <td>11:59</td>
+        <td></td>
+        <td>4h 44m</td>
+      </tr>
+      <tr>
+        <td class="ruta">San Francisco Campeche –<br>Mérida Teya.</td>
+        
+        <td>12:09</td>
+        <td>14:37</td>
+        <td></td>
+        <td>2h 28m</td>
+      </tr>
+
+      <!-- 502 -->
+      <tr>
+        <td rowspan="2">502</td>
+        <td class="ruta">Mérida Teya –<br>San Francisco Campeche.</td>
+        
+        <td>10:55</td>
+        <td>13:13</td>
+        <td></td>
+        <td>2h 18m</td>
+      </tr>
+      <tr>
+        <td class="ruta">San Francisco Campeche –<br>Palenque.</td>
+        
+        <td>13:25</td>
+        <td>18:22</td>
+        <td></td>
+        <td>4h 57m</td>
+      </tr>
+
+      <!-- 601 - 604 -->
+      <tr>
+        <td>601</td>
+        <td class="ruta">Estación Cancún –<br>Chetumal.</td>
+        
+        <td>8:00</td>
+        <td>13:15</td>
+        <td></td>
+        <td>5h 15m</td>
+      </tr>
+      <tr>
+        <td>602</td>
+        <td class="ruta">Chetumal –<br>Estación Cancún.</td>
+        
+        <td>8:50</td>
+        <td>14:11</td>
+        <td></td>
+        <td>5h 21m</td>
+      </tr>
+      <tr>
+        <td>603</td>
+        <td class="ruta">Estación Cancún –<br>Chetumal.</td>
+        
+        <td>14:33</td>
+        <td>19:48</td>
+        <td></td>
+        <td>5h 15m</td>
+      </tr>
+      <tr>
+        <td>604</td>
+        <td class="ruta">Chetumal –<br>Estación Cancún.</td>
+        
+        <td>15:30</td>
+        <td>20:45</td>
+        <td></td>
+        <td>5h 15m</td>
+      </tr>
+
+      <!-- 701 - 704 -->
+      <tr>
+        <td>701</td>
+        <td class="ruta">Chetumal-Escarcega.</td>
+        
+        <td>6:30</td>
+        <td>11:18</td>
+        <td>3h 58m</td>
+        <td rowspan="2">8h 12m</td>
+      </tr>
+      <tr>
+        <td>702</td>
+        <td class="ruta">Escarcega-Palenque.</td>
+        
+        <td>11:38</td>
+        <td>14:42</td>
+        <td>3h 4m</td>
+      </tr>
+      <tr>
+        <td>703</td>
+        <td class="ruta">Palenque-Escarcega.</td>
+        
+        <td>14:00</td>
+        <td>16:49</td>
+        <td>2h 29m</td>
+        <td rowspan="2">7h 37m</td>
+      </tr>
+      <tr>
+        <td>704</td>
+        <td class="ruta">Escarcega-Chetumal.</td>
+        
+        <td>17:09</td>
+        <td>21:57</td>
+        <td>3h 58m</td>
+      </tr>
+    </tbody>
+			  </table>
+
+                  </div>
+                  <!-- fin tabs-h-1 -->
+
+                                    <!-- fin tabs-h-2 -->
+
+                </div>
+              </div>
+              <!-- fin tabs-h -->
+
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <footer class="pie-pagina">
+
+    <section class="section section-md section-first bg-default text-md-left pie">
+
+        <div class="container">
+
+            <div class="row foot">
+
+                <div class="col-sm-12 col-lg-2 col-md-12" style="text-align: center;">
+
+                    <img src="images/Imagotipo_trenmaya.png" alt="" width="314" height="150" style="padding-top: 50px;">
+                </div>
+
+                <div class="col-sm-6 col-lg-3 col-md-6 ligasfoot">
+
+                    <h4 class="menupie">Enlaces</h4>
+                    <br>
+                    <ul class="menupie" style="font-size: 16px;">
+                        <li><a href="masinformacion.php" class="menupie">Medio Ambiente</a></li>
+                        <li><a href="ZonaArqueologicaDzibilchaltun.php" class="menupie">Arqueología</a></li>
+                        <li><a href="https://youtu.be/QOHlkrTr7v4?si=6vxzXYxXXn7XiLMH" class="menupie">Rescate
+                                Arqueológico</a></li>
+                        <li><a href="pobalines.php" class="menupie">Documentos</a></li>
+                        <li><a href="https://www.plataformadetransparencia.org.mx/" target="_blank"
+                                class="menupie">Transparencia</a></li>
+                    </ul>
+
+                </div>
+
+
+
+                <div class="col-sm-6 col-lg-4 col-md-6 ligasfoot">
+
+                    <ul class="menupie" style="font-size: 16px;">
+                        
+                        <li><a href="AvisoPrivacidad.php" class="menupie">Aviso de Privacidad</a></li>
+                        <li><a href="images/transparencia/Contrato_Adhesion_2026.pdf" target="_blank" class="menupie">Contrato de Adhesión</a></li>
+                        <!--        <li><a href="pdf/terms and conditions.pdf" target="_blank" class="menupie">Terms and Conditions</a></li> -->
+                        <li><a href="nosotros.php" class="menupie">Nosotros</a></li>
+                        <li><a href="https://www.gob.mx/sedena" target="_blank" class="menupie">DEFENSA</a></li>
+                        <li><a href="https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/?idSujetoObigadoParametro=30535&idEntidadParametro=33" class="menupie">Consulta Obligaciones de Transparencia</a></li>
+                        <li><a href="https://www.plataformadetransparencia.org.mx/" class="menupie">Plataforma Nacional de Transparencia</a></li>
+                        <li><a href="https://www.datos.gob.mx/" class="menupie">Datos abiertos</a></li>
+                    </ul>
+
+                </div>
+
+
+
+                <div class="col-sm-6 col-lg-3 col-md-6 ligasfoot">
+                    
+                    
+                    
+                    <ul class="menupie" style="font-size: 16px;">
+                        <li>Siguenos en</li>
+                    </ul>
+                    
+
+                    <a href="https://www.facebook.com/TrenMayaOficial" target="_blank">
+                        <img src="images/pie_pag/facebook.png" class="iredes" alt="Facebook" />
+                    </a>
+
+                    <a href="https://twitter.com/TrenMayaMX" target="_blank">
+                        <img src="images/pie_pag/redx.png" class="iredes" alt="Twitter/X" />
+                    </a>
+                    <a href="https://www.instagram.com/trenmaya_oficial/" target="_blank">
+                        <img src="images/pie_pag/instagram.png" class="iredes" alt="Instagram" />
+                    </a>
+
+                    <a href="https://www.youtube.com/@TrenMayaOficial" target="_blank">
+                        <img src="images/pie_pag/youtube.png" class="iredes" alt="YouTube" />
+                    </a>
+                    
+                    
+
+                    <a href="" target="_blank" style="text-decoration:none; color:white;">
+                        <div style="display:flex; align-items:center; background:#0f2e35; padding:5px 10px;">
+
+                            <!-- Icono -->
+                            <img src="images/pie_pag/flor.png" alt="Flor" width="50" height="50"
+                                style="margin-right:8px;">
+
+                            <!-- Texto -->
+                            <span style="padding-right:10px; font-size:35px;">
+                                <b>079</b>
+                            </span>
+                            <p class="menupie" style="font-size: 13px;">
+                                Comunícate, estamos para ayudarte
+
+                        </div>
+                    </a>
+
+                    <p class="menupie" style="font-size: 13px;">
+                        Calle 27, No. 305 X 44 y 50, Colonia Ampliación Revolución, C.P. 97115, <br />Mérida, Yuc.<br />
+                        Atención a clientes <br />
+                    </p>
+                    <div style=" font-size:13px; color:white;">
+                        <b><a href="tel:+525557071424" style="color:white; text-decoration:none;">Llamadas - 555 707 1424</a></b><br>
+                    </div>
+
+
+                </div>
+
+
+                <div class="grupo-1" style="text-align: center;">
+                    
+                    
+                    
+                    <a href=" https://www.facebook.com/TrenMayaOficial" target="_blank"><img src="images/facev.png"
+                            class="iredesf" /></a>
+
+                    <a href=" https://www.instagram.com/trenmaya_oficial/" target="_blank"><img src="images/instav.png"
+                            class="iredesi" /></a>
+
+                    <a href="https://twitter.com/TrenMayaMX" target="_blank"><img src="images/xv.png"
+                            class="iredest" /></a>
+
+                    <a href="https://www.youtube.com/@TrenMayaOficial" target="_blank"><img src="images/youv.png"
+                            class="iredesy" /></a>
+
+                    <a href="https://www.tiktok.com/@trenmaya" target="_blank"><img src="images/tikv.png"
+                            class="iredesk" /></a>
+                            
+                    <a href="mailto:facturacion@trenmaya.gob.mx">
+                        <img src="images/pie_pag/boton_factura.png" class="iredesf" alt="Factura" style="bottom: 15px; right: 90px; width: 145px;" />
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+        <div class="grupo-2"><br /><br /></div>
+
+</footer>        
+	<!-- Global Mailform Output-->
+	<div class="snackbars" id="form-output-global"></div>
+	<!-- Javascript-->
+	<script src="js/contador.js"></script>
+	<script src="js/core.min.js"></script>
+	<script src="js/script.js"></script>
+	<!-- coded by Ragnar-->
+	</body>
+	</html>

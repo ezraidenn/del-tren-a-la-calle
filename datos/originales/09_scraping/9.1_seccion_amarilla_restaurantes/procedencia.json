@@ -1,0 +1,190 @@
+{
+  "id": "E8-09.1",
+  "nombre": "Sección Amarilla, restaurantes de Mérida",
+  "institucion": "Anuncios en Directorios S.A. de C.V. (Sección Amarilla)",
+  "url_original": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/1",
+  "licencia": "Sin licencia de datos abiertos. robots.txt permite /resultados/ (https://www.seccionamarilla.com.mx/robots.txt); los términos (https://www.seccionamarilla.com.mx/terminos-y-condiciones) no prohíben la consulta automatizada. Uso académico, sin fines comerciales.",
+  "acceso": "Scraping del listado público con requests y BeautifulSoup, máximo 20 páginas y 1.5 s de pausa entre solicitudes.",
+  "archivos": [
+    {
+      "archivo": "paginas/restaurantes_merida_p01.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/1",
+      "descargado_utc": "2026-11-24T19:08:07Z",
+      "bytes": 285925,
+      "sha256": "1762297e62964eb8c4290cdfb85b8d7280b222946f6a3dcc3cc953d1e505274a",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 1 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p02.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/2",
+      "descargado_utc": "2026-11-24T19:08:09Z",
+      "bytes": 291513,
+      "sha256": "764ff027f0eb4d598e1500393e3610baf1177b78d8923ea58a8f627430d84fda",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 2 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p03.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/3",
+      "descargado_utc": "2026-11-24T19:08:12Z",
+      "bytes": 280640,
+      "sha256": "74dcdbd80fefe32f38bacd02170143d26409d73921053896babf989fbd7f0d92",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 3 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p04.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/4",
+      "descargado_utc": "2026-11-24T19:08:14Z",
+      "bytes": 291424,
+      "sha256": "a014d771af2d08ec7b3e34be4367481e630a43a81b2095bcaed83479afce6924",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 4 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p05.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/5",
+      "descargado_utc": "2026-11-24T19:08:17Z",
+      "bytes": 293944,
+      "sha256": "71e4c938f89bff85a578e19807501a69e066031bcbbe8be30a672217208eb995",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 5 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p06.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/6",
+      "descargado_utc": "2026-11-24T19:08:19Z",
+      "bytes": 291883,
+      "sha256": "b39ce4a6f56ad6d84b6fda466a0f9f321857ae8d04d9207839501cfddcc1c45c",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 6 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p07.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/7",
+      "descargado_utc": "2026-11-24T19:08:21Z",
+      "bytes": 286754,
+      "sha256": "0d7abe66664f07abf41c542d49e4e17274f431157f3d8107a7227eb171dc8be8",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 7 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p08.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/8",
+      "descargado_utc": "2026-11-24T19:08:24Z",
+      "bytes": 285365,
+      "sha256": "b5812a51aabeffdab6ba8ba2b0a1a2d219c59c597ab7be24a690b1118a8f10c7",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 8 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p09.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/9",
+      "descargado_utc": "2026-11-24T19:08:26Z",
+      "bytes": 289283,
+      "sha256": "7926f5ee5143dc28d01209b7af74187cf68bdd16949de3bbf4db63aa25f3e019",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 9 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p10.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/10",
+      "descargado_utc": "2026-11-24T19:08:29Z",
+      "bytes": 279188,
+      "sha256": "588588bc66b61abffa85a4770d8a6818510bc1721fb52462a8c3b7b55599113e",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 10 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p11.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/11",
+      "descargado_utc": "2026-11-24T19:08:31Z",
+      "bytes": 289887,
+      "sha256": "72c482d96c1ca72d45a3d36e593c6ddd6a16f42cf682990c92b13a291a5d2259",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 11 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p12.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/12",
+      "descargado_utc": "2026-11-24T19:08:33Z",
+      "bytes": 227844,
+      "sha256": "ae921a94c1d09469f0833965aa1a2da06e7cc4865cf3e0bbbb2df16ed4785691",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 12 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p13.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/13",
+      "descargado_utc": "2026-11-24T19:08:36Z",
+      "bytes": 220856,
+      "sha256": "3892659e1ff6b987c8711126748a9432e63c8d428bcbef1fad33f41178984596",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 13 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p14.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/14",
+      "descargado_utc": "2026-11-24T19:08:38Z",
+      "bytes": 222209,
+      "sha256": "e55813e80821fbd2826b11bf410b9c7b027f781c0b338318156fa4d781315300",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 14 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p15.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/15",
+      "descargado_utc": "2026-11-24T19:08:40Z",
+      "bytes": 219582,
+      "sha256": "3e682ea93ae6c5111cb75feefb25cc0169bd0e860bf6894cecd0629dfccf78bd",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 15 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p16.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/16",
+      "descargado_utc": "2026-11-24T19:08:42Z",
+      "bytes": 218751,
+      "sha256": "5492a0a07560246976e961b052fea033dd6be5fbcecc927ed0a05bae7356a332",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 16 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p17.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/17",
+      "descargado_utc": "2026-11-24T19:08:45Z",
+      "bytes": 218760,
+      "sha256": "333ba391e90923deea67f5f92ad1ef05cbf6847c5129eb661a9d3c2f93664dd8",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 17 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p18.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/18",
+      "descargado_utc": "2026-11-24T19:08:47Z",
+      "bytes": 220575,
+      "sha256": "ce0d4db7c3ffbfbf99c4ebf3cb3846d9e771fd4f3c563d7daf2c5f05ef7270d5",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 18 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p19.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/19",
+      "descargado_utc": "2026-11-24T19:08:49Z",
+      "bytes": 219550,
+      "sha256": "0ed48e9af59ef441b854cd0583865c2621a6d726fffe0d3d7a54e48c3598c0de",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 19 del listado de restaurantes en Mérida."
+    },
+    {
+      "archivo": "paginas/restaurantes_merida_p20.html",
+      "url": "https://www.seccionamarilla.com.mx/resultados/restaurantes/yucatan/merida/20",
+      "descargado_utc": "2026-11-24T19:08:52Z",
+      "bytes": 220618,
+      "sha256": "a5d7ed67ea79df1b55fa31f1e9623980e5efe786cbcaac0980f383cfe622809f",
+      "content_type": "text/html; charset=utf-8",
+      "nota": "Página 20 del listado de restaurantes en Mérida."
+    }
+  ]
+}

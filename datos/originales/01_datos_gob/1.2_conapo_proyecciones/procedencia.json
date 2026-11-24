@@ -1,0 +1,57 @@
+{
+  "id": "E8-01.2",
+  "nombre": "CONAPO, Proyecciones de población",
+  "institucion": "Secretaría Técnica del Consejo Nacional de Población (CONAPO)",
+  "url_original": "https://www.datos.gob.mx/dataset/proyecciones-de-poblacion",
+  "licencia": "CC-BY-4.0",
+  "metadata_modified": "2026-11-13T00:22:01.682978",
+  "acceso": "API CKAN DataStore de datos.gob.mx",
+  "archivos": [
+    {
+      "archivo": "pobproy_inddemo_municipal_5_estados.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "e9160552-769b-41ee-88d1-afc765552608",
+        "filters": {
+          "CLAVE_ENT": [
+            4,
+            7,
+            23,
+            27,
+            31
+          ]
+        },
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:10Z",
+      "bytes": 8982957,
+      "sha256": "a073b0bff616839d5d9bbec753a9b18f9e1562a65d55e6588c15ab85106dcd11",
+      "content_type": "application/json",
+      "registros": 13821,
+      "nota": "Indicadores demográficos municipales. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/conapo/proyecciones-de-poblacion/pobproy_inddemo.csv"
+    },
+    {
+      "archivo": "pobproy_quinq_municipal_5_estados.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "3c3092be-583e-4490-8c23-67ef9a64b198",
+        "filters": {
+          "CLAVE_ENT": [
+            4,
+            7,
+            23,
+            27,
+            31
+          ]
+        },
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:04:56Z",
+      "bytes": 15054690,
+      "sha256": "99d06c0149cc20a463fd8c9b7d29a6e35766a0289dc771671ec2f5ba987aa3e3",
+      "content_type": "application/json",
+      "registros": 27642,
+      "nota": "Población a mitad de año por municipio, sexo y grupo quinquenal. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/conapo/proyecciones-de-poblacion/pobproy_quinq1.csv"
+    }
+  ]
+}

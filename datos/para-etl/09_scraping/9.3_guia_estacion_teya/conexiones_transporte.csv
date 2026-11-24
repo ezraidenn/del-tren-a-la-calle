@@ -1,0 +1,4 @@
+servicio,origen,destino,costo_mxn,duracion_min,ruta,fecha_consulta,url
+Transporte Intermodal Oficial del Tren Maya,Estación Tren Maya,Centro Histórico de Mérida,40.00,,,2026-11-24T19:11:31Z,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+Transporte IE-TRAM / Va y Ven,Estación Mérida-Teya,Parque de la Plancha,45.00,30,Ruta 901 : Paseo 60 – La Plancha – Tren Maya Teya,2026-11-24T19:11:31Z,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+Transporte IE-TRAM / Va y Ven,Transporte del Parque de la Plancha,Estación Tren Maya Mérida,45.00,30,Ruta 901 : Paseo 60 – La Plancha – Tren Maya Teya,2026-11-24T19:11:31Z,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/

@@ -1,0 +1,56 @@
+{
+  "id": "E8-03.1",
+  "nombre": "INEGI, DENUE noviembre 2019",
+  "institucion": "Instituto Nacional de Estadística y Geografía (INEGI)",
+  "url_original": "https://www.inegi.org.mx/contenidos/masiva/denue/2019_11/denue_31_1119_csv.zip",
+  "licencia": "Términos de libre uso de la información del INEGI",
+  "url_licencia": "https://www.inegi.org.mx/inegi/terminos.html",
+  "acceso": "Descarga masiva del DENUE, un ZIP por entidad",
+  "archivos": [
+    {
+      "archivo": "denue_04_1119_csv.zip",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/2019_11/denue_04_1119_csv.zip",
+      "descargado_utc": "2026-11-24T19:05:41Z",
+      "bytes": 2843931,
+      "sha256": "8680fb17795e421614ccaa9b19956efe17706d7235489389d429596f68b61ed2",
+      "content_type": "application/x-zip-compressed",
+      "nota": "Entidad 04"
+    },
+    {
+      "archivo": "denue_07_1119_csv.zip",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/2019_11/denue_07_1119_csv.zip",
+      "descargado_utc": "2026-11-24T19:05:59Z",
+      "bytes": 15287818,
+      "sha256": "b6409a8e2ac19fd77504d2ee1618dbab2aa3b9fe942f7ba20806078dca72e508",
+      "content_type": "application/x-zip-compressed",
+      "nota": "Entidad 07"
+    },
+    {
+      "archivo": "denue_23_1119_csv.zip",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/2019_11/denue_23_1119_csv.zip",
+      "descargado_utc": "2026-11-24T19:06:03Z",
+      "bytes": 4272741,
+      "sha256": "29ef13e2839dfc4807ad8ec224564f58df1ddd6b46ef90f6c0d912fb0b0c1082",
+      "content_type": "application/x-zip-compressed",
+      "nota": "Entidad 23"
+    },
+    {
+      "archivo": "denue_27_1119_csv.zip",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/2019_11/denue_27_1119_csv.zip",
+      "descargado_utc": "2026-11-24T19:06:12Z",
+      "bytes": 6219745,
+      "sha256": "e68e623e31f4a66a45c61086eabfdc2609b8128e786003c323add6b8837b54cc",
+      "content_type": "application/x-zip-compressed",
+      "nota": "Entidad 27"
+    },
+    {
+      "archivo": "denue_31_1119_csv.zip",
+      "url": "https://www.inegi.org.mx/contenidos/masiva/denue/2019_11/denue_31_1119_csv.zip",
+      "descargado_utc": "2026-11-24T19:06:24Z",
+      "bytes": 7794704,
+      "sha256": "8fb218ce596c32cec436cbe504751fa2fe3d10ef93c9a54864d1666f26c45f81",
+      "content_type": "application/x-zip-compressed",
+      "nota": "Entidad 31"
+    }
+  ]
+}

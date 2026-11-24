@@ -1,0 +1,19 @@
+{
+  "id": "E8-09.3",
+  "nombre": "Guía de la estación Teya-Mérida (rutatrenmaya.mx)",
+  "institucion": "rutatrenmaya.mx (sitio privado de información turística, no oficial)",
+  "url_original": "https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/",
+  "licencia": "Todos los derechos reservados. El aviso legal (https://rutatrenmaya.mx/aviso-legal-y-condidiones-generales-de-uso/) permite copiar y almacenar para uso personal y prohíbe la reproducción con fines comerciales. robots.txt no restringe la ruta. Uso académico, sin fines comerciales.",
+  "acceso": "Scraping de una página con requests y BeautifulSoup.",
+  "archivos": [
+    {
+      "archivo": "paginas/estacion_teya_merida.html",
+      "url": "https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/",
+      "descargado_utc": "2026-11-24T19:11:31Z",
+      "bytes": 239467,
+      "sha256": "4763293700ee0f2543c4b4e8e1106c9af29681fe1bcb994e56cfcf8637e8f21d",
+      "content_type": "text/html; charset=UTF-8",
+      "nota": "Guía de la estación Mérida-Teya."
+    }
+  ]
+}

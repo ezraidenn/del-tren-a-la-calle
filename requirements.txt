@@ -1,0 +1,9 @@
+# Descarga y preparación de fuentes (src/). El data mart tiene su propio
+# requirements.txt en procesamiento/03_denue_datamart/.
+requests==2.34.2
+certifi==2025.01.31
+pandas==3.0.5
+pyarrow==21.0.0
+beautifulsoup4==4.14.3
+lxml==6.0.2
+PyMuPDF==1.26.6

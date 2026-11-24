@@ -1,0 +1,28 @@
+{
+  "id": "E8-04.3",
+  "nombre": "Paraderos de transporte público",
+  "institucion": "Ayuntamiento de Mérida (capa original); Agencia de Transporte de Yucatán (sustituto)",
+  "url_original": "https://geoportal.merida.gob.mx/paraderos",
+  "licencia": "Sin licencia explícita. Publicado por la ATY como GTFS para reutilización en aplicaciones de terceros; uso académico con atribución a la ATY.",
+  "estado": "sustituto",
+  "sustituto": "Paradas (stops.txt) del GTFS oficial del Sistema Va-y-Ven, Agencia de Transporte de Yucatán",
+  "url_sustituto": "https://transit-scheduler.com/api/export-gtfs/latest",
+  "comprobacion_acceso": {
+    "fecha_utc": "2026-11-24T19:18:39Z",
+    "http": 302,
+    "antibots": true,
+    "resultado": "redirige a la verificación antibots (validate.perfdrive.com)"
+  },
+  "archivos": [
+    {
+      "archivo": "gtfs_va_y_ven_aty.zip",
+      "url": "https://transit-scheduler.com/api/export-gtfs/latest",
+      "descargado_utc": "2026-11-24T19:17:12Z",
+      "bytes": 20644772,
+      "sha256": "059980bc1ac68874c55ab0decde02cb4d10103df584fc98c5fb125800bf4516f",
+      "content_type": "application/zip",
+      "nota": "GTFS oficial del Sistema Va-y-Ven publicado por la Agencia de Transporte de Yucatán (agency_id MID). Enlace «GTFS» del menú de https://transporteyucatan.org.mx/ ; registrado como oficial en Mobility Database (mdb-3650), espejo: https://files.mobilitydatabase.org/mdb-3650/latest.zip"
+    }
+  ],
+  "robots": "https://geoportal.merida.gob.mx/robots.txt: «User-agent: * / Disallow: /geoapijs / Disallow: /vistas / Disallow: /embed/»"
+}

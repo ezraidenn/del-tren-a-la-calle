@@ -1,0 +1,17 @@
+{
+  "id": "E8-04.1",
+  "nombre": "Unidades deportivas",
+  "institucion": "Ayuntamiento de Mérida",
+  "url_original": "https://geoportal.merida.gob.mx/unidadesdeportivas",
+  "licencia": "Por confirmar en el Geoportal al exportar la capa",
+  "estado": "pendiente",
+  "acceso": "Exportación manual desde el navegador; ver PENDIENTE.md",
+  "comprobacion_acceso": {
+    "fecha_utc": "2026-11-24T19:18:38Z",
+    "http": 302,
+    "antibots": true,
+    "resultado": "redirige a la verificación antibots (validate.perfdrive.com)"
+  },
+  "archivos": [],
+  "robots": "https://geoportal.merida.gob.mx/robots.txt: «User-agent: * / Disallow: /geoapijs / Disallow: /vistas / Disallow: /embed/»"
+}

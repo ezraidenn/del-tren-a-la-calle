@@ -1,0 +1,36 @@
+{
+  "id": "E8-05.2",
+  "nombre": "ATY: ruta R901 IE-TRAM La Plancha – Teya",
+  "institucion": "Agencia de Transporte de Yucatán (ATY)",
+  "url_original": "https://transporteyucatan.org.mx/rutas/R901",
+  "licencia": "Sin licencia explícita en transporteyucatan.org.mx; robots.txt sin restricciones. Información pública de la ATY; uso académico con atribución.",
+  "estado": "real",
+  "acceso": "Descarga directa de páginas públicas de la ATY y del GTFS oficial del Sistema Va-y-Ven",
+  "robots": "https://transporteyucatan.org.mx/robots.txt: «User-agent: * / Disallow:»",
+  "gtfs": "datos/originales/04_geoportal_merida/4.3_paraderos/gtfs_va_y_ven_aty.zip",
+  "archivos": [
+    {
+      "archivo": "ietram.html",
+      "url": "https://transporteyucatan.org.mx/ietram",
+      "descargado_utc": "2026-11-24T19:20:26Z",
+      "bytes": 144557,
+      "sha256": "bf723302d74f82ff388faecbfd554a8c3518ccac1ba9b1f05ecd05ff9a262a82",
+      "content_type": "text/html; charset=UTF-8",
+      "nota": "Página del IE-TRAM con tarifas y horario publicado de la R901."
+    },
+    {
+      "archivo": "rutas_R901.pdf",
+      "url": "https://transporteyucatan.org.mx/rutas/R901",
+      "descargado_utc": "2026-11-24T19:20:26Z",
+      "bytes": 145030,
+      "sha256": "db306e4241df7a219620926bb3474e8bee53aedd0aa3649d9299ec052e0a6611",
+      "content_type": "application/pdf",
+      "nota": "La URL de la ficha de ruta responde con un PDF (application/pdf)."
+    }
+  ],
+  "gtfs_usado": {
+    "archivo": "datos/originales/04_geoportal_merida/4.3_paraderos/gtfs_va_y_ven_aty.zip",
+    "sha256": "059980bc1ac68874c55ab0decde02cb4d10103df584fc98c5fb125800bf4516f",
+    "feed_version": "12.1"
+  }
+}

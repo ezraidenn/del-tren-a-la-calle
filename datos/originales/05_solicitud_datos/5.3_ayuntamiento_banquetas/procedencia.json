@@ -1,0 +1,223 @@
+{
+  "id": "E8-05.3",
+  "nombre": "Ayuntamiento de Mérida: obras de banquetas y accesibilidad peatonal en el Centro",
+  "institucion": "Ayuntamiento de Mérida (ejecutor); Secretaría de Hacienda y Crédito Público (publica el SRFT)",
+  "url_original": "https://prensa.merida.gob.mx/12416/Ante-demanda-ciudadana-Cecilia-Patron-mejora-la-infraestructura-para-los-transeuntes-del-centro-historico/amp",
+  "licencia": "Nota de prensa: solo metadatos. SRFT: datos abiertos de la SHCP; la página no muestra licencia propia; los conjuntos de la SHCP en datos.gob.mx se publican con CC-BY-4.0 (Decreto de datos abiertos de 2015).",
+  "estado": "sustituto",
+  "sustituto": "Proyectos del SRFT (Transparencia Presupuestaria, SHCP) del municipio de Mérida, 2023-2026",
+  "url_sustituto": "https://www.transparenciapresupuestaria.gob.mx/Entidades-Federativas",
+  "acceso": "Descarga directa de los zips de datos abiertos; filtro por entidad 31 y municipio 050",
+  "archivos": [
+    {
+      "archivo": "nota_prensa_metadatos.csv",
+      "url": "https://prensa.merida.gob.mx/12416/Ante-demanda-ciudadana-Cecilia-Patron-mejora-la-infraestructura-para-los-transeuntes-del-centro-historico/amp",
+      "descargado_utc": "2026-11-24T19:25:52Z",
+      "bytes": 731,
+      "sha256": "c62596b0d2f9691b3acd7cdb9e6fd978836be8dd69699bf6e2444e1c76bf7207",
+      "content_type": "text/csv",
+      "nota": "Solo metadatos de la nota (no se guarda el texto). sha256_pagina es el hash de la página AMP consultada."
+    },
+    {
+      "archivo": "srft_2023_georreferencias_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2023/ef2023.zip",
+      "descargado_utc": "2026-11-24T19:14:26Z",
+      "bytes": 684745,
+      "sha256": "dbbfbf1003e7bceaa16087b8ec2caa0000093d4e76f0af2a004da0a6682ebc33",
+      "content_type": "text/csv",
+      "registros": 2016,
+      "zip": {
+        "bytes": 139189201,
+        "sha256": "354f2a4a8560b0bef3b3718be7bc0d8a2efbd46c1111f94d0b50e25055de1df9",
+        "archivo_en_zip": "ef2023/cuarto_informe_definitivo/georreferencias.csv"
+      },
+      "filtro": "FOLIO en los proyectos de Mérida del mismo periodo",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2023_metas_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2023/ef2023.zip",
+      "descargado_utc": "2026-11-24T19:14:26Z",
+      "bytes": 178815,
+      "sha256": "34729288d27a8dc846e5a8da5f791e1b85a28e88deae94bbcb83702df7fca71b",
+      "content_type": "text/csv",
+      "registros": 3097,
+      "zip": {
+        "bytes": 139189201,
+        "sha256": "354f2a4a8560b0bef3b3718be7bc0d8a2efbd46c1111f94d0b50e25055de1df9",
+        "archivo_en_zip": "ef2023/cuarto_informe_definitivo/metas_avances.csv"
+      },
+      "filtro": "FOLIO en los proyectos de Mérida del mismo periodo",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2023_proyectos_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2023/ef2023.zip",
+      "descargado_utc": "2026-11-24T19:14:26Z",
+      "bytes": 1224546,
+      "sha256": "515bce46da2681973b7b59d0a96fc60f2bdd55fbbf66554aa629c7a7e17ddf1c",
+      "content_type": "text/csv",
+      "registros": 3086,
+      "zip": {
+        "bytes": 139189201,
+        "sha256": "354f2a4a8560b0bef3b3718be7bc0d8a2efbd46c1111f94d0b50e25055de1df9",
+        "archivo_en_zip": "ef2023/cuarto_informe_definitivo/ef2023.csv"
+      },
+      "filtro": "ID_ENTIDAD_FEDERATIVA == 31 y ID_MUNICIPIO_RESPONSABLE == 50",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2024_georreferencias_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2024/ef2024.zip",
+      "descargado_utc": "2026-11-24T19:14:55Z",
+      "bytes": 500389,
+      "sha256": "d074b048eb87aabe770555677b7a7a565bd9165bdc221869224e1756592d2436",
+      "content_type": "text/csv",
+      "registros": 1489,
+      "zip": {
+        "bytes": 58391226,
+        "sha256": "63656106a607d59fcf74e92574a95ac46c44b2beef7d328acf4959e416f39c34",
+        "archivo_en_zip": "ef2024/georreferencias.csv"
+      },
+      "filtro": "FOLIO en los proyectos de Mérida del mismo periodo",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2024_metas_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2024/ef2024.zip",
+      "descargado_utc": "2026-11-24T19:14:55Z",
+      "bytes": 100248,
+      "sha256": "65d3f0ed9143859bfe5f55f47219105425a19070c12e44a819417175acacf3c3",
+      "content_type": "text/csv",
+      "registros": 1493,
+      "zip": {
+        "bytes": 58391226,
+        "sha256": "63656106a607d59fcf74e92574a95ac46c44b2beef7d328acf4959e416f39c34",
+        "archivo_en_zip": "ef2024/metas_avances.csv"
+      },
+      "filtro": "FOLIO en los proyectos de Mérida del mismo periodo",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2024_proyectos_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2024/ef2024.zip",
+      "descargado_utc": "2026-11-24T19:14:55Z",
+      "bytes": 617659,
+      "sha256": "9779dc6168aedc41a1394ab52e8f4bf55ca28717f999fd11fdb84b1aa56df80c",
+      "content_type": "text/csv",
+      "registros": 1489,
+      "zip": {
+        "bytes": 58391226,
+        "sha256": "63656106a607d59fcf74e92574a95ac46c44b2beef7d328acf4959e416f39c34",
+        "archivo_en_zip": "ef2024/ef2024.csv"
+      },
+      "filtro": "ID_ENTIDAD_FEDERATIVA == 31 y ID_MUNICIPIO_RESPONSABLE == 50",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2025_georreferencias_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2025/ef2025.zip",
+      "descargado_utc": "2026-11-24T19:15:06Z",
+      "bytes": 254862,
+      "sha256": "71c4be58069ff492864383540cd66458c2087c9cc5b112ba2d976e814115c665",
+      "content_type": "text/csv",
+      "registros": 787,
+      "zip": {
+        "bytes": 23653848,
+        "sha256": "8ea8f91a96760332697a4ef4d1d7c0bd74a919c20fe1a9a58c9eb5bb9b765c2e",
+        "archivo_en_zip": "georreferencias.csv"
+      },
+      "filtro": "FOLIO en los proyectos de Mérida del mismo periodo",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2025_metas_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2025/ef2025.zip",
+      "descargado_utc": "2026-11-24T19:15:06Z",
+      "bytes": 48698,
+      "sha256": "269508d37d2d82aeaa8b653256d9d5fd96e7da599d7e5a0ccded71bd8512eab9",
+      "content_type": "text/csv",
+      "registros": 787,
+      "zip": {
+        "bytes": 23653848,
+        "sha256": "8ea8f91a96760332697a4ef4d1d7c0bd74a919c20fe1a9a58c9eb5bb9b765c2e",
+        "archivo_en_zip": "metas_avances.csv"
+      },
+      "filtro": "FOLIO en los proyectos de Mérida del mismo periodo",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2025_proyectos_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2025/ef2025.zip",
+      "descargado_utc": "2026-11-24T19:15:06Z",
+      "bytes": 302407,
+      "sha256": "1c5e3397fc9d338e6d333910ac82fab539ddad5ca70091926e43ac82961b8619",
+      "content_type": "text/csv",
+      "registros": 787,
+      "zip": {
+        "bytes": 23653848,
+        "sha256": "8ea8f91a96760332697a4ef4d1d7c0bd74a919c20fe1a9a58c9eb5bb9b765c2e",
+        "archivo_en_zip": "ef2025.csv"
+      },
+      "filtro": "ID_ENTIDAD_FEDERATIVA == 31 y ID_MUNICIPIO == 50",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2026_3T_georreferencias_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2026/ef2026_3T.zip",
+      "descargado_utc": "2026-11-24T19:08:38Z",
+      "bytes": 219307,
+      "sha256": "3782bb0431aaee310d4c8ad0cc865d25bbc917b96512c7f1e0087a2d7ed79718",
+      "content_type": "text/csv",
+      "registros": 642,
+      "zip": {
+        "bytes": 36419744,
+        "sha256": "065ec9b66211504e08cfd4df53646427dc295bfe12fcc73ee4670928d47fffb4",
+        "archivo_en_zip": "georreferencias.csv"
+      },
+      "filtro": "FOLIO en los proyectos de Mérida del mismo periodo",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2026_3T_metas_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2026/ef2026_3T.zip",
+      "descargado_utc": "2026-11-24T19:08:38Z",
+      "bytes": 38000,
+      "sha256": "0c3934b313201043b94f8c2f8259a43ceb079e9078d0421617722ad643a82359",
+      "content_type": "text/csv",
+      "registros": 642,
+      "zip": {
+        "bytes": 36419744,
+        "sha256": "065ec9b66211504e08cfd4df53646427dc295bfe12fcc73ee4670928d47fffb4",
+        "archivo_en_zip": "metas_avances.csv"
+      },
+      "filtro": "FOLIO en los proyectos de Mérida del mismo periodo",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_2026_3T_proyectos_merida.csv",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Entidades_Federativas/2026/ef2026_3T.zip",
+      "descargado_utc": "2026-11-24T19:08:38Z",
+      "bytes": 252681,
+      "sha256": "47eb843b71c644a696f368ea063b1e81527ea1a3fddf0762a5c70c6f740c1c03",
+      "content_type": "text/csv",
+      "registros": 642,
+      "zip": {
+        "bytes": 36419744,
+        "sha256": "065ec9b66211504e08cfd4df53646427dc295bfe12fcc73ee4670928d47fffb4",
+        "archivo_en_zip": "ef2026.csv"
+      },
+      "filtro": "ID_ENTIDAD_FEDERATIVA == 31 y ID_MUNICIPIO == 50",
+      "nota": "Filas de Mérida sin transformar, tal como vienen en el zip nacional; codificación original latin-1 pasada a UTF-8. El zip no se versiona por su tamaño."
+    },
+    {
+      "archivo": "srft_diccionario_proyectos.xlsx",
+      "url": "https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Diccionarios/diccionario_ef.xlsx",
+      "descargado_utc": "2026-11-24T19:24:06Z",
+      "bytes": 17974,
+      "sha256": "021531dcc3296f86b5859af2a704e69df26e0c4e9a947baa2196d92b5c323786",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "nota": "Diccionario de datos de la base de Proyectos del SRFT."
+    }
+  ]
+}

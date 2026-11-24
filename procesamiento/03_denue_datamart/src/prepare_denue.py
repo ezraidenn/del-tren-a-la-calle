@@ -5,9 +5,13 @@ import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
+# Los ZIP originales del DENUE viven en la carpeta común del repositorio.
+REPO_ROOT = PROJECT_ROOT.parents[1]
+DENUE_DIR = REPO_ROOT / "datos" / "originales" / "03_inegi"
+
 DATASETS = {
-    2019: PROJECT_ROOT / "data" / "raw" / "denue_2019",
-    2025: PROJECT_ROOT / "data" / "raw" / "denue_2025",
+    2019: DENUE_DIR / "3.1_denue_2019_11",
+    2025: DENUE_DIR / "3.2_denue_2025_05",
 }
 
 KEEP_COLUMNS = [

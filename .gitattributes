@@ -1,0 +1,8 @@
+# Los datos se guardan byte por byte, sin conversión de fin de línea,
+# para que su SHA-256 coincida con manifest.csv en cualquier sistema.
+datos/** -text
+campo/** -text
+procesamiento/03_denue_datamart/data/** -text
+manifest.csv -text
+externos.csv -text
+fuentes.csv -text

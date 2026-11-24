@@ -1,0 +1,53 @@
+{
+  "id": "E8-01.3",
+  "nombre": "CONAPO, Accesibilidad a centros urbanos",
+  "institucion": "Secretaría Técnica del Consejo Nacional de Población (CONAPO)",
+  "url_original": "https://www.datos.gob.mx/dataset/accesibilidad_centros_urbanos",
+  "licencia": "CC-BY-4.0",
+  "metadata_modified": "2026-11-13T00:21:50.754427",
+  "acceso": "API CKAN DataStore de datos.gob.mx",
+  "archivos": [
+    {
+      "archivo": "acu_localidad_yucatan.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "437bb9b4-b94a-4046-ab0a-61a76fcaa72c",
+        "filters": {
+          "ENT": 31
+        },
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:14Z",
+      "bytes": 1949798,
+      "sha256": "3fd18d5c6914102d047221178effbf3a51123aa540c8644730eff065690fd113",
+      "content_type": "application/json",
+      "registros": 2434,
+      "nota": "Accesibilidad a centros urbanos por localidad. Archivo del catálogo: https://repodatos.atdt.gob.mx/all_data/conapo/55113426-0938-440d-935d-540a622d41d2/Base_ACU_loc.csv"
+    },
+    {
+      "archivo": "acu_municipal_5_estados.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "a1555b2e-a10c-477f-9327-662b56a5d45e",
+        "filters": {
+          "ENT": [
+            "4",
+            "04",
+            "7",
+            "07",
+            "23",
+            "27",
+            "31"
+          ]
+        },
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:11Z",
+      "bytes": 75680,
+      "sha256": "7ff22ec6a83d1acc54fc74dfce04cf4247c886fb6059e9d313ba593e373b2873",
+      "content_type": "application/json",
+      "registros": 270,
+      "nota": "Accesibilidad a centros urbanos por municipio. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/conapo/accesibilidad_centros_urbanos/base_acu_mun.csv"
+    }
+  ]
+}

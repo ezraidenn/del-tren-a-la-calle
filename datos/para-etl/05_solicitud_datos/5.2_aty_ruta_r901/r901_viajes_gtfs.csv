@@ -1,0 +1,81 @@
+trip_id,service_id,dias,vigencia_inicio,vigencia_fin,direction_id,shape_id,sentido,salida,llegada,duracion_min,num_paradas
+33867,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,05:30:00,06:05:00,35,5
+33879,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,07:25:00,08:00:00,35,5
+33871,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,08:55:00,09:30:00,35,5
+33880,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,10:35:00,11:10:00,35,5
+33868,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,11:20:00,11:55:00,35,5
+33872,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,13:35:00,14:10:00,35,5
+33881,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,14:30:00,15:05:00,35,5
+33869,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,17:40:00,18:15:00,35,5
+33882,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,20:00:00,20:35:00,35,5
+33870,Domingo,domingo,20260104,20261227,0,901.1,Estación La Plancha -> Estación Teya,22:00:00,22:35:00,35,5
+33863,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,06:15:00,07:05:00,50,5
+33875,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,09:40:00,10:30:00,50,5
+33873,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,11:05:00,11:55:00,50,5
+33876,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,11:20:00,12:10:00,50,5
+33864,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,12:50:00,13:40:00,50,5
+33874,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,15:00:00,15:50:00,50,5
+33877,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,16:50:00,17:40:00,50,5
+33865,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,20:00:00,20:50:00,50,5
+33878,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,21:10:00,22:00:00,50,5
+33866,Domingo,domingo,20260104,20261227,1,901.2,Estación Teya -> Estación La Plancha,23:10:00,24:00:00,50,5
+33831,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,05:30:00,06:05:00,35,5
+33835,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,07:25:00,08:00:00,35,5
+33829,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,08:55:00,09:30:00,35,5
+33836,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,10:35:00,11:10:00,35,5
+33832,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,11:20:00,11:55:00,35,5
+33830,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,13:35:00,14:10:00,35,5
+33837,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,14:30:00,15:05:00,35,5
+33833,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,17:40:00,18:15:00,35,5
+33838,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,20:00:00,20:35:00,35,5
+33834,L-V,lunes a viernes,20260101,20261231,0,901.1,Estación La Plancha -> Estación Teya,22:00:00,22:35:00,35,5
+33825,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,06:15:00,07:05:00,50,5
+33839,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,09:40:00,10:30:00,50,5
+33823,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,11:05:00,11:55:00,50,5
+33840,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,11:20:00,12:10:00,50,5
+33826,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,12:50:00,13:40:00,50,5
+33824,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,15:00:00,15:50:00,50,5
+33841,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,16:50:00,17:40:00,50,5
+33827,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,20:00:00,20:50:00,50,5
+33842,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,21:10:00,22:00:00,50,5
+33828,L-V,lunes a viernes,20260101,20261231,1,901.2,Estación Teya -> Estación La Plancha,23:10:00,24:00:00,50,5
+33851,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,05:30:00,06:05:00,35,5
+33859,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,07:25:00,08:00:00,35,5
+33847,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,08:55:00,09:30:00,35,5
+33860,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,10:35:00,11:10:00,35,5
+33852,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,11:20:00,11:55:00,35,5
+33848,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,13:35:00,14:10:00,35,5
+33861,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,14:30:00,15:05:00,35,5
+33853,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,17:40:00,18:15:00,35,5
+33862,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,20:00:00,20:35:00,35,5
+33854,Sabado,sábado,20260103,20261226,0,901.1,Estación La Plancha -> Estación Teya,22:00:00,22:35:00,35,5
+33843,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,06:15:00,07:05:00,50,5
+33855,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,09:40:00,10:30:00,50,5
+33849,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,11:05:00,11:55:00,50,5
+33856,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,11:20:00,12:10:00,50,5
+33844,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,12:50:00,13:40:00,50,5
+33850,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,15:00:00,15:50:00,50,5
+33857,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,16:50:00,17:40:00,50,5
+33845,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,20:00:00,20:50:00,50,5
+33858,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,21:10:00,22:00:00,50,5
+33846,Sabado,sábado,20260103,20261226,1,901.2,Estación Teya -> Estación La Plancha,23:10:00,24:00:00,50,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T03,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,05:30:00,06:05:00,35,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T07,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,07:25:00,08:00:00,35,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T01,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,08:55:00,09:30:00,35,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T08,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,10:35:00,11:10:00,35,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T04,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,11:20:00,11:55:00,35,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T02,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,13:35:00,14:10:00,35,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T09,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,14:30:00,15:05:00,35,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T05,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,17:40:00,18:15:00,35,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T10,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,20:00:00,20:35:00,35,5
+R901_Viernes Feria Xmatkuil_S1_901.1_T06,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,0,901.1,Estación La Plancha -> Estación Teya,22:00:00,22:35:00,35,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T03,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,06:15:00,07:05:00,50,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T07,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,09:40:00,10:30:00,50,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T01,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,11:05:00,11:55:00,50,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T08,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,11:20:00,12:10:00,50,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T04,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,12:50:00,13:40:00,50,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T02,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,15:00:00,15:50:00,50,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T09,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,16:50:00,17:40:00,50,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T05,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,20:00:00,20:50:00,50,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T10,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,21:10:00,22:00:00,50,5
+R901_Viernes Feria Xmatkuil_S2_901.2_T06,Viernes Feria Xmatkuil,viernes de la Feria de Xmatkuil (servicio especial),20261127,20261128,1,901.2,Estación Teya -> Estación La Plancha,23:10:00,24:00:00,50,5

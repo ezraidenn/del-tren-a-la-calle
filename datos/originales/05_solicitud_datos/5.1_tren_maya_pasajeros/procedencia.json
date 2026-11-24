@@ -1,0 +1,131 @@
+{
+  "id": "E8-05.1",
+  "nombre": "Tren Maya, prestación del servicio ferroviario de pasajeros",
+  "institucion": "Tren Maya, S.A. de C.V.",
+  "url_original": "https://www.datos.gob.mx/dataset/prestacion_servicio_ferroviario_pasajeros",
+  "licencia": "CC-BY-4.0",
+  "metadata_modified": "2026-10-22T02:35:42.848449",
+  "acceso": "API CKAN DataStore de datos.gob.mx",
+  "archivos": [
+    {
+      "archivo": "boletos_2024.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "2037ce86-cfc0-43a4-8916-db7f6c1d1684",
+        "filters": null,
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:15Z",
+      "bytes": 4476,
+      "sha256": "a61f87aec0097b3e106354a5c5555a86b8b7c2adc0a78a298ec73d3fa194bab9",
+      "content_type": "application/json",
+      "registros": 23,
+      "nota": "Boletos vendidos 2024. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/tren_maya/prestacion_servicio_ferroviario_pasajeros/puntos_venta_boletos.csv"
+    },
+    {
+      "archivo": "boletos_2025.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "1b86eabc-f9aa-47fe-902e-61df6c54518f",
+        "filters": null,
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:15Z",
+      "bytes": 1317,
+      "sha256": "240029ec9b6684fe079dda0e693caf7341253da371e7c6a0a5c6fcae7949c1ce",
+      "content_type": "application/json",
+      "registros": 12,
+      "nota": "Boletos vendidos 2025. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/tren_maya/prestacion_servicio_ferroviario_pasajeros/Venta_boletos_2025.csv"
+    },
+    {
+      "archivo": "boletos_2026.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "98ebdbe0-086f-47a9-8ad9-038be965de79",
+        "filters": null,
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:15Z",
+      "bytes": 1382,
+      "sha256": "d2da7fbf90b9d35e066c8f1898726d8cc8c59f93439aa9c7d600e5f3f7a7d5e4",
+      "content_type": "application/json",
+      "registros": 9,
+      "nota": "Boletos vendidos 2026. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/tren_maya/prestacion_servicio_ferroviario_pasajeros/venta_boletos_2026.csv"
+    },
+    {
+      "archivo": "kilometros_2025.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "24e21d49-740d-436b-b6a2-dc6838214038",
+        "filters": null,
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:15Z",
+      "bytes": 1630,
+      "sha256": "477441c60b44b0d829f82069f6e218baac195ee8df52e218949d2dda4fe8e517",
+      "content_type": "application/json",
+      "registros": 12,
+      "nota": "Kilómetros recorridos 2025. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/tren_maya/prestacion_servicio_ferroviario_pasajeros/kilometros_recorridos_tren_maya_2025.csv"
+    },
+    {
+      "archivo": "kilometros_2026.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "94b9259f-f011-41b6-80ae-b1bafbab8228",
+        "filters": null,
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:16Z",
+      "bytes": 1393,
+      "sha256": "5a030640f868183a93aed6c8bfb68a1d8c8980c8155d372494ade3c98d8c6ea1",
+      "content_type": "application/json",
+      "registros": 9,
+      "nota": "Kilómetros recorridos 2026. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/tren_maya/prestacion_servicio_ferroviario_pasajeros/kilometros_recorridos_3er2026.csv"
+    },
+    {
+      "archivo": "pasajeros_2024.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "0c27e6cc-14bb-4a95-a37f-e42994944af2",
+        "filters": null,
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:14Z",
+      "bytes": 2246,
+      "sha256": "bb64132aed44db5418712951e9e2cffe883edf0138e160074624e0af17ed4717",
+      "content_type": "application/json",
+      "registros": 13,
+      "nota": "Pasajeros transportados 2024. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/tren_maya/prestacion_servicio_ferroviario_pasajeros/pasajeros_tren_maya_2024.csv"
+    },
+    {
+      "archivo": "pasajeros_2025.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "6417a5ec-0cf7-4fd4-8840-f1a39c863873",
+        "filters": null,
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:14Z",
+      "bytes": 1395,
+      "sha256": "73517a26ee33ae5d4b518977accf38bfe89e67f13385dd61e83887d62ebccb52",
+      "content_type": "application/json",
+      "registros": 12,
+      "nota": "Pasajeros transportados 2025. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/tren_maya/prestacion_servicio_ferroviario_pasajeros/pasajeros_transportados_2025.csv"
+    },
+    {
+      "archivo": "pasajeros_2026.json",
+      "url": "https://www.datos.gob.mx/api/3/action/datastore_search",
+      "parametros": {
+        "resource_id": "7da5f7f3-b469-42d0-9052-6a5f5943b6f3",
+        "filters": null,
+        "limit": 1000
+      },
+      "descargado_utc": "2026-11-24T19:05:15Z",
+      "bytes": 1441,
+      "sha256": "e5dbf72699fd9fa25da40489b1de0643a7511115105b3c525813d4247dc616f4",
+      "content_type": "application/json",
+      "registros": 9,
+      "nota": "Pasajeros transportados 2026. Archivo del catálogo: https://repodatos.atdt.gob.mx/api_update/tren_maya/prestacion_servicio_ferroviario_pasajeros/pasajeros_transportados_3er2026.csv"
+    }
+  ]
+}

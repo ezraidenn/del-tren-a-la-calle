@@ -1,0 +1,19 @@
+{
+  "id": "E8-09.2",
+  "nombre": "Tren Maya, horarios oficiales",
+  "institucion": "Tren Maya S.A. de C.V.",
+  "url_original": "https://www.trenmaya.gob.mx/horarios.php",
+  "licencia": "Sin licencia ni términos de uso publicados en trenmaya.gob.mx (revisado el 2026-11-24); sin robots.txt. Información pública de una empresa del Estado. Uso académico, sin fines comerciales.",
+  "acceso": "Scraping de una página con requests y BeautifulSoup.",
+  "archivos": [
+    {
+      "archivo": "paginas/horarios.html",
+      "url": "https://www.trenmaya.gob.mx/horarios.php",
+      "descargado_utc": "2026-11-24T19:10:34Z",
+      "bytes": 25472,
+      "sha256": "8923388ec1b9cd5a70796e4c463a0171e9374924cf3e3a547ee37be9adf09144",
+      "content_type": "text/html; charset=UTF-8",
+      "nota": "Tabla «Horario de Trenes»."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "E8-02.1",
+  "nombre": "SIEGY, Boletín 12 2025: Día de la Aviación Civil",
+  "url_original": "https://datos.yucatan.gob.mx/storage/boletines/archivos/2025/Boletin_2025_12.pdf",
+  "institucion": "Gobierno del Estado de Yucatán, Secretaría de Planeación (SEPLAN), Sistema de Información Estadística y Geográfica del Estado de Yucatán (SIEGY)",
+  "licencia": "Sin licencia explícita publicada en datos.yucatan.gob.mx (revisado el 2026-11-24); publicación oficial de acceso público. Se cita la fuente primaria de cada dato.",
+  "acceso": "Descarga directa del PDF desde https://datos.yucatan.gob.mx/boletines",
+  "archivos": [
+    {
+      "archivo": "Boletin_2025_12.pdf",
+      "url": "https://datos.yucatan.gob.mx/storage/boletines/archivos/2025/Boletin_2025_12.pdf",
+      "descargado_utc": "2026-11-24T19:06:29Z",
+      "bytes": 1264399,
+      "sha256": "c1a6cfe7a84c93e1376fb6496afa388cb81df8df682021226e4a2564c65de3c0",
+      "content_type": "application/pdf",
+      "nota": "Infografía de una página publicada por el SIEGY."
+    }
+  ]
+}

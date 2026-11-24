@@ -102,6 +102,21 @@ Si un establecimiento está a menos de 5 km de varias estaciones, se asigna úni
 
 Los scripts del pipeline se encuentran en `src/`.
 
+Los ZIP originales del DENUE (10 archivos: 5 estados por 2 ediciones) están en la carpeta común del repositorio, `datos/originales/03_inegi/3.1_denue_2019_11/` y `datos/originales/03_inegi/3.2_denue_2025_05/`, con su URL, fecha y SHA-256 en `procedencia.json`. Para volver a bajarlos: `python src/03_inegi.py` desde la raíz del repositorio.
+
+Orden de ejecución, desde esta carpeta:
+
+```bash
+python src/validate_raw.py
+python src/prepare_denue.py
+python src/geospatial_match.py
+python src/analyze_station_change.py
+python src/build_datamart.py
+python src/validate_datamart.py
+```
+
+Con los ZIP del repositorio, el pipeline reproduce el Data Mart incluido sin diferencias en ninguna de sus 6 tablas.
+
 ### `validate_raw.py`
 
 Valida los archivos DENUE originales:

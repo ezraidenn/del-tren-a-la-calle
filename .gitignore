@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Descargas a medias
+*.parcial
+
+# Credenciales
+.env
+.env.*
+*.pem
+*.key
+
+# Archivos intermedios del data mart (se regeneran con sus scripts)
+procesamiento/03_denue_datamart/data/processed/
+
+# Archivos fuera de git: ver externos.csv (tamaño, privacidad o derechos).
+
+# --- externos.csv (generado por src/generar_manifest.py) ---
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p01.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p02.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p03.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p04.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p05.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p06.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p07.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p08.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p09.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p10.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p11.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p12.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p13.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p14.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p15.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p16.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p17.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p18.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p19.html
+/datos/originales/09_scraping/9.1_seccion_amarilla_restaurantes/paginas/restaurantes_merida_p20.html
+/datos/originales/09_scraping/9.3_guia_estacion_teya/paginas/estacion_teya_merida.html

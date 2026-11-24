@@ -2,8 +2,6 @@
 # Tren Maya Data Mart
 # ==========================================================
 
-# Datos originales DENUE
-data/raw/
 
 # Datos intermedios del ETL
 data/processed/
