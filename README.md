@@ -80,7 +80,7 @@ python src/scraping/9.3_guia_estacion_teya.py
 # Preparación y control
 python src/para_etl_01_03_05.py               # CSV para el ETL de los subtemas 1, 3.3 y 5.1
 python src/generar_manifest.py                # manifest.csv y externos.csv
-python src/validar_entrega.py                 # reglas de aceptación del servidor
+python src/validar_entrega.py                 # reglas de aceptación del servidor (sirve para cualquier equipo: --raiz y --equipo)
 python src/validar_campo.py                   # capturas de campo
 ```
 

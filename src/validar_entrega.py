@@ -1,7 +1,7 @@
 """Revisa que la entrega cumpla las reglas de aceptación del servidor.
 
 Reglas:
-1. fuentes.csv tiene exactamente 27 filas, ids E8-01.1 a E8-09.3, columnas
+1. fuentes.csv tiene exactamente 27 filas, ids EX-01.1 a EX-09.3, columnas
    completas y un estado válido (real, derivado, simulado, pendiente).
 2. Cada archivo de manifest.csv existe y su SHA-256 coincide.
 3. Toda fuente con estado real o derivado tiene archivos en el manifiesto.
@@ -16,20 +16,26 @@ Reglas:
 
 Termina con código 1 si hay errores.
 
-Uso: python src/validar_entrega.py
+Sirve para cualquier equipo: el número de equipo se toma de fuentes.csv o se
+pasa con --equipo. No depende de otros módulos del repositorio.
+
+Uso:
+    python src/validar_entrega.py                      # desde la raíz del repo
+    python validar_entrega.py --raiz <carpeta> --equipo E5
 """
 
 from __future__ import annotations
 
+import argparse
 import csv
+import hashlib
 import re
 import subprocess
 import sys
 from pathlib import Path
 
-import comun
-
-RAIZ = comun.RAIZ
+RAIZ = Path(__file__).resolve().parents[1]
+EQUIPO = ""
 ESTADOS = {"real", "derivado", "simulado", "pendiente"}
 COLUMNAS = ["id", "subtema", "tipo_fuente", "nombre", "url_original", "licencia",
             "fecha_descarga", "estado", "carpeta"]
@@ -39,7 +45,18 @@ errores: list[str] = []
 avisos: list[str] = []
 
 
+def sha256_de(ruta: Path) -> str:
+    h = hashlib.sha256()
+    with open(ruta, "rb") as f:
+        for bloque in iter(lambda: f.read(1 << 20), b""):
+            h.update(bloque)
+    return h.hexdigest()
+
+
 def leer_csv(nombre: str) -> list[dict]:
+    if not (RAIZ / nombre).exists():
+        errores.append(f"falta {nombre}")
+        return []
     with open(RAIZ / nombre, encoding="utf-8", newline="") as f:
         return list(csv.DictReader(f))
 
@@ -48,7 +65,7 @@ def regla_fuentes() -> list[dict]:
     filas = leer_csv("fuentes.csv")
     if len(filas) != 27:
         errores.append(f"fuentes.csv tiene {len(filas)} filas; deben ser 27")
-    esperados = {f"E8-{s:02d}.{n}" for s in range(1, 10) for n in range(1, 4)}
+    esperados = {f"{EQUIPO}-{s:02d}.{n}" for s in range(1, 10) for n in range(1, 4)}
     ids = [f.get("id", "") for f in filas]
     if set(ids) != esperados or len(set(ids)) != len(ids):
         errores.append(f"ids de fuentes.csv incompletos o repetidos: faltan {sorted(esperados - set(ids))}")
@@ -74,7 +91,7 @@ def regla_manifest(fuentes: list[dict]) -> None:
     con_archivos = set()
     for f in filas:
         ruta = RAIZ / f["archivo"]
-        for ident in f["id_fuente"].split(";"):
+        for ident in f.get("id_fuente", "").split(";"):
             con_archivos.add(ident)
         if not ruta.exists():
             if f["archivo"] in externos:
@@ -82,12 +99,13 @@ def regla_manifest(fuentes: list[dict]) -> None:
             else:
                 errores.append(f"manifest: no existe {f['archivo']}")
             continue
-        if comun.sha256_de(ruta) != f["sha256"]:
-            errores.append(f"manifest: el hash no coincide en {f['archivo']} (corre generar_manifest.py)")
-        if f["capa"] == "original" and not f["url"]:
+        if sha256_de(ruta) != f.get("sha256", "").lower():
+            errores.append(f"manifest: el hash no coincide en {f['archivo']} (hay que regenerar el manifiesto)")
+        es_original = f.get("capa") == "original" or "/originales/" in f"/{f['archivo']}"
+        if es_original and not f.get("url"):
             errores.append(f"manifest: original sin URL {f['archivo']}")
         if "simulad" in f["archivo"].lower() or "SIMULADO_" in f["archivo"]:
-            ident = f["id_fuente"]
+            ident = f.get("id_fuente", "")
             if any(x["id"] == ident and x["estado"] == "real" for x in fuentes):
                 errores.append(f"{ident}: marcada real pero tiene archivos simulados ({f['archivo']})")
     for x in fuentes:
@@ -96,7 +114,10 @@ def regla_manifest(fuentes: list[dict]) -> None:
 
 
 def archivos_versionados() -> list[str]:
-    salida = subprocess.run(["git", "ls-files", "-z"], cwd=RAIZ, capture_output=True, check=True)
+    salida = subprocess.run(["git", "ls-files", "-z"], cwd=RAIZ, capture_output=True)
+    if salida.returncode != 0:
+        avisos.append("la entrega no es un repositorio git: se omiten las reglas de git e historial")
+        return []
     return [p for p in salida.stdout.decode("utf-8").split("\0") if p]
 
 
@@ -156,6 +177,20 @@ def regla_carpetas() -> None:
 
 
 def main() -> int:
+    global RAIZ, EQUIPO
+    parser = argparse.ArgumentParser(description="Valida una entrega de fuentes contra las reglas de aceptación.")
+    parser.add_argument("--raiz", type=Path, default=RAIZ, help="carpeta raíz de la entrega (repo del equipo)")
+    parser.add_argument("--equipo", default="", help="prefijo del equipo, p. ej. E5; si se omite, se toma de fuentes.csv")
+    args = parser.parse_args()
+    RAIZ = args.raiz.resolve()
+    EQUIPO = args.equipo
+    if not EQUIPO and (RAIZ / "fuentes.csv").exists():
+        primera = next(iter(leer_csv("fuentes.csv")), {})
+        EQUIPO = primera.get("id", "").split("-")[0]
+    if not EQUIPO:
+        print("ERROR: no se pudo saber el equipo; usa --equipo")
+        return 1
+    print(f"Entrega {EQUIPO} en {RAIZ}")
     fuentes = regla_fuentes()
     regla_manifest(fuentes)
     versionados = archivos_versionados()
@@ -163,9 +198,11 @@ def main() -> int:
     regla_datos_personales()
     regla_tamanos(versionados)
     regla_carpetas()
-    conteo = {e: sum(1 for f in fuentes if f["estado"] == e) for e in sorted(ESTADOS)}
+    conteo = {e: sum(1 for f in fuentes if f.get("estado") == e) for e in sorted(ESTADOS)}
     print("Fuentes por estado:", conteo)
-    for a in avisos:
+    unicos = list(dict.fromkeys(errores))
+    errores[:] = unicos
+    for a in dict.fromkeys(avisos):
         print("AVISO:", a)
     for e in errores:
         print("ERROR:", e)
