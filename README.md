@@ -44,6 +44,15 @@ Los enlaces del INEGI son de Yucatán (clave 31). Para Campeche, Quintana Roo, C
 
 Toda tabla levantada por el equipo lleva fecha, hora, latitud y longitud en WGS84 (EPSG:4326) y la clave de AGEB del INEGI (`cvegeo_ageb`). Así se puede cruzar con el DENUE, el Censo y las fuentes de los demás equipos.
 
+## Procesamiento
+
+| Carpeta | Subtema | Qué hace |
+|---|---|---|
+| [procesamiento/03_denue_datamart](procesamiento/03_denue_datamart) | 3. Los negocios que encuentra esa demanda | Compara el DENUE de noviembre de 2019 con el de mayo de 2025 en Chiapas, Tabasco, Campeche, Yucatán y Quintana Roo. Asigna cada negocio a la más cercana de las 34 estaciones del Tren Maya, en anillos de 0 a 1, de 1 a 3 y de 3 a 5 km, y arma un modelo estrella para PostgreSQL. |
+
+Los comandos de cada carpeta se corren desde esa misma carpeta. Su README explica la instalación, el pipeline y los resultados.
+
 ## Estado
 
-Las carpetas de los subtemas 6, 7 y 8 tienen protocolo y plantilla. Los datos se cargan después del levantamiento en campo.
+- Subtema 3: el data mart del DENUE está listo. El Censo 2020 por AGEB y manzana aún no se integra.
+- Subtemas 6, 7 y 8: las carpetas tienen protocolo y plantilla. Los datos se cargan después del levantamiento en campo.

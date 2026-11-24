@@ -315,8 +315,8 @@ Para un modelo dimensional completo se recomienda utilizar las tablas del esquem
 ### 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
-cd tren-maya-datamart
+git clone https://github.com/ezraidenn/del-tren-a-la-calle.git
+cd del-tren-a-la-calle/procesamiento/03_denue_datamart
 ```
 
 ### 2. Instalar dependencias
@@ -352,7 +352,7 @@ Las credenciales de PostgreSQL no se almacenan en el repositorio.
 ## Estructura del repositorio
 
 ```text
-tren-maya-datamart/
+03_denue_datamart/
 │
 ├── data/
 │   ├── mart/
