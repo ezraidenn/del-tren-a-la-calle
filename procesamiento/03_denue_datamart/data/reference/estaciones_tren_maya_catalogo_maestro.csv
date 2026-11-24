@@ -1,0 +1,35 @@
+﻿station_id,station_name,state,municipality,latitude,longitude,coordinate_source,source_url,validation_status
+TM001,Palenque,Chiapas,Palenque,17.5326106,-91.9795262,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM002,Boca del Cerro,Tabasco,Tenosique,17.42978,-91.49575,OpenStreetMap/Mapcarta cross-check,https://mapcarta.com/es/W1237337318,verified_secondary
+TM003,Tenosique,Tabasco,Tenosique,17.46038,-91.43045,Published station coordinates cross-check,https://wiki.jaculab.club/content/wikipedia_es_all_maxi_2025-10/Estaci%C3%B3n_de_Tenosique,verified_secondary
+TM004,El Triunfo,Tabasco,Balancán,17.9237,-91.17104,Published station coordinates cross-check,https://wiki.jaculab.club/content/wikipedia_es_all_maxi_2025-10/Estaci%C3%B3n_de_El_Triunfo_%28Tren_Maya%29,verified_secondary
+TM005,Candelaria,Campeche,Candelaria,18.1841667,-91.0472971,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM006,Escárcega,Campeche,Escárcega,18.61271,-90.73133,OpenStreetMap/Mapcarta cross-check,https://mapcarta.com/es/W1237430289,verified_secondary
+TM007,Carrillo Puerto,Campeche,Champotón,19.0927179,-90.5257342,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM008,Edzná,Campeche,Campeche,19.59335,-90.36933,Published station coordinates cross-check,https://wiki.jaculab.club/content/wikipedia_es_all_maxi_2025-10/Estaci%C3%B3n_de_Edzn%C3%A1,verified_secondary
+TM009,San Francisco de Campeche,Campeche,Campeche,19.82344,-90.47644,OpenStreetMap/Mapcarta cross-check,https://mapcarta.com/es/W1231429530,verified_secondary
+TM010,Tenabo,Campeche,Tenabo,20.040727,-90.2442042,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM011,Hecelchakán,Campeche,Hecelchakán,20.1763138,-90.1559499,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM012,Calkiní,Campeche,Calkiní,20.3781958,-90.0700106,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM013,Maxcanú,Yucatán,Maxcanú,20.5995814,-89.982121,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM014,Umán,Yucatán,Umán,20.8483449,-89.7574446,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM015,Mérida Teya,Yucatán,Kanasín,20.9294023,-89.5150073,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM016,Tixkokob,Yucatán,Tixkokob,20.9895978,-89.4029067,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM017,Izamal,Yucatán,Izamal,20.9366729,-89.0879062,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM018,Chichén Itzá,Yucatán,Tinum,20.7205489,-88.553826,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM019,Valladolid,Yucatán,Valladolid,20.7407631,-88.1958913,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM020,Nuevo Xcán,Quintana Roo,Lázaro Cárdenas,20.8789568,-87.6050434,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM021,Leona Vicario,Quintana Roo,Puerto Morelos,20.979609,-87.1989647,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM022,Cancún Aeropuerto,Quintana Roo,Benito Juárez,21.0286734,-86.8755286,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM023,Puerto Morelos,Quintana Roo,Puerto Morelos,20.8559453,-86.9534038,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM024,Playa del Carmen,Quintana Roo,Solidaridad,20.6778934,-87.1209285,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM025,Tulum,Quintana Roo,Tulum,20.2325006,-87.4886545,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM026,Tulum Aeropuerto,Quintana Roo,Felipe Carrillo Puerto,20.1515611,-87.6399611,Wikidata coordinate; Tren Maya network reference,https://www.wikidata.org/wiki/Q121949104,verified_secondary
+TM027,Felipe Carrillo Puerto,Quintana Roo,Felipe Carrillo Puerto,19.59315,-88.07448,OpenStreetMap/Mapcarta cross-check,https://mapcarta.com/W1374275730,verified_secondary
+TM028,Limones-Chacchoben,Quintana Roo,Bacalar,19.0278232,-88.1205527,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM029,Bacalar,Quintana Roo,Bacalar,18.7085627,-88.3997184,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM030,Chetumal Aeropuerto,Quintana Roo,Othón P. Blanco,18.5082065,-88.3418852,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map
+TM031,Nicolás Bravo / Kohunlich,Quintana Roo,Othón P. Blanco,18.45329,-88.87924,OpenStreetMap/Mapcarta cross-check,https://mapcarta.com/es/W1520678880,verified_secondary
+TM032,Xpujil,Campeche,Calakmul,18.5266667,-89.3963889,Tren Maya – mapa Cómo Llegar (DMS point encoded in map),https://trenmaya.gob.mx/,verified_official_map
+TM033,Calakmul,Campeche,Calakmul,18.52988,-89.88941,Published station coordinates cross-check,https://trenmaya.gob.mx/,verified_secondary
+TM034,Centenario,Campeche,Escárcega,18.6546731,-90.2909709,Tren Maya – mapa Cómo Llegar,https://trenmaya.gob.mx/,verified_official_map

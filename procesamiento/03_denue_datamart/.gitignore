@@ -1,0 +1,46 @@
+# ==========================================================
+# Tren Maya Data Mart
+# ==========================================================
+
+# Datos originales DENUE
+data/raw/
+
+# Datos intermedios del ETL
+data/processed/
+
+# Mantener el Data Mart final
+!data/mart/
+!data/mart/*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editores
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.log
+*~
+
+# Credenciales / variables de entorno
+.env
+.env.*
+*.pem
+*.key
