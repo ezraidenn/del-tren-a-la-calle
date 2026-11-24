@@ -53,6 +53,24 @@ def sha256_de(ruta: Path) -> str:
     return h.hexdigest()
 
 
+def git(*args: str) -> subprocess.CompletedProcess:
+    """Corre git sin fsmonitor ni hooks: el .git/config de una entrega ajena
+    podría ejecutar programas al leer el índice."""
+    return subprocess.run(["git", "-c", "core.fsmonitor=false", "-c", "core.hooksPath=/dev/null", *args],
+                          cwd=RAIZ, capture_output=True)
+
+
+def dentro_de_raiz(rel: str) -> Path | None:
+    """Ruta absoluta de rel si queda dentro de la entrega; None si se sale (p. ej. con ../)."""
+    ruta = (RAIZ / rel).resolve()
+    try:
+        ruta.relative_to(RAIZ)
+    except ValueError:
+        errores.append(f"ruta fuera de la entrega: {rel}")
+        return None
+    return ruta
+
+
 def leer_csv(nombre: str) -> list[dict]:
     if not (RAIZ / nombre).exists():
         errores.append(f"falta {nombre}")
@@ -90,7 +108,9 @@ def regla_manifest(fuentes: list[dict]) -> None:
     externos = {f["archivo"] for f in leer_csv("externos.csv")}
     con_archivos = set()
     for f in filas:
-        ruta = RAIZ / f["archivo"]
+        ruta = dentro_de_raiz(f["archivo"])
+        if ruta is None:
+            continue
         for ident in f.get("id_fuente", "").split(";"):
             con_archivos.add(ident)
         if not ruta.exists():
@@ -114,7 +134,7 @@ def regla_manifest(fuentes: list[dict]) -> None:
 
 
 def archivos_versionados() -> list[str]:
-    salida = subprocess.run(["git", "ls-files", "-z"], cwd=RAIZ, capture_output=True)
+    salida = git("ls-files", "-z")
     if salida.returncode != 0:
         avisos.append("la entrega no es un repositorio git: se omiten las reglas de git e historial")
         return []
@@ -126,7 +146,9 @@ def regla_rutas_locales(versionados: list[str]) -> None:
     for rel in versionados:
         if rel.startswith("datos/originales/") or not rel.endswith((".md", ".py", ".csv", ".json", ".txt", ".sql")):
             continue
-        ruta = RAIZ / rel
+        ruta = dentro_de_raiz(rel)
+        if ruta is None:
+            continue
         if ruta.exists() and ruta.stat().st_size < 5_000_000 and patron.search(ruta.read_text(encoding="utf-8", errors="ignore")):
             errores.append(f"ruta local en {rel}")
 
@@ -145,7 +167,9 @@ def regla_datos_personales() -> None:
 def regla_tamanos(versionados: list[str]) -> None:
     externos = {f["archivo"] for f in leer_csv("externos.csv")}
     for rel in versionados:
-        ruta = RAIZ / rel
+        ruta = dentro_de_raiz(rel)
+        if ruta is None:
+            continue
         if ruta.exists() and ruta.stat().st_size > LIMITE_MB * 1024 * 1024:
             errores.append(f"archivo de más de {LIMITE_MB} MB versionado en git: {rel}")
     for rel in externos:
@@ -155,8 +179,7 @@ def regla_tamanos(versionados: list[str]) -> None:
         if not f.get("motivo") or len(f.get("sha256", "")) != 64:
             errores.append(f"externos.csv: falta motivo o sha256 en {f['archivo']}")
         if f.get("motivo") in {"privacidad", "derechos"}:
-            historial = subprocess.run(["git", "log", "--all", "--format=%h", "--", f["archivo"]],
-                                       cwd=RAIZ, capture_output=True, text=True).stdout.split()
+            historial = git("log", "--all", "--format=%h", "--", f["archivo"]).stdout.decode().split()
             if historial:
                 errores.append(f"{f['archivo']} ({f['motivo']}) aparece en el historial de git: {historial}; "
                                "hay que limpiarlo antes de subir")
