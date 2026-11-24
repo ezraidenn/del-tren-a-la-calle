@@ -1,0 +1,11 @@
+direction_id,sentido,orden,stop_id,nombre,lat,lon,min_desde_salida,distancia_m,accesible_silla_ruedas
+0,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,20.979296,-89.609745,0,0.0,si
+0,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,20.98147,-89.57236,9,4071.4,si
+0,Estación La Plancha -> Estación Teya,3,2778,Héroes,20.981701,-89.565252,11,4811.0,si
+0,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,20.95638,-89.568004,19,7763.8,si
+0,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,20.93024,-89.515036,35,14568.1,si
+1,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,20.93024,-89.515036,0,0.0,si
+1,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,20.956648,-89.567104,16,6845.8,si
+1,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,20.958834,-89.565681,28,7242.5,si
+1,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,20.981585,-89.571743,42,10915.2,si
+1,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,20.979296,-89.609745,50,14913.6,si

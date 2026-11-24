@@ -1,0 +1,203 @@
+tabla,estacion_origen,estacion_destino,tipo_tarifa,precio_mxn,disponible,duracion_texto,duracion_min,horario,fecha_consulta,url
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Palenque,Clase Turista,1295.5,1,7 h 32 min,452,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Palenque,Clase Premier,1555.0,1,7 h 32 min,452,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Boca del Cerro,Clase Turista,1197.0,1,6 h 35 min,395,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Boca del Cerro,Clase Premier,1436.0,1,6 h 35 min,395,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tenosique,Clase Turista,1182.5,1,6 h 26 min,386,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tenosique,Clase Premier,1419.0,1,6 h 26 min,386,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Triunfo,Clase Turista,1060.0,1,5 h 48 min,348,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Triunfo,Clase Premier,1272.0,1,5 h 48 min,348,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Candelaria,Clase Turista,995.0,1,5 h 22 min,322,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Candelaria,Clase Premier,1194.0,1,5 h 22 min,322,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Escárcega,Clase Turista,865.5,1,4 h 41 min,281,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Escárcega,Clase Premier,1039.0,1,4 h 41 min,281,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Carrillo Puerto Camp.,Clase Turista,732.0,1,3 h 58 min,238,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Carrillo Puerto Camp.,Clase Premier,878.0,1,3 h 58 min,238,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Edzná,Clase Turista,572.0,1,3 h 14 min,194,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Edzná,Clase Premier,686.0,1,3 h 14 min,194,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,San Fco. Campeche,Clase Turista,484.5,1,2 h 23 min,143,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,San Fco. Campeche,Clase Premier,581.0,1,2 h 23 min,143,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tenabo,Clase Turista,390.0,1,1 h 36 min,96,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tenabo,Clase Premier,468.0,1,1 h 36 min,96,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Hecelchakán,Clase Turista,338.0,1,1 h 21 min,81,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Hecelchakán,Clase Premier,406.0,1,1 h 21 min,81,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Calkiní,Clase Turista,268.0,1,1 h 5 min,65,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Calkiní,Clase Premier,322.0,1,1 h 5 min,65,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Maxcanú,Clase Turista,192.5,1,46 min,46,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Maxcanú,Clase Premier,231.0,1,46 min,46,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Umán,Clase Turista,82.5,1,20 min,20,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Umán,Clase Premier,99.0,1,20 min,20,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tixkokob,Clase Turista,49.5,1,14 min,14,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tixkokob,Clase Premier,59.0,1,14 min,14,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Izamal,Clase Turista,146.0,1,38 min,38,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Izamal,Clase Premier,175.0,1,38 min,38,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Chichén Itzá,Clase Turista,330.5,1,1 h 23 min,83,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Chichén Itzá,Clase Premier,397.0,1,1 h 23 min,83,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Valladolid,Clase Turista,431.0,1,1 h 53 min,113,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Valladolid,Clase Premier,517.0,1,1 h 53 min,113,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Nuevo Xcán,Clase Turista,593.0,1,2 h 39 min,159,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Nuevo Xcán,Clase Premier,712.0,1,2 h 39 min,159,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Leona Vicario,Clase Turista,699.5,1,3 h 8 min,188,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Leona Vicario,Clase Premier,839.0,1,3 h 8 min,188,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Cancún Aeropuerto,Clase Turista,781.0,1,3 h 36 min,216,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Cancún Aeropuerto,Clase Premier,937.0,1,3 h 36 min,216,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Puerto Morelos,Clase Turista,854.5,1,4 h 5 min,245,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Puerto Morelos,Clase Premier,1025.0,1,4 h 5 min,245,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Playa del Carmen,Clase Turista,912.5,1,4 h 35 min,275,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Playa del Carmen,Clase Premier,1095.0,1,4 h 35 min,275,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tulum,Clase Turista,1042.0,1,5 h 29 min,329,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tulum,Clase Premier,1250.0,1,5 h 29 min,329,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tulum Aeropuerto,Clase Turista,1086.0,1,5 h 50 min,350,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Tulum Aeropuerto,Clase Premier,1303.0,1,5 h 50 min,350,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Felipe Carrillo Puerto,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Felipe Carrillo Puerto,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Chacchoben,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Chacchoben,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Bacalar,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Bacalar,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Chetumal Aeropuerto,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Chetumal Aeropuerto,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Kohunlich,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Kohunlich,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Xpujil,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Xpujil,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Calakmul,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Calakmul,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Centenario,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Nacional?,Mérida Teya,Centenario,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Palenque,Local,864.0,1,7 h 32 min,452,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Palenque,Especial,648.0,1,7 h 32 min,452,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Boca del Cerro,Local,798.0,1,6 h 35 min,395,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Boca del Cerro,Especial,599.0,1,6 h 35 min,395,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tenosique,Local,788.5,1,6 h 26 min,386,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tenosique,Especial,591.0,1,6 h 26 min,386,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Triunfo,Local,706.5,1,5 h 48 min,348,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Triunfo,Especial,530.0,1,5 h 48 min,348,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Candelaria,Local,663.5,1,5 h 22 min,322,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Candelaria,Especial,498.0,1,5 h 22 min,322,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Escárcega,Local,557.0,1,4 h 41 min,281,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Escárcega,Especial,433.0,1,4 h 41 min,281,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Carrillo Puerto Camp.,Local,488.0,1,3 h 58 min,238,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Carrillo Puerto Camp.,Especial,366.0,1,3 h 58 min,238,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Edzná,Local,381.5,1,3 h 14 min,194,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Edzná,Especial,286.0,1,3 h 14 min,194,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,San Fco. Campeche,Local,323.0,1,2 h 23 min,143,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,San Fco. Campeche,Especial,242.0,1,2 h 23 min,143,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tenabo,Local,260.0,1,1 h 36 min,96,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tenabo,Especial,195.0,1,1 h 36 min,96,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Hecelchakán,Local,225.5,1,1 h 21 min,81,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Hecelchakán,Especial,169.0,1,1 h 21 min,81,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Calkiní,Local,175.5,1,1 h 5 min,65,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Calkiní,Especial,134.0,1,1 h 5 min,65,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Maxcanú,Local,128.0,1,46 min,46,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Maxcanú,Especial,96.0,1,46 min,46,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Umán,Local,55.0,1,20 min,20,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Umán,Especial,41.0,1,20 min,20,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tixkokob,Local,33.0,1,14 min,14,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tixkokob,Especial,25.0,1,14 min,14,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Izamal,Local,97.5,1,38 min,38,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Izamal,Especial,73.0,1,38 min,38,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Chichén Itzá,Local,220.0,1,1 h 23 min,83,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Chichén Itzá,Especial,165.0,1,1 h 23 min,83,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Valladolid,Local,287.0,1,1 h 53 min,113,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Valladolid,Especial,216.0,1,1 h 53 min,113,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Nuevo Xcán,Local,395.0,1,2 h 39 min,159,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Nuevo Xcán,Especial,297.0,1,2 h 39 min,159,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Leona Vicario,Local,466.5,1,3 h 8 min,188,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Leona Vicario,Especial,350.0,1,3 h 8 min,188,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Cancún Aeropuerto,Local,521.0,1,3 h 36 min,216,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Cancún Aeropuerto,Especial,391.0,1,3 h 36 min,216,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Puerto Morelos,Local,570.0,1,4 h 5 min,245,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Puerto Morelos,Especial,427.0,1,4 h 5 min,245,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Playa del Carmen,Local,608.5,1,4 h 35 min,275,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Playa del Carmen,Especial,456.0,1,4 h 35 min,275,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tulum,Local,695.0,1,5 h 29 min,329,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tulum,Especial,521.0,1,5 h 29 min,329,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tulum Aeropuerto,Local,724.0,1,5 h 50 min,350,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Tulum Aeropuerto,Especial,543.0,1,5 h 50 min,350,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Felipe Carrillo Puerto,Local,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Felipe Carrillo Puerto,Especial,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Chacchoben,Local,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Chacchoben,Especial,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Bacalar,Local,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Bacalar,Especial,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Chetumal Aeropuerto,Local,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Chetumal Aeropuerto,Especial,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Kohunlich,Local,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Kohunlich,Especial,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Xpujil,Local,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Xpujil,Especial,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Calakmul,Local,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Calakmul,Especial,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Centenario,Local,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Local y Especial?,Mérida Teya,Centenario,Especial,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Palenque,Clase Turista,1727.5,1,7 h 32 min,452,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Palenque,Clase Premier,2073.0,1,7 h 32 min,452,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Boca del Cerro,Clase Turista,1596.0,1,6 h 35 min,395,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Boca del Cerro,Clase Premier,1915.0,1,6 h 35 min,395,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tenosique,Clase Turista,1576.5,1,6 h 26 min,386,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tenosique,Clase Premier,1892.0,1,6 h 26 min,386,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Triunfo,Clase Turista,1413.0,1,5 h 48 min,348,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Triunfo,Clase Premier,1696.0,1,5 h 48 min,348,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Candelaria,Clase Turista,1327.0,1,5 h 22 min,322,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Candelaria,Clase Premier,1592.0,1,5 h 22 min,322,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Escárcega,Clase Turista,1154.0,1,4 h 41 min,281,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Escárcega,Clase Premier,1385.0,1,4 h 41 min,281,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Carrillo Puerto Camp.,Clase Turista,975.5,1,3 h 58 min,238,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Carrillo Puerto Camp.,Clase Premier,1171.0,1,3 h 58 min,238,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Edzná,Clase Turista,762.5,1,3 h 14 min,194,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Edzná,Clase Premier,915.0,1,3 h 14 min,194,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,San Fco. Campeche,Clase Turista,646.0,1,2 h 23 min,143,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,San Fco. Campeche,Clase Premier,775.0,1,2 h 23 min,143,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tenabo,Clase Turista,520.0,1,1 h 36 min,96,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tenabo,Clase Premier,624.0,1,1 h 36 min,96,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Hecelchakán,Clase Turista,450.5,1,1 h 21 min,81,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Hecelchakán,Clase Premier,541.0,1,1 h 21 min,81,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Calkiní,Clase Turista,357.5,1,1 h 5 min,65,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Calkiní,Clase Premier,429.0,1,1 h 5 min,65,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Maxcanú,Clase Turista,256.5,1,46 min,46,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Maxcanú,Clase Premier,308.0,1,46 min,46,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Umán,Clase Turista,110.0,1,20 min,20,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Umán,Clase Premier,132.0,1,20 min,20,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tixkokob,Clase Turista,66.0,1,14 min,14,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tixkokob,Clase Premier,79.0,1,14 min,14,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Izamal,Clase Turista,195.0,1,38 min,38,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Izamal,Clase Premier,234.0,1,38 min,38,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Chichén Itzá,Clase Turista,440.5,1,1 h 23 min,83,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Chichén Itzá,Clase Premier,529.0,1,1 h 23 min,83,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Valladolid,Clase Turista,574.5,1,1 h 53 min,113,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Valladolid,Clase Premier,689.0,1,1 h 53 min,113,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Nuevo Xcán,Clase Turista,790.5,1,2 h 39 min,159,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Nuevo Xcán,Clase Premier,949.0,1,2 h 39 min,159,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Leona Vicario,Clase Turista,932.5,1,3 h 8 min,188,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Leona Vicario,Clase Premier,1119.0,1,3 h 8 min,188,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Cancún Aeropuerto,Clase Turista,1041.5,1,3 h 36 min,216,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Cancún Aeropuerto,Clase Premier,1250.0,1,3 h 36 min,216,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Puerto Morelos,Clase Turista,1139.5,1,4 h 5 min,245,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Puerto Morelos,Clase Premier,1367.0,1,4 h 5 min,245,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Playa del Carmen,Clase Turista,1216.5,1,4 h 35 min,275,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Playa del Carmen,Clase Premier,1460.0,1,4 h 35 min,275,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tulum,Clase Turista,1389.5,1,5 h 29 min,329,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tulum,Clase Premier,1667.0,1,5 h 29 min,329,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tulum Aeropuerto,Clase Turista,1448.0,1,5 h 50 min,350,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Tulum Aeropuerto,Clase Premier,1738.0,1,5 h 50 min,350,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Felipe Carrillo Puerto,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Felipe Carrillo Puerto,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Chacchoben,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Chacchoben,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Bacalar,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Bacalar,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Chetumal Aeropuerto,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Chetumal Aeropuerto,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Kohunlich,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Kohunlich,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Xpujil,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Xpujil,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Calakmul,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Calakmul,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Centenario,Clase Turista,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+¿Cuánto cuesta el precio del boleto Internacional?,Mérida Teya,Centenario,Clase Premier,,0,,,,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+Precios de los boletos del Tren Maya Restaurante | Mérida-Teya -> Chichén Itzá,Mérida Teya,Chichén Itzá,Tarifa Especial,165.0,1,1 h 23 min,83,8:30 AM,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+Precios de los boletos del Tren Maya Restaurante | Mérida-Teya -> Chichén Itzá,Mérida Teya,Chichén Itzá,General,220.0,1,1 h 23 min,83,8:30 AM,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+Precios de los boletos del Tren Maya Restaurante | Mérida-Teya -> Izamal,Mérida Teya,Izamal,Tarifa Especial,73.0,1,38 min,38,8:30 PM,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/
+Precios de los boletos del Tren Maya Restaurante | Mérida-Teya -> Izamal,Mérida Teya,Izamal,General,97.5,1,38 min,38,8:30 PM,2026-11-24,https://rutatrenmaya.mx/estacion-teya-merida-en-el-tren-maya/

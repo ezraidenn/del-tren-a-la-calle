@@ -1,0 +1,271 @@
+cvegeo_mun,cve_geo,ent,nom_ent,mun,nom_mun,pobtot,vivtot,tvivhab,tpvlda,tpvldb,tpvldc,tpvldd,tcvcu,gacu,entidad
+04001,04001,04,Campeche,001,Calkiní,59232,19433,15289,71,58,7,3,44,Alto,Campeche
+04002,04002,04,Campeche,002,Campeche,294077,101576,85353,7,7,7,2,6,Muy alto,Campeche
+04003,04003,04,Campeche,003,Carmen,248845,88379,72119,19,11,9,3,12,Muy alto,Campeche
+04004,04004,04,Campeche,004,Champotón,78170,26787,21474,71,21,21,9,37,Alto,Campeche
+04005,04005,04,Campeche,005,Hecelchakán,31917,10058,8292,57,56,10,7,40,Alto,Campeche
+04006,04006,04,Campeche,006,Hopelchén,42140,12573,10243,122,110,106,22,100,Bajo,Campeche
+04007,04007,04,Campeche,007,Palizada,8683,3349,2546,139,102,81,8,97,Bajo,Campeche
+04008,04008,04,Campeche,008,Tenabo,11452,3921,3066,42,42,20,4,32,Alto,Campeche
+04009,04009,04,Campeche,009,Escárcega,59923,22289,16837,132,14,13,11,55,Alto,Campeche
+04010,04010,04,Campeche,010,Calakmul,31714,10343,8037,134,119,115,39,111,Bajo,Campeche
+04011,04011,04,Campeche,011,Candelaria,46913,17817,13294,184,86,35,34,102,Bajo,Campeche
+04012,04012,04,Campeche,012,Seybaplaya,15297,5109,4274,36,25,25,1,25,Muy alto,Campeche
+07001,07001,07,Chiapas,001,Acacoyagua,17994,5459,4416,80,41,14,9,44,Alto,Chiapas
+07002,07002,07,Chiapas,002,Acala,21187,7179,5431,70,62,5,4,45,Alto,Chiapas
+07003,07003,07,Chiapas,003,Acapetahua,26899,9482,7608,78,39,16,10,44,Alto,Chiapas
+07004,07004,07,Chiapas,004,Altamirano,36160,10020,7973,124,85,50,50,86,Medio,Chiapas
+07005,07005,07,Chiapas,005,Amatán,24512,6597,5665,117,69,62,24,78,Medio,Chiapas
+07006,07006,07,Chiapas,006,Amatenango de la Frontera,31735,9806,7580,123,72,30,19,74,Medio,Chiapas
+07007,07007,07,Chiapas,007,Amatenango del Valle,11283,2919,2561,53,53,15,8,39,Alto,Chiapas
+07008,07008,07,Chiapas,008,Angel Albino Corzo,31947,9702,7299,216,157,18,10,128,Muy bajo,Chiapas
+07009,07009,07,Chiapas,009,Arriaga,41135,15702,12362,127,10,9,4,50,Alto,Chiapas
+07010,07010,07,Chiapas,010,Bejucal de Ocampo,7365,1962,1567,162,78,57,56,100,Bajo,Chiapas
+07011,07011,07,Chiapas,011,Bella Vista,20157,6160,4523,155,98,51,41,100,Bajo,Chiapas
+07012,07012,07,Chiapas,012,Berriozábal,64632,23549,16200,44,11,10,8,22,Muy alto,Chiapas
+07013,07013,07,Chiapas,013,Bochil,37263,10230,8413,105,102,16,16,73,Medio,Chiapas
+07014,07014,07,Chiapas,014,El Bosque,24273,5701,5051,98,98,31,10,71,Medio,Chiapas
+07015,07015,07,Chiapas,015,Cacahoatán,50112,15017,12150,39,39,13,7,29,Muy alto,Chiapas
+07016,07016,07,Chiapas,016,Catazajá,17619,5888,4788,97,45,38,17,58,Alto,Chiapas
+07017,07017,07,Chiapas,017,Cintalapa,88106,27322,21775,96,16,16,12,43,Alto,Chiapas
+07018,07018,07,Chiapas,018,Coapilla,9900,3101,2447,151,140,97,19,117,Bajo,Chiapas
+07019,07019,07,Chiapas,019,Comitán de Domínguez,166178,56783,44451,7,7,6,5,7,Muy alto,Chiapas
+07020,07020,07,Chiapas,020,La Concordia,49920,15492,12263,194,137,58,23,124,Muy bajo,Chiapas
+07021,07021,07,Chiapas,021,Copainalá,22192,7830,6057,115,115,85,16,94,Bajo,Chiapas
+07022,07022,07,Chiapas,022,Chalchihuitán,21915,7135,4819,96,96,76,48,85,Medio,Chiapas
+07023,07023,07,Chiapas,023,Chamula,101967,29553,22655,31,31,30,15,28,Muy alto,Chiapas
+07024,07024,07,Chiapas,024,Chanal,13678,3046,2189,74,73,54,12,60,Alto,Chiapas
+07025,07025,07,Chiapas,025,Chapultenango,7472,2094,1724,139,91,61,15,90,Medio,Chiapas
+07026,07026,07,Chiapas,026,Chenalhó,47371,11570,9505,72,72,71,25,65,Medio,Chiapas
+07027,07027,07,Chiapas,027,Chiapa de Corzo,112075,39208,29653,44,20,14,7,25,Muy alto,Chiapas
+07028,07028,07,Chiapas,028,Chiapilla,6156,2089,1627,60,60,17,2,43,Alto,Chiapas
+07029,07029,07,Chiapas,029,Chicoasén,5402,1972,1476,69,69,40,7,54,Alto,Chiapas
+07030,07030,07,Chiapas,030,Chicomuselo,36785,11400,8809,163,116,54,25,106,Bajo,Chiapas
+07031,07031,07,Chiapas,031,Chilón,137262,31087,26658,181,71,59,40,102,Bajo,Chiapas
+07032,07032,07,Chiapas,032,Escuintla,30896,10147,7882,84,45,19,18,49,Alto,Chiapas
+07033,07033,07,Chiapas,033,Francisco León,7245,1804,1511,179,138,117,49,135,Muy bajo,Chiapas
+07034,07034,07,Chiapas,034,Frontera Comalapa,80897,27745,20195,101,74,15,9,62,Medio,Chiapas
+07035,07035,07,Chiapas,035,Frontera Hidalgo,14556,4447,3695,34,34,14,3,25,Muy alto,Chiapas
+07036,07036,07,Chiapas,036,La Grandeza,7701,1968,1538,175,88,78,66,113,Bajo,Chiapas
+07037,07037,07,Chiapas,037,Huehuetán,36333,11713,9564,37,22,22,7,25,Muy alto,Chiapas
+07038,07038,07,Chiapas,038,Huixtán,22975,5654,4600,56,56,35,28,48,Alto,Chiapas
+07039,07039,07,Chiapas,039,Huitiupán,27893,7082,6279,158,125,42,24,105,Bajo,Chiapas
+07040,07040,07,Chiapas,040,Huixtla,53242,17713,14285,52,8,8,7,23,Muy alto,Chiapas
+07041,07041,07,Chiapas,041,La Independencia,46409,12735,11089,54,54,44,21,47,Alto,Chiapas
+07042,07042,07,Chiapas,042,Ixhuatán,11377,3234,2611,128,80,74,15,86,Medio,Chiapas
+07043,07043,07,Chiapas,043,Ixtacomitán,10961,3245,2659,102,54,23,8,58,Alto,Chiapas
+07044,07044,07,Chiapas,044,Ixtapa,28999,7258,6169,67,53,43,13,50,Alto,Chiapas
+07045,07045,07,Chiapas,045,Ixtapangajoya,6284,1810,1535,91,33,33,29,53,Alto,Chiapas
+07046,07046,07,Chiapas,046,Jiquipilas,41063,14323,11277,91,34,25,16,49,Alto,Chiapas
+07047,07047,07,Chiapas,047,Jitotol,24966,6627,5443,113,113,34,8,81,Medio,Chiapas
+07048,07048,07,Chiapas,048,Juárez,21807,7500,6098,70,35,32,11,43,Alto,Chiapas
+07049,07049,07,Chiapas,049,Larráinzar,31259,7419,5989,58,58,38,14,47,Alto,Chiapas
+07050,07050,07,Chiapas,050,La Libertad,5232,1994,1586,127,47,22,22,66,Medio,Chiapas
+07051,07051,07,Chiapas,051,Mapastepec,46130,16797,12777,97,59,12,12,56,Alto,Chiapas
+07052,07052,07,Chiapas,052,Las Margaritas,141027,33663,28906,81,81,59,39,70,Medio,Chiapas
+07053,07053,07,Chiapas,053,Mazapa de Madero,7901,2202,1695,142,30,30,30,69,Medio,Chiapas
+07054,07054,07,Chiapas,054,Mazatán,28250,9529,7818,40,40,40,6,35,Alto,Chiapas
+07055,07055,07,Chiapas,055,Metapa,5876,1944,1574,25,25,21,3,21,Muy alto,Chiapas
+07056,07056,07,Chiapas,056,Mitontic,13755,3500,2712,55,55,55,27,51,Alto,Chiapas
+07057,07057,07,Chiapas,057,Motozintla,76398,21794,16617,108,27,27,17,54,Alto,Chiapas
+07058,07058,07,Chiapas,058,Nicolás Ruíz,4765,1246,1049,92,92,30,0,66,Medio,Chiapas
+07059,07059,07,Chiapas,059,Ocosingo,234661,57036,46891,179,73,56,47,103,Bajo,Chiapas
+07060,07060,07,Chiapas,060,Ocotepec,14088,3899,2929,173,173,118,12,138,Muy bajo,Chiapas
+07061,07061,07,Chiapas,061,Ocozocoautla de Espinosa,97397,30125,23915,65,30,30,21,41,Alto,Chiapas
+07062,07062,07,Chiapas,062,Ostuacán,18469,5566,4487,133,83,83,27,92,Bajo,Chiapas
+07063,07063,07,Chiapas,063,Osumacinta,3983,1351,1042,80,72,53,30,65,Medio,Chiapas
+07064,07064,07,Chiapas,064,Oxchuc,54932,12795,10105,90,71,25,19,61,Medio,Chiapas
+07065,07065,07,Chiapas,065,Palenque,132265,43025,33719,138,29,27,26,66,Medio,Chiapas
+07066,07066,07,Chiapas,066,Pantelhó,26391,5973,4931,136,118,106,31,109,Bajo,Chiapas
+07067,07067,07,Chiapas,067,Pantepec,12266,3674,2938,169,123,57,24,111,Bajo,Chiapas
+07068,07068,07,Chiapas,068,Pichucalco,31919,10578,8604,89,43,14,11,49,Alto,Chiapas
+07069,07069,07,Chiapas,069,Pijijiapan,51193,19104,14937,127,65,17,17,70,Medio,Chiapas
+07070,07070,07,Chiapas,070,El Porvenir,12263,3129,2403,150,54,54,42,86,Medio,Chiapas
+07071,07071,07,Chiapas,071,Villa Comaltitlán,30297,9572,7682,66,28,23,11,38,Alto,Chiapas
+07072,07072,07,Chiapas,072,Pueblo Nuevo Solistahuacán,29636,7551,6506,137,134,19,19,95,Bajo,Chiapas
+07073,07073,07,Chiapas,073,Rayón,10866,3037,2407,148,107,35,6,92,Bajo,Chiapas
+07074,07074,07,Chiapas,074,Reforma,44829,16258,12523,39,5,5,4,17,Muy alto,Chiapas
+07075,07075,07,Chiapas,075,Las Rosas,28829,8989,7232,49,49,5,4,33,Alto,Chiapas
+07076,07076,07,Chiapas,076,Sabanilla,29889,8244,6775,162,120,80,27,113,Bajo,Chiapas
+07077,07077,07,Chiapas,077,Salto de Agua,64251,17284,14760,126,57,57,38,78,Medio,Chiapas
+07078,07078,07,Chiapas,078,San Cristóbal de las Casas,215874,65980,52718,3,3,3,3,3,Muy alto,Chiapas
+07079,07079,07,Chiapas,079,San Fernando,41793,13024,10483,40,40,9,8,29,Muy alto,Chiapas
+07080,07080,07,Chiapas,080,Siltepec,25937,6667,5208,183,100,93,35,118,Bajo,Chiapas
+07081,07081,07,Chiapas,081,Simojovel,52935,12472,10718,149,145,30,17,104,Bajo,Chiapas
+07082,07082,07,Chiapas,082,Sitalá,15518,4008,3222,163,92,76,39,106,Bajo,Chiapas
+07083,07083,07,Chiapas,083,Socoltenango,19092,6390,5061,71,68,37,11,54,Alto,Chiapas
+07084,07084,07,Chiapas,084,Solosuchiapa,8561,2533,2060,109,62,56,26,72,Medio,Chiapas
+07085,07085,07,Chiapas,085,Soyaló,10890,3246,2567,86,76,46,2,62,Medio,Chiapas
+07086,07086,07,Chiapas,086,Suchiapa,25627,8237,6362,48,44,3,1,31,Alto,Chiapas
+07087,07087,07,Chiapas,087,Suchiate,41672,13591,11045,45,45,9,5,32,Alto,Chiapas
+07088,07088,07,Chiapas,088,Sunuapa,2308,724,561,113,67,40,39,74,Medio,Chiapas
+07089,07089,07,Chiapas,089,Tapachula,353706,121813,96307,12,12,11,6,11,Muy alto,Chiapas
+07090,07090,07,Chiapas,090,Tapalapa,4547,1554,1102,187,151,87,50,136,Muy bajo,Chiapas
+07091,07091,07,Chiapas,091,Tapilula,13592,4389,3462,133,85,60,4,85,Medio,Chiapas
+07092,07092,07,Chiapas,092,Tecpatán,21426,7408,5804,141,126,114,29,114,Bajo,Chiapas
+07093,07093,07,Chiapas,093,Tenejapa,48162,11209,9207,58,58,52,13,50,Alto,Chiapas
+07094,07094,07,Chiapas,094,Teopisca,49499,14858,11179,41,41,11,3,29,Muy alto,Chiapas
+07096,07096,07,Chiapas,096,Tila,83505,20775,17999,140,100,53,16,92,Bajo,Chiapas
+07097,07097,07,Chiapas,097,Tonalá,91913,31835,25574,143,14,14,6,58,Alto,Chiapas
+07098,07098,07,Chiapas,098,Totolapa,7211,2258,1735,82,82,32,7,61,Medio,Chiapas
+07099,07099,07,Chiapas,099,La Trinitaria,83111,26435,20865,56,56,37,18,47,Alto,Chiapas
+07100,07100,07,Chiapas,100,Tumbalá,38025,9535,7972,169,108,57,26,107,Bajo,Chiapas
+07101,07101,07,Chiapas,101,Tuxtla Gutiérrez,604147,208847,166210,1,1,1,0,1,Muy alto,Chiapas
+07102,07102,07,Chiapas,102,Tuxtla Chico,41024,13413,10633,23,23,13,4,18,Muy alto,Chiapas
+07103,07103,07,Chiapas,103,Tuzantán,30302,9553,7711,49,14,14,8,25,Muy alto,Chiapas
+07104,07104,07,Chiapas,104,Tzimol,16560,5774,4671,48,48,40,9,41,Alto,Chiapas
+07105,07105,07,Chiapas,105,Unión Juárez,16008,4962,3938,60,60,29,5,46,Alto,Chiapas
+07106,07106,07,Chiapas,106,Venustiano Carranza,67292,22524,17906,81,81,17,5,57,Alto,Chiapas
+07107,07107,07,Chiapas,107,Villa Corzo,65643,20951,16824,144,55,41,13,77,Medio,Chiapas
+07108,07108,07,Chiapas,108,Villaflores,109536,36061,29277,113,26,25,8,54,Alto,Chiapas
+07109,07109,07,Chiapas,109,Yajalón,40285,10465,8753,179,88,13,10,93,Bajo,Chiapas
+07110,07110,07,Chiapas,110,San Lucas,7526,2492,1831,54,54,33,4,42,Alto,Chiapas
+07111,07111,07,Chiapas,111,Zinacantán,45373,10955,9129,32,31,31,7,28,Muy alto,Chiapas
+07112,07112,07,Chiapas,112,San Juan Cancuc,37948,8207,6960,97,95,72,18,80,Medio,Chiapas
+07113,07113,07,Chiapas,113,Aldama,8480,1939,1653,54,54,54,17,48,Alto,Chiapas
+07114,07114,07,Chiapas,114,Benemérito de las Américas,23603,6950,5476,239,183,23,23,147,Muy bajo,Chiapas
+07115,07115,07,Chiapas,115,Maravilla Tenejapa,14714,3702,2952,164,164,137,27,138,Muy bajo,Chiapas
+07116,07116,07,Chiapas,116,Marqués de Comillas,12892,3626,2898,235,202,44,22,155,Muy bajo,Chiapas
+07117,07117,07,Chiapas,117,Montecristo de Guerrero,8412,2430,1829,259,199,62,18,165,Muy bajo,Chiapas
+07118,07118,07,Chiapas,118,San Andrés Duraznal,6047,1589,1311,141,140,29,6,98,Bajo,Chiapas
+07119,07119,07,Chiapas,119,Santiago el Pinar,4959,1101,911,55,55,55,14,49,Alto,Chiapas
+07120,07120,07,Chiapas,120,Capitán Luis Ángel Vidal,4315,1045,805,311,237,125,86,218,Muy bajo,Chiapas
+07121,07121,07,Chiapas,121,Rincón Chamula San Pedro,8718,2294,1847,136,125,18,4,89,Medio,Chiapas
+07122,07122,07,Chiapas,122,El Parral,15587,5371,4266,84,78,5,5,55,Alto,Chiapas
+07123,07123,07,Chiapas,123,Emiliano Zapata,10783,3604,2839,57,56,20,6,42,Alto,Chiapas
+07124,07124,07,Chiapas,124,Mezcalapa,23847,7300,5811,139,112,112,50,112,Bajo,Chiapas
+07125,07125,07,Chiapas,125,Honduras de la Sierra,11650,2971,2344,228,146,126,65,159,Muy bajo,Chiapas
+23001,23001,23,Quintana Roo,001,Cozumel,88626,31078,26424,136,1,1,1,48,Alto,Quintana Roo
+23002,23002,23,Quintana Roo,002,Felipe Carrillo Puerto,83990,27365,21466,129,31,29,11,62,Medio,Quintana Roo
+23003,23003,23,Quintana Roo,003,Isla Mujeres,22686,9557,6773,28,28,10,2,21,Muy alto,Quintana Roo
+23004,23004,23,Quintana Roo,004,Othón P. Blanco,233648,87728,70782,15,15,14,5,13,Muy alto,Quintana Roo
+23005,23005,23,Quintana Roo,005,Benito Juárez,911503,336997,287117,1,1,0,0,1,Muy alto,Quintana Roo
+23006,23006,23,Quintana Roo,006,José María Morelos,39165,13891,10429,143,78,24,16,81,Medio,Quintana Roo
+23007,23007,23,Quintana Roo,007,Lázaro Cárdenas,29171,10413,7918,71,70,68,19,62,Medio,Quintana Roo
+23008,23008,23,Quintana Roo,008,Solidaridad,333800,144680,110776,2,2,0,0,1,Muy alto,Quintana Roo
+23009,23009,23,Quintana Roo,009,Tulum,46721,21990,14029,61,9,8,7,27,Muy alto,Quintana Roo
+23010,23010,23,Quintana Roo,010,Bacalar,41754,14266,11186,70,67,36,21,55,Alto,Quintana Roo
+23011,23011,23,Quintana Roo,011,Puerto Morelos,26921,13757,8735,43,43,12,0,30,Muy alto,Quintana Roo
+27001,27001,27,Tabasco,001,Balancán,58524,22460,17037,171,66,35,21,90,Medio,Tabasco
+27002,27002,27,Tabasco,002,Cárdenas,243229,84713,67278,64,21,20,3,33,Alto,Tabasco
+27003,27003,27,Tabasco,003,Centla,107731,34495,28480,73,60,27,8,50,Alto,Tabasco
+27004,27004,27,Tabasco,004,Centro,683607,248143,197683,13,11,6,2,9,Muy alto,Tabasco
+27005,27005,27,Tabasco,005,Comalcalco,214877,70296,58320,63,16,9,4,29,Muy alto,Tabasco
+27006,27006,27,Tabasco,006,Cunduacán,137257,44811,37604,43,23,14,4,25,Muy alto,Tabasco
+27007,27007,27,Tabasco,007,Emiliano Zapata,32181,12252,9518,117,55,7,3,59,Alto,Tabasco
+27008,27008,27,Tabasco,008,Huimanguillo,190885,62848,51674,70,22,22,9,37,Alto,Tabasco
+27009,27009,27,Tabasco,009,Jalapa,37749,12760,10573,40,26,23,13,28,Muy alto,Tabasco
+27010,27010,27,Tabasco,010,Jalpa de Méndez,91185,27142,23707,46,25,9,2,26,Muy alto,Tabasco
+27011,27011,27,Tabasco,011,Jonuta,30798,10184,8674,123,83,70,26,86,Medio,Tabasco
+27012,27012,27,Tabasco,012,Macuspana,158601,52633,43231,55,19,12,8,29,Muy alto,Tabasco
+27013,27013,27,Tabasco,013,Nacajuca,150300,51899,42007,23,12,7,1,13,Muy alto,Tabasco
+27014,27014,27,Tabasco,014,Paraíso,96741,32946,26545,69,9,9,4,29,Muy alto,Tabasco
+27015,27015,27,Tabasco,015,Tacotalpa,47905,15924,12769,80,40,40,20,51,Alto,Tabasco
+27016,27016,27,Tabasco,016,Teapa,58718,19244,16168,64,8,8,6,27,Muy alto,Tabasco
+27017,27017,27,Tabasco,017,Tenosique,62310,24050,18146,179,17,16,16,73,Medio,Tabasco
+31001,31001,31,Yucatán,001,Abalá,6550,2208,1822,40,28,21,7,28,Muy alto,Yucatán
+31002,31002,31,Yucatán,002,Acanceh,16772,4914,4259,19,19,3,3,13,Muy alto,Yucatán
+31003,31003,31,Yucatán,003,Akil,12285,3874,3277,76,14,0,0,31,Alto,Yucatán
+31004,31004,31,Yucatán,004,Baca,6195,2213,1752,33,13,13,1,18,Muy alto,Yucatán
+31005,31005,31,Yucatán,005,Bokobá,2167,837,634,52,22,22,9,31,Alto,Yucatán
+31006,31006,31,Yucatán,006,Buctzotz,9159,3733,2688,81,44,40,2,50,Alto,Yucatán
+31007,31007,31,Yucatán,007,Cacalchén,7490,2502,2051,45,17,17,0,24,Muy alto,Yucatán
+31008,31008,31,Yucatán,008,Calotmul,3949,1613,1157,120,22,18,3,53,Alto,Yucatán
+31009,31009,31,Yucatán,009,Cansahcab,4466,1853,1315,56,21,21,1,30,Muy alto,Yucatán
+31010,31010,31,Yucatán,010,Cantamayec,2755,960,746,85,53,42,14,56,Alto,Yucatán
+31011,31011,31,Yucatán,011,Celestún,8389,3101,2370,87,62,62,0,61,Medio,Yucatán
+31012,31012,31,Yucatán,012,Cenotillo,3736,2143,1189,103,57,31,2,60,Alto,Yucatán
+31013,31013,31,Yucatán,013,Conkal,16671,6507,4990,24,24,1,1,16,Muy alto,Yucatán
+31014,31014,31,Yucatán,014,Cuncunul,1714,582,441,108,16,16,7,47,Alto,Yucatán
+31015,31015,31,Yucatán,015,Cuzamá,5560,1791,1513,40,40,19,2,30,Muy alto,Yucatán
+31016,31016,31,Yucatán,016,Chacsinkín,3104,900,725,86,32,16,1,43,Alto,Yucatán
+31017,31017,31,Yucatán,017,Chankom,4686,1770,1239,107,44,44,19,62,Medio,Yucatán
+31018,31018,31,Yucatán,018,Chapab,3385,1220,966,57,15,15,11,29,Muy alto,Yucatán
+31019,31019,31,Yucatán,019,Chemax,38934,10282,8511,90,38,13,4,46,Alto,Yucatán
+31020,31020,31,Yucatán,020,Chicxulub Pueblo,4497,1724,1312,29,23,9,0,19,Muy alto,Yucatán
+31021,31021,31,Yucatán,021,Chichimilá,9406,2675,2060,119,21,21,7,53,Alto,Yucatán
+31022,31022,31,Yucatán,022,Chikindzonot,4363,1329,1015,129,55,47,5,72,Medio,Yucatán
+31023,31023,31,Yucatán,023,Chocholá,4863,1878,1456,36,18,18,0,22,Muy alto,Yucatán
+31024,31024,31,Yucatán,024,Chumayel,3244,1228,894,53,31,14,0,31,Alto,Yucatán
+31025,31025,31,Yucatán,025,Dzán,6003,1844,1473,73,11,11,0,31,Alto,Yucatán
+31026,31026,31,Yucatán,026,Dzemul,3622,1842,1091,48,19,19,0,26,Muy alto,Yucatán
+31027,31027,31,Yucatán,027,Dzidzantún,8345,3475,2495,69,34,34,1,41,Alto,Yucatán
+31028,31028,31,Yucatán,028,Dzilam de Bravo,2936,1244,882,94,59,59,12,64,Medio,Yucatán
+31029,31029,31,Yucatán,029,Dzilam González,6240,2584,1922,83,48,47,0,53,Alto,Yucatán
+31030,31030,31,Yucatán,030,Dzitás,4015,1468,1079,90,37,30,2,49,Alto,Yucatán
+31031,31031,31,Yucatán,031,Dzoncauich,2818,1161,792,71,36,30,7,43,Alto,Yucatán
+31032,31032,31,Yucatán,032,Espita,16779,5561,4237,120,32,4,4,53,Alto,Yucatán
+31033,31033,31,Yucatán,033,Halachó,21255,6985,5767,73,54,6,3,43,Alto,Yucatán
+31034,31034,31,Yucatán,034,Hocabá,6514,2225,1686,43,43,37,2,36,Alto,Yucatán
+31035,31035,31,Yucatán,035,Hoctún,6384,2367,1836,38,34,22,2,28,Muy alto,Yucatán
+31036,31036,31,Yucatán,036,Homún,8090,2755,2229,47,47,25,2,36,Alto,Yucatán
+31037,31037,31,Yucatán,037,Huhí,5250,2070,1578,55,55,41,0,44,Alto,Yucatán
+31038,31038,31,Yucatán,038,Hunucmá,35137,11953,8944,39,3,3,2,15,Muy alto,Yucatán
+31039,31039,31,Yucatán,039,Ixil,4186,1359,1121,35,26,15,0,23,Muy alto,Yucatán
+31040,31040,31,Yucatán,040,Izamal,28555,10279,7905,53,39,5,1,31,Alto,Yucatán
+31041,31041,31,Yucatán,041,Kanasín,141939,52140,40034,0,0,0,0,0,Muy alto,Yucatán
+31042,31042,31,Yucatán,042,Kantunil,5553,2177,1561,54,50,24,5,39,Alto,Yucatán
+31043,31043,31,Yucatán,043,Kaua,3405,1063,845,104,24,24,1,49,Alto,Yucatán
+31044,31044,31,Yucatán,044,Kinchil,7530,2402,2011,43,18,18,0,24,Muy alto,Yucatán
+31045,31045,31,Yucatán,045,Kopomá,2677,973,788,47,28,12,12,29,Muy alto,Yucatán
+31046,31046,31,Yucatán,046,Mama,3296,1152,866,49,25,9,0,26,Muy alto,Yucatán
+31047,31047,31,Yucatán,047,Maní,5968,2063,1555,65,17,16,1,31,Alto,Yucatán
+31048,31048,31,Yucatán,048,Maxcanú,23991,7366,6322,62,43,8,7,37,Alto,Yucatán
+31049,31049,31,Yucatán,049,Mayapán,3965,1188,945,70,42,31,0,43,Alto,Yucatán
+31050,31050,31,Yucatán,050,Mérida,995129,371987,303941,2,1,1,0,1,Muy alto,Yucatán
+31051,31051,31,Yucatán,051,Mocochá,3430,1195,1004,27,18,9,6,18,Muy alto,Yucatán
+31052,31052,31,Yucatán,052,Motul,37804,12883,10134,43,3,3,3,17,Muy alto,Yucatán
+31053,31053,31,Yucatán,053,Muna,13494,4481,3411,57,27,1,1,28,Muy alto,Yucatán
+31054,31054,31,Yucatán,054,Muxupip,2990,1076,866,40,12,11,1,20,Muy alto,Yucatán
+31055,31055,31,Yucatán,055,Opichén,7080,2485,1914,60,41,17,2,37,Alto,Yucatán
+31056,31056,31,Yucatán,056,Oxkutzcab,33854,11463,8573,84,6,6,5,33,Alto,Yucatán
+31057,31057,31,Yucatán,057,Panabá,7766,2995,2215,132,27,27,5,60,Alto,Yucatán
+31058,31058,31,Yucatán,058,Peto,25954,8621,6403,100,45,3,2,49,Alto,Yucatán
+31059,31059,31,Yucatán,059,Progreso,66008,28542,18511,38,5,5,0,16,Muy alto,Yucatán
+31060,31060,31,Yucatán,060,Quintana Roo,976,440,305,94,48,39,11,57,Alto,Yucatán
+31061,31061,31,Yucatán,061,Río Lagartos,3974,1495,1101,166,49,49,37,88,Medio,Yucatán
+31062,31062,31,Yucatán,062,Sacalum,4962,1737,1374,55,18,18,1,28,Muy alto,Yucatán
+31063,31063,31,Yucatán,063,Samahil,5631,1667,1443,46,19,19,3,26,Muy alto,Yucatán
+31064,31064,31,Yucatán,064,Sanahcat,1701,689,484,48,48,39,7,40,Alto,Yucatán
+31065,31065,31,Yucatán,065,San Felipe,2118,892,632,155,50,50,26,83,Medio,Yucatán
+31066,31066,31,Yucatán,066,Santa Elena,4220,1468,1124,82,20,19,3,39,Alto,Yucatán
+31067,31067,31,Yucatán,067,Seyé,10053,3314,2698,27,27,16,1,21,Muy alto,Yucatán
+31068,31068,31,Yucatán,068,Sinanché,3206,1649,993,63,28,28,3,37,Alto,Yucatán
+31069,31069,31,Yucatán,069,Sotuta,8967,3271,2398,77,71,47,4,58,Alto,Yucatán
+31070,31070,31,Yucatán,070,Sucilá,3971,1588,1177,114,19,17,0,49,Alto,Yucatán
+31071,31071,31,Yucatán,071,Sudzal,1949,771,579,61,54,13,11,42,Alto,Yucatán
+31072,31072,31,Yucatán,072,Suma,1857,756,572,53,15,15,12,28,Muy alto,Yucatán
+31073,31073,31,Yucatán,073,Tahdziú,5854,1574,1278,110,55,16,2,59,Alto,Yucatán
+31074,31074,31,Yucatán,074,Tahmek,3774,1385,1089,31,31,27,0,26,Muy alto,Yucatán
+31075,31075,31,Yucatán,075,Teabo,6921,2065,1676,58,30,18,0,33,Alto,Yucatán
+31076,31076,31,Yucatán,076,Tecoh,17939,5580,4722,27,27,6,5,20,Muy alto,Yucatán
+31077,31077,31,Yucatán,077,Tekal de Venegas,2683,1043,775,67,38,13,0,37,Alto,Yucatán
+31078,31078,31,Yucatán,078,Tekantó,3747,1535,1082,54,31,19,1,32,Alto,Yucatán
+31079,31079,31,Yucatán,079,Tekax,45062,14276,11545,92,9,8,7,38,Alto,Yucatán
+31080,31080,31,Yucatán,080,Tekit,11020,3245,2797,45,34,0,0,26,Muy alto,Yucatán
+31081,31081,31,Yucatán,081,Tekom,3355,1195,801,115,22,22,2,52,Alto,Yucatán
+31082,31082,31,Yucatán,082,Telchac Pueblo,3512,1705,1121,50,15,15,0,25,Muy alto,Yucatán
+31083,31083,31,Yucatán,083,Telchac Puerto,1915,2111,568,63,28,28,14,38,Alto,Yucatán
+31084,31084,31,Yucatán,084,Temax,7037,2492,1878,68,33,30,1,40,Alto,Yucatán
+31085,31085,31,Yucatán,085,Temozón,16680,5401,4262,102,26,25,4,49,Alto,Yucatán
+31086,31086,31,Yucatán,086,Tepakán,2133,994,682,66,28,15,10,36,Alto,Yucatán
+31087,31087,31,Yucatán,087,Tetiz,5464,1901,1485,41,14,14,1,22,Muy alto,Yucatán
+31088,31088,31,Yucatán,088,Teya,1917,855,570,62,23,19,8,34,Alto,Yucatán
+31089,31089,31,Yucatán,089,Ticul,40495,12298,10082,68,1,1,0,24,Muy alto,Yucatán
+31090,31090,31,Yucatán,090,Timucuy,7503,2078,1809,18,18,12,3,15,Muy alto,Yucatán
+31091,31091,31,Yucatán,091,Tinum,12700,4224,3234,92,34,34,5,50,Alto,Yucatán
+31092,31092,31,Yucatán,092,Tixcacalcupul,7888,2367,1938,128,39,39,4,65,Medio,Yucatán
+31093,31093,31,Yucatán,093,Tixkokob,18420,6099,5137,28,25,3,3,18,Muy alto,Yucatán
+31094,31094,31,Yucatán,094,Tixmehuac,5444,1814,1422,82,30,29,7,45,Alto,Yucatán
+31095,31095,31,Yucatán,095,Tixpéhual,5690,1841,1537,19,19,9,2,14,Muy alto,Yucatán
+31096,31096,31,Yucatán,096,Tizimín,80672,28688,21283,119,16,16,8,51,Alto,Yucatán
+31097,31097,31,Yucatán,097,Tunkás,3684,1665,1094,82,61,29,2,53,Alto,Yucatán
+31098,31098,31,Yucatán,098,Tzucacab,15346,5150,4006,106,36,6,6,50,Alto,Yucatán
+31099,31099,31,Yucatán,099,Uayma,4191,1229,1008,109,17,16,2,47,Alto,Yucatán
+31100,31100,31,Yucatán,100,Ucú,4049,1439,1139,33,17,17,1,20,Muy alto,Yucatán
+31101,31101,31,Yucatán,101,Umán,69147,25114,19364,29,2,2,2,11,Muy alto,Yucatán
+31102,31102,31,Yucatán,102,Valladolid,85460,30221,22083,103,5,5,2,39,Alto,Yucatán
+31103,31103,31,Yucatán,103,Xocchel,3451,1176,900,41,41,30,0,33,Alto,Yucatán
+31104,31104,31,Yucatán,104,Yaxcabá,16350,5280,4195,96,69,51,13,66,Medio,Yucatán
+31105,31105,31,Yucatán,105,Yaxkukul,3293,1084,908,29,19,11,0,18,Muy alto,Yucatán
+31106,31106,31,Yucatán,106,Yobaín,2215,1212,683,67,32,32,10,41,Alto,Yucatán

@@ -1,0 +1,29 @@
+capa,tabla,id_fuente,filas_original,filas_para_etl,filas_curado,filas_rechazadas,cuadra_original_para_etl,cuadra_para_etl_curado,nota
+gold,ind_municipio_contexto,,533275,,270,,,True,DENUE 2019 5 estados: 533275 = 533275 en municipios de CONAPO 2020 + 0 en municipios creados después de 2020
+gold,ind_municipio_contexto,,604594,,270,,,True,DENUE 2025 5 estados: 604594 = 603325 en municipios de CONAPO 2020 + 1269 en municipios creados después de 2020
+gold,ind_negocios_ageb_merida,,53183,,526,,,True,DENUE 2019 Mérida: 53183 establecimientos = 52675 en AGEB urbanas del Censo + 505 en AGEB sin renglón urbano en el Censo + 3 sin AGEB
+gold,ind_negocios_ageb_merida,,56014,,526,,,True,DENUE 2025 Mérida: 56014 establecimientos = 55864 en AGEB urbanas del Censo + 150 en AGEB sin renglón urbano en el Censo + 0 sin AGEB
+gold,ind_obras_banquetas_anual,,101,,5,,,True,"101 obras en silver = 101 sumadas por año; monto 87,181,317.01 = 87,181,317.01"
+gold,ind_restaurantes_transporte,,193,,193,,,True,193 restaurantes con coordenadas; 184 a 400 m o menos de una parada
+gold,ind_tren_maya_mensual,,83,,21,,,True,"Pasajeros 2025-2026: 2,225,282 en silver = 2,225,282 en gold"
+silver,aty_paraderos,E8-04.3,3256,3256,3256,0,True,True,
+silver,aty_r901_horario_publicado,E8-05.2,,20,20,0,,True,Sin conteo independiente del original.
+silver,aty_r901_paradas,E8-05.2,,10,10,0,,True,Sin conteo independiente del original.
+silver,aty_r901_tarifas,E8-05.2,,6,6,0,,True,Sin conteo independiente del original.
+silver,aty_r901_viajes,E8-05.2,,80,80,0,,True,Sin conteo independiente del original.
+silver,conapo_accesibilidad_localidad_yucatan,E8-01.3,2434,2434,2434,0,True,True,
+silver,conapo_accesibilidad_municipal,E8-01.3,270,270,270,0,True,True,
+silver,conapo_indicadores_demograficos_municipal,E8-01.2,13821,13821,13821,0,True,True,
+silver,conapo_marginacion_ageb_yucatan_2020,E8-01.1,1220,1220,1220,0,True,True,
+silver,conapo_marginacion_municipal_2020,E8-01.1,270,270,270,0,True,True,
+silver,conapo_poblacion_quinquenal_municipal,E8-01.2,27642,27642,27642,0,True,True,
+silver,inegi_censo_2020_ageb_yucatan,E8-03.3,1532,1532,1532,0,True,True,Del original se toman solo los renglones de total por AGEB (MZA = 000 y AGEB distinta de 0000).
+silver,rutatrenmaya_conexiones_teya,E8-09.3,,3,3,0,,True,Sin conteo independiente del original.
+silver,rutatrenmaya_tarifas_teya,E8-09.3,,202,202,0,,True,Sin conteo independiente del original.
+silver,seccion_amarilla_restaurantes_merida,E8-09.1,,400,395,5,,True,20 páginas de 20 anuncios; el original es HTML.
+silver,siegy_aviacion_2025_12,E8-02.1,,11,11,0,,True,El original es un PDF de una página; cada renglón cita su fragmento de texto.
+silver,siegy_resiliencia_turismo_2025_02,E8-02.3,,24,24,0,,True,El original es un PDF de una página; cada renglón cita su fragmento de texto.
+silver,siegy_turismo_2025_09,E8-02.2,,11,11,0,,True,El original es un PDF de una página; cada renglón cita su fragmento de texto.
+silver,srft_obras_banquetas_merida,E8-05.3,,101,101,0,,True,Filtro de proyectos de guarniciones y banquetas del municipio de Mérida sobre los extractos del SRFT.
+silver,tren_maya_horarios,E8-09.2,,32,32,0,,True,El original es una tabla HTML; no hay conteo independiente.
+silver,tren_maya_servicio_mensual,E8-05.1,122,122,122,0,True,True,Formato largo: un renglón por variable y periodo; los boletos de 2024 traen 2 variables por registro.

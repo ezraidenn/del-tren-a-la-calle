@@ -13,6 +13,13 @@ Reglas:
    reservados: declarados en externos.csv con motivo y sha256, fuera de git
    y sin rastro en el historial.
 8. Las carpetas NN_tipo/N.M_fuente usan el mismo número de subtema.
+9. catalogo_tablas.csv describe cada tabla curada con clave, granularidad,
+   cobertura temporal, territorio, fuente, unidad, versión, formato y
+   responsable, y sus archivos existen.
+10. diccionario_columnas.csv documenta, con descripción y unidad, cada columna
+    de cada tabla del catálogo.
+11. reportes/conciliacion.csv: los conteos cuadran en todas las tablas y cada
+    tabla curada tiene su archivo de registros rechazados.
 
 Termina con código 1 si hay errores.
 
@@ -185,6 +192,63 @@ def regla_tamanos(versionados: list[str]) -> None:
                                "hay que limpiarlo antes de subir")
 
 
+CAMPOS_CATALOGO = ["capa", "tabla", "id_fuente", "formato", "archivo_csv", "clave", "granularidad",
+                   "cobertura_inicio", "cobertura_fin", "territorio", "unidad", "fuente", "version_fuente",
+                   "filas", "responsable"]
+
+
+def regla_catalogo() -> None:
+    if not (RAIZ / "catalogo_tablas.csv").exists():
+        errores.append("falta catalogo_tablas.csv (catálogo de tablas curadas)")
+        return
+    catalogo = leer_csv("catalogo_tablas.csv")
+    if not catalogo:
+        errores.append("catalogo_tablas.csv está vacío")
+        return
+    faltan = [c for c in CAMPOS_CATALOGO if c not in catalogo[0]]
+    if faltan:
+        errores.append(f"catalogo_tablas.csv no tiene las columnas {faltan}")
+        return
+    diccionario = leer_csv("diccionario_columnas.csv") if (RAIZ / "diccionario_columnas.csv").exists() else None
+    if diccionario is None:
+        errores.append("falta diccionario_columnas.csv")
+    documentadas = {(d.get("tabla"), d.get("columna")) for d in diccionario or []
+                    if d.get("descripcion") and d.get("unidad")}
+    for t in catalogo:
+        vacios = [c for c in CAMPOS_CATALOGO if not t.get(c)]
+        if vacios:
+            errores.append(f"catálogo: {t.get('tabla')} sin {vacios}")
+        ruta = dentro_de_raiz(t["archivo_csv"])
+        if ruta is None or not ruta.exists():
+            errores.append(f"catálogo: no existe {t['archivo_csv']}")
+            continue
+        with open(ruta, encoding="utf-8", newline="") as f:
+            columnas = next(csv.reader(f), [])
+            filas = sum(1 for _ in f)
+        if str(filas) != t["filas"]:
+            errores.append(f"catálogo: {t['tabla']} dice {t['filas']} filas y el archivo tiene {filas}")
+        for c in t["clave"].split(";"):
+            if c not in columnas:
+                errores.append(f"catálogo: la clave {c} no es columna de {t['tabla']}")
+        if diccionario is not None:
+            sin_doc = [c for c in columnas if (t["tabla"], c) not in documentadas]
+            if sin_doc:
+                errores.append(f"diccionario: {t['tabla']} tiene {len(sin_doc)} columnas sin descripción o unidad "
+                               f"({', '.join(sin_doc[:5])})")
+
+
+def regla_conciliacion() -> None:
+    ruta = RAIZ / "reportes" / "conciliacion.csv"
+    if not ruta.exists():
+        errores.append("falta reportes/conciliacion.csv")
+        return
+    for c in leer_csv("reportes/conciliacion.csv"):
+        if c.get("cuadra_para_etl_curado") != "True" or c.get("cuadra_original_para_etl") == "False":
+            errores.append(f"conciliación: los conteos de {c.get('tabla')} no cuadran ({c.get('nota', '')})")
+        if c.get("capa") == "silver" and not (RAIZ / "datos" / "rechazados" / f"{c['tabla']}.csv").exists():
+            errores.append(f"falta datos/rechazados/{c['tabla']}.csv")
+
+
 def regla_carpetas() -> None:
     for base in [RAIZ / "datos" / "originales", RAIZ / "datos" / "para-etl", RAIZ / "campo"]:
         if not base.exists():
@@ -221,6 +285,8 @@ def main() -> int:
     regla_datos_personales()
     regla_tamanos(versionados)
     regla_carpetas()
+    regla_catalogo()
+    regla_conciliacion()
     conteo = {e: sum(1 for f in fuentes if f.get("estado") == e) for e in sorted(ESTADOS)}
     print("Fuentes por estado:", conteo)
     unicos = list(dict.fromkeys(errores))
