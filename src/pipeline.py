@@ -5,7 +5,9 @@ Etapas:
 2. para-etl : extracción y limpieza inicial de cada fuente
 3. silver   : curado, reglas de calidad, rechazados y conciliación (src/curar.py)
 4. gold     : dimensiones e indicadores (src/gold.py)
-5. control  : reporte de calidad, manifiesto y validación de la entrega
+5. simulado : respuestas simuladas a las solicitudes de información, marcadas
+              como tales (src/simular_solicitudes.py)
+6. control  : reporte de calidad, manifiesto y validación de la entrega
 
 Se detiene en la primera etapa que falle. La carga a PostgreSQL es aparte:
 python src/cargar_staging.py
@@ -32,7 +34,8 @@ DESCARGAS = [
     "scraping/9.3_guia_estacion_teya.py",
 ]
 PREPARACION = ["para_etl_01_03_05.py"]
-POSTERIORES = ["curar.py", "gold.py", "reporte_calidad.py", "generar_manifest.py", "validar_entrega.py"]
+POSTERIORES = ["curar.py", "gold.py", "simular_solicitudes.py", "reporte_calidad.py", "generar_manifest.py",
+               "validar_entrega.py"]
 
 
 def correr(script: str) -> bool:

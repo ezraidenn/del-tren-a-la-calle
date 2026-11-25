@@ -1,8 +1,9 @@
 """Genera manifest.csv y externos.csv a partir de los archivos del repositorio.
 
 - manifest.csv: una fila por archivo de datos (originales o bronze, para-etl,
-  curados o silver, rechazados, gold, campo y salidas del data mart) con
-  bytes, SHA-256 y procedencia.
+  curados o silver, rechazados, gold, simulados, campo y salidas del data
+  mart) con bytes, SHA-256 y procedencia. Los simulados llevan id de fuente
+  con sufijo -SIM.
 - externos.csv: archivos que no se versionan en git, con el motivo:
   «tamaño» (más de LIMITE_GIT_MB; el servidor los descarga de su URL),
   «privacidad» (páginas crudas con teléfonos o nombres de personas) o
@@ -30,6 +31,7 @@ CARPETAS = [
     RAIZ / "datos" / "curados",
     RAIZ / "datos" / "rechazados",
     RAIZ / "datos" / "gold",
+    RAIZ / "datos" / "simulados",
     RAIZ / "campo",
     RAIZ / "procesamiento" / "03_denue_datamart" / "data",
 ]
@@ -92,6 +94,9 @@ def main() -> None:
             elif "gold" in rel.parts:
                 capa = "gold"
                 derivado_de = "datos/curados"
+            elif "simulados" in rel.parts:
+                capa = "simulado"
+                derivado_de = "datos/para-etl (calibración; ver src/simular_solicitudes.py)"
             elif rel.parts[0] == "campo":
                 capa = "campo"
                 derivado_de = ""
@@ -100,7 +105,7 @@ def main() -> None:
                 derivado_de = "datos/originales/03_inegi"
             fila = {
                 "archivo": str(rel).replace("\\", "/"),
-                "id_fuente": ficha.get("id") or id_fuente(rel),
+                "id_fuente": ficha.get("id") or id_fuente(rel) + ("-SIM" if capa == "simulado" else ""),
                 "capa": capa,
                 "url": ficha.get("url", ""),
                 "derivado_de": derivado_de,

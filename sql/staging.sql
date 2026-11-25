@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS e8_staging.dim_tiempo (
     nombre_mes text,
     PRIMARY KEY (fecha_mes)
 );
-COMMENT ON TABLE e8_staging.dim_tiempo IS 'mes; no aplica; cobertura 2019-01-01 a 2026-12-01; fuente ';
+COMMENT ON TABLE e8_staging.dim_tiempo IS 'mes; no aplica; cobertura 2019-01-01 a 2026-12-01; fuente no aplica';
 
 -- gold: ind_municipio_contexto
 CREATE TABLE IF NOT EXISTS e8_staging.ind_municipio_contexto (
@@ -647,6 +647,25 @@ CREATE TABLE IF NOT EXISTS e8_staging.inegi_censo_2020_ageb_yucatan (
 );
 COMMENT ON TABLE e8_staging.inegi_censo_2020_ageb_yucatan IS 'AGEB urbana; Yucatán; cobertura 2020 a 2020; fuente E8-03.3';
 
+-- silver: osm_unidades_deportivas
+CREATE TABLE IF NOT EXISTS e8_staging.osm_unidades_deportivas (
+    osm_id text,
+    nombre text,
+    tipo text,
+    deporte text,
+    acceso text,
+    operador text,
+    superficie text,
+    iluminado text,
+    acceso_publico_probable boolean,
+    lat double precision,
+    lon double precision,
+    fuente text,
+    version_osm text,
+    PRIMARY KEY (osm_id)
+);
+COMMENT ON TABLE e8_staging.osm_unidades_deportivas IS 'instalación deportiva; Municipio de Mérida; cobertura 2026-11-25 a 2026-11-25; fuente E8-04.1';
+
 -- silver: rutatrenmaya_conexiones_teya
 CREATE TABLE IF NOT EXISTS e8_staging.rutatrenmaya_conexiones_teya (
     servicio text,
@@ -804,4 +823,135 @@ CREATE TABLE IF NOT EXISTS e8_staging.tren_maya_servicio_mensual (
     PRIMARY KEY (variable, periodo_inicio)
 );
 COMMENT ON TABLE e8_staging.tren_maya_servicio_mensual IS 'variable por mes (2024: por periodo publicado); Red completa del Tren Maya; cobertura 2023-12-12 a 2026-09-01; fuente E8-05.1';
+
+-- simulado: sim_obras_banquetas_centro
+CREATE TABLE IF NOT EXISTS e8_staging.sim_obras_banquetas_centro (
+    origen_dato text,
+    numero_obra text,
+    descripcion text,
+    tipo_accion text,
+    calle bigint,
+    entre_calle_1 bigint,
+    entre_calle_2 bigint,
+    perimetro text,
+    lat double precision,
+    lon double precision,
+    metros_lineales double precision,
+    metros_cuadrados double precision,
+    rampas bigint,
+    cruces_peatonales bigint,
+    monto_contratado_mxn double precision,
+    monto_ejercido_mxn double precision,
+    monto_por_m2_mxn double precision,
+    fuente_financiamiento text,
+    fecha_inicio date,
+    fecha_termino date,
+    fecha_termino_programada date,
+    estatus text,
+    dependencia text,
+    nota text,
+    PRIMARY KEY (numero_obra)
+);
+COMMENT ON TABLE e8_staging.sim_obras_banquetas_centro IS 'Obra; Centro Histórico de Mérida, perímetros A y B; cobertura 2023-01-10 a 2026-10-24; fuente E8-05.3-SIM';
+
+-- simulado: sim_r901_corridas_mes
+CREATE TABLE IF NOT EXISTS e8_staging.sim_r901_corridas_mes (
+    origen_dato text,
+    mes text,
+    tipo_dia text,
+    dias bigint,
+    corridas_programadas bigint,
+    corridas_realizadas bigint,
+    cumplimiento_pct double precision,
+    PRIMARY KEY (mes, tipo_dia)
+);
+COMMENT ON TABLE e8_staging.sim_r901_corridas_mes IS 'Mes y tipo de día; Ruta R901 IE-TRAM La Plancha – Teya; cobertura 2026-01 a 2026-09; fuente E8-05.2-SIM';
+
+-- simulado: sim_r901_parada_sentido
+CREATE TABLE IF NOT EXISTS e8_staging.sim_r901_parada_sentido (
+    origen_dato text,
+    mes text,
+    sentido text,
+    orden bigint,
+    stop_id text,
+    parada text,
+    ascensos bigint,
+    descensos bigint,
+    PRIMARY KEY (mes, sentido, orden)
+);
+COMMENT ON TABLE e8_staging.sim_r901_parada_sentido IS 'Mes, sentido y parada; Ruta R901 IE-TRAM La Plancha – Teya; cobertura 2026-01 a 2026-09; fuente E8-05.2-SIM';
+
+-- simulado: sim_r901_validaciones_corrida
+CREATE TABLE IF NOT EXISTS e8_staging.sim_r901_validaciones_corrida (
+    origen_dato text,
+    mes text,
+    tipo_dia text,
+    sentido text,
+    trip_id text,
+    salida text,
+    validaciones bigint,
+    PRIMARY KEY (mes, trip_id)
+);
+COMMENT ON TABLE e8_staging.sim_r901_validaciones_corrida IS 'Mes y corrida del GTFS; Ruta R901 IE-TRAM La Plancha – Teya; cobertura 2026-01 a 2026-09; fuente E8-05.2-SIM';
+
+-- simulado: sim_r901_validaciones_tarifa
+CREATE TABLE IF NOT EXISTS e8_staging.sim_r901_validaciones_tarifa (
+    origen_dato text,
+    mes text,
+    tipo_tarifa text,
+    tarifa_mxn double precision,
+    validaciones bigint,
+    ingreso_mxn double precision,
+    PRIMARY KEY (mes, tipo_tarifa)
+);
+COMMENT ON TABLE e8_staging.sim_r901_validaciones_tarifa IS 'Mes y tipo de tarifa; Ruta R901 IE-TRAM La Plancha – Teya; cobertura 2026-01 a 2026-09; fuente E8-05.2-SIM';
+
+-- simulado: sim_tm_boletos_tarifa
+CREATE TABLE IF NOT EXISTS e8_staging.sim_tm_boletos_tarifa (
+    origen_dato text,
+    mes text,
+    ambito text,
+    tipo_tarifa text,
+    boletos bigint,
+    base_del_total text,
+    PRIMARY KEY (mes, ambito, tipo_tarifa)
+);
+COMMENT ON TABLE e8_staging.sim_tm_boletos_tarifa IS 'Mes, ámbito y tipo de tarifa; Estación Teya-Mérida y red completa; cobertura 2023-12 a 2026-09; fuente E8-05.1-SIM';
+
+-- simulado: sim_tm_origen_destino_teya
+CREATE TABLE IF NOT EXISTS e8_staging.sim_tm_origen_destino_teya (
+    origen_dato text,
+    mes text,
+    estacion_origen text,
+    estacion_destino text,
+    boletos bigint,
+    tiempo_viaje_min double precision,
+    PRIMARY KEY (mes, estacion_origen, estacion_destino)
+);
+COMMENT ON TABLE e8_staging.sim_tm_origen_destino_teya IS 'Mes y par origen-destino con Teya; Red del Tren Maya, viajes desde o hacia Teya; cobertura 2023-12 a 2026-09; fuente E8-05.1-SIM';
+
+-- simulado: sim_tm_pasajeros_estacion_mes
+CREATE TABLE IF NOT EXISTS e8_staging.sim_tm_pasajeros_estacion_mes (
+    origen_dato text,
+    mes text,
+    estacion text,
+    ascensos bigint,
+    descensos bigint,
+    PRIMARY KEY (mes, estacion)
+);
+COMMENT ON TABLE e8_staging.sim_tm_pasajeros_estacion_mes IS 'Estación y mes; Red del Tren Maya (34 estaciones); cobertura 2023-12 a 2026-09; fuente E8-05.1-SIM';
+
+-- simulado: sim_tm_teya_dia_corrida
+CREATE TABLE IF NOT EXISTS e8_staging.sim_tm_teya_dia_corrida (
+    origen_dato text,
+    mes text,
+    dia_semana text,
+    circulacion text,
+    hacia text,
+    hora_salida_teya text,
+    ascensos bigint,
+    descensos bigint,
+    PRIMARY KEY (mes, dia_semana, circulacion)
+);
+COMMENT ON TABLE e8_staging.sim_tm_teya_dia_corrida IS 'Mes, día de la semana y corrida en la estación Teya-Mérida; Estación Teya-Mérida; cobertura 2023-12 a 2026-09; fuente E8-05.1-SIM';
 

@@ -18,6 +18,7 @@ silver,conapo_marginacion_ageb_yucatan_2020,E8-01.1,1220,1220,1220,0,True,True,
 silver,conapo_marginacion_municipal_2020,E8-01.1,270,270,270,0,True,True,
 silver,conapo_poblacion_quinquenal_municipal,E8-01.2,27642,27642,27642,0,True,True,
 silver,inegi_censo_2020_ageb_yucatan,E8-03.3,1532,1532,1532,0,True,True,Del original se toman solo los renglones de total por AGEB (MZA = 000 y AGEB distinta de 0000).
+silver,osm_unidades_deportivas,E8-04.1,825,825,825,0,True,True,Se cuentan los elementos de la respuesta de Overpass que traen coordenada o centro.
 silver,rutatrenmaya_conexiones_teya,E8-09.3,,3,3,0,,True,Sin conteo independiente del original.
 silver,rutatrenmaya_tarifas_teya,E8-09.3,,202,202,0,,True,Sin conteo independiente del original.
 silver,seccion_amarilla_restaurantes_merida,E8-09.1,,400,395,5,,True,20 páginas de 20 anuncios; el original es HTML.
@@ -27,3 +28,13 @@ silver,siegy_turismo_2025_09,E8-02.2,,11,11,0,,True,El original es un PDF de una
 silver,srft_obras_banquetas_merida,E8-05.3,,101,101,0,,True,Filtro de proyectos de guarniciones y banquetas del municipio de Mérida sobre los extractos del SRFT.
 silver,tren_maya_horarios,E8-09.2,,32,32,0,,True,El original es una tabla HTML; no hay conteo independiente.
 silver,tren_maya_servicio_mensual,E8-05.1,122,122,122,0,True,True,Formato largo: un renglón por variable y periodo; los boletos de 2024 traen 2 variables por registro.
+simulado,sim_obras_banquetas_centro,E8-05.3-SIM,32,,32,,,True,"todas las obras caen dentro del Centro Histórico (20.955-20.980 N, 89.605-89.640 O)"
+simulado,sim_obras_banquetas_centro,E8-05.3-SIM,1,,1,,,True,"costo mediano por m² simulado (1,777) entre 1 y 3 veces el del SRFT (942)"
+simulado,sim_r901_corridas_mes,E8-05.2-SIM,5460,,5460,,,True,corridas programadas = viajes del GTFS por tipo de día × días del mes
+simulado,sim_r901_parada_sentido,E8-05.2-SIM,29457,,29457,,,True,ascensos = descensos en cada sentido (nadie se queda a bordo)
+simulado,sim_r901_validaciones_corrida,E8-05.2-SIM,29457,,29457,,,True,validaciones por tarifa = validaciones por corrida
+simulado,sim_r901_validaciones_tarifa,E8-05.2-SIM,29457,,29457,,,True,validaciones por tarifa = ascensos por parada
+simulado,sim_tm_boletos_tarifa,E8-05.1-SIM,3348103,,3348103,,,True,boletos del sistema = boletos vendidos reales (pasajeros donde no se publican) y de Teya = ascensos
+simulado,sim_tm_origen_destino_teya,E8-05.1-SIM,773395,,773395,,,True,boletos con origen o destino Teya = ascensos + descensos de Teya
+simulado,sim_tm_pasajeros_estacion_mes,E8-05.1-SIM,2931271,,2931271,,,True,"ascensos de todas las estaciones = pasajeros transportados de datos.gob.mx en 34 meses (2,931,271)"
+simulado,sim_tm_teya_dia_corrida,E8-05.1-SIM,773395,,773395,,,True,ascensos + descensos por día y corrida = los de Teya en sim_tm_pasajeros_estacion_mes

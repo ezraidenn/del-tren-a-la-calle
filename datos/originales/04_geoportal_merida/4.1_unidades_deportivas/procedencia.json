@@ -3,15 +3,27 @@
   "nombre": "Unidades deportivas",
   "institucion": "Ayuntamiento de Mérida",
   "url_original": "https://geoportal.merida.gob.mx/unidadesdeportivas",
-  "licencia": "Por confirmar en el Geoportal al exportar la capa",
-  "estado": "pendiente",
+  "licencia": "ODbL 1.0 (© colaboradores de OpenStreetMap); las bases derivadas se comparten con la misma licencia",
+  "estado": "sustituto",
   "acceso": "Exportación manual desde el navegador; ver PENDIENTE.md",
   "comprobacion_acceso": {
-    "fecha_utc": "2026-11-24T19:18:38Z",
-    "http": 302,
-    "antibots": true,
-    "resultado": "redirige a la verificación antibots (validate.perfdrive.com)"
+    "fecha_utc": "2026-11-25T07:10:23Z",
+    "http": 200,
+    "antibots": false,
+    "resultado": "responde 200 de forma intermitente; las demás peticiones redirigen a la verificación antibots y robots.txt prohíbe /geoapijs, /vistas y /embed/"
   },
-  "archivos": [],
-  "robots": "https://geoportal.merida.gob.mx/robots.txt: «User-agent: * / Disallow: /geoapijs / Disallow: /vistas / Disallow: /embed/»"
+  "archivos": [
+    {
+      "archivo": "osm_instalaciones_deportivas.json",
+      "url": "https://overpass-api.de/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A120%5D%3Barea%283605961522%29-%3E.m%3B%28nwr%5B%22leisure%22~%22%5E%28sports_centre%7Cstadium%7Cpitch%7Csports_hall%7Ctrack%29%24%22%5D%28area.m%29%3B%29%3Bout+center+tags%3B",
+      "descargado_utc": "2026-11-25T07:11:12Z",
+      "bytes": 155905,
+      "sha256": "518b4dbd2cfc117bb41552007c9ac1aeebb1fc75dc993e0806d36666956d1444",
+      "content_type": "application/json",
+      "nota": "Respuesta de la API Overpass de OpenStreetMap; la consulta va en el parámetro data de la URL."
+    }
+  ],
+  "robots": "https://geoportal.merida.gob.mx/robots.txt: «User-agent: * / Disallow: /geoapijs / Disallow: /vistas / Disallow: /embed/»",
+  "sustituto": "Instalaciones deportivas de OpenStreetMap (leisure = sports_centre, stadium, pitch, sports_hall o track) dentro del límite municipal de Mérida (relación OSM 5961522)",
+  "url_sustituto": "https://www.openstreetmap.org/relation/5961522"
 }

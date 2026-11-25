@@ -508,6 +508,19 @@ silver,inegi_censo_2020_ageb_yucatan,vph_sinrtv,Int64,False,"Viviendas particula
 silver,inegi_censo_2020_ageb_yucatan,vph_sinltc,Int64,False,"Viviendas particulares habitadas sin línea telefónica fija ni teléfono celular: Viviendas particulares habitadas que no cuentan con línea telefónica fija, ni teléfono celular. Comprende las viviendas particulares para las que se captaron las características de la vivienda, clasificadas como: casa única en el terreno; casa que comparte terreno con otra(s); casa dúplex; departamento en edificio; vivienda en vecindad o cuartería; vivienda en cuarto de azotea de un edificio y no especificado de vivienda particular. Incluye a las viviendas particulares sin información de ocupantes.",viviendas,18.6,"INEGI, Censo de Población y Vivienda 2020, diccionario de datos de AGEB y manzana urbana de Yucatán (diccionario_de_datos/diccionario_datos_ageb_urbana_31_cpv2020.csv dentro de datos/originales/03_inegi/3.3_censo_2020_ageb/ageb_mza_urbana_31_cpv2020_csv.zip; https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/ageb_manzana/ageb_mza_urbana_31_cpv2020_csv.zip)"
 silver,inegi_censo_2020_ageb_yucatan,vph_sincint,Int64,False,"Viviendas particulares habitadas sin computadora ni Internet: Viviendas particulares habitadas que no cuentan con computadora, laptop o tablet ni Internet. Comprende las viviendas particulares para las que se captaron las características de la vivienda, clasificadas como: casa única en el terreno; casa que comparte terreno con otra(s); casa dúplex; departamento en edificio; vivienda en vecindad o cuartería; vivienda en cuarto de azotea de un edificio y no especificado de vivienda particular. Incluye a las viviendas particulares sin información de ocupantes.",viviendas,6.33,"INEGI, Censo de Población y Vivienda 2020, diccionario de datos de AGEB y manzana urbana de Yucatán (diccionario_de_datos/diccionario_datos_ageb_urbana_31_cpv2020.csv dentro de datos/originales/03_inegi/3.3_censo_2020_ageb/ageb_mza_urbana_31_cpv2020_csv.zip; https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/ageb_manzana/ageb_mza_urbana_31_cpv2020_csv.zip)"
 silver,inegi_censo_2020_ageb_yucatan,vph_sintic,Int64,False,"Viviendas particulares habitadas sin tecnologías de la información y de la comunicación (TIC): Viviendas particulares habitadas que no cuentan con algún aparato o dispositivo para oír radio; televisor; computadora, laptop o tablet; línea telefónica fija; teléfono celular; Internet; servicio de televisión de paga (cable o satelital); servicio de películas, música o videos de paga por internet ni consola de videojuegos. Comprende las viviendas particulares para las que se captaron las características de la vivienda, clasificadas como: casa única en el terreno; casa que comparte terreno con otra(s); casa dúplex; departamento en edificio; vivienda en vecindad o cuartería; vivienda en cuarto de azotea de un edificio y no especificado de vivienda particular. Incluye a las viviendas particulares sin información de ocupantes.",viviendas,23.56,"INEGI, Censo de Población y Vivienda 2020, diccionario de datos de AGEB y manzana urbana de Yucatán (diccionario_de_datos/diccionario_datos_ageb_urbana_31_cpv2020.csv dentro de datos/originales/03_inegi/3.3_censo_2020_ageb/ageb_mza_urbana_31_cpv2020_csv.zip; https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/ageb_manzana/ageb_mza_urbana_31_cpv2020_csv.zip)"
+silver,osm_unidades_deportivas,osm_id,string,True,"Identificador del elemento en OpenStreetMap: tipo (node, way o relation) y número.",clave,0.0,Modelo de datos de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Elements)
+silver,osm_unidades_deportivas,nombre,string,False,Nombre de la instalación (etiqueta name); vacío si no lo tiene.,texto,89.94,Wiki de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Key:name)
+silver,osm_unidades_deportivas,tipo,string,False,"Tipo de instalación (etiqueta leisure): sports_centre, stadium, pitch, sports_hall o track.",texto,0.0,Wiki de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Key:leisure)
+silver,osm_unidades_deportivas,deporte,string,False,Deporte o deportes (etiqueta sport); varios se separan con punto y coma.,texto,9.58,Wiki de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Key:sport)
+silver,osm_unidades_deportivas,acceso,string,False,Restricción de acceso (etiqueta access); «sin dato» si no está etiquetada.,texto,0.0,Wiki de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Key:access)
+silver,osm_unidades_deportivas,operador,string,False,Quién opera la instalación (etiqueta operator); vacío si no lo tiene.,texto,98.91,Wiki de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Key:operator)
+silver,osm_unidades_deportivas,superficie,string,False,Material de la superficie (etiqueta surface).,texto,90.18,Wiki de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Key:surface)
+silver,osm_unidades_deportivas,iluminado,string,False,Si tiene iluminación (etiqueta lit: yes o no).,texto,91.76,Wiki de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Key:lit)
+silver,osm_unidades_deportivas,acceso_publico_probable,boolean,False,"Verdadero si el acceso no está marcado como private, customers, members o no.",booleano,0.0,script src/04_geoportal_merida.py
+silver,osm_unidades_deportivas,lat,Float64,False,Latitud del nodo o del centro del área.,grados decimales EPSG:4326,0.0,"API Overpass, salida out center (https://wiki.openstreetmap.org/wiki/Overpass_API)"
+silver,osm_unidades_deportivas,lon,Float64,False,Longitud del nodo o del centro del área.,grados decimales EPSG:4326,0.0,"API Overpass, salida out center (https://wiki.openstreetmap.org/wiki/Overpass_API)"
+silver,osm_unidades_deportivas,fuente,string,False,Origen del registro: OpenStreetMap.,texto,0.0,script src/04_geoportal_merida.py
+silver,osm_unidades_deportivas,version_osm,string,False,Fecha y hora UTC de la base de OpenStreetMap con que respondió Overpass (osm3s.timestamp_osm_base).,fecha y hora UTC,0.0,API Overpass (https://wiki.openstreetmap.org/wiki/Overpass_API)
 silver,rutatrenmaya_conexiones_teya,servicio,string,True,Servicio de transporte descrito en la sección «¿Cómo moverse desde la estación…?» de la guía.,texto,0.0,script src/scraping/9.3_guia_estacion_teya.py
 silver,rutatrenmaya_conexiones_teya,origen,string,True,Punto de origen del trayecto.,texto,0.0,script src/scraping/9.3_guia_estacion_teya.py
 silver,rutatrenmaya_conexiones_teya,destino,string,True,Punto de destino del trayecto.,texto,0.0,script src/scraping/9.3_guia_estacion_teya.py
@@ -612,3 +625,80 @@ silver,tren_maya_servicio_mensual,periodo_fin,string,False,"Último día del per
 silver,tren_maya_servicio_mensual,variable,string,True,"Variable medida: pasajeros_transportados, boletos_vendidos, boletos_vendidos_estaciones, boletos_vendidos_puntos_venta o kilometros_recorridos (distancia recorrida por los trenes).",texto,0.0,"script src/para_etl_01_03_05.py; definiciones de las variables en los metadatos del DataStore de datos.gob.mx, conjunto Prestación del servicio ferroviario de pasajeros (https://www.datos.gob.mx/dataset/prestacion_servicio_ferroviario_pasajeros)"
 silver,tren_maya_servicio_mensual,valor,Float64,False,Valor de la variable en el periodo.,"pasajeros, boletos o km según la columna variable",5.74,"script src/para_etl_01_03_05.py; definiciones de las variables en los metadatos del DataStore de datos.gob.mx, conjunto Prestación del servicio ferroviario de pasajeros (https://www.datos.gob.mx/dataset/prestacion_servicio_ferroviario_pasajeros)"
 silver,tren_maya_servicio_mensual,archivo_origen,string,False,Archivo JSON original (descargado del DataStore de datos.gob.mx) del que sale la fila.,texto,0.0,script src/para_etl_01_03_05.py
+simulado,sim_obras_banquetas_centro,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,numero_obra,str,True,Identificador de la obra en la simulación (SIM-OP-año-consecutivo); no es un número de contrato real,código,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,descripcion,str,False,Nombre o descripción de la obra,texto,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,tipo_accion,str,False,Tipo de acción sobre la banqueta,texto,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,calle,int64,False,Calle intervenida (nomenclatura numérica de Mérida),número de calle,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,entre_calle_1,int64,False,Primer cruzamiento,número de calle,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,entre_calle_2,int64,False,Segundo cruzamiento,número de calle,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,perimetro,str,False,"Perímetro de la zona de monumentos (A o B), aproximado",texto,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,lat,float64,False,"Latitud del punto medio del tramo, WGS84",grados decimales (EPSG:4326),0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,lon,float64,False,"Longitud del punto medio del tramo, WGS84",grados decimales (EPSG:4326),0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,metros_lineales,float64,False,Metros lineales de banqueta intervenidos,m,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,metros_cuadrados,float64,False,Metros cuadrados de banqueta intervenidos,m²,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,rampas,int64,False,Rampas construidas,rampas,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,cruces_peatonales,int64,False,Cruces peatonales construidos,cruces,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,monto_contratado_mxn,float64,False,Monto contratado,pesos (MXN),0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,monto_ejercido_mxn,float64,False,Monto ejercido al corte,pesos (MXN),0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,monto_por_m2_mxn,float64,False,Monto contratado entre metros cuadrados,pesos por m²,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,fuente_financiamiento,str,False,Origen de los recursos,texto,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,fecha_inicio,str,False,Fecha de inicio de la obra,fecha,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,fecha_termino,str,False,Fecha de término; vacía si sigue en proceso,fecha,3.12,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,fecha_termino_programada,str,False,Fecha de término programada,fecha,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,estatus,str,False,Terminada o En proceso al corte del 20 de noviembre de 2026,texto,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,dependencia,str,False,Dependencia municipal responsable,texto,0.0,src/simular_solicitudes.py
+simulado,sim_obras_banquetas_centro,nota,str,False,Observación; vacía si no hay,texto,96.88,src/simular_solicitudes.py
+simulado,sim_r901_corridas_mes,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_corridas_mes,mes,str,True,Mes (AAAA-MM),mes,0.0,src/simular_solicitudes.py
+simulado,sim_r901_corridas_mes,tipo_dia,str,True,"Tipo de día del GTFS (L-V, Sabado, Domingo)",texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_corridas_mes,dias,int64,False,Días de ese tipo en el mes,días,0.0,src/simular_solicitudes.py
+simulado,sim_r901_corridas_mes,corridas_programadas,int64,False,Viajes del GTFS para ese tipo de día por los días del mes,corridas,0.0,src/simular_solicitudes.py
+simulado,sim_r901_corridas_mes,corridas_realizadas,int64,False,Corridas que sí salieron,corridas,0.0,src/simular_solicitudes.py
+simulado,sim_r901_corridas_mes,cumplimiento_pct,float64,False,Corridas realizadas entre programadas,porcentaje,0.0,src/simular_solicitudes.py
+simulado,sim_r901_parada_sentido,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_parada_sentido,mes,str,True,Mes (AAAA-MM),mes,0.0,src/simular_solicitudes.py
+simulado,sim_r901_parada_sentido,sentido,str,True,Sentido de la ruta según el GTFS,texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_parada_sentido,orden,int64,True,Orden de la parada en el sentido,número,0.0,src/simular_solicitudes.py
+simulado,sim_r901_parada_sentido,stop_id,str,False,Identificador de la parada en el GTFS de la ATY,código,0.0,src/simular_solicitudes.py
+simulado,sim_r901_parada_sentido,parada,str,False,Nombre de la parada en el GTFS,texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_parada_sentido,ascensos,int64,False,Pasajeros que suben en la parada en el mes,pasajeros,0.0,src/simular_solicitudes.py
+simulado,sim_r901_parada_sentido,descensos,int64,False,Pasajeros que bajan en la parada en el mes,pasajeros,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_corrida,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_corrida,mes,str,True,Mes (AAAA-MM),mes,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_corrida,tipo_dia,str,False,Tipo de día del GTFS,texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_corrida,sentido,str,False,Sentido de la ruta según el GTFS,texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_corrida,trip_id,str,True,Identificador del viaje en el GTFS de la ATY,código,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_corrida,salida,str,False,Hora de salida de la terminal (HH:MM),hora,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_corrida,validaciones,int64,False,"Validaciones en esa corrida, sumando todos los días del tipo en el mes",validaciones,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_tarifa,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_tarifa,mes,str,True,Mes (AAAA-MM),mes,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_tarifa,tipo_tarifa,str,True,Tipo de usuario de la tarifa publicada por el IE-TRAM,texto,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_tarifa,tarifa_mxn,float64,False,Tarifa vigente del tipo de usuario,pesos (MXN),0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_tarifa,validaciones,int64,False,Validaciones de pago o de tarjeta en el mes,validaciones,0.0,src/simular_solicitudes.py
+simulado,sim_r901_validaciones_tarifa,ingreso_mxn,float64,False,Validaciones por tarifa,pesos (MXN),0.0,src/simular_solicitudes.py
+simulado,sim_tm_boletos_tarifa,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_boletos_tarifa,mes,str,True,Mes de venta (AAAA-MM),mes,0.0,src/simular_solicitudes.py
+simulado,sim_tm_boletos_tarifa,ambito,str,True,«Sistema» para toda la red o el nombre de la estación,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_boletos_tarifa,tipo_tarifa,str,True,Tipo de tarifa del boleto,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_boletos_tarifa,boletos,int64,False,Boletos vendidos en el mes,boletos,0.0,src/simular_solicitudes.py
+simulado,sim_tm_boletos_tarifa,base_del_total,str,False,Cifra real con la que cuadra el total del mes,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_origen_destino_teya,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_origen_destino_teya,mes,str,True,Mes del viaje (AAAA-MM),mes,0.0,src/simular_solicitudes.py
+simulado,sim_tm_origen_destino_teya,estacion_origen,str,True,Estación donde inicia el viaje,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_origen_destino_teya,estacion_destino,str,True,Estación donde termina el viaje,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_origen_destino_teya,boletos,int64,False,Boletos vendidos para ese par de estaciones en el mes,boletos,0.0,src/simular_solicitudes.py
+simulado,sim_tm_origen_destino_teya,tiempo_viaje_min,float64,False,Tiempo de viaje publicado entre Teya y la otra estación; vacío si la guía no lo publica,minutos,17.74,src/simular_solicitudes.py
+simulado,sim_tm_pasajeros_estacion_mes,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_pasajeros_estacion_mes,mes,str,True,Mes de operación (AAAA-MM),mes,0.0,src/simular_solicitudes.py
+simulado,sim_tm_pasajeros_estacion_mes,estacion,str,True,"Estación del Tren Maya, con el nombre de la guía de la estación Teya",texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_pasajeros_estacion_mes,ascensos,int64,False,Pasajeros que abordaron en la estación en el mes,pasajeros,0.0,src/simular_solicitudes.py
+simulado,sim_tm_pasajeros_estacion_mes,descensos,int64,False,Pasajeros que descendieron en la estación en el mes,pasajeros,0.0,src/simular_solicitudes.py
+simulado,sim_tm_teya_dia_corrida,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_teya_dia_corrida,mes,str,True,Mes de operación (AAAA-MM),mes,0.0,src/simular_solicitudes.py
+simulado,sim_tm_teya_dia_corrida,dia_semana,str,True,Día de la semana (suma de todos los días de ese tipo en el mes),texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_teya_dia_corrida,circulacion,str,True,Número de circulación del horario oficial,código,0.0,src/simular_solicitudes.py
+simulado,sim_tm_teya_dia_corrida,hacia,str,False,Siguiente estación terminal de la corrida al salir de Teya,texto,0.0,src/simular_solicitudes.py
+simulado,sim_tm_teya_dia_corrida,hora_salida_teya,str,False,"Hora programada de salida de Teya (hora local, HH:MM)",hora,0.0,src/simular_solicitudes.py
+simulado,sim_tm_teya_dia_corrida,ascensos,int64,False,"Pasajeros que abordaron en Teya en esa corrida y día de la semana, en el mes",pasajeros,0.0,src/simular_solicitudes.py
+simulado,sim_tm_teya_dia_corrida,descensos,int64,False,"Pasajeros que descendieron en Teya en esa corrida y día de la semana, en el mes",pasajeros,0.0,src/simular_solicitudes.py

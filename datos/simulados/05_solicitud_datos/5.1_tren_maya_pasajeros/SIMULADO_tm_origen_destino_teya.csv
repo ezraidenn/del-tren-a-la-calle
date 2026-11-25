@@ -1,0 +1,1985 @@
+origen_dato,mes,estacion_origen,estacion_destino,boletos,tiempo_viaje_min
+SIMULADO,2023-12,Mérida Teya,Cancún Aeropuerto,513,216.0
+SIMULADO,2023-12,Mérida Teya,Valladolid,557,113.0
+SIMULADO,2023-12,Mérida Teya,San Fco. Campeche,402,143.0
+SIMULADO,2023-12,Mérida Teya,Chichén Itzá,333,83.0
+SIMULADO,2023-12,Mérida Teya,Izamal,218,38.0
+SIMULADO,2023-12,Mérida Teya,Leona Vicario,53,188.0
+SIMULADO,2023-12,Mérida Teya,Nuevo Xcán,41,159.0
+SIMULADO,2023-12,Mérida Teya,Calkiní,82,65.0
+SIMULADO,2023-12,Mérida Teya,Maxcanú,78,46.0
+SIMULADO,2023-12,Mérida Teya,Umán,86,20.0
+SIMULADO,2023-12,Mérida Teya,Hecelchakán,59,81.0
+SIMULADO,2023-12,Mérida Teya,Tenabo,43,96.0
+SIMULADO,2023-12,Mérida Teya,Tixkokob,84,14.0
+SIMULADO,2023-12,Cancún Aeropuerto,Mérida Teya,573,216.0
+SIMULADO,2023-12,Valladolid,Mérida Teya,438,113.0
+SIMULADO,2023-12,San Fco. Campeche,Mérida Teya,278,143.0
+SIMULADO,2023-12,Chichén Itzá,Mérida Teya,354,83.0
+SIMULADO,2023-12,Izamal,Mérida Teya,215,38.0
+SIMULADO,2023-12,Leona Vicario,Mérida Teya,43,188.0
+SIMULADO,2023-12,Nuevo Xcán,Mérida Teya,47,159.0
+SIMULADO,2023-12,Calkiní,Mérida Teya,66,65.0
+SIMULADO,2023-12,Maxcanú,Mérida Teya,69,46.0
+SIMULADO,2023-12,Umán,Mérida Teya,93,20.0
+SIMULADO,2023-12,Hecelchakán,Mérida Teya,45,81.0
+SIMULADO,2023-12,Tenabo,Mérida Teya,39,96.0
+SIMULADO,2023-12,Tixkokob,Mérida Teya,70,14.0
+SIMULADO,2024-01,Mérida Teya,Cancún Aeropuerto,1588,216.0
+SIMULADO,2024-01,Mérida Teya,Valladolid,1383,113.0
+SIMULADO,2024-01,Mérida Teya,San Fco. Campeche,995,143.0
+SIMULADO,2024-01,Mérida Teya,Chichén Itzá,844,83.0
+SIMULADO,2024-01,Mérida Teya,Izamal,583,38.0
+SIMULADO,2024-01,Mérida Teya,Leona Vicario,136,188.0
+SIMULADO,2024-01,Mérida Teya,Nuevo Xcán,95,159.0
+SIMULADO,2024-01,Mérida Teya,Calkiní,194,65.0
+SIMULADO,2024-01,Mérida Teya,Maxcanú,174,46.0
+SIMULADO,2024-01,Mérida Teya,Umán,253,20.0
+SIMULADO,2024-01,Mérida Teya,Hecelchakán,112,81.0
+SIMULADO,2024-01,Mérida Teya,Tenabo,111,96.0
+SIMULADO,2024-01,Mérida Teya,Tixkokob,228,14.0
+SIMULADO,2024-01,Cancún Aeropuerto,Mérida Teya,1372,216.0
+SIMULADO,2024-01,Valladolid,Mérida Teya,1387,113.0
+SIMULADO,2024-01,San Fco. Campeche,Mérida Teya,1019,143.0
+SIMULADO,2024-01,Chichén Itzá,Mérida Teya,1174,83.0
+SIMULADO,2024-01,Izamal,Mérida Teya,596,38.0
+SIMULADO,2024-01,Leona Vicario,Mérida Teya,140,188.0
+SIMULADO,2024-01,Nuevo Xcán,Mérida Teya,135,159.0
+SIMULADO,2024-01,Calkiní,Mérida Teya,234,65.0
+SIMULADO,2024-01,Maxcanú,Mérida Teya,224,46.0
+SIMULADO,2024-01,Umán,Mérida Teya,248,20.0
+SIMULADO,2024-01,Hecelchakán,Mérida Teya,155,81.0
+SIMULADO,2024-01,Tenabo,Mérida Teya,131,96.0
+SIMULADO,2024-01,Tixkokob,Mérida Teya,237,14.0
+SIMULADO,2024-02,Mérida Teya,Cancún Aeropuerto,1158,216.0
+SIMULADO,2024-02,Mérida Teya,Playa del Carmen,642,275.0
+SIMULADO,2024-02,Mérida Teya,Valladolid,833,113.0
+SIMULADO,2024-02,Mérida Teya,San Fco. Campeche,569,143.0
+SIMULADO,2024-02,Mérida Teya,Chichén Itzá,609,83.0
+SIMULADO,2024-02,Mérida Teya,Izamal,331,38.0
+SIMULADO,2024-02,Mérida Teya,Puerto Morelos,97,245.0
+SIMULADO,2024-02,Mérida Teya,Leona Vicario,71,188.0
+SIMULADO,2024-02,Mérida Teya,Nuevo Xcán,86,159.0
+SIMULADO,2024-02,Mérida Teya,Calkiní,121,65.0
+SIMULADO,2024-02,Mérida Teya,Maxcanú,124,46.0
+SIMULADO,2024-02,Mérida Teya,Umán,168,20.0
+SIMULADO,2024-02,Mérida Teya,Hecelchakán,71,81.0
+SIMULADO,2024-02,Mérida Teya,Tenabo,73,96.0
+SIMULADO,2024-02,Mérida Teya,Tixkokob,190,14.0
+SIMULADO,2024-02,Cancún Aeropuerto,Mérida Teya,872,216.0
+SIMULADO,2024-02,Playa del Carmen,Mérida Teya,466,275.0
+SIMULADO,2024-02,Valladolid,Mérida Teya,642,113.0
+SIMULADO,2024-02,San Fco. Campeche,Mérida Teya,442,143.0
+SIMULADO,2024-02,Chichén Itzá,Mérida Teya,580,83.0
+SIMULADO,2024-02,Izamal,Mérida Teya,451,38.0
+SIMULADO,2024-02,Puerto Morelos,Mérida Teya,130,245.0
+SIMULADO,2024-02,Leona Vicario,Mérida Teya,56,188.0
+SIMULADO,2024-02,Nuevo Xcán,Mérida Teya,67,159.0
+SIMULADO,2024-02,Calkiní,Mérida Teya,121,65.0
+SIMULADO,2024-02,Maxcanú,Mérida Teya,102,46.0
+SIMULADO,2024-02,Umán,Mérida Teya,176,20.0
+SIMULADO,2024-02,Hecelchakán,Mérida Teya,71,81.0
+SIMULADO,2024-02,Tenabo,Mérida Teya,70,96.0
+SIMULADO,2024-02,Tixkokob,Mérida Teya,121,14.0
+SIMULADO,2024-03,Mérida Teya,Cancún Aeropuerto,1088,216.0
+SIMULADO,2024-03,Mérida Teya,Playa del Carmen,544,275.0
+SIMULADO,2024-03,Mérida Teya,Valladolid,936,113.0
+SIMULADO,2024-03,Mérida Teya,Tulum,392,329.0
+SIMULADO,2024-03,Mérida Teya,San Fco. Campeche,745,143.0
+SIMULADO,2024-03,Mérida Teya,Chichén Itzá,835,83.0
+SIMULADO,2024-03,Mérida Teya,Palenque,219,452.0
+SIMULADO,2024-03,Mérida Teya,Tulum Aeropuerto,172,350.0
+SIMULADO,2024-03,Mérida Teya,Izamal,555,38.0
+SIMULADO,2024-03,Mérida Teya,Escárcega,108,281.0
+SIMULADO,2024-03,Mérida Teya,Puerto Morelos,158,245.0
+SIMULADO,2024-03,Mérida Teya,Leona Vicario,95,188.0
+SIMULADO,2024-03,Mérida Teya,Nuevo Xcán,82,159.0
+SIMULADO,2024-03,Mérida Teya,Calkiní,155,65.0
+SIMULADO,2024-03,Mérida Teya,Maxcanú,117,46.0
+SIMULADO,2024-03,Mérida Teya,Umán,203,20.0
+SIMULADO,2024-03,Mérida Teya,Hecelchakán,105,81.0
+SIMULADO,2024-03,Mérida Teya,Tenabo,77,96.0
+SIMULADO,2024-03,Mérida Teya,Tixkokob,208,14.0
+SIMULADO,2024-03,Mérida Teya,Edzná,44,194.0
+SIMULADO,2024-03,Mérida Teya,Candelaria,43,322.0
+SIMULADO,2024-03,Mérida Teya,Tenosique,45,386.0
+SIMULADO,2024-03,Mérida Teya,Boca del Cerro,21,395.0
+SIMULADO,2024-03,Mérida Teya,Triunfo,21,348.0
+SIMULADO,2024-03,Mérida Teya,Carrillo Puerto Camp.,34,238.0
+SIMULADO,2024-03,Cancún Aeropuerto,Mérida Teya,1081,216.0
+SIMULADO,2024-03,Playa del Carmen,Mérida Teya,967,275.0
+SIMULADO,2024-03,Valladolid,Mérida Teya,858,113.0
+SIMULADO,2024-03,Tulum,Mérida Teya,372,329.0
+SIMULADO,2024-03,San Fco. Campeche,Mérida Teya,799,143.0
+SIMULADO,2024-03,Chichén Itzá,Mérida Teya,759,83.0
+SIMULADO,2024-03,Palenque,Mérida Teya,205,452.0
+SIMULADO,2024-03,Tulum Aeropuerto,Mérida Teya,176,350.0
+SIMULADO,2024-03,Izamal,Mérida Teya,493,38.0
+SIMULADO,2024-03,Escárcega,Mérida Teya,126,281.0
+SIMULADO,2024-03,Puerto Morelos,Mérida Teya,145,245.0
+SIMULADO,2024-03,Leona Vicario,Mérida Teya,87,188.0
+SIMULADO,2024-03,Nuevo Xcán,Mérida Teya,96,159.0
+SIMULADO,2024-03,Calkiní,Mérida Teya,159,65.0
+SIMULADO,2024-03,Maxcanú,Mérida Teya,173,46.0
+SIMULADO,2024-03,Umán,Mérida Teya,181,20.0
+SIMULADO,2024-03,Hecelchakán,Mérida Teya,95,81.0
+SIMULADO,2024-03,Tenabo,Mérida Teya,88,96.0
+SIMULADO,2024-03,Tixkokob,Mérida Teya,186,14.0
+SIMULADO,2024-03,Edzná,Mérida Teya,65,194.0
+SIMULADO,2024-03,Candelaria,Mérida Teya,37,322.0
+SIMULADO,2024-03,Tenosique,Mérida Teya,37,386.0
+SIMULADO,2024-03,Boca del Cerro,Mérida Teya,22,395.0
+SIMULADO,2024-03,Triunfo,Mérida Teya,20,348.0
+SIMULADO,2024-03,Carrillo Puerto Camp.,Mérida Teya,41,238.0
+SIMULADO,2024-04,Mérida Teya,Cancún Aeropuerto,770,216.0
+SIMULADO,2024-04,Mérida Teya,Playa del Carmen,481,275.0
+SIMULADO,2024-04,Mérida Teya,Valladolid,747,113.0
+SIMULADO,2024-04,Mérida Teya,Tulum,245,329.0
+SIMULADO,2024-04,Mérida Teya,San Fco. Campeche,508,143.0
+SIMULADO,2024-04,Mérida Teya,Chichén Itzá,567,83.0
+SIMULADO,2024-04,Mérida Teya,Palenque,139,452.0
+SIMULADO,2024-04,Mérida Teya,Tulum Aeropuerto,114,350.0
+SIMULADO,2024-04,Mérida Teya,Izamal,375,38.0
+SIMULADO,2024-04,Mérida Teya,Escárcega,87,281.0
+SIMULADO,2024-04,Mérida Teya,Puerto Morelos,118,245.0
+SIMULADO,2024-04,Mérida Teya,Leona Vicario,75,188.0
+SIMULADO,2024-04,Mérida Teya,Nuevo Xcán,77,159.0
+SIMULADO,2024-04,Mérida Teya,Calkiní,104,65.0
+SIMULADO,2024-04,Mérida Teya,Maxcanú,97,46.0
+SIMULADO,2024-04,Mérida Teya,Umán,146,20.0
+SIMULADO,2024-04,Mérida Teya,Hecelchakán,102,81.0
+SIMULADO,2024-04,Mérida Teya,Tenabo,69,96.0
+SIMULADO,2024-04,Mérida Teya,Tixkokob,115,14.0
+SIMULADO,2024-04,Mérida Teya,Edzná,33,194.0
+SIMULADO,2024-04,Mérida Teya,Candelaria,25,322.0
+SIMULADO,2024-04,Mérida Teya,Tenosique,28,386.0
+SIMULADO,2024-04,Mérida Teya,Boca del Cerro,16,395.0
+SIMULADO,2024-04,Mérida Teya,Triunfo,15,348.0
+SIMULADO,2024-04,Mérida Teya,Carrillo Puerto Camp.,34,238.0
+SIMULADO,2024-04,Cancún Aeropuerto,Mérida Teya,972,216.0
+SIMULADO,2024-04,Playa del Carmen,Mérida Teya,634,275.0
+SIMULADO,2024-04,Valladolid,Mérida Teya,933,113.0
+SIMULADO,2024-04,Tulum,Mérida Teya,352,329.0
+SIMULADO,2024-04,San Fco. Campeche,Mérida Teya,672,143.0
+SIMULADO,2024-04,Chichén Itzá,Mérida Teya,596,83.0
+SIMULADO,2024-04,Palenque,Mérida Teya,203,452.0
+SIMULADO,2024-04,Tulum Aeropuerto,Mérida Teya,114,350.0
+SIMULADO,2024-04,Izamal,Mérida Teya,363,38.0
+SIMULADO,2024-04,Escárcega,Mérida Teya,131,281.0
+SIMULADO,2024-04,Puerto Morelos,Mérida Teya,136,245.0
+SIMULADO,2024-04,Leona Vicario,Mérida Teya,94,188.0
+SIMULADO,2024-04,Nuevo Xcán,Mérida Teya,88,159.0
+SIMULADO,2024-04,Calkiní,Mérida Teya,145,65.0
+SIMULADO,2024-04,Maxcanú,Mérida Teya,124,46.0
+SIMULADO,2024-04,Umán,Mérida Teya,144,20.0
+SIMULADO,2024-04,Hecelchakán,Mérida Teya,98,81.0
+SIMULADO,2024-04,Tenabo,Mérida Teya,89,96.0
+SIMULADO,2024-04,Tixkokob,Mérida Teya,186,14.0
+SIMULADO,2024-04,Edzná,Mérida Teya,53,194.0
+SIMULADO,2024-04,Candelaria,Mérida Teya,27,322.0
+SIMULADO,2024-04,Tenosique,Mérida Teya,36,386.0
+SIMULADO,2024-04,Boca del Cerro,Mérida Teya,22,395.0
+SIMULADO,2024-04,Triunfo,Mérida Teya,18,348.0
+SIMULADO,2024-04,Carrillo Puerto Camp.,Mérida Teya,36,238.0
+SIMULADO,2024-05,Mérida Teya,Cancún Aeropuerto,890,216.0
+SIMULADO,2024-05,Mérida Teya,Playa del Carmen,551,275.0
+SIMULADO,2024-05,Mérida Teya,Valladolid,840,113.0
+SIMULADO,2024-05,Mérida Teya,Tulum,251,329.0
+SIMULADO,2024-05,Mérida Teya,San Fco. Campeche,624,143.0
+SIMULADO,2024-05,Mérida Teya,Chichén Itzá,587,83.0
+SIMULADO,2024-05,Mérida Teya,Palenque,181,452.0
+SIMULADO,2024-05,Mérida Teya,Tulum Aeropuerto,169,350.0
+SIMULADO,2024-05,Mérida Teya,Izamal,362,38.0
+SIMULADO,2024-05,Mérida Teya,Escárcega,109,281.0
+SIMULADO,2024-05,Mérida Teya,Puerto Morelos,126,245.0
+SIMULADO,2024-05,Mérida Teya,Leona Vicario,84,188.0
+SIMULADO,2024-05,Mérida Teya,Nuevo Xcán,106,159.0
+SIMULADO,2024-05,Mérida Teya,Calkiní,136,65.0
+SIMULADO,2024-05,Mérida Teya,Maxcanú,121,46.0
+SIMULADO,2024-05,Mérida Teya,Umán,138,20.0
+SIMULADO,2024-05,Mérida Teya,Hecelchakán,91,81.0
+SIMULADO,2024-05,Mérida Teya,Tenabo,92,96.0
+SIMULADO,2024-05,Mérida Teya,Tixkokob,147,14.0
+SIMULADO,2024-05,Mérida Teya,Edzná,40,194.0
+SIMULADO,2024-05,Mérida Teya,Candelaria,29,322.0
+SIMULADO,2024-05,Mérida Teya,Tenosique,31,386.0
+SIMULADO,2024-05,Mérida Teya,Boca del Cerro,21,395.0
+SIMULADO,2024-05,Mérida Teya,Triunfo,18,348.0
+SIMULADO,2024-05,Mérida Teya,Carrillo Puerto Camp.,30,238.0
+SIMULADO,2024-05,Cancún Aeropuerto,Mérida Teya,836,216.0
+SIMULADO,2024-05,Playa del Carmen,Mérida Teya,535,275.0
+SIMULADO,2024-05,Valladolid,Mérida Teya,771,113.0
+SIMULADO,2024-05,Tulum,Mérida Teya,317,329.0
+SIMULADO,2024-05,San Fco. Campeche,Mérida Teya,515,143.0
+SIMULADO,2024-05,Chichén Itzá,Mérida Teya,692,83.0
+SIMULADO,2024-05,Palenque,Mérida Teya,133,452.0
+SIMULADO,2024-05,Tulum Aeropuerto,Mérida Teya,161,350.0
+SIMULADO,2024-05,Izamal,Mérida Teya,309,38.0
+SIMULADO,2024-05,Escárcega,Mérida Teya,100,281.0
+SIMULADO,2024-05,Puerto Morelos,Mérida Teya,108,245.0
+SIMULADO,2024-05,Leona Vicario,Mérida Teya,70,188.0
+SIMULADO,2024-05,Nuevo Xcán,Mérida Teya,97,159.0
+SIMULADO,2024-05,Calkiní,Mérida Teya,110,65.0
+SIMULADO,2024-05,Maxcanú,Mérida Teya,147,46.0
+SIMULADO,2024-05,Umán,Mérida Teya,92,20.0
+SIMULADO,2024-05,Hecelchakán,Mérida Teya,66,81.0
+SIMULADO,2024-05,Tenabo,Mérida Teya,69,96.0
+SIMULADO,2024-05,Tixkokob,Mérida Teya,117,14.0
+SIMULADO,2024-05,Edzná,Mérida Teya,36,194.0
+SIMULADO,2024-05,Candelaria,Mérida Teya,27,322.0
+SIMULADO,2024-05,Tenosique,Mérida Teya,30,386.0
+SIMULADO,2024-05,Boca del Cerro,Mérida Teya,18,395.0
+SIMULADO,2024-05,Triunfo,Mérida Teya,16,348.0
+SIMULADO,2024-05,Carrillo Puerto Camp.,Mérida Teya,31,238.0
+SIMULADO,2024-06,Mérida Teya,Cancún Aeropuerto,1135,216.0
+SIMULADO,2024-06,Mérida Teya,Playa del Carmen,681,275.0
+SIMULADO,2024-06,Mérida Teya,Valladolid,818,113.0
+SIMULADO,2024-06,Mérida Teya,Tulum,265,329.0
+SIMULADO,2024-06,Mérida Teya,San Fco. Campeche,548,143.0
+SIMULADO,2024-06,Mérida Teya,Chichén Itzá,629,83.0
+SIMULADO,2024-06,Mérida Teya,Palenque,207,452.0
+SIMULADO,2024-06,Mérida Teya,Tulum Aeropuerto,129,350.0
+SIMULADO,2024-06,Mérida Teya,Izamal,475,38.0
+SIMULADO,2024-06,Mérida Teya,Escárcega,102,281.0
+SIMULADO,2024-06,Mérida Teya,Puerto Morelos,124,245.0
+SIMULADO,2024-06,Mérida Teya,Leona Vicario,81,188.0
+SIMULADO,2024-06,Mérida Teya,Nuevo Xcán,93,159.0
+SIMULADO,2024-06,Mérida Teya,Calkiní,150,65.0
+SIMULADO,2024-06,Mérida Teya,Maxcanú,128,46.0
+SIMULADO,2024-06,Mérida Teya,Umán,156,20.0
+SIMULADO,2024-06,Mérida Teya,Hecelchakán,106,81.0
+SIMULADO,2024-06,Mérida Teya,Tenabo,70,96.0
+SIMULADO,2024-06,Mérida Teya,Tixkokob,157,14.0
+SIMULADO,2024-06,Mérida Teya,Edzná,51,194.0
+SIMULADO,2024-06,Mérida Teya,Candelaria,30,322.0
+SIMULADO,2024-06,Mérida Teya,Tenosique,33,386.0
+SIMULADO,2024-06,Mérida Teya,Boca del Cerro,24,395.0
+SIMULADO,2024-06,Mérida Teya,Triunfo,21,348.0
+SIMULADO,2024-06,Mérida Teya,Carrillo Puerto Camp.,31,238.0
+SIMULADO,2024-06,Cancún Aeropuerto,Mérida Teya,899,216.0
+SIMULADO,2024-06,Playa del Carmen,Mérida Teya,694,275.0
+SIMULADO,2024-06,Valladolid,Mérida Teya,1023,113.0
+SIMULADO,2024-06,Tulum,Mérida Teya,306,329.0
+SIMULADO,2024-06,San Fco. Campeche,Mérida Teya,592,143.0
+SIMULADO,2024-06,Chichén Itzá,Mérida Teya,738,83.0
+SIMULADO,2024-06,Palenque,Mérida Teya,175,452.0
+SIMULADO,2024-06,Tulum Aeropuerto,Mérida Teya,125,350.0
+SIMULADO,2024-06,Izamal,Mérida Teya,456,38.0
+SIMULADO,2024-06,Escárcega,Mérida Teya,117,281.0
+SIMULADO,2024-06,Puerto Morelos,Mérida Teya,142,245.0
+SIMULADO,2024-06,Leona Vicario,Mérida Teya,86,188.0
+SIMULADO,2024-06,Nuevo Xcán,Mérida Teya,93,159.0
+SIMULADO,2024-06,Calkiní,Mérida Teya,122,65.0
+SIMULADO,2024-06,Maxcanú,Mérida Teya,138,46.0
+SIMULADO,2024-06,Umán,Mérida Teya,156,20.0
+SIMULADO,2024-06,Hecelchakán,Mérida Teya,106,81.0
+SIMULADO,2024-06,Tenabo,Mérida Teya,90,96.0
+SIMULADO,2024-06,Tixkokob,Mérida Teya,147,14.0
+SIMULADO,2024-06,Edzná,Mérida Teya,48,194.0
+SIMULADO,2024-06,Candelaria,Mérida Teya,25,322.0
+SIMULADO,2024-06,Tenosique,Mérida Teya,44,386.0
+SIMULADO,2024-06,Boca del Cerro,Mérida Teya,28,395.0
+SIMULADO,2024-06,Triunfo,Mérida Teya,23,348.0
+SIMULADO,2024-06,Carrillo Puerto Camp.,Mérida Teya,30,238.0
+SIMULADO,2024-07,Mérida Teya,Cancún Aeropuerto,2079,216.0
+SIMULADO,2024-07,Mérida Teya,Playa del Carmen,1100,275.0
+SIMULADO,2024-07,Mérida Teya,Valladolid,1647,113.0
+SIMULADO,2024-07,Mérida Teya,Tulum,594,329.0
+SIMULADO,2024-07,Mérida Teya,San Fco. Campeche,1170,143.0
+SIMULADO,2024-07,Mérida Teya,Chichén Itzá,1030,83.0
+SIMULADO,2024-07,Mérida Teya,Palenque,373,452.0
+SIMULADO,2024-07,Mérida Teya,Tulum Aeropuerto,325,350.0
+SIMULADO,2024-07,Mérida Teya,Izamal,793,38.0
+SIMULADO,2024-07,Mérida Teya,Escárcega,211,281.0
+SIMULADO,2024-07,Mérida Teya,Puerto Morelos,217,245.0
+SIMULADO,2024-07,Mérida Teya,Leona Vicario,154,188.0
+SIMULADO,2024-07,Mérida Teya,Nuevo Xcán,158,159.0
+SIMULADO,2024-07,Mérida Teya,Calkiní,245,65.0
+SIMULADO,2024-07,Mérida Teya,Maxcanú,333,46.0
+SIMULADO,2024-07,Mérida Teya,Umán,302,20.0
+SIMULADO,2024-07,Mérida Teya,Hecelchakán,183,81.0
+SIMULADO,2024-07,Mérida Teya,Tenabo,165,96.0
+SIMULADO,2024-07,Mérida Teya,Tixkokob,304,14.0
+SIMULADO,2024-07,Mérida Teya,Edzná,87,194.0
+SIMULADO,2024-07,Mérida Teya,Candelaria,59,322.0
+SIMULADO,2024-07,Mérida Teya,Tenosique,70,386.0
+SIMULADO,2024-07,Mérida Teya,Boca del Cerro,45,395.0
+SIMULADO,2024-07,Mérida Teya,Triunfo,34,348.0
+SIMULADO,2024-07,Mérida Teya,Carrillo Puerto Camp.,77,238.0
+SIMULADO,2024-07,Cancún Aeropuerto,Mérida Teya,1744,216.0
+SIMULADO,2024-07,Playa del Carmen,Mérida Teya,831,275.0
+SIMULADO,2024-07,Valladolid,Mérida Teya,1181,113.0
+SIMULADO,2024-07,Tulum,Mérida Teya,500,329.0
+SIMULADO,2024-07,San Fco. Campeche,Mérida Teya,852,143.0
+SIMULADO,2024-07,Chichén Itzá,Mérida Teya,750,83.0
+SIMULADO,2024-07,Palenque,Mérida Teya,251,452.0
+SIMULADO,2024-07,Tulum Aeropuerto,Mérida Teya,298,350.0
+SIMULADO,2024-07,Izamal,Mérida Teya,558,38.0
+SIMULADO,2024-07,Escárcega,Mérida Teya,172,281.0
+SIMULADO,2024-07,Puerto Morelos,Mérida Teya,230,245.0
+SIMULADO,2024-07,Leona Vicario,Mérida Teya,116,188.0
+SIMULADO,2024-07,Nuevo Xcán,Mérida Teya,117,159.0
+SIMULADO,2024-07,Calkiní,Mérida Teya,174,65.0
+SIMULADO,2024-07,Maxcanú,Mérida Teya,203,46.0
+SIMULADO,2024-07,Umán,Mérida Teya,217,20.0
+SIMULADO,2024-07,Hecelchakán,Mérida Teya,157,81.0
+SIMULADO,2024-07,Tenabo,Mérida Teya,129,96.0
+SIMULADO,2024-07,Tixkokob,Mérida Teya,268,14.0
+SIMULADO,2024-07,Edzná,Mérida Teya,85,194.0
+SIMULADO,2024-07,Candelaria,Mérida Teya,45,322.0
+SIMULADO,2024-07,Tenosique,Mérida Teya,44,386.0
+SIMULADO,2024-07,Boca del Cerro,Mérida Teya,29,395.0
+SIMULADO,2024-07,Triunfo,Mérida Teya,38,348.0
+SIMULADO,2024-07,Carrillo Puerto Camp.,Mérida Teya,51,238.0
+SIMULADO,2024-08,Mérida Teya,Cancún Aeropuerto,2249,216.0
+SIMULADO,2024-08,Mérida Teya,Playa del Carmen,1015,275.0
+SIMULADO,2024-08,Mérida Teya,Valladolid,1842,113.0
+SIMULADO,2024-08,Mérida Teya,Tulum,634,329.0
+SIMULADO,2024-08,Mérida Teya,San Fco. Campeche,1092,143.0
+SIMULADO,2024-08,Mérida Teya,Chichén Itzá,1491,83.0
+SIMULADO,2024-08,Mérida Teya,Palenque,393,452.0
+SIMULADO,2024-08,Mérida Teya,Tulum Aeropuerto,223,350.0
+SIMULADO,2024-08,Mérida Teya,Izamal,899,38.0
+SIMULADO,2024-08,Mérida Teya,Escárcega,244,281.0
+SIMULADO,2024-08,Mérida Teya,Puerto Morelos,208,245.0
+SIMULADO,2024-08,Mérida Teya,Leona Vicario,158,188.0
+SIMULADO,2024-08,Mérida Teya,Nuevo Xcán,154,159.0
+SIMULADO,2024-08,Mérida Teya,Calkiní,305,65.0
+SIMULADO,2024-08,Mérida Teya,Maxcanú,277,46.0
+SIMULADO,2024-08,Mérida Teya,Umán,323,20.0
+SIMULADO,2024-08,Mérida Teya,Hecelchakán,188,81.0
+SIMULADO,2024-08,Mérida Teya,Tenabo,157,96.0
+SIMULADO,2024-08,Mérida Teya,Tixkokob,322,14.0
+SIMULADO,2024-08,Mérida Teya,Edzná,113,194.0
+SIMULADO,2024-08,Mérida Teya,Candelaria,77,322.0
+SIMULADO,2024-08,Mérida Teya,Tenosique,63,386.0
+SIMULADO,2024-08,Mérida Teya,Boca del Cerro,40,395.0
+SIMULADO,2024-08,Mérida Teya,Triunfo,39,348.0
+SIMULADO,2024-08,Mérida Teya,Carrillo Puerto Camp.,65,238.0
+SIMULADO,2024-08,Cancún Aeropuerto,Mérida Teya,2037,216.0
+SIMULADO,2024-08,Playa del Carmen,Mérida Teya,980,275.0
+SIMULADO,2024-08,Valladolid,Mérida Teya,1387,113.0
+SIMULADO,2024-08,Tulum,Mérida Teya,521,329.0
+SIMULADO,2024-08,San Fco. Campeche,Mérida Teya,1164,143.0
+SIMULADO,2024-08,Chichén Itzá,Mérida Teya,1364,83.0
+SIMULADO,2024-08,Palenque,Mérida Teya,301,452.0
+SIMULADO,2024-08,Tulum Aeropuerto,Mérida Teya,235,350.0
+SIMULADO,2024-08,Izamal,Mérida Teya,833,38.0
+SIMULADO,2024-08,Escárcega,Mérida Teya,233,281.0
+SIMULADO,2024-08,Puerto Morelos,Mérida Teya,230,245.0
+SIMULADO,2024-08,Leona Vicario,Mérida Teya,181,188.0
+SIMULADO,2024-08,Nuevo Xcán,Mérida Teya,159,159.0
+SIMULADO,2024-08,Calkiní,Mérida Teya,233,65.0
+SIMULADO,2024-08,Maxcanú,Mérida Teya,204,46.0
+SIMULADO,2024-08,Umán,Mérida Teya,281,20.0
+SIMULADO,2024-08,Hecelchakán,Mérida Teya,183,81.0
+SIMULADO,2024-08,Tenabo,Mérida Teya,146,96.0
+SIMULADO,2024-08,Tixkokob,Mérida Teya,237,14.0
+SIMULADO,2024-08,Edzná,Mérida Teya,74,194.0
+SIMULADO,2024-08,Candelaria,Mérida Teya,43,322.0
+SIMULADO,2024-08,Tenosique,Mérida Teya,60,386.0
+SIMULADO,2024-08,Boca del Cerro,Mérida Teya,42,395.0
+SIMULADO,2024-08,Triunfo,Mérida Teya,37,348.0
+SIMULADO,2024-08,Carrillo Puerto Camp.,Mérida Teya,60,238.0
+SIMULADO,2024-09,Mérida Teya,Cancún Aeropuerto,1195,216.0
+SIMULADO,2024-09,Mérida Teya,Playa del Carmen,970,275.0
+SIMULADO,2024-09,Mérida Teya,Valladolid,1030,113.0
+SIMULADO,2024-09,Mérida Teya,Tulum,392,329.0
+SIMULADO,2024-09,Mérida Teya,San Fco. Campeche,906,143.0
+SIMULADO,2024-09,Mérida Teya,Chichén Itzá,997,83.0
+SIMULADO,2024-09,Mérida Teya,Palenque,247,452.0
+SIMULADO,2024-09,Mérida Teya,Tulum Aeropuerto,160,350.0
+SIMULADO,2024-09,Mérida Teya,Izamal,581,38.0
+SIMULADO,2024-09,Mérida Teya,Escárcega,170,281.0
+SIMULADO,2024-09,Mérida Teya,Puerto Morelos,151,245.0
+SIMULADO,2024-09,Mérida Teya,Leona Vicario,130,188.0
+SIMULADO,2024-09,Mérida Teya,Nuevo Xcán,102,159.0
+SIMULADO,2024-09,Mérida Teya,Calkiní,179,65.0
+SIMULADO,2024-09,Mérida Teya,Maxcanú,151,46.0
+SIMULADO,2024-09,Mérida Teya,Umán,196,20.0
+SIMULADO,2024-09,Mérida Teya,Hecelchakán,130,81.0
+SIMULADO,2024-09,Mérida Teya,Tenabo,116,96.0
+SIMULADO,2024-09,Mérida Teya,Tixkokob,154,14.0
+SIMULADO,2024-09,Mérida Teya,Edzná,76,194.0
+SIMULADO,2024-09,Mérida Teya,Candelaria,43,322.0
+SIMULADO,2024-09,Mérida Teya,Tenosique,36,386.0
+SIMULADO,2024-09,Mérida Teya,Boca del Cerro,25,395.0
+SIMULADO,2024-09,Mérida Teya,Triunfo,28,348.0
+SIMULADO,2024-09,Mérida Teya,Carrillo Puerto Camp.,36,238.0
+SIMULADO,2024-09,Cancún Aeropuerto,Mérida Teya,1163,216.0
+SIMULADO,2024-09,Playa del Carmen,Mérida Teya,847,275.0
+SIMULADO,2024-09,Valladolid,Mérida Teya,1259,113.0
+SIMULADO,2024-09,Tulum,Mérida Teya,312,329.0
+SIMULADO,2024-09,San Fco. Campeche,Mérida Teya,775,143.0
+SIMULADO,2024-09,Chichén Itzá,Mérida Teya,941,83.0
+SIMULADO,2024-09,Palenque,Mérida Teya,222,452.0
+SIMULADO,2024-09,Tulum Aeropuerto,Mérida Teya,172,350.0
+SIMULADO,2024-09,Izamal,Mérida Teya,476,38.0
+SIMULADO,2024-09,Escárcega,Mérida Teya,152,281.0
+SIMULADO,2024-09,Puerto Morelos,Mérida Teya,148,245.0
+SIMULADO,2024-09,Leona Vicario,Mérida Teya,96,188.0
+SIMULADO,2024-09,Nuevo Xcán,Mérida Teya,92,159.0
+SIMULADO,2024-09,Calkiní,Mérida Teya,183,65.0
+SIMULADO,2024-09,Maxcanú,Mérida Teya,137,46.0
+SIMULADO,2024-09,Umán,Mérida Teya,198,20.0
+SIMULADO,2024-09,Hecelchakán,Mérida Teya,110,81.0
+SIMULADO,2024-09,Tenabo,Mérida Teya,100,96.0
+SIMULADO,2024-09,Tixkokob,Mérida Teya,207,14.0
+SIMULADO,2024-09,Edzná,Mérida Teya,60,194.0
+SIMULADO,2024-09,Candelaria,Mérida Teya,41,322.0
+SIMULADO,2024-09,Tenosique,Mérida Teya,40,386.0
+SIMULADO,2024-09,Boca del Cerro,Mérida Teya,32,395.0
+SIMULADO,2024-09,Triunfo,Mérida Teya,22,348.0
+SIMULADO,2024-09,Carrillo Puerto Camp.,Mérida Teya,56,238.0
+SIMULADO,2024-10,Mérida Teya,Cancún Aeropuerto,1540,216.0
+SIMULADO,2024-10,Mérida Teya,Playa del Carmen,1018,275.0
+SIMULADO,2024-10,Mérida Teya,Valladolid,1450,113.0
+SIMULADO,2024-10,Mérida Teya,Tulum,529,329.0
+SIMULADO,2024-10,Mérida Teya,San Fco. Campeche,777,143.0
+SIMULADO,2024-10,Mérida Teya,Chichén Itzá,1349,83.0
+SIMULADO,2024-10,Mérida Teya,Palenque,311,452.0
+SIMULADO,2024-10,Mérida Teya,Tulum Aeropuerto,298,350.0
+SIMULADO,2024-10,Mérida Teya,Izamal,689,38.0
+SIMULADO,2024-10,Mérida Teya,Escárcega,222,281.0
+SIMULADO,2024-10,Mérida Teya,Puerto Morelos,240,245.0
+SIMULADO,2024-10,Mérida Teya,Leona Vicario,132,188.0
+SIMULADO,2024-10,Mérida Teya,Nuevo Xcán,166,159.0
+SIMULADO,2024-10,Mérida Teya,Calkiní,236,65.0
+SIMULADO,2024-10,Mérida Teya,Maxcanú,219,46.0
+SIMULADO,2024-10,Mérida Teya,Umán,360,20.0
+SIMULADO,2024-10,Mérida Teya,Hecelchakán,206,81.0
+SIMULADO,2024-10,Mérida Teya,Tenabo,171,96.0
+SIMULADO,2024-10,Mérida Teya,Tixkokob,266,14.0
+SIMULADO,2024-10,Mérida Teya,Edzná,72,194.0
+SIMULADO,2024-10,Mérida Teya,Candelaria,46,322.0
+SIMULADO,2024-10,Mérida Teya,Tenosique,64,386.0
+SIMULADO,2024-10,Mérida Teya,Boca del Cerro,35,395.0
+SIMULADO,2024-10,Mérida Teya,Triunfo,36,348.0
+SIMULADO,2024-10,Mérida Teya,Carrillo Puerto Camp.,58,238.0
+SIMULADO,2024-10,Cancún Aeropuerto,Mérida Teya,1617,216.0
+SIMULADO,2024-10,Playa del Carmen,Mérida Teya,1149,275.0
+SIMULADO,2024-10,Valladolid,Mérida Teya,1768,113.0
+SIMULADO,2024-10,Tulum,Mérida Teya,556,329.0
+SIMULADO,2024-10,San Fco. Campeche,Mérida Teya,1047,143.0
+SIMULADO,2024-10,Chichén Itzá,Mérida Teya,1064,83.0
+SIMULADO,2024-10,Palenque,Mérida Teya,358,452.0
+SIMULADO,2024-10,Tulum Aeropuerto,Mérida Teya,286,350.0
+SIMULADO,2024-10,Izamal,Mérida Teya,771,38.0
+SIMULADO,2024-10,Escárcega,Mérida Teya,236,281.0
+SIMULADO,2024-10,Puerto Morelos,Mérida Teya,263,245.0
+SIMULADO,2024-10,Leona Vicario,Mérida Teya,166,188.0
+SIMULADO,2024-10,Nuevo Xcán,Mérida Teya,114,159.0
+SIMULADO,2024-10,Calkiní,Mérida Teya,284,65.0
+SIMULADO,2024-10,Maxcanú,Mérida Teya,245,46.0
+SIMULADO,2024-10,Umán,Mérida Teya,258,20.0
+SIMULADO,2024-10,Hecelchakán,Mérida Teya,188,81.0
+SIMULADO,2024-10,Tenabo,Mérida Teya,127,96.0
+SIMULADO,2024-10,Tixkokob,Mérida Teya,244,14.0
+SIMULADO,2024-10,Edzná,Mérida Teya,95,194.0
+SIMULADO,2024-10,Candelaria,Mérida Teya,66,322.0
+SIMULADO,2024-10,Tenosique,Mérida Teya,78,386.0
+SIMULADO,2024-10,Boca del Cerro,Mérida Teya,39,395.0
+SIMULADO,2024-10,Triunfo,Mérida Teya,38,348.0
+SIMULADO,2024-10,Carrillo Puerto Camp.,Mérida Teya,62,238.0
+SIMULADO,2024-11,Mérida Teya,Cancún Aeropuerto,1690,216.0
+SIMULADO,2024-11,Mérida Teya,Playa del Carmen,811,275.0
+SIMULADO,2024-11,Mérida Teya,Valladolid,1652,113.0
+SIMULADO,2024-11,Mérida Teya,Tulum,586,329.0
+SIMULADO,2024-11,Mérida Teya,San Fco. Campeche,1175,143.0
+SIMULADO,2024-11,Mérida Teya,Chichén Itzá,1205,83.0
+SIMULADO,2024-11,Mérida Teya,Palenque,369,452.0
+SIMULADO,2024-11,Mérida Teya,Tulum Aeropuerto,245,350.0
+SIMULADO,2024-11,Mérida Teya,Izamal,889,38.0
+SIMULADO,2024-11,Mérida Teya,Escárcega,252,281.0
+SIMULADO,2024-11,Mérida Teya,Puerto Morelos,266,245.0
+SIMULADO,2024-11,Mérida Teya,Leona Vicario,136,188.0
+SIMULADO,2024-11,Mérida Teya,Nuevo Xcán,166,159.0
+SIMULADO,2024-11,Mérida Teya,Calkiní,227,65.0
+SIMULADO,2024-11,Mérida Teya,Maxcanú,223,46.0
+SIMULADO,2024-11,Mérida Teya,Umán,304,20.0
+SIMULADO,2024-11,Mérida Teya,Hecelchakán,167,81.0
+SIMULADO,2024-11,Mérida Teya,Tenabo,113,96.0
+SIMULADO,2024-11,Mérida Teya,Tixkokob,293,14.0
+SIMULADO,2024-11,Mérida Teya,Edzná,96,194.0
+SIMULADO,2024-11,Mérida Teya,Candelaria,58,322.0
+SIMULADO,2024-11,Mérida Teya,Tenosique,65,386.0
+SIMULADO,2024-11,Mérida Teya,Boca del Cerro,35,395.0
+SIMULADO,2024-11,Mérida Teya,Triunfo,37,348.0
+SIMULADO,2024-11,Mérida Teya,Carrillo Puerto Camp.,78,238.0
+SIMULADO,2024-11,Cancún Aeropuerto,Mérida Teya,1774,216.0
+SIMULADO,2024-11,Playa del Carmen,Mérida Teya,1119,275.0
+SIMULADO,2024-11,Valladolid,Mérida Teya,1444,113.0
+SIMULADO,2024-11,Tulum,Mérida Teya,555,329.0
+SIMULADO,2024-11,San Fco. Campeche,Mérida Teya,1273,143.0
+SIMULADO,2024-11,Chichén Itzá,Mérida Teya,1563,83.0
+SIMULADO,2024-11,Palenque,Mérida Teya,439,452.0
+SIMULADO,2024-11,Tulum Aeropuerto,Mérida Teya,241,350.0
+SIMULADO,2024-11,Izamal,Mérida Teya,807,38.0
+SIMULADO,2024-11,Escárcega,Mérida Teya,221,281.0
+SIMULADO,2024-11,Puerto Morelos,Mérida Teya,271,245.0
+SIMULADO,2024-11,Leona Vicario,Mérida Teya,194,188.0
+SIMULADO,2024-11,Nuevo Xcán,Mérida Teya,155,159.0
+SIMULADO,2024-11,Calkiní,Mérida Teya,205,65.0
+SIMULADO,2024-11,Maxcanú,Mérida Teya,267,46.0
+SIMULADO,2024-11,Umán,Mérida Teya,316,20.0
+SIMULADO,2024-11,Hecelchakán,Mérida Teya,203,81.0
+SIMULADO,2024-11,Tenabo,Mérida Teya,155,96.0
+SIMULADO,2024-11,Tixkokob,Mérida Teya,295,14.0
+SIMULADO,2024-11,Edzná,Mérida Teya,87,194.0
+SIMULADO,2024-11,Candelaria,Mérida Teya,54,322.0
+SIMULADO,2024-11,Tenosique,Mérida Teya,75,386.0
+SIMULADO,2024-11,Boca del Cerro,Mérida Teya,38,395.0
+SIMULADO,2024-11,Triunfo,Mérida Teya,38,348.0
+SIMULADO,2024-11,Carrillo Puerto Camp.,Mérida Teya,64,238.0
+SIMULADO,2024-12,Mérida Teya,Cancún Aeropuerto,1858,216.0
+SIMULADO,2024-12,Mérida Teya,Playa del Carmen,956,275.0
+SIMULADO,2024-12,Mérida Teya,Valladolid,1734,113.0
+SIMULADO,2024-12,Mérida Teya,Tulum,745,329.0
+SIMULADO,2024-12,Mérida Teya,San Fco. Campeche,969,143.0
+SIMULADO,2024-12,Mérida Teya,Chichén Itzá,1533,83.0
+SIMULADO,2024-12,Mérida Teya,Palenque,276,452.0
+SIMULADO,2024-12,Mérida Teya,Tulum Aeropuerto,323,350.0
+SIMULADO,2024-12,Mérida Teya,Bacalar,316,
+SIMULADO,2024-12,Mérida Teya,Izamal,837,38.0
+SIMULADO,2024-12,Mérida Teya,Chetumal Aeropuerto,263,
+SIMULADO,2024-12,Mérida Teya,Escárcega,321,281.0
+SIMULADO,2024-12,Mérida Teya,Puerto Morelos,234,245.0
+SIMULADO,2024-12,Mérida Teya,Felipe Carrillo Puerto,131,
+SIMULADO,2024-12,Mérida Teya,Leona Vicario,171,188.0
+SIMULADO,2024-12,Mérida Teya,Nuevo Xcán,201,159.0
+SIMULADO,2024-12,Mérida Teya,Calkiní,228,65.0
+SIMULADO,2024-12,Mérida Teya,Maxcanú,290,46.0
+SIMULADO,2024-12,Mérida Teya,Umán,248,20.0
+SIMULADO,2024-12,Mérida Teya,Hecelchakán,223,81.0
+SIMULADO,2024-12,Mérida Teya,Tenabo,129,96.0
+SIMULADO,2024-12,Mérida Teya,Tixkokob,326,14.0
+SIMULADO,2024-12,Mérida Teya,Edzná,105,194.0
+SIMULADO,2024-12,Mérida Teya,Xpujil,128,
+SIMULADO,2024-12,Mérida Teya,Calakmul,79,
+SIMULADO,2024-12,Mérida Teya,Candelaria,69,322.0
+SIMULADO,2024-12,Mérida Teya,Tenosique,62,386.0
+SIMULADO,2024-12,Mérida Teya,Boca del Cerro,40,395.0
+SIMULADO,2024-12,Mérida Teya,Triunfo,36,348.0
+SIMULADO,2024-12,Mérida Teya,Carrillo Puerto Camp.,70,238.0
+SIMULADO,2024-12,Mérida Teya,Chacchoben,51,
+SIMULADO,2024-12,Mérida Teya,Kohunlich,42,
+SIMULADO,2024-12,Mérida Teya,Centenario,48,
+SIMULADO,2024-12,Cancún Aeropuerto,Mérida Teya,2901,216.0
+SIMULADO,2024-12,Playa del Carmen,Mérida Teya,1351,275.0
+SIMULADO,2024-12,Valladolid,Mérida Teya,1873,113.0
+SIMULADO,2024-12,Tulum,Mérida Teya,708,329.0
+SIMULADO,2024-12,San Fco. Campeche,Mérida Teya,1396,143.0
+SIMULADO,2024-12,Chichén Itzá,Mérida Teya,1665,83.0
+SIMULADO,2024-12,Palenque,Mérida Teya,438,452.0
+SIMULADO,2024-12,Tulum Aeropuerto,Mérida Teya,359,350.0
+SIMULADO,2024-12,Bacalar,Mérida Teya,387,
+SIMULADO,2024-12,Izamal,Mérida Teya,755,38.0
+SIMULADO,2024-12,Chetumal Aeropuerto,Mérida Teya,320,
+SIMULADO,2024-12,Escárcega,Mérida Teya,297,281.0
+SIMULADO,2024-12,Puerto Morelos,Mérida Teya,254,245.0
+SIMULADO,2024-12,Felipe Carrillo Puerto,Mérida Teya,216,
+SIMULADO,2024-12,Leona Vicario,Mérida Teya,168,188.0
+SIMULADO,2024-12,Nuevo Xcán,Mérida Teya,186,159.0
+SIMULADO,2024-12,Calkiní,Mérida Teya,294,65.0
+SIMULADO,2024-12,Maxcanú,Mérida Teya,228,46.0
+SIMULADO,2024-12,Umán,Mérida Teya,336,20.0
+SIMULADO,2024-12,Hecelchakán,Mérida Teya,183,81.0
+SIMULADO,2024-12,Tenabo,Mérida Teya,164,96.0
+SIMULADO,2024-12,Tixkokob,Mérida Teya,356,14.0
+SIMULADO,2024-12,Edzná,Mérida Teya,87,194.0
+SIMULADO,2024-12,Xpujil,Mérida Teya,116,
+SIMULADO,2024-12,Calakmul,Mérida Teya,80,
+SIMULADO,2024-12,Candelaria,Mérida Teya,82,322.0
+SIMULADO,2024-12,Tenosique,Mérida Teya,92,386.0
+SIMULADO,2024-12,Boca del Cerro,Mérida Teya,48,395.0
+SIMULADO,2024-12,Triunfo,Mérida Teya,44,348.0
+SIMULADO,2024-12,Carrillo Puerto Camp.,Mérida Teya,87,238.0
+SIMULADO,2024-12,Chacchoben,Mérida Teya,68,
+SIMULADO,2024-12,Kohunlich,Mérida Teya,60,
+SIMULADO,2024-12,Centenario,Mérida Teya,44,
+SIMULADO,2025-01,Mérida Teya,Cancún Aeropuerto,2241,216.0
+SIMULADO,2025-01,Mérida Teya,Playa del Carmen,1318,275.0
+SIMULADO,2025-01,Mérida Teya,Valladolid,1818,113.0
+SIMULADO,2025-01,Mérida Teya,Tulum,476,329.0
+SIMULADO,2025-01,Mérida Teya,San Fco. Campeche,1225,143.0
+SIMULADO,2025-01,Mérida Teya,Chichén Itzá,1493,83.0
+SIMULADO,2025-01,Mérida Teya,Palenque,425,452.0
+SIMULADO,2025-01,Mérida Teya,Tulum Aeropuerto,329,350.0
+SIMULADO,2025-01,Mérida Teya,Bacalar,263,
+SIMULADO,2025-01,Mérida Teya,Izamal,775,38.0
+SIMULADO,2025-01,Mérida Teya,Chetumal Aeropuerto,305,
+SIMULADO,2025-01,Mérida Teya,Escárcega,225,281.0
+SIMULADO,2025-01,Mérida Teya,Puerto Morelos,207,245.0
+SIMULADO,2025-01,Mérida Teya,Felipe Carrillo Puerto,154,
+SIMULADO,2025-01,Mérida Teya,Leona Vicario,164,188.0
+SIMULADO,2025-01,Mérida Teya,Nuevo Xcán,180,159.0
+SIMULADO,2025-01,Mérida Teya,Calkiní,260,65.0
+SIMULADO,2025-01,Mérida Teya,Maxcanú,237,46.0
+SIMULADO,2025-01,Mérida Teya,Umán,365,20.0
+SIMULADO,2025-01,Mérida Teya,Hecelchakán,167,81.0
+SIMULADO,2025-01,Mérida Teya,Tenabo,180,96.0
+SIMULADO,2025-01,Mérida Teya,Tixkokob,282,14.0
+SIMULADO,2025-01,Mérida Teya,Edzná,109,194.0
+SIMULADO,2025-01,Mérida Teya,Xpujil,109,
+SIMULADO,2025-01,Mérida Teya,Calakmul,93,
+SIMULADO,2025-01,Mérida Teya,Candelaria,74,322.0
+SIMULADO,2025-01,Mérida Teya,Tenosique,82,386.0
+SIMULADO,2025-01,Mérida Teya,Boca del Cerro,38,395.0
+SIMULADO,2025-01,Mérida Teya,Triunfo,39,348.0
+SIMULADO,2025-01,Mérida Teya,Carrillo Puerto Camp.,68,238.0
+SIMULADO,2025-01,Mérida Teya,Chacchoben,50,
+SIMULADO,2025-01,Mérida Teya,Kohunlich,51,
+SIMULADO,2025-01,Mérida Teya,Centenario,56,
+SIMULADO,2025-01,Cancún Aeropuerto,Mérida Teya,2201,216.0
+SIMULADO,2025-01,Playa del Carmen,Mérida Teya,1276,275.0
+SIMULADO,2025-01,Valladolid,Mérida Teya,2104,113.0
+SIMULADO,2025-01,Tulum,Mérida Teya,758,329.0
+SIMULADO,2025-01,San Fco. Campeche,Mérida Teya,1457,143.0
+SIMULADO,2025-01,Chichén Itzá,Mérida Teya,1543,83.0
+SIMULADO,2025-01,Palenque,Mérida Teya,389,452.0
+SIMULADO,2025-01,Tulum Aeropuerto,Mérida Teya,306,350.0
+SIMULADO,2025-01,Bacalar,Mérida Teya,408,
+SIMULADO,2025-01,Izamal,Mérida Teya,982,38.0
+SIMULADO,2025-01,Chetumal Aeropuerto,Mérida Teya,288,
+SIMULADO,2025-01,Escárcega,Mérida Teya,308,281.0
+SIMULADO,2025-01,Puerto Morelos,Mérida Teya,268,245.0
+SIMULADO,2025-01,Felipe Carrillo Puerto,Mérida Teya,224,
+SIMULADO,2025-01,Leona Vicario,Mérida Teya,205,188.0
+SIMULADO,2025-01,Nuevo Xcán,Mérida Teya,211,159.0
+SIMULADO,2025-01,Calkiní,Mérida Teya,317,65.0
+SIMULADO,2025-01,Maxcanú,Mérida Teya,314,46.0
+SIMULADO,2025-01,Umán,Mérida Teya,376,20.0
+SIMULADO,2025-01,Hecelchakán,Mérida Teya,186,81.0
+SIMULADO,2025-01,Tenabo,Mérida Teya,161,96.0
+SIMULADO,2025-01,Tixkokob,Mérida Teya,365,14.0
+SIMULADO,2025-01,Edzná,Mérida Teya,120,194.0
+SIMULADO,2025-01,Xpujil,Mérida Teya,149,
+SIMULADO,2025-01,Calakmul,Mérida Teya,65,
+SIMULADO,2025-01,Candelaria,Mérida Teya,74,322.0
+SIMULADO,2025-01,Tenosique,Mérida Teya,85,386.0
+SIMULADO,2025-01,Boca del Cerro,Mérida Teya,58,395.0
+SIMULADO,2025-01,Triunfo,Mérida Teya,56,348.0
+SIMULADO,2025-01,Carrillo Puerto Camp.,Mérida Teya,66,238.0
+SIMULADO,2025-01,Chacchoben,Mérida Teya,67,
+SIMULADO,2025-01,Kohunlich,Mérida Teya,49,
+SIMULADO,2025-01,Centenario,Mérida Teya,46,
+SIMULADO,2025-02,Mérida Teya,Cancún Aeropuerto,1509,216.0
+SIMULADO,2025-02,Mérida Teya,Playa del Carmen,1021,275.0
+SIMULADO,2025-02,Mérida Teya,Valladolid,967,113.0
+SIMULADO,2025-02,Mérida Teya,Tulum,432,329.0
+SIMULADO,2025-02,Mérida Teya,San Fco. Campeche,917,143.0
+SIMULADO,2025-02,Mérida Teya,Chichén Itzá,820,83.0
+SIMULADO,2025-02,Mérida Teya,Palenque,275,452.0
+SIMULADO,2025-02,Mérida Teya,Tulum Aeropuerto,180,350.0
+SIMULADO,2025-02,Mérida Teya,Bacalar,238,
+SIMULADO,2025-02,Mérida Teya,Izamal,570,38.0
+SIMULADO,2025-02,Mérida Teya,Chetumal Aeropuerto,229,
+SIMULADO,2025-02,Mérida Teya,Escárcega,181,281.0
+SIMULADO,2025-02,Mérida Teya,Puerto Morelos,159,245.0
+SIMULADO,2025-02,Mérida Teya,Felipe Carrillo Puerto,114,
+SIMULADO,2025-02,Mérida Teya,Leona Vicario,101,188.0
+SIMULADO,2025-02,Mérida Teya,Nuevo Xcán,127,159.0
+SIMULADO,2025-02,Mérida Teya,Calkiní,138,65.0
+SIMULADO,2025-02,Mérida Teya,Maxcanú,200,46.0
+SIMULADO,2025-02,Mérida Teya,Umán,200,20.0
+SIMULADO,2025-02,Mérida Teya,Hecelchakán,118,81.0
+SIMULADO,2025-02,Mérida Teya,Tenabo,107,96.0
+SIMULADO,2025-02,Mérida Teya,Tixkokob,199,14.0
+SIMULADO,2025-02,Mérida Teya,Edzná,60,194.0
+SIMULADO,2025-02,Mérida Teya,Xpujil,76,
+SIMULADO,2025-02,Mérida Teya,Calakmul,56,
+SIMULADO,2025-02,Mérida Teya,Candelaria,41,322.0
+SIMULADO,2025-02,Mérida Teya,Tenosique,40,386.0
+SIMULADO,2025-02,Mérida Teya,Boca del Cerro,35,395.0
+SIMULADO,2025-02,Mérida Teya,Triunfo,23,348.0
+SIMULADO,2025-02,Mérida Teya,Carrillo Puerto Camp.,45,238.0
+SIMULADO,2025-02,Mérida Teya,Chacchoben,44,
+SIMULADO,2025-02,Mérida Teya,Kohunlich,32,
+SIMULADO,2025-02,Mérida Teya,Centenario,33,
+SIMULADO,2025-02,Cancún Aeropuerto,Mérida Teya,1632,216.0
+SIMULADO,2025-02,Playa del Carmen,Mérida Teya,870,275.0
+SIMULADO,2025-02,Valladolid,Mérida Teya,1336,113.0
+SIMULADO,2025-02,Tulum,Mérida Teya,474,329.0
+SIMULADO,2025-02,San Fco. Campeche,Mérida Teya,762,143.0
+SIMULADO,2025-02,Chichén Itzá,Mérida Teya,1073,83.0
+SIMULADO,2025-02,Palenque,Mérida Teya,276,452.0
+SIMULADO,2025-02,Tulum Aeropuerto,Mérida Teya,242,350.0
+SIMULADO,2025-02,Bacalar,Mérida Teya,262,
+SIMULADO,2025-02,Izamal,Mérida Teya,556,38.0
+SIMULADO,2025-02,Chetumal Aeropuerto,Mérida Teya,184,
+SIMULADO,2025-02,Escárcega,Mérida Teya,198,281.0
+SIMULADO,2025-02,Puerto Morelos,Mérida Teya,170,245.0
+SIMULADO,2025-02,Felipe Carrillo Puerto,Mérida Teya,115,
+SIMULADO,2025-02,Leona Vicario,Mérida Teya,125,188.0
+SIMULADO,2025-02,Nuevo Xcán,Mérida Teya,138,159.0
+SIMULADO,2025-02,Calkiní,Mérida Teya,216,65.0
+SIMULADO,2025-02,Maxcanú,Mérida Teya,185,46.0
+SIMULADO,2025-02,Umán,Mérida Teya,245,20.0
+SIMULADO,2025-02,Hecelchakán,Mérida Teya,182,81.0
+SIMULADO,2025-02,Tenabo,Mérida Teya,98,96.0
+SIMULADO,2025-02,Tixkokob,Mérida Teya,204,14.0
+SIMULADO,2025-02,Edzná,Mérida Teya,75,194.0
+SIMULADO,2025-02,Xpujil,Mérida Teya,94,
+SIMULADO,2025-02,Calakmul,Mérida Teya,49,
+SIMULADO,2025-02,Candelaria,Mérida Teya,48,322.0
+SIMULADO,2025-02,Tenosique,Mérida Teya,64,386.0
+SIMULADO,2025-02,Boca del Cerro,Mérida Teya,35,395.0
+SIMULADO,2025-02,Triunfo,Mérida Teya,34,348.0
+SIMULADO,2025-02,Carrillo Puerto Camp.,Mérida Teya,43,238.0
+SIMULADO,2025-02,Chacchoben,Mérida Teya,38,
+SIMULADO,2025-02,Kohunlich,Mérida Teya,37,
+SIMULADO,2025-02,Centenario,Mérida Teya,44,
+SIMULADO,2025-03,Mérida Teya,Cancún Aeropuerto,1894,216.0
+SIMULADO,2025-03,Mérida Teya,Playa del Carmen,1231,275.0
+SIMULADO,2025-03,Mérida Teya,Valladolid,1263,113.0
+SIMULADO,2025-03,Mérida Teya,Tulum,564,329.0
+SIMULADO,2025-03,Mérida Teya,San Fco. Campeche,870,143.0
+SIMULADO,2025-03,Mérida Teya,Chichén Itzá,988,83.0
+SIMULADO,2025-03,Mérida Teya,Palenque,305,452.0
+SIMULADO,2025-03,Mérida Teya,Tulum Aeropuerto,273,350.0
+SIMULADO,2025-03,Mérida Teya,Bacalar,258,
+SIMULADO,2025-03,Mérida Teya,Izamal,675,38.0
+SIMULADO,2025-03,Mérida Teya,Chetumal Aeropuerto,258,
+SIMULADO,2025-03,Mérida Teya,Escárcega,164,281.0
+SIMULADO,2025-03,Mérida Teya,Puerto Morelos,227,245.0
+SIMULADO,2025-03,Mérida Teya,Felipe Carrillo Puerto,154,
+SIMULADO,2025-03,Mérida Teya,Leona Vicario,136,188.0
+SIMULADO,2025-03,Mérida Teya,Nuevo Xcán,173,159.0
+SIMULADO,2025-03,Mérida Teya,Calkiní,188,65.0
+SIMULADO,2025-03,Mérida Teya,Maxcanú,209,46.0
+SIMULADO,2025-03,Mérida Teya,Umán,295,20.0
+SIMULADO,2025-03,Mérida Teya,Hecelchakán,158,81.0
+SIMULADO,2025-03,Mérida Teya,Tenabo,105,96.0
+SIMULADO,2025-03,Mérida Teya,Tixkokob,224,14.0
+SIMULADO,2025-03,Mérida Teya,Edzná,66,194.0
+SIMULADO,2025-03,Mérida Teya,Xpujil,103,
+SIMULADO,2025-03,Mérida Teya,Calakmul,63,
+SIMULADO,2025-03,Mérida Teya,Candelaria,45,322.0
+SIMULADO,2025-03,Mérida Teya,Tenosique,61,386.0
+SIMULADO,2025-03,Mérida Teya,Boca del Cerro,27,395.0
+SIMULADO,2025-03,Mérida Teya,Triunfo,27,348.0
+SIMULADO,2025-03,Mérida Teya,Carrillo Puerto Camp.,55,238.0
+SIMULADO,2025-03,Mérida Teya,Chacchoben,43,
+SIMULADO,2025-03,Mérida Teya,Kohunlich,33,
+SIMULADO,2025-03,Mérida Teya,Centenario,36,
+SIMULADO,2025-03,Cancún Aeropuerto,Mérida Teya,1657,216.0
+SIMULADO,2025-03,Playa del Carmen,Mérida Teya,991,275.0
+SIMULADO,2025-03,Valladolid,Mérida Teya,1643,113.0
+SIMULADO,2025-03,Tulum,Mérida Teya,481,329.0
+SIMULADO,2025-03,San Fco. Campeche,Mérida Teya,1487,143.0
+SIMULADO,2025-03,Chichén Itzá,Mérida Teya,1127,83.0
+SIMULADO,2025-03,Palenque,Mérida Teya,333,452.0
+SIMULADO,2025-03,Tulum Aeropuerto,Mérida Teya,269,350.0
+SIMULADO,2025-03,Bacalar,Mérida Teya,340,
+SIMULADO,2025-03,Izamal,Mérida Teya,698,38.0
+SIMULADO,2025-03,Chetumal Aeropuerto,Mérida Teya,212,
+SIMULADO,2025-03,Escárcega,Mérida Teya,207,281.0
+SIMULADO,2025-03,Puerto Morelos,Mérida Teya,253,245.0
+SIMULADO,2025-03,Felipe Carrillo Puerto,Mérida Teya,152,
+SIMULADO,2025-03,Leona Vicario,Mérida Teya,156,188.0
+SIMULADO,2025-03,Nuevo Xcán,Mérida Teya,163,159.0
+SIMULADO,2025-03,Calkiní,Mérida Teya,248,65.0
+SIMULADO,2025-03,Maxcanú,Mérida Teya,228,46.0
+SIMULADO,2025-03,Umán,Mérida Teya,353,20.0
+SIMULADO,2025-03,Hecelchakán,Mérida Teya,159,81.0
+SIMULADO,2025-03,Tenabo,Mérida Teya,146,96.0
+SIMULADO,2025-03,Tixkokob,Mérida Teya,254,14.0
+SIMULADO,2025-03,Edzná,Mérida Teya,90,194.0
+SIMULADO,2025-03,Xpujil,Mérida Teya,129,
+SIMULADO,2025-03,Calakmul,Mérida Teya,70,
+SIMULADO,2025-03,Candelaria,Mérida Teya,62,322.0
+SIMULADO,2025-03,Tenosique,Mérida Teya,64,386.0
+SIMULADO,2025-03,Boca del Cerro,Mérida Teya,49,395.0
+SIMULADO,2025-03,Triunfo,Mérida Teya,40,348.0
+SIMULADO,2025-03,Carrillo Puerto Camp.,Mérida Teya,65,238.0
+SIMULADO,2025-03,Chacchoben,Mérida Teya,47,
+SIMULADO,2025-03,Kohunlich,Mérida Teya,37,
+SIMULADO,2025-03,Centenario,Mérida Teya,44,
+SIMULADO,2025-04,Mérida Teya,Cancún Aeropuerto,2300,216.0
+SIMULADO,2025-04,Mérida Teya,Playa del Carmen,1455,275.0
+SIMULADO,2025-04,Mérida Teya,Valladolid,1686,113.0
+SIMULADO,2025-04,Mérida Teya,Tulum,660,329.0
+SIMULADO,2025-04,Mérida Teya,San Fco. Campeche,1406,143.0
+SIMULADO,2025-04,Mérida Teya,Chichén Itzá,1649,83.0
+SIMULADO,2025-04,Mérida Teya,Palenque,394,452.0
+SIMULADO,2025-04,Mérida Teya,Tulum Aeropuerto,331,350.0
+SIMULADO,2025-04,Mérida Teya,Bacalar,390,
+SIMULADO,2025-04,Mérida Teya,Izamal,891,38.0
+SIMULADO,2025-04,Mérida Teya,Chetumal Aeropuerto,325,
+SIMULADO,2025-04,Mérida Teya,Escárcega,345,281.0
+SIMULADO,2025-04,Mérida Teya,Puerto Morelos,363,245.0
+SIMULADO,2025-04,Mérida Teya,Felipe Carrillo Puerto,151,
+SIMULADO,2025-04,Mérida Teya,Leona Vicario,192,188.0
+SIMULADO,2025-04,Mérida Teya,Nuevo Xcán,188,159.0
+SIMULADO,2025-04,Mérida Teya,Calkiní,347,65.0
+SIMULADO,2025-04,Mérida Teya,Maxcanú,295,46.0
+SIMULADO,2025-04,Mérida Teya,Umán,344,20.0
+SIMULADO,2025-04,Mérida Teya,Hecelchakán,249,81.0
+SIMULADO,2025-04,Mérida Teya,Tenabo,185,96.0
+SIMULADO,2025-04,Mérida Teya,Tixkokob,281,14.0
+SIMULADO,2025-04,Mérida Teya,Edzná,97,194.0
+SIMULADO,2025-04,Mérida Teya,Xpujil,141,
+SIMULADO,2025-04,Mérida Teya,Calakmul,76,
+SIMULADO,2025-04,Mérida Teya,Candelaria,63,322.0
+SIMULADO,2025-04,Mérida Teya,Tenosique,82,386.0
+SIMULADO,2025-04,Mérida Teya,Boca del Cerro,60,395.0
+SIMULADO,2025-04,Mérida Teya,Triunfo,45,348.0
+SIMULADO,2025-04,Mérida Teya,Carrillo Puerto Camp.,79,238.0
+SIMULADO,2025-04,Mérida Teya,Chacchoben,79,
+SIMULADO,2025-04,Mérida Teya,Kohunlich,51,
+SIMULADO,2025-04,Mérida Teya,Centenario,61,
+SIMULADO,2025-04,Cancún Aeropuerto,Mérida Teya,2393,216.0
+SIMULADO,2025-04,Playa del Carmen,Mérida Teya,1368,275.0
+SIMULADO,2025-04,Valladolid,Mérida Teya,1666,113.0
+SIMULADO,2025-04,Tulum,Mérida Teya,587,329.0
+SIMULADO,2025-04,San Fco. Campeche,Mérida Teya,1373,143.0
+SIMULADO,2025-04,Chichén Itzá,Mérida Teya,1568,83.0
+SIMULADO,2025-04,Palenque,Mérida Teya,376,452.0
+SIMULADO,2025-04,Tulum Aeropuerto,Mérida Teya,311,350.0
+SIMULADO,2025-04,Bacalar,Mérida Teya,373,
+SIMULADO,2025-04,Izamal,Mérida Teya,775,38.0
+SIMULADO,2025-04,Chetumal Aeropuerto,Mérida Teya,298,
+SIMULADO,2025-04,Escárcega,Mérida Teya,215,281.0
+SIMULADO,2025-04,Puerto Morelos,Mérida Teya,261,245.0
+SIMULADO,2025-04,Felipe Carrillo Puerto,Mérida Teya,191,
+SIMULADO,2025-04,Leona Vicario,Mérida Teya,216,188.0
+SIMULADO,2025-04,Nuevo Xcán,Mérida Teya,153,159.0
+SIMULADO,2025-04,Calkiní,Mérida Teya,264,65.0
+SIMULADO,2025-04,Maxcanú,Mérida Teya,316,46.0
+SIMULADO,2025-04,Umán,Mérida Teya,396,20.0
+SIMULADO,2025-04,Hecelchakán,Mérida Teya,205,81.0
+SIMULADO,2025-04,Tenabo,Mérida Teya,213,96.0
+SIMULADO,2025-04,Tixkokob,Mérida Teya,317,14.0
+SIMULADO,2025-04,Edzná,Mérida Teya,123,194.0
+SIMULADO,2025-04,Xpujil,Mérida Teya,142,
+SIMULADO,2025-04,Calakmul,Mérida Teya,62,
+SIMULADO,2025-04,Candelaria,Mérida Teya,76,322.0
+SIMULADO,2025-04,Tenosique,Mérida Teya,84,386.0
+SIMULADO,2025-04,Boca del Cerro,Mérida Teya,42,395.0
+SIMULADO,2025-04,Triunfo,Mérida Teya,54,348.0
+SIMULADO,2025-04,Carrillo Puerto Camp.,Mérida Teya,76,238.0
+SIMULADO,2025-04,Chacchoben,Mérida Teya,79,
+SIMULADO,2025-04,Kohunlich,Mérida Teya,43,
+SIMULADO,2025-04,Centenario,Mérida Teya,47,
+SIMULADO,2025-05,Mérida Teya,Cancún Aeropuerto,2156,216.0
+SIMULADO,2025-05,Mérida Teya,Playa del Carmen,1113,275.0
+SIMULADO,2025-05,Mérida Teya,Valladolid,1789,113.0
+SIMULADO,2025-05,Mérida Teya,Tulum,561,329.0
+SIMULADO,2025-05,Mérida Teya,San Fco. Campeche,896,143.0
+SIMULADO,2025-05,Mérida Teya,Chichén Itzá,1464,83.0
+SIMULADO,2025-05,Mérida Teya,Palenque,348,452.0
+SIMULADO,2025-05,Mérida Teya,Tulum Aeropuerto,280,350.0
+SIMULADO,2025-05,Mérida Teya,Bacalar,313,
+SIMULADO,2025-05,Mérida Teya,Izamal,875,38.0
+SIMULADO,2025-05,Mérida Teya,Chetumal Aeropuerto,294,
+SIMULADO,2025-05,Mérida Teya,Escárcega,162,281.0
+SIMULADO,2025-05,Mérida Teya,Puerto Morelos,244,245.0
+SIMULADO,2025-05,Mérida Teya,Felipe Carrillo Puerto,130,
+SIMULADO,2025-05,Mérida Teya,Leona Vicario,162,188.0
+SIMULADO,2025-05,Mérida Teya,Nuevo Xcán,158,159.0
+SIMULADO,2025-05,Mérida Teya,Calkiní,270,65.0
+SIMULADO,2025-05,Mérida Teya,Maxcanú,195,46.0
+SIMULADO,2025-05,Mérida Teya,Umán,304,20.0
+SIMULADO,2025-05,Mérida Teya,Hecelchakán,227,81.0
+SIMULADO,2025-05,Mérida Teya,Tenabo,187,96.0
+SIMULADO,2025-05,Mérida Teya,Tixkokob,240,14.0
+SIMULADO,2025-05,Mérida Teya,Edzná,87,194.0
+SIMULADO,2025-05,Mérida Teya,Xpujil,91,
+SIMULADO,2025-05,Mérida Teya,Calakmul,62,
+SIMULADO,2025-05,Mérida Teya,Candelaria,69,322.0
+SIMULADO,2025-05,Mérida Teya,Tenosique,76,386.0
+SIMULADO,2025-05,Mérida Teya,Boca del Cerro,37,395.0
+SIMULADO,2025-05,Mérida Teya,Triunfo,34,348.0
+SIMULADO,2025-05,Mérida Teya,Carrillo Puerto Camp.,54,238.0
+SIMULADO,2025-05,Mérida Teya,Chacchoben,49,
+SIMULADO,2025-05,Mérida Teya,Kohunlich,46,
+SIMULADO,2025-05,Mérida Teya,Centenario,44,
+SIMULADO,2025-05,Cancún Aeropuerto,Mérida Teya,2165,216.0
+SIMULADO,2025-05,Playa del Carmen,Mérida Teya,1242,275.0
+SIMULADO,2025-05,Valladolid,Mérida Teya,1678,113.0
+SIMULADO,2025-05,Tulum,Mérida Teya,629,329.0
+SIMULADO,2025-05,San Fco. Campeche,Mérida Teya,997,143.0
+SIMULADO,2025-05,Chichén Itzá,Mérida Teya,1327,83.0
+SIMULADO,2025-05,Palenque,Mérida Teya,301,452.0
+SIMULADO,2025-05,Tulum Aeropuerto,Mérida Teya,206,350.0
+SIMULADO,2025-05,Bacalar,Mérida Teya,251,
+SIMULADO,2025-05,Izamal,Mérida Teya,750,38.0
+SIMULADO,2025-05,Chetumal Aeropuerto,Mérida Teya,285,
+SIMULADO,2025-05,Escárcega,Mérida Teya,236,281.0
+SIMULADO,2025-05,Puerto Morelos,Mérida Teya,182,245.0
+SIMULADO,2025-05,Felipe Carrillo Puerto,Mérida Teya,149,
+SIMULADO,2025-05,Leona Vicario,Mérida Teya,168,188.0
+SIMULADO,2025-05,Nuevo Xcán,Mérida Teya,160,159.0
+SIMULADO,2025-05,Calkiní,Mérida Teya,233,65.0
+SIMULADO,2025-05,Maxcanú,Mérida Teya,216,46.0
+SIMULADO,2025-05,Umán,Mérida Teya,269,20.0
+SIMULADO,2025-05,Hecelchakán,Mérida Teya,176,81.0
+SIMULADO,2025-05,Tenabo,Mérida Teya,164,96.0
+SIMULADO,2025-05,Tixkokob,Mérida Teya,342,14.0
+SIMULADO,2025-05,Edzná,Mérida Teya,73,194.0
+SIMULADO,2025-05,Xpujil,Mérida Teya,107,
+SIMULADO,2025-05,Calakmul,Mérida Teya,79,
+SIMULADO,2025-05,Candelaria,Mérida Teya,47,322.0
+SIMULADO,2025-05,Tenosique,Mérida Teya,66,386.0
+SIMULADO,2025-05,Boca del Cerro,Mérida Teya,48,395.0
+SIMULADO,2025-05,Triunfo,Mérida Teya,42,348.0
+SIMULADO,2025-05,Carrillo Puerto Camp.,Mérida Teya,76,238.0
+SIMULADO,2025-05,Chacchoben,Mérida Teya,53,
+SIMULADO,2025-05,Kohunlich,Mérida Teya,43,
+SIMULADO,2025-05,Centenario,Mérida Teya,52,
+SIMULADO,2025-06,Mérida Teya,Cancún Aeropuerto,2088,216.0
+SIMULADO,2025-06,Mérida Teya,Playa del Carmen,1330,275.0
+SIMULADO,2025-06,Mérida Teya,Valladolid,1816,113.0
+SIMULADO,2025-06,Mérida Teya,Tulum,566,329.0
+SIMULADO,2025-06,Mérida Teya,San Fco. Campeche,1254,143.0
+SIMULADO,2025-06,Mérida Teya,Chichén Itzá,1494,83.0
+SIMULADO,2025-06,Mérida Teya,Palenque,397,452.0
+SIMULADO,2025-06,Mérida Teya,Tulum Aeropuerto,298,350.0
+SIMULADO,2025-06,Mérida Teya,Bacalar,370,
+SIMULADO,2025-06,Mérida Teya,Izamal,960,38.0
+SIMULADO,2025-06,Mérida Teya,Chetumal Aeropuerto,300,
+SIMULADO,2025-06,Mérida Teya,Escárcega,244,281.0
+SIMULADO,2025-06,Mérida Teya,Puerto Morelos,220,245.0
+SIMULADO,2025-06,Mérida Teya,Felipe Carrillo Puerto,166,
+SIMULADO,2025-06,Mérida Teya,Leona Vicario,184,188.0
+SIMULADO,2025-06,Mérida Teya,Nuevo Xcán,162,159.0
+SIMULADO,2025-06,Mérida Teya,Calkiní,257,65.0
+SIMULADO,2025-06,Mérida Teya,Maxcanú,267,46.0
+SIMULADO,2025-06,Mérida Teya,Umán,265,20.0
+SIMULADO,2025-06,Mérida Teya,Hecelchakán,165,81.0
+SIMULADO,2025-06,Mérida Teya,Tenabo,148,96.0
+SIMULADO,2025-06,Mérida Teya,Tixkokob,352,14.0
+SIMULADO,2025-06,Mérida Teya,Edzná,94,194.0
+SIMULADO,2025-06,Mérida Teya,Xpujil,129,
+SIMULADO,2025-06,Mérida Teya,Calakmul,69,
+SIMULADO,2025-06,Mérida Teya,Candelaria,62,322.0
+SIMULADO,2025-06,Mérida Teya,Tenosique,71,386.0
+SIMULADO,2025-06,Mérida Teya,Boca del Cerro,42,395.0
+SIMULADO,2025-06,Mérida Teya,Triunfo,38,348.0
+SIMULADO,2025-06,Mérida Teya,Carrillo Puerto Camp.,66,238.0
+SIMULADO,2025-06,Mérida Teya,Chacchoben,50,
+SIMULADO,2025-06,Mérida Teya,Kohunlich,51,
+SIMULADO,2025-06,Mérida Teya,Centenario,42,
+SIMULADO,2025-06,Cancún Aeropuerto,Mérida Teya,1900,216.0
+SIMULADO,2025-06,Playa del Carmen,Mérida Teya,1105,275.0
+SIMULADO,2025-06,Valladolid,Mérida Teya,1681,113.0
+SIMULADO,2025-06,Tulum,Mérida Teya,642,329.0
+SIMULADO,2025-06,San Fco. Campeche,Mérida Teya,1177,143.0
+SIMULADO,2025-06,Chichén Itzá,Mérida Teya,1146,83.0
+SIMULADO,2025-06,Palenque,Mérida Teya,396,452.0
+SIMULADO,2025-06,Tulum Aeropuerto,Mérida Teya,260,350.0
+SIMULADO,2025-06,Bacalar,Mérida Teya,357,
+SIMULADO,2025-06,Izamal,Mérida Teya,656,38.0
+SIMULADO,2025-06,Chetumal Aeropuerto,Mérida Teya,320,
+SIMULADO,2025-06,Escárcega,Mérida Teya,253,281.0
+SIMULADO,2025-06,Puerto Morelos,Mérida Teya,233,245.0
+SIMULADO,2025-06,Felipe Carrillo Puerto,Mérida Teya,159,
+SIMULADO,2025-06,Leona Vicario,Mérida Teya,157,188.0
+SIMULADO,2025-06,Nuevo Xcán,Mérida Teya,182,159.0
+SIMULADO,2025-06,Calkiní,Mérida Teya,257,65.0
+SIMULADO,2025-06,Maxcanú,Mérida Teya,306,46.0
+SIMULADO,2025-06,Umán,Mérida Teya,311,20.0
+SIMULADO,2025-06,Hecelchakán,Mérida Teya,208,81.0
+SIMULADO,2025-06,Tenabo,Mérida Teya,178,96.0
+SIMULADO,2025-06,Tixkokob,Mérida Teya,282,14.0
+SIMULADO,2025-06,Edzná,Mérida Teya,104,194.0
+SIMULADO,2025-06,Xpujil,Mérida Teya,100,
+SIMULADO,2025-06,Calakmul,Mérida Teya,53,
+SIMULADO,2025-06,Candelaria,Mérida Teya,65,322.0
+SIMULADO,2025-06,Tenosique,Mérida Teya,72,386.0
+SIMULADO,2025-06,Boca del Cerro,Mérida Teya,46,395.0
+SIMULADO,2025-06,Triunfo,Mérida Teya,34,348.0
+SIMULADO,2025-06,Carrillo Puerto Camp.,Mérida Teya,71,238.0
+SIMULADO,2025-06,Chacchoben,Mérida Teya,47,
+SIMULADO,2025-06,Kohunlich,Mérida Teya,42,
+SIMULADO,2025-06,Centenario,Mérida Teya,52,
+SIMULADO,2025-07,Mérida Teya,Cancún Aeropuerto,2445,216.0
+SIMULADO,2025-07,Mérida Teya,Playa del Carmen,1837,275.0
+SIMULADO,2025-07,Mérida Teya,Valladolid,1912,113.0
+SIMULADO,2025-07,Mérida Teya,Tulum,894,329.0
+SIMULADO,2025-07,Mérida Teya,San Fco. Campeche,1480,143.0
+SIMULADO,2025-07,Mérida Teya,Chichén Itzá,1598,83.0
+SIMULADO,2025-07,Mérida Teya,Palenque,420,452.0
+SIMULADO,2025-07,Mérida Teya,Tulum Aeropuerto,420,350.0
+SIMULADO,2025-07,Mérida Teya,Bacalar,381,
+SIMULADO,2025-07,Mérida Teya,Izamal,1174,38.0
+SIMULADO,2025-07,Mérida Teya,Chetumal Aeropuerto,379,
+SIMULADO,2025-07,Mérida Teya,Escárcega,260,281.0
+SIMULADO,2025-07,Mérida Teya,Puerto Morelos,320,245.0
+SIMULADO,2025-07,Mérida Teya,Felipe Carrillo Puerto,206,
+SIMULADO,2025-07,Mérida Teya,Leona Vicario,240,188.0
+SIMULADO,2025-07,Mérida Teya,Nuevo Xcán,237,159.0
+SIMULADO,2025-07,Mérida Teya,Calkiní,428,65.0
+SIMULADO,2025-07,Mérida Teya,Maxcanú,367,46.0
+SIMULADO,2025-07,Mérida Teya,Umán,456,20.0
+SIMULADO,2025-07,Mérida Teya,Hecelchakán,274,81.0
+SIMULADO,2025-07,Mérida Teya,Tenabo,214,96.0
+SIMULADO,2025-07,Mérida Teya,Tixkokob,401,14.0
+SIMULADO,2025-07,Mérida Teya,Edzná,144,194.0
+SIMULADO,2025-07,Mérida Teya,Xpujil,160,
+SIMULADO,2025-07,Mérida Teya,Calakmul,99,
+SIMULADO,2025-07,Mérida Teya,Candelaria,75,322.0
+SIMULADO,2025-07,Mérida Teya,Tenosique,96,386.0
+SIMULADO,2025-07,Mérida Teya,Boca del Cerro,66,395.0
+SIMULADO,2025-07,Mérida Teya,Triunfo,58,348.0
+SIMULADO,2025-07,Mérida Teya,Carrillo Puerto Camp.,103,238.0
+SIMULADO,2025-07,Mérida Teya,Chacchoben,84,
+SIMULADO,2025-07,Mérida Teya,Kohunlich,65,
+SIMULADO,2025-07,Mérida Teya,Centenario,70,
+SIMULADO,2025-07,Cancún Aeropuerto,Mérida Teya,2490,216.0
+SIMULADO,2025-07,Playa del Carmen,Mérida Teya,1750,275.0
+SIMULADO,2025-07,Valladolid,Mérida Teya,2176,113.0
+SIMULADO,2025-07,Tulum,Mérida Teya,789,329.0
+SIMULADO,2025-07,San Fco. Campeche,Mérida Teya,1625,143.0
+SIMULADO,2025-07,Chichén Itzá,Mérida Teya,1805,83.0
+SIMULADO,2025-07,Palenque,Mérida Teya,427,452.0
+SIMULADO,2025-07,Tulum Aeropuerto,Mérida Teya,345,350.0
+SIMULADO,2025-07,Bacalar,Mérida Teya,496,
+SIMULADO,2025-07,Izamal,Mérida Teya,998,38.0
+SIMULADO,2025-07,Chetumal Aeropuerto,Mérida Teya,411,
+SIMULADO,2025-07,Escárcega,Mérida Teya,343,281.0
+SIMULADO,2025-07,Puerto Morelos,Mérida Teya,339,245.0
+SIMULADO,2025-07,Felipe Carrillo Puerto,Mérida Teya,227,
+SIMULADO,2025-07,Leona Vicario,Mérida Teya,260,188.0
+SIMULADO,2025-07,Nuevo Xcán,Mérida Teya,236,159.0
+SIMULADO,2025-07,Calkiní,Mérida Teya,400,65.0
+SIMULADO,2025-07,Maxcanú,Mérida Teya,379,46.0
+SIMULADO,2025-07,Umán,Mérida Teya,425,20.0
+SIMULADO,2025-07,Hecelchakán,Mérida Teya,242,81.0
+SIMULADO,2025-07,Tenabo,Mérida Teya,196,96.0
+SIMULADO,2025-07,Tixkokob,Mérida Teya,419,14.0
+SIMULADO,2025-07,Edzná,Mérida Teya,114,194.0
+SIMULADO,2025-07,Xpujil,Mérida Teya,123,
+SIMULADO,2025-07,Calakmul,Mérida Teya,88,
+SIMULADO,2025-07,Candelaria,Mérida Teya,70,322.0
+SIMULADO,2025-07,Tenosique,Mérida Teya,86,386.0
+SIMULADO,2025-07,Boca del Cerro,Mérida Teya,59,395.0
+SIMULADO,2025-07,Triunfo,Mérida Teya,54,348.0
+SIMULADO,2025-07,Carrillo Puerto Camp.,Mérida Teya,108,238.0
+SIMULADO,2025-07,Chacchoben,Mérida Teya,65,
+SIMULADO,2025-07,Kohunlich,Mérida Teya,49,
+SIMULADO,2025-07,Centenario,Mérida Teya,65,
+SIMULADO,2025-08,Mérida Teya,Cancún Aeropuerto,2802,216.0
+SIMULADO,2025-08,Mérida Teya,Playa del Carmen,2038,275.0
+SIMULADO,2025-08,Mérida Teya,Valladolid,2068,113.0
+SIMULADO,2025-08,Mérida Teya,Tulum,866,329.0
+SIMULADO,2025-08,Mérida Teya,San Fco. Campeche,2058,143.0
+SIMULADO,2025-08,Mérida Teya,Chichén Itzá,1752,83.0
+SIMULADO,2025-08,Mérida Teya,Palenque,582,452.0
+SIMULADO,2025-08,Mérida Teya,Tulum Aeropuerto,478,350.0
+SIMULADO,2025-08,Mérida Teya,Bacalar,455,
+SIMULADO,2025-08,Mérida Teya,Izamal,1368,38.0
+SIMULADO,2025-08,Mérida Teya,Chetumal Aeropuerto,500,
+SIMULADO,2025-08,Mérida Teya,Escárcega,369,281.0
+SIMULADO,2025-08,Mérida Teya,Puerto Morelos,372,245.0
+SIMULADO,2025-08,Mérida Teya,Felipe Carrillo Puerto,304,
+SIMULADO,2025-08,Mérida Teya,Leona Vicario,223,188.0
+SIMULADO,2025-08,Mérida Teya,Nuevo Xcán,287,159.0
+SIMULADO,2025-08,Mérida Teya,Calkiní,411,65.0
+SIMULADO,2025-08,Mérida Teya,Maxcanú,430,46.0
+SIMULADO,2025-08,Mérida Teya,Umán,509,20.0
+SIMULADO,2025-08,Mérida Teya,Hecelchakán,259,81.0
+SIMULADO,2025-08,Mérida Teya,Tenabo,249,96.0
+SIMULADO,2025-08,Mérida Teya,Tixkokob,491,14.0
+SIMULADO,2025-08,Mérida Teya,Edzná,143,194.0
+SIMULADO,2025-08,Mérida Teya,Xpujil,147,
+SIMULADO,2025-08,Mérida Teya,Calakmul,109,
+SIMULADO,2025-08,Mérida Teya,Candelaria,103,322.0
+SIMULADO,2025-08,Mérida Teya,Tenosique,91,386.0
+SIMULADO,2025-08,Mérida Teya,Boca del Cerro,59,395.0
+SIMULADO,2025-08,Mérida Teya,Triunfo,47,348.0
+SIMULADO,2025-08,Mérida Teya,Carrillo Puerto Camp.,112,238.0
+SIMULADO,2025-08,Mérida Teya,Chacchoben,90,
+SIMULADO,2025-08,Mérida Teya,Kohunlich,66,
+SIMULADO,2025-08,Mérida Teya,Centenario,76,
+SIMULADO,2025-08,Cancún Aeropuerto,Mérida Teya,3554,216.0
+SIMULADO,2025-08,Playa del Carmen,Mérida Teya,1507,275.0
+SIMULADO,2025-08,Valladolid,Mérida Teya,1901,113.0
+SIMULADO,2025-08,Tulum,Mérida Teya,947,329.0
+SIMULADO,2025-08,San Fco. Campeche,Mérida Teya,1272,143.0
+SIMULADO,2025-08,Chichén Itzá,Mérida Teya,1351,83.0
+SIMULADO,2025-08,Palenque,Mérida Teya,552,452.0
+SIMULADO,2025-08,Tulum Aeropuerto,Mérida Teya,380,350.0
+SIMULADO,2025-08,Bacalar,Mérida Teya,384,
+SIMULADO,2025-08,Izamal,Mérida Teya,1039,38.0
+SIMULADO,2025-08,Chetumal Aeropuerto,Mérida Teya,370,
+SIMULADO,2025-08,Escárcega,Mérida Teya,309,281.0
+SIMULADO,2025-08,Puerto Morelos,Mérida Teya,338,245.0
+SIMULADO,2025-08,Felipe Carrillo Puerto,Mérida Teya,210,
+SIMULADO,2025-08,Leona Vicario,Mérida Teya,178,188.0
+SIMULADO,2025-08,Nuevo Xcán,Mérida Teya,185,159.0
+SIMULADO,2025-08,Calkiní,Mérida Teya,395,65.0
+SIMULADO,2025-08,Maxcanú,Mérida Teya,314,46.0
+SIMULADO,2025-08,Umán,Mérida Teya,404,20.0
+SIMULADO,2025-08,Hecelchakán,Mérida Teya,183,81.0
+SIMULADO,2025-08,Tenabo,Mérida Teya,168,96.0
+SIMULADO,2025-08,Tixkokob,Mérida Teya,398,14.0
+SIMULADO,2025-08,Edzná,Mérida Teya,120,194.0
+SIMULADO,2025-08,Xpujil,Mérida Teya,151,
+SIMULADO,2025-08,Calakmul,Mérida Teya,94,
+SIMULADO,2025-08,Candelaria,Mérida Teya,79,322.0
+SIMULADO,2025-08,Tenosique,Mérida Teya,127,386.0
+SIMULADO,2025-08,Boca del Cerro,Mérida Teya,54,395.0
+SIMULADO,2025-08,Triunfo,Mérida Teya,56,348.0
+SIMULADO,2025-08,Carrillo Puerto Camp.,Mérida Teya,96,238.0
+SIMULADO,2025-08,Chacchoben,Mérida Teya,93,
+SIMULADO,2025-08,Kohunlich,Mérida Teya,57,
+SIMULADO,2025-08,Centenario,Mérida Teya,56,
+SIMULADO,2025-09,Mérida Teya,Cancún Aeropuerto,1616,216.0
+SIMULADO,2025-09,Mérida Teya,Playa del Carmen,1058,275.0
+SIMULADO,2025-09,Mérida Teya,Valladolid,1434,113.0
+SIMULADO,2025-09,Mérida Teya,Tulum,468,329.0
+SIMULADO,2025-09,Mérida Teya,San Fco. Campeche,1026,143.0
+SIMULADO,2025-09,Mérida Teya,Chichén Itzá,909,83.0
+SIMULADO,2025-09,Mérida Teya,Palenque,374,452.0
+SIMULADO,2025-09,Mérida Teya,Tulum Aeropuerto,277,350.0
+SIMULADO,2025-09,Mérida Teya,Bacalar,308,
+SIMULADO,2025-09,Mérida Teya,Izamal,681,38.0
+SIMULADO,2025-09,Mérida Teya,Chetumal Aeropuerto,216,
+SIMULADO,2025-09,Mérida Teya,Escárcega,210,281.0
+SIMULADO,2025-09,Mérida Teya,Puerto Morelos,184,245.0
+SIMULADO,2025-09,Mérida Teya,Felipe Carrillo Puerto,117,
+SIMULADO,2025-09,Mérida Teya,Leona Vicario,146,188.0
+SIMULADO,2025-09,Mérida Teya,Nuevo Xcán,143,159.0
+SIMULADO,2025-09,Mérida Teya,Calkiní,257,65.0
+SIMULADO,2025-09,Mérida Teya,Maxcanú,193,46.0
+SIMULADO,2025-09,Mérida Teya,Umán,303,20.0
+SIMULADO,2025-09,Mérida Teya,Hecelchakán,145,81.0
+SIMULADO,2025-09,Mérida Teya,Tenabo,125,96.0
+SIMULADO,2025-09,Mérida Teya,Tixkokob,260,14.0
+SIMULADO,2025-09,Mérida Teya,Edzná,82,194.0
+SIMULADO,2025-09,Mérida Teya,Xpujil,85,
+SIMULADO,2025-09,Mérida Teya,Calakmul,62,
+SIMULADO,2025-09,Mérida Teya,Candelaria,46,322.0
+SIMULADO,2025-09,Mérida Teya,Tenosique,69,386.0
+SIMULADO,2025-09,Mérida Teya,Boca del Cerro,28,395.0
+SIMULADO,2025-09,Mérida Teya,Triunfo,37,348.0
+SIMULADO,2025-09,Mérida Teya,Carrillo Puerto Camp.,53,238.0
+SIMULADO,2025-09,Mérida Teya,Chacchoben,44,
+SIMULADO,2025-09,Mérida Teya,Kohunlich,30,
+SIMULADO,2025-09,Mérida Teya,Centenario,37,
+SIMULADO,2025-09,Cancún Aeropuerto,Mérida Teya,1529,216.0
+SIMULADO,2025-09,Playa del Carmen,Mérida Teya,946,275.0
+SIMULADO,2025-09,Valladolid,Mérida Teya,1307,113.0
+SIMULADO,2025-09,Tulum,Mérida Teya,433,329.0
+SIMULADO,2025-09,San Fco. Campeche,Mérida Teya,865,143.0
+SIMULADO,2025-09,Chichén Itzá,Mérida Teya,994,83.0
+SIMULADO,2025-09,Palenque,Mérida Teya,278,452.0
+SIMULADO,2025-09,Tulum Aeropuerto,Mérida Teya,245,350.0
+SIMULADO,2025-09,Bacalar,Mérida Teya,247,
+SIMULADO,2025-09,Izamal,Mérida Teya,541,38.0
+SIMULADO,2025-09,Chetumal Aeropuerto,Mérida Teya,216,
+SIMULADO,2025-09,Escárcega,Mérida Teya,138,281.0
+SIMULADO,2025-09,Puerto Morelos,Mérida Teya,149,245.0
+SIMULADO,2025-09,Felipe Carrillo Puerto,Mérida Teya,117,
+SIMULADO,2025-09,Leona Vicario,Mérida Teya,118,188.0
+SIMULADO,2025-09,Nuevo Xcán,Mérida Teya,141,159.0
+SIMULADO,2025-09,Calkiní,Mérida Teya,189,65.0
+SIMULADO,2025-09,Maxcanú,Mérida Teya,179,46.0
+SIMULADO,2025-09,Umán,Mérida Teya,255,20.0
+SIMULADO,2025-09,Hecelchakán,Mérida Teya,144,81.0
+SIMULADO,2025-09,Tenabo,Mérida Teya,115,96.0
+SIMULADO,2025-09,Tixkokob,Mérida Teya,241,14.0
+SIMULADO,2025-09,Edzná,Mérida Teya,76,194.0
+SIMULADO,2025-09,Xpujil,Mérida Teya,80,
+SIMULADO,2025-09,Calakmul,Mérida Teya,45,
+SIMULADO,2025-09,Candelaria,Mérida Teya,39,322.0
+SIMULADO,2025-09,Tenosique,Mérida Teya,55,386.0
+SIMULADO,2025-09,Boca del Cerro,Mérida Teya,31,395.0
+SIMULADO,2025-09,Triunfo,Mérida Teya,31,348.0
+SIMULADO,2025-09,Carrillo Puerto Camp.,Mérida Teya,49,238.0
+SIMULADO,2025-09,Chacchoben,Mérida Teya,42,
+SIMULADO,2025-09,Kohunlich,Mérida Teya,33,
+SIMULADO,2025-09,Centenario,Mérida Teya,27,
+SIMULADO,2025-10,Mérida Teya,Cancún Aeropuerto,1377,216.0
+SIMULADO,2025-10,Mérida Teya,Playa del Carmen,650,275.0
+SIMULADO,2025-10,Mérida Teya,Valladolid,1110,113.0
+SIMULADO,2025-10,Mérida Teya,Tulum,609,329.0
+SIMULADO,2025-10,Mérida Teya,San Fco. Campeche,943,143.0
+SIMULADO,2025-10,Mérida Teya,Chichén Itzá,1076,83.0
+SIMULADO,2025-10,Mérida Teya,Palenque,249,452.0
+SIMULADO,2025-10,Mérida Teya,Tulum Aeropuerto,181,350.0
+SIMULADO,2025-10,Mérida Teya,Bacalar,220,
+SIMULADO,2025-10,Mérida Teya,Izamal,623,38.0
+SIMULADO,2025-10,Mérida Teya,Chetumal Aeropuerto,169,
+SIMULADO,2025-10,Mérida Teya,Escárcega,218,281.0
+SIMULADO,2025-10,Mérida Teya,Puerto Morelos,156,245.0
+SIMULADO,2025-10,Mérida Teya,Felipe Carrillo Puerto,112,
+SIMULADO,2025-10,Mérida Teya,Leona Vicario,132,188.0
+SIMULADO,2025-10,Mérida Teya,Nuevo Xcán,122,159.0
+SIMULADO,2025-10,Mérida Teya,Calkiní,199,65.0
+SIMULADO,2025-10,Mérida Teya,Maxcanú,135,46.0
+SIMULADO,2025-10,Mérida Teya,Umán,215,20.0
+SIMULADO,2025-10,Mérida Teya,Hecelchakán,127,81.0
+SIMULADO,2025-10,Mérida Teya,Tenabo,103,96.0
+SIMULADO,2025-10,Mérida Teya,Tixkokob,251,14.0
+SIMULADO,2025-10,Mérida Teya,Edzná,62,194.0
+SIMULADO,2025-10,Mérida Teya,Xpujil,80,
+SIMULADO,2025-10,Mérida Teya,Calakmul,57,
+SIMULADO,2025-10,Mérida Teya,Candelaria,33,322.0
+SIMULADO,2025-10,Mérida Teya,Tenosique,41,386.0
+SIMULADO,2025-10,Mérida Teya,Boca del Cerro,28,395.0
+SIMULADO,2025-10,Mérida Teya,Triunfo,24,348.0
+SIMULADO,2025-10,Mérida Teya,Carrillo Puerto Camp.,41,238.0
+SIMULADO,2025-10,Mérida Teya,Chacchoben,40,
+SIMULADO,2025-10,Mérida Teya,Kohunlich,37,
+SIMULADO,2025-10,Mérida Teya,Centenario,26,
+SIMULADO,2025-10,Cancún Aeropuerto,Mérida Teya,1699,216.0
+SIMULADO,2025-10,Playa del Carmen,Mérida Teya,765,275.0
+SIMULADO,2025-10,Valladolid,Mérida Teya,1067,113.0
+SIMULADO,2025-10,Tulum,Mérida Teya,495,329.0
+SIMULADO,2025-10,San Fco. Campeche,Mérida Teya,924,143.0
+SIMULADO,2025-10,Chichén Itzá,Mérida Teya,945,83.0
+SIMULADO,2025-10,Palenque,Mérida Teya,264,452.0
+SIMULADO,2025-10,Tulum Aeropuerto,Mérida Teya,204,350.0
+SIMULADO,2025-10,Bacalar,Mérida Teya,206,
+SIMULADO,2025-10,Izamal,Mérida Teya,683,38.0
+SIMULADO,2025-10,Chetumal Aeropuerto,Mérida Teya,213,
+SIMULADO,2025-10,Escárcega,Mérida Teya,135,281.0
+SIMULADO,2025-10,Puerto Morelos,Mérida Teya,194,245.0
+SIMULADO,2025-10,Felipe Carrillo Puerto,Mérida Teya,102,
+SIMULADO,2025-10,Leona Vicario,Mérida Teya,128,188.0
+SIMULADO,2025-10,Nuevo Xcán,Mérida Teya,101,159.0
+SIMULADO,2025-10,Calkiní,Mérida Teya,236,65.0
+SIMULADO,2025-10,Maxcanú,Mérida Teya,210,46.0
+SIMULADO,2025-10,Umán,Mérida Teya,261,20.0
+SIMULADO,2025-10,Hecelchakán,Mérida Teya,144,81.0
+SIMULADO,2025-10,Tenabo,Mérida Teya,91,96.0
+SIMULADO,2025-10,Tixkokob,Mérida Teya,185,14.0
+SIMULADO,2025-10,Edzná,Mérida Teya,81,194.0
+SIMULADO,2025-10,Xpujil,Mérida Teya,85,
+SIMULADO,2025-10,Calakmul,Mérida Teya,51,
+SIMULADO,2025-10,Candelaria,Mérida Teya,40,322.0
+SIMULADO,2025-10,Tenosique,Mérida Teya,47,386.0
+SIMULADO,2025-10,Boca del Cerro,Mérida Teya,29,395.0
+SIMULADO,2025-10,Triunfo,Mérida Teya,29,348.0
+SIMULADO,2025-10,Carrillo Puerto Camp.,Mérida Teya,56,238.0
+SIMULADO,2025-10,Chacchoben,Mérida Teya,51,
+SIMULADO,2025-10,Kohunlich,Mérida Teya,32,
+SIMULADO,2025-10,Centenario,Mérida Teya,33,
+SIMULADO,2025-11,Mérida Teya,Cancún Aeropuerto,2425,216.0
+SIMULADO,2025-11,Mérida Teya,Playa del Carmen,1200,275.0
+SIMULADO,2025-11,Mérida Teya,Valladolid,2204,113.0
+SIMULADO,2025-11,Mérida Teya,Tulum,641,329.0
+SIMULADO,2025-11,Mérida Teya,San Fco. Campeche,1436,143.0
+SIMULADO,2025-11,Mérida Teya,Chichén Itzá,1700,83.0
+SIMULADO,2025-11,Mérida Teya,Palenque,506,452.0
+SIMULADO,2025-11,Mérida Teya,Tulum Aeropuerto,364,350.0
+SIMULADO,2025-11,Mérida Teya,Bacalar,477,
+SIMULADO,2025-11,Mérida Teya,Izamal,1195,38.0
+SIMULADO,2025-11,Mérida Teya,Chetumal Aeropuerto,332,
+SIMULADO,2025-11,Mérida Teya,Escárcega,265,281.0
+SIMULADO,2025-11,Mérida Teya,Puerto Morelos,322,245.0
+SIMULADO,2025-11,Mérida Teya,Felipe Carrillo Puerto,219,
+SIMULADO,2025-11,Mérida Teya,Leona Vicario,216,188.0
+SIMULADO,2025-11,Mérida Teya,Nuevo Xcán,228,159.0
+SIMULADO,2025-11,Mérida Teya,Calkiní,272,65.0
+SIMULADO,2025-11,Mérida Teya,Maxcanú,312,46.0
+SIMULADO,2025-11,Mérida Teya,Umán,504,20.0
+SIMULADO,2025-11,Mérida Teya,Hecelchakán,224,81.0
+SIMULADO,2025-11,Mérida Teya,Tenabo,201,96.0
+SIMULADO,2025-11,Mérida Teya,Tixkokob,346,14.0
+SIMULADO,2025-11,Mérida Teya,Edzná,140,194.0
+SIMULADO,2025-11,Mérida Teya,Xpujil,145,
+SIMULADO,2025-11,Mérida Teya,Calakmul,76,
+SIMULADO,2025-11,Mérida Teya,Candelaria,97,322.0
+SIMULADO,2025-11,Mérida Teya,Tenosique,65,386.0
+SIMULADO,2025-11,Mérida Teya,Boca del Cerro,49,395.0
+SIMULADO,2025-11,Mérida Teya,Triunfo,55,348.0
+SIMULADO,2025-11,Mérida Teya,Carrillo Puerto Camp.,77,238.0
+SIMULADO,2025-11,Mérida Teya,Chacchoben,61,
+SIMULADO,2025-11,Mérida Teya,Kohunlich,48,
+SIMULADO,2025-11,Mérida Teya,Centenario,53,
+SIMULADO,2025-11,Cancún Aeropuerto,Mérida Teya,2998,216.0
+SIMULADO,2025-11,Playa del Carmen,Mérida Teya,1469,275.0
+SIMULADO,2025-11,Valladolid,Mérida Teya,2402,113.0
+SIMULADO,2025-11,Tulum,Mérida Teya,932,329.0
+SIMULADO,2025-11,San Fco. Campeche,Mérida Teya,1848,143.0
+SIMULADO,2025-11,Chichén Itzá,Mérida Teya,1654,83.0
+SIMULADO,2025-11,Palenque,Mérida Teya,559,452.0
+SIMULADO,2025-11,Tulum Aeropuerto,Mérida Teya,369,350.0
+SIMULADO,2025-11,Bacalar,Mérida Teya,473,
+SIMULADO,2025-11,Izamal,Mérida Teya,1213,38.0
+SIMULADO,2025-11,Chetumal Aeropuerto,Mérida Teya,493,
+SIMULADO,2025-11,Escárcega,Mérida Teya,389,281.0
+SIMULADO,2025-11,Puerto Morelos,Mérida Teya,377,245.0
+SIMULADO,2025-11,Felipe Carrillo Puerto,Mérida Teya,287,
+SIMULADO,2025-11,Leona Vicario,Mérida Teya,212,188.0
+SIMULADO,2025-11,Nuevo Xcán,Mérida Teya,219,159.0
+SIMULADO,2025-11,Calkiní,Mérida Teya,375,65.0
+SIMULADO,2025-11,Maxcanú,Mérida Teya,415,46.0
+SIMULADO,2025-11,Umán,Mérida Teya,501,20.0
+SIMULADO,2025-11,Hecelchakán,Mérida Teya,276,81.0
+SIMULADO,2025-11,Tenabo,Mérida Teya,257,96.0
+SIMULADO,2025-11,Tixkokob,Mérida Teya,451,14.0
+SIMULADO,2025-11,Edzná,Mérida Teya,141,194.0
+SIMULADO,2025-11,Xpujil,Mérida Teya,153,
+SIMULADO,2025-11,Calakmul,Mérida Teya,107,
+SIMULADO,2025-11,Candelaria,Mérida Teya,80,322.0
+SIMULADO,2025-11,Tenosique,Mérida Teya,109,386.0
+SIMULADO,2025-11,Boca del Cerro,Mérida Teya,67,395.0
+SIMULADO,2025-11,Triunfo,Mérida Teya,58,348.0
+SIMULADO,2025-11,Carrillo Puerto Camp.,Mérida Teya,114,238.0
+SIMULADO,2025-11,Chacchoben,Mérida Teya,100,
+SIMULADO,2025-11,Kohunlich,Mérida Teya,58,
+SIMULADO,2025-11,Centenario,Mérida Teya,69,
+SIMULADO,2025-12,Mérida Teya,Cancún Aeropuerto,2630,216.0
+SIMULADO,2025-12,Mérida Teya,Playa del Carmen,1752,275.0
+SIMULADO,2025-12,Mérida Teya,Valladolid,2121,113.0
+SIMULADO,2025-12,Mérida Teya,Tulum,797,329.0
+SIMULADO,2025-12,Mérida Teya,San Fco. Campeche,1602,143.0
+SIMULADO,2025-12,Mérida Teya,Chichén Itzá,1965,83.0
+SIMULADO,2025-12,Mérida Teya,Palenque,525,452.0
+SIMULADO,2025-12,Mérida Teya,Tulum Aeropuerto,394,350.0
+SIMULADO,2025-12,Mérida Teya,Bacalar,537,
+SIMULADO,2025-12,Mérida Teya,Izamal,1319,38.0
+SIMULADO,2025-12,Mérida Teya,Chetumal Aeropuerto,395,
+SIMULADO,2025-12,Mérida Teya,Escárcega,275,281.0
+SIMULADO,2025-12,Mérida Teya,Puerto Morelos,249,245.0
+SIMULADO,2025-12,Mérida Teya,Felipe Carrillo Puerto,223,
+SIMULADO,2025-12,Mérida Teya,Leona Vicario,247,188.0
+SIMULADO,2025-12,Mérida Teya,Nuevo Xcán,203,159.0
+SIMULADO,2025-12,Mérida Teya,Calkiní,418,65.0
+SIMULADO,2025-12,Mérida Teya,Maxcanú,316,46.0
+SIMULADO,2025-12,Mérida Teya,Umán,530,20.0
+SIMULADO,2025-12,Mérida Teya,Hecelchakán,302,81.0
+SIMULADO,2025-12,Mérida Teya,Tenabo,228,96.0
+SIMULADO,2025-12,Mérida Teya,Tixkokob,373,14.0
+SIMULADO,2025-12,Mérida Teya,Edzná,163,194.0
+SIMULADO,2025-12,Mérida Teya,Xpujil,152,
+SIMULADO,2025-12,Mérida Teya,Calakmul,91,
+SIMULADO,2025-12,Mérida Teya,Candelaria,87,322.0
+SIMULADO,2025-12,Mérida Teya,Tenosique,82,386.0
+SIMULADO,2025-12,Mérida Teya,Boca del Cerro,65,395.0
+SIMULADO,2025-12,Mérida Teya,Triunfo,62,348.0
+SIMULADO,2025-12,Mérida Teya,Carrillo Puerto Camp.,106,238.0
+SIMULADO,2025-12,Mérida Teya,Chacchoben,75,
+SIMULADO,2025-12,Mérida Teya,Kohunlich,57,
+SIMULADO,2025-12,Mérida Teya,Centenario,58,
+SIMULADO,2025-12,Cancún Aeropuerto,Mérida Teya,2954,216.0
+SIMULADO,2025-12,Playa del Carmen,Mérida Teya,1632,275.0
+SIMULADO,2025-12,Valladolid,Mérida Teya,1856,113.0
+SIMULADO,2025-12,Tulum,Mérida Teya,683,329.0
+SIMULADO,2025-12,San Fco. Campeche,Mérida Teya,1219,143.0
+SIMULADO,2025-12,Chichén Itzá,Mérida Teya,1508,83.0
+SIMULADO,2025-12,Palenque,Mérida Teya,413,452.0
+SIMULADO,2025-12,Tulum Aeropuerto,Mérida Teya,403,350.0
+SIMULADO,2025-12,Bacalar,Mérida Teya,326,
+SIMULADO,2025-12,Izamal,Mérida Teya,979,38.0
+SIMULADO,2025-12,Chetumal Aeropuerto,Mérida Teya,401,
+SIMULADO,2025-12,Escárcega,Mérida Teya,282,281.0
+SIMULADO,2025-12,Puerto Morelos,Mérida Teya,274,245.0
+SIMULADO,2025-12,Felipe Carrillo Puerto,Mérida Teya,161,
+SIMULADO,2025-12,Leona Vicario,Mérida Teya,220,188.0
+SIMULADO,2025-12,Nuevo Xcán,Mérida Teya,195,159.0
+SIMULADO,2025-12,Calkiní,Mérida Teya,282,65.0
+SIMULADO,2025-12,Maxcanú,Mérida Teya,335,46.0
+SIMULADO,2025-12,Umán,Mérida Teya,381,20.0
+SIMULADO,2025-12,Hecelchakán,Mérida Teya,186,81.0
+SIMULADO,2025-12,Tenabo,Mérida Teya,185,96.0
+SIMULADO,2025-12,Tixkokob,Mérida Teya,393,14.0
+SIMULADO,2025-12,Edzná,Mérida Teya,106,194.0
+SIMULADO,2025-12,Xpujil,Mérida Teya,165,
+SIMULADO,2025-12,Calakmul,Mérida Teya,70,
+SIMULADO,2025-12,Candelaria,Mérida Teya,95,322.0
+SIMULADO,2025-12,Tenosique,Mérida Teya,79,386.0
+SIMULADO,2025-12,Boca del Cerro,Mérida Teya,65,395.0
+SIMULADO,2025-12,Triunfo,Mérida Teya,47,348.0
+SIMULADO,2025-12,Carrillo Puerto Camp.,Mérida Teya,80,238.0
+SIMULADO,2025-12,Chacchoben,Mérida Teya,59,
+SIMULADO,2025-12,Kohunlich,Mérida Teya,50,
+SIMULADO,2025-12,Centenario,Mérida Teya,44,
+SIMULADO,2026-01,Mérida Teya,Cancún Aeropuerto,2457,216.0
+SIMULADO,2026-01,Mérida Teya,Playa del Carmen,1803,275.0
+SIMULADO,2026-01,Mérida Teya,Valladolid,1871,113.0
+SIMULADO,2026-01,Mérida Teya,Tulum,920,329.0
+SIMULADO,2026-01,Mérida Teya,San Fco. Campeche,1506,143.0
+SIMULADO,2026-01,Mérida Teya,Chichén Itzá,1723,83.0
+SIMULADO,2026-01,Mérida Teya,Palenque,484,452.0
+SIMULADO,2026-01,Mérida Teya,Tulum Aeropuerto,339,350.0
+SIMULADO,2026-01,Mérida Teya,Bacalar,486,
+SIMULADO,2026-01,Mérida Teya,Izamal,1007,38.0
+SIMULADO,2026-01,Mérida Teya,Chetumal Aeropuerto,330,
+SIMULADO,2026-01,Mérida Teya,Escárcega,358,281.0
+SIMULADO,2026-01,Mérida Teya,Puerto Morelos,291,245.0
+SIMULADO,2026-01,Mérida Teya,Felipe Carrillo Puerto,187,
+SIMULADO,2026-01,Mérida Teya,Leona Vicario,199,188.0
+SIMULADO,2026-01,Mérida Teya,Nuevo Xcán,233,159.0
+SIMULADO,2026-01,Mérida Teya,Calkiní,318,65.0
+SIMULADO,2026-01,Mérida Teya,Maxcanú,338,46.0
+SIMULADO,2026-01,Mérida Teya,Umán,451,20.0
+SIMULADO,2026-01,Mérida Teya,Hecelchakán,269,81.0
+SIMULADO,2026-01,Mérida Teya,Tenabo,230,96.0
+SIMULADO,2026-01,Mérida Teya,Tixkokob,439,14.0
+SIMULADO,2026-01,Mérida Teya,Edzná,129,194.0
+SIMULADO,2026-01,Mérida Teya,Xpujil,132,
+SIMULADO,2026-01,Mérida Teya,Calakmul,85,
+SIMULADO,2026-01,Mérida Teya,Candelaria,70,322.0
+SIMULADO,2026-01,Mérida Teya,Tenosique,84,386.0
+SIMULADO,2026-01,Mérida Teya,Boca del Cerro,61,395.0
+SIMULADO,2026-01,Mérida Teya,Triunfo,51,348.0
+SIMULADO,2026-01,Mérida Teya,Carrillo Puerto Camp.,82,238.0
+SIMULADO,2026-01,Mérida Teya,Chacchoben,73,
+SIMULADO,2026-01,Mérida Teya,Kohunlich,51,
+SIMULADO,2026-01,Mérida Teya,Centenario,64,
+SIMULADO,2026-01,Cancún Aeropuerto,Mérida Teya,2244,216.0
+SIMULADO,2026-01,Playa del Carmen,Mérida Teya,1643,275.0
+SIMULADO,2026-01,Valladolid,Mérida Teya,1525,113.0
+SIMULADO,2026-01,Tulum,Mérida Teya,603,329.0
+SIMULADO,2026-01,San Fco. Campeche,Mérida Teya,1227,143.0
+SIMULADO,2026-01,Chichén Itzá,Mérida Teya,1471,83.0
+SIMULADO,2026-01,Palenque,Mérida Teya,406,452.0
+SIMULADO,2026-01,Tulum Aeropuerto,Mérida Teya,311,350.0
+SIMULADO,2026-01,Bacalar,Mérida Teya,417,
+SIMULADO,2026-01,Izamal,Mérida Teya,968,38.0
+SIMULADO,2026-01,Chetumal Aeropuerto,Mérida Teya,259,
+SIMULADO,2026-01,Escárcega,Mérida Teya,258,281.0
+SIMULADO,2026-01,Puerto Morelos,Mérida Teya,218,245.0
+SIMULADO,2026-01,Felipe Carrillo Puerto,Mérida Teya,224,
+SIMULADO,2026-01,Leona Vicario,Mérida Teya,165,188.0
+SIMULADO,2026-01,Nuevo Xcán,Mérida Teya,193,159.0
+SIMULADO,2026-01,Calkiní,Mérida Teya,270,65.0
+SIMULADO,2026-01,Maxcanú,Mérida Teya,263,46.0
+SIMULADO,2026-01,Umán,Mérida Teya,288,20.0
+SIMULADO,2026-01,Hecelchakán,Mérida Teya,196,81.0
+SIMULADO,2026-01,Tenabo,Mérida Teya,158,96.0
+SIMULADO,2026-01,Tixkokob,Mérida Teya,336,14.0
+SIMULADO,2026-01,Edzná,Mérida Teya,122,194.0
+SIMULADO,2026-01,Xpujil,Mérida Teya,145,
+SIMULADO,2026-01,Calakmul,Mérida Teya,99,
+SIMULADO,2026-01,Candelaria,Mérida Teya,55,322.0
+SIMULADO,2026-01,Tenosique,Mérida Teya,99,386.0
+SIMULADO,2026-01,Boca del Cerro,Mérida Teya,49,395.0
+SIMULADO,2026-01,Triunfo,Mérida Teya,46,348.0
+SIMULADO,2026-01,Carrillo Puerto Camp.,Mérida Teya,73,238.0
+SIMULADO,2026-01,Chacchoben,Mérida Teya,61,
+SIMULADO,2026-01,Kohunlich,Mérida Teya,53,
+SIMULADO,2026-01,Centenario,Mérida Teya,51,
+SIMULADO,2026-02,Mérida Teya,Cancún Aeropuerto,1730,216.0
+SIMULADO,2026-02,Mérida Teya,Playa del Carmen,1022,275.0
+SIMULADO,2026-02,Mérida Teya,Valladolid,1333,113.0
+SIMULADO,2026-02,Mérida Teya,Tulum,531,329.0
+SIMULADO,2026-02,Mérida Teya,San Fco. Campeche,956,143.0
+SIMULADO,2026-02,Mérida Teya,Chichén Itzá,1099,83.0
+SIMULADO,2026-02,Mérida Teya,Palenque,394,452.0
+SIMULADO,2026-02,Mérida Teya,Tulum Aeropuerto,293,350.0
+SIMULADO,2026-02,Mérida Teya,Bacalar,296,
+SIMULADO,2026-02,Mérida Teya,Izamal,697,38.0
+SIMULADO,2026-02,Mérida Teya,Chetumal Aeropuerto,216,
+SIMULADO,2026-02,Mérida Teya,Escárcega,216,281.0
+SIMULADO,2026-02,Mérida Teya,Puerto Morelos,177,245.0
+SIMULADO,2026-02,Mérida Teya,Felipe Carrillo Puerto,166,
+SIMULADO,2026-02,Mérida Teya,Leona Vicario,153,188.0
+SIMULADO,2026-02,Mérida Teya,Nuevo Xcán,139,159.0
+SIMULADO,2026-02,Mérida Teya,Calkiní,201,65.0
+SIMULADO,2026-02,Mérida Teya,Maxcanú,213,46.0
+SIMULADO,2026-02,Mérida Teya,Umán,338,20.0
+SIMULADO,2026-02,Mérida Teya,Hecelchakán,188,81.0
+SIMULADO,2026-02,Mérida Teya,Tenabo,140,96.0
+SIMULADO,2026-02,Mérida Teya,Tixkokob,284,14.0
+SIMULADO,2026-02,Mérida Teya,Edzná,92,194.0
+SIMULADO,2026-02,Mérida Teya,Xpujil,112,
+SIMULADO,2026-02,Mérida Teya,Calakmul,53,
+SIMULADO,2026-02,Mérida Teya,Candelaria,59,322.0
+SIMULADO,2026-02,Mérida Teya,Tenosique,63,386.0
+SIMULADO,2026-02,Mérida Teya,Boca del Cerro,41,395.0
+SIMULADO,2026-02,Mérida Teya,Triunfo,34,348.0
+SIMULADO,2026-02,Mérida Teya,Carrillo Puerto Camp.,61,238.0
+SIMULADO,2026-02,Mérida Teya,Chacchoben,53,
+SIMULADO,2026-02,Mérida Teya,Kohunlich,45,
+SIMULADO,2026-02,Mérida Teya,Centenario,38,
+SIMULADO,2026-02,Cancún Aeropuerto,Mérida Teya,1946,216.0
+SIMULADO,2026-02,Playa del Carmen,Mérida Teya,1045,275.0
+SIMULADO,2026-02,Valladolid,Mérida Teya,1272,113.0
+SIMULADO,2026-02,Tulum,Mérida Teya,557,329.0
+SIMULADO,2026-02,San Fco. Campeche,Mérida Teya,976,143.0
+SIMULADO,2026-02,Chichén Itzá,Mérida Teya,1029,83.0
+SIMULADO,2026-02,Palenque,Mérida Teya,400,452.0
+SIMULADO,2026-02,Tulum Aeropuerto,Mérida Teya,268,350.0
+SIMULADO,2026-02,Bacalar,Mérida Teya,264,
+SIMULADO,2026-02,Izamal,Mérida Teya,807,38.0
+SIMULADO,2026-02,Chetumal Aeropuerto,Mérida Teya,255,
+SIMULADO,2026-02,Escárcega,Mérida Teya,220,281.0
+SIMULADO,2026-02,Puerto Morelos,Mérida Teya,217,245.0
+SIMULADO,2026-02,Felipe Carrillo Puerto,Mérida Teya,128,
+SIMULADO,2026-02,Leona Vicario,Mérida Teya,123,188.0
+SIMULADO,2026-02,Nuevo Xcán,Mérida Teya,148,159.0
+SIMULADO,2026-02,Calkiní,Mérida Teya,194,65.0
+SIMULADO,2026-02,Maxcanú,Mérida Teya,212,46.0
+SIMULADO,2026-02,Umán,Mérida Teya,232,20.0
+SIMULADO,2026-02,Hecelchakán,Mérida Teya,155,81.0
+SIMULADO,2026-02,Tenabo,Mérida Teya,132,96.0
+SIMULADO,2026-02,Tixkokob,Mérida Teya,253,14.0
+SIMULADO,2026-02,Edzná,Mérida Teya,90,194.0
+SIMULADO,2026-02,Xpujil,Mérida Teya,99,
+SIMULADO,2026-02,Calakmul,Mérida Teya,63,
+SIMULADO,2026-02,Candelaria,Mérida Teya,57,322.0
+SIMULADO,2026-02,Tenosique,Mérida Teya,66,386.0
+SIMULADO,2026-02,Boca del Cerro,Mérida Teya,36,395.0
+SIMULADO,2026-02,Triunfo,Mérida Teya,37,348.0
+SIMULADO,2026-02,Carrillo Puerto Camp.,Mérida Teya,60,238.0
+SIMULADO,2026-02,Chacchoben,Mérida Teya,51,
+SIMULADO,2026-02,Kohunlich,Mérida Teya,39,
+SIMULADO,2026-02,Centenario,Mérida Teya,38,
+SIMULADO,2026-03,Mérida Teya,Cancún Aeropuerto,2034,216.0
+SIMULADO,2026-03,Mérida Teya,Playa del Carmen,927,275.0
+SIMULADO,2026-03,Mérida Teya,Valladolid,1298,113.0
+SIMULADO,2026-03,Mérida Teya,Tulum,465,329.0
+SIMULADO,2026-03,Mérida Teya,San Fco. Campeche,1192,143.0
+SIMULADO,2026-03,Mérida Teya,Chichén Itzá,1160,83.0
+SIMULADO,2026-03,Mérida Teya,Palenque,362,452.0
+SIMULADO,2026-03,Mérida Teya,Tulum Aeropuerto,332,350.0
+SIMULADO,2026-03,Mérida Teya,Bacalar,337,
+SIMULADO,2026-03,Mérida Teya,Izamal,592,38.0
+SIMULADO,2026-03,Mérida Teya,Chetumal Aeropuerto,228,
+SIMULADO,2026-03,Mérida Teya,Escárcega,248,281.0
+SIMULADO,2026-03,Mérida Teya,Puerto Morelos,220,245.0
+SIMULADO,2026-03,Mérida Teya,Felipe Carrillo Puerto,175,
+SIMULADO,2026-03,Mérida Teya,Leona Vicario,192,188.0
+SIMULADO,2026-03,Mérida Teya,Nuevo Xcán,141,159.0
+SIMULADO,2026-03,Mérida Teya,Calkiní,319,65.0
+SIMULADO,2026-03,Mérida Teya,Maxcanú,232,46.0
+SIMULADO,2026-03,Mérida Teya,Umán,298,20.0
+SIMULADO,2026-03,Mérida Teya,Hecelchakán,190,81.0
+SIMULADO,2026-03,Mérida Teya,Tenabo,212,96.0
+SIMULADO,2026-03,Mérida Teya,Tixkokob,274,14.0
+SIMULADO,2026-03,Mérida Teya,Edzná,110,194.0
+SIMULADO,2026-03,Mérida Teya,Xpujil,117,
+SIMULADO,2026-03,Mérida Teya,Calakmul,63,
+SIMULADO,2026-03,Mérida Teya,Candelaria,62,322.0
+SIMULADO,2026-03,Mérida Teya,Tenosique,59,386.0
+SIMULADO,2026-03,Mérida Teya,Boca del Cerro,38,395.0
+SIMULADO,2026-03,Mérida Teya,Triunfo,31,348.0
+SIMULADO,2026-03,Mérida Teya,Carrillo Puerto Camp.,70,238.0
+SIMULADO,2026-03,Mérida Teya,Chacchoben,46,
+SIMULADO,2026-03,Mérida Teya,Kohunlich,41,
+SIMULADO,2026-03,Mérida Teya,Centenario,34,
+SIMULADO,2026-03,Cancún Aeropuerto,Mérida Teya,1436,216.0
+SIMULADO,2026-03,Playa del Carmen,Mérida Teya,759,275.0
+SIMULADO,2026-03,Valladolid,Mérida Teya,1226,113.0
+SIMULADO,2026-03,Tulum,Mérida Teya,429,329.0
+SIMULADO,2026-03,San Fco. Campeche,Mérida Teya,898,143.0
+SIMULADO,2026-03,Chichén Itzá,Mérida Teya,1174,83.0
+SIMULADO,2026-03,Palenque,Mérida Teya,337,452.0
+SIMULADO,2026-03,Tulum Aeropuerto,Mérida Teya,182,350.0
+SIMULADO,2026-03,Bacalar,Mérida Teya,215,
+SIMULADO,2026-03,Izamal,Mérida Teya,682,38.0
+SIMULADO,2026-03,Chetumal Aeropuerto,Mérida Teya,222,
+SIMULADO,2026-03,Escárcega,Mérida Teya,193,281.0
+SIMULADO,2026-03,Puerto Morelos,Mérida Teya,198,245.0
+SIMULADO,2026-03,Felipe Carrillo Puerto,Mérida Teya,147,
+SIMULADO,2026-03,Leona Vicario,Mérida Teya,133,188.0
+SIMULADO,2026-03,Nuevo Xcán,Mérida Teya,136,159.0
+SIMULADO,2026-03,Calkiní,Mérida Teya,199,65.0
+SIMULADO,2026-03,Maxcanú,Mérida Teya,172,46.0
+SIMULADO,2026-03,Umán,Mérida Teya,255,20.0
+SIMULADO,2026-03,Hecelchakán,Mérida Teya,154,81.0
+SIMULADO,2026-03,Tenabo,Mérida Teya,99,96.0
+SIMULADO,2026-03,Tixkokob,Mérida Teya,284,14.0
+SIMULADO,2026-03,Edzná,Mérida Teya,84,194.0
+SIMULADO,2026-03,Xpujil,Mérida Teya,69,
+SIMULADO,2026-03,Calakmul,Mérida Teya,54,
+SIMULADO,2026-03,Candelaria,Mérida Teya,46,322.0
+SIMULADO,2026-03,Tenosique,Mérida Teya,65,386.0
+SIMULADO,2026-03,Boca del Cerro,Mérida Teya,37,395.0
+SIMULADO,2026-03,Triunfo,Mérida Teya,34,348.0
+SIMULADO,2026-03,Carrillo Puerto Camp.,Mérida Teya,54,238.0
+SIMULADO,2026-03,Chacchoben,Mérida Teya,47,
+SIMULADO,2026-03,Kohunlich,Mérida Teya,39,
+SIMULADO,2026-03,Centenario,Mérida Teya,29,
+SIMULADO,2026-04,Mérida Teya,Cancún Aeropuerto,2290,216.0
+SIMULADO,2026-04,Mérida Teya,Playa del Carmen,1297,275.0
+SIMULADO,2026-04,Mérida Teya,Valladolid,1748,113.0
+SIMULADO,2026-04,Mérida Teya,Tulum,747,329.0
+SIMULADO,2026-04,Mérida Teya,San Fco. Campeche,1230,143.0
+SIMULADO,2026-04,Mérida Teya,Chichén Itzá,1225,83.0
+SIMULADO,2026-04,Mérida Teya,Palenque,347,452.0
+SIMULADO,2026-04,Mérida Teya,Tulum Aeropuerto,344,350.0
+SIMULADO,2026-04,Mérida Teya,Bacalar,313,
+SIMULADO,2026-04,Mérida Teya,Izamal,846,38.0
+SIMULADO,2026-04,Mérida Teya,Chetumal Aeropuerto,320,
+SIMULADO,2026-04,Mérida Teya,Escárcega,231,281.0
+SIMULADO,2026-04,Mérida Teya,Puerto Morelos,207,245.0
+SIMULADO,2026-04,Mérida Teya,Felipe Carrillo Puerto,179,
+SIMULADO,2026-04,Mérida Teya,Leona Vicario,183,188.0
+SIMULADO,2026-04,Mérida Teya,Nuevo Xcán,155,159.0
+SIMULADO,2026-04,Mérida Teya,Calkiní,301,65.0
+SIMULADO,2026-04,Mérida Teya,Maxcanú,239,46.0
+SIMULADO,2026-04,Mérida Teya,Umán,282,20.0
+SIMULADO,2026-04,Mérida Teya,Hecelchakán,219,81.0
+SIMULADO,2026-04,Mérida Teya,Tenabo,165,96.0
+SIMULADO,2026-04,Mérida Teya,Tixkokob,325,14.0
+SIMULADO,2026-04,Mérida Teya,Edzná,88,194.0
+SIMULADO,2026-04,Mérida Teya,Xpujil,95,
+SIMULADO,2026-04,Mérida Teya,Calakmul,70,
+SIMULADO,2026-04,Mérida Teya,Candelaria,63,322.0
+SIMULADO,2026-04,Mérida Teya,Tenosique,68,386.0
+SIMULADO,2026-04,Mérida Teya,Boca del Cerro,46,395.0
+SIMULADO,2026-04,Mérida Teya,Triunfo,46,348.0
+SIMULADO,2026-04,Mérida Teya,Carrillo Puerto Camp.,65,238.0
+SIMULADO,2026-04,Mérida Teya,Chacchoben,61,
+SIMULADO,2026-04,Mérida Teya,Kohunlich,47,
+SIMULADO,2026-04,Mérida Teya,Centenario,63,
+SIMULADO,2026-04,Cancún Aeropuerto,Mérida Teya,2205,216.0
+SIMULADO,2026-04,Playa del Carmen,Mérida Teya,1208,275.0
+SIMULADO,2026-04,Valladolid,Mérida Teya,1827,113.0
+SIMULADO,2026-04,Tulum,Mérida Teya,961,329.0
+SIMULADO,2026-04,San Fco. Campeche,Mérida Teya,1189,143.0
+SIMULADO,2026-04,Chichén Itzá,Mérida Teya,1352,83.0
+SIMULADO,2026-04,Palenque,Mérida Teya,411,452.0
+SIMULADO,2026-04,Tulum Aeropuerto,Mérida Teya,284,350.0
+SIMULADO,2026-04,Bacalar,Mérida Teya,414,
+SIMULADO,2026-04,Izamal,Mérida Teya,833,38.0
+SIMULADO,2026-04,Chetumal Aeropuerto,Mérida Teya,321,
+SIMULADO,2026-04,Escárcega,Mérida Teya,260,281.0
+SIMULADO,2026-04,Puerto Morelos,Mérida Teya,304,245.0
+SIMULADO,2026-04,Felipe Carrillo Puerto,Mérida Teya,220,
+SIMULADO,2026-04,Leona Vicario,Mérida Teya,195,188.0
+SIMULADO,2026-04,Nuevo Xcán,Mérida Teya,172,159.0
+SIMULADO,2026-04,Calkiní,Mérida Teya,302,65.0
+SIMULADO,2026-04,Maxcanú,Mérida Teya,272,46.0
+SIMULADO,2026-04,Umán,Mérida Teya,377,20.0
+SIMULADO,2026-04,Hecelchakán,Mérida Teya,201,81.0
+SIMULADO,2026-04,Tenabo,Mérida Teya,166,96.0
+SIMULADO,2026-04,Tixkokob,Mérida Teya,313,14.0
+SIMULADO,2026-04,Edzná,Mérida Teya,112,194.0
+SIMULADO,2026-04,Xpujil,Mérida Teya,160,
+SIMULADO,2026-04,Calakmul,Mérida Teya,92,
+SIMULADO,2026-04,Candelaria,Mérida Teya,69,322.0
+SIMULADO,2026-04,Tenosique,Mérida Teya,82,386.0
+SIMULADO,2026-04,Boca del Cerro,Mérida Teya,40,395.0
+SIMULADO,2026-04,Triunfo,Mérida Teya,48,348.0
+SIMULADO,2026-04,Carrillo Puerto Camp.,Mérida Teya,87,238.0
+SIMULADO,2026-04,Chacchoben,Mérida Teya,52,
+SIMULADO,2026-04,Kohunlich,Mérida Teya,43,
+SIMULADO,2026-04,Centenario,Mérida Teya,43,
+SIMULADO,2026-05,Mérida Teya,Cancún Aeropuerto,2353,216.0
+SIMULADO,2026-05,Mérida Teya,Playa del Carmen,1252,275.0
+SIMULADO,2026-05,Mérida Teya,Valladolid,1984,113.0
+SIMULADO,2026-05,Mérida Teya,Tulum,742,329.0
+SIMULADO,2026-05,Mérida Teya,San Fco. Campeche,1162,143.0
+SIMULADO,2026-05,Mérida Teya,Chichén Itzá,1362,83.0
+SIMULADO,2026-05,Mérida Teya,Palenque,412,452.0
+SIMULADO,2026-05,Mérida Teya,Tulum Aeropuerto,322,350.0
+SIMULADO,2026-05,Mérida Teya,Bacalar,431,
+SIMULADO,2026-05,Mérida Teya,Izamal,1024,38.0
+SIMULADO,2026-05,Mérida Teya,Chetumal Aeropuerto,398,
+SIMULADO,2026-05,Mérida Teya,Escárcega,210,281.0
+SIMULADO,2026-05,Mérida Teya,Puerto Morelos,384,245.0
+SIMULADO,2026-05,Mérida Teya,Felipe Carrillo Puerto,209,
+SIMULADO,2026-05,Mérida Teya,Leona Vicario,186,188.0
+SIMULADO,2026-05,Mérida Teya,Nuevo Xcán,172,159.0
+SIMULADO,2026-05,Mérida Teya,Calkiní,329,65.0
+SIMULADO,2026-05,Mérida Teya,Maxcanú,350,46.0
+SIMULADO,2026-05,Mérida Teya,Umán,409,20.0
+SIMULADO,2026-05,Mérida Teya,Hecelchakán,245,81.0
+SIMULADO,2026-05,Mérida Teya,Tenabo,172,96.0
+SIMULADO,2026-05,Mérida Teya,Tixkokob,326,14.0
+SIMULADO,2026-05,Mérida Teya,Edzná,102,194.0
+SIMULADO,2026-05,Mérida Teya,Xpujil,103,
+SIMULADO,2026-05,Mérida Teya,Calakmul,76,
+SIMULADO,2026-05,Mérida Teya,Candelaria,83,322.0
+SIMULADO,2026-05,Mérida Teya,Tenosique,103,386.0
+SIMULADO,2026-05,Mérida Teya,Boca del Cerro,50,395.0
+SIMULADO,2026-05,Mérida Teya,Triunfo,37,348.0
+SIMULADO,2026-05,Mérida Teya,Carrillo Puerto Camp.,76,238.0
+SIMULADO,2026-05,Mérida Teya,Chacchoben,68,
+SIMULADO,2026-05,Mérida Teya,Kohunlich,63,
+SIMULADO,2026-05,Mérida Teya,Centenario,53,
+SIMULADO,2026-05,Cancún Aeropuerto,Mérida Teya,2432,216.0
+SIMULADO,2026-05,Playa del Carmen,Mérida Teya,1318,275.0
+SIMULADO,2026-05,Valladolid,Mérida Teya,1699,113.0
+SIMULADO,2026-05,Tulum,Mérida Teya,645,329.0
+SIMULADO,2026-05,San Fco. Campeche,Mérida Teya,1247,143.0
+SIMULADO,2026-05,Chichén Itzá,Mérida Teya,1288,83.0
+SIMULADO,2026-05,Palenque,Mérida Teya,373,452.0
+SIMULADO,2026-05,Tulum Aeropuerto,Mérida Teya,274,350.0
+SIMULADO,2026-05,Bacalar,Mérida Teya,369,
+SIMULADO,2026-05,Izamal,Mérida Teya,699,38.0
+SIMULADO,2026-05,Chetumal Aeropuerto,Mérida Teya,253,
+SIMULADO,2026-05,Escárcega,Mérida Teya,265,281.0
+SIMULADO,2026-05,Puerto Morelos,Mérida Teya,216,245.0
+SIMULADO,2026-05,Felipe Carrillo Puerto,Mérida Teya,177,
+SIMULADO,2026-05,Leona Vicario,Mérida Teya,158,188.0
+SIMULADO,2026-05,Nuevo Xcán,Mérida Teya,143,159.0
+SIMULADO,2026-05,Calkiní,Mérida Teya,262,65.0
+SIMULADO,2026-05,Maxcanú,Mérida Teya,299,46.0
+SIMULADO,2026-05,Umán,Mérida Teya,315,20.0
+SIMULADO,2026-05,Hecelchakán,Mérida Teya,206,81.0
+SIMULADO,2026-05,Tenabo,Mérida Teya,166,96.0
+SIMULADO,2026-05,Tixkokob,Mérida Teya,251,14.0
+SIMULADO,2026-05,Edzná,Mérida Teya,107,194.0
+SIMULADO,2026-05,Xpujil,Mérida Teya,105,
+SIMULADO,2026-05,Calakmul,Mérida Teya,76,
+SIMULADO,2026-05,Candelaria,Mérida Teya,61,322.0
+SIMULADO,2026-05,Tenosique,Mérida Teya,76,386.0
+SIMULADO,2026-05,Boca del Cerro,Mérida Teya,63,395.0
+SIMULADO,2026-05,Triunfo,Mérida Teya,37,348.0
+SIMULADO,2026-05,Carrillo Puerto Camp.,Mérida Teya,60,238.0
+SIMULADO,2026-05,Chacchoben,Mérida Teya,57,
+SIMULADO,2026-05,Kohunlich,Mérida Teya,49,
+SIMULADO,2026-05,Centenario,Mérida Teya,54,
+SIMULADO,2026-06,Mérida Teya,Cancún Aeropuerto,1791,216.0
+SIMULADO,2026-06,Mérida Teya,Playa del Carmen,848,275.0
+SIMULADO,2026-06,Mérida Teya,Valladolid,1102,113.0
+SIMULADO,2026-06,Mérida Teya,Tulum,380,329.0
+SIMULADO,2026-06,Mérida Teya,San Fco. Campeche,783,143.0
+SIMULADO,2026-06,Mérida Teya,Chichén Itzá,950,83.0
+SIMULADO,2026-06,Mérida Teya,Palenque,307,452.0
+SIMULADO,2026-06,Mérida Teya,Tulum Aeropuerto,250,350.0
+SIMULADO,2026-06,Mérida Teya,Bacalar,217,
+SIMULADO,2026-06,Mérida Teya,Izamal,553,38.0
+SIMULADO,2026-06,Mérida Teya,Chetumal Aeropuerto,205,
+SIMULADO,2026-06,Mérida Teya,Escárcega,179,281.0
+SIMULADO,2026-06,Mérida Teya,Puerto Morelos,185,245.0
+SIMULADO,2026-06,Mérida Teya,Felipe Carrillo Puerto,102,
+SIMULADO,2026-06,Mérida Teya,Leona Vicario,103,188.0
+SIMULADO,2026-06,Mérida Teya,Nuevo Xcán,134,159.0
+SIMULADO,2026-06,Mérida Teya,Calkiní,216,65.0
+SIMULADO,2026-06,Mérida Teya,Maxcanú,170,46.0
+SIMULADO,2026-06,Mérida Teya,Umán,236,20.0
+SIMULADO,2026-06,Mérida Teya,Hecelchakán,149,81.0
+SIMULADO,2026-06,Mérida Teya,Tenabo,112,96.0
+SIMULADO,2026-06,Mérida Teya,Tixkokob,190,14.0
+SIMULADO,2026-06,Mérida Teya,Edzná,72,194.0
+SIMULADO,2026-06,Mérida Teya,Xpujil,70,
+SIMULADO,2026-06,Mérida Teya,Calakmul,51,
+SIMULADO,2026-06,Mérida Teya,Candelaria,43,322.0
+SIMULADO,2026-06,Mérida Teya,Tenosique,46,386.0
+SIMULADO,2026-06,Mérida Teya,Boca del Cerro,31,395.0
+SIMULADO,2026-06,Mérida Teya,Triunfo,26,348.0
+SIMULADO,2026-06,Mérida Teya,Carrillo Puerto Camp.,43,238.0
+SIMULADO,2026-06,Mérida Teya,Chacchoben,43,
+SIMULADO,2026-06,Mérida Teya,Kohunlich,30,
+SIMULADO,2026-06,Mérida Teya,Centenario,38,
+SIMULADO,2026-06,Cancún Aeropuerto,Mérida Teya,1772,216.0
+SIMULADO,2026-06,Playa del Carmen,Mérida Teya,998,275.0
+SIMULADO,2026-06,Valladolid,Mérida Teya,1014,113.0
+SIMULADO,2026-06,Tulum,Mérida Teya,493,329.0
+SIMULADO,2026-06,San Fco. Campeche,Mérida Teya,803,143.0
+SIMULADO,2026-06,Chichén Itzá,Mérida Teya,1114,83.0
+SIMULADO,2026-06,Palenque,Mérida Teya,246,452.0
+SIMULADO,2026-06,Tulum Aeropuerto,Mérida Teya,209,350.0
+SIMULADO,2026-06,Bacalar,Mérida Teya,271,
+SIMULADO,2026-06,Izamal,Mérida Teya,581,38.0
+SIMULADO,2026-06,Chetumal Aeropuerto,Mérida Teya,199,
+SIMULADO,2026-06,Escárcega,Mérida Teya,180,281.0
+SIMULADO,2026-06,Puerto Morelos,Mérida Teya,176,245.0
+SIMULADO,2026-06,Felipe Carrillo Puerto,Mérida Teya,129,
+SIMULADO,2026-06,Leona Vicario,Mérida Teya,126,188.0
+SIMULADO,2026-06,Nuevo Xcán,Mérida Teya,107,159.0
+SIMULADO,2026-06,Calkiní,Mérida Teya,259,65.0
+SIMULADO,2026-06,Maxcanú,Mérida Teya,218,46.0
+SIMULADO,2026-06,Umán,Mérida Teya,258,20.0
+SIMULADO,2026-06,Hecelchakán,Mérida Teya,128,81.0
+SIMULADO,2026-06,Tenabo,Mérida Teya,125,96.0
+SIMULADO,2026-06,Tixkokob,Mérida Teya,209,14.0
+SIMULADO,2026-06,Edzná,Mérida Teya,73,194.0
+SIMULADO,2026-06,Xpujil,Mérida Teya,81,
+SIMULADO,2026-06,Calakmul,Mérida Teya,51,
+SIMULADO,2026-06,Candelaria,Mérida Teya,58,322.0
+SIMULADO,2026-06,Tenosique,Mérida Teya,50,386.0
+SIMULADO,2026-06,Boca del Cerro,Mérida Teya,37,395.0
+SIMULADO,2026-06,Triunfo,Mérida Teya,31,348.0
+SIMULADO,2026-06,Carrillo Puerto Camp.,Mérida Teya,46,238.0
+SIMULADO,2026-06,Chacchoben,Mérida Teya,55,
+SIMULADO,2026-06,Kohunlich,Mérida Teya,37,
+SIMULADO,2026-06,Centenario,Mérida Teya,28,
+SIMULADO,2026-07,Mérida Teya,Cancún Aeropuerto,2065,216.0
+SIMULADO,2026-07,Mérida Teya,Playa del Carmen,1127,275.0
+SIMULADO,2026-07,Mérida Teya,Valladolid,1498,113.0
+SIMULADO,2026-07,Mérida Teya,Tulum,577,329.0
+SIMULADO,2026-07,Mérida Teya,San Fco. Campeche,1245,143.0
+SIMULADO,2026-07,Mérida Teya,Chichén Itzá,1394,83.0
+SIMULADO,2026-07,Mérida Teya,Palenque,420,452.0
+SIMULADO,2026-07,Mérida Teya,Tulum Aeropuerto,301,350.0
+SIMULADO,2026-07,Mérida Teya,Bacalar,349,
+SIMULADO,2026-07,Mérida Teya,Izamal,1021,38.0
+SIMULADO,2026-07,Mérida Teya,Chetumal Aeropuerto,267,
+SIMULADO,2026-07,Mérida Teya,Escárcega,260,281.0
+SIMULADO,2026-07,Mérida Teya,Puerto Morelos,282,245.0
+SIMULADO,2026-07,Mérida Teya,Felipe Carrillo Puerto,197,
+SIMULADO,2026-07,Mérida Teya,Leona Vicario,156,188.0
+SIMULADO,2026-07,Mérida Teya,Nuevo Xcán,165,159.0
+SIMULADO,2026-07,Mérida Teya,Calkiní,267,65.0
+SIMULADO,2026-07,Mérida Teya,Maxcanú,286,46.0
+SIMULADO,2026-07,Mérida Teya,Umán,382,20.0
+SIMULADO,2026-07,Mérida Teya,Hecelchakán,190,81.0
+SIMULADO,2026-07,Mérida Teya,Tenabo,183,96.0
+SIMULADO,2026-07,Mérida Teya,Tixkokob,329,14.0
+SIMULADO,2026-07,Mérida Teya,Edzná,92,194.0
+SIMULADO,2026-07,Mérida Teya,Xpujil,129,
+SIMULADO,2026-07,Mérida Teya,Calakmul,56,
+SIMULADO,2026-07,Mérida Teya,Candelaria,64,322.0
+SIMULADO,2026-07,Mérida Teya,Tenosique,57,386.0
+SIMULADO,2026-07,Mérida Teya,Boca del Cerro,45,395.0
+SIMULADO,2026-07,Mérida Teya,Triunfo,46,348.0
+SIMULADO,2026-07,Mérida Teya,Carrillo Puerto Camp.,77,238.0
+SIMULADO,2026-07,Mérida Teya,Chacchoben,44,
+SIMULADO,2026-07,Mérida Teya,Kohunlich,48,
+SIMULADO,2026-07,Mérida Teya,Centenario,50,
+SIMULADO,2026-07,Cancún Aeropuerto,Mérida Teya,2244,216.0
+SIMULADO,2026-07,Playa del Carmen,Mérida Teya,1282,275.0
+SIMULADO,2026-07,Valladolid,Mérida Teya,1727,113.0
+SIMULADO,2026-07,Tulum,Mérida Teya,510,329.0
+SIMULADO,2026-07,San Fco. Campeche,Mérida Teya,1165,143.0
+SIMULADO,2026-07,Chichén Itzá,Mérida Teya,1202,83.0
+SIMULADO,2026-07,Palenque,Mérida Teya,362,452.0
+SIMULADO,2026-07,Tulum Aeropuerto,Mérida Teya,292,350.0
+SIMULADO,2026-07,Bacalar,Mérida Teya,297,
+SIMULADO,2026-07,Izamal,Mérida Teya,765,38.0
+SIMULADO,2026-07,Chetumal Aeropuerto,Mérida Teya,293,
+SIMULADO,2026-07,Escárcega,Mérida Teya,218,281.0
+SIMULADO,2026-07,Puerto Morelos,Mérida Teya,224,245.0
+SIMULADO,2026-07,Felipe Carrillo Puerto,Mérida Teya,166,
+SIMULADO,2026-07,Leona Vicario,Mérida Teya,189,188.0
+SIMULADO,2026-07,Nuevo Xcán,Mérida Teya,158,159.0
+SIMULADO,2026-07,Calkiní,Mérida Teya,212,65.0
+SIMULADO,2026-07,Maxcanú,Mérida Teya,223,46.0
+SIMULADO,2026-07,Umán,Mérida Teya,323,20.0
+SIMULADO,2026-07,Hecelchakán,Mérida Teya,150,81.0
+SIMULADO,2026-07,Tenabo,Mérida Teya,132,96.0
+SIMULADO,2026-07,Tixkokob,Mérida Teya,262,14.0
+SIMULADO,2026-07,Edzná,Mérida Teya,119,194.0
+SIMULADO,2026-07,Xpujil,Mérida Teya,120,
+SIMULADO,2026-07,Calakmul,Mérida Teya,60,
+SIMULADO,2026-07,Candelaria,Mérida Teya,55,322.0
+SIMULADO,2026-07,Tenosique,Mérida Teya,59,386.0
+SIMULADO,2026-07,Boca del Cerro,Mérida Teya,42,395.0
+SIMULADO,2026-07,Triunfo,Mérida Teya,38,348.0
+SIMULADO,2026-07,Carrillo Puerto Camp.,Mérida Teya,57,238.0
+SIMULADO,2026-07,Chacchoben,Mérida Teya,57,
+SIMULADO,2026-07,Kohunlich,Mérida Teya,50,
+SIMULADO,2026-07,Centenario,Mérida Teya,47,
+SIMULADO,2026-08,Mérida Teya,Cancún Aeropuerto,2277,216.0
+SIMULADO,2026-08,Mérida Teya,Playa del Carmen,1559,275.0
+SIMULADO,2026-08,Mérida Teya,Valladolid,1819,113.0
+SIMULADO,2026-08,Mérida Teya,Tulum,694,329.0
+SIMULADO,2026-08,Mérida Teya,San Fco. Campeche,1430,143.0
+SIMULADO,2026-08,Mérida Teya,Chichén Itzá,1222,83.0
+SIMULADO,2026-08,Mérida Teya,Palenque,488,452.0
+SIMULADO,2026-08,Mérida Teya,Tulum Aeropuerto,323,350.0
+SIMULADO,2026-08,Mérida Teya,Bacalar,363,
+SIMULADO,2026-08,Mérida Teya,Izamal,985,38.0
+SIMULADO,2026-08,Mérida Teya,Chetumal Aeropuerto,269,
+SIMULADO,2026-08,Mérida Teya,Escárcega,234,281.0
+SIMULADO,2026-08,Mérida Teya,Puerto Morelos,276,245.0
+SIMULADO,2026-08,Mérida Teya,Felipe Carrillo Puerto,195,
+SIMULADO,2026-08,Mérida Teya,Leona Vicario,154,188.0
+SIMULADO,2026-08,Mérida Teya,Nuevo Xcán,179,159.0
+SIMULADO,2026-08,Mérida Teya,Calkiní,256,65.0
+SIMULADO,2026-08,Mérida Teya,Maxcanú,265,46.0
+SIMULADO,2026-08,Mérida Teya,Umán,314,20.0
+SIMULADO,2026-08,Mérida Teya,Hecelchakán,224,81.0
+SIMULADO,2026-08,Mérida Teya,Tenabo,167,96.0
+SIMULADO,2026-08,Mérida Teya,Tixkokob,286,14.0
+SIMULADO,2026-08,Mérida Teya,Edzná,111,194.0
+SIMULADO,2026-08,Mérida Teya,Xpujil,122,
+SIMULADO,2026-08,Mérida Teya,Calakmul,73,
+SIMULADO,2026-08,Mérida Teya,Candelaria,58,322.0
+SIMULADO,2026-08,Mérida Teya,Tenosique,67,386.0
+SIMULADO,2026-08,Mérida Teya,Boca del Cerro,45,395.0
+SIMULADO,2026-08,Mérida Teya,Triunfo,38,348.0
+SIMULADO,2026-08,Mérida Teya,Carrillo Puerto Camp.,71,238.0
+SIMULADO,2026-08,Mérida Teya,Chacchoben,65,
+SIMULADO,2026-08,Mérida Teya,Kohunlich,53,
+SIMULADO,2026-08,Mérida Teya,Centenario,48,
+SIMULADO,2026-08,Cancún Aeropuerto,Mérida Teya,2101,216.0
+SIMULADO,2026-08,Playa del Carmen,Mérida Teya,1029,275.0
+SIMULADO,2026-08,Valladolid,Mérida Teya,1673,113.0
+SIMULADO,2026-08,Tulum,Mérida Teya,613,329.0
+SIMULADO,2026-08,San Fco. Campeche,Mérida Teya,1204,143.0
+SIMULADO,2026-08,Chichén Itzá,Mérida Teya,1499,83.0
+SIMULADO,2026-08,Palenque,Mérida Teya,336,452.0
+SIMULADO,2026-08,Tulum Aeropuerto,Mérida Teya,332,350.0
+SIMULADO,2026-08,Bacalar,Mérida Teya,313,
+SIMULADO,2026-08,Izamal,Mérida Teya,736,38.0
+SIMULADO,2026-08,Chetumal Aeropuerto,Mérida Teya,265,
+SIMULADO,2026-08,Escárcega,Mérida Teya,220,281.0
+SIMULADO,2026-08,Puerto Morelos,Mérida Teya,251,245.0
+SIMULADO,2026-08,Felipe Carrillo Puerto,Mérida Teya,219,
+SIMULADO,2026-08,Leona Vicario,Mérida Teya,212,188.0
+SIMULADO,2026-08,Nuevo Xcán,Mérida Teya,170,159.0
+SIMULADO,2026-08,Calkiní,Mérida Teya,268,65.0
+SIMULADO,2026-08,Maxcanú,Mérida Teya,313,46.0
+SIMULADO,2026-08,Umán,Mérida Teya,385,20.0
+SIMULADO,2026-08,Hecelchakán,Mérida Teya,179,81.0
+SIMULADO,2026-08,Tenabo,Mérida Teya,167,96.0
+SIMULADO,2026-08,Tixkokob,Mérida Teya,324,14.0
+SIMULADO,2026-08,Edzná,Mérida Teya,117,194.0
+SIMULADO,2026-08,Xpujil,Mérida Teya,161,
+SIMULADO,2026-08,Calakmul,Mérida Teya,70,
+SIMULADO,2026-08,Candelaria,Mérida Teya,72,322.0
+SIMULADO,2026-08,Tenosique,Mérida Teya,75,386.0
+SIMULADO,2026-08,Boca del Cerro,Mérida Teya,46,395.0
+SIMULADO,2026-08,Triunfo,Mérida Teya,37,348.0
+SIMULADO,2026-08,Carrillo Puerto Camp.,Mérida Teya,70,238.0
+SIMULADO,2026-08,Chacchoben,Mérida Teya,63,
+SIMULADO,2026-08,Kohunlich,Mérida Teya,43,
+SIMULADO,2026-08,Centenario,Mérida Teya,50,
+SIMULADO,2026-09,Mérida Teya,Cancún Aeropuerto,1101,216.0
+SIMULADO,2026-09,Mérida Teya,Playa del Carmen,605,275.0
+SIMULADO,2026-09,Mérida Teya,Valladolid,1046,113.0
+SIMULADO,2026-09,Mérida Teya,Tulum,354,329.0
+SIMULADO,2026-09,Mérida Teya,San Fco. Campeche,674,143.0
+SIMULADO,2026-09,Mérida Teya,Chichén Itzá,771,83.0
+SIMULADO,2026-09,Mérida Teya,Palenque,194,452.0
+SIMULADO,2026-09,Mérida Teya,Tulum Aeropuerto,142,350.0
+SIMULADO,2026-09,Mérida Teya,Bacalar,184,
+SIMULADO,2026-09,Mérida Teya,Izamal,441,38.0
+SIMULADO,2026-09,Mérida Teya,Chetumal Aeropuerto,157,
+SIMULADO,2026-09,Mérida Teya,Escárcega,124,281.0
+SIMULADO,2026-09,Mérida Teya,Puerto Morelos,120,245.0
+SIMULADO,2026-09,Mérida Teya,Felipe Carrillo Puerto,81,
+SIMULADO,2026-09,Mérida Teya,Leona Vicario,74,188.0
+SIMULADO,2026-09,Mérida Teya,Nuevo Xcán,75,159.0
+SIMULADO,2026-09,Mérida Teya,Calkiní,155,65.0
+SIMULADO,2026-09,Mérida Teya,Maxcanú,131,46.0
+SIMULADO,2026-09,Mérida Teya,Umán,172,20.0
+SIMULADO,2026-09,Mérida Teya,Hecelchakán,88,81.0
+SIMULADO,2026-09,Mérida Teya,Tenabo,71,96.0
+SIMULADO,2026-09,Mérida Teya,Tixkokob,161,14.0
+SIMULADO,2026-09,Mérida Teya,Edzná,51,194.0
+SIMULADO,2026-09,Mérida Teya,Xpujil,68,
+SIMULADO,2026-09,Mérida Teya,Calakmul,26,
+SIMULADO,2026-09,Mérida Teya,Candelaria,33,322.0
+SIMULADO,2026-09,Mérida Teya,Tenosique,37,386.0
+SIMULADO,2026-09,Mérida Teya,Boca del Cerro,21,395.0
+SIMULADO,2026-09,Mérida Teya,Triunfo,21,348.0
+SIMULADO,2026-09,Mérida Teya,Carrillo Puerto Camp.,33,238.0
+SIMULADO,2026-09,Mérida Teya,Chacchoben,29,
+SIMULADO,2026-09,Mérida Teya,Kohunlich,28,
+SIMULADO,2026-09,Mérida Teya,Centenario,20,
+SIMULADO,2026-09,Cancún Aeropuerto,Mérida Teya,1359,216.0
+SIMULADO,2026-09,Playa del Carmen,Mérida Teya,701,275.0
+SIMULADO,2026-09,Valladolid,Mérida Teya,854,113.0
+SIMULADO,2026-09,Tulum,Mérida Teya,400,329.0
+SIMULADO,2026-09,San Fco. Campeche,Mérida Teya,559,143.0
+SIMULADO,2026-09,Chichén Itzá,Mérida Teya,853,83.0
+SIMULADO,2026-09,Palenque,Mérida Teya,192,452.0
+SIMULADO,2026-09,Tulum Aeropuerto,Mérida Teya,176,350.0
+SIMULADO,2026-09,Bacalar,Mérida Teya,188,
+SIMULADO,2026-09,Izamal,Mérida Teya,565,38.0
+SIMULADO,2026-09,Chetumal Aeropuerto,Mérida Teya,174,
+SIMULADO,2026-09,Escárcega,Mérida Teya,153,281.0
+SIMULADO,2026-09,Puerto Morelos,Mérida Teya,125,245.0
+SIMULADO,2026-09,Felipe Carrillo Puerto,Mérida Teya,119,
+SIMULADO,2026-09,Leona Vicario,Mérida Teya,93,188.0
+SIMULADO,2026-09,Nuevo Xcán,Mérida Teya,120,159.0
+SIMULADO,2026-09,Calkiní,Mérida Teya,142,65.0
+SIMULADO,2026-09,Maxcanú,Mérida Teya,179,46.0
+SIMULADO,2026-09,Umán,Mérida Teya,221,20.0
+SIMULADO,2026-09,Hecelchakán,Mérida Teya,132,81.0
+SIMULADO,2026-09,Tenabo,Mérida Teya,81,96.0
+SIMULADO,2026-09,Tixkokob,Mérida Teya,174,14.0
+SIMULADO,2026-09,Edzná,Mérida Teya,60,194.0
+SIMULADO,2026-09,Xpujil,Mérida Teya,75,
+SIMULADO,2026-09,Calakmul,Mérida Teya,52,
+SIMULADO,2026-09,Candelaria,Mérida Teya,38,322.0
+SIMULADO,2026-09,Tenosique,Mérida Teya,43,386.0
+SIMULADO,2026-09,Boca del Cerro,Mérida Teya,25,395.0
+SIMULADO,2026-09,Triunfo,Mérida Teya,28,348.0
+SIMULADO,2026-09,Carrillo Puerto Camp.,Mérida Teya,39,238.0
+SIMULADO,2026-09,Chacchoben,Mérida Teya,32,
+SIMULADO,2026-09,Kohunlich,Mérida Teya,30,
+SIMULADO,2026-09,Centenario,Mérida Teya,27,

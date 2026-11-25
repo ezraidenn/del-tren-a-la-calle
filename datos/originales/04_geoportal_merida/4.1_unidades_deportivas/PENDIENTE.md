@@ -1,4 +1,14 @@
-# 4.1 Unidades deportivas: exportación manual pendiente
+# 4.1 Unidades deportivas: se usa un sustituto; la capa original sigue pendiente
+
+## Sustituto en uso
+
+`osm_instalaciones_deportivas.json`: respuesta de la API Overpass de OpenStreetMap con las instalaciones deportivas dentro del límite municipal de Mérida (relación 5961522). Incluye los tipos `leisure` = sports_centre, stadium, pitch, sports_hall y track. La consulta exacta está en la URL registrada en `procedencia.json`.
+
+- Salidas: `datos/para-etl/04_geoportal_merida/4.1_unidades_deportivas/unidades_deportivas_osm.csv` y `.geojson`.
+- Licencia: ODbL 1.0, con atribución «© colaboradores de OpenStreetMap».
+- Diferencia con la capa del Geoportal: OpenStreetMap trae también canchas de escuelas, clubes y fraccionamientos. La columna `acceso_publico_probable` separa las de acceso restringido. La capa municipal lista solo las unidades del Ayuntamiento.
+
+Los pasos de abajo siguen sirviendo para conseguir también la capa original.
 
 Capa: https://geoportal.merida.gob.mx/unidadesdeportivas (Geoportal del Ayuntamiento de Mérida).
 
@@ -6,7 +16,7 @@ Capa: https://geoportal.merida.gob.mx/unidadesdeportivas (Geoportal del Ayuntami
 
 - Toda petición automatizada a `geoportal.merida.gob.mx` redirige (HTTP 302) a una verificación antibots con captcha (`validate.perfdrive.com`). La última comprobación queda en `procedencia.json` (`comprobacion_acceso`).
 - `robots.txt` del Geoportal prohíbe `/geoapijs`, `/vistas` y `/embed/` a clientes automatizados.
-- No se encontró la misma capa en datos.gob.mx, en un portal de datos abiertos del Ayuntamiento ni como servicio WFS o ArcGIS público. El portal `www.merida.gob.mx` tiene el mismo antibots.
+- No se encontró la misma capa en datos.gob.mx, en un portal de datos abiertos del Ayuntamiento ni como servicio WFS o ArcGIS público. Por eso se usa el sustituto de OpenStreetMap. El portal `www.merida.gob.mx` tiene el mismo antibots.
 
 Por eso la exporta una persona desde su navegador. No se usan scripts, extensiones ni servicios para saltar la verificación.
 

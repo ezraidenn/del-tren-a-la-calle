@@ -5,7 +5,12 @@ Reglas:
    completas y un estado válido (real, derivado, simulado, pendiente).
 2. Cada archivo de manifest.csv existe y su SHA-256 coincide.
 3. Toda fuente con estado real o derivado tiene archivos en el manifiesto.
-4. Ningún archivo con estado real vive en una carpeta de simulados.
+4. Ningún archivo simulado se atribuye a una fuente real. Un archivo es
+   simulado si su ruta dice «simulad» o SIMULADO_, si su capa es «simulado»
+   o si su id de fuente termina en -SIM. Debe empezar con SIMULADO_ y
+   pertenecer a una fuente con estado simulado o a un id -SIM (respuesta
+   simulada que complementa a una fuente real). En el catálogo, las tablas
+   simuladas van en capa «simulado» y su fuente empieza con «SIMULADO».
 5. No hay rutas locales de Windows (carpeta Users de una unidad) ni URL de
    archivo local en los textos del repositorio.
 6. Los datos propios de campo/ no traen correos, teléfonos ni CURP.
@@ -131,10 +136,17 @@ def regla_manifest(fuentes: list[dict]) -> None:
         es_original = f.get("capa") == "original" or "/originales/" in f"/{f['archivo']}"
         if es_original and not f.get("url"):
             errores.append(f"manifest: original sin URL {f['archivo']}")
-        if "simulad" in f["archivo"].lower() or "SIMULADO_" in f["archivo"]:
-            ident = f.get("id_fuente", "")
-            if any(x["id"] == ident and x["estado"] == "real" for x in fuentes):
+        ident = f.get("id_fuente", "")
+        nombre = f["archivo"].rsplit("/", 1)[-1]
+        es_simulado = ("simulad" in f["archivo"].lower() or "SIMULADO_" in f["archivo"]
+                       or f.get("capa") == "simulado" or ident.endswith("-SIM"))
+        if es_simulado:
+            if any(x["id"] == ident and x["estado"] in {"real", "derivado"} for x in fuentes):
                 errores.append(f"{ident}: marcada real pero tiene archivos simulados ({f['archivo']})")
+            elif not (ident.endswith("-SIM") or any(x["id"] == ident and x["estado"] == "simulado" for x in fuentes)):
+                errores.append(f"{f['archivo']}: archivo simulado sin fuente simulada (estado simulado o id -SIM)")
+            if not nombre.startswith("SIMULADO_"):
+                errores.append(f"{f['archivo']}: un archivo simulado debe empezar con SIMULADO_")
     for x in fuentes:
         if x["estado"] in {"real", "derivado"} and x["id"] not in con_archivos:
             errores.append(f"{x['id']}: estado {x['estado']} sin archivos en manifest.csv")
@@ -218,6 +230,10 @@ def regla_catalogo() -> None:
         vacios = [c for c in CAMPOS_CATALOGO if not t.get(c)]
         if vacios:
             errores.append(f"catálogo: {t.get('tabla')} sin {vacios}")
+        simulada = t.get("id_fuente", "").endswith("-SIM") or "SIMULADO_" in t.get("archivo_csv", "")
+        if simulada and (t.get("capa") != "simulado" or not t.get("fuente", "").startswith("SIMULADO")):
+            errores.append(f"catálogo: {t.get('tabla')} es simulada; debe ir en capa «simulado» y su fuente "
+                           "empezar con «SIMULADO»")
         ruta = dentro_de_raiz(t["archivo_csv"])
         if ruta is None or not ruta.exists():
             errores.append(f"catálogo: no existe {t['archivo_csv']}")

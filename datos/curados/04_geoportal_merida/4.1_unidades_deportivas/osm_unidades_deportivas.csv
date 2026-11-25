@@ -1,0 +1,826 @@
+osm_id,nombre,tipo,deporte,acceso,operador,superficie,iluminado,acceso_publico_probable,lat,lon,fuente,version_osm
+node/11677824230,,pitch,padel,sin dato,,,,True,21.1198518,-89.599444,OpenStreetMap,2026-11-25T07:10:20Z
+node/12764566121,Escuela de natación Acuarium,sports_centre,swimming,sin dato,,,,True,21.0050695,-89.6445834,OpenStreetMap,2026-11-25T07:10:20Z
+node/13007206312,,pitch,basketball,sin dato,,,,True,20.9654964,-89.5975834,OpenStreetMap,2026-11-25T07:10:20Z
+node/13840842348,Acuática Urioste,sports_centre,swimming,sin dato,,,,True,21.0139109,-89.6277599,OpenStreetMap,2026-11-25T07:10:20Z
+node/13840941190,,pitch,chess,permissive,,,,True,21.0303343,-89.6241679,OpenStreetMap,2026-11-25T07:10:20Z
+node/13840941198,Gotcha Gran Plaza,pitch,paintball,private,,,,False,21.0306748,-89.6240012,OpenStreetMap,2026-11-25T07:10:20Z
+node/1967274149,,sports_centre,,sin dato,,,,True,21.0331612,-89.4823015,OpenStreetMap,2026-11-25T07:10:20Z
+node/2177536326,,sports_centre,,sin dato,,,,True,21.0161536,-89.6099821,OpenStreetMap,2026-11-25T07:10:20Z
+node/3765911728,,sports_centre,,sin dato,,,,True,21.0193119,-89.5712188,OpenStreetMap,2026-11-25T07:10:20Z
+node/3766090560,EnerGym,sports_centre,,sin dato,,,,True,21.0036684,-89.5848158,OpenStreetMap,2026-11-25T07:10:20Z
+node/5112149462,Cancha multideportiva,pitch,,sin dato,,,,True,21.0042507,-89.6493091,OpenStreetMap,2026-11-25T07:10:20Z
+node/5113734532,Plaza de Toros,stadium,,sin dato,,,,True,20.9854578,-89.6252944,OpenStreetMap,2026-11-25T07:10:20Z
+node/5170612234,,pitch,basketball,sin dato,,,,True,20.9998845,-89.6626258,OpenStreetMap,2026-11-25T07:10:20Z
+node/5261064573,,pitch,skateboard,sin dato,,,yes,True,21.0286703,-89.6516378,OpenStreetMap,2026-11-25T07:10:20Z
+node/5434190698,,pitch,baseball,sin dato,,,,True,20.9180167,-89.6351201,OpenStreetMap,2026-11-25T07:10:20Z
+node/6869011253,Paseo en bici,track,cycling;running,sin dato,,,,True,21.1314602,-89.6622137,OpenStreetMap,2026-11-25T07:10:20Z
+node/7076566728,,pitch,basketball,yes,,concrete,yes,True,21.017235,-89.6463171,OpenStreetMap,2026-11-25T07:10:20Z
+relation/13195781,,track,running,sin dato,,clay,,True,20.9820611,-89.6453878,OpenStreetMap,2026-11-25T07:10:20Z
+relation/13195782,,track,running,sin dato,,,,True,20.9818358,-89.6453965,OpenStreetMap,2026-11-25T07:10:20Z
+relation/13196916,,track,running,sin dato,,,,True,20.9943454,-89.6219059,OpenStreetMap,2026-11-25T07:10:20Z
+relation/17461770,,sports_centre,bullfighting,sin dato,,,,True,20.9855643,-89.6254854,OpenStreetMap,2026-11-25T07:10:20Z
+relation/17461771,Plaza de Toros,stadium,bullfighting,sin dato,,,,True,20.9854397,-89.6252817,OpenStreetMap,2026-11-25T07:10:20Z
+relation/21876104,Parque de Beisbol Kukulcán,stadium,baseball,sin dato,,,,True,20.9411388,-89.5960185,OpenStreetMap,2026-11-25T07:10:20Z
+relation/9132470,,track,running,sin dato,,,,True,20.9457435,-89.5937082,OpenStreetMap,2026-11-25T07:10:20Z
+way/1051058041,Complejo Deportivo Colegio San Agustín,sports_centre,soccer;basketball;volleyball;swimming,no,,,yes,False,21.0111773,-89.5780115,OpenStreetMap,2026-11-25T07:10:20Z
+way/1051058042,,pitch,basketball,private,,,,False,21.0117162,-89.5788171,OpenStreetMap,2026-11-25T07:10:20Z
+way/1051058043,,pitch,volleyball,private,,,,False,21.0117721,-89.5786319,OpenStreetMap,2026-11-25T07:10:20Z
+way/1056724908,Cancha de Futbol de Universidad Tecmilenio,pitch,soccer,private,,pasto_sintetico,,False,21.0395577,-89.6608626,OpenStreetMap,2026-11-25T07:10:20Z
+way/1105823172,,pitch,,sin dato,,,,True,21.0965024,-89.5763278,OpenStreetMap,2026-11-25T07:10:20Z
+way/1106104470,,pitch,,sin dato,,,,True,21.0218182,-89.6508432,OpenStreetMap,2026-11-25T07:10:20Z
+way/1106105924,,pitch,baseball,sin dato,,,,True,21.0179414,-89.6584867,OpenStreetMap,2026-11-25T07:10:20Z
+way/1121928872,Cancha Serapio Rendón,pitch,basketball;soccer,yes,,,yes,True,20.9319644,-89.6183556,OpenStreetMap,2026-11-25T07:10:20Z
+way/1162642699,,pitch,,sin dato,,,,True,21.1261206,-89.686503,OpenStreetMap,2026-11-25T07:10:20Z
+way/1162642702,,pitch,,sin dato,,,,True,21.125984,-89.687015,OpenStreetMap,2026-11-25T07:10:20Z
+way/1205356039,,pitch,basketball,sin dato,,,,True,21.0074993,-89.6531397,OpenStreetMap,2026-11-25T07:10:20Z
+way/1237353855,Pista de Patinaje,pitch,skateboard,sin dato,,,,True,20.9793706,-89.6113847,OpenStreetMap,2026-11-25T07:10:20Z
+way/1248250255,,pitch,basketball,sin dato,,,,True,20.9885925,-89.6628546,OpenStreetMap,2026-11-25T07:10:20Z
+way/1248250257,,pitch,tennis,sin dato,,,,True,20.9833488,-89.6499473,OpenStreetMap,2026-11-25T07:10:20Z
+way/1248929670,,pitch,baseball,sin dato,,,,True,20.9688941,-89.6568337,OpenStreetMap,2026-11-25T07:10:20Z
+way/1249293804,,pitch,basketball,sin dato,,,,True,20.9951646,-89.6228193,OpenStreetMap,2026-11-25T07:10:20Z
+way/1250875648,,pitch,basketball,sin dato,,,,True,21.0269909,-89.6281897,OpenStreetMap,2026-11-25T07:10:20Z
+way/1250875649,,pitch,basketball,sin dato,,,,True,21.0269773,-89.6280327,OpenStreetMap,2026-11-25T07:10:20Z
+way/1250875650,,pitch,basketball,sin dato,,,,True,21.0269636,-89.6278762,OpenStreetMap,2026-11-25T07:10:20Z
+way/1250875651,,pitch,basketball,sin dato,,,,True,21.0269269,-89.6274667,OpenStreetMap,2026-11-25T07:10:20Z
+way/1250875652,,pitch,basketball,sin dato,,,,True,21.0269161,-89.6273066,OpenStreetMap,2026-11-25T07:10:20Z
+way/1250875653,,pitch,basketball,sin dato,,,,True,21.0269063,-89.6271379,OpenStreetMap,2026-11-25T07:10:20Z
+way/1250875654,,pitch,tennis,sin dato,,,,True,21.0269197,-89.6269742,OpenStreetMap,2026-11-25T07:10:20Z
+way/1265031700,,pitch,basketball,sin dato,,,,True,20.9736255,-89.6756578,OpenStreetMap,2026-11-25T07:10:20Z
+way/1265132770,Deportivo Diario de Yucatán,sports_centre,,sin dato,,,,True,20.9815537,-89.6596003,OpenStreetMap,2026-11-25T07:10:20Z
+way/1265132771,,pitch,soccer,sin dato,,,,True,20.9814455,-89.6594454,OpenStreetMap,2026-11-25T07:10:20Z
+way/1265132772,,pitch,soccer,sin dato,,,,True,20.9818824,-89.6596701,OpenStreetMap,2026-11-25T07:10:20Z
+way/1265132773,,pitch,basketball,sin dato,,,,True,20.9819887,-89.6598386,OpenStreetMap,2026-11-25T07:10:20Z
+way/1273210562,,pitch,tennis,private,,,yes,False,20.9866499,-89.6194293,OpenStreetMap,2026-11-25T07:10:20Z
+way/1273249531,,pitch,basketball,sin dato,,,,True,21.0011786,-89.6832405,OpenStreetMap,2026-11-25T07:10:20Z
+way/1273249540,,pitch,soccer,private,,,,False,21.0002517,-89.6838185,OpenStreetMap,2026-11-25T07:10:20Z
+way/1273984975,,pitch,basketball,sin dato,,,,True,21.0008924,-89.6834343,OpenStreetMap,2026-11-25T07:10:20Z
+way/1273984976,,pitch,basketball,sin dato,,,,True,21.001033,-89.6836572,OpenStreetMap,2026-11-25T07:10:20Z
+way/1274770697,,pitch,basketball,sin dato,,,,True,20.9969751,-89.6989578,OpenStreetMap,2026-11-25T07:10:20Z
+way/1277897244,,pitch,basketball,sin dato,,,,True,21.0976233,-89.5996924,OpenStreetMap,2026-11-25T07:10:20Z
+way/1278131316,Campo de la Preparatoria 2,pitch,soccer;athletics,sin dato,,,,True,20.981001,-89.6567618,OpenStreetMap,2026-11-25T07:10:20Z
+way/1278178604,,pitch,basketball,sin dato,,,,True,20.9945885,-89.626645,OpenStreetMap,2026-11-25T07:10:20Z
+way/1278455683,,pitch,soccer,sin dato,,,,True,20.9987753,-89.6804451,OpenStreetMap,2026-11-25T07:10:20Z
+way/1278725993,,pitch,basketball,sin dato,,,,True,20.9741347,-89.6728557,OpenStreetMap,2026-11-25T07:10:20Z
+way/1279072544,,pitch,basketball,sin dato,,,,True,20.9914344,-89.6713156,OpenStreetMap,2026-11-25T07:10:20Z
+way/1279241323,,pitch,soccer,sin dato,,,,True,20.9925143,-89.6733918,OpenStreetMap,2026-11-25T07:10:20Z
+way/1279241348,,pitch,soccer,sin dato,,concrete,,True,20.9898371,-89.6743159,OpenStreetMap,2026-11-25T07:10:20Z
+way/1279784727,,pitch,soccer,sin dato,,,,True,20.998444,-89.6550019,OpenStreetMap,2026-11-25T07:10:20Z
+way/1280091892,,pitch,soccer;field_hockey,sin dato,,,,True,20.9867245,-89.670562,OpenStreetMap,2026-11-25T07:10:20Z
+way/1280091893,,pitch,basketball,sin dato,,,,True,20.9863463,-89.6709025,OpenStreetMap,2026-11-25T07:10:20Z
+way/1280456414,,pitch,soccer,sin dato,,,,True,21.0202649,-89.6277462,OpenStreetMap,2026-11-25T07:10:20Z
+way/1280456415,,pitch,soccer,sin dato,,,,True,21.0197255,-89.6275846,OpenStreetMap,2026-11-25T07:10:20Z
+way/1280456416,,pitch,basketball,sin dato,,,,True,21.0198977,-89.6268804,OpenStreetMap,2026-11-25T07:10:20Z
+way/1284532581,,pitch,soccer,sin dato,,,,True,20.9355018,-89.6261466,OpenStreetMap,2026-11-25T07:10:20Z
+way/1284532582,,pitch,soccer,sin dato,,,,True,20.9351683,-89.6261604,OpenStreetMap,2026-11-25T07:10:20Z
+way/1284855106,,pitch,basketball,sin dato,,,,True,20.9843744,-89.6482237,OpenStreetMap,2026-11-25T07:10:20Z
+way/1289555337,,pitch,basketball,customers,,concrete,no,False,20.9786979,-89.6002233,OpenStreetMap,2026-11-25T07:10:20Z
+way/1289563279,Cancha Multifuncional 3,pitch,basketball;volleyball,customers,,ground,yes,False,20.9783546,-89.5997184,OpenStreetMap,2026-11-25T07:10:20Z
+way/1289563287,Gimnasio Preparatoria Uno,sports_hall,,customers,Universidad Autónoma de Yucatán,,,False,20.9781252,-89.5997462,OpenStreetMap,2026-11-25T07:10:20Z
+way/1289563288,Canchas 1 y 2,pitch,basketball,customers,,concrete,,False,20.978357,-89.6000894,OpenStreetMap,2026-11-25T07:10:20Z
+way/1289563297,,sports_hall,basketball;soccer;athletics;volleyball;running;softball,yes,Universidad Autónoma de Yucatán UADY,,,True,20.9779359,-89.6019992,OpenStreetMap,2026-11-25T07:10:20Z
+way/1291065967,,pitch,soccer,customers,,,,False,20.9378234,-89.6285468,OpenStreetMap,2026-11-25T07:10:20Z
+way/1291065968,,pitch,basketball;volleyball,customers,,asphalt,yes,False,20.937586,-89.6286151,OpenStreetMap,2026-11-25T07:10:20Z
+way/1291065969,,pitch,basketball,customers,,paved,,False,20.9375725,-89.6284692,OpenStreetMap,2026-11-25T07:10:20Z
+way/1291065976,,pitch,soccer,permit,,,,True,20.9371217,-89.6286117,OpenStreetMap,2026-11-25T07:10:20Z
+way/1291065982,,pitch,basketball,customers,,ground,no,False,20.9371035,-89.6282846,OpenStreetMap,2026-11-25T07:10:20Z
+way/1291195556,,pitch,basketball,yes,,,yes,True,20.9488638,-89.5970406,OpenStreetMap,2026-11-25T07:10:20Z
+way/1291208475,,pitch,basketball,sin dato,,,,True,20.9408281,-89.6253416,OpenStreetMap,2026-11-25T07:10:20Z
+way/1291213264,,pitch,basketball,sin dato,,,,True,20.9997218,-89.6284174,OpenStreetMap,2026-11-25T07:10:20Z
+way/1294643586,,pitch,tennis,sin dato,,,,True,20.9992653,-89.6806613,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298724915,,pitch,tennis,sin dato,,,,True,20.9952819,-89.6223677,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298724916,,pitch,tennis,sin dato,,,,True,20.9953029,-89.6222386,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298724917,,pitch,tennis,sin dato,,,,True,20.9953227,-89.6220924,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298724918,,pitch,tennis,sin dato,,,,True,20.9934074,-89.6223048,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298724919,,pitch,tennis,sin dato,,,,True,20.9934248,-89.6221831,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298724920,,pitch,basketball,sin dato,,,,True,20.9934176,-89.6211917,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298724921,,pitch,basketball,sin dato,,,,True,20.9935889,-89.6210414,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298725188,,pitch,tennis,sin dato,,,,True,20.9943551,-89.6227224,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298725189,,pitch,tennis,sin dato,,,,True,20.9941166,-89.622682,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298725190,,pitch,tennis,sin dato,,,,True,20.9938883,-89.622643,OpenStreetMap,2026-11-25T07:10:20Z
+way/1298784827,,pitch,basketball,unknown,,concrete,,True,20.969637,-89.6231656,OpenStreetMap,2026-11-25T07:10:20Z
+way/1302442820,,pitch,basketball,sin dato,,,,True,20.9729617,-89.6403022,OpenStreetMap,2026-11-25T07:10:20Z
+way/1304380025,,pitch,basketball,sin dato,,,,True,20.9761059,-89.607882,OpenStreetMap,2026-11-25T07:10:20Z
+way/1304380026,,pitch,soccer,sin dato,,,,True,20.9795158,-89.6065508,OpenStreetMap,2026-11-25T07:10:20Z
+way/1304380027,,pitch,basketball,sin dato,,,,True,20.9794334,-89.6051239,OpenStreetMap,2026-11-25T07:10:20Z
+way/1304933588,,pitch,basketball,sin dato,,,,True,20.9439093,-89.6914969,OpenStreetMap,2026-11-25T07:10:20Z
+way/1308130673,Cancha Deportiva,pitch,soccer,sin dato,,,,True,20.9720169,-89.613286,OpenStreetMap,2026-11-25T07:10:20Z
+way/1308131138,,pitch,baseball,sin dato,,,,True,20.9794647,-89.6057163,OpenStreetMap,2026-11-25T07:10:20Z
+way/1310816355,,pitch,basketball,sin dato,,,,True,20.9747267,-89.6592884,OpenStreetMap,2026-11-25T07:10:20Z
+way/1311737966,,pitch,soccer,sin dato,,,,True,21.0341512,-89.6252656,OpenStreetMap,2026-11-25T07:10:20Z
+way/1313897257,,pitch,basketball,sin dato,,,,True,20.9570133,-89.6605406,OpenStreetMap,2026-11-25T07:10:20Z
+way/1313897265,,pitch,skateboard,sin dato,,,,True,20.9566264,-89.6605762,OpenStreetMap,2026-11-25T07:10:20Z
+way/1313897266,,pitch,skateboard,sin dato,,,,True,20.9565111,-89.6605672,OpenStreetMap,2026-11-25T07:10:20Z
+way/1314725897,,pitch,basketball,sin dato,,,,True,20.9500908,-89.6891027,OpenStreetMap,2026-11-25T07:10:20Z
+way/1314762338,,pitch,soccer,sin dato,,,,True,20.960384,-89.6591505,OpenStreetMap,2026-11-25T07:10:20Z
+way/1314762341,,pitch,basketball,sin dato,,,,True,20.9603327,-89.6596296,OpenStreetMap,2026-11-25T07:10:20Z
+way/1314762342,,pitch,basketball,sin dato,,,,True,20.9603602,-89.6587443,OpenStreetMap,2026-11-25T07:10:20Z
+way/1314762343,,pitch,tennis,sin dato,,,,True,20.9606505,-89.6587803,OpenStreetMap,2026-11-25T07:10:20Z
+way/1314762351,,pitch,basketball,sin dato,,,,True,20.9531292,-89.6800705,OpenStreetMap,2026-11-25T07:10:20Z
+way/1314806756,,pitch,soccer,sin dato,,,,True,20.9537142,-89.6828921,OpenStreetMap,2026-11-25T07:10:20Z
+way/1315456193,,pitch,soccer,sin dato,,,,True,20.9419615,-89.639206,OpenStreetMap,2026-11-25T07:10:20Z
+way/1315456194,,pitch,basketball,sin dato,,,,True,20.9422573,-89.6387457,OpenStreetMap,2026-11-25T07:10:20Z
+way/1315456195,,pitch,basketball,sin dato,,,,True,20.9419345,-89.6387962,OpenStreetMap,2026-11-25T07:10:20Z
+way/1315456576,,pitch,basketball,sin dato,,,,True,20.9304493,-89.6700332,OpenStreetMap,2026-11-25T07:10:20Z
+way/1315456577,,pitch,soccer,sin dato,,,,True,20.9310657,-89.6702337,OpenStreetMap,2026-11-25T07:10:20Z
+way/1315486936,,pitch,basketball,sin dato,,,,True,20.935847,-89.689608,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316063666,,pitch,soccer,sin dato,,,,True,20.9711187,-89.680177,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316063667,,pitch,soccer,sin dato,,,,True,20.9715804,-89.6800549,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316063668,,pitch,soccer,sin dato,,,,True,20.9721697,-89.6798968,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316063669,,pitch,soccer,sin dato,,,,True,20.9726279,-89.6797623,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316111667,,pitch,basketball,sin dato,,,,True,20.9731385,-89.683986,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316287838,,pitch,skateboard,sin dato,,,,True,20.9728615,-89.6837723,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316287839,,pitch,skateboard,sin dato,,,,True,20.9727255,-89.6838121,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316292638,Mini Obstáculos,sports_centre,climbing_adventure,sin dato,Parque Muncipal de Deportes Extremos,,,True,20.9843976,-89.6714896,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316292639,Obstáculos extremos,sports_centre,climbing_adventure,sin dato,Parque Municiapal de Deportes Extremos,,,True,20.985046,-89.6713969,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316832290,,pitch,basketball,sin dato,,,,True,21.0276827,-89.6359083,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316833133,,pitch,soccer,sin dato,,,,True,21.0231292,-89.6444767,OpenStreetMap,2026-11-25T07:10:20Z
+way/1316854907,,pitch,basketball,sin dato,,,,True,21.0282174,-89.6377748,OpenStreetMap,2026-11-25T07:10:20Z
+way/1317061528,,pitch,soccer,sin dato,,,,True,20.9675527,-89.644689,OpenStreetMap,2026-11-25T07:10:20Z
+way/1317082126,,pitch,soccer,sin dato,,,,True,20.9777658,-89.6590683,OpenStreetMap,2026-11-25T07:10:20Z
+way/1317497832,Rock Solid Mérida,sports_centre,climbing,sin dato,,,,True,21.0030961,-89.6259381,OpenStreetMap,2026-11-25T07:10:20Z
+way/1317792694,Acuática Lalo,sports_centre,swimming,sin dato,,,,True,20.9925644,-89.6549812,OpenStreetMap,2026-11-25T07:10:20Z
+way/1317807110,,pitch,soccer,sin dato,,,,True,20.9472446,-89.6968705,OpenStreetMap,2026-11-25T07:10:20Z
+way/1317808797,,pitch,soccer,sin dato,,,,True,20.9851184,-89.6653356,OpenStreetMap,2026-11-25T07:10:20Z
+way/1318245676,,pitch,basketball,sin dato,,,,True,20.969899,-89.6786429,OpenStreetMap,2026-11-25T07:10:20Z
+way/1318298272,,pitch,skateboard,sin dato,,,,True,20.9539941,-89.6834664,OpenStreetMap,2026-11-25T07:10:20Z
+way/1318563786,,pitch,basketball,sin dato,,,,True,20.9729343,-89.6704724,OpenStreetMap,2026-11-25T07:10:20Z
+way/1318927882,,pitch,basketball,sin dato,,,,True,20.9811219,-89.6756759,OpenStreetMap,2026-11-25T07:10:20Z
+way/1318927893,,pitch,soccer,sin dato,,,,True,20.9808134,-89.673583,OpenStreetMap,2026-11-25T07:10:20Z
+way/1318964592,,pitch,basketball,sin dato,,,,True,20.9685571,-89.6739248,OpenStreetMap,2026-11-25T07:10:20Z
+way/1318964593,,pitch,soccer,sin dato,,,,True,20.9680858,-89.6738196,OpenStreetMap,2026-11-25T07:10:20Z
+way/1320327520,,pitch,basketball,sin dato,,,,True,20.9695619,-89.6693279,OpenStreetMap,2026-11-25T07:10:20Z
+way/1320327523,,pitch,soccer,sin dato,,,,True,20.971309,-89.6677899,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321682374,,pitch,soccer,private,,grass,yes,False,21.0257154,-89.5953053,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321682375,,pitch,soccer;basketball;volleyball,private,,concrete,yes,False,21.0253337,-89.5955196,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321821322,,pitch,soccer,sin dato,,,,True,20.9998189,-89.6504647,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321821473,,pitch,soccer,sin dato,,,,True,20.9358767,-89.633066,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321821717,,pitch,soccer,sin dato,,,,True,20.9358444,-89.6326969,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321822202,,pitch,soccer,sin dato,,,,True,20.9268857,-89.6118059,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321822203,,pitch,basketball,sin dato,,,,True,20.9269493,-89.6112548,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321822291,,pitch,basketball,sin dato,,,,True,20.9216051,-89.6166201,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321822338,,pitch,soccer,sin dato,,,,True,20.9183642,-89.6373184,OpenStreetMap,2026-11-25T07:10:20Z
+way/1321822487,,pitch,soccer,sin dato,,,,True,20.8886846,-89.6540102,OpenStreetMap,2026-11-25T07:10:20Z
+way/1323704596,Canchas de Cafetería,pitch,basketball;futsal,sin dato,,,,True,20.980595,-89.6553528,OpenStreetMap,2026-11-25T07:10:20Z
+way/1323704597,Gimnasio de Usos Multiples,sports_hall,,sin dato,,,,True,20.9816834,-89.6566492,OpenStreetMap,2026-11-25T07:10:20Z
+way/1323704604,Mini Gimnasio,sports_hall,,sin dato,,,,True,20.9812441,-89.6560981,OpenStreetMap,2026-11-25T07:10:20Z
+way/1324045923,,pitch,basketball,sin dato,,,,True,21.0122254,-89.6212315,OpenStreetMap,2026-11-25T07:10:20Z
+way/1324045924,,pitch,basketball,sin dato,,,,True,21.0132949,-89.6230763,OpenStreetMap,2026-11-25T07:10:20Z
+way/1324045925,,pitch,basketball,sin dato,,,,True,21.0132287,-89.6237434,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615625,,pitch,tennis,private,,,,False,21.0156857,-89.6145742,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615626,,pitch,tennis,private,,,,False,21.015608,-89.6144202,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615627,,pitch,tennis,private,,,,False,21.0155362,-89.6142815,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615628,,pitch,tennis,private,,,,False,21.0159789,-89.6142115,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615629,,pitch,tennis,private,,,,False,21.0159157,-89.6140782,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615630,,pitch,tennis,private,,,,False,21.0162481,-89.6147806,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615631,,pitch,tennis,private,,,,False,21.0161852,-89.6146479,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615632,,pitch,tennis,private,,,,False,21.0161132,-89.6144953,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615633,,pitch,tennis,private,,,,False,21.0160535,-89.6143694,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615634,,pitch,tennis,private,,,,False,21.0165535,-89.614618,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615635,,pitch,tennis,private,,,,False,21.0164908,-89.6144853,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615636,,pitch,tennis,private,,,,False,21.0164186,-89.6143327,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615637,,pitch,tennis,private,,,,False,21.0163591,-89.6142068,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615638,,pitch,tennis,private,,,,False,21.0162843,-89.6140489,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615639,,pitch,tennis,private,,,,False,21.0162213,-89.6139155,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615640,,pitch,tennis,private,,,,False,21.0167962,-89.6143405,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615641,,pitch,tennis,private,,,,False,21.0167829,-89.6142148,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615642,,pitch,tennis,private,,,,False,21.0167233,-89.6140889,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615643,,pitch,tennis,private,,,,False,21.0166088,-89.6138863,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615644,,pitch,tennis,private,,,,False,21.0165457,-89.6137529,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615645,,pitch,tennis,private,,,,False,21.0158971,-89.6149572,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615646,,pitch,tennis,private,,,,False,21.0170545,-89.6135043,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615647,,pitch,tennis,private,,,,False,21.0170883,-89.6136358,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615648,,pitch,tennis,private,,,,False,21.0168566,-89.6136089,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615649,,pitch,tennis,private,,,,False,21.0169054,-89.6137309,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615650,,pitch,tennis,private,,,,False,21.0169568,-89.6138437,OpenStreetMap,2026-11-25T07:10:20Z
+way/1325615651,,pitch,tennis,private,,,,False,21.0169317,-89.6139965,OpenStreetMap,2026-11-25T07:10:20Z
+way/1329833306,,pitch,soccer,sin dato,,,,True,20.9596183,-89.6391532,OpenStreetMap,2026-11-25T07:10:20Z
+way/1331533539,,pitch,basketball,sin dato,,,,True,21.0288378,-89.6272713,OpenStreetMap,2026-11-25T07:10:20Z
+way/1332164193,,pitch,basketball,sin dato,,,,True,20.9561834,-89.6445298,OpenStreetMap,2026-11-25T07:10:20Z
+way/1333159803,,pitch,soccer,sin dato,,,,True,20.9460271,-89.6528363,OpenStreetMap,2026-11-25T07:10:20Z
+way/1336775424,,pitch,basketball,sin dato,,,,True,20.9615024,-89.6974912,OpenStreetMap,2026-11-25T07:10:20Z
+way/1336775425,,pitch,basketball,sin dato,,,,True,20.959165,-89.7007945,OpenStreetMap,2026-11-25T07:10:20Z
+way/1336775426,,pitch,basketball,sin dato,,,,True,20.9596955,-89.7017387,OpenStreetMap,2026-11-25T07:10:20Z
+way/1336775427,,pitch,basketball,sin dato,,,,True,20.9598998,-89.7013331,OpenStreetMap,2026-11-25T07:10:20Z
+way/1336775428,,pitch,soccer,sin dato,,,,True,20.959815,-89.7009338,OpenStreetMap,2026-11-25T07:10:20Z
+way/1337074788,,pitch,soccer,sin dato,,,,True,20.9848272,-89.6833951,OpenStreetMap,2026-11-25T07:10:20Z
+way/1337102856,,pitch,soccer,sin dato,,,,True,20.9215121,-89.6891735,OpenStreetMap,2026-11-25T07:10:20Z
+way/1338152117,,pitch,soccer,sin dato,,,,True,21.0223704,-89.6279264,OpenStreetMap,2026-11-25T07:10:20Z
+way/1338152118,,pitch,soccer,sin dato,,,,True,21.0214591,-89.6277817,OpenStreetMap,2026-11-25T07:10:20Z
+way/1338152119,,pitch,soccer,sin dato,,,,True,21.0214823,-89.6276672,OpenStreetMap,2026-11-25T07:10:20Z
+way/1338152124,,pitch,soccer,sin dato,,,,True,21.0157039,-89.6262844,OpenStreetMap,2026-11-25T07:10:20Z
+way/1338232857,,pitch,basketball,sin dato,,,,True,20.9836406,-89.6599937,OpenStreetMap,2026-11-25T07:10:20Z
+way/1338232860,,pitch,baseball,sin dato,,,,True,20.9764132,-89.6511483,OpenStreetMap,2026-11-25T07:10:20Z
+way/1338232861,,pitch,soccer,sin dato,,,,True,20.9771191,-89.651085,OpenStreetMap,2026-11-25T07:10:20Z
+way/1338232862,,pitch,basketball,sin dato,,,,True,20.9769029,-89.650492,OpenStreetMap,2026-11-25T07:10:20Z
+way/1338232863,,pitch,basketball,sin dato,,,,True,20.9766629,-89.6504807,OpenStreetMap,2026-11-25T07:10:20Z
+way/1339002446,,pitch,soccer,sin dato,,,,True,20.9697264,-89.6559864,OpenStreetMap,2026-11-25T07:10:20Z
+way/1339002447,,pitch,basketball,sin dato,,,,True,20.9729323,-89.6593245,OpenStreetMap,2026-11-25T07:10:20Z
+way/1339002454,,pitch,basketball,sin dato,,,,True,20.9603665,-89.6614081,OpenStreetMap,2026-11-25T07:10:20Z
+way/1339076909,,pitch,paddle_tennis,sin dato,,,,True,21.0445057,-89.6356848,OpenStreetMap,2026-11-25T07:10:20Z
+way/1339076910,,pitch,paddle_tennis,sin dato,,,,True,21.0445284,-89.6355542,OpenStreetMap,2026-11-25T07:10:20Z
+way/1340492427,,pitch,basketball,sin dato,,,,True,21.0196913,-89.6355555,OpenStreetMap,2026-11-25T07:10:20Z
+way/1340720957,,sports_centre,,sin dato,,,,True,21.0367058,-89.6261628,OpenStreetMap,2026-11-25T07:10:20Z
+way/1340720960,,pitch,basketball,sin dato,,,,True,21.0368599,-89.6260615,OpenStreetMap,2026-11-25T07:10:20Z
+way/1341118021,,track,running,sin dato,,,,True,20.9955769,-89.6220641,OpenStreetMap,2026-11-25T07:10:20Z
+way/1341118038,,pitch,tennis,sin dato,,,,True,20.9951852,-89.6226733,OpenStreetMap,2026-11-25T07:10:20Z
+way/1341651767,,pitch,basketball,sin dato,,,,True,20.9796744,-89.6608433,OpenStreetMap,2026-11-25T07:10:20Z
+way/1341651768,,pitch,basketball,sin dato,,,,True,20.9796701,-89.6609941,OpenStreetMap,2026-11-25T07:10:20Z
+way/1341653696,,pitch,soccer,sin dato,,,,True,21.0385011,-89.6096729,OpenStreetMap,2026-11-25T07:10:20Z
+way/1341653697,,pitch,soccer,sin dato,,,,True,21.0378323,-89.6089521,OpenStreetMap,2026-11-25T07:10:20Z
+way/1341653698,,pitch,soccer,sin dato,,,,True,21.0387167,-89.6089133,OpenStreetMap,2026-11-25T07:10:20Z
+way/1343673922,,pitch,basketball,private,,,,False,20.9897326,-89.6185718,OpenStreetMap,2026-11-25T07:10:20Z
+way/1358716758,Centro Deportivo Paralímpico de Yucatán,sports_centre,,sin dato,,,,True,21.0419889,-89.6526558,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359184775,,pitch,basketball,sin dato,,,,True,21.0154916,-89.5863481,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359184777,Sportway,sports_centre,,private,,,,False,21.0125185,-89.5739236,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359184778,,pitch,basketball,sin dato,,,,True,21.0147597,-89.5690544,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359184779,,pitch,basketball,sin dato,,,,True,21.0142387,-89.5690833,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359210736,Cancha Ekidnas,pitch,,yes,,,yes,True,21.0084666,-89.5821835,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359210738,,pitch,basketball,yes,,,yes,True,21.0135943,-89.5855271,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359210739,Club Cumbres,sports_centre,soccer;swimming;running;tennis,sin dato,,,,True,21.0160571,-89.5916529,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359210760,Go Padel,sports_centre,padel,sin dato,,,,True,21.0341855,-89.6010614,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255065,,pitch,tennis,sin dato,,,,True,21.0155607,-89.5913685,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255066,,pitch,tennis,sin dato,,,,True,21.0156025,-89.5915339,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255067,,pitch,tennis,sin dato,,,,True,21.0156406,-89.5917014,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255068,,pitch,tennis,sin dato,,,,True,21.0157072,-89.5919564,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255069,,pitch,tennis,sin dato,,,,True,21.0157417,-89.5921025,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255070,,pitch,tennis,sin dato,,,,True,21.0160091,-89.5918789,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255071,,pitch,tennis,sin dato,,,,True,21.0160456,-89.5920157,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255072,,pitch,futsal,sin dato,,,,True,21.0159383,-89.5915768,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255073,,pitch,futsal,sin dato,,,,True,21.0161134,-89.5912679,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255074,,pitch,futsal,sin dato,,,,True,21.0162835,-89.591528,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255075,,pitch,futsal,sin dato,,,,True,21.01636,-89.591842,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255076,,pitch,soccer,sin dato,,,,True,21.0168018,-89.5914396,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255079,,track,running,sin dato,,,,True,21.0076557,-89.5840683,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255084,,pitch,baseball,private,,,,False,21.0123222,-89.5746333,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255090,,pitch,baseball,sin dato,,,,True,21.0086925,-89.5590427,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255091,,pitch,baseball,sin dato,,,,True,21.0093546,-89.5599424,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255092,,pitch,softball,sin dato,,,,True,21.0093662,-89.558759,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255093,,pitch,softball,sin dato,,,,True,21.0099259,-89.5585188,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255094,,pitch,softball,sin dato,,,,True,21.0104787,-89.5583306,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255095,,pitch,baseball,sin dato,,,,True,21.0100238,-89.5599199,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255096,,pitch,softball,sin dato,,,,True,21.0118566,-89.5595425,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255097,,pitch,softball,sin dato,,,,True,21.0117835,-89.5587781,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255098,,pitch,baseball,sin dato,,,,True,21.0117159,-89.5580289,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255099,,pitch,baseball,sin dato,,,,True,21.0111459,-89.5581815,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255110,,pitch,futsal,sin dato,,,,True,21.1105695,-89.6146015,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255117,,pitch,soccer,sin dato,,,,True,21.1144155,-89.6094229,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359255118,Merida Open Akron,sports_centre,tennis,sin dato,,,,True,21.1134043,-89.6075286,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359269375,,pitch,soccer,private,,,,False,21.0432239,-89.6090186,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359269376,,pitch,soccer,private,,,,False,21.0432323,-89.6082399,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359269377,,pitch,soccer,private,,,,False,21.0426111,-89.6085135,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359269378,,pitch,soccer,private,,,,False,21.0426031,-89.609241,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359269391,,pitch,skateboard,yes,,asphalt,,True,20.9910582,-89.6021193,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359371210,,pitch,basketball,sin dato,,,,True,21.0274501,-89.5821178,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378048,,pitch,basketball,sin dato,,,,True,21.0181356,-89.5912144,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378049,,pitch,basketball,sin dato,,,,True,21.0181193,-89.5910506,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378050,,pitch,basketball,sin dato,,,,True,21.0181045,-89.5909057,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378051,,pitch,basketball,sin dato,,,,True,21.0180882,-89.5907448,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378059,,track,,sin dato,,,,True,21.0190077,-89.5908981,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378066,,pitch,basketball,sin dato,,,,True,21.0217503,-89.5927624,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378067,,pitch,basketball,sin dato,,,,True,21.021732,-89.5926098,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378068,,pitch,basketball,sin dato,,,,True,21.0217136,-89.5924592,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378069,,pitch,basketball,sin dato,,,,True,21.0210224,-89.5924198,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378070,,pitch,basketball,sin dato,,,,True,21.0210408,-89.5925678,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378071,,pitch,basketball,sin dato,,,,True,21.021057,-89.5927159,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378072,,pitch,basketball,sin dato,,,,True,21.0214763,-89.5926444,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378073,,pitch,basketball,sin dato,,,,True,21.0214578,-89.5924937,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378078,,pitch,soccer,sin dato,,,,True,21.0066512,-89.5711453,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378080,,pitch,basketball,sin dato,,,,True,21.0061979,-89.5709442,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378081,,pitch,basketball,sin dato,,,,True,21.0060864,-89.5707431,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359378085,Deportivo Bancarios,sports_centre,,private,,,,False,21.0083448,-89.5846507,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359406592,,pitch,basketball,sin dato,,,,True,21.0199039,-89.5912814,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359406593,,pitch,basketball,sin dato,,,,True,21.0198846,-89.5911163,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359406594,,pitch,basketball,sin dato,,,,True,21.0198609,-89.5909527,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359406612,,pitch,basketball;soccer,sin dato,,,,True,21.0029314,-89.606093,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415564,,pitch,futsal,private,,,,False,21.0085389,-89.5844135,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415565,,pitch,futsal,private,,,,False,21.0085425,-89.5845917,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415566,,pitch,tennis,private,,,,False,21.0079507,-89.5844652,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415567,,pitch,tennis,private,,,,False,21.0079376,-89.5843033,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415568,,pitch,tennis,private,,,,False,21.0079245,-89.5841397,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415569,,pitch,tennis,private,,,,False,21.0074115,-89.5839832,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415570,,pitch,tennis,private,,,,False,21.0073994,-89.5838208,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415571,,pitch,tennis,private,,,,False,21.0073862,-89.5836361,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415572,,pitch,basketball;soccer,private,,,,False,21.0077625,-89.5839156,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415576,,pitch,,sin dato,,,,True,21.0086144,-89.5867557,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359415579,Antares,sports_centre,swimming,sin dato,,,,True,21.0119351,-89.5769926,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359422703,,pitch,,sin dato,,,,True,21.0076241,-89.5754223,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359452384,,pitch,baseball,sin dato,,,,True,20.9928271,-89.5912708,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359452385,,pitch,futsal,sin dato,,,,True,20.9937827,-89.5920428,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359722882,,pitch,soccer,sin dato,,,,True,21.0113276,-89.5784177,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359722887,,pitch,futsal,sin dato,,,,True,21.0149287,-89.5614666,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359725004,,pitch,,sin dato,,,,True,21.0035024,-89.5885984,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359777284,Unidad Deportiva del SNTSS Dr. Oscar Hammeken,sports_centre,,sin dato,,,,True,21.0127276,-89.5882646,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359777292,,pitch,soccer;baseball,sin dato,,,,True,21.0129594,-89.5876137,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359777324,,pitch,netball,sin dato,,,,True,21.027902,-89.5688985,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359777326,,pitch,softball,sin dato,,,,True,21.0276248,-89.5664607,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359777351,,pitch,soccer,sin dato,,,,True,21.0208934,-89.5612317,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359777353,,pitch,futsal,sin dato,,,,True,21.0205083,-89.5546932,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359781384,,pitch,athletics,sin dato,,,,True,21.0189638,-89.5905382,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359781398,,pitch,soccer,sin dato,,,,True,21.0375005,-89.6457865,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359781399,,track,running,sin dato,,,,True,21.0374704,-89.6457967,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791052,,pitch,soccer,sin dato,,grass,yes,True,20.9460813,-89.5950501,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791053,,pitch,basketball,sin dato,,,,True,20.9442102,-89.5957375,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791054,,pitch,basketball,sin dato,,,,True,20.9442037,-89.5955613,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791055,,pitch,basketball,sin dato,,,,True,20.9441994,-89.595389,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791056,,pitch,basketball,sin dato,,,,True,20.9438875,-89.5957624,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791057,,pitch,basketball,sin dato,,,,True,20.9438747,-89.5955817,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791058,,pitch,basketball,sin dato,,,,True,20.9438677,-89.5954026,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791059,,pitch,tennis,permissive,,paved,yes,True,20.9432839,-89.5951334,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791060,,pitch,tennis,permissive,,paved,yes,True,20.9432754,-89.5949302,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791061,,pitch,tennis,permissive,,paved,yes,True,20.9428948,-89.5953436,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791062,,pitch,tennis,permissive,,paved,yes,True,20.9428843,-89.5951418,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791063,,pitch,tennis,permissive,,paved,yes,True,20.9428758,-89.5949377,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359791064,,pitch,soccer,sin dato,,,,True,20.9834112,-89.6438464,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892354,,pitch,futsal,sin dato,,,,True,20.9523287,-89.6029812,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892355,,pitch,,sin dato,,,,True,20.9525171,-89.6028008,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892371,,pitch,,sin dato,,,,True,20.9561345,-89.5965202,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892372,,pitch,,sin dato,,,,True,20.9559533,-89.5964758,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892373,,pitch,soccer,sin dato,,,,True,20.9556435,-89.5968967,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892376,Deportivo Siqueiros,sports_centre,,sin dato,,,,True,20.9575687,-89.5986559,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892380,,pitch,soccer,sin dato,,,,True,20.9639272,-89.5822504,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892381,,pitch,soccer,sin dato,,,,True,20.9639417,-89.5818686,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892383,,pitch,basketball,yes,,ground,,True,20.9682599,-89.586403,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892387,Gimnasio Solidaridad,sports_hall,,sin dato,,,,True,20.9695732,-89.5871274,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359892388,,pitch,futsal,sin dato,,,,True,20.9691476,-89.5871935,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359906588,,pitch,baseball;soccer,sin dato,,,,True,21.0094021,-89.6000979,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359943246,Campo ATFFA,pitch,soccer,sin dato,,,,True,21.0321437,-89.5771023,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359967075,,pitch,futsal,sin dato,,,,True,21.0323149,-89.6051601,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359967076,,pitch,futsal,private,,,,False,21.0322659,-89.6048763,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359967077,,pitch,soccer,private,,,,False,21.0322464,-89.6045251,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359967078,,pitch,soccer,private,,,,False,21.0312096,-89.6047832,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359967089,,pitch,soccer,private,,,,False,21.0321495,-89.6056188,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969129,,pitch,padel,sin dato,,,,True,21.0343355,-89.6010499,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969130,,pitch,padel,sin dato,,,,True,21.0342474,-89.6011593,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969131,,pitch,padel,sin dato,,,,True,21.0341551,-89.6009342,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969132,,pitch,padel,sin dato,,,,True,21.0339751,-89.6008274,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969144,,pitch,soccer,sin dato,,,,True,21.0651066,-89.5966346,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969145,,pitch,,sin dato,,,,True,21.064619,-89.5966601,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969148,,pitch,soccer,sin dato,,,,True,21.1129328,-89.6089722,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969150,,pitch,futsal,sin dato,,,,True,21.1144035,-89.6084292,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969151,,track,running,sin dato,,,,True,21.1147132,-89.6094133,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359969152,,track,running,sin dato,,,,True,21.114415,-89.6094107,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359972374,Padel Coriasso,sports_centre,,sin dato,,,,True,21.0311836,-89.5361622,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359972375,,pitch,padel,sin dato,,,,True,21.0314172,-89.5360441,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359972376,,pitch,padel,sin dato,,,,True,21.0312457,-89.5361073,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359972377,,pitch,padel,sin dato,,,,True,21.0310731,-89.5361707,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359972378,,pitch,padel,sin dato,,,,True,21.0309006,-89.5362362,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359972386,,pitch,softball,sin dato,,,,True,21.0278489,-89.5202441,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359972387,,pitch,,sin dato,,,,True,21.0273201,-89.5213345,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359972389,,pitch,soccer,sin dato,,,,True,21.0421569,-89.5569092,OpenStreetMap,2026-11-25T07:10:20Z
+way/1359972392,,pitch,basketball,sin dato,,,,True,21.0420323,-89.5566842,OpenStreetMap,2026-11-25T07:10:20Z
+way/1360164944,,pitch,,sin dato,,,,True,21.0034459,-89.58191,OpenStreetMap,2026-11-25T07:10:20Z
+way/1360164948,,pitch,,sin dato,,,,True,20.996709,-89.5801766,OpenStreetMap,2026-11-25T07:10:20Z
+way/1360874597,,pitch,soccer,sin dato,,,,True,20.9665295,-89.6895914,OpenStreetMap,2026-11-25T07:10:20Z
+way/1361250264,,pitch,,sin dato,,,,True,20.9568393,-89.5688587,OpenStreetMap,2026-11-25T07:10:20Z
+way/1361597150,,pitch,basketball,sin dato,,,,True,20.9336616,-89.6858207,OpenStreetMap,2026-11-25T07:10:20Z
+way/1362760499,,pitch,soccer,sin dato,,,,True,20.9334499,-89.6752443,OpenStreetMap,2026-11-25T07:10:20Z
+way/1362774606,,pitch,soccer,sin dato,,,,True,20.9626465,-89.6683699,OpenStreetMap,2026-11-25T07:10:20Z
+way/1362774607,,pitch,basketball,sin dato,,,,True,20.9629392,-89.6682907,OpenStreetMap,2026-11-25T07:10:20Z
+way/1366026382,,pitch,basketball,yes,,concrete,,True,21.0500372,-89.6781518,OpenStreetMap,2026-11-25T07:10:20Z
+way/1366343815,,pitch,basketball,sin dato,,,,True,20.961284,-89.5938915,OpenStreetMap,2026-11-25T07:10:20Z
+way/1366343817,,pitch,basketball,customers,,concrete,,False,20.9615004,-89.5939628,OpenStreetMap,2026-11-25T07:10:20Z
+way/1366465554,,pitch,basketball,yes,,concrete,yes,True,20.9918416,-89.5284473,OpenStreetMap,2026-11-25T07:10:20Z
+way/1367504230,,pitch,basketball,sin dato,,,,True,20.9467555,-89.6969017,OpenStreetMap,2026-11-25T07:10:20Z
+way/1368324298,,pitch,basketball,customers,,concrete,yes,False,20.9786265,-89.5999657,OpenStreetMap,2026-11-25T07:10:20Z
+way/1368996804,,pitch,basketball,sin dato,,,,True,20.9694924,-89.6572091,OpenStreetMap,2026-11-25T07:10:20Z
+way/1368996805,,pitch,basketball,sin dato,,,,True,20.9696264,-89.6574247,OpenStreetMap,2026-11-25T07:10:20Z
+way/1369384717,,pitch,padel,sin dato,,,yes,True,20.9893269,-89.7266463,OpenStreetMap,2026-11-25T07:10:20Z
+way/1369728514,Centro Deportivo Universitario,sports_centre,soccer;basketball;athletics;running;softball,sin dato,Universidad Autónoma de Yucatán UADY,,,True,20.97878,-89.6019746,OpenStreetMap,2026-11-25T07:10:20Z
+way/1372191587,,pitch,soccer,private,,,,False,21.0486224,-89.6203039,OpenStreetMap,2026-11-25T07:10:20Z
+way/1372191588,,pitch,soccer,private,,,,False,21.0487344,-89.6205695,OpenStreetMap,2026-11-25T07:10:20Z
+way/1372191589,,pitch,soccer,private,,,,False,21.04885,-89.620866,OpenStreetMap,2026-11-25T07:10:20Z
+way/1372191590,,pitch,soccer,private,,,,False,21.0489611,-89.6211555,OpenStreetMap,2026-11-25T07:10:20Z
+way/1372589523,,pitch,basketball,sin dato,,,,True,20.9668282,-89.6852068,OpenStreetMap,2026-11-25T07:10:20Z
+way/1376546356,,pitch,baseball;softball,sin dato,,,,True,20.9946638,-89.5794378,OpenStreetMap,2026-11-25T07:10:20Z
+way/1376546360,,pitch,basketball;futsal,sin dato,,,,True,20.9932112,-89.5747896,OpenStreetMap,2026-11-25T07:10:20Z
+way/1376546361,,pitch,basketball;futsal,sin dato,,,,True,20.9930537,-89.5746291,OpenStreetMap,2026-11-25T07:10:20Z
+way/1376566064,,pitch,soccer,private,,,,False,21.0047079,-89.6163228,OpenStreetMap,2026-11-25T07:10:20Z
+way/1376566065,,pitch,soccer,private,,,,False,21.0053647,-89.6173515,OpenStreetMap,2026-11-25T07:10:20Z
+way/1376566066,,pitch,soccer,private,,,,False,21.0055173,-89.6169378,OpenStreetMap,2026-11-25T07:10:20Z
+way/1376643522,,pitch,multi,sin dato,,,,True,20.9417838,-89.7108923,OpenStreetMap,2026-11-25T07:10:20Z
+way/1376643523,,pitch,multi,sin dato,,,,True,20.9416576,-89.7094381,OpenStreetMap,2026-11-25T07:10:20Z
+way/1376643527,,pitch,,sin dato,,,,True,20.9391157,-89.7096789,OpenStreetMap,2026-11-25T07:10:20Z
+way/1378238122,,pitch,basketball,sin dato,,,,True,20.9767699,-89.682579,OpenStreetMap,2026-11-25T07:10:20Z
+way/1378591054,,pitch,basketball,sin dato,,,,True,20.9580727,-89.6730672,OpenStreetMap,2026-11-25T07:10:20Z
+way/1385467803,,pitch,,private,,,,False,20.9196608,-89.6305876,OpenStreetMap,2026-11-25T07:10:20Z
+way/1385873688,,pitch,soccer,sin dato,,,,True,20.9689466,-89.6309398,OpenStreetMap,2026-11-25T07:10:20Z
+way/1388090911,,pitch,soccer,sin dato,,,,True,20.9292967,-89.6032871,OpenStreetMap,2026-11-25T07:10:20Z
+way/1389079341,,pitch,tennis,private,,,yes,False,21.0441485,-89.6496028,OpenStreetMap,2026-11-25T07:10:20Z
+way/1389079342,,pitch,tennis,private,,,yes,False,21.0440918,-89.6494369,OpenStreetMap,2026-11-25T07:10:20Z
+way/1389079343,,pitch,tennis,private,,,yes,False,21.0444788,-89.6494726,OpenStreetMap,2026-11-25T07:10:20Z
+way/1389079344,,pitch,tennis,private,,,yes,False,21.0448132,-89.649341,OpenStreetMap,2026-11-25T07:10:20Z
+way/1389079345,,pitch,tennis,private,,,yes,False,21.0447559,-89.6491725,OpenStreetMap,2026-11-25T07:10:20Z
+way/1389079346,,pitch,tennis,private,,,yes,False,21.0446914,-89.648997,OpenStreetMap,2026-11-25T07:10:20Z
+way/1389079347,,pitch,tennis,private,,,yes,False,21.0446351,-89.6488348,OpenStreetMap,2026-11-25T07:10:20Z
+way/1389079350,,pitch,tennis,private,,,yes,False,21.0443744,-89.649174,OpenStreetMap,2026-11-25T07:10:20Z
+way/1389079351,,pitch,tennis,private,,,yes,False,21.0443309,-89.6490467,OpenStreetMap,2026-11-25T07:10:20Z
+way/1391269673,,track,running,sin dato,,,,True,21.0129968,-89.6205214,OpenStreetMap,2026-11-25T07:10:20Z
+way/1392401577,,pitch,soccer,sin dato,,,,True,20.9537933,-89.693628,OpenStreetMap,2026-11-25T07:10:20Z
+way/1392401578,,pitch,basketball,sin dato,,,,True,20.9540491,-89.6936216,OpenStreetMap,2026-11-25T07:10:20Z
+way/1392845958,,pitch,soccer,sin dato,,,,True,20.9461208,-89.5962731,OpenStreetMap,2026-11-25T07:10:20Z
+way/1392845959,Jaulas de Pádel,pitch,padel,yes,,,,True,20.9423087,-89.5949894,OpenStreetMap,2026-11-25T07:10:20Z
+way/1392845960,,pitch,archery,sin dato,,,,True,20.9420036,-89.5943475,OpenStreetMap,2026-11-25T07:10:20Z
+way/1395811923,Campo de Baseball,pitch,baseball,sin dato,,,,True,21.0133974,-89.622257,OpenStreetMap,2026-11-25T07:10:20Z
+way/1395839562,,pitch,baseball,private,,,,False,21.0146217,-89.6142412,OpenStreetMap,2026-11-25T07:10:20Z
+way/1396715625,,pitch,soccer,sin dato,,,,True,20.9407905,-89.6672877,OpenStreetMap,2026-11-25T07:10:20Z
+way/1396715640,,pitch,soccer,sin dato,,,,True,20.9362878,-89.6440814,OpenStreetMap,2026-11-25T07:10:20Z
+way/1408176396,,pitch,basketball,sin dato,,,,True,20.9260805,-89.6829259,OpenStreetMap,2026-11-25T07:10:20Z
+way/1408435783,,pitch,basketball,sin dato,,,,True,20.9251392,-89.679953,OpenStreetMap,2026-11-25T07:10:20Z
+way/1408442885,,pitch,basketball,sin dato,,,,True,20.9285306,-89.6779679,OpenStreetMap,2026-11-25T07:10:20Z
+way/1408640317,,pitch,basketball,sin dato,,,,True,20.9247169,-89.6843624,OpenStreetMap,2026-11-25T07:10:20Z
+way/1410137255,,pitch,basketball,sin dato,,,,True,21.0022715,-89.6278641,OpenStreetMap,2026-11-25T07:10:20Z
+way/1410137256,,pitch,basketball,sin dato,,,,True,21.001999,-89.6279154,OpenStreetMap,2026-11-25T07:10:20Z
+way/1410215081,Campo Deportivo Porvenir,sports_centre,,sin dato,,,,True,20.9966236,-89.6659868,OpenStreetMap,2026-11-25T07:10:20Z
+way/1410215082,,pitch,soccer,sin dato,,,,True,20.9966427,-89.6660299,OpenStreetMap,2026-11-25T07:10:20Z
+way/1410767757,,pitch,soccer,sin dato,,,,True,20.9598356,-89.6399372,OpenStreetMap,2026-11-25T07:10:20Z
+way/1410767758,,pitch,basketball,sin dato,,,,True,20.9602706,-89.6394055,OpenStreetMap,2026-11-25T07:10:20Z
+way/1410767759,,pitch,basketball,sin dato,,,,True,20.9602652,-89.6396376,OpenStreetMap,2026-11-25T07:10:20Z
+way/1410767760,,pitch,basketball,sin dato,,,,True,20.960287,-89.6397719,OpenStreetMap,2026-11-25T07:10:20Z
+way/1412317294,,pitch,soccer,sin dato,,,,True,20.9456458,-89.661315,OpenStreetMap,2026-11-25T07:10:20Z
+way/1412317295,,pitch,basketball,sin dato,,,,True,20.9451107,-89.6610388,OpenStreetMap,2026-11-25T07:10:20Z
+way/1412329029,,pitch,basketball,sin dato,,,,True,20.962306,-89.64377,OpenStreetMap,2026-11-25T07:10:20Z
+way/1413992579,,pitch,,sin dato,,,,True,21.005148,-89.7171724,OpenStreetMap,2026-11-25T07:10:20Z
+way/1414158667,,pitch,basketball,sin dato,,,,True,20.9300089,-89.6794186,OpenStreetMap,2026-11-25T07:10:20Z
+way/1414549343,,pitch,soccer,sin dato,,artificial_turf,,True,21.0208456,-89.5393963,OpenStreetMap,2026-11-25T07:10:20Z
+way/1414549344,,pitch,basketball,sin dato,,concrete,,True,21.020617,-89.5395166,OpenStreetMap,2026-11-25T07:10:20Z
+way/1418576234,Tirolesa,sports_centre,climbing_adventure;tirolesa;zipline,sin dato,Parque Muncipal de Deportes Extremos,,,True,20.9849424,-89.6710692,OpenStreetMap,2026-11-25T07:10:20Z
+way/1418576236,Futbolito gigante,pitch,futsal,yes,,,,True,20.984406,-89.6717765,OpenStreetMap,2026-11-25T07:10:20Z
+way/1418576237,Telaraña,sports_centre,climbing_adventure,sin dato,,,,True,20.9843611,-89.6712798,OpenStreetMap,2026-11-25T07:10:20Z
+way/1424847491,,pitch,soccer,sin dato,,,,True,21.0086766,-89.6245918,OpenStreetMap,2026-11-25T07:10:20Z
+way/1424854654,,pitch,basketball,sin dato,,,,True,21.0421306,-89.6270431,OpenStreetMap,2026-11-25T07:10:20Z
+way/1424854660,,pitch,tennis,sin dato,,,,True,21.0424324,-89.6273696,OpenStreetMap,2026-11-25T07:10:20Z
+way/1426104548,,pitch,soccer,sin dato,,,,True,21.0108232,-89.6656733,OpenStreetMap,2026-11-25T07:10:20Z
+way/1426859804,,sports_centre,soccer,sin dato,,,,True,21.027829,-89.6229721,OpenStreetMap,2026-11-25T07:10:20Z
+way/1427149709,,pitch,basketball,sin dato,,,,True,20.9360707,-89.6443415,OpenStreetMap,2026-11-25T07:10:20Z
+way/1429064319,,pitch,basketball,sin dato,,,,True,21.0366827,-89.6262393,OpenStreetMap,2026-11-25T07:10:20Z
+way/1431714014,,pitch,basketball,sin dato,,,,True,21.0130644,-89.6368093,OpenStreetMap,2026-11-25T07:10:20Z
+way/1454191962,,pitch,soccer,sin dato,,,,True,21.012418,-89.5739383,OpenStreetMap,2026-11-25T07:10:20Z
+way/1454191963,,pitch,tennis,sin dato,,,,True,21.0131934,-89.574081,OpenStreetMap,2026-11-25T07:10:20Z
+way/1454191964,,pitch,tennis,sin dato,,,,True,21.0132293,-89.5738574,OpenStreetMap,2026-11-25T07:10:20Z
+way/1454191965,,pitch,tennis,sin dato,,,,True,21.0128772,-89.5738528,OpenStreetMap,2026-11-25T07:10:20Z
+way/1454191966,,pitch,tennis,sin dato,,,,True,21.012875,-89.5740787,OpenStreetMap,2026-11-25T07:10:20Z
+way/1454191967,,pitch,basketball,sin dato,,,,True,21.0129939,-89.5742853,OpenStreetMap,2026-11-25T07:10:20Z
+way/1454191968,,pitch,basketball,sin dato,,,,True,21.0128228,-89.5744676,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472728150,,pitch,tennis,sin dato,,,,True,20.9934254,-89.5916652,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472728151,,pitch,tennis,sin dato,,,,True,20.9934333,-89.5918414,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472728152,,pitch,basketball,sin dato,,,,True,20.9937475,-89.5915867,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472728153,,pitch,basketball,sin dato,,,,True,20.9937536,-89.5917987,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472728154,,sports_centre,swimming,sin dato,,,,True,20.9930108,-89.5921685,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472728155,,sports_hall,,sin dato,,,,True,20.9936416,-89.5910223,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472728158,,pitch,soccer,sin dato,,,,True,20.992992,-89.5918161,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472768190,,pitch,basketball,sin dato,,,,True,20.9946021,-89.5889478,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472768194,,pitch,,sin dato,,,,True,20.9938604,-89.588821,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472797251,,pitch,baseball,sin dato,,,,True,20.9892814,-89.5962361,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472797252,,pitch,tennis,sin dato,,,,True,20.9895092,-89.5959364,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472797253,,pitch,tennis,sin dato,,,,True,20.9892814,-89.5957516,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472797254,,pitch,basketball,sin dato,,,,True,20.9890885,-89.5958894,OpenStreetMap,2026-11-25T07:10:20Z
+way/1472797259,,pitch,equestrian,sin dato,,,,True,20.9854787,-89.5964912,OpenStreetMap,2026-11-25T07:10:20Z
+way/1557674394,,pitch,soccer,sin dato,,,,True,20.9932274,-89.607862,OpenStreetMap,2026-11-25T07:10:20Z
+way/1572318203,,pitch,basketball,sin dato,,,,True,21.0211141,-89.5546908,OpenStreetMap,2026-11-25T07:10:20Z
+way/1578092315,,pitch,basketball,sin dato,,,,True,20.8928283,-89.6703888,OpenStreetMap,2026-11-25T07:10:20Z
+way/160952284,,pitch,basketball,sin dato,,fine_gravel,yes,True,20.9232866,-89.6399298,OpenStreetMap,2026-11-25T07:10:20Z
+way/160952288,,pitch,basketball;soccer,sin dato,,asphalt,yes,True,20.9278596,-89.6354287,OpenStreetMap,2026-11-25T07:10:20Z
+way/160952293,"Campo de Béisbol ""el Bate""",pitch,baseball,sin dato,,grass,yes,True,20.9275506,-89.6350671,OpenStreetMap,2026-11-25T07:10:20Z
+way/160952296,,pitch,basketball,sin dato,,fine_gravel,yes,True,20.9232286,-89.639736,OpenStreetMap,2026-11-25T07:10:20Z
+way/166428869,,pitch,baseball,sin dato,,grass,,True,20.9694916,-89.5935864,OpenStreetMap,2026-11-25T07:10:20Z
+way/170046646,,sports_centre,baseball,sin dato,,,,True,21.0741233,-89.6288914,OpenStreetMap,2026-11-25T07:10:20Z
+way/172352264,,sports_centre,baseball,sin dato,,,,True,20.816812,-89.6314192,OpenStreetMap,2026-11-25T07:10:20Z
+way/172352283,,sports_centre,,sin dato,,,,True,20.7515417,-89.6534821,OpenStreetMap,2026-11-25T07:10:20Z
+way/172352302,,sports_centre,baseball,sin dato,,,,True,20.8796323,-89.6513829,OpenStreetMap,2026-11-25T07:10:20Z
+way/172352307,,sports_centre,baseball,sin dato,,,,True,20.7895962,-89.6199379,OpenStreetMap,2026-11-25T07:10:20Z
+way/172352309,,sports_centre,baseball,sin dato,,,,True,20.8206977,-89.6571269,OpenStreetMap,2026-11-25T07:10:20Z
+way/172352316,,sports_centre,,sin dato,,,,True,20.7495139,-89.6533772,OpenStreetMap,2026-11-25T07:10:20Z
+way/172352319,,sports_centre,soccer,sin dato,,,,True,20.7695218,-89.6575764,OpenStreetMap,2026-11-25T07:10:20Z
+way/172352320,,sports_centre,baseball,sin dato,,,,True,20.8632104,-89.6537732,OpenStreetMap,2026-11-25T07:10:20Z
+way/173698879,,sports_centre,baseball,sin dato,,,,True,20.9979368,-89.5553498,OpenStreetMap,2026-11-25T07:10:20Z
+way/179545066,,sports_centre,soccer,sin dato,,,,True,20.9975768,-89.5516731,OpenStreetMap,2026-11-25T07:10:20Z
+way/184924011,,sports_centre,soccer,sin dato,,,,True,21.1012381,-89.7318079,OpenStreetMap,2026-11-25T07:10:20Z
+way/186031009,,sports_centre,soccer,sin dato,,,,True,21.0250584,-89.5128569,OpenStreetMap,2026-11-25T07:10:20Z
+way/186031019,,sports_centre,,sin dato,,,,True,21.0333169,-89.4822572,OpenStreetMap,2026-11-25T07:10:20Z
+way/186031023,,sports_centre,baseball,sin dato,,,,True,21.0251558,-89.5119576,OpenStreetMap,2026-11-25T07:10:20Z
+way/195967808,,sports_centre,baseball,sin dato,,,,True,20.9982794,-89.5605633,OpenStreetMap,2026-11-25T07:10:20Z
+way/200181287,,sports_centre,soccer,sin dato,,,,True,21.097403,-89.7048295,OpenStreetMap,2026-11-25T07:10:20Z
+way/201304152,,sports_centre,tennis,sin dato,,,,True,20.9782168,-89.5991808,OpenStreetMap,2026-11-25T07:10:20Z
+way/201304153,,pitch,soccer,customers,,grass,yes,False,20.9789044,-89.6007063,OpenStreetMap,2026-11-25T07:10:20Z
+way/201304158,,sports_centre,,sin dato,,,,True,20.9781428,-89.5989809,OpenStreetMap,2026-11-25T07:10:20Z
+way/201352406,,sports_centre,basketball,sin dato,,,,True,20.9854419,-89.60732,OpenStreetMap,2026-11-25T07:10:20Z
+way/201352407,,sports_centre,soccer,sin dato,,,,True,20.9860598,-89.6069189,OpenStreetMap,2026-11-25T07:10:20Z
+way/201352408,,sports_centre,baseball,sin dato,,,,True,20.9855258,-89.6068672,OpenStreetMap,2026-11-25T07:10:20Z
+way/201791688,Unidad Deportiva José Nerio Torres Ortiz,pitch,baseball,private,,,,False,21.0479224,-89.641272,OpenStreetMap,2026-11-25T07:10:20Z
+way/201795473,,pitch,soccer,sin dato,,,,True,21.0278343,-89.6229622,OpenStreetMap,2026-11-25T07:10:20Z
+way/201850351,,sports_centre,baseball,sin dato,,,,True,20.8867759,-89.5955982,OpenStreetMap,2026-11-25T07:10:20Z
+way/202578933,,sports_centre,baseball,sin dato,,,,True,20.9728767,-89.7283321,OpenStreetMap,2026-11-25T07:10:20Z
+way/202895701,Campo de Béisbol y Sóftbol Dr. Oscar Hammeken,pitch,soccer;baseball;softball,sin dato,,,,True,21.0123377,-89.5877668,OpenStreetMap,2026-11-25T07:10:20Z
+way/207343177,,sports_centre,soccer,sin dato,,,,True,20.8644996,-89.578805,OpenStreetMap,2026-11-25T07:10:20Z
+way/207343186,,sports_centre,baseball,sin dato,,,,True,20.8670202,-89.5785202,OpenStreetMap,2026-11-25T07:10:20Z
+way/207343195,,sports_centre,baseball,sin dato,,,,True,20.8837466,-89.5580705,OpenStreetMap,2026-11-25T07:10:20Z
+way/207344825,,sports_centre,baseball,sin dato,,,,True,20.8426306,-89.6120752,OpenStreetMap,2026-11-25T07:10:20Z
+way/207344833,,sports_centre,soccer,sin dato,,,,True,20.8410007,-89.6083438,OpenStreetMap,2026-11-25T07:10:20Z
+way/207500918,,sports_centre,soccer,sin dato,,,,True,21.0161077,-89.6100264,OpenStreetMap,2026-11-25T07:10:20Z
+way/207500923,,sports_centre,basketball,sin dato,,,,True,21.0163727,-89.6096079,OpenStreetMap,2026-11-25T07:10:20Z
+way/207504807,,pitch,soccer,sin dato,,,,True,20.9766223,-89.5802097,OpenStreetMap,2026-11-25T07:10:20Z
+way/207504812,,pitch,baseball,sin dato,,,,True,20.9759421,-89.5801686,OpenStreetMap,2026-11-25T07:10:20Z
+way/207529807,,sports_centre,soccer,sin dato,,,,True,20.9529264,-89.5793931,OpenStreetMap,2026-11-25T07:10:20Z
+way/207529810,,pitch,soccer,sin dato,,,,True,20.9663593,-89.5822998,OpenStreetMap,2026-11-25T07:10:20Z
+way/207529811,,pitch,soccer,sin dato,,,,True,20.965434,-89.5823123,OpenStreetMap,2026-11-25T07:10:20Z
+way/207628923,,pitch,soccer,sin dato,,,,True,21.0467716,-89.6217438,OpenStreetMap,2026-11-25T07:10:20Z
+way/209387286,,sports_centre,basketball,sin dato,,,,True,21.06539,-89.6745597,OpenStreetMap,2026-11-25T07:10:20Z
+way/209387298,,pitch,baseball,sin dato,,,,True,21.0666796,-89.7066334,OpenStreetMap,2026-11-25T07:10:20Z
+way/209387315,,sports_centre,,sin dato,,,,True,21.0500482,-89.6784878,OpenStreetMap,2026-11-25T07:10:20Z
+way/209392120,,sports_centre,soccer,sin dato,,,,True,21.1230511,-89.7280993,OpenStreetMap,2026-11-25T07:10:20Z
+way/209392135,,sports_centre,baseball,sin dato,,,,True,21.124926,-89.7256977,OpenStreetMap,2026-11-25T07:10:20Z
+way/209398030,,sports_centre,basketball,sin dato,,,,True,21.1305334,-89.693657,OpenStreetMap,2026-11-25T07:10:20Z
+way/209398031,,sports_centre,basketball,sin dato,,,,True,21.1305615,-89.6918356,OpenStreetMap,2026-11-25T07:10:20Z
+way/209398049,,sports_centre,baseball,sin dato,,,,True,21.1292294,-89.690099,OpenStreetMap,2026-11-25T07:10:20Z
+way/209398055,,sports_centre,soccer,sin dato,,,,True,21.1304077,-89.6903367,OpenStreetMap,2026-11-25T07:10:20Z
+way/209410439,,sports_centre,soccer,sin dato,,,,True,21.1401147,-89.6409033,OpenStreetMap,2026-11-25T07:10:20Z
+way/209410446,,sports_centre,basketball,sin dato,,,,True,21.1416914,-89.6404864,OpenStreetMap,2026-11-25T07:10:20Z
+way/209410451,,sports_centre,baseball,sin dato,,,,True,21.1385372,-89.6378136,OpenStreetMap,2026-11-25T07:10:20Z
+way/209410453,,sports_centre,basketball,sin dato,,,,True,21.1392825,-89.641307,OpenStreetMap,2026-11-25T07:10:20Z
+way/209410454,,sports_centre,baseball,sin dato,,,,True,21.1393063,-89.6419748,OpenStreetMap,2026-11-25T07:10:20Z
+way/209410470,,sports_centre,basketball,sin dato,,,,True,21.141732,-89.640843,OpenStreetMap,2026-11-25T07:10:20Z
+way/209412494,,pitch,baseball,sin dato,,,,True,21.141562,-89.5842753,OpenStreetMap,2026-11-25T07:10:20Z
+way/209412498,,sports_centre,basketball,sin dato,,,,True,21.1183383,-89.6353463,OpenStreetMap,2026-11-25T07:10:20Z
+way/209412515,,pitch,basketball,sin dato,,,,True,21.1420684,-89.5842872,OpenStreetMap,2026-11-25T07:10:20Z
+way/209447942,,sports_centre,basketball,sin dato,,,,True,20.9751027,-89.6960878,OpenStreetMap,2026-11-25T07:10:20Z
+way/209447954,,sports_centre,baseball,sin dato,,,,True,20.9750801,-89.6963665,OpenStreetMap,2026-11-25T07:10:20Z
+way/209450097,,sports_centre,basketball,sin dato,,,,True,20.8795039,-89.6537216,OpenStreetMap,2026-11-25T07:10:20Z
+way/209450102,,sports_centre,basketball,sin dato,,,,True,20.8799772,-89.6538543,OpenStreetMap,2026-11-25T07:10:20Z
+way/209452091,,sports_centre,basketball,sin dato,,,,True,20.7896351,-89.665605,OpenStreetMap,2026-11-25T07:10:20Z
+way/209622499,,sports_centre,,sin dato,,,,True,20.7496796,-89.6528303,OpenStreetMap,2026-11-25T07:10:20Z
+way/209622502,,sports_centre,basketball,sin dato,,,,True,20.7903989,-89.6194119,OpenStreetMap,2026-11-25T07:10:20Z
+way/209622503,,sports_centre,,sin dato,,,,True,20.7492468,-89.653973,OpenStreetMap,2026-11-25T07:10:20Z
+way/209622504,,sports_centre,,sin dato,,,,True,20.7497259,-89.6539178,OpenStreetMap,2026-11-25T07:10:20Z
+way/209628776,,sports_centre,basketball,sin dato,,,,True,20.8643019,-89.5796497,OpenStreetMap,2026-11-25T07:10:20Z
+way/209642081,,sports_centre,basketball,sin dato,,,,True,20.8870121,-89.5979022,OpenStreetMap,2026-11-25T07:10:20Z
+way/209642087,,sports_centre,baseball,sin dato,,,,True,20.8855173,-89.5979655,OpenStreetMap,2026-11-25T07:10:20Z
+way/209694768,,pitch,basketball,sin dato,,,,True,21.0332545,-89.4815067,OpenStreetMap,2026-11-25T07:10:20Z
+way/209694779,,sports_centre,basketball,sin dato,,,,True,21.0343462,-89.498867,OpenStreetMap,2026-11-25T07:10:20Z
+way/212917408,,sports_centre,baseball,sin dato,,,,True,20.8181947,-89.623835,OpenStreetMap,2026-11-25T07:10:20Z
+way/212917439,,sports_centre,soccer,sin dato,,,,True,20.8175805,-89.6231779,OpenStreetMap,2026-11-25T07:10:20Z
+way/215332115,,sports_centre,baseball,sin dato,,,,True,20.9650336,-89.5970107,OpenStreetMap,2026-11-25T07:10:20Z
+way/215332116,,sports_centre,basketball,sin dato,,,,True,20.9682995,-89.5972682,OpenStreetMap,2026-11-25T07:10:20Z
+way/221376310,,pitch,baseball,sin dato,,,,True,21.1026176,-89.657437,OpenStreetMap,2026-11-25T07:10:20Z
+way/221492054,Estadio Carlos Iturralde Rivero,stadium,soccer;athletics,sin dato,,,,True,20.9457426,-89.5937545,OpenStreetMap,2026-11-25T07:10:20Z
+way/221492056,,sports_centre,soccer,sin dato,,,,True,20.9384249,-89.5968209,OpenStreetMap,2026-11-25T07:10:20Z
+way/221492062,Polifórum Zamná,stadium,boxing;wrestling;weightlifting,sin dato,,,,True,20.9412856,-89.5942517,OpenStreetMap,2026-11-25T07:10:20Z
+way/221507077,,sports_centre,baseball,sin dato,,,,True,20.9930667,-89.5607414,OpenStreetMap,2026-11-25T07:10:20Z
+way/223480706,,pitch,basketball,sin dato,,,,True,21.033158,-89.6357376,OpenStreetMap,2026-11-25T07:10:20Z
+way/229443309,,sports_centre,,sin dato,,,,True,20.8155443,-89.6273207,OpenStreetMap,2026-11-25T07:10:20Z
+way/229443317,,pitch,basketball,sin dato,,,,True,20.8163,-89.6315988,OpenStreetMap,2026-11-25T07:10:20Z
+way/230870973,,pitch,soccer,sin dato,,,,True,20.9733301,-89.6845667,OpenStreetMap,2026-11-25T07:10:20Z
+way/236928719,,sports_centre,baseball,sin dato,,,,True,21.009348,-89.700144,OpenStreetMap,2026-11-25T07:10:20Z
+way/239621426,,pitch,soccer,sin dato,,,,True,20.9171022,-89.6264408,OpenStreetMap,2026-11-25T07:10:20Z
+way/239621435,,pitch,basketball,sin dato,,,,True,20.916159,-89.6253133,OpenStreetMap,2026-11-25T07:10:20Z
+way/239621446,,pitch,basketball,sin dato,,,,True,20.916146,-89.6251229,OpenStreetMap,2026-11-25T07:10:20Z
+way/239621449,,pitch,baseball,sin dato,,,,True,20.9159073,-89.6257495,OpenStreetMap,2026-11-25T07:10:20Z
+way/239624088,,pitch,baseball,sin dato,,,,True,20.9177077,-89.6275326,OpenStreetMap,2026-11-25T07:10:20Z
+way/239624091,,pitch,baseball,sin dato,,,,True,20.9161082,-89.6277603,OpenStreetMap,2026-11-25T07:10:20Z
+way/239624093,,pitch,baseball,sin dato,,,,True,20.9178363,-89.6284407,OpenStreetMap,2026-11-25T07:10:20Z
+way/239624097,,pitch,basketball,sin dato,,,,True,20.9199275,-89.6276592,OpenStreetMap,2026-11-25T07:10:20Z
+way/267913969,,sports_centre,baseball;soccer,sin dato,,,,True,21.1006989,-89.703956,OpenStreetMap,2026-11-25T07:10:20Z
+way/287201902,Polifuncional,sports_centre,basketball,sin dato,,,,True,20.9951606,-89.6204688,OpenStreetMap,2026-11-25T07:10:20Z
+way/295119968,Liga Infantil y Juvenil de Béisbol Yucatán A.C.,sports_centre,baseball,sin dato,,,,True,21.0100845,-89.5589751,OpenStreetMap,2026-11-25T07:10:20Z
+way/295119969,,pitch,baseball,sin dato,,,,True,21.0258156,-89.5664944,OpenStreetMap,2026-11-25T07:10:20Z
+way/303270564,Unidad Deportiva Kukulcán,sports_centre,soccer;baseball;athletics;running;tennis;american_football;swimming,sin dato,Gobierno del Estado de Yucatán,,,True,20.9435383,-89.5951366,OpenStreetMap,2026-11-25T07:10:20Z
+way/359274575,,pitch,basketball,sin dato,,,,True,20.9584224,-89.6328594,OpenStreetMap,2026-11-25T07:10:20Z
+way/359274576,,pitch,basketball,sin dato,,,,True,20.9586423,-89.6327878,OpenStreetMap,2026-11-25T07:10:20Z
+way/359274577,,pitch,baseball,sin dato,,,,True,20.9584255,-89.6321208,OpenStreetMap,2026-11-25T07:10:20Z
+way/359274578,,pitch,multi,sin dato,,,,True,20.9585042,-89.632581,OpenStreetMap,2026-11-25T07:10:20Z
+way/359278604,Unidad deportiva Ex-Rastro,sports_centre,,sin dato,,,,True,20.9597532,-89.6394178,OpenStreetMap,2026-11-25T07:10:20Z
+way/360624063,,sports_centre,basketball,sin dato,,,,True,20.978317,-89.5896075,OpenStreetMap,2026-11-25T07:10:20Z
+way/360624068,,pitch,basketball,sin dato,,,,True,20.9785696,-89.5895235,OpenStreetMap,2026-11-25T07:10:20Z
+way/37057435,,sports_centre,baseball,sin dato,,,,True,20.7874402,-89.6630356,OpenStreetMap,2026-11-25T07:10:20Z
+way/372516340,,pitch,basketball;soccer;volleyball,sin dato,,,,True,21.0213496,-89.718355,OpenStreetMap,2026-11-25T07:10:20Z
+way/374382436,,pitch,soccer,sin dato,,,,True,20.9903555,-89.6467547,OpenStreetMap,2026-11-25T07:10:20Z
+way/377491874,,pitch,basketball,sin dato,,,,True,21.0482002,-89.5410986,OpenStreetMap,2026-11-25T07:10:20Z
+way/377491885,,pitch,tennis,sin dato,,,,True,21.0480725,-89.5413659,OpenStreetMap,2026-11-25T07:10:20Z
+way/377769636,Lienzo Charro,pitch,tauromaquia,sin dato,,,,True,20.8590672,-89.6163918,OpenStreetMap,2026-11-25T07:10:20Z
+way/378058407,,pitch,basketball,sin dato,,,,True,20.9368855,-89.6933117,OpenStreetMap,2026-11-25T07:10:20Z
+way/378065183,Parque El Papa,pitch,soccer,sin dato,,,,True,20.9609491,-89.6778336,OpenStreetMap,2026-11-25T07:10:20Z
+way/383557848,,pitch,soccer,private,,,,False,21.0515786,-89.622856,OpenStreetMap,2026-11-25T07:10:20Z
+way/383557849,,pitch,baseball,private,,,,False,21.0500799,-89.6229143,OpenStreetMap,2026-11-25T07:10:20Z
+way/384770497,,pitch,soccer,sin dato,,,,True,21.1348526,-89.5824313,OpenStreetMap,2026-11-25T07:10:20Z
+way/385510718,,pitch,baseball,sin dato,,,,True,20.9163063,-89.6289587,OpenStreetMap,2026-11-25T07:10:20Z
+way/385510719,,pitch,baseball,sin dato,,,,True,20.9165879,-89.6289023,OpenStreetMap,2026-11-25T07:10:20Z
+way/385510720,,pitch,baseball,sin dato,,,,True,20.9170851,-89.62863,OpenStreetMap,2026-11-25T07:10:20Z
+way/385510721,,pitch,soccer,sin dato,,,,True,20.9160539,-89.6265288,OpenStreetMap,2026-11-25T07:10:20Z
+way/385510722,,pitch,baseball,sin dato,,,,True,20.9164674,-89.6285343,OpenStreetMap,2026-11-25T07:10:20Z
+way/385510723,,pitch,baseball,sin dato,,,,True,20.9161062,-89.6285912,OpenStreetMap,2026-11-25T07:10:20Z
+way/385510724,,pitch,baseball,sin dato,,,,True,20.9169665,-89.6276034,OpenStreetMap,2026-11-25T07:10:20Z
+way/385510728,"Unidad Deportiva Municipal ""Fernando Valenzuela""",sports_centre,,sin dato,,,,True,20.9169073,-89.628218,OpenStreetMap,2026-11-25T07:10:20Z
+way/385592736,,pitch,soccer,private,,,,False,20.9872424,-89.6159963,OpenStreetMap,2026-11-25T07:10:20Z
+way/385592737,,pitch,soccer,private,,,,False,20.9875129,-89.6150349,OpenStreetMap,2026-11-25T07:10:20Z
+way/385592738,,pitch,basketball,private,,,,False,20.9876973,-89.6167566,OpenStreetMap,2026-11-25T07:10:20Z
+way/387878328,Unidad Deportiva Inalámbrica,sports_centre,multi,sin dato,,,,True,20.9835761,-89.6445965,OpenStreetMap,2026-11-25T07:10:20Z
+way/387969795,"Unidad Deportiva ""Benito Juárez García""",sports_centre,multi,sin dato,,,,True,20.9932338,-89.591601,OpenStreetMap,2026-11-25T07:10:20Z
+way/393012925,Campo Beisbol,pitch,baseball,sin dato,,,,True,20.9603132,-89.6601473,OpenStreetMap,2026-11-25T07:10:20Z
+way/393042204,,pitch,multi,sin dato,,,,True,20.9516978,-89.6892628,OpenStreetMap,2026-11-25T07:10:20Z
+way/396998154,,pitch,soccer,sin dato,,,,True,21.0021531,-89.6672923,OpenStreetMap,2026-11-25T07:10:20Z
+way/396998155,,pitch,basketball,sin dato,,,,True,21.0023956,-89.6669108,OpenStreetMap,2026-11-25T07:10:20Z
+way/396998168,,pitch,soccer,sin dato,,,,True,21.0024781,-89.6628459,OpenStreetMap,2026-11-25T07:10:20Z
+way/399803284,,pitch,soccer,sin dato,,,,True,21.0103409,-89.7003505,OpenStreetMap,2026-11-25T07:10:20Z
+way/400257109,,pitch,soccer,sin dato,,,,True,21.0211647,-89.5536885,OpenStreetMap,2026-11-25T07:10:20Z
+way/413050315,,pitch,baseball,sin dato,,,,True,20.9465095,-89.6172954,OpenStreetMap,2026-11-25T07:10:20Z
+way/413050381,,pitch,baseball,sin dato,,,,True,20.9448587,-89.6036074,OpenStreetMap,2026-11-25T07:10:20Z
+way/413050480,,pitch,soccer,sin dato,,,,True,20.9444209,-89.6027792,OpenStreetMap,2026-11-25T07:10:20Z
+way/413050608,,pitch,tennis,permissive,,paved,yes,True,20.9433076,-89.5954754,OpenStreetMap,2026-11-25T07:10:20Z
+way/429921104,Hda Opichen,pitch,soccer,sin dato,,,,True,20.9486197,-89.6787702,OpenStreetMap,2026-11-25T07:10:20Z
+way/429921105,,pitch,basketball,sin dato,,,,True,20.949033,-89.6796375,OpenStreetMap,2026-11-25T07:10:20Z
+way/462697033,,pitch,baseball,sin dato,,grass,,True,21.0093111,-89.6515027,OpenStreetMap,2026-11-25T07:10:20Z
+way/462697034,,pitch,basketball,sin dato,,concrete,,True,21.0089787,-89.6519641,OpenStreetMap,2026-11-25T07:10:20Z
+way/462697036,,pitch,soccer,sin dato,,,,True,21.0087339,-89.65218,OpenStreetMap,2026-11-25T07:10:20Z
+way/462697037,,pitch,soccer,sin dato,,grass,,True,21.0085117,-89.6517192,OpenStreetMap,2026-11-25T07:10:20Z
+way/462887652,,pitch,soccer,sin dato,,,,True,21.0190326,-89.5909103,OpenStreetMap,2026-11-25T07:10:20Z
+way/463033794,,pitch,soccer,sin dato,,,,True,21.0038698,-89.5883549,OpenStreetMap,2026-11-25T07:10:20Z
+way/463033796,,pitch,soccer,sin dato,,,,True,21.0175865,-89.5704888,OpenStreetMap,2026-11-25T07:10:20Z
+way/463034758,"Unidad Deportiva ""Mulsay""",sports_centre,,sin dato,,,,True,20.9602868,-89.6595896,OpenStreetMap,2026-11-25T07:10:20Z
+way/470303299,,pitch,soccer,sin dato,,concrete,,True,20.9501335,-89.5842588,OpenStreetMap,2026-11-25T07:10:20Z
+way/470303309,,pitch,soccer,sin dato,,concrete,,True,20.952319,-89.587924,OpenStreetMap,2026-11-25T07:10:20Z
+way/471513447,,pitch,soccer,sin dato,,,,True,20.9654777,-89.5818236,OpenStreetMap,2026-11-25T07:10:20Z
+way/487084032,,pitch,basketball,permissive,,asphalt,yes,True,20.9423141,-89.5826106,OpenStreetMap,2026-11-25T07:10:20Z
+way/487084033,,pitch,soccer,sin dato,,dirt,no,True,20.9418494,-89.5832746,OpenStreetMap,2026-11-25T07:10:20Z
+way/487086594,,pitch,basketball,permissive,,,yes,True,20.948559,-89.5790823,OpenStreetMap,2026-11-25T07:10:20Z
+way/487086609,,pitch,basketball,permissive,,asphalt,yes,True,20.9467657,-89.5778904,OpenStreetMap,2026-11-25T07:10:20Z
+way/487087267,,pitch,soccer,sin dato,,dirt,,True,20.9448865,-89.5954806,OpenStreetMap,2026-11-25T07:10:20Z
+way/487087272,,sports_centre,swimming,customers,,,,False,20.9424884,-89.5941851,OpenStreetMap,2026-11-25T07:10:20Z
+way/487229995,,pitch,basketball,permissive,,asphalt,yes,True,20.9439042,-89.6028661,OpenStreetMap,2026-11-25T07:10:20Z
+way/487232273,,pitch,basketball,permissive,,asphalt,yes,True,20.9696729,-89.5941001,OpenStreetMap,2026-11-25T07:10:20Z
+way/487233946,,pitch,soccer,sin dato,,dirt,yes,True,20.9782897,-89.6586023,OpenStreetMap,2026-11-25T07:10:20Z
+way/488354730,Centro de Alto Rendimiento Deportivo (Card),sports_centre,,sin dato,,,,True,20.9393139,-89.6020154,OpenStreetMap,2026-11-25T07:10:20Z
+way/490241910,,pitch,multi,private,,,,False,21.110711,-89.6137215,OpenStreetMap,2026-11-25T07:10:20Z
+way/490241911,,pitch,multi,private,,,,False,21.1107049,-89.6135431,OpenStreetMap,2026-11-25T07:10:20Z
+way/490241912,,pitch,multi,private,,,,False,21.110694,-89.6133726,OpenStreetMap,2026-11-25T07:10:20Z
+way/490241913,,pitch,multi,private,,,,False,21.1104439,-89.6137282,OpenStreetMap,2026-11-25T07:10:20Z
+way/490241914,,pitch,multi,private,,,,False,21.1104358,-89.6135562,OpenStreetMap,2026-11-25T07:10:20Z
+way/490241915,,pitch,multi,private,,,,False,21.1104262,-89.6133871,OpenStreetMap,2026-11-25T07:10:20Z
+way/490241916,,pitch,soccer,private,,,,False,21.111481,-89.6141944,OpenStreetMap,2026-11-25T07:10:20Z
+way/498388101,Cancha de Futbol Salvador Alvarado sur,pitch,soccer,sin dato,,dirt,,True,20.9335931,-89.5990297,OpenStreetMap,2026-11-25T07:10:20Z
+way/498388105,,pitch,basketball,permissive,,asphalt,yes,True,20.934934,-89.5989429,OpenStreetMap,2026-11-25T07:10:20Z
+way/498388106,,pitch,soccer,sin dato,,asphalt,yes,True,20.9348778,-89.5985757,OpenStreetMap,2026-11-25T07:10:20Z
+way/498388107,,pitch,basketball,permissive,,asphalt,yes,True,20.9332855,-89.5988373,OpenStreetMap,2026-11-25T07:10:20Z
+way/498388110,Unidad Deportiva Kukulcán,sports_centre,soccer;tennis;baseball;basketball;swimming;volleyball;athletics;skateboard;shooting;running,sin dato,,,,True,20.9442671,-89.5951842,OpenStreetMap,2026-11-25T07:10:20Z
+way/503196751,,pitch,soccer,sin dato,,,,True,21.0028936,-89.6440664,OpenStreetMap,2026-11-25T07:10:20Z
+way/507866229,,pitch,tennis,sin dato,,,,True,20.9849311,-89.5372105,OpenStreetMap,2026-11-25T07:10:20Z
+way/507866230,,pitch,tennis,sin dato,,,,True,20.9849279,-89.5373865,OpenStreetMap,2026-11-25T07:10:20Z
+way/507866231,,pitch,tennis,sin dato,,,,True,20.9849259,-89.5375638,OpenStreetMap,2026-11-25T07:10:20Z
+way/507866232,,pitch,tennis,sin dato,,,,True,20.9849257,-89.5377419,OpenStreetMap,2026-11-25T07:10:20Z
+way/524797429,"Campo Deportivo Federico ""Chivirico"" Cardeña Blanco",pitch,baseball,sin dato,,,,True,20.9903227,-89.6512013,OpenStreetMap,2026-11-25T07:10:20Z
+way/524797430,,pitch,soccer,sin dato,,,,True,21.0270757,-89.5672469,OpenStreetMap,2026-11-25T07:10:20Z
+way/524797432,,pitch,soccer,sin dato,,grass,,True,21.0268815,-89.5663177,OpenStreetMap,2026-11-25T07:10:20Z
+way/524797433,,pitch,soccer,sin dato,,tartan,,True,21.0260543,-89.5673625,OpenStreetMap,2026-11-25T07:10:20Z
+way/524797434,,pitch,soccer,sin dato,,grass,,True,21.0272641,-89.5687301,OpenStreetMap,2026-11-25T07:10:20Z
+way/525494771,,pitch,soccer,sin dato,,asphalt,yes,True,20.9980636,-89.6494589,OpenStreetMap,2026-11-25T07:10:20Z
+way/529266376,Crédito Real Tennis Center,sports_centre,tennis,sin dato,,,,True,21.0444029,-89.6491879,OpenStreetMap,2026-11-25T07:10:20Z
+way/532065286,,pitch,tennis,private,,,,False,20.990711,-89.6181782,OpenStreetMap,2026-11-25T07:10:20Z
+way/532065287,,pitch,soccer,private,,,,False,20.9908502,-89.6183847,OpenStreetMap,2026-11-25T07:10:20Z
+way/532065288,,pitch,basketball,private,,,,False,20.9900758,-89.6184818,OpenStreetMap,2026-11-25T07:10:20Z
+way/533097447,,pitch,baseball,sin dato,,sand,,True,21.0363235,-89.623229,OpenStreetMap,2026-11-25T07:10:20Z
+way/533680530,,sports_centre,,sin dato,,,,True,21.0263133,-89.6275964,OpenStreetMap,2026-11-25T07:10:20Z
+way/544235909,,pitch,soccer,sin dato,,grass,yes,True,21.0293479,-89.6524584,OpenStreetMap,2026-11-25T07:10:20Z
+way/544244167,,pitch,basketball,yes,,asphalt,yes,True,21.0289571,-89.6520158,OpenStreetMap,2026-11-25T07:10:20Z
+way/544244168,,pitch,skateboard,sin dato,,concrete,yes,True,21.0286843,-89.6516359,OpenStreetMap,2026-11-25T07:10:20Z
+way/548218863,,pitch,soccer,sin dato,,grass,,True,21.0255169,-89.649909,OpenStreetMap,2026-11-25T07:10:20Z
+way/548218864,,pitch,basketball,yes,,concrete,yes,True,21.0254889,-89.6504152,OpenStreetMap,2026-11-25T07:10:20Z
+way/549847801,,pitch,soccer,sin dato,,tartan,yes,True,21.1033981,-89.6626863,OpenStreetMap,2026-11-25T07:10:20Z
+way/549847811,,pitch,basketball,sin dato,,concrete,yes,True,21.1035831,-89.6619854,OpenStreetMap,2026-11-25T07:10:20Z
+way/552248262,,pitch,basketball,yes,,asphalt,yes,True,20.9369424,-89.5931125,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252416,,pitch,baseball,sin dato,,,,True,20.9014367,-89.6566881,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252417,,pitch,baseball,sin dato,,,,True,20.901012,-89.6573408,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252418,,pitch,baseball,sin dato,,,,True,20.9008905,-89.6582203,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252419,,pitch,baseball,sin dato,,,,True,20.9004822,-89.657732,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252420,,pitch,basketball,sin dato,,,,True,20.9002726,-89.6565012,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252421,,pitch,basketball,sin dato,,,,True,20.9004966,-89.656256,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252422,,pitch,basketball,sin dato,,,,True,20.900852,-89.6561655,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252424,,pitch,soccer,sin dato,,,,True,20.9001736,-89.6558271,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252425,,pitch,soccer,sin dato,,,,True,20.89993,-89.6551379,OpenStreetMap,2026-11-25T07:10:20Z
+way/552252426,,pitch,soccer,sin dato,,,,True,20.8993179,-89.6556225,OpenStreetMap,2026-11-25T07:10:20Z
+way/552719466,,pitch,soccer,sin dato,,,,True,21.0052599,-89.6262585,OpenStreetMap,2026-11-25T07:10:20Z
+way/552719467,,pitch,soccer,sin dato,,,,True,21.0037532,-89.632405,OpenStreetMap,2026-11-25T07:10:20Z
+way/552719468,,pitch,soccer,sin dato,,,,True,21.0043238,-89.6321497,OpenStreetMap,2026-11-25T07:10:20Z
+way/552719469,,pitch,multi,sin dato,,,,True,21.004123,-89.6322474,OpenStreetMap,2026-11-25T07:10:20Z
+way/553372200,,pitch,basketball,yes,,,,True,20.9843532,-89.676686,OpenStreetMap,2026-11-25T07:10:20Z
+way/553373033,Parque Municipal de Deportes Extremos,sports_centre,climbing_adventure,sin dato,Ayuntamiento de Mérida,,,True,20.9859103,-89.6711308,OpenStreetMap,2026-11-25T07:10:20Z
+way/556373131,Unidad Deportiva Adolfo López Mateos,sports_centre,,sin dato,,,,True,20.9833744,-89.600407,OpenStreetMap,2026-11-25T07:10:20Z
+way/556690607,,pitch,soccer,sin dato,,,,True,21.0012222,-89.5680377,OpenStreetMap,2026-11-25T07:10:20Z
+way/556690869,,pitch,basketball,sin dato,,,,True,21.0015121,-89.5675622,OpenStreetMap,2026-11-25T07:10:20Z
+way/556699732,,pitch,soccer,sin dato,,,,True,20.9976237,-89.5718049,OpenStreetMap,2026-11-25T07:10:20Z
+way/558090129,,pitch,basketball,sin dato,,,,True,20.9549097,-89.5754757,OpenStreetMap,2026-11-25T07:10:20Z
+way/558090130,,pitch,basketball,sin dato,,,,True,20.9641265,-89.5714737,OpenStreetMap,2026-11-25T07:10:20Z
+way/558090131,,pitch,basketball,sin dato,,,,True,20.9626793,-89.5774325,OpenStreetMap,2026-11-25T07:10:20Z
+way/558090132,,pitch,basketball,sin dato,,,,True,20.9646483,-89.5754252,OpenStreetMap,2026-11-25T07:10:20Z
+way/558090133,,pitch,basketball,sin dato,,,,True,20.9638077,-89.5809241,OpenStreetMap,2026-11-25T07:10:20Z
+way/559984929,Área Deportiva Juan Pablo,sports_centre,,sin dato,,,,True,20.9608377,-89.6781259,OpenStreetMap,2026-11-25T07:10:20Z
+way/568378132,,pitch,soccer,sin dato,,,,True,20.9907827,-89.6712057,OpenStreetMap,2026-11-25T07:10:20Z
+way/570538142,,pitch,basketball,sin dato,,,,True,20.9037346,-89.6260369,OpenStreetMap,2026-11-25T07:10:20Z
+way/584734934,,pitch,basketball,sin dato,,,,True,20.9469215,-89.5859611,OpenStreetMap,2026-11-25T07:10:20Z
+way/584739413,Campo de Softball Cortés Sarmiento,pitch,baseball,sin dato,,grass,yes,True,20.9610755,-89.5934461,OpenStreetMap,2026-11-25T07:10:20Z
+way/584966679,,pitch,soccer,sin dato,,,,True,21.0771958,-89.654493,OpenStreetMap,2026-11-25T07:10:20Z
+way/584984865,,pitch,soccer,sin dato,,,,True,21.0677441,-89.6506076,OpenStreetMap,2026-11-25T07:10:20Z
+way/584984866,,sports_centre,,sin dato,,,,True,21.0725364,-89.6458651,OpenStreetMap,2026-11-25T07:10:20Z
+way/584988890,,pitch,basketball,sin dato,,,,True,21.0706261,-89.6603626,OpenStreetMap,2026-11-25T07:10:20Z
+way/584989440,,pitch,,sin dato,,,,True,20.9680569,-89.6154184,OpenStreetMap,2026-11-25T07:10:20Z
+way/584992526,,pitch,baseball,sin dato,,,,True,21.0229669,-89.6449781,OpenStreetMap,2026-11-25T07:10:20Z
+way/584992527,,pitch,baseball,sin dato,,,,True,21.020601,-89.6612251,OpenStreetMap,2026-11-25T07:10:20Z
+way/584992546,,pitch,tennis,sin dato,,,,True,21.0598155,-89.6479681,OpenStreetMap,2026-11-25T07:10:20Z
+way/584992554,,pitch,,sin dato,,,,True,21.06321,-89.6456246,OpenStreetMap,2026-11-25T07:10:20Z
+way/585051592,,pitch,,sin dato,,,,True,20.9836335,-89.6005579,OpenStreetMap,2026-11-25T07:10:20Z
+way/585965844,,pitch,basketball,sin dato,,,,True,21.0708981,-89.6498292,OpenStreetMap,2026-11-25T07:10:20Z
+way/586444933,,pitch,basketball,sin dato,,,,True,21.0978044,-89.5997026,OpenStreetMap,2026-11-25T07:10:20Z
+way/586467394,Campo de futbol,pitch,soccer,sin dato,,grass,yes,True,21.1017971,-89.6569594,OpenStreetMap,2026-11-25T07:10:20Z
+way/586525388,,pitch,soccer,sin dato,,,,True,20.9682357,-89.5870417,OpenStreetMap,2026-11-25T07:10:20Z
+way/586525389,,pitch,basketball,yes,,ground,,True,20.9682595,-89.5865759,OpenStreetMap,2026-11-25T07:10:20Z
+way/586525395,,pitch,baseball,sin dato,,,,True,20.9663581,-89.5895831,OpenStreetMap,2026-11-25T07:10:20Z
+way/586525400,,pitch,,sin dato,,,,True,20.966445,-89.5901703,OpenStreetMap,2026-11-25T07:10:20Z
+way/586525404,,pitch,basketball,sin dato,,concrete,yes,True,20.9651276,-89.5975024,OpenStreetMap,2026-11-25T07:10:20Z
+way/586551724,,sports_centre,,private,,,,False,21.0488645,-89.6328449,OpenStreetMap,2026-11-25T07:10:20Z
+way/586551725,,pitch,,private,,,,False,21.0506191,-89.6228815,OpenStreetMap,2026-11-25T07:10:20Z
+way/586551726,,sports_centre,soccer,private,,,,False,21.0487828,-89.6207391,OpenStreetMap,2026-11-25T07:10:20Z
+way/586553322,Centro Deportivo Francisco de Montejo,sports_centre,,sin dato,,,,True,21.0442019,-89.635847,OpenStreetMap,2026-11-25T07:10:20Z
+way/586983048,,pitch,soccer,sin dato,,,,True,21.0172053,-89.646783,OpenStreetMap,2026-11-25T07:10:20Z
+way/590614219,,pitch,basketball,sin dato,,concrete,,True,21.0128536,-89.6916995,OpenStreetMap,2026-11-25T07:10:20Z
+way/602807997,Unidad Deportiva Miguel Alemán,sports_centre,,sin dato,,,,True,20.9892223,-89.5961796,OpenStreetMap,2026-11-25T07:10:20Z
+way/603198723,Cancha de basquétbol,pitch,basketball,sin dato,,,,True,20.9831528,-89.6007671,OpenStreetMap,2026-11-25T07:10:20Z
+way/604727691,,pitch,soccer,sin dato,,,,True,21.0264698,-89.6283133,OpenStreetMap,2026-11-25T07:10:20Z
+way/604727693,,pitch,soccer,sin dato,,artificial_turf,yes,True,21.0263671,-89.6269147,OpenStreetMap,2026-11-25T07:10:20Z
+way/604727695,,pitch,soccer,sin dato,,,,True,21.0263021,-89.6276011,OpenStreetMap,2026-11-25T07:10:20Z
+way/604755979,La cueva,pitch,,sin dato,,,,True,20.9311113,-89.6246283,OpenStreetMap,2026-11-25T07:10:20Z
+way/604756625,,pitch,basketball,sin dato,,,,True,20.9001264,-89.6505264,OpenStreetMap,2026-11-25T07:10:20Z
+way/610295366,,pitch,baseball,sin dato,,,,True,20.9412903,-89.5959761,OpenStreetMap,2026-11-25T07:10:20Z
+way/611049242,,pitch,baseball,sin dato,,,,True,20.9410233,-89.625792,OpenStreetMap,2026-11-25T07:10:20Z
+way/617712932,,pitch,basketball,sin dato,,,,True,20.9303501,-89.6213691,OpenStreetMap,2026-11-25T07:10:20Z
+way/617712938,,pitch,basketball,sin dato,,,,True,20.9311673,-89.6217692,OpenStreetMap,2026-11-25T07:10:20Z
+way/617714281,,sports_centre,baseball,sin dato,,,,True,21.0133155,-89.6222532,OpenStreetMap,2026-11-25T07:10:20Z
+way/617714282,,pitch,soccer,sin dato,,,,True,21.0130077,-89.6204963,OpenStreetMap,2026-11-25T07:10:20Z
+way/617714283,Campo de Softball,pitch,baseball,sin dato,,,,True,21.0135588,-89.6213576,OpenStreetMap,2026-11-25T07:10:20Z
+way/617714285,,pitch,beachvolleyball,sin dato,,sand,,True,21.0126899,-89.6212,OpenStreetMap,2026-11-25T07:10:20Z
+way/621761936,,pitch,soccer,sin dato,,grass,yes,True,20.9457511,-89.5937194,OpenStreetMap,2026-11-25T07:10:20Z
+way/632245825,Campo deportivo Chablekal,sports_centre,,sin dato,,,,True,21.0996588,-89.5737493,OpenStreetMap,2026-11-25T07:10:20Z
+way/633152393,,pitch,basketball,sin dato,,concrete,,True,20.9821285,-89.702886,OpenStreetMap,2026-11-25T07:10:20Z
+way/633152398,,pitch,basketball,sin dato,,concrete,,True,21.0176533,-89.6852677,OpenStreetMap,2026-11-25T07:10:20Z
+way/633168655,,pitch,basketball,sin dato,,concrete,,True,20.998246,-89.6855205,OpenStreetMap,2026-11-25T07:10:20Z
+way/633459450,Campo de béisbol Vergel III,pitch,baseball,sin dato,,,yes,True,20.9500083,-89.581272,OpenStreetMap,2026-11-25T07:10:20Z
+way/633459453,,pitch,,sin dato,,,,True,20.9508235,-89.5757153,OpenStreetMap,2026-11-25T07:10:20Z
+way/640141082,,pitch,,sin dato,,,,True,20.9535273,-89.5801551,OpenStreetMap,2026-11-25T07:10:20Z
+way/640141089,,pitch,,sin dato,,,,True,20.9507142,-89.5846655,OpenStreetMap,2026-11-25T07:10:20Z
+way/666977279,,pitch,soccer,sin dato,,,,True,21.0054118,-89.556553,OpenStreetMap,2026-11-25T07:10:20Z
+way/667262847,,pitch,basketball,sin dato,,,,True,21.0034636,-89.5761016,OpenStreetMap,2026-11-25T07:10:20Z
+way/67194297,,pitch,soccer,sin dato,,,,True,20.9788655,-89.6019563,OpenStreetMap,2026-11-25T07:10:20Z
+way/679509995,Campo Camara de la Construccion,pitch,soccer,sin dato,,,,True,21.0226855,-89.6551848,OpenStreetMap,2026-11-25T07:10:20Z
+way/679549962,,pitch,basketball,sin dato,,,,True,21.0227883,-89.6442597,OpenStreetMap,2026-11-25T07:10:20Z
+way/679549963,,pitch,basketball,sin dato,,,,True,21.0230779,-89.6442211,OpenStreetMap,2026-11-25T07:10:20Z
+way/680949620,,pitch,soccer,sin dato,,,,True,21.0216375,-89.6349359,OpenStreetMap,2026-11-25T07:10:20Z
+way/68253819,,pitch,baseball,sin dato,,,,True,20.9272343,-89.6471088,OpenStreetMap,2026-11-25T07:10:20Z
+way/700186787,,sports_centre,,private,,,,False,21.0224427,-89.5889362,OpenStreetMap,2026-11-25T07:10:20Z
+way/716595975,,pitch,tennis,sin dato,,,,True,21.0122699,-89.6209839,OpenStreetMap,2026-11-25T07:10:20Z
+way/722398177,,pitch,skateboard,sin dato,,,,True,21.0257726,-89.5753432,OpenStreetMap,2026-11-25T07:10:20Z
+way/722398186,,pitch,,sin dato,,,,True,21.0261824,-89.5753775,OpenStreetMap,2026-11-25T07:10:20Z
+way/733477723,Cancha multifuncional,pitch,tennis;basketball;multi;volleyball;fitness,yes,,paved,yes,True,21.1311688,-89.6621647,OpenStreetMap,2026-11-25T07:10:20Z
+way/847213273,,pitch,basketball,sin dato,,,,True,21.0157631,-89.5774919,OpenStreetMap,2026-11-25T07:10:20Z
+way/847213274,,pitch,,sin dato,,,,True,21.0157843,-89.5767431,OpenStreetMap,2026-11-25T07:10:20Z
+way/857624674,,pitch,soccer,sin dato,,,,True,20.901793,-89.6655902,OpenStreetMap,2026-11-25T07:10:20Z
+way/864481028,,pitch,basketball,yes,PCTY,concrete,,True,21.1318732,-89.7781529,OpenStreetMap,2026-11-25T07:10:20Z
+way/866823476,,pitch,soccer;tennis;basketball;multi,sin dato,,,,True,21.0499978,-89.6450621,OpenStreetMap,2026-11-25T07:10:20Z
+way/867472888,,pitch,tennis,sin dato,,,,True,21.1087949,-89.6537742,OpenStreetMap,2026-11-25T07:10:20Z
+way/867472889,,pitch,tennis,sin dato,,,,True,21.1087919,-89.6539142,OpenStreetMap,2026-11-25T07:10:20Z
+way/867638137,,pitch,basketball,sin dato,,,,True,21.0115054,-89.6313565,OpenStreetMap,2026-11-25T07:10:20Z
+way/867638140,Unidad deportiva Iches Burgos,pitch,soccer,sin dato,,,,True,21.0124886,-89.6336835,OpenStreetMap,2026-11-25T07:10:20Z
+way/896741393,,pitch,tennis,sin dato,,,,True,21.0371363,-89.6685753,OpenStreetMap,2026-11-25T07:10:20Z
+way/896741394,,pitch,tennis,sin dato,,,,True,21.0371669,-89.6687366,OpenStreetMap,2026-11-25T07:10:20Z
+way/896741395,,pitch,tennis,sin dato,,,,True,21.0370904,-89.6683225,OpenStreetMap,2026-11-25T07:10:20Z
+way/896741396,,pitch,tennis,sin dato,,,,True,21.0370571,-89.6681571,OpenStreetMap,2026-11-25T07:10:20Z
+way/896741397,,pitch,,sin dato,,,,True,21.0369977,-89.6676167,OpenStreetMap,2026-11-25T07:10:20Z
+way/896741398,,pitch,,sin dato,,,,True,21.0369705,-89.667458,OpenStreetMap,2026-11-25T07:10:20Z
+way/896741399,,pitch,soccer,sin dato,,,,True,21.0365072,-89.6673385,OpenStreetMap,2026-11-25T07:10:20Z
+way/896741400,,pitch,soccer,sin dato,,,,True,21.0365714,-89.6677188,OpenStreetMap,2026-11-25T07:10:20Z
+way/896760911,,pitch,tennis,private,,grass_paver,yes,False,20.9849509,-89.6197174,OpenStreetMap,2026-11-25T07:10:20Z
+way/896760912,,pitch,tennis,private,,grass_paver,yes,False,20.9849285,-89.6195704,OpenStreetMap,2026-11-25T07:10:20Z
+way/897123048,,pitch,,sin dato,,,,True,21.0003952,-89.7159132,OpenStreetMap,2026-11-25T07:10:20Z
+way/952143992,,pitch,basketball,sin dato,,,,True,21.0135366,-89.6681962,OpenStreetMap,2026-11-25T07:10:20Z
+way/952143993,,pitch,american_football,sin dato,,grass,,True,21.0124737,-89.6683389,OpenStreetMap,2026-11-25T07:10:20Z
+way/952365557,,pitch,,yes,,concrete,,True,21.0372423,-89.6452988,OpenStreetMap,2026-11-25T07:10:20Z
+way/957258627,,pitch,tennis,private,,,yes,False,21.0438393,-89.6497183,OpenStreetMap,2026-11-25T07:10:20Z
+way/957634115,,pitch,soccer;basketball;volleyball,no,,asphalt,yes,False,21.0425303,-89.6484363,OpenStreetMap,2026-11-25T07:10:20Z
+way/958032823,,pitch,soccer;volleyball;basketball,no,,,yes,False,21.0344916,-89.6514304,OpenStreetMap,2026-11-25T07:10:20Z
+way/975084138,,pitch,tennis,sin dato,,,,True,21.0155961,-89.630293,OpenStreetMap,2026-11-25T07:10:20Z
+way/975084139,,pitch,tennis,sin dato,,,,True,21.0159137,-89.6302861,OpenStreetMap,2026-11-25T07:10:20Z
+way/975084140,,pitch,tennis,sin dato,,,,True,21.0159177,-89.6304392,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798543,,pitch,tennis,private,,,,False,21.0591626,-89.5969155,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798544,,pitch,tennis,private,,,,False,21.0591134,-89.5967464,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798545,,pitch,tennis,private,,,,False,21.0590675,-89.5965762,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798546,,pitch,tennis,private,,,,False,21.059495,-89.5968131,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798547,,pitch,tennis,private,,,,False,21.0594491,-89.5966394,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798548,,pitch,tennis,private,,,,False,21.0593983,-89.5964674,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798549,,pitch,volleyball;basketball,private,,,,False,21.0589526,-89.5961708,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798550,,pitch,futsal,private,,,,False,21.0594153,-89.5961112,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798556,,pitch,tennis,private,,,,False,21.0597528,-89.5965726,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798557,,pitch,tennis,private,,,,False,21.0597623,-89.5964373,OpenStreetMap,2026-11-25T07:10:20Z
+way/975798558,,pitch,tennis,private,,,,False,21.0596761,-89.5963325,OpenStreetMap,2026-11-25T07:10:20Z
+way/982174936,,pitch,tennis,sin dato,,,,True,20.9952602,-89.6225171,OpenStreetMap,2026-11-25T07:10:20Z
+way/982174937,,pitch,soccer,sin dato,,,,True,20.9933881,-89.6216864,OpenStreetMap,2026-11-25T07:10:20Z
+way/982174941,,pitch,tennis,sin dato,,,,True,20.9945827,-89.6227612,OpenStreetMap,2026-11-25T07:10:20Z
+way/982174942,,pitch,tennis,sin dato,,,,True,20.99339,-89.6224271,OpenStreetMap,2026-11-25T07:10:20Z
+way/982174943,,pitch,baseball,sin dato,,,,True,20.99525,-89.6215837,OpenStreetMap,2026-11-25T07:10:20Z
+way/982174944,,pitch,,sin dato,,,,True,20.9947365,-89.6213148,OpenStreetMap,2026-11-25T07:10:20Z
+way/982174945,,pitch,basketball,sin dato,,,,True,20.9936874,-89.6212355,OpenStreetMap,2026-11-25T07:10:20Z

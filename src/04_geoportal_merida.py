@@ -6,15 +6,20 @@ verificación con captcha). No se rodea: el script solo registra la respuesta
 y deja en cada carpeta un PENDIENTE.md con los pasos para exportar la capa a
 mano desde el navegador.
 
-- 4.1 Unidades deportivas: pendiente de exportación manual.
-- 4.2 Circuito Enlace: pendiente de exportación manual.
+- 4.1 Unidades deportivas: sustituto público mientras se exporta la capa.
+  Se usan las instalaciones deportivas de OpenStreetMap dentro del límite
+  municipal de Mérida (API Overpass).
+- 4.2 Circuito Enlace: pendiente de exportación manual. OpenStreetMap no tiene
+  la ruta.
 - 4.3 Paraderos: sustituto público. Se usan las paradas del GTFS oficial de la
   Agencia de Transporte de Yucatán (Sistema Va-y-Ven), que cubre el
   transporte público de Mérida y su zona metropolitana.
 
-Salidas en datos/para-etl/04_geoportal_merida/4.3_paraderos/:
-- paraderos_aty.csv: una fila por parada con lat/lon (EPSG:4326) y rutas.
-- paraderos_aty.geojson: los mismos puntos en GeoJSON (EPSG:4326).
+Salidas en datos/para-etl/04_geoportal_merida/:
+- 4.1_unidades_deportivas/unidades_deportivas_osm.csv y .geojson: una fila por
+  instalación con lat/lon (EPSG:4326), tipo, deporte y acceso.
+- 4.3_paraderos/paraderos_aty.csv: una fila por parada con lat/lon (EPSG:4326) y rutas.
+- 4.3_paraderos/paraderos_aty.geojson: los mismos puntos en GeoJSON (EPSG:4326).
 
 Uso: python src/04_geoportal_merida.py
 """
@@ -22,6 +27,8 @@ Uso: python src/04_geoportal_merida.py
 from __future__ import annotations
 
 import json
+import time
+from urllib.parse import urlencode
 
 import pandas as pd
 import requests
@@ -54,6 +61,12 @@ ROBOTS = ("https://geoportal.merida.gob.mx/robots.txt: «User-agent: * / Disallo
           "Disallow: /vistas / Disallow: /embed/»")
 LICENCIA_GTFS = ("Sin licencia explícita. Publicado por la ATY como GTFS para reutilización "
                  "en aplicaciones de terceros; uso académico con atribución a la ATY.")
+LICENCIA_OSM = "ODbL 1.0 (© colaboradores de OpenStreetMap); las bases derivadas se comparten con la misma licencia"
+OSM_ARCHIVO = "osm_instalaciones_deportivas.json"
+OSM_CONSULTA = ('[out:json][timeout:120];area(3605961522)->.m;'
+                '(nwr["leisure"~"^(sports_centre|stadium|pitch|sports_hall|track)$"](area.m););out center tags;')
+OVERPASS = ["https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+            "https://overpass-api.de/api/interpreter"]
 
 
 def comprobar_acceso(url: str) -> dict:
@@ -84,7 +97,8 @@ SALIDA_MANUAL = {"4.1_unidades_deportivas": "unidades_deportivas",
 def exportaciones_manuales(carpeta: str) -> list:
     origen = comun.carpeta_fuente(TIPO, carpeta)
     return sorted(p for p in origen.iterdir()
-                  if p.suffix.lower() in EXT_MANUALES and p.name != "procedencia.json")
+                  if p.suffix.lower() in EXT_MANUALES and p.name != "procedencia.json"
+                  and not p.name.startswith("osm_"))
 
 
 def registrar_manual(carpeta: str, ruta) -> None:
@@ -186,9 +200,10 @@ def capas_pendientes() -> None:
         manuales = exportaciones_manuales(carpeta)
         ficha = comun.leer_procedencia(destino)
         ficha.update(CAPAS[carpeta])
+        con_sustituto = carpeta == "4.1_unidades_deportivas"
         ficha.update({
-            "licencia": LICENCIA_PENDIENTE,
-            "estado": "real" if manuales else "pendiente",
+            "licencia": LICENCIA_OSM if con_sustituto and not manuales else LICENCIA_PENDIENTE,
+            "estado": "real" if manuales else "sustituto" if con_sustituto else "pendiente",
             "acceso": "Exportación manual desde el navegador; ver PENDIENTE.md",
             "robots": ROBOTS,
             "comprobacion_acceso": comprobar_acceso(CAPAS[carpeta]["url_original"]),
@@ -275,9 +290,76 @@ def paraderos() -> None:
         convertir_manual(carpeta, manuales)
 
 
+def unidades_deportivas_osm() -> None:
+    """Sustituto de 4.1: instalaciones deportivas de OpenStreetMap dentro del municipio de Mérida."""
+    carpeta = "4.1_unidades_deportivas"
+    origen = comun.carpeta_fuente(TIPO, carpeta)
+    ruta = origen / OSM_ARCHIVO
+    url_usada = next((a["url"] for a in comun.leer_procedencia(origen).get("archivos", [])
+                      if a["archivo"] == OSM_ARCHIVO), "")
+    if not ruta.exists():
+        # Overpass es un servicio público y a veces está saturado: se prueba cada espejo con espera creciente.
+        for intento in range(5):
+            for servidor in OVERPASS:
+                url = f"{servidor}?{urlencode({'data': OSM_CONSULTA})}"
+                try:
+                    r = comun.SESION.get(url, timeout=200)
+                    if r.ok and r.text.lstrip().startswith("{") and '"elements"' in r.text:
+                        ruta.write_bytes(r.content)
+                        url_usada = url
+                        break
+                except requests.RequestException:
+                    pass
+            if ruta.exists():
+                break
+            time.sleep(20 * (intento + 1))
+        else:
+            raise SystemExit("Overpass no respondió; vuelve a intentar más tarde")
+        comun.registrar(origen, {}, {
+            "archivo": OSM_ARCHIVO, "url": url_usada, "descargado_utc": comun.ahora_utc(),
+            "bytes": ruta.stat().st_size, "sha256": comun.sha256_de(ruta), "content_type": "application/json",
+            "nota": "Respuesta de la API Overpass de OpenStreetMap; la consulta va en el parámetro data de la URL.",
+        })
+    ficha = comun.leer_procedencia(origen)
+    if ficha.get("estado") != "real":
+        ficha.update({
+            "estado": "sustituto",
+            "sustituto": ("Instalaciones deportivas de OpenStreetMap (leisure = sports_centre, stadium, pitch, "
+                          "sports_hall o track) dentro del límite municipal de Mérida (relación OSM 5961522)"),
+            "url_sustituto": "https://www.openstreetmap.org/relation/5961522",
+            "licencia": LICENCIA_OSM,
+        })
+        comun.guardar_procedencia(origen, ficha)
+
+    datos = json.loads(ruta.read_text(encoding="utf-8"))
+    filas = []
+    for e in datos["elements"]:
+        t = e.get("tags", {})
+        punto = e if e["type"] == "node" else e.get("center", {})
+        if "lat" not in punto:
+            continue
+        acceso = t.get("access", "sin dato")
+        filas.append({
+            "osm_id": f"{e['type']}/{e['id']}", "nombre": t.get("name"), "tipo": t.get("leisure"),
+            "deporte": t.get("sport"), "acceso": acceso, "operador": t.get("operator"),
+            "superficie": t.get("surface"), "iluminado": t.get("lit"),
+            "acceso_publico_probable": acceso not in {"private", "customers", "no", "members"},
+            "lat": round(float(punto["lat"]), 7), "lon": round(float(punto["lon"]), 7),
+            "fuente": "OpenStreetMap", "version_osm": datos.get("osm3s", {}).get("timestamp_osm_base", ""),
+        })
+    salida = pd.DataFrame(filas).sort_values("osm_id", kind="stable")
+    destino = comun.carpeta_fuente(TIPO, carpeta, base=comun.PARA_ETL)
+    salida.to_csv(destino / "unidades_deportivas_osm.csv", index=False, encoding="utf-8")
+    escribir_geojson(salida, destino / "unidades_deportivas_osm.geojson",
+                     [c for c in salida.columns if c not in {"lat", "lon"}])
+    print(f"  {carpeta}: {len(salida):,} instalaciones deportivas de OpenStreetMap "
+          f"({int(salida['acceso_publico_probable'].sum()):,} sin acceso restringido)")
+
+
 def main() -> None:
     print("Subtema 4: Geoportal de Mérida")
     capas_pendientes()
+    unidades_deportivas_osm()
     paraderos()
 
 

@@ -1,0 +1,91 @@
+origen_dato,mes,sentido,orden,stop_id,parada,ascensos,descensos
+SIMULADO,2026-01,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,908,0
+SIMULADO,2026-01,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,293,54
+SIMULADO,2026-01,Estación La Plancha -> Estación Teya,3,2778,Héroes,165,57
+SIMULADO,2026-01,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,583,151
+SIMULADO,2026-01,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,0,1687
+SIMULADO,2026-01,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,1430,0
+SIMULADO,2026-01,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,141,286
+SIMULADO,2026-01,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,119,231
+SIMULADO,2026-01,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,82,293
+SIMULADO,2026-01,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,0,962
+SIMULADO,2026-02,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,775,0
+SIMULADO,2026-02,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,201,46
+SIMULADO,2026-02,Estación La Plancha -> Estación Teya,3,2778,Héroes,138,46
+SIMULADO,2026-02,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,418,123
+SIMULADO,2026-02,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,0,1317
+SIMULADO,2026-02,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,1110,0
+SIMULADO,2026-02,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,109,222
+SIMULADO,2026-02,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,104,179
+SIMULADO,2026-02,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,84,230
+SIMULADO,2026-02,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,0,776
+SIMULADO,2026-03,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,756,0
+SIMULADO,2026-03,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,220,45
+SIMULADO,2026-03,Estación La Plancha -> Estación Teya,3,2778,Héroes,134,47
+SIMULADO,2026-03,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,413,122
+SIMULADO,2026-03,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,0,1309
+SIMULADO,2026-03,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,1208,0
+SIMULADO,2026-03,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,119,242
+SIMULADO,2026-03,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,110,195
+SIMULADO,2026-03,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,67,250
+SIMULADO,2026-03,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,0,817
+SIMULADO,2026-04,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,921,0
+SIMULADO,2026-04,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,256,55
+SIMULADO,2026-04,Estación La Plancha -> Estación Teya,3,2778,Héroes,165,56
+SIMULADO,2026-04,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,490,148
+SIMULADO,2026-04,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,0,1573
+SIMULADO,2026-04,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,1448,0
+SIMULADO,2026-04,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,140,290
+SIMULADO,2026-04,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,119,234
+SIMULADO,2026-04,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,93,296
+SIMULADO,2026-04,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,0,980
+SIMULADO,2026-05,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,971,0
+SIMULADO,2026-05,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,264,58
+SIMULADO,2026-05,Estación La Plancha -> Estación Teya,3,2778,Héroes,181,59
+SIMULADO,2026-05,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,521,156
+SIMULADO,2026-05,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,0,1664
+SIMULADO,2026-05,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,1491,0
+SIMULADO,2026-05,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,129,298
+SIMULADO,2026-05,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,128,238
+SIMULADO,2026-05,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,93,303
+SIMULADO,2026-05,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,0,1002
+SIMULADO,2026-06,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,718,0
+SIMULADO,2026-06,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,202,43
+SIMULADO,2026-06,Estación La Plancha -> Estación Teya,3,2778,Héroes,120,44
+SIMULADO,2026-06,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,342,114
+SIMULADO,2026-06,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,0,1181
+SIMULADO,2026-06,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,1020,0
+SIMULADO,2026-06,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,119,204
+SIMULADO,2026-06,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,101,168
+SIMULADO,2026-06,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,71,217
+SIMULADO,2026-06,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,0,722
+SIMULADO,2026-07,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,930,0
+SIMULADO,2026-07,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,248,56
+SIMULADO,2026-07,Estación La Plancha -> Estación Teya,3,2778,Héroes,177,56
+SIMULADO,2026-07,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,504,149
+SIMULADO,2026-07,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,0,1598
+SIMULADO,2026-07,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,1392,0
+SIMULADO,2026-07,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,136,278
+SIMULADO,2026-07,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,121,225
+SIMULADO,2026-07,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,84,286
+SIMULADO,2026-07,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,0,944
+SIMULADO,2026-08,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,1054,0
+SIMULADO,2026-08,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,248,63
+SIMULADO,2026-08,Estación La Plancha -> Estación Teya,3,2778,Héroes,185,62
+SIMULADO,2026-08,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,508,163
+SIMULADO,2026-08,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,0,1707
+SIMULADO,2026-08,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,1399,0
+SIMULADO,2026-08,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,128,280
+SIMULADO,2026-08,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,116,224
+SIMULADO,2026-08,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,86,285
+SIMULADO,2026-08,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,0,940
+SIMULADO,2026-09,Estación La Plancha -> Estación Teya,1,975,Estación La Plancha,623,0
+SIMULADO,2026-09,Estación La Plancha -> Estación Teya,2,2777,Metropolitano Oriente,169,37
+SIMULADO,2026-09,Estación La Plancha -> Estación Teya,3,2778,Héroes,111,38
+SIMULADO,2026-09,Estación La Plancha -> Estación Teya,4,652,Quetzalcóatl,332,99
+SIMULADO,2026-09,Estación La Plancha -> Estación Teya,5,2779,Estación Teya,0,1061
+SIMULADO,2026-09,Estación Teya -> Estación La Plancha,1,2779,Estación Teya,878,0
+SIMULADO,2026-09,Estación Teya -> Estación La Plancha,2,653,Quetzalcóatl,93,176
+SIMULADO,2026-09,Estación Teya -> Estación La Plancha,3,513,CETRAM Oriente,90,143
+SIMULADO,2026-09,Estación Teya -> Estación La Plancha,4,2780,Metropolitano Oriente,55,186
+SIMULADO,2026-09,Estación Teya -> Estación La Plancha,5,975,Estación La Plancha,0,611

@@ -43,6 +43,12 @@ def conteo_censo_ageb() -> int:
     return int(((df["MZA"] == "000") & (df["AGEB"] != "0000")).sum())
 
 
+def conteo_osm_deportes() -> int:
+    datos = json.loads((ORIG / "04_geoportal_merida/4.1_unidades_deportivas/osm_instalaciones_deportivas.json")
+                       .read_text(encoding="utf-8"))
+    return sum(1 for e in datos["elements"] if "lat" in e or "center" in e)
+
+
 def conteo_gtfs(tabla: str) -> int:
     with zipfile.ZipFile(ORIG / "04_geoportal_merida/4.3_paraderos/gtfs_va_y_ven_aty.zip") as z:
         return len(pd.read_csv(z.open(tabla), dtype=str))
@@ -137,6 +143,13 @@ TABLAS = [
       version_fuente="Censo de Población y Vivienda 2020, resultados por AGEB y manzana urbana (INEGI)",
       conteo_original=conteo_censo_ageb,
       nota_conciliacion="Del original se toman solo los renglones de total por AGEB (MZA = 000 y AGEB distinta de 0000)."),
+    t(tabla="osm_unidades_deportivas", id_fuente="E8-04.1", formato="espacial",
+      archivo="04_geoportal_merida/4.1_unidades_deportivas/unidades_deportivas_osm.csv",
+      clave=["osm_id"], granularidad="instalación deportiva", territorio="Municipio de Mérida",
+      cobertura=("2026-11-25", "2026-11-25"), unidad="instalación",
+      version_fuente="OpenStreetMap vía API Overpass, límite municipal de Mérida (relación 5961522)",
+      conteo_original=conteo_osm_deportes,
+      nota_conciliacion="Se cuentan los elementos de la respuesta de Overpass que traen coordenada o centro."),
     t(tabla="aty_paraderos", id_fuente="E8-04.3", formato="espacial",
       archivo="04_geoportal_merida/4.3_paraderos/paraderos_aty.csv",
       clave=["stop_id"], granularidad="parada", territorio="Zona metropolitana de Mérida",

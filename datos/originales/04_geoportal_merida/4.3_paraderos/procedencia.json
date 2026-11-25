@@ -8,7 +8,7 @@
   "sustituto": "Paradas (stops.txt) del GTFS oficial del Sistema Va-y-Ven, Agencia de Transporte de Yucatán",
   "url_sustituto": "https://transit-scheduler.com/api/export-gtfs/latest",
   "comprobacion_acceso": {
-    "fecha_utc": "2026-11-24T19:18:39Z",
+    "fecha_utc": "2026-11-25T07:11:12Z",
     "http": 302,
     "antibots": true,
     "resultado": "redirige a la verificación antibots (validate.perfdrive.com)"

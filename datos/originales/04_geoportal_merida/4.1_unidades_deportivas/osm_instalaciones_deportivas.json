@@ -1,0 +1,10366 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-25T07:10:20Z",
+    "timestamp_areas_base": "2026-11-25T03:47:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1967274149,
+  "lat": 21.0331612,
+  "lon": -89.4823015,
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "node",
+  "id": 2177536326,
+  "lat": 21.0161536,
+  "lon": -89.6099821,
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "node",
+  "id": 3765911728,
+  "lat": 21.0193119,
+  "lon": -89.5712188,
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "node",
+  "id": 3766090560,
+  "lat": 21.0036684,
+  "lon": -89.5848158,
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "EnerGym"
+  }
+},
+{
+  "type": "node",
+  "id": 5112149462,
+  "lat": 21.0042507,
+  "lon": -89.6493091,
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha multideportiva",
+    "source": "aerial imagery"
+  }
+},
+{
+  "type": "node",
+  "id": 5113734532,
+  "lat": 20.9854578,
+  "lon": -89.6252944,
+  "tags": {
+    "leisure": "stadium",
+    "name": "Plaza de Toros"
+  }
+},
+{
+  "type": "node",
+  "id": 5170612234,
+  "lat": 20.9998845,
+  "lon": -89.6626258,
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "node",
+  "id": 5261064573,
+  "lat": 21.0286703,
+  "lon": -89.6516378,
+  "tags": {
+    "description": "Pista redonda de patinaje sobre nivel del piso (1.5 metros), barandales de seguridad de hierro para intemperie, con dos rampas de acceso.",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "node",
+  "id": 5434190698,
+  "lat": 20.9180167,
+  "lon": -89.6351201,
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "node",
+  "id": 6869011253,
+  "lat": 21.1314602,
+  "lon": -89.6622137,
+  "tags": {
+    "bicycle": "yes",
+    "foot": "yes",
+    "horse": "no",
+    "lanes": "2",
+    "leisure": "track",
+    "motor_vehicle": "no",
+    "name": "Paseo en bici",
+    "sport": "cycling;running"
+  }
+},
+{
+  "type": "node",
+  "id": 7076566728,
+  "lat": 21.0172350,
+  "lon": -89.6463171,
+  "tags": {
+    "access": "yes",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "node",
+  "id": 11677824230,
+  "lat": 21.1198518,
+  "lon": -89.5994440,
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "node",
+  "id": 12764566121,
+  "lat": 21.0050695,
+  "lon": -89.6445834,
+  "tags": {
+    "fee": "yes",
+    "leisure": "sports_centre",
+    "name": "Escuela de natación Acuarium",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "node",
+  "id": 13007206312,
+  "lat": 20.9654964,
+  "lon": -89.5975834,
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "node",
+  "id": 13840842348,
+  "lat": 21.0139109,
+  "lon": -89.6277599,
+  "tags": {
+    "building": "yes",
+    "contact:instagram": "uriosteacuatica",
+    "fee": "no",
+    "leisure": "sports_centre",
+    "name": "Acuática Urioste",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "node",
+  "id": 13840941190,
+  "lat": 21.0303343,
+  "lon": -89.6241679,
+  "tags": {
+    "access": "permissive",
+    "fee": "no",
+    "leisure": "pitch",
+    "level": "1",
+    "sport": "chess"
+  }
+},
+{
+  "type": "node",
+  "id": 13840941198,
+  "lat": 21.0306748,
+  "lon": -89.6240012,
+  "tags": {
+    "access": "private",
+    "covered": "yes",
+    "leisure": "pitch",
+    "level": "1",
+    "name": "Gotcha Gran Plaza",
+    "sport": "paintball"
+  }
+},
+{
+  "type": "way",
+  "id": 37057435,
+  "center": {
+    "lat": 20.7874402,
+    "lon": -89.6630356
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 67194297,
+  "center": {
+    "lat": 20.9788655,
+    "lon": -89.6019563
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 68253819,
+  "center": {
+    "lat": 20.9272343,
+    "lon": -89.6471088
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 160952284,
+  "center": {
+    "lat": 20.9232866,
+    "lon": -89.6399298
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "source": "Bing",
+    "sport": "basketball",
+    "surface": "fine_gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 160952288,
+  "center": {
+    "lat": 20.9278596,
+    "lon": -89.6354287
+  },
+  "tags": {
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "source": "Bing",
+    "sport": "basketball;soccer",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 160952293,
+  "center": {
+    "lat": 20.9275506,
+    "lon": -89.6350671
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Campo de Béisbol \"el Bate\"",
+    "source": "Bing",
+    "sport": "baseball",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 160952296,
+  "center": {
+    "lat": 20.9232286,
+    "lon": -89.6397360
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "source": "Bing",
+    "sport": "basketball",
+    "surface": "fine_gravel"
+  }
+},
+{
+  "type": "way",
+  "id": 166428869,
+  "center": {
+    "lat": 20.9694916,
+    "lon": -89.5935864
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 170046646,
+  "center": {
+    "lat": 21.0741233,
+    "lon": -89.6288914
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 172352264,
+  "center": {
+    "lat": 20.8168120,
+    "lon": -89.6314192
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 172352283,
+  "center": {
+    "lat": 20.7515417,
+    "lon": -89.6534821
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 172352302,
+  "center": {
+    "lat": 20.8796323,
+    "lon": -89.6513829
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 172352307,
+  "center": {
+    "lat": 20.7895962,
+    "lon": -89.6199379
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 172352309,
+  "center": {
+    "lat": 20.8206977,
+    "lon": -89.6571269
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 172352316,
+  "center": {
+    "lat": 20.7495139,
+    "lon": -89.6533772
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 172352319,
+  "center": {
+    "lat": 20.7695218,
+    "lon": -89.6575764
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 172352320,
+  "center": {
+    "lat": 20.8632104,
+    "lon": -89.6537732
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 173698879,
+  "center": {
+    "lat": 20.9979368,
+    "lon": -89.5553498
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 179545066,
+  "center": {
+    "lat": 20.9975768,
+    "lon": -89.5516731
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 184924011,
+  "center": {
+    "lat": 21.1012381,
+    "lon": -89.7318079
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 186031009,
+  "center": {
+    "lat": 21.0250584,
+    "lon": -89.5128569
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 186031019,
+  "center": {
+    "lat": 21.0333169,
+    "lon": -89.4822572
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 186031023,
+  "center": {
+    "lat": 21.0251558,
+    "lon": -89.5119576
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 195967808,
+  "center": {
+    "lat": 20.9982794,
+    "lon": -89.5605633
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 200181287,
+  "center": {
+    "lat": 21.0974030,
+    "lon": -89.7048295
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 201304152,
+  "center": {
+    "lat": 20.9782168,
+    "lon": -89.5991808
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 201304153,
+  "center": {
+    "lat": 20.9789044,
+    "lon": -89.6007063
+  },
+  "tags": {
+    "access": "customers",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 201304158,
+  "center": {
+    "lat": 20.9781428,
+    "lon": -89.5989809
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 201352406,
+  "center": {
+    "lat": 20.9854419,
+    "lon": -89.6073200
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 201352407,
+  "center": {
+    "lat": 20.9860598,
+    "lon": -89.6069189
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 201352408,
+  "center": {
+    "lat": 20.9855258,
+    "lon": -89.6068672
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 201791688,
+  "center": {
+    "lat": 21.0479224,
+    "lon": -89.6412720
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "name": "Unidad Deportiva José Nerio Torres Ortiz",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 201795473,
+  "center": {
+    "lat": 21.0278343,
+    "lon": -89.6229622
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 201850351,
+  "center": {
+    "lat": 20.8867759,
+    "lon": -89.5955982
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 202578933,
+  "center": {
+    "lat": 20.9728767,
+    "lon": -89.7283321
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 202895701,
+  "center": {
+    "lat": 21.0123377,
+    "lon": -89.5877668
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Campo de Béisbol y Sóftbol Dr. Oscar Hammeken",
+    "sport": "soccer;baseball;softball"
+  }
+},
+{
+  "type": "way",
+  "id": 207343177,
+  "center": {
+    "lat": 20.8644996,
+    "lon": -89.5788050
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 207343186,
+  "center": {
+    "lat": 20.8670202,
+    "lon": -89.5785202
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 207343195,
+  "center": {
+    "lat": 20.8837466,
+    "lon": -89.5580705
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 207344825,
+  "center": {
+    "lat": 20.8426306,
+    "lon": -89.6120752
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 207344833,
+  "center": {
+    "lat": 20.8410007,
+    "lon": -89.6083438
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 207500918,
+  "center": {
+    "lat": 21.0161077,
+    "lon": -89.6100264
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 207500923,
+  "center": {
+    "lat": 21.0163727,
+    "lon": -89.6096079
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 207504807,
+  "center": {
+    "lat": 20.9766223,
+    "lon": -89.5802097
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 207504812,
+  "center": {
+    "lat": 20.9759421,
+    "lon": -89.5801686
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 207529807,
+  "center": {
+    "lat": 20.9529264,
+    "lon": -89.5793931
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 207529810,
+  "center": {
+    "lat": 20.9663593,
+    "lon": -89.5822998
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 207529811,
+  "center": {
+    "lat": 20.9654340,
+    "lon": -89.5823123
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 207628923,
+  "center": {
+    "lat": 21.0467716,
+    "lon": -89.6217438
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 209387286,
+  "center": {
+    "lat": 21.0653900,
+    "lon": -89.6745597
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209387298,
+  "center": {
+    "lat": 21.0666796,
+    "lon": -89.7066334
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 209387315,
+  "center": {
+    "lat": 21.0500482,
+    "lon": -89.6784878
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 209392120,
+  "center": {
+    "lat": 21.1230511,
+    "lon": -89.7280993
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 209392135,
+  "center": {
+    "lat": 21.1249260,
+    "lon": -89.7256977
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 209398030,
+  "center": {
+    "lat": 21.1305334,
+    "lon": -89.6936570
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209398031,
+  "center": {
+    "lat": 21.1305615,
+    "lon": -89.6918356
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209398049,
+  "center": {
+    "lat": 21.1292294,
+    "lon": -89.6900990
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 209398055,
+  "center": {
+    "lat": 21.1304077,
+    "lon": -89.6903367
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 209410439,
+  "center": {
+    "lat": 21.1401147,
+    "lon": -89.6409033
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 209410446,
+  "center": {
+    "lat": 21.1416914,
+    "lon": -89.6404864
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209410451,
+  "center": {
+    "lat": 21.1385372,
+    "lon": -89.6378136
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 209410453,
+  "center": {
+    "lat": 21.1392825,
+    "lon": -89.6413070
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209410454,
+  "center": {
+    "lat": 21.1393063,
+    "lon": -89.6419748
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 209410470,
+  "center": {
+    "lat": 21.1417320,
+    "lon": -89.6408430
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209412494,
+  "center": {
+    "lat": 21.1415620,
+    "lon": -89.5842753
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 209412498,
+  "center": {
+    "lat": 21.1183383,
+    "lon": -89.6353463
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209412515,
+  "center": {
+    "lat": 21.1420684,
+    "lon": -89.5842872
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209447942,
+  "center": {
+    "lat": 20.9751027,
+    "lon": -89.6960878
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209447954,
+  "center": {
+    "lat": 20.9750801,
+    "lon": -89.6963665
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 209450097,
+  "center": {
+    "lat": 20.8795039,
+    "lon": -89.6537216
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209450102,
+  "center": {
+    "lat": 20.8799772,
+    "lon": -89.6538543
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209452091,
+  "center": {
+    "lat": 20.7896351,
+    "lon": -89.6656050
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209622499,
+  "center": {
+    "lat": 20.7496796,
+    "lon": -89.6528303
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 209622502,
+  "center": {
+    "lat": 20.7903989,
+    "lon": -89.6194119
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209622503,
+  "center": {
+    "lat": 20.7492468,
+    "lon": -89.6539730
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 209622504,
+  "center": {
+    "lat": 20.7497259,
+    "lon": -89.6539178
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 209628776,
+  "center": {
+    "lat": 20.8643019,
+    "lon": -89.5796497
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209642081,
+  "center": {
+    "lat": 20.8870121,
+    "lon": -89.5979022
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209642087,
+  "center": {
+    "lat": 20.8855173,
+    "lon": -89.5979655
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 209694768,
+  "center": {
+    "lat": 21.0332545,
+    "lon": -89.4815067
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 209694779,
+  "center": {
+    "lat": 21.0343462,
+    "lon": -89.4988670
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 212917408,
+  "center": {
+    "lat": 20.8181947,
+    "lon": -89.6238350
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 212917439,
+  "center": {
+    "lat": 20.8175805,
+    "lon": -89.6231779
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 215332115,
+  "center": {
+    "lat": 20.9650336,
+    "lon": -89.5970107
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 215332116,
+  "center": {
+    "lat": 20.9682995,
+    "lon": -89.5972682
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 221376310,
+  "center": {
+    "lat": 21.1026176,
+    "lon": -89.6574370
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 221492054,
+  "center": {
+    "lat": 20.9457426,
+    "lon": -89.5937545
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:postcode": "97174",
+    "addr:street": "Calle 85",
+    "check_date": "2025-11-08",
+    "leisure": "stadium",
+    "name": "Estadio Carlos Iturralde Rivero",
+    "sport": "soccer;athletics"
+  }
+},
+{
+  "type": "way",
+  "id": 221492056,
+  "center": {
+    "lat": 20.9384249,
+    "lon": -89.5968209
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 221492062,
+  "center": {
+    "lat": 20.9412856,
+    "lon": -89.5942517
+  },
+  "tags": {
+    "building": "sports_hall",
+    "layer": "1",
+    "leisure": "stadium",
+    "name": "Polifórum Zamná",
+    "sport": "boxing;wrestling;weightlifting"
+  }
+},
+{
+  "type": "way",
+  "id": 221507077,
+  "center": {
+    "lat": 20.9930667,
+    "lon": -89.5607414
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 223480706,
+  "center": {
+    "lat": 21.0331580,
+    "lon": -89.6357376
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 229443309,
+  "center": {
+    "lat": 20.8155443,
+    "lon": -89.6273207
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 229443317,
+  "center": {
+    "lat": 20.8163000,
+    "lon": -89.6315988
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 230870973,
+  "center": {
+    "lat": 20.9733301,
+    "lon": -89.6845667
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 236928719,
+  "center": {
+    "lat": 21.0093480,
+    "lon": -89.7001440
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 239621426,
+  "center": {
+    "lat": 20.9171022,
+    "lon": -89.6264408
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 239621435,
+  "center": {
+    "lat": 20.9161590,
+    "lon": -89.6253133
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 239621446,
+  "center": {
+    "lat": 20.9161460,
+    "lon": -89.6251229
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 239621449,
+  "center": {
+    "lat": 20.9159073,
+    "lon": -89.6257495
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 239624088,
+  "center": {
+    "lat": 20.9177077,
+    "lon": -89.6275326
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 239624091,
+  "center": {
+    "lat": 20.9161082,
+    "lon": -89.6277603
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 239624093,
+  "center": {
+    "lat": 20.9178363,
+    "lon": -89.6284407
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 239624097,
+  "center": {
+    "lat": 20.9199275,
+    "lon": -89.6276592
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 267913969,
+  "center": {
+    "lat": 21.1006989,
+    "lon": -89.7039560
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball;soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 287201902,
+  "center": {
+    "lat": 20.9951606,
+    "lon": -89.6204688
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Polifuncional",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 295119968,
+  "center": {
+    "lat": 21.0100845,
+    "lon": -89.5589751
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Liga Infantil y Juvenil de Béisbol Yucatán A.C.",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 295119969,
+  "center": {
+    "lat": 21.0258156,
+    "lon": -89.5664944
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 303270564,
+  "center": {
+    "lat": 20.9435383,
+    "lon": -89.5951366
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "315",
+    "addr:postcode": "97174",
+    "addr:street": "Calle 6 por Circuito Colonias",
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva Kukulcán",
+    "operator": "Gobierno del Estado de Yucatán",
+    "operator:type": "government",
+    "phone": "+52 999 940 0306",
+    "source": "Instituto del Deporte del Estado de Yucatán",
+    "sport": "soccer;baseball;athletics;running;tennis;american_football;swimming",
+    "website": "http://www.idey.gob.mx/unidades/kukul.htm"
+  }
+},
+{
+  "type": "way",
+  "id": 359274575,
+  "center": {
+    "lat": 20.9584224,
+    "lon": -89.6328594
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 359274576,
+  "center": {
+    "lat": 20.9586423,
+    "lon": -89.6327878
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 359274577,
+  "center": {
+    "lat": 20.9584255,
+    "lon": -89.6321208
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 359274578,
+  "center": {
+    "lat": 20.9585042,
+    "lon": -89.6325810
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 359278604,
+  "center": {
+    "lat": 20.9597532,
+    "lon": -89.6394178
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Unidad deportiva Ex-Rastro"
+  }
+},
+{
+  "type": "way",
+  "id": 360624063,
+  "center": {
+    "lat": 20.9783170,
+    "lon": -89.5896075
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 360624068,
+  "center": {
+    "lat": 20.9785696,
+    "lon": -89.5895235
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 372516340,
+  "center": {
+    "lat": 21.0213496,
+    "lon": -89.7183550
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing & Local Knowledge Sep 2015",
+    "sport": "basketball;soccer;volleyball"
+  }
+},
+{
+  "type": "way",
+  "id": 374382436,
+  "center": {
+    "lat": 20.9903555,
+    "lon": -89.6467547
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 377491874,
+  "center": {
+    "lat": 21.0482002,
+    "lon": -89.5410986
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 377491885,
+  "center": {
+    "lat": 21.0480725,
+    "lon": -89.5413659
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 377769636,
+  "center": {
+    "lat": 20.8590672,
+    "lon": -89.6163918
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Lienzo Charro",
+    "source": "Mapa Feria Yucatán 2015",
+    "sport": "tauromaquia"
+  }
+},
+{
+  "type": "way",
+  "id": 378058407,
+  "center": {
+    "lat": 20.9368855,
+    "lon": -89.6933117
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 378065183,
+  "center": {
+    "lat": 20.9609491,
+    "lon": -89.6778336
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Parque El Papa",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 383557848,
+  "center": {
+    "lat": 21.0515786,
+    "lon": -89.6228560
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 383557849,
+  "center": {
+    "lat": 21.0500799,
+    "lon": -89.6229143
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 384770497,
+  "center": {
+    "lat": 21.1348526,
+    "lon": -89.5824313
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 385510718,
+  "center": {
+    "lat": 20.9163063,
+    "lon": -89.6289587
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 385510719,
+  "center": {
+    "lat": 20.9165879,
+    "lon": -89.6289023
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 385510720,
+  "center": {
+    "lat": 20.9170851,
+    "lon": -89.6286300
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 385510721,
+  "center": {
+    "lat": 20.9160539,
+    "lon": -89.6265288
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 385510722,
+  "center": {
+    "lat": 20.9164674,
+    "lon": -89.6285343
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 385510723,
+  "center": {
+    "lat": 20.9161062,
+    "lon": -89.6285912
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 385510724,
+  "center": {
+    "lat": 20.9169665,
+    "lon": -89.6276034
+  },
+  "tags": {
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 385510728,
+  "center": {
+    "lat": 20.9169073,
+    "lon": -89.6282180
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva Municipal \"Fernando Valenzuela\"",
+    "source": "Bing"
+  }
+},
+{
+  "type": "way",
+  "id": 385592736,
+  "center": {
+    "lat": 20.9872424,
+    "lon": -89.6159963
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 385592737,
+  "center": {
+    "lat": 20.9875129,
+    "lon": -89.6150349
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 385592738,
+  "center": {
+    "lat": 20.9876973,
+    "lon": -89.6167566
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "source": "Bing",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 387878328,
+  "center": {
+    "lat": 20.9835761,
+    "lon": -89.6445965
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "s/n",
+    "addr:postcode": "97069",
+    "addr:street": "Calle 90",
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva Inalámbrica",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 387969795,
+  "center": {
+    "lat": 20.9932338,
+    "lon": -89.5916010
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:postcode": "97149",
+    "addr:street": "Calle 31",
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva \"Benito Juárez García\"",
+    "short_name": "INJUVE",
+    "source": "Local Knowledge Dic 2015",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 393012925,
+  "center": {
+    "lat": 20.9603132,
+    "lon": -89.6601473
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Campo Beisbol",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 393042204,
+  "center": {
+    "lat": 20.9516978,
+    "lon": -89.6892628
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 396998154,
+  "center": {
+    "lat": 21.0021531,
+    "lon": -89.6672923
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 396998155,
+  "center": {
+    "lat": 21.0023956,
+    "lon": -89.6669108
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 396998168,
+  "center": {
+    "lat": 21.0024781,
+    "lon": -89.6628459
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 399803284,
+  "center": {
+    "lat": 21.0103409,
+    "lon": -89.7003505
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 400257109,
+  "center": {
+    "lat": 21.0211647,
+    "lon": -89.5536885
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 413050315,
+  "center": {
+    "lat": 20.9465095,
+    "lon": -89.6172954
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 413050381,
+  "center": {
+    "lat": 20.9448587,
+    "lon": -89.6036074
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 413050480,
+  "center": {
+    "lat": 20.9444209,
+    "lon": -89.6027792
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 413050608,
+  "center": {
+    "lat": 20.9433076,
+    "lon": -89.5954754
+  },
+  "tags": {
+    "access": "permissive",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 429921104,
+  "center": {
+    "lat": 20.9486197,
+    "lon": -89.6787702
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Hda Opichen",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 429921105,
+  "center": {
+    "lat": 20.9490330,
+    "lon": -89.6796375
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 462697033,
+  "center": {
+    "lat": 21.0093111,
+    "lon": -89.6515027
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 462697034,
+  "center": {
+    "lat": 21.0089787,
+    "lon": -89.6519641
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 462697036,
+  "center": {
+    "lat": 21.0087339,
+    "lon": -89.6521800
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 462697037,
+  "center": {
+    "lat": 21.0085117,
+    "lon": -89.6517192
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 462887652,
+  "center": {
+    "lat": 21.0190326,
+    "lon": -89.5909103
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 463033794,
+  "center": {
+    "lat": 21.0038698,
+    "lon": -89.5883549
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 463033796,
+  "center": {
+    "lat": 21.0175865,
+    "lon": -89.5704888
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 463034758,
+  "center": {
+    "lat": 20.9602868,
+    "lon": -89.6595896
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva \"Mulsay\""
+  }
+},
+{
+  "type": "way",
+  "id": 470303299,
+  "center": {
+    "lat": 20.9501335,
+    "lon": -89.5842588
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 470303309,
+  "center": {
+    "lat": 20.9523190,
+    "lon": -89.5879240
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 471513447,
+  "center": {
+    "lat": 20.9654777,
+    "lon": -89.5818236
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 487084032,
+  "center": {
+    "lat": 20.9423141,
+    "lon": -89.5826106
+  },
+  "tags": {
+    "access": "permissive",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 487084033,
+  "center": {
+    "lat": 20.9418494,
+    "lon": -89.5832746
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "no",
+    "sport": "soccer",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 487086594,
+  "center": {
+    "lat": 20.9485590,
+    "lon": -89.5790823
+  },
+  "tags": {
+    "access": "permissive",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 487086609,
+  "center": {
+    "lat": 20.9467657,
+    "lon": -89.5778904
+  },
+  "tags": {
+    "access": "permissive",
+    "hoops": "4",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 487087267,
+  "center": {
+    "lat": 20.9448865,
+    "lon": -89.5954806
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 487087272,
+  "center": {
+    "lat": 20.9424884,
+    "lon": -89.5941851
+  },
+  "tags": {
+    "access": "customers",
+    "building": "yes",
+    "leisure": "sports_centre",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 487229995,
+  "center": {
+    "lat": 20.9439042,
+    "lon": -89.6028661
+  },
+  "tags": {
+    "access": "permissive",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 487232273,
+  "center": {
+    "lat": 20.9696729,
+    "lon": -89.5941001
+  },
+  "tags": {
+    "access": "permissive",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 487233946,
+  "center": {
+    "lat": 20.9782897,
+    "lon": -89.6586023
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 488354730,
+  "center": {
+    "lat": 20.9393139,
+    "lon": -89.6020154
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Centro de Alto Rendimiento Deportivo (Card)"
+  }
+},
+{
+  "type": "way",
+  "id": 490241910,
+  "center": {
+    "lat": 21.1107110,
+    "lon": -89.6137215
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 490241911,
+  "center": {
+    "lat": 21.1107049,
+    "lon": -89.6135431
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 490241912,
+  "center": {
+    "lat": 21.1106940,
+    "lon": -89.6133726
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 490241913,
+  "center": {
+    "lat": 21.1104439,
+    "lon": -89.6137282
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 490241914,
+  "center": {
+    "lat": 21.1104358,
+    "lon": -89.6135562
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 490241915,
+  "center": {
+    "lat": 21.1104262,
+    "lon": -89.6133871
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 490241916,
+  "center": {
+    "lat": 21.1114810,
+    "lon": -89.6141944
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 498388101,
+  "center": {
+    "lat": 20.9335931,
+    "lon": -89.5990297
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha de Futbol Salvador Alvarado sur",
+    "sport": "soccer",
+    "surface": "dirt"
+  }
+},
+{
+  "type": "way",
+  "id": 498388105,
+  "center": {
+    "lat": 20.9349340,
+    "lon": -89.5989429
+  },
+  "tags": {
+    "access": "permissive",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 498388106,
+  "center": {
+    "lat": 20.9348778,
+    "lon": -89.5985757
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 498388107,
+  "center": {
+    "lat": 20.9332855,
+    "lon": -89.5988373
+  },
+  "tags": {
+    "access": "permissive",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 498388110,
+  "center": {
+    "lat": 20.9442671,
+    "lon": -89.5951842
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva Kukulcán",
+    "opening_hours": "Mo-Sa 07:00-20:00",
+    "sport": "soccer;tennis;baseball;basketball;swimming;volleyball;athletics;skateboard;shooting;running"
+  }
+},
+{
+  "type": "way",
+  "id": 503196751,
+  "center": {
+    "lat": 21.0028936,
+    "lon": -89.6440664
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 507866229,
+  "center": {
+    "lat": 20.9849311,
+    "lon": -89.5372105
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 507866230,
+  "center": {
+    "lat": 20.9849279,
+    "lon": -89.5373865
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 507866231,
+  "center": {
+    "lat": 20.9849259,
+    "lon": -89.5375638
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 507866232,
+  "center": {
+    "lat": 20.9849257,
+    "lon": -89.5377419
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 524797429,
+  "center": {
+    "lat": 20.9903227,
+    "lon": -89.6512013
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Campo Deportivo Federico \"Chivirico\" Cardeña Blanco",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 524797430,
+  "center": {
+    "lat": 21.0270757,
+    "lon": -89.5672469
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 524797432,
+  "center": {
+    "lat": 21.0268815,
+    "lon": -89.5663177
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 524797433,
+  "center": {
+    "lat": 21.0260543,
+    "lon": -89.5673625
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "tartan"
+  }
+},
+{
+  "type": "way",
+  "id": 524797434,
+  "center": {
+    "lat": 21.0272641,
+    "lon": -89.5687301
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 525494771,
+  "center": {
+    "lat": 20.9980636,
+    "lon": -89.6494589
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 529266376,
+  "center": {
+    "lat": 21.0444029,
+    "lon": -89.6491879
+  },
+  "tags": {
+    "fee": "yes",
+    "leisure": "sports_centre",
+    "name": "Crédito Real Tennis Center",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 532065286,
+  "center": {
+    "lat": 20.9907110,
+    "lon": -89.6181782
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 532065287,
+  "center": {
+    "lat": 20.9908502,
+    "lon": -89.6183847
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 532065288,
+  "center": {
+    "lat": 20.9900758,
+    "lon": -89.6184818
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 533097447,
+  "center": {
+    "lat": 21.0363235,
+    "lon": -89.6232290
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball",
+    "surface": "sand"
+  }
+},
+{
+  "type": "way",
+  "id": 533680530,
+  "center": {
+    "lat": 21.0263133,
+    "lon": -89.6275964
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 544235909,
+  "center": {
+    "lat": 21.0293479,
+    "lon": -89.6524584
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 544244167,
+  "center": {
+    "lat": 21.0289571,
+    "lon": -89.6520158
+  },
+  "tags": {
+    "access": "yes",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 544244168,
+  "center": {
+    "lat": 21.0286843,
+    "lon": -89.6516359
+  },
+  "tags": {
+    "handrail": "yes",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "skateboard",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 548218863,
+  "center": {
+    "lat": 21.0255169,
+    "lon": -89.6499090
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 548218864,
+  "center": {
+    "lat": 21.0254889,
+    "lon": -89.6504152
+  },
+  "tags": {
+    "access": "yes",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 549847801,
+  "center": {
+    "lat": 21.1033981,
+    "lon": -89.6626863
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "tartan"
+  }
+},
+{
+  "type": "way",
+  "id": 549847811,
+  "center": {
+    "lat": 21.1035831,
+    "lon": -89.6619854
+  },
+  "tags": {
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 552248262,
+  "center": {
+    "lat": 20.9369424,
+    "lon": -89.5931125
+  },
+  "tags": {
+    "access": "yes",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 552252416,
+  "center": {
+    "lat": 20.9014367,
+    "lon": -89.6566881
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 552252417,
+  "center": {
+    "lat": 20.9010120,
+    "lon": -89.6573408
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 552252418,
+  "center": {
+    "lat": 20.9008905,
+    "lon": -89.6582203
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 552252419,
+  "center": {
+    "lat": 20.9004822,
+    "lon": -89.6577320
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 552252420,
+  "center": {
+    "lat": 20.9002726,
+    "lon": -89.6565012
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 552252421,
+  "center": {
+    "lat": 20.9004966,
+    "lon": -89.6562560
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 552252422,
+  "center": {
+    "lat": 20.9008520,
+    "lon": -89.6561655
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 552252424,
+  "center": {
+    "lat": 20.9001736,
+    "lon": -89.6558271
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 552252425,
+  "center": {
+    "lat": 20.8999300,
+    "lon": -89.6551379
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 552252426,
+  "center": {
+    "lat": 20.8993179,
+    "lon": -89.6556225
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 552719466,
+  "center": {
+    "lat": 21.0052599,
+    "lon": -89.6262585
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 552719467,
+  "center": {
+    "lat": 21.0037532,
+    "lon": -89.6324050
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 552719468,
+  "center": {
+    "lat": 21.0043238,
+    "lon": -89.6321497
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 552719469,
+  "center": {
+    "lat": 21.0041230,
+    "lon": -89.6322474
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 553372200,
+  "center": {
+    "lat": 20.9843532,
+    "lon": -89.6766860
+  },
+  "tags": {
+    "access": "yes",
+    "description": "NUEVA CANCHA MULTIUSOS",
+    "hoops": "2",
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 553373033,
+  "center": {
+    "lat": 20.9859103,
+    "lon": -89.6711308
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:neighbourhood": "Bosques del Poniente",
+    "addr:postcode": "97246",
+    "addr:state": "Yucatán",
+    "addr:street": "Calle 132",
+    "leisure": "sports_centre",
+    "name": "Parque Municipal de Deportes Extremos",
+    "opening_hours": "Th 14:00-21:00; Fr-Sa 15:00-22:00; Su 14:00-21:00",
+    "operator": "Ayuntamiento de Mérida",
+    "operator:type": "government",
+    "sport": "climbing_adventure"
+  }
+},
+{
+  "type": "way",
+  "id": 556373131,
+  "center": {
+    "lat": 20.9833744,
+    "lon": -89.6004070
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva Adolfo López Mateos"
+  }
+},
+{
+  "type": "way",
+  "id": 556690607,
+  "center": {
+    "lat": 21.0012222,
+    "lon": -89.5680377
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 556690869,
+  "center": {
+    "lat": 21.0015121,
+    "lon": -89.5675622
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 556699732,
+  "center": {
+    "lat": 20.9976237,
+    "lon": -89.5718049
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "sport_1": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 558090129,
+  "center": {
+    "lat": 20.9549097,
+    "lon": -89.5754757
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 558090130,
+  "center": {
+    "lat": 20.9641265,
+    "lon": -89.5714737
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 558090131,
+  "center": {
+    "lat": 20.9626793,
+    "lon": -89.5774325
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 558090132,
+  "center": {
+    "lat": 20.9646483,
+    "lon": -89.5754252
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 558090133,
+  "center": {
+    "lat": 20.9638077,
+    "lon": -89.5809241
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 559984929,
+  "center": {
+    "lat": 20.9608377,
+    "lon": -89.6781259
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Área Deportiva Juan Pablo"
+  }
+},
+{
+  "type": "way",
+  "id": 568378132,
+  "center": {
+    "lat": 20.9907827,
+    "lon": -89.6712057
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 570538142,
+  "center": {
+    "lat": 20.9037346,
+    "lon": -89.6260369
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 584734934,
+  "center": {
+    "lat": 20.9469215,
+    "lon": -89.5859611
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 584739413,
+  "center": {
+    "lat": 20.9610755,
+    "lon": -89.5934461
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Campo de Softball Cortés Sarmiento",
+    "sport": "baseball",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 584966679,
+  "center": {
+    "lat": 21.0771958,
+    "lon": -89.6544930
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 584984865,
+  "center": {
+    "lat": 21.0677441,
+    "lon": -89.6506076
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 584984866,
+  "center": {
+    "lat": 21.0725364,
+    "lon": -89.6458651
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 584988890,
+  "center": {
+    "lat": 21.0706261,
+    "lon": -89.6603626
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 584989440,
+  "center": {
+    "lat": 20.9680569,
+    "lon": -89.6154184
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 584992526,
+  "center": {
+    "lat": 21.0229669,
+    "lon": -89.6449781
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 584992527,
+  "center": {
+    "lat": 21.0206010,
+    "lon": -89.6612251
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 584992546,
+  "center": {
+    "lat": 21.0598155,
+    "lon": -89.6479681
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 584992554,
+  "center": {
+    "lat": 21.0632100,
+    "lon": -89.6456246
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 585051592,
+  "center": {
+    "lat": 20.9836335,
+    "lon": -89.6005579
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 585965844,
+  "center": {
+    "lat": 21.0708981,
+    "lon": -89.6498292
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 586444933,
+  "center": {
+    "lat": 21.0978044,
+    "lon": -89.5997026
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 586467394,
+  "center": {
+    "lat": 21.1017971,
+    "lon": -89.6569594
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Campo de futbol",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 586525388,
+  "center": {
+    "lat": 20.9682357,
+    "lon": -89.5870417
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 586525389,
+  "center": {
+    "lat": 20.9682595,
+    "lon": -89.5865759
+  },
+  "tags": {
+    "access": "yes",
+    "hoops": "4",
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 586525395,
+  "center": {
+    "lat": 20.9663581,
+    "lon": -89.5895831
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 586525400,
+  "center": {
+    "lat": 20.9664450,
+    "lon": -89.5901703
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 586525404,
+  "center": {
+    "lat": 20.9651276,
+    "lon": -89.5975024
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 586551724,
+  "center": {
+    "lat": 21.0488645,
+    "lon": -89.6328449
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 586551725,
+  "center": {
+    "lat": 21.0506191,
+    "lon": -89.6228815
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 586551726,
+  "center": {
+    "lat": 21.0487828,
+    "lon": -89.6207391
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 586553322,
+  "center": {
+    "lat": 21.0442019,
+    "lon": -89.6358470
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:neighbourhood": "Francisco de Montejo",
+    "addr:state": "Yucatán",
+    "addr:street": "Calle 30",
+    "leisure": "sports_centre",
+    "name": "Centro Deportivo Francisco de Montejo"
+  }
+},
+{
+  "type": "way",
+  "id": 586983048,
+  "center": {
+    "lat": 21.0172053,
+    "lon": -89.6467830
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 590614219,
+  "center": {
+    "lat": 21.0128536,
+    "lon": -89.6916995
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 602807997,
+  "center": {
+    "lat": 20.9892223,
+    "lon": -89.5961796
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva Miguel Alemán"
+  }
+},
+{
+  "type": "way",
+  "id": 603198723,
+  "center": {
+    "lat": 20.9831528,
+    "lon": -89.6007671
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha de basquétbol",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 604727691,
+  "center": {
+    "lat": 21.0264698,
+    "lon": -89.6283133
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 604727693,
+  "center": {
+    "lat": 21.0263671,
+    "lon": -89.6269147
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "artificial_turf"
+  }
+},
+{
+  "type": "way",
+  "id": 604727695,
+  "center": {
+    "lat": 21.0263021,
+    "lon": -89.6276011
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 604755979,
+  "center": {
+    "lat": 20.9311113,
+    "lon": -89.6246283
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "La cueva"
+  }
+},
+{
+  "type": "way",
+  "id": 604756625,
+  "center": {
+    "lat": 20.9001264,
+    "lon": -89.6505264
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 610295366,
+  "center": {
+    "lat": 20.9412903,
+    "lon": -89.5959761
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 611049242,
+  "center": {
+    "lat": 20.9410233,
+    "lon": -89.6257920
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 617712932,
+  "center": {
+    "lat": 20.9303501,
+    "lon": -89.6213691
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 617712938,
+  "center": {
+    "lat": 20.9311673,
+    "lon": -89.6217692
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 617714281,
+  "center": {
+    "lat": 21.0133155,
+    "lon": -89.6222532
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 617714282,
+  "center": {
+    "lat": 21.0130077,
+    "lon": -89.6204963
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 617714283,
+  "center": {
+    "lat": 21.0135588,
+    "lon": -89.6213576
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Campo de Softball",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 617714285,
+  "center": {
+    "lat": 21.0126899,
+    "lon": -89.6212000
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "beachvolleyball",
+    "surface": "sand"
+  }
+},
+{
+  "type": "way",
+  "id": 621761936,
+  "center": {
+    "lat": 20.9457511,
+    "lon": -89.5937194
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 632245825,
+  "center": {
+    "lat": 21.0996588,
+    "lon": -89.5737493
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Campo deportivo Chablekal"
+  }
+},
+{
+  "type": "way",
+  "id": 633152393,
+  "center": {
+    "lat": 20.9821285,
+    "lon": -89.7028860
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 633152398,
+  "center": {
+    "lat": 21.0176533,
+    "lon": -89.6852677
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 633168655,
+  "center": {
+    "lat": 20.9982460,
+    "lon": -89.6855205
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 633459450,
+  "center": {
+    "lat": 20.9500083,
+    "lon": -89.5812720
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Campo de  béisbol Vergel III",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 633459453,
+  "center": {
+    "lat": 20.9508235,
+    "lon": -89.5757153
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 640141082,
+  "center": {
+    "lat": 20.9535273,
+    "lon": -89.5801551
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 640141089,
+  "center": {
+    "lat": 20.9507142,
+    "lon": -89.5846655
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 666977279,
+  "center": {
+    "lat": 21.0054118,
+    "lon": -89.5565530
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 667262847,
+  "center": {
+    "lat": 21.0034636,
+    "lon": -89.5761016
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 679509995,
+  "center": {
+    "lat": 21.0226855,
+    "lon": -89.6551848
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Campo Camara de la Construccion",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 679549962,
+  "center": {
+    "lat": 21.0227883,
+    "lon": -89.6442597
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 679549963,
+  "center": {
+    "lat": 21.0230779,
+    "lon": -89.6442211
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 680949620,
+  "center": {
+    "lat": 21.0216375,
+    "lon": -89.6349359
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 700186787,
+  "center": {
+    "lat": 21.0224427,
+    "lon": -89.5889362
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 716595975,
+  "center": {
+    "lat": 21.0122699,
+    "lon": -89.6209839
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 722398177,
+  "center": {
+    "lat": 21.0257726,
+    "lon": -89.5753432
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "way",
+  "id": 722398186,
+  "center": {
+    "lat": 21.0261824,
+    "lon": -89.5753775
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 733477723,
+  "center": {
+    "lat": 21.1311688,
+    "lon": -89.6621647
+  },
+  "tags": {
+    "access": "yes",
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Cancha multifuncional",
+    "sport": "tennis;basketball;multi;volleyball;fitness",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 847213273,
+  "center": {
+    "lat": 21.0157631,
+    "lon": -89.5774919
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 847213274,
+  "center": {
+    "lat": 21.0157843,
+    "lon": -89.5767431
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 857624674,
+  "center": {
+    "lat": 20.9017930,
+    "lon": -89.6655902
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 864481028,
+  "center": {
+    "lat": 21.1318732,
+    "lon": -89.7781529
+  },
+  "tags": {
+    "access": "yes",
+    "height": "10",
+    "hoops": "2",
+    "leisure": "pitch",
+    "operator": "PCTY",
+    "roof:material": "metal",
+    "roof:shape": "round",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 866823476,
+  "center": {
+    "lat": 21.0499978,
+    "lon": -89.6450621
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer;tennis;basketball;multi"
+  }
+},
+{
+  "type": "way",
+  "id": 867472888,
+  "center": {
+    "lat": 21.1087949,
+    "lon": -89.6537742
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 867472889,
+  "center": {
+    "lat": 21.1087919,
+    "lon": -89.6539142
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 867638137,
+  "center": {
+    "lat": 21.0115054,
+    "lon": -89.6313565
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 867638140,
+  "center": {
+    "lat": 21.0124886,
+    "lon": -89.6336835
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Unidad deportiva Iches Burgos",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 896741393,
+  "center": {
+    "lat": 21.0371363,
+    "lon": -89.6685753
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 896741394,
+  "center": {
+    "lat": 21.0371669,
+    "lon": -89.6687366
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 896741395,
+  "center": {
+    "lat": 21.0370904,
+    "lon": -89.6683225
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 896741396,
+  "center": {
+    "lat": 21.0370571,
+    "lon": -89.6681571
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 896741397,
+  "center": {
+    "lat": 21.0369977,
+    "lon": -89.6676167
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 896741398,
+  "center": {
+    "lat": 21.0369705,
+    "lon": -89.6674580
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 896741399,
+  "center": {
+    "lat": 21.0365072,
+    "lon": -89.6673385
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 896741400,
+  "center": {
+    "lat": 21.0365714,
+    "lon": -89.6677188
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 896760911,
+  "center": {
+    "lat": 20.9849509,
+    "lon": -89.6197174
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "grass_paver"
+  }
+},
+{
+  "type": "way",
+  "id": 896760912,
+  "center": {
+    "lat": 20.9849285,
+    "lon": -89.6195704
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "grass_paver"
+  }
+},
+{
+  "type": "way",
+  "id": 897123048,
+  "center": {
+    "lat": 21.0003952,
+    "lon": -89.7159132
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 952143992,
+  "center": {
+    "lat": 21.0135366,
+    "lon": -89.6681962
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 952143993,
+  "center": {
+    "lat": 21.0124737,
+    "lon": -89.6683389
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "american_football",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 952365557,
+  "center": {
+    "lat": 21.0372423,
+    "lon": -89.6452988
+  },
+  "tags": {
+    "access": "yes",
+    "leisure": "pitch",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 957258627,
+  "center": {
+    "lat": 21.0438393,
+    "lon": -89.6497183
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 957634115,
+  "center": {
+    "lat": 21.0425303,
+    "lon": -89.6484363
+  },
+  "tags": {
+    "access": "no",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer;basketball;volleyball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 958032823,
+  "center": {
+    "lat": 21.0344916,
+    "lon": -89.6514304
+  },
+  "tags": {
+    "access": "no",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer;volleyball;basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 975084138,
+  "center": {
+    "lat": 21.0155961,
+    "lon": -89.6302930
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975084139,
+  "center": {
+    "lat": 21.0159137,
+    "lon": -89.6302861
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975084140,
+  "center": {
+    "lat": 21.0159177,
+    "lon": -89.6304392
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975798543,
+  "center": {
+    "lat": 21.0591626,
+    "lon": -89.5969155
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975798544,
+  "center": {
+    "lat": 21.0591134,
+    "lon": -89.5967464
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975798545,
+  "center": {
+    "lat": 21.0590675,
+    "lon": -89.5965762
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975798546,
+  "center": {
+    "lat": 21.0594950,
+    "lon": -89.5968131
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975798547,
+  "center": {
+    "lat": 21.0594491,
+    "lon": -89.5966394
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975798548,
+  "center": {
+    "lat": 21.0593983,
+    "lon": -89.5964674
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975798549,
+  "center": {
+    "lat": 21.0589526,
+    "lon": -89.5961708
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "volleyball;basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 975798550,
+  "center": {
+    "lat": 21.0594153,
+    "lon": -89.5961112
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 975798556,
+  "center": {
+    "lat": 21.0597528,
+    "lon": -89.5965726
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975798557,
+  "center": {
+    "lat": 21.0597623,
+    "lon": -89.5964373
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 975798558,
+  "center": {
+    "lat": 21.0596761,
+    "lon": -89.5963325
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 982174936,
+  "center": {
+    "lat": 20.9952602,
+    "lon": -89.6225171
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 982174937,
+  "center": {
+    "lat": 20.9933881,
+    "lon": -89.6216864
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 982174941,
+  "center": {
+    "lat": 20.9945827,
+    "lon": -89.6227612
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 982174942,
+  "center": {
+    "lat": 20.9933900,
+    "lon": -89.6224271
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 982174943,
+  "center": {
+    "lat": 20.9952500,
+    "lon": -89.6215837
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 982174944,
+  "center": {
+    "lat": 20.9947365,
+    "lon": -89.6213148
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 982174945,
+  "center": {
+    "lat": 20.9936874,
+    "lon": -89.6212355
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1051058041,
+  "center": {
+    "lat": 21.0111773,
+    "lon": -89.5780115
+  },
+  "tags": {
+    "access": "no",
+    "leisure": "sports_centre",
+    "lit": "yes",
+    "name": "Complejo Deportivo Colegio San Agustín",
+    "sport": "soccer;basketball;volleyball;swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 1051058042,
+  "center": {
+    "lat": 21.0117162,
+    "lon": -89.5788171
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1051058043,
+  "center": {
+    "lat": 21.0117721,
+    "lon": -89.5786319
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "volleyball"
+  }
+},
+{
+  "type": "way",
+  "id": 1056724908,
+  "center": {
+    "lat": 21.0395577,
+    "lon": -89.6608626
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "name": "Cancha de Futbol de Universidad Tecmilenio",
+    "sport": "soccer",
+    "surface": "pasto_sintetico"
+  }
+},
+{
+  "type": "way",
+  "id": 1105823172,
+  "center": {
+    "lat": 21.0965024,
+    "lon": -89.5763278
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1106104470,
+  "center": {
+    "lat": 21.0218182,
+    "lon": -89.6508432
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1106105924,
+  "center": {
+    "lat": 21.0179414,
+    "lon": -89.6584867
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1121928872,
+  "center": {
+    "lat": 20.9319644,
+    "lon": -89.6183556
+  },
+  "tags": {
+    "access": "yes",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Cancha Serapio Rendón",
+    "sport": "basketball;soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1162642699,
+  "center": {
+    "lat": 21.1261206,
+    "lon": -89.6865030
+  },
+  "tags": {
+    "highway": "footway",
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1162642702,
+  "center": {
+    "lat": 21.1259840,
+    "lon": -89.6870150
+  },
+  "tags": {
+    "highway": "footway",
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1205356039,
+  "center": {
+    "lat": 21.0074993,
+    "lon": -89.6531397
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1237353855,
+  "center": {
+    "lat": 20.9793706,
+    "lon": -89.6113847
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Pista de Patinaje",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "way",
+  "id": 1248250255,
+  "center": {
+    "lat": 20.9885925,
+    "lon": -89.6628546
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1248250257,
+  "center": {
+    "lat": 20.9833488,
+    "lon": -89.6499473
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1248929670,
+  "center": {
+    "lat": 20.9688941,
+    "lon": -89.6568337
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1249293804,
+  "center": {
+    "lat": 20.9951646,
+    "lon": -89.6228193
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1250875648,
+  "center": {
+    "lat": 21.0269909,
+    "lon": -89.6281897
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1250875649,
+  "center": {
+    "lat": 21.0269773,
+    "lon": -89.6280327
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1250875650,
+  "center": {
+    "lat": 21.0269636,
+    "lon": -89.6278762
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1250875651,
+  "center": {
+    "lat": 21.0269269,
+    "lon": -89.6274667
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1250875652,
+  "center": {
+    "lat": 21.0269161,
+    "lon": -89.6273066
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1250875653,
+  "center": {
+    "lat": 21.0269063,
+    "lon": -89.6271379
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1250875654,
+  "center": {
+    "lat": 21.0269197,
+    "lon": -89.6269742
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1265031700,
+  "center": {
+    "lat": 20.9736255,
+    "lon": -89.6756578
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1265132770,
+  "center": {
+    "lat": 20.9815537,
+    "lon": -89.6596003
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Deportivo Diario de Yucatán"
+  }
+},
+{
+  "type": "way",
+  "id": 1265132771,
+  "center": {
+    "lat": 20.9814455,
+    "lon": -89.6594454
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1265132772,
+  "center": {
+    "lat": 20.9818824,
+    "lon": -89.6596701
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1265132773,
+  "center": {
+    "lat": 20.9819887,
+    "lon": -89.6598386
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1273210562,
+  "center": {
+    "lat": 20.9866499,
+    "lon": -89.6194293
+  },
+  "tags": {
+    "access": "private",
+    "indoor": "no",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1273249531,
+  "center": {
+    "lat": 21.0011786,
+    "lon": -89.6832405
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1273249540,
+  "center": {
+    "lat": 21.0002517,
+    "lon": -89.6838185
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1273984975,
+  "center": {
+    "lat": 21.0008924,
+    "lon": -89.6834343
+  },
+  "tags": {
+    "covered": "yes",
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1273984976,
+  "center": {
+    "lat": 21.0010330,
+    "lon": -89.6836572
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1274770697,
+  "center": {
+    "lat": 20.9969751,
+    "lon": -89.6989578
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1277897244,
+  "center": {
+    "lat": 21.0976233,
+    "lon": -89.5996924
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1278131316,
+  "center": {
+    "lat": 20.9810010,
+    "lon": -89.6567618
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Campo de la Preparatoria 2",
+    "sport": "soccer;athletics"
+  }
+},
+{
+  "type": "way",
+  "id": 1278178604,
+  "center": {
+    "lat": 20.9945885,
+    "lon": -89.6266450
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1278455683,
+  "center": {
+    "lat": 20.9987753,
+    "lon": -89.6804451
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1278725993,
+  "center": {
+    "lat": 20.9741347,
+    "lon": -89.6728557
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1279072544,
+  "center": {
+    "lat": 20.9914344,
+    "lon": -89.6713156
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1279241323,
+  "center": {
+    "lat": 20.9925143,
+    "lon": -89.6733918
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1279241348,
+  "center": {
+    "lat": 20.9898371,
+    "lon": -89.6743159
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1279784727,
+  "center": {
+    "lat": 20.9984440,
+    "lon": -89.6550019
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1280091892,
+  "center": {
+    "lat": 20.9867245,
+    "lon": -89.6705620
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer;field_hockey"
+  }
+},
+{
+  "type": "way",
+  "id": 1280091893,
+  "center": {
+    "lat": 20.9863463,
+    "lon": -89.6709025
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1280456414,
+  "center": {
+    "lat": 21.0202649,
+    "lon": -89.6277462
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1280456415,
+  "center": {
+    "lat": 21.0197255,
+    "lon": -89.6275846
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1280456416,
+  "center": {
+    "lat": 21.0198977,
+    "lon": -89.6268804
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1284532581,
+  "center": {
+    "lat": 20.9355018,
+    "lon": -89.6261466
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1284532582,
+  "center": {
+    "lat": 20.9351683,
+    "lon": -89.6261604
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1284855106,
+  "center": {
+    "lat": 20.9843744,
+    "lon": -89.6482237
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1289555337,
+  "center": {
+    "lat": 20.9786979,
+    "lon": -89.6002233
+  },
+  "tags": {
+    "access": "customers",
+    "hoops": "4",
+    "leisure": "pitch",
+    "lit": "no",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1289563279,
+  "center": {
+    "lat": 20.9783546,
+    "lon": -89.5997184
+  },
+  "tags": {
+    "access": "customers",
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Cancha Multifuncional 3",
+    "sport": "basketball;volleyball",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1289563287,
+  "center": {
+    "lat": 20.9781252,
+    "lon": -89.5997462
+  },
+  "tags": {
+    "access": "customers",
+    "building": "yes",
+    "leisure": "sports_hall",
+    "name": "Gimnasio Preparatoria Uno",
+    "operator": "Universidad Autónoma de Yucatán"
+  }
+},
+{
+  "type": "way",
+  "id": 1289563288,
+  "center": {
+    "lat": 20.9783570,
+    "lon": -89.6000894
+  },
+  "tags": {
+    "access": "customers",
+    "hoops": "4",
+    "leisure": "pitch",
+    "name": "Canchas 1 y 2",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1289563297,
+  "center": {
+    "lat": 20.9779359,
+    "lon": -89.6019992
+  },
+  "tags": {
+    "access": "yes",
+    "building": "yes",
+    "leisure": "sports_hall",
+    "operator": "Universidad Autónoma de Yucatán UADY",
+    "sport": "basketball;soccer;athletics;volleyball;running;softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1291065967,
+  "center": {
+    "lat": 20.9378234,
+    "lon": -89.6285468
+  },
+  "tags": {
+    "access": "customers",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1291065968,
+  "center": {
+    "lat": 20.9375860,
+    "lon": -89.6286151
+  },
+  "tags": {
+    "access": "customers",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball;volleyball",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1291065969,
+  "center": {
+    "lat": 20.9375725,
+    "lon": -89.6284692
+  },
+  "tags": {
+    "access": "customers",
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1291065976,
+  "center": {
+    "lat": 20.9371217,
+    "lon": -89.6286117
+  },
+  "tags": {
+    "access": "permit",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1291065982,
+  "center": {
+    "lat": 20.9371035,
+    "lon": -89.6282846
+  },
+  "tags": {
+    "access": "customers",
+    "hoops": "0",
+    "leisure": "pitch",
+    "lit": "no",
+    "sport": "basketball",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1291195556,
+  "center": {
+    "lat": 20.9488638,
+    "lon": -89.5970406
+  },
+  "tags": {
+    "access": "yes",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1291208475,
+  "center": {
+    "lat": 20.9408281,
+    "lon": -89.6253416
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1291213264,
+  "center": {
+    "lat": 20.9997218,
+    "lon": -89.6284174
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1294643586,
+  "center": {
+    "lat": 20.9992653,
+    "lon": -89.6806613
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1298724915,
+  "center": {
+    "lat": 20.9952819,
+    "lon": -89.6223677
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1298724916,
+  "center": {
+    "lat": 20.9953029,
+    "lon": -89.6222386
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1298724917,
+  "center": {
+    "lat": 20.9953227,
+    "lon": -89.6220924
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1298724918,
+  "center": {
+    "lat": 20.9934074,
+    "lon": -89.6223048
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1298724919,
+  "center": {
+    "lat": 20.9934248,
+    "lon": -89.6221831
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1298724920,
+  "center": {
+    "lat": 20.9934176,
+    "lon": -89.6211917
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1298724921,
+  "center": {
+    "lat": 20.9935889,
+    "lon": -89.6210414
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1298725188,
+  "center": {
+    "lat": 20.9943551,
+    "lon": -89.6227224
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1298725189,
+  "center": {
+    "lat": 20.9941166,
+    "lon": -89.6226820
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1298725190,
+  "center": {
+    "lat": 20.9938883,
+    "lon": -89.6226430
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1298784827,
+  "center": {
+    "lat": 20.9696370,
+    "lon": -89.6231656
+  },
+  "tags": {
+    "access": "unknown",
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1302442820,
+  "center": {
+    "lat": 20.9729617,
+    "lon": -89.6403022
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1304380025,
+  "center": {
+    "lat": 20.9761059,
+    "lon": -89.6078820
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1304380026,
+  "center": {
+    "lat": 20.9795158,
+    "lon": -89.6065508
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1304380027,
+  "center": {
+    "lat": 20.9794334,
+    "lon": -89.6051239
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1304933588,
+  "center": {
+    "lat": 20.9439093,
+    "lon": -89.6914969
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1308130673,
+  "center": {
+    "lat": 20.9720169,
+    "lon": -89.6132860
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Cancha Deportiva",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1308131138,
+  "center": {
+    "lat": 20.9794647,
+    "lon": -89.6057163
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1310816355,
+  "center": {
+    "lat": 20.9747267,
+    "lon": -89.6592884
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1311737966,
+  "center": {
+    "lat": 21.0341512,
+    "lon": -89.6252656
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1313897257,
+  "center": {
+    "lat": 20.9570133,
+    "lon": -89.6605406
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1313897265,
+  "center": {
+    "lat": 20.9566264,
+    "lon": -89.6605762
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "way",
+  "id": 1313897266,
+  "center": {
+    "lat": 20.9565111,
+    "lon": -89.6605672
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "way",
+  "id": 1314725897,
+  "center": {
+    "lat": 20.9500908,
+    "lon": -89.6891027
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1314762338,
+  "center": {
+    "lat": 20.9603840,
+    "lon": -89.6591505
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1314762341,
+  "center": {
+    "lat": 20.9603327,
+    "lon": -89.6596296
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1314762342,
+  "center": {
+    "lat": 20.9603602,
+    "lon": -89.6587443
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1314762343,
+  "center": {
+    "lat": 20.9606505,
+    "lon": -89.6587803
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1314762351,
+  "center": {
+    "lat": 20.9531292,
+    "lon": -89.6800705
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1314806756,
+  "center": {
+    "lat": 20.9537142,
+    "lon": -89.6828921
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1315456193,
+  "center": {
+    "lat": 20.9419615,
+    "lon": -89.6392060
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1315456194,
+  "center": {
+    "lat": 20.9422573,
+    "lon": -89.6387457
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1315456195,
+  "center": {
+    "lat": 20.9419345,
+    "lon": -89.6387962
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1315456576,
+  "center": {
+    "lat": 20.9304493,
+    "lon": -89.6700332
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1315456577,
+  "center": {
+    "lat": 20.9310657,
+    "lon": -89.6702337
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1315486936,
+  "center": {
+    "lat": 20.9358470,
+    "lon": -89.6896080
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1316063666,
+  "center": {
+    "lat": 20.9711187,
+    "lon": -89.6801770
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1316063667,
+  "center": {
+    "lat": 20.9715804,
+    "lon": -89.6800549
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1316063668,
+  "center": {
+    "lat": 20.9721697,
+    "lon": -89.6798968
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1316063669,
+  "center": {
+    "lat": 20.9726279,
+    "lon": -89.6797623
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1316111667,
+  "center": {
+    "lat": 20.9731385,
+    "lon": -89.6839860
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1316287838,
+  "center": {
+    "lat": 20.9728615,
+    "lon": -89.6837723
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "way",
+  "id": 1316287839,
+  "center": {
+    "lat": 20.9727255,
+    "lon": -89.6838121
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "way",
+  "id": 1316292638,
+  "center": {
+    "lat": 20.9843976,
+    "lon": -89.6714896
+  },
+  "tags": {
+    "building": "no",
+    "fee": "no",
+    "leisure": "sports_centre",
+    "name": "Mini Obstáculos",
+    "operator": "Parque Muncipal de Deportes Extremos",
+    "operator:type": "government",
+    "sport": "climbing_adventure"
+  }
+},
+{
+  "type": "way",
+  "id": 1316292639,
+  "center": {
+    "lat": 20.9850460,
+    "lon": -89.6713969
+  },
+  "tags": {
+    "building": "no",
+    "leisure": "sports_centre",
+    "name": "Obstáculos extremos",
+    "operator": "Parque Municiapal de Deportes Extremos",
+    "operator:type": "government",
+    "sport": "climbing_adventure"
+  }
+},
+{
+  "type": "way",
+  "id": 1316832290,
+  "center": {
+    "lat": 21.0276827,
+    "lon": -89.6359083
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1316833133,
+  "center": {
+    "lat": 21.0231292,
+    "lon": -89.6444767
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1316854907,
+  "center": {
+    "lat": 21.0282174,
+    "lon": -89.6377748
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1317061528,
+  "center": {
+    "lat": 20.9675527,
+    "lon": -89.6446890
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1317082126,
+  "center": {
+    "lat": 20.9777658,
+    "lon": -89.6590683
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1317497832,
+  "center": {
+    "lat": 21.0030961,
+    "lon": -89.6259381
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Rock Solid Mérida",
+    "opening_hours": "Mo-Fr 07:00-23:00; Sa-Su 10:00-18:00",
+    "sport": "climbing",
+    "website": "https://www.instagram.com/rocksolid.merida/"
+  }
+},
+{
+  "type": "way",
+  "id": 1317792694,
+  "center": {
+    "lat": 20.9925644,
+    "lon": -89.6549812
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:housenumber": "133",
+    "addr:neighbourhood": "Miguel Hidalgo",
+    "addr:postcode": "97229",
+    "addr:street": "Calle 60",
+    "building": "yes",
+    "fee": "yes",
+    "leisure": "sports_centre",
+    "name": "Acuática Lalo",
+    "opening_hours": "Mo-Fr 07:00-22:00; Sa 07:00-15:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+52 999 160 0958",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 1317807110,
+  "center": {
+    "lat": 20.9472446,
+    "lon": -89.6968705
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1317808797,
+  "center": {
+    "lat": 20.9851184,
+    "lon": -89.6653356
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1318245676,
+  "center": {
+    "lat": 20.9698990,
+    "lon": -89.6786429
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1318298272,
+  "center": {
+    "lat": 20.9539941,
+    "lon": -89.6834664
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "skateboard"
+  }
+},
+{
+  "type": "way",
+  "id": 1318563786,
+  "center": {
+    "lat": 20.9729343,
+    "lon": -89.6704724
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1318927882,
+  "center": {
+    "lat": 20.9811219,
+    "lon": -89.6756759
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1318927893,
+  "center": {
+    "lat": 20.9808134,
+    "lon": -89.6735830
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1318964592,
+  "center": {
+    "lat": 20.9685571,
+    "lon": -89.6739248
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1318964593,
+  "center": {
+    "lat": 20.9680858,
+    "lon": -89.6738196
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1320327520,
+  "center": {
+    "lat": 20.9695619,
+    "lon": -89.6693279
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1320327523,
+  "center": {
+    "lat": 20.9713090,
+    "lon": -89.6677899
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1321682374,
+  "center": {
+    "lat": 21.0257154,
+    "lon": -89.5953053
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 1321682375,
+  "center": {
+    "lat": 21.0253337,
+    "lon": -89.5955196
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer;basketball;volleyball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1321821322,
+  "center": {
+    "lat": 20.9998189,
+    "lon": -89.6504647
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1321821473,
+  "center": {
+    "lat": 20.9358767,
+    "lon": -89.6330660
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1321821717,
+  "center": {
+    "lat": 20.9358444,
+    "lon": -89.6326969
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1321822202,
+  "center": {
+    "lat": 20.9268857,
+    "lon": -89.6118059
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1321822203,
+  "center": {
+    "lat": 20.9269493,
+    "lon": -89.6112548
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1321822291,
+  "center": {
+    "lat": 20.9216051,
+    "lon": -89.6166201
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1321822338,
+  "center": {
+    "lat": 20.9183642,
+    "lon": -89.6373184
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1321822487,
+  "center": {
+    "lat": 20.8886846,
+    "lon": -89.6540102
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1323704596,
+  "center": {
+    "lat": 20.9805950,
+    "lon": -89.6553528
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Canchas de Cafetería",
+    "sport": "basketball;futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1323704597,
+  "center": {
+    "lat": 20.9816834,
+    "lon": -89.6566492
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_hall",
+    "name": "Gimnasio de Usos Multiples"
+  }
+},
+{
+  "type": "way",
+  "id": 1323704604,
+  "center": {
+    "lat": 20.9812441,
+    "lon": -89.6560981
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_hall",
+    "name": "Mini Gimnasio"
+  }
+},
+{
+  "type": "way",
+  "id": 1324045923,
+  "center": {
+    "lat": 21.0122254,
+    "lon": -89.6212315
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1324045924,
+  "center": {
+    "lat": 21.0132949,
+    "lon": -89.6230763
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1324045925,
+  "center": {
+    "lat": 21.0132287,
+    "lon": -89.6237434
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615625,
+  "center": {
+    "lat": 21.0156857,
+    "lon": -89.6145742
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615626,
+  "center": {
+    "lat": 21.0156080,
+    "lon": -89.6144202
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615627,
+  "center": {
+    "lat": 21.0155362,
+    "lon": -89.6142815
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615628,
+  "center": {
+    "lat": 21.0159789,
+    "lon": -89.6142115
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615629,
+  "center": {
+    "lat": 21.0159157,
+    "lon": -89.6140782
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615630,
+  "center": {
+    "lat": 21.0162481,
+    "lon": -89.6147806
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615631,
+  "center": {
+    "lat": 21.0161852,
+    "lon": -89.6146479
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615632,
+  "center": {
+    "lat": 21.0161132,
+    "lon": -89.6144953
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615633,
+  "center": {
+    "lat": 21.0160535,
+    "lon": -89.6143694
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615634,
+  "center": {
+    "lat": 21.0165535,
+    "lon": -89.6146180
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615635,
+  "center": {
+    "lat": 21.0164908,
+    "lon": -89.6144853
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615636,
+  "center": {
+    "lat": 21.0164186,
+    "lon": -89.6143327
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615637,
+  "center": {
+    "lat": 21.0163591,
+    "lon": -89.6142068
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615638,
+  "center": {
+    "lat": 21.0162843,
+    "lon": -89.6140489
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615639,
+  "center": {
+    "lat": 21.0162213,
+    "lon": -89.6139155
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615640,
+  "center": {
+    "lat": 21.0167962,
+    "lon": -89.6143405
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615641,
+  "center": {
+    "lat": 21.0167829,
+    "lon": -89.6142148
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615642,
+  "center": {
+    "lat": 21.0167233,
+    "lon": -89.6140889
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615643,
+  "center": {
+    "lat": 21.0166088,
+    "lon": -89.6138863
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615644,
+  "center": {
+    "lat": 21.0165457,
+    "lon": -89.6137529
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615645,
+  "center": {
+    "lat": 21.0158971,
+    "lon": -89.6149572
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615646,
+  "center": {
+    "lat": 21.0170545,
+    "lon": -89.6135043
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615647,
+  "center": {
+    "lat": 21.0170883,
+    "lon": -89.6136358
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615648,
+  "center": {
+    "lat": 21.0168566,
+    "lon": -89.6136089
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615649,
+  "center": {
+    "lat": 21.0169054,
+    "lon": -89.6137309
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615650,
+  "center": {
+    "lat": 21.0169568,
+    "lon": -89.6138437
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1325615651,
+  "center": {
+    "lat": 21.0169317,
+    "lon": -89.6139965
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1329833306,
+  "center": {
+    "lat": 20.9596183,
+    "lon": -89.6391532
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1331533539,
+  "center": {
+    "lat": 21.0288378,
+    "lon": -89.6272713
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1332164193,
+  "center": {
+    "lat": 20.9561834,
+    "lon": -89.6445298
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1333159803,
+  "center": {
+    "lat": 20.9460271,
+    "lon": -89.6528363
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1336775424,
+  "center": {
+    "lat": 20.9615024,
+    "lon": -89.6974912
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1336775425,
+  "center": {
+    "lat": 20.9591650,
+    "lon": -89.7007945
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1336775426,
+  "center": {
+    "lat": 20.9596955,
+    "lon": -89.7017387
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1336775427,
+  "center": {
+    "lat": 20.9598998,
+    "lon": -89.7013331
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1336775428,
+  "center": {
+    "lat": 20.9598150,
+    "lon": -89.7009338
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1337074788,
+  "center": {
+    "lat": 20.9848272,
+    "lon": -89.6833951
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1337102856,
+  "center": {
+    "lat": 20.9215121,
+    "lon": -89.6891735
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1338152117,
+  "center": {
+    "lat": 21.0223704,
+    "lon": -89.6279264
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1338152118,
+  "center": {
+    "lat": 21.0214591,
+    "lon": -89.6277817
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1338152119,
+  "center": {
+    "lat": 21.0214823,
+    "lon": -89.6276672
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1338152124,
+  "center": {
+    "lat": 21.0157039,
+    "lon": -89.6262844
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1338232857,
+  "center": {
+    "lat": 20.9836406,
+    "lon": -89.6599937
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1338232860,
+  "center": {
+    "lat": 20.9764132,
+    "lon": -89.6511483
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1338232861,
+  "center": {
+    "lat": 20.9771191,
+    "lon": -89.6510850
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1338232862,
+  "center": {
+    "lat": 20.9769029,
+    "lon": -89.6504920
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1338232863,
+  "center": {
+    "lat": 20.9766629,
+    "lon": -89.6504807
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1339002446,
+  "center": {
+    "lat": 20.9697264,
+    "lon": -89.6559864
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1339002447,
+  "center": {
+    "lat": 20.9729323,
+    "lon": -89.6593245
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1339002454,
+  "center": {
+    "lat": 20.9603665,
+    "lon": -89.6614081
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1339076909,
+  "center": {
+    "lat": 21.0445057,
+    "lon": -89.6356848
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "paddle_tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1339076910,
+  "center": {
+    "lat": 21.0445284,
+    "lon": -89.6355542
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "paddle_tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1340492427,
+  "center": {
+    "lat": 21.0196913,
+    "lon": -89.6355555
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1340720957,
+  "center": {
+    "lat": 21.0367058,
+    "lon": -89.6261628
+  },
+  "tags": {
+    "leisure": "sports_centre"
+  }
+},
+{
+  "type": "way",
+  "id": 1340720960,
+  "center": {
+    "lat": 21.0368599,
+    "lon": -89.6260615
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1341118021,
+  "center": {
+    "lat": 20.9955769,
+    "lon": -89.6220641
+  },
+  "tags": {
+    "area": "yes",
+    "lanes": "3",
+    "leisure": "track",
+    "sport": "running"
+  }
+},
+{
+  "type": "way",
+  "id": 1341118038,
+  "center": {
+    "lat": 20.9951852,
+    "lon": -89.6226733
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1341651767,
+  "center": {
+    "lat": 20.9796744,
+    "lon": -89.6608433
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1341651768,
+  "center": {
+    "lat": 20.9796701,
+    "lon": -89.6609941
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1341653696,
+  "center": {
+    "lat": 21.0385011,
+    "lon": -89.6096729
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1341653697,
+  "center": {
+    "lat": 21.0378323,
+    "lon": -89.6089521
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1341653698,
+  "center": {
+    "lat": 21.0387167,
+    "lon": -89.6089133
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1343673922,
+  "center": {
+    "lat": 20.9897326,
+    "lon": -89.6185718
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1358716758,
+  "center": {
+    "lat": 21.0419889,
+    "lon": -89.6526558
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Centro Deportivo Paralímpico de Yucatán"
+  }
+},
+{
+  "type": "way",
+  "id": 1359184775,
+  "center": {
+    "lat": 21.0154916,
+    "lon": -89.5863481
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359184777,
+  "center": {
+    "lat": 21.0125185,
+    "lon": -89.5739236
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "sports_centre",
+    "name": "Sportway"
+  }
+},
+{
+  "type": "way",
+  "id": 1359184778,
+  "center": {
+    "lat": 21.0147597,
+    "lon": -89.5690544
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359184779,
+  "center": {
+    "lat": 21.0142387,
+    "lon": -89.5690833
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359210736,
+  "center": {
+    "lat": 21.0084666,
+    "lon": -89.5821835
+  },
+  "tags": {
+    "access": "yes",
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Cancha Ekidnas"
+  }
+},
+{
+  "type": "way",
+  "id": 1359210738,
+  "center": {
+    "lat": 21.0135943,
+    "lon": -89.5855271
+  },
+  "tags": {
+    "access": "yes",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359210739,
+  "center": {
+    "lat": 21.0160571,
+    "lon": -89.5916529
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Club Cumbres",
+    "opening_hours": "Mo-Su 06:00-22:00",
+    "sport": "soccer;swimming;running;tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359210760,
+  "center": {
+    "lat": 21.0341855,
+    "lon": -89.6010614
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Go Padel",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255065,
+  "center": {
+    "lat": 21.0155607,
+    "lon": -89.5913685
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255066,
+  "center": {
+    "lat": 21.0156025,
+    "lon": -89.5915339
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255067,
+  "center": {
+    "lat": 21.0156406,
+    "lon": -89.5917014
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255068,
+  "center": {
+    "lat": 21.0157072,
+    "lon": -89.5919564
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255069,
+  "center": {
+    "lat": 21.0157417,
+    "lon": -89.5921025
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255070,
+  "center": {
+    "lat": 21.0160091,
+    "lon": -89.5918789
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255071,
+  "center": {
+    "lat": 21.0160456,
+    "lon": -89.5920157
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255072,
+  "center": {
+    "lat": 21.0159383,
+    "lon": -89.5915768
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255073,
+  "center": {
+    "lat": 21.0161134,
+    "lon": -89.5912679
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255074,
+  "center": {
+    "lat": 21.0162835,
+    "lon": -89.5915280
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255075,
+  "center": {
+    "lat": 21.0163600,
+    "lon": -89.5918420
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255076,
+  "center": {
+    "lat": 21.0168018,
+    "lon": -89.5914396
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255079,
+  "center": {
+    "lat": 21.0076557,
+    "lon": -89.5840683
+  },
+  "tags": {
+    "leisure": "track",
+    "sport": "running"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255084,
+  "center": {
+    "lat": 21.0123222,
+    "lon": -89.5746333
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255090,
+  "center": {
+    "lat": 21.0086925,
+    "lon": -89.5590427
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255091,
+  "center": {
+    "lat": 21.0093546,
+    "lon": -89.5599424
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255092,
+  "center": {
+    "lat": 21.0093662,
+    "lon": -89.5587590
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255093,
+  "center": {
+    "lat": 21.0099259,
+    "lon": -89.5585188
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255094,
+  "center": {
+    "lat": 21.0104787,
+    "lon": -89.5583306
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255095,
+  "center": {
+    "lat": 21.0100238,
+    "lon": -89.5599199
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255096,
+  "center": {
+    "lat": 21.0118566,
+    "lon": -89.5595425
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255097,
+  "center": {
+    "lat": 21.0117835,
+    "lon": -89.5587781
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255098,
+  "center": {
+    "lat": 21.0117159,
+    "lon": -89.5580289
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255099,
+  "center": {
+    "lat": 21.0111459,
+    "lon": -89.5581815
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255110,
+  "center": {
+    "lat": 21.1105695,
+    "lon": -89.6146015
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255117,
+  "center": {
+    "lat": 21.1144155,
+    "lon": -89.6094229
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359255118,
+  "center": {
+    "lat": 21.1134043,
+    "lon": -89.6075286
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Merida Open Akron",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359269375,
+  "center": {
+    "lat": 21.0432239,
+    "lon": -89.6090186
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359269376,
+  "center": {
+    "lat": 21.0432323,
+    "lon": -89.6082399
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359269377,
+  "center": {
+    "lat": 21.0426111,
+    "lon": -89.6085135
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359269378,
+  "center": {
+    "lat": 21.0426031,
+    "lon": -89.6092410
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359269391,
+  "center": {
+    "lat": 20.9910582,
+    "lon": -89.6021193
+  },
+  "tags": {
+    "access": "yes",
+    "leisure": "pitch",
+    "sport": "skateboard",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1359371210,
+  "center": {
+    "lat": 21.0274501,
+    "lon": -89.5821178
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378048,
+  "center": {
+    "lat": 21.0181356,
+    "lon": -89.5912144
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378049,
+  "center": {
+    "lat": 21.0181193,
+    "lon": -89.5910506
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378050,
+  "center": {
+    "lat": 21.0181045,
+    "lon": -89.5909057
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378051,
+  "center": {
+    "lat": 21.0180882,
+    "lon": -89.5907448
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378059,
+  "center": {
+    "lat": 21.0190077,
+    "lon": -89.5908981
+  },
+  "tags": {
+    "leisure": "track"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378066,
+  "center": {
+    "lat": 21.0217503,
+    "lon": -89.5927624
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378067,
+  "center": {
+    "lat": 21.0217320,
+    "lon": -89.5926098
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378068,
+  "center": {
+    "lat": 21.0217136,
+    "lon": -89.5924592
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378069,
+  "center": {
+    "lat": 21.0210224,
+    "lon": -89.5924198
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378070,
+  "center": {
+    "lat": 21.0210408,
+    "lon": -89.5925678
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378071,
+  "center": {
+    "lat": 21.0210570,
+    "lon": -89.5927159
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378072,
+  "center": {
+    "lat": 21.0214763,
+    "lon": -89.5926444
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378073,
+  "center": {
+    "lat": 21.0214578,
+    "lon": -89.5924937
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378078,
+  "center": {
+    "lat": 21.0066512,
+    "lon": -89.5711453
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378080,
+  "center": {
+    "lat": 21.0061979,
+    "lon": -89.5709442
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378081,
+  "center": {
+    "lat": 21.0060864,
+    "lon": -89.5707431
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359378085,
+  "center": {
+    "lat": 21.0083448,
+    "lon": -89.5846507
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "sports_centre",
+    "name": "Deportivo Bancarios"
+  }
+},
+{
+  "type": "way",
+  "id": 1359406592,
+  "center": {
+    "lat": 21.0199039,
+    "lon": -89.5912814
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359406593,
+  "center": {
+    "lat": 21.0198846,
+    "lon": -89.5911163
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359406594,
+  "center": {
+    "lat": 21.0198609,
+    "lon": -89.5909527
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359406612,
+  "center": {
+    "lat": 21.0029314,
+    "lon": -89.6060930
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball;soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415564,
+  "center": {
+    "lat": 21.0085389,
+    "lon": -89.5844135
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415565,
+  "center": {
+    "lat": 21.0085425,
+    "lon": -89.5845917
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415566,
+  "center": {
+    "lat": 21.0079507,
+    "lon": -89.5844652
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415567,
+  "center": {
+    "lat": 21.0079376,
+    "lon": -89.5843033
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415568,
+  "center": {
+    "lat": 21.0079245,
+    "lon": -89.5841397
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415569,
+  "center": {
+    "lat": 21.0074115,
+    "lon": -89.5839832
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415570,
+  "center": {
+    "lat": 21.0073994,
+    "lon": -89.5838208
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415571,
+  "center": {
+    "lat": 21.0073862,
+    "lon": -89.5836361
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415572,
+  "center": {
+    "lat": 21.0077625,
+    "lon": -89.5839156
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "basketball;soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415576,
+  "center": {
+    "lat": 21.0086144,
+    "lon": -89.5867557
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1359415579,
+  "center": {
+    "lat": 21.0119351,
+    "lon": -89.5769926
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Antares",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 1359422703,
+  "center": {
+    "lat": 21.0076241,
+    "lon": -89.5754223
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1359452384,
+  "center": {
+    "lat": 20.9928271,
+    "lon": -89.5912708
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359452385,
+  "center": {
+    "lat": 20.9937827,
+    "lon": -89.5920428
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359722882,
+  "center": {
+    "lat": 21.0113276,
+    "lon": -89.5784177
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359722887,
+  "center": {
+    "lat": 21.0149287,
+    "lon": -89.5614666
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359725004,
+  "center": {
+    "lat": 21.0035024,
+    "lon": -89.5885984
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1359777284,
+  "center": {
+    "lat": 21.0127276,
+    "lon": -89.5882646
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Unidad Deportiva del SNTSS Dr. Oscar Hammeken"
+  }
+},
+{
+  "type": "way",
+  "id": 1359777292,
+  "center": {
+    "lat": 21.0129594,
+    "lon": -89.5876137
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer;baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359777324,
+  "center": {
+    "lat": 21.0279020,
+    "lon": -89.5688985
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "netball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359777326,
+  "center": {
+    "lat": 21.0276248,
+    "lon": -89.5664607
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359777351,
+  "center": {
+    "lat": 21.0208934,
+    "lon": -89.5612317
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359777353,
+  "center": {
+    "lat": 21.0205083,
+    "lon": -89.5546932
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359781384,
+  "center": {
+    "lat": 21.0189638,
+    "lon": -89.5905382
+  },
+  "tags": {
+    "athletics": "triple_jump",
+    "leisure": "pitch",
+    "sport": "athletics"
+  }
+},
+{
+  "type": "way",
+  "id": 1359781398,
+  "center": {
+    "lat": 21.0375005,
+    "lon": -89.6457865
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359781399,
+  "center": {
+    "lat": 21.0374704,
+    "lon": -89.6457967
+  },
+  "tags": {
+    "leisure": "track",
+    "sport": "running"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791052,
+  "center": {
+    "lat": 20.9460813,
+    "lon": -89.5950501
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "soccer",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791053,
+  "center": {
+    "lat": 20.9442102,
+    "lon": -89.5957375
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791054,
+  "center": {
+    "lat": 20.9442037,
+    "lon": -89.5955613
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791055,
+  "center": {
+    "lat": 20.9441994,
+    "lon": -89.5953890
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791056,
+  "center": {
+    "lat": 20.9438875,
+    "lon": -89.5957624
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791057,
+  "center": {
+    "lat": 20.9438747,
+    "lon": -89.5955817
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791058,
+  "center": {
+    "lat": 20.9438677,
+    "lon": -89.5954026
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791059,
+  "center": {
+    "lat": 20.9432839,
+    "lon": -89.5951334
+  },
+  "tags": {
+    "access": "permissive",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791060,
+  "center": {
+    "lat": 20.9432754,
+    "lon": -89.5949302
+  },
+  "tags": {
+    "access": "permissive",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791061,
+  "center": {
+    "lat": 20.9428948,
+    "lon": -89.5953436
+  },
+  "tags": {
+    "access": "permissive",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791062,
+  "center": {
+    "lat": 20.9428843,
+    "lon": -89.5951418
+  },
+  "tags": {
+    "access": "permissive",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791063,
+  "center": {
+    "lat": 20.9428758,
+    "lon": -89.5949377
+  },
+  "tags": {
+    "access": "permissive",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis",
+    "surface": "paved"
+  }
+},
+{
+  "type": "way",
+  "id": 1359791064,
+  "center": {
+    "lat": 20.9834112,
+    "lon": -89.6438464
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892354,
+  "center": {
+    "lat": 20.9523287,
+    "lon": -89.6029812
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892355,
+  "center": {
+    "lat": 20.9525171,
+    "lon": -89.6028008
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892371,
+  "center": {
+    "lat": 20.9561345,
+    "lon": -89.5965202
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892372,
+  "center": {
+    "lat": 20.9559533,
+    "lon": -89.5964758
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892373,
+  "center": {
+    "lat": 20.9556435,
+    "lon": -89.5968967
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892376,
+  "center": {
+    "lat": 20.9575687,
+    "lon": -89.5986559
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Deportivo Siqueiros"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892380,
+  "center": {
+    "lat": 20.9639272,
+    "lon": -89.5822504
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892381,
+  "center": {
+    "lat": 20.9639417,
+    "lon": -89.5818686
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892383,
+  "center": {
+    "lat": 20.9682599,
+    "lon": -89.5864030
+  },
+  "tags": {
+    "access": "yes",
+    "hoops": "4",
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "ground"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892387,
+  "center": {
+    "lat": 20.9695732,
+    "lon": -89.5871274
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_hall",
+    "name": "Gimnasio Solidaridad"
+  }
+},
+{
+  "type": "way",
+  "id": 1359892388,
+  "center": {
+    "lat": 20.9691476,
+    "lon": -89.5871935
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359906588,
+  "center": {
+    "lat": 21.0094021,
+    "lon": -89.6000979
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball;soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359943246,
+  "center": {
+    "lat": 21.0321437,
+    "lon": -89.5771023
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Campo ATFFA",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359967075,
+  "center": {
+    "lat": 21.0323149,
+    "lon": -89.6051601
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359967076,
+  "center": {
+    "lat": 21.0322659,
+    "lon": -89.6048763
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359967077,
+  "center": {
+    "lat": 21.0322464,
+    "lon": -89.6045251
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359967078,
+  "center": {
+    "lat": 21.0312096,
+    "lon": -89.6047832
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359967089,
+  "center": {
+    "lat": 21.0321495,
+    "lon": -89.6056188
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969129,
+  "center": {
+    "lat": 21.0343355,
+    "lon": -89.6010499
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969130,
+  "center": {
+    "lat": 21.0342474,
+    "lon": -89.6011593
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969131,
+  "center": {
+    "lat": 21.0341551,
+    "lon": -89.6009342
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969132,
+  "center": {
+    "lat": 21.0339751,
+    "lon": -89.6008274
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969144,
+  "center": {
+    "lat": 21.0651066,
+    "lon": -89.5966346
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969145,
+  "center": {
+    "lat": 21.0646190,
+    "lon": -89.5966601
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969148,
+  "center": {
+    "lat": 21.1129328,
+    "lon": -89.6089722
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969150,
+  "center": {
+    "lat": 21.1144035,
+    "lon": -89.6084292
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969151,
+  "center": {
+    "lat": 21.1147132,
+    "lon": -89.6094133
+  },
+  "tags": {
+    "leisure": "track",
+    "sport": "running"
+  }
+},
+{
+  "type": "way",
+  "id": 1359969152,
+  "center": {
+    "lat": 21.1144150,
+    "lon": -89.6094107
+  },
+  "tags": {
+    "leisure": "track",
+    "sport": "running"
+  }
+},
+{
+  "type": "way",
+  "id": 1359972374,
+  "center": {
+    "lat": 21.0311836,
+    "lon": -89.5361622
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Padel Coriasso"
+  }
+},
+{
+  "type": "way",
+  "id": 1359972375,
+  "center": {
+    "lat": 21.0314172,
+    "lon": -89.5360441
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359972376,
+  "center": {
+    "lat": 21.0312457,
+    "lon": -89.5361073
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359972377,
+  "center": {
+    "lat": 21.0310731,
+    "lon": -89.5361707
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359972378,
+  "center": {
+    "lat": 21.0309006,
+    "lon": -89.5362362
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1359972386,
+  "center": {
+    "lat": 21.0278489,
+    "lon": -89.5202441
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1359972387,
+  "center": {
+    "lat": 21.0273201,
+    "lon": -89.5213345
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1359972389,
+  "center": {
+    "lat": 21.0421569,
+    "lon": -89.5569092
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1359972392,
+  "center": {
+    "lat": 21.0420323,
+    "lon": -89.5566842
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1360164944,
+  "center": {
+    "lat": 21.0034459,
+    "lon": -89.5819100
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1360164948,
+  "center": {
+    "lat": 20.9967090,
+    "lon": -89.5801766
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1360874597,
+  "center": {
+    "lat": 20.9665295,
+    "lon": -89.6895914
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1361250264,
+  "center": {
+    "lat": 20.9568393,
+    "lon": -89.5688587
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1361597150,
+  "center": {
+    "lat": 20.9336616,
+    "lon": -89.6858207
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1362760499,
+  "center": {
+    "lat": 20.9334499,
+    "lon": -89.6752443
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1362774606,
+  "center": {
+    "lat": 20.9626465,
+    "lon": -89.6683699
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1362774607,
+  "center": {
+    "lat": 20.9629392,
+    "lon": -89.6682907
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1366026382,
+  "center": {
+    "lat": 21.0500372,
+    "lon": -89.6781518
+  },
+  "tags": {
+    "access": "yes",
+    "hoops": "2",
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1366343815,
+  "center": {
+    "lat": 20.9612840,
+    "lon": -89.5938915
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1366343817,
+  "center": {
+    "lat": 20.9615004,
+    "lon": -89.5939628
+  },
+  "tags": {
+    "access": "customers",
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1366465554,
+  "center": {
+    "lat": 20.9918416,
+    "lon": -89.5284473
+  },
+  "tags": {
+    "access": "yes",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1367504230,
+  "center": {
+    "lat": 20.9467555,
+    "lon": -89.6969017
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1368324298,
+  "center": {
+    "lat": 20.9786265,
+    "lon": -89.5999657
+  },
+  "tags": {
+    "access": "customers",
+    "hoops": "2",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1368996804,
+  "center": {
+    "lat": 20.9694924,
+    "lon": -89.6572091
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1368996805,
+  "center": {
+    "lat": 20.9696264,
+    "lon": -89.6574247
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1369384717,
+  "center": {
+    "lat": 20.9893269,
+    "lon": -89.7266463
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1369728514,
+  "center": {
+    "lat": 20.9787800,
+    "lon": -89.6019746
+  },
+  "tags": {
+    "fee": "no",
+    "leisure": "sports_centre",
+    "name": "Centro Deportivo Universitario",
+    "operator": "Universidad Autónoma de Yucatán UADY",
+    "operator:type": "university",
+    "sport": "soccer;basketball;athletics;running;softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1372191587,
+  "center": {
+    "lat": 21.0486224,
+    "lon": -89.6203039
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1372191588,
+  "center": {
+    "lat": 21.0487344,
+    "lon": -89.6205695
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1372191589,
+  "center": {
+    "lat": 21.0488500,
+    "lon": -89.6208660
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1372191590,
+  "center": {
+    "lat": 21.0489611,
+    "lon": -89.6211555
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1372589523,
+  "center": {
+    "lat": 20.9668282,
+    "lon": -89.6852068
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1376546356,
+  "center": {
+    "lat": 20.9946638,
+    "lon": -89.5794378
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball;softball"
+  }
+},
+{
+  "type": "way",
+  "id": 1376546360,
+  "center": {
+    "lat": 20.9932112,
+    "lon": -89.5747896
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball;futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1376546361,
+  "center": {
+    "lat": 20.9930537,
+    "lon": -89.5746291
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball;futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1376566064,
+  "center": {
+    "lat": 21.0047079,
+    "lon": -89.6163228
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1376566065,
+  "center": {
+    "lat": 21.0053647,
+    "lon": -89.6173515
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1376566066,
+  "center": {
+    "lat": 21.0055173,
+    "lon": -89.6169378
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1376643522,
+  "center": {
+    "lat": 20.9417838,
+    "lon": -89.7108923
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 1376643523,
+  "center": {
+    "lat": 20.9416576,
+    "lon": -89.7094381
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "multi"
+  }
+},
+{
+  "type": "way",
+  "id": 1376643527,
+  "center": {
+    "lat": 20.9391157,
+    "lon": -89.7096789
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1378238122,
+  "center": {
+    "lat": 20.9767699,
+    "lon": -89.6825790
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1378591054,
+  "center": {
+    "lat": 20.9580727,
+    "lon": -89.6730672
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1385467803,
+  "center": {
+    "lat": 20.9196608,
+    "lon": -89.6305876
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1385873688,
+  "center": {
+    "lat": 20.9689466,
+    "lon": -89.6309398
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1388090911,
+  "center": {
+    "lat": 20.9292967,
+    "lon": -89.6032871
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1389079341,
+  "center": {
+    "lat": 21.0441485,
+    "lon": -89.6496028
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1389079342,
+  "center": {
+    "lat": 21.0440918,
+    "lon": -89.6494369
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1389079343,
+  "center": {
+    "lat": 21.0444788,
+    "lon": -89.6494726
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1389079344,
+  "center": {
+    "lat": 21.0448132,
+    "lon": -89.6493410
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1389079345,
+  "center": {
+    "lat": 21.0447559,
+    "lon": -89.6491725
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1389079346,
+  "center": {
+    "lat": 21.0446914,
+    "lon": -89.6489970
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1389079347,
+  "center": {
+    "lat": 21.0446351,
+    "lon": -89.6488348
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1389079350,
+  "center": {
+    "lat": 21.0443744,
+    "lon": -89.6491740
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1389079351,
+  "center": {
+    "lat": 21.0443309,
+    "lon": -89.6490467
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "lit": "yes",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1391269673,
+  "center": {
+    "lat": 21.0129968,
+    "lon": -89.6205214
+  },
+  "tags": {
+    "area": "yes",
+    "leisure": "track",
+    "sport": "running"
+  }
+},
+{
+  "type": "way",
+  "id": 1392401577,
+  "center": {
+    "lat": 20.9537933,
+    "lon": -89.6936280
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1392401578,
+  "center": {
+    "lat": 20.9540491,
+    "lon": -89.6936216
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1392845958,
+  "center": {
+    "lat": 20.9461208,
+    "lon": -89.5962731
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1392845959,
+  "center": {
+    "lat": 20.9423087,
+    "lon": -89.5949894
+  },
+  "tags": {
+    "access": "yes",
+    "leisure": "pitch",
+    "name": "Jaulas de Pádel",
+    "sport": "padel"
+  }
+},
+{
+  "type": "way",
+  "id": 1392845960,
+  "center": {
+    "lat": 20.9420036,
+    "lon": -89.5943475
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "archery"
+  }
+},
+{
+  "type": "way",
+  "id": 1395811923,
+  "center": {
+    "lat": 21.0133974,
+    "lon": -89.6222570
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Campo de Baseball",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1395839562,
+  "center": {
+    "lat": 21.0146217,
+    "lon": -89.6142412
+  },
+  "tags": {
+    "access": "private",
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1396715625,
+  "center": {
+    "lat": 20.9407905,
+    "lon": -89.6672877
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1396715640,
+  "center": {
+    "lat": 20.9362878,
+    "lon": -89.6440814
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1408176396,
+  "center": {
+    "lat": 20.9260805,
+    "lon": -89.6829259
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1408435783,
+  "center": {
+    "lat": 20.9251392,
+    "lon": -89.6799530
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1408442885,
+  "center": {
+    "lat": 20.9285306,
+    "lon": -89.6779679
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1408640317,
+  "center": {
+    "lat": 20.9247169,
+    "lon": -89.6843624
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1410137255,
+  "center": {
+    "lat": 21.0022715,
+    "lon": -89.6278641
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1410137256,
+  "center": {
+    "lat": 21.0019990,
+    "lon": -89.6279154
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1410215081,
+  "center": {
+    "lat": 20.9966236,
+    "lon": -89.6659868
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Campo Deportivo Porvenir"
+  }
+},
+{
+  "type": "way",
+  "id": 1410215082,
+  "center": {
+    "lat": 20.9966427,
+    "lon": -89.6660299
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1410767757,
+  "center": {
+    "lat": 20.9598356,
+    "lon": -89.6399372
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1410767758,
+  "center": {
+    "lat": 20.9602706,
+    "lon": -89.6394055
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1410767759,
+  "center": {
+    "lat": 20.9602652,
+    "lon": -89.6396376
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1410767760,
+  "center": {
+    "lat": 20.9602870,
+    "lon": -89.6397719
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1412317294,
+  "center": {
+    "lat": 20.9456458,
+    "lon": -89.6613150
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1412317295,
+  "center": {
+    "lat": 20.9451107,
+    "lon": -89.6610388
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1412329029,
+  "center": {
+    "lat": 20.9623060,
+    "lon": -89.6437700
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1413992579,
+  "center": {
+    "lat": 21.0051480,
+    "lon": -89.7171724
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1414158667,
+  "center": {
+    "lat": 20.9300089,
+    "lon": -89.6794186
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1414549343,
+  "center": {
+    "lat": 21.0208456,
+    "lon": -89.5393963
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer",
+    "surface": "artificial_turf"
+  }
+},
+{
+  "type": "way",
+  "id": 1414549344,
+  "center": {
+    "lat": 21.0206170,
+    "lon": -89.5395166
+  },
+  "tags": {
+    "building": "roof",
+    "leisure": "pitch",
+    "sport": "basketball",
+    "surface": "concrete"
+  }
+},
+{
+  "type": "way",
+  "id": 1418576234,
+  "center": {
+    "lat": 20.9849424,
+    "lon": -89.6710692
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Tirolesa",
+    "operator": "Parque Muncipal de Deportes Extremos",
+    "operator:type": "government",
+    "sport": "climbing_adventure;tirolesa;zipline"
+  }
+},
+{
+  "type": "way",
+  "id": 1418576236,
+  "center": {
+    "lat": 20.9844060,
+    "lon": -89.6717765
+  },
+  "tags": {
+    "access": "yes",
+    "leisure": "pitch",
+    "name": "Futbolito gigante",
+    "sport": "futsal"
+  }
+},
+{
+  "type": "way",
+  "id": 1418576237,
+  "center": {
+    "lat": 20.9843611,
+    "lon": -89.6712798
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Telaraña",
+    "sport": "climbing_adventure"
+  }
+},
+{
+  "type": "way",
+  "id": 1424847491,
+  "center": {
+    "lat": 21.0086766,
+    "lon": -89.6245918
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1424854654,
+  "center": {
+    "lat": 21.0421306,
+    "lon": -89.6270431
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1424854660,
+  "center": {
+    "lat": 21.0424324,
+    "lon": -89.6273696
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1426104548,
+  "center": {
+    "lat": 21.0108232,
+    "lon": -89.6656733
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1426859804,
+  "center": {
+    "lat": 21.0278290,
+    "lon": -89.6229721
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1427149709,
+  "center": {
+    "lat": 20.9360707,
+    "lon": -89.6443415
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1429064319,
+  "center": {
+    "lat": 21.0366827,
+    "lon": -89.6262393
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1431714014,
+  "center": {
+    "lat": 21.0130644,
+    "lon": -89.6368093
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1454191962,
+  "center": {
+    "lat": 21.0124180,
+    "lon": -89.5739383
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1454191963,
+  "center": {
+    "lat": 21.0131934,
+    "lon": -89.5740810
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1454191964,
+  "center": {
+    "lat": 21.0132293,
+    "lon": -89.5738574
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1454191965,
+  "center": {
+    "lat": 21.0128772,
+    "lon": -89.5738528
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1454191966,
+  "center": {
+    "lat": 21.0128750,
+    "lon": -89.5740787
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1454191967,
+  "center": {
+    "lat": 21.0129939,
+    "lon": -89.5742853
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1454191968,
+  "center": {
+    "lat": 21.0128228,
+    "lon": -89.5744676
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1472728150,
+  "center": {
+    "lat": 20.9934254,
+    "lon": -89.5916652
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1472728151,
+  "center": {
+    "lat": 20.9934333,
+    "lon": -89.5918414
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1472728152,
+  "center": {
+    "lat": 20.9937475,
+    "lon": -89.5915867
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1472728153,
+  "center": {
+    "lat": 20.9937536,
+    "lon": -89.5917987
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1472728154,
+  "center": {
+    "lat": 20.9930108,
+    "lon": -89.5921685
+  },
+  "tags": {
+    "building": "roof",
+    "leisure": "sports_centre",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 1472728155,
+  "center": {
+    "lat": 20.9936416,
+    "lon": -89.5910223
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_hall"
+  }
+},
+{
+  "type": "way",
+  "id": 1472728158,
+  "center": {
+    "lat": 20.9929920,
+    "lon": -89.5918161
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1472768190,
+  "center": {
+    "lat": 20.9946021,
+    "lon": -89.5889478
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1472768194,
+  "center": {
+    "lat": 20.9938604,
+    "lon": -89.5888210
+  },
+  "tags": {
+    "leisure": "pitch"
+  }
+},
+{
+  "type": "way",
+  "id": 1472797251,
+  "center": {
+    "lat": 20.9892814,
+    "lon": -89.5962361
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "baseball"
+  }
+},
+{
+  "type": "way",
+  "id": 1472797252,
+  "center": {
+    "lat": 20.9895092,
+    "lon": -89.5959364
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1472797253,
+  "center": {
+    "lat": 20.9892814,
+    "lon": -89.5957516
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 1472797254,
+  "center": {
+    "lat": 20.9890885,
+    "lon": -89.5958894
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1472797259,
+  "center": {
+    "lat": 20.9854787,
+    "lon": -89.5964912
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "equestrian"
+  }
+},
+{
+  "type": "way",
+  "id": 1557674394,
+  "center": {
+    "lat": 20.9932274,
+    "lon": -89.6078620
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 1572318203,
+  "center": {
+    "lat": 21.0211141,
+    "lon": -89.5546908
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 1578092315,
+  "center": {
+    "lat": 20.8928283,
+    "lon": -89.6703888
+  },
+  "tags": {
+    "leisure": "pitch",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "relation",
+  "id": 9132470,
+  "center": {
+    "lat": 20.9457435,
+    "lon": -89.5937082
+  },
+  "tags": {
+    "leisure": "track",
+    "sport": "running",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13195781,
+  "center": {
+    "lat": 20.9820611,
+    "lon": -89.6453878
+  },
+  "tags": {
+    "leisure": "track",
+    "sport": "running",
+    "surface": "clay",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13195782,
+  "center": {
+    "lat": 20.9818358,
+    "lon": -89.6453965
+  },
+  "tags": {
+    "leisure": "track",
+    "sport": "running",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 13196916,
+  "center": {
+    "lat": 20.9943454,
+    "lon": -89.6219059
+  },
+  "tags": {
+    "lanes": "8",
+    "leisure": "track",
+    "sport": "running",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 17461770,
+  "center": {
+    "lat": 20.9855643,
+    "lon": -89.6254854
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "sport": "bullfighting",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 17461771,
+  "center": {
+    "lat": 20.9854397,
+    "lon": -89.6252817
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "stadium",
+    "name": "Plaza de Toros",
+    "sport": "bullfighting",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 21876104,
+  "center": {
+    "lat": 20.9411388,
+    "lon": -89.5960185
+  },
+  "tags": {
+    "addr:city": "Mérida",
+    "addr:postcode": "97174",
+    "addr:street": "Circuito Colonias",
+    "building": "yes",
+    "layer": "-1",
+    "leisure": "stadium",
+    "name": "Parque de Beisbol Kukulcán",
+    "sport": "baseball",
+    "type": "multipolygon",
+    "wikidata": "Q741467"
+  }
+}
+
+  ]
+}

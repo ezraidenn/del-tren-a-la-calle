@@ -508,6 +508,19 @@ silver,inegi_censo_2020_ageb_yucatan,vph_sinrtv,Int64,248,16.19,94,0,160,11
 silver,inegi_censo_2020_ageb_yucatan,vph_sinltc,Int64,285,18.6,156,0,307,43
 silver,inegi_censo_2020_ageb_yucatan,vph_sincint,Int64,97,6.33,442,0,1007,164
 silver,inegi_censo_2020_ageb_yucatan,vph_sintic,Int64,361,23.56,57,0,85,7
+silver,osm_unidades_deportivas,osm_id,string,0,0.0,825,,,node/11677824230
+silver,osm_unidades_deportivas,nombre,string,742,89.94,81,,,Escuela de natación Acuarium
+silver,osm_unidades_deportivas,tipo,string,0,0.0,5,,,pitch
+silver,osm_unidades_deportivas,deporte,string,79,9.58,49,,,padel
+silver,osm_unidades_deportivas,acceso,string,0,0.0,8,,,sin dato
+silver,osm_unidades_deportivas,operador,string,816,98.91,7,,,Universidad Autónoma de Yucatán
+silver,osm_unidades_deportivas,superficie,string,744,90.18,13,,,concrete
+silver,osm_unidades_deportivas,iluminado,string,757,91.76,2,,,yes
+silver,osm_unidades_deportivas,acceso_publico_probable,boolean,0,0.0,2,,,True
+silver,osm_unidades_deportivas,lat,Float64,0,0.0,824,20.7492468,21.1420684,21.1198518
+silver,osm_unidades_deportivas,lon,Float64,0,0.0,825,-89.7781529,-89.4815067,-89.599444
+silver,osm_unidades_deportivas,fuente,string,0,0.0,1,,,OpenStreetMap
+silver,osm_unidades_deportivas,version_osm,string,0,0.0,1,,,2026-11-25T07:10:20Z
 silver,rutatrenmaya_conexiones_teya,servicio,string,0,0.0,2,,,Transporte Intermodal Oficial del Tren Maya
 silver,rutatrenmaya_conexiones_teya,origen,string,0,0.0,3,,,Estación Tren Maya
 silver,rutatrenmaya_conexiones_teya,destino,string,0,0.0,3,,,Centro Histórico de Mérida
@@ -612,3 +625,80 @@ silver,tren_maya_servicio_mensual,periodo_fin,string,0,0.0,34,,,2025-01-31
 silver,tren_maya_servicio_mensual,variable,string,0,0.0,5,,,boletos_vendidos
 silver,tren_maya_servicio_mensual,valor,Float64,7,5.74,114,238.0,281268.88,106534.0
 silver,tren_maya_servicio_mensual,archivo_origen,string,0,0.0,8,,,boletos_2025.json
+simulado,sim_obras_banquetas_centro,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_obras_banquetas_centro,numero_obra,str,0,0.0,32,,,SIM-OP-2023-001
+simulado,sim_obras_banquetas_centro,descripcion,str,0,0.0,32,,,"Construcción de rampas y cruces peatonales accesibles en calle 55 entre 54 y 56,"
+simulado,sim_obras_banquetas_centro,tipo_accion,str,0,0.0,5,,,Construcción de rampas y cruces peatonales accesibles
+simulado,sim_obras_banquetas_centro,calle,int64,0,0.0,22,45,79,55
+simulado,sim_obras_banquetas_centro,entre_calle_1,int64,0,0.0,21,46,77,54
+simulado,sim_obras_banquetas_centro,entre_calle_2,int64,0,0.0,21,48,79,56
+simulado,sim_obras_banquetas_centro,perimetro,str,0,0.0,2,,,A
+simulado,sim_obras_banquetas_centro,lat,float64,0,0.0,21,20.957275,20.976825,20.971075
+simulado,sim_obras_banquetas_centro,lon,float64,0,0.0,22,-89.63114,-89.61546,-89.6205
+simulado,sim_obras_banquetas_centro,metros_lineales,float64,0,0.0,32,100.32,249.41,224.2
+simulado,sim_obras_banquetas_centro,metros_cuadrados,float64,0,0.0,32,129.17,481.98,344.87
+simulado,sim_obras_banquetas_centro,rampas,int64,0,0.0,6,0,8,4
+simulado,sim_obras_banquetas_centro,cruces_peatonales,int64,0,0.0,3,0,2,1
+simulado,sim_obras_banquetas_centro,monto_contratado_mxn,float64,0,0.0,32,254964.57,993656.53,842017.51
+simulado,sim_obras_banquetas_centro,monto_ejercido_mxn,float64,0,0.0,32,253138.83,1017844.37,799289.78
+simulado,sim_obras_banquetas_centro,monto_por_m2_mxn,float64,0,0.0,32,1376.07,2856.71,2441.55
+simulado,sim_obras_banquetas_centro,fuente_financiamiento,str,0,0.0,3,,,FORTAMUN
+simulado,sim_obras_banquetas_centro,fecha_inicio,str,0,0.0,32,,,2023-01-10
+simulado,sim_obras_banquetas_centro,fecha_termino,str,1,3.12,31,,,2023-04-14
+simulado,sim_obras_banquetas_centro,fecha_termino_programada,str,0,0.0,32,,,2023-04-14
+simulado,sim_obras_banquetas_centro,estatus,str,0,0.0,2,,,Terminada
+simulado,sim_obras_banquetas_centro,dependencia,str,0,0.0,2,,,Dirección de Obras Públicas
+simulado,sim_obras_banquetas_centro,nota,str,31,96.88,1,,,Obra difundida por el Ayuntamiento el 29 de junio de 2026
+simulado,sim_r901_corridas_mes,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_r901_corridas_mes,mes,str,0,0.0,9,,,2026-01
+simulado,sim_r901_corridas_mes,tipo_dia,str,0,0.0,3,,,L-V
+simulado,sim_r901_corridas_mes,dias,int64,0,0.0,6,4,23,22
+simulado,sim_r901_corridas_mes,corridas_programadas,int64,0,0.0,6,80,460,440
+simulado,sim_r901_corridas_mes,corridas_realizadas,int64,0,0.0,16,77,457,436
+simulado,sim_r901_corridas_mes,cumplimiento_pct,float64,0,0.0,15,96.0,100.0,99.09
+simulado,sim_r901_parada_sentido,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_r901_parada_sentido,mes,str,0,0.0,9,,,2026-01
+simulado,sim_r901_parada_sentido,sentido,str,0,0.0,2,,,Estación La Plancha -> Estación Teya
+simulado,sim_r901_parada_sentido,orden,int64,0,0.0,5,1,5,1
+simulado,sim_r901_parada_sentido,stop_id,str,0,0.0,8,,,975
+simulado,sim_r901_parada_sentido,parada,str,0,0.0,6,,,Estación La Plancha
+simulado,sim_r901_parada_sentido,ascensos,int64,0,0.0,64,0,1491,908
+simulado,sim_r901_parada_sentido,descensos,int64,0,0.0,69,0,1707,0
+simulado,sim_r901_validaciones_corrida,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_r901_validaciones_corrida,mes,str,0,0.0,9,,,2026-01
+simulado,sim_r901_validaciones_corrida,tipo_dia,str,0,0.0,3,,,Domingo
+simulado,sim_r901_validaciones_corrida,sentido,str,0,0.0,2,,,Estación La Plancha -> Estación Teya
+simulado,sim_r901_validaciones_corrida,trip_id,str,0,0.0,60,,,33867
+simulado,sim_r901_validaciones_corrida,salida,str,0,0.0,18,,,05:30
+simulado,sim_r901_validaciones_corrida,validaciones,int64,0,0.0,151,7,297,34
+simulado,sim_r901_validaciones_tarifa,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_r901_validaciones_tarifa,mes,str,0,0.0,9,,,2026-01
+simulado,sim_r901_validaciones_tarifa,tipo_tarifa,str,0,0.0,4,,,turistas
+simulado,sim_r901_validaciones_tarifa,tarifa_mxn,float64,0,0.0,4,0.0,45.0,45.0
+simulado,sim_r901_validaciones_tarifa,validaciones,int64,0,0.0,36,117,1602,1282
+simulado,sim_r901_validaciones_tarifa,ingreso_mxn,float64,0,0.0,28,0.0,62865.0,57690.0
+simulado,sim_tm_boletos_tarifa,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_tm_boletos_tarifa,mes,str,0,0.0,34,,,2023-12
+simulado,sim_tm_boletos_tarifa,ambito,str,0,0.0,2,,,Sistema
+simulado,sim_tm_boletos_tarifa,tipo_tarifa,str,0,0.0,4,,,Nacional
+simulado,sim_tm_boletos_tarifa,boletos,int64,0,0.0,269,318,70075,5198
+simulado,sim_tm_boletos_tarifa,base_del_total,str,0,0.0,3,,,pasajeros transportados
+simulado,sim_tm_origen_destino_teya,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_tm_origen_destino_teya,mes,str,0,0.0,34,,,2023-12
+simulado,sim_tm_origen_destino_teya,estacion_origen,str,0,0.0,34,,,Mérida Teya
+simulado,sim_tm_origen_destino_teya,estacion_destino,str,0,0.0,34,,,Cancún Aeropuerto
+simulado,sim_tm_origen_destino_teya,boletos,int64,0,0.0,788,15,3554,513
+simulado,sim_tm_origen_destino_teya,tiempo_viaje_min,float64,352,17.74,25,14.0,452.0,216.0
+simulado,sim_tm_pasajeros_estacion_mes,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_tm_pasajeros_estacion_mes,mes,str,0,0.0,34,,,2023-12
+simulado,sim_tm_pasajeros_estacion_mes,estacion,str,0,0.0,34,,,Cancún Aeropuerto
+simulado,sim_tm_pasajeros_estacion_mes,ascensos,int64,0,0.0,884,124,23724,2682
+simulado,sim_tm_pasajeros_estacion_mes,descensos,int64,0,0.0,870,115,23709,2938
+simulado,sim_tm_teya_dia_corrida,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_tm_teya_dia_corrida,mes,str,0,0.0,34,,,2023-12
+simulado,sim_tm_teya_dia_corrida,dia_semana,str,0,0.0,7,,,lunes
+simulado,sim_tm_teya_dia_corrida,circulacion,str,0,0.0,9,,,301
+simulado,sim_tm_teya_dia_corrida,hacia,str,0,0.0,2,,,Estación Cancún
+simulado,sim_tm_teya_dia_corrida,hora_salida_teya,str,0,0.0,9,,,07:00
+simulado,sim_tm_teya_dia_corrida,ascensos,int64,0,0.0,388,20,619,40
+simulado,sim_tm_teya_dia_corrida,descensos,int64,0,0.0,374,19,575,28
