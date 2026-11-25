@@ -20,6 +20,10 @@ columna origen_dato = "SIMULADO", id de fuente E8-05.N-SIM, capa «simulado»
 en el catálogo y un LEEME_SIMULADO.md por carpeta con el método. Los
 identificadores de obra empiezan con SIM- y no imitan folios oficiales.
 
+También llama a src/simular_campo.py, que genera el levantamiento de campo
+simulado (subtemas 6, 7 y 8), para que todas las tablas simuladas queden en el
+catálogo en una sola pasada.
+
 La semilla es fija: dos corridas dan archivos idénticos. Cada tabla se
 concilia contra el total real que la calibra (reportes/conciliacion.csv).
 
@@ -73,6 +77,7 @@ def dias_del_mes(anio: int, mes: int) -> list[int]:
 
 
 def control(tabla: str, ident: str, real: int, simulado: int, nota: str) -> None:
+    """Registra un control: el valor esperado (real o de referencia) contra el simulado."""
     ok = int(real) == int(simulado)
     conciliacion.append({
         "capa": "simulado", "tabla": tabla, "id_fuente": ident, "filas_original": int(real),
@@ -82,28 +87,36 @@ def control(tabla: str, ident: str, real: int, simulado: int, nota: str) -> None
     print(f"[{'OK' if ok else 'REVISAR'}] {tabla}: {nota}")
 
 
-SOLICITUDES = {
-    "E8-05.1-SIM": ("5.1_tren_maya_pasajeros", "Tren Maya, S.A. de C.V.",
-                    "campo/05_solicitud_datos/5.1_tren_maya_pasajeros/solicitud.md"),
-    "E8-05.2-SIM": ("5.2_aty_ruta_r901", "Agencia de Transporte de Yucatán (ATY)",
-                    "campo/05_solicitud_datos/5.2_aty_ruta_r901/solicitud.md"),
-    "E8-05.3-SIM": ("5.3_ayuntamiento_banquetas", "Ayuntamiento de Mérida",
-                    "campo/05_solicitud_datos/5.3_ayuntamiento_banquetas/solicitud.md"),
-}
 URL_REPO = "https://github.com/ezraidenn/del-tren-a-la-calle/blob/main/"
 
 
+def _solicitud(carpeta: str, sujeto: str) -> tuple[str, str, str]:
+    return (f"05_solicitud_datos/{carpeta}",
+            f"SIMULADO: respuesta simulada a la solicitud de acceso a la información dirigida a {sujeto}; "
+            "no es dato oficial",
+            f"{URL_REPO}campo/05_solicitud_datos/{carpeta}/solicitud.md")
+
+
+# Fuente simulada -> (carpeta dentro de datos/simulados, texto de fuente, URL de referencia).
+FUENTES_SIM = {
+    "E8-05.1-SIM": _solicitud("5.1_tren_maya_pasajeros", "Tren Maya, S.A. de C.V."),
+    "E8-05.2-SIM": _solicitud("5.2_aty_ruta_r901", "Agencia de Transporte de Yucatán (ATY)"),
+    "E8-05.3-SIM": _solicitud("5.3_ayuntamiento_banquetas", "Ayuntamiento de Mérida"),
+}
+
+
 def guardar(df: pd.DataFrame, ident: str, tabla: str, clave: list[str], granularidad: str,
-            territorio: str, cobertura, unidad: str, calibracion: str, descripciones: dict) -> None:
+            territorio: str, cobertura, unidad: str, calibracion: str, descripciones: dict,
+            archivo: str | None = None, script: str = "src/simular_solicitudes.py") -> None:
     """Escribe Parquet y CSV y registra la tabla en catálogo, diccionario y perfil."""
-    carpeta, sujeto, solicitud = SOLICITUDES[ident]
+    carpeta, texto_fuente, url = FUENTES_SIM[ident]
     df = df.copy()
     df.insert(0, "origen_dato", MARCA)
     if df.duplicated(clave).any():
         raise SystemExit(f"{tabla}: la clave {clave} se repite")
-    destino = SIM / carpeta
+    destino = SIM.parent / carpeta
     destino.mkdir(parents=True, exist_ok=True)
-    nombre = f"SIMULADO_{tabla.removeprefix('sim_')}"
+    nombre = f"SIMULADO_{archivo or tabla.removeprefix('sim_')}"
     spec = {
         "tabla": tabla, "id_fuente": ident, "formato": "tabular", "clave": clave,
         "granularidad": granularidad, "territorio": territorio, "cobertura": cobertura, "unidad": unidad,
@@ -113,9 +126,8 @@ def guardar(df: pd.DataFrame, ident: str, tabla: str, clave: list[str], granular
     df.to_parquet(spec["_parquet"], index=False)
     curar.escribir_csv(df, spec["_csv"])
     ficha = curar.ficha_catalogo(spec, df, "simulado", {})
-    ficha["fuente"] = (f"SIMULADO: respuesta simulada a la solicitud de acceso a la información dirigida a "
-                       f"{sujeto}; no es dato oficial")
-    ficha["url_original"] = URL_REPO + solicitud
+    ficha["fuente"] = texto_fuente
+    ficha["url_original"] = url
     ficha["licencia"] = "CC-BY-4.0 (datos simulados del equipo)"
     catalogo.append(ficha)
     comunes = {"origen_dato": ("Marca fija «SIMULADO»: el registro no es dato oficial", "texto")}
@@ -125,7 +137,7 @@ def guardar(df: pd.DataFrame, ident: str, tabla: str, clave: list[str], granular
             "capa": "simulado", "tabla": tabla, "columna": col, "tipo": str(df[col].dtype),
             "es_clave": col in clave, "descripcion": desc, "unidad": uni,
             "nulos_pct": round(100 * df[col].isna().mean(), 2) if len(df) else 0,
-            "origen_descripcion": "src/simular_solicitudes.py",
+            "origen_descripcion": script,
         })
     perfiles.append(curar.perfil_columnas(df, tabla, "simulado"))
 
@@ -566,6 +578,8 @@ def main() -> int:
     teya = tren_maya(rng)
     r901(rng, teya)
     obras_centro(rng)
+    import simular_campo
+    simular_campo.generar(guardar, control, FUENTES_SIM)
 
     curar.actualizar(RAIZ / "catalogo_tablas.csv", pd.DataFrame(catalogo), "simulado")
     curar.actualizar(RAIZ / "diccionario_columnas.csv", pd.DataFrame(diccionario), "simulado")

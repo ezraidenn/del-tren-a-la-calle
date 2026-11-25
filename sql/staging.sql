@@ -58,6 +58,28 @@ CREATE TABLE IF NOT EXISTS e8_staging.dim_tiempo (
 );
 COMMENT ON TABLE e8_staging.dim_tiempo IS 'mes; no aplica; cobertura 2019-01-01 a 2026-12-01; fuente no aplica';
 
+-- gold: ind_ageb_entorno_merida
+CREATE TABLE IF NOT EXISTS e8_staging.ind_ageb_entorno_merida (
+    cvegeo_ageb text,
+    en_censo_2020 boolean,
+    pob_total bigint,
+    total_viviendas_habitadas bigint,
+    area_km2 double precision,
+    paradas_transporte bigint,
+    restaurantes_seccion_amarilla bigint,
+    instalaciones_deportivas bigint,
+    estacionamientos_bicicleta bigint,
+    instalaciones_deportivas_publicas bigint,
+    km_ciclovia double precision,
+    densidad_hab_km2 double precision,
+    paradas_por_km2 double precision,
+    deportivas_publicas_por_10mil_hab double precision,
+    km_ciclovia_por_10mil_hab double precision,
+    restaurantes_por_10mil_hab double precision,
+    PRIMARY KEY (cvegeo_ageb)
+);
+COMMENT ON TABLE e8_staging.ind_ageb_entorno_merida IS 'AGEB urbana; Municipio de Mérida; cobertura 2020 a 2026; fuente E8-03.3;E8-04.1;E8-04.2;E8-04.3;E8-09.1';
+
 -- gold: ind_municipio_contexto
 CREATE TABLE IF NOT EXISTS e8_staging.ind_municipio_contexto (
     cvegeo_mun text,
@@ -116,6 +138,7 @@ CREATE TABLE IF NOT EXISTS e8_staging.ind_restaurantes_transporte (
     distancia_parada_m double precision,
     paradas_a_400_m bigint,
     a_400_m_de_parada boolean,
+    cvegeo_ageb text,
     PRIMARY KEY (id_anuncio)
 );
 COMMENT ON TABLE e8_staging.ind_restaurantes_transporte IS 'restaurante; Municipio de Mérida; cobertura 2026-11-24 a 2026-11-24; fuente E8-09.1;E8-04.3';
@@ -647,6 +670,23 @@ CREATE TABLE IF NOT EXISTS e8_staging.inegi_censo_2020_ageb_yucatan (
 );
 COMMENT ON TABLE e8_staging.inegi_censo_2020_ageb_yucatan IS 'AGEB urbana; Yucatán; cobertura 2020 a 2020; fuente E8-03.3';
 
+-- silver: inegi_mg_ageb_urbana_yucatan
+CREATE TABLE IF NOT EXISTS e8_staging.inegi_mg_ageb_urbana_yucatan (
+    cvegeo_ageb text,
+    cvegeo_mun text,
+    cvegeo_loc text,
+    nom_mun text,
+    cve_ageb text,
+    en_censo_2020 boolean,
+    pob_total bigint,
+    total_viviendas_habitadas bigint,
+    area_km2 double precision,
+    lat double precision,
+    lon double precision,
+    PRIMARY KEY (cvegeo_ageb)
+);
+COMMENT ON TABLE e8_staging.inegi_mg_ageb_urbana_yucatan IS 'AGEB urbana; Yucatán; cobertura 2025-12 a 2025-12; fuente E8-03.3';
+
 -- silver: osm_infraestructura_ciclista
 CREATE TABLE IF NOT EXISTS e8_staging.osm_infraestructura_ciclista (
     osm_id text,
@@ -843,6 +883,234 @@ CREATE TABLE IF NOT EXISTS e8_staging.tren_maya_servicio_mensual (
     PRIMARY KEY (variable, periodo_inicio)
 );
 COMMENT ON TABLE e8_staging.tren_maya_servicio_mensual IS 'variable por mes (2024: por periodo publicado); Red completa del Tren Maya; cobertura 2023-12-12 a 2026-09-01; fuente E8-05.1';
+
+-- simulado: sim_campo_ar_entrada_1
+CREATE TABLE IF NOT EXISTS e8_staging.sim_campo_ar_entrada_1 (
+    origen_dato text,
+    id_sesion text,
+    id_tarea text,
+    id_establecimiento text,
+    nombre_establecimiento text,
+    fecha date,
+    hora text,
+    lat double precision,
+    lon double precision,
+    cvegeo_ageb text,
+    dispositivo text,
+    herramienta text,
+    modelo_virtual text,
+    ancho_modelo_m double precision,
+    largo_modelo_m double precision,
+    ancho_libre_entrada_m double precision,
+    altura_escalon_m double precision,
+    resultado text,
+    ajustes_necesarios text,
+    num_intentos bigint,
+    tiempo_s bigint,
+    archivo_video text,
+    observaciones text,
+    PRIMARY KEY (id_sesion)
+);
+COMMENT ON TABLE e8_staging.sim_campo_ar_entrada_1 IS 'Prueba en una entrada; Centro de Mérida, recorrido de campo/RECORRIDO.md; cobertura 2026-11-24 a 2026-11-24; fuente E8-07.1';
+
+-- simulado: sim_campo_ar_entrada_2
+CREATE TABLE IF NOT EXISTS e8_staging.sim_campo_ar_entrada_2 (
+    origen_dato text,
+    id_sesion text,
+    id_tarea text,
+    id_establecimiento text,
+    nombre_establecimiento text,
+    fecha date,
+    hora text,
+    lat double precision,
+    lon double precision,
+    cvegeo_ageb text,
+    dispositivo text,
+    herramienta text,
+    modelo_virtual text,
+    ancho_modelo_m double precision,
+    largo_modelo_m double precision,
+    ancho_libre_entrada_m double precision,
+    altura_escalon_m double precision,
+    resultado text,
+    ajustes_necesarios text,
+    num_intentos bigint,
+    tiempo_s bigint,
+    archivo_video text,
+    observaciones text,
+    PRIMARY KEY (id_sesion)
+);
+COMMENT ON TABLE e8_staging.sim_campo_ar_entrada_2 IS 'Prueba en una entrada; Centro de Mérida, recorrido de campo/RECORRIDO.md; cobertura 2026-11-24 a 2026-11-24; fuente E8-07.2';
+
+-- simulado: sim_campo_ar_entrada_3
+CREATE TABLE IF NOT EXISTS e8_staging.sim_campo_ar_entrada_3 (
+    origen_dato text,
+    id_sesion text,
+    id_tarea text,
+    id_establecimiento text,
+    nombre_establecimiento text,
+    fecha date,
+    hora text,
+    lat double precision,
+    lon double precision,
+    cvegeo_ageb text,
+    dispositivo text,
+    herramienta text,
+    modelo_virtual text,
+    ancho_modelo_m double precision,
+    largo_modelo_m double precision,
+    ancho_libre_entrada_m double precision,
+    altura_escalon_m double precision,
+    resultado text,
+    ajustes_necesarios text,
+    num_intentos bigint,
+    tiempo_s bigint,
+    archivo_video text,
+    observaciones text,
+    PRIMARY KEY (id_sesion)
+);
+COMMENT ON TABLE e8_staging.sim_campo_ar_entrada_3 IS 'Prueba en una entrada; Centro de Mérida, recorrido de campo/RECORRIDO.md; cobertura 2026-11-24 a 2026-11-24; fuente E8-07.3';
+
+-- simulado: sim_campo_entrevistas
+CREATE TABLE IF NOT EXISTS e8_staging.sim_campo_entrevistas (
+    origen_dato text,
+    id_respuesta text,
+    fecha date,
+    hora text,
+    lat double precision,
+    lon double precision,
+    cvegeo_ageb text,
+    perfil text,
+    rango_edad text,
+    motivo_espera text,
+    tiempo_espera_min bigint,
+    encontro_asiento text,
+    necesidad_expresada text,
+    comodidad_1a5 bigint,
+    comentario text,
+    PRIMARY KEY (id_respuesta)
+);
+COMMENT ON TABLE e8_staging.sim_campo_entrevistas IS 'Persona entrevistada; Centro de Mérida, recorrido de campo/RECORRIDO.md; cobertura 2026-11-24 a 2026-11-25; fuente E8-08.3';
+
+-- simulado: sim_campo_inventario_bancas
+CREATE TABLE IF NOT EXISTS e8_staging.sim_campo_inventario_bancas (
+    origen_dato text,
+    id_banca text,
+    fecha date,
+    lat double precision,
+    lon double precision,
+    cvegeo_ageb text,
+    tipo text,
+    material text,
+    largo_m double precision,
+    alto_asiento_m double precision,
+    profundidad_m double precision,
+    respaldo text,
+    descansabrazos text,
+    sombra text,
+    distancia_parada_m double precision,
+    estado text,
+    archivo_foto text,
+    observaciones text,
+    PRIMARY KEY (id_banca)
+);
+COMMENT ON TABLE e8_staging.sim_campo_inventario_bancas IS 'Banca o lugar para sentarse; Centro de Mérida, recorrido de campo/RECORRIDO.md; cobertura 2026-11-24 a 2026-11-24; fuente E8-08.1';
+
+-- simulado: sim_campo_lidar_tramo_1
+CREATE TABLE IF NOT EXISTS e8_staging.sim_campo_lidar_tramo_1 (
+    origen_dato text,
+    id_captura text,
+    id_tramo text,
+    fecha date,
+    hora text,
+    lat double precision,
+    lon double precision,
+    cvegeo_ageb text,
+    dispositivo text,
+    app text,
+    archivo_captura text,
+    largo_tramo_m double precision,
+    ancho_total_m double precision,
+    ancho_libre_m double precision,
+    obstaculo_tipo text,
+    obstaculo_largo_m text,
+    obstaculo_ancho_m text,
+    obstaculo_alto_m text,
+    pendiente_pct double precision,
+    observaciones text,
+    PRIMARY KEY (id_captura)
+);
+COMMENT ON TABLE e8_staging.sim_campo_lidar_tramo_1 IS 'Obstáculo medido en el tramo (una fila si no hay obstáculos); Centro de Mérida, recorrido de campo/RECORRIDO.md; cobertura 2026-11-24 a 2026-11-24; fuente E8-06.1';
+
+-- simulado: sim_campo_lidar_tramo_2
+CREATE TABLE IF NOT EXISTS e8_staging.sim_campo_lidar_tramo_2 (
+    origen_dato text,
+    id_captura text,
+    id_tramo text,
+    fecha date,
+    hora text,
+    lat double precision,
+    lon double precision,
+    cvegeo_ageb text,
+    dispositivo text,
+    app text,
+    archivo_captura text,
+    largo_tramo_m double precision,
+    ancho_total_m double precision,
+    ancho_libre_m double precision,
+    obstaculo_tipo text,
+    obstaculo_largo_m double precision,
+    obstaculo_ancho_m double precision,
+    obstaculo_alto_m double precision,
+    pendiente_pct double precision,
+    observaciones text,
+    PRIMARY KEY (id_captura)
+);
+COMMENT ON TABLE e8_staging.sim_campo_lidar_tramo_2 IS 'Obstáculo medido en el tramo (una fila si no hay obstáculos); Centro de Mérida, recorrido de campo/RECORRIDO.md; cobertura 2026-11-24 a 2026-11-24; fuente E8-06.2';
+
+-- simulado: sim_campo_lidar_tramo_3
+CREATE TABLE IF NOT EXISTS e8_staging.sim_campo_lidar_tramo_3 (
+    origen_dato text,
+    id_captura text,
+    id_tramo text,
+    fecha date,
+    hora text,
+    lat double precision,
+    lon double precision,
+    cvegeo_ageb text,
+    dispositivo text,
+    app text,
+    archivo_captura text,
+    largo_tramo_m double precision,
+    ancho_total_m double precision,
+    ancho_libre_m double precision,
+    obstaculo_tipo text,
+    obstaculo_largo_m double precision,
+    obstaculo_ancho_m double precision,
+    obstaculo_alto_m double precision,
+    pendiente_pct double precision,
+    observaciones text,
+    PRIMARY KEY (id_captura)
+);
+COMMENT ON TABLE e8_staging.sim_campo_lidar_tramo_3 IS 'Obstáculo medido en el tramo (una fila si no hay obstáculos); Centro de Mérida, recorrido de campo/RECORRIDO.md; cobertura 2026-11-24 a 2026-11-24; fuente E8-06.3';
+
+-- simulado: sim_campo_ocupacion_bancas
+CREATE TABLE IF NOT EXISTS e8_staging.sim_campo_ocupacion_bancas (
+    origen_dato text,
+    id_conteo text,
+    id_banca text,
+    fecha date,
+    franja text,
+    hora_inicio text,
+    hora_fin text,
+    personas_sentadas bigint,
+    personas_esperando_de_pie bigint,
+    personas_sentadas_en_otro_lugar bigint,
+    temperatura_c double precision,
+    observaciones text,
+    PRIMARY KEY (id_conteo)
+);
+COMMENT ON TABLE e8_staging.sim_campo_ocupacion_bancas IS 'Conteo de 15 minutos por banca y franja; Centro de Mérida, recorrido de campo/RECORRIDO.md; cobertura 2026-11-24 a 2026-11-24; fuente E8-08.2';
 
 -- simulado: sim_obras_banquetas_centro
 CREATE TABLE IF NOT EXISTS e8_staging.sim_obras_banquetas_centro (

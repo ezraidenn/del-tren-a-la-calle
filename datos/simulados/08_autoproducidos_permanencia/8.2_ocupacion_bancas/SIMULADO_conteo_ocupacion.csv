@@ -1,0 +1,19 @@
+origen_dato,id_conteo,id_banca,fecha,franja,hora_inicio,hora_fin,personas_sentadas,personas_esperando_de_pie,personas_sentadas_en_otro_lugar,temperatura_c,observaciones
+SIMULADO,O01,B01,2026-11-24,mañana,08:15,08:30,1,0,0,22.2,
+SIMULADO,O02,B01,2026-11-24,mediodía,13:10,13:25,2,0,0,30.9,
+SIMULADO,O03,B01,2026-11-24,tarde,18:20,18:35,2,0,1,27.5,Pareja comparte la confidente; una persona en el borde
+SIMULADO,O04,B05,2026-11-24,mañana,08:15,08:30,1,0,0,22.9,
+SIMULADO,O05,B05,2026-11-24,mediodía,13:10,13:25,0,0,0,31.5,Al sol; nadie la usa
+SIMULADO,O06,B05,2026-11-24,tarde,18:20,18:35,2,0,0,28.0,
+SIMULADO,O07,B07,2026-11-24,mañana,08:15,08:30,2,0,0,22.4,
+SIMULADO,O08,B07,2026-11-24,mediodía,13:10,13:25,3,0,0,31.7,
+SIMULADO,O09,B07,2026-11-24,tarde,18:20,18:35,3,1,0,27.4,
+SIMULADO,O10,B09,2026-11-24,mañana,08:15,08:30,3,6,2,22.7,Esperan el camión; dos se sientan en la banqueta
+SIMULADO,O11,B09,2026-11-24,mediodía,13:10,13:25,2,4,1,31.3,
+SIMULADO,O12,B09,2026-11-24,tarde,18:20,18:35,4,9,2,27.2,Hora pico de salida del trabajo
+SIMULADO,O13,B12,2026-11-24,mañana,08:15,08:30,0,0,0,21.9,
+SIMULADO,O14,B12,2026-11-24,mediodía,13:10,13:25,0,0,0,31.1,Sin sombra a mediodía
+SIMULADO,O15,B12,2026-11-24,tarde,18:20,18:35,3,0,0,28.1,Grupo de turistas descansa
+SIMULADO,O16,B14,2026-11-24,mañana,08:15,08:30,3,2,0,22.9,
+SIMULADO,O17,B14,2026-11-24,mediodía,13:10,13:25,3,1,0,31.1,
+SIMULADO,O18,B14,2026-11-24,tarde,18:20,18:35,3,5,0,26.7,Banca llena; los demás esperan de pie

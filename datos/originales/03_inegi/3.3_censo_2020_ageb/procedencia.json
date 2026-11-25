@@ -15,6 +15,15 @@
       "sha256": "5cc69c7a9f0f248e1e19f960b4498a5459d4bedbc1bdc5dd7f98bfac44f99180",
       "content_type": "application/x-zip-compressed",
       "nota": "Entidad 31"
+    },
+    {
+      "archivo": "mg_ageb_urbana_31.geojson",
+      "url": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/agebu/31",
+      "descargado_utc": "2026-11-25T08:46:23Z",
+      "bytes": 3228177,
+      "sha256": "c9a2678b9c3121abb94f43b041b75a8c645ffdca2c41326679b701910c0bb11c",
+      "content_type": "application/json;charset=utf-8",
+      "nota": "Polígonos de AGEB urbanas de Yucatán, servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025, población del Censo 2020), EPSG:4326"
     }
   ]
 }

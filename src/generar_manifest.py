@@ -2,8 +2,9 @@
 
 - manifest.csv: una fila por archivo de datos (originales o bronze, para-etl,
   curados o silver, rechazados, gold, simulados, campo y salidas del data
-  mart) con bytes, SHA-256 y procedencia. Los simulados llevan id de fuente
-  con sufijo -SIM.
+  mart) con bytes, SHA-256 y procedencia. Los simulados llevan el id de su
+  fuente si toda la fuente es simulada, o el sufijo -SIM si complementan a una
+  fuente real.
 - externos.csv: archivos que no se versionan en git, con el motivo:
   «tamaño» (más de LIMITE_GIT_MB; el servidor los descarga de su URL),
   «privacidad» (páginas crudas con teléfonos o nombres de personas) o
@@ -70,8 +71,22 @@ def id_fuente(ruta: Path) -> str:
     return ""
 
 
+def estados_fuentes() -> dict[str, str]:
+    with open(RAIZ / "fuentes.csv", encoding="utf-8", newline="") as f:
+        return {r["id"]: r["estado"] for r in csv.DictReader(f)}
+
+
+def id_simulado(ident: str, capa: str, estados: dict[str, str]) -> str:
+    """Un archivo simulado lleva el id de su fuente si toda la fuente es simulada (campo), o el sufijo -SIM
+    si complementa a una fuente real (respuestas simuladas a las solicitudes)."""
+    if capa != "simulado" or estados.get(ident) == "simulado":
+        return ident
+    return f"{ident}-SIM"
+
+
 def main() -> None:
     fichas = procedencias()
+    estados = estados_fuentes()
     filas, externos = [], []
     for base in CARPETAS:
         if not base.exists():
@@ -100,7 +115,7 @@ def main() -> None:
                 derivado_de = "datos/curados"
             elif "simulados" in rel.parts:
                 capa = "simulado"
-                derivado_de = "datos/para-etl (calibración; ver src/simular_solicitudes.py)"
+                derivado_de = "datos/para-etl (calibración; ver src/simular_solicitudes.py y src/simular_campo.py)"
             elif rel.parts[0] == "campo":
                 capa = "campo"
                 derivado_de = ""
@@ -109,7 +124,7 @@ def main() -> None:
                 derivado_de = "datos/originales/03_inegi"
             fila = {
                 "archivo": str(rel).replace("\\", "/"),
-                "id_fuente": ficha.get("id") or id_fuente(rel) + ("-SIM" if capa == "simulado" else ""),
+                "id_fuente": ficha.get("id") or id_simulado(id_fuente(rel), capa, estados),
                 "capa": capa,
                 "url": ficha.get("url", ""),
                 "derivado_de": derivado_de,

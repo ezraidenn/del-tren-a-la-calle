@@ -43,6 +43,11 @@ def conteo_censo_ageb() -> int:
     return int(((df["MZA"] == "000") & (df["AGEB"] != "0000")).sum())
 
 
+def conteo_mg_ageb() -> int:
+    ruta = ORIG / "03_inegi/3.3_censo_2020_ageb/mg_ageb_urbana_31.geojson"
+    return len(json.loads(ruta.read_text(encoding="utf-8"))["features"])
+
+
 def conteo_osm(ruta: str) -> int:
     """Elementos de una respuesta de Overpass que traen coordenada, centro o geometría."""
     datos = json.loads((ORIG / "04_geoportal_merida" / ruta).read_text(encoding="utf-8"))
@@ -147,6 +152,13 @@ TABLAS = [
       version_fuente="Censo de Población y Vivienda 2020, resultados por AGEB y manzana urbana (INEGI)",
       conteo_original=conteo_censo_ageb,
       nota_conciliacion="Del original se toman solo los renglones de total por AGEB (MZA = 000 y AGEB distinta de 0000)."),
+    t(tabla="inegi_mg_ageb_urbana_yucatan", id_fuente="E8-03.3", formato="espacial",
+      archivo="03_inegi/3.3_censo_2020_ageb/ageb_urbana_yucatan_poligonos.csv",
+      clave=["cvegeo_ageb"], granularidad="AGEB urbana", territorio="Yucatán",
+      cobertura=("2025-12", "2025-12"), unidad="km²; personas y viviendas del Censo 2020",
+      version_fuente="Marco Geoestadístico de diciembre de 2025 (INEGI), con población del Censo 2020",
+      conteo_original=conteo_mg_ageb,
+      nota_conciliacion="Una fila por polígono de AGEB urbana; la geometría completa está en ageb_urbana_yucatan_poligonos.geojson."),
     t(tabla="osm_unidades_deportivas", id_fuente="E8-04.1", formato="espacial",
       archivo="04_geoportal_merida/4.1_unidades_deportivas/unidades_deportivas_osm.csv",
       clave=["osm_id"], granularidad="instalación deportiva", territorio="Municipio de Mérida",

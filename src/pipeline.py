@@ -5,8 +5,9 @@ Etapas:
 2. para-etl : extracción y limpieza inicial de cada fuente
 3. silver   : curado, reglas de calidad, rechazados y conciliación (src/curar.py)
 4. gold     : dimensiones e indicadores (src/gold.py)
-5. simulado : respuestas simuladas a las solicitudes de información, marcadas
-              como tales (src/simular_solicitudes.py)
+5. simulado : respuestas simuladas a las solicitudes de información y
+              levantamiento de campo simulado, marcados como tales
+              (src/simular_solicitudes.py y src/simular_campo.py)
 6. control  : reporte de calidad, manifiesto y validación de la entrega
 
 Se detiene en la primera etapa que falle. La carga a PostgreSQL es aparte:

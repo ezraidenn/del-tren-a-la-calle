@@ -4,10 +4,10 @@ Generado: 2026-11-25. Se regenera con `python src/curar.py`, `python src/gold.py
 
 ## Resumen
 
-- **Silver:** 23 tablas curadas. 53,490 registros de entrada: 53,485 curados y 5 rechazados, que se conservan en `datos/rechazados/`.
-- **Conteos de silver:** cuadran en 23 de 23 tablas (entrada = curados + rechazados). En 11 tablas además coincide el conteo independiente del archivo original.
-- **Gold:** 9 tablas (dimensiones e indicadores). Sus 7 controles de totales cuadran en 7.
-- **Diccionario:** 717 columnas documentadas; 0 sin descripción.
+- **Silver:** 24 tablas curadas. 55,052 registros de entrada: 55,047 curados y 5 rechazados, que se conservan en `datos/rechazados/`.
+- **Conteos de silver:** cuadran en 24 de 24 tablas (entrada = curados + rechazados). En 12 tablas además coincide el conteo independiente del archivo original.
+- **Gold:** 10 tablas (dimensiones e indicadores). Sus 13 controles de totales cuadran en 13.
+- **Diccionario:** 919 columnas documentadas; 0 sin descripción.
 - **Claves:** son únicas en todas las tablas. La regla R3 rechaza los duplicados y gold verifica la clave antes de escribir.
 
 ## Conciliación por tabla
@@ -26,6 +26,7 @@ Generado: 2026-11-25. Se regenera con `python src/curar.py`, `python src/gold.py
 | silver | conapo_marginacion_municipal_2020 | 270 | 270 | 270 | 0 | sí | sí |  |
 | silver | conapo_poblacion_quinquenal_municipal | 27642 | 27642 | 27642 | 0 | sí | sí |  |
 | silver | inegi_censo_2020_ageb_yucatan | 1532 | 1532 | 1532 | 0 | sí | sí | Del original se toman solo los renglones de total por AGEB (MZA = 000 y AGEB distinta de 0000). |
+| silver | inegi_mg_ageb_urbana_yucatan | 1562 | 1562 | 1562 | 0 | sí | sí | Una fila por polígono de AGEB urbana; la geometría completa está en ageb_urbana_yucatan_poligonos.geojson. |
 | silver | osm_infraestructura_ciclista | 1198 | 1198 | 1198 | 0 | sí | sí | Se cuentan los elementos de la respuesta de Overpass que traen coordenada o geometría. |
 | silver | osm_unidades_deportivas | 825 | 825 | 825 | 0 | sí | sí | Se cuentan los elementos de la respuesta de Overpass que traen coordenada o centro. |
 | silver | rutatrenmaya_conexiones_teya | — | 3 | 3 | 0 | sin conteo independiente | sí | Sin conteo independiente del original. |
@@ -42,6 +43,12 @@ Controles de la capa gold:
 
 | Tabla | Entrada | Salida | Cuadra | Control |
 |---|---|---|---|---|
+| ind_ageb_entorno_merida | 3256 | 2551 | sí | paradas_transporte: 3256 = 2551 en AGEB urbanas de Mérida + 450 en AGEB de otros municipios + 255 fuera de AGEB urbana |
+| ind_ageb_entorno_merida | 193 | 189 | sí | restaurantes_seccion_amarilla: 193 = 189 en AGEB urbanas de Mérida + 3 en AGEB de otros municipios + 1 fuera de AGEB urbana |
+| ind_ageb_entorno_merida | 825 | 733 | sí | instalaciones_deportivas: 825 = 733 en AGEB urbanas de Mérida + 0 en AGEB de otros municipios + 92 fuera de AGEB urbana |
+| ind_ageb_entorno_merida | 99 | 98 | sí | estacionamientos_bicicleta: 99 = 98 en AGEB urbanas de Mérida + 0 en AGEB de otros municipios + 1 fuera de AGEB urbana |
+| ind_ageb_entorno_merida | 702 | 617 | sí | instalaciones_deportivas_publicas: 702 = 617 en AGEB urbanas de Mérida + 0 en AGEB de otros municipios + 85 fuera de AGEB urbana |
+| ind_ageb_entorno_merida | 194802 | 194801 | sí | km de ciclovías y carriles asignados por el punto medio de cada tramo: 194.8 km en AGEB urbanas de Mérida |
 | ind_municipio_contexto | 533275 | 270 | sí | DENUE 2019 5 estados: 533275 = 533275 en municipios de CONAPO 2020 + 0 en municipios creados después de 2020 |
 | ind_municipio_contexto | 604594 | 270 | sí | DENUE 2025 5 estados: 604594 = 603325 en municipios de CONAPO 2020 + 1269 en municipios creados después de 2020 |
 | ind_negocios_ageb_merida | 53183 | 526 | sí | DENUE 2019 Mérida: 53183 establecimientos = 52675 en AGEB urbanas del Censo + 505 en AGEB sin renglón urbano en el Censo + 3 sin AGEB |
@@ -52,10 +59,23 @@ Controles de la capa gold:
 
 ## Datos simulados
 
-9 tablas en `datos/simulados/` son respuestas **SIMULADAS** a las solicitudes de acceso a la información; no son datos oficiales. Cada una está calibrada con un dato real y sus totales se comprueban contra él:
+18 tablas en `datos/simulados/` son respuestas **SIMULADAS** a las solicitudes de acceso a la información; no son datos oficiales. Cada una está calibrada con un dato real y sus totales se comprueban contra él:
 
 | Tabla | Real | Simulado | Cuadra | Control |
 |---|---|---|---|---|
+| sim_campo_ar_entrada_1 | 1 | 1 | sí | el restaurante LA CHAYA MAYA (Sección Amarilla 998900181) cae en una AGEB urbana |
+| sim_campo_ar_entrada_2 | 1 | 1 | sí | el restaurante CAFÉ ROLLAL (Sección Amarilla 3593856) cae en una AGEB urbana |
+| sim_campo_ar_entrada_3 | 1 | 1 | sí | el restaurante EL CHILE HABANERO RESTAURANTE (Sección Amarilla 996034481) cae en una AGEB urbana |
+| sim_campo_entrevistas | 18 | 18 | sí | todas las respuestas usan la escala de comodidad de 1 a 5 |
+| sim_campo_entrevistas | 58 | 58 | sí | las 58 filas simuladas de campo pasan src/validar_campo.py (fechas, coordenadas, AGEB, rangos, archivos y datos personales) |
+| sim_campo_inventario_bancas | 14 | 14 | sí | todas las bancas caen en una AGEB urbana de Mérida |
+| sim_campo_lidar_tramo_1 | 1 | 1 | sí | el ancho libre no supera el ancho total en ninguna medición |
+| sim_campo_lidar_tramo_1 | 142 | 142 | sí | la nube SIMULADO_captura_T1.ply (89,039 puntos) reproduce el ancho medido de 1.42 m (±1 cm) |
+| sim_campo_lidar_tramo_2 | 2 | 2 | sí | el ancho libre no supera el ancho total en ninguna medición |
+| sim_campo_lidar_tramo_2 | 118 | 118 | sí | la nube SIMULADO_captura_T2.ply (86,032 puntos) reproduce el ancho medido de 1.18 m (±1 cm) |
+| sim_campo_lidar_tramo_3 | 2 | 2 | sí | el ancho libre no supera el ancho total en ninguna medición |
+| sim_campo_lidar_tramo_3 | 135 | 135 | sí | la nube SIMULADO_captura_T3.ply (76,228 puntos) reproduce el ancho medido de 1.35 m (±1 cm) |
+| sim_campo_ocupacion_bancas | 18 | 18 | sí | cada conteo corresponde a una banca del inventario 8.1 |
 | sim_obras_banquetas_centro | 32 | 32 | sí | todas las obras caen dentro del Centro Histórico (20.955-20.980 N, 89.605-89.640 O) |
 | sim_obras_banquetas_centro | 1 | 1 | sí | costo mediano por m² simulado (1,777) entre 1 y 3 veces el del SRFT (942) |
 | sim_r901_corridas_mes | 5460 | 5460 | sí | corridas programadas = viajes del GTFS por tipo de día × días del mes |
@@ -81,6 +101,17 @@ Columnas con 20 % o más de valores vacíos. El dato falta en la fuente; no se i
 
 | Capa | Tabla | Columna | Vacíos (%) |
 |---|---|---|---|
+| simulado | sim_campo_ar_entrada_1 | archivo_video | 100.0 |
+| simulado | sim_campo_ar_entrada_2 | archivo_video | 100.0 |
+| simulado | sim_campo_ar_entrada_3 | archivo_video | 100.0 |
+| simulado | sim_campo_inventario_bancas | archivo_foto | 100.0 |
+| simulado | sim_campo_inventario_bancas | observaciones | 35.7 |
+| simulado | sim_campo_lidar_tramo_1 | obstaculo_largo_m | 100.0 |
+| simulado | sim_campo_lidar_tramo_1 | obstaculo_ancho_m | 100.0 |
+| simulado | sim_campo_lidar_tramo_1 | obstaculo_alto_m | 100.0 |
+| simulado | sim_campo_lidar_tramo_2 | observaciones | 50.0 |
+| simulado | sim_campo_lidar_tramo_3 | observaciones | 50.0 |
+| simulado | sim_campo_ocupacion_bancas | observaciones | 61.1 |
 | simulado | sim_obras_banquetas_centro | nota | 96.9 |
 | silver | aty_r901_tarifas | texto_publicado | 33.3 |
 | silver | inegi_censo_2020_ageb_yucatan | p6a11_noaf | 34.6 |
@@ -139,6 +170,7 @@ Columnas con 20 % o más de valores vacíos. El dato falta en la fuente; no se i
 | gold | dim_estacion | estación | 2025 a 2025 | Red del Tren Maya | 34 |
 | gold | dim_municipio | municipio | 2020 a 2020 | 5 estados del Tren Maya | 270 |
 | gold | dim_tiempo | mes | 2019-01-01 a 2026-12-01 | no aplica | 96 |
+| gold | ind_ageb_entorno_merida | AGEB urbana | 2020 a 2026 | Municipio de Mérida | 545 |
 | gold | ind_municipio_contexto | municipio | 2019 a 2025 | 5 estados del Tren Maya | 270 |
 | gold | ind_negocios_ageb_merida | AGEB urbana | 2019 a 2025 | Municipio de Mérida | 526 |
 | gold | ind_obras_banquetas_anual | año de inicio de obra | 2022 a 2026 | Municipio de Mérida | 5 |
@@ -156,6 +188,7 @@ Columnas con 20 % o más de valores vacíos. El dato falta en la fuente; no se i
 | silver | conapo_marginacion_municipal_2020 | municipio | 2020 a 2020 | 5 estados del Tren Maya | 270 |
 | silver | conapo_poblacion_quinquenal_municipal | municipio por sexo y año | 1990 a 2040 | 5 estados del Tren Maya | 27642 |
 | silver | inegi_censo_2020_ageb_yucatan | AGEB urbana | 2020 a 2020 | Yucatán | 1532 |
+| silver | inegi_mg_ageb_urbana_yucatan | AGEB urbana | 2025-12 a 2025-12 | Yucatán | 1562 |
 | silver | osm_infraestructura_ciclista | tramo de ciclovía o carril, o estacionamiento de bicicletas | 2026-11-25 a 2026-11-25 | Municipio de Mérida | 1198 |
 | silver | osm_unidades_deportivas | instalación deportiva | 2026-11-25 a 2026-11-25 | Municipio de Mérida | 825 |
 | silver | rutatrenmaya_conexiones_teya | conexión de transporte | 2026-11-24 a 2026-11-24 | Estación Teya-Mérida | 3 |
@@ -167,6 +200,15 @@ Columnas con 20 % o más de valores vacíos. El dato falta en la fuente; no se i
 | silver | srft_obras_banquetas_merida | obra (proyecto SRFT) | 2022-04-18 a 2026-09-28 | Municipio de Mérida | 101 |
 | silver | tren_maya_horarios | tramo de circulación | 2026-11-24 a 2026-11-24 | Red del Tren Maya | 32 |
 | silver | tren_maya_servicio_mensual | variable por mes (2024: por periodo publicado) | 2023-12-12 a 2026-09-01 | Red completa del Tren Maya | 122 |
+| simulado | sim_campo_ar_entrada_1 | Prueba en una entrada | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 1 |
+| simulado | sim_campo_ar_entrada_2 | Prueba en una entrada | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 1 |
+| simulado | sim_campo_ar_entrada_3 | Prueba en una entrada | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 1 |
+| simulado | sim_campo_entrevistas | Persona entrevistada | 2026-11-24 a 2026-11-25 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 18 |
+| simulado | sim_campo_inventario_bancas | Banca o lugar para sentarse | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 14 |
+| simulado | sim_campo_lidar_tramo_1 | Obstáculo medido en el tramo (una fila si no hay obstáculos) | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 1 |
+| simulado | sim_campo_lidar_tramo_2 | Obstáculo medido en el tramo (una fila si no hay obstáculos) | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 2 |
+| simulado | sim_campo_lidar_tramo_3 | Obstáculo medido en el tramo (una fila si no hay obstáculos) | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 2 |
+| simulado | sim_campo_ocupacion_bancas | Conteo de 15 minutos por banca y franja | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 18 |
 | simulado | sim_obras_banquetas_centro | Obra | 2023-01-10 a 2026-10-24 | Centro Histórico de Mérida, perímetros A y B | 32 |
 | simulado | sim_r901_corridas_mes | Mes y tipo de día | 2026-01 a 2026-09 | Ruta R901 IE-TRAM La Plancha – Teya | 27 |
 | simulado | sim_r901_parada_sentido | Mes, sentido y parada | 2026-01 a 2026-09 | Ruta R901 IE-TRAM La Plancha – Teya | 90 |

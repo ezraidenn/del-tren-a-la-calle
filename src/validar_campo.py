@@ -78,8 +78,9 @@ def revisar(ruta, agebs: set[str]) -> int:
         for col in COLUMNAS_ARCHIVO:
             if col in fila and fila[col] and not (ruta.parent / fila[col]).exists():
                 errores.append(f"{donde}: no existe el archivo {fila[col]} en {ruta.parent.relative_to(RAIZ)}")
-        texto = " ".join(fila.values)
-        if CORREO.search(texto) or TELEFONO.search(texto):
+        # Campo por campo: al unir fecha y hora («2026-11-24 10:05») salen 10 dígitos que parecen teléfono.
+        textos = [v for c, v in fila.items() if c not in {"fecha", "hora", "hora_inicio", "hora_fin"}]
+        if any(CORREO.search(v) or TELEFONO.search(v) for v in textos):
             errores.append(f"{donde}: hay un correo o teléfono; los datos de campo deben ser anónimos")
     return len(df)
 

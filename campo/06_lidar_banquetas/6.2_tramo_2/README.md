@@ -3,7 +3,7 @@
 - Tipo de fuente: LiDAR
 - Elemento: tramo de banqueta de 2 a 3 m
 - Ubicación: calle 59 entre 60 y 58 (ver [RECORRIDO.md](../../RECORRIDO.md))
-- Estado: pendiente de levantamiento
+- Estado: simulado; la versión simulada está en `datos/simulados/` (ver [LEEME_SIMULADO.md](../../LEEME_SIMULADO.md)). Esta plantilla queda para un levantamiento real
 
 ## Archivos
 

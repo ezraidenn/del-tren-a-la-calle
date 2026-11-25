@@ -1,5 +1,5 @@
 capa,tabla,columna,tipo,es_clave,descripcion,unidad,nulos_pct,origen_descripcion
-gold,dim_ageb,cvegeo_ageb,string,True,"Clave geoestadística del AGEB urbana, de 13 caracteres: entidad (2) + municipio (3) + localidad (4) + AGEB (4), con ceros a la izquierda.",clave,0.0,script src/para_etl_01_03_05.py; estructura de la clave del Marco Geoestadístico del INEGI
+gold,dim_ageb,cvegeo_ageb,string,True,Clave de la AGEB urbana donde cae el punto (Marco Geoestadístico 2025); vacía si no cae en ninguna,clave,0.0,src/gold.py
 gold,dim_ageb,cvegeo_mun,string,False,"Clave geoestadística del municipio, de 5 dígitos: entidad (2) + municipio (3), con ceros a la izquierda.",clave,0.0,script src/para_etl_01_03_05.py; estructura de la clave del Marco Geoestadístico del INEGI
 gold,dim_ageb,nom_mun,string,False,Nombre del municipio.,texto,0.0,"CONAPO, metadatos de campos (label/notes) del DataStore de datos.gob.mx, Índice de marginación municipal 2020 (https://www.datos.gob.mx/api/3/action/datastore_search?limit=0&resource_id=551d8f48-5d0c-4d11-964a-e2911f732615; https://www.datos.gob.mx/dataset/indices_marginacion)"
 gold,dim_ageb,cve_loc,string,False,Clave de localidad del INEGI,clave,0.0,src/gold.py
@@ -21,6 +21,22 @@ gold,dim_tiempo,anio,int32,False,Año,año,0.0,src/gold.py
 gold,dim_tiempo,mes,int32,False,Número de mes,mes 1-12,0.0,src/gold.py
 gold,dim_tiempo,trimestre,int32,False,Trimestre del año,trimestre 1-4,0.0,src/gold.py
 gold,dim_tiempo,nombre_mes,str,False,Nombre del mes en español,texto,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,cvegeo_ageb,string,True,Clave de la AGEB urbana donde cae el punto (Marco Geoestadístico 2025); vacía si no cae en ninguna,clave,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,en_censo_2020,boolean,False,Verdadero si la AGEB existía en el Censo 2020,booleano,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,pob_total,Int64,False,Población total de la AGEB en el Censo 2020,personas,3.49,src/gold.py
+gold,ind_ageb_entorno_merida,total_viviendas_habitadas,Int64,False,Viviendas particulares habitadas en el Censo 2020,viviendas,3.49,src/gold.py
+gold,ind_ageb_entorno_merida,area_km2,Float64,False,Área de la AGEB,km²,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,paradas_transporte,Int64,False,Paradas del GTFS de la ATY con al menos una ruta dentro de la AGEB,paradas,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,restaurantes_seccion_amarilla,Int64,False,Restaurantes de Sección Amarilla con coordenadas dentro de la AGEB,restaurantes,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,instalaciones_deportivas,Int64,False,Instalaciones deportivas de OpenStreetMap dentro de la AGEB,instalaciones,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,estacionamientos_bicicleta,Int64,False,Estacionamientos de bicicletas de OpenStreetMap dentro de la AGEB,estacionamientos,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,instalaciones_deportivas_publicas,Int64,False,Instalaciones deportivas de OpenStreetMap sin acceso restringido,instalaciones,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,km_ciclovia,float64,False,Kilómetros de ciclovías y carriles cuyo punto medio cae en la AGEB,km,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,densidad_hab_km2,Float64,False,Habitantes por km² (Censo 2020),personas por km²,3.49,src/gold.py
+gold,ind_ageb_entorno_merida,paradas_por_km2,Float64,False,Paradas de transporte por km²,paradas por km²,0.0,src/gold.py
+gold,ind_ageb_entorno_merida,deportivas_publicas_por_10mil_hab,Float64,False,"Instalaciones deportivas de acceso público por 10,000 habitantes","instalaciones por 10,000 habitantes",9.36,src/gold.py
+gold,ind_ageb_entorno_merida,km_ciclovia_por_10mil_hab,Float64,False,"Kilómetros de ciclovía por 10,000 habitantes","km por 10,000 habitantes",9.36,src/gold.py
+gold,ind_ageb_entorno_merida,restaurantes_por_10mil_hab,Float64,False,"Restaurantes anunciados por 10,000 habitantes","restaurantes por 10,000 habitantes",9.36,src/gold.py
 gold,ind_municipio_contexto,cvegeo_mun,object,True,"Clave geoestadística del municipio, de 5 dígitos: entidad (2) + municipio (3), con ceros a la izquierda.",clave,0.0,script src/para_etl_01_03_05.py; estructura de la clave del Marco Geoestadístico del INEGI
 gold,ind_municipio_contexto,nom_ent,string,False,Nombre de entidad federativa.,texto,0.0,"CONAPO, metadatos de campos (label/notes) del DataStore de datos.gob.mx, Índice de marginación municipal 2020 (https://www.datos.gob.mx/api/3/action/datastore_search?limit=0&resource_id=551d8f48-5d0c-4d11-964a-e2911f732615; https://www.datos.gob.mx/dataset/indices_marginacion)"
 gold,ind_municipio_contexto,nom_mun,string,False,Nombre del municipio.,texto,0.0,"CONAPO, metadatos de campos (label/notes) del DataStore de datos.gob.mx, Índice de marginación municipal 2020 (https://www.datos.gob.mx/api/3/action/datastore_search?limit=0&resource_id=551d8f48-5d0c-4d11-964a-e2911f732615; https://www.datos.gob.mx/dataset/indices_marginacion)"
@@ -33,7 +49,7 @@ gold,ind_municipio_contexto,establecimientos_2019,Int64,False,Establecimientos d
 gold,ind_municipio_contexto,establecimientos_2025,Int64,False,Establecimientos del DENUE de mayo de 2025,establecimientos,0.0,src/gold.py
 gold,ind_municipio_contexto,establecimientos_por_1000_hab_2025,Float64,False,"Establecimientos de 2025 por cada 1,000 habitantes","establecimientos por 1,000 habitantes",0.0,src/gold.py
 gold,ind_municipio_contexto,variacion_pct_2019_2025,Float64,False,Variación porcentual de establecimientos entre 2019 y 2025,porcentaje,0.74,src/gold.py
-gold,ind_negocios_ageb_merida,cvegeo_ageb,object,True,"Clave geoestadística del AGEB urbana, de 13 caracteres: entidad (2) + municipio (3) + localidad (4) + AGEB (4), con ceros a la izquierda.",clave,0.0,script src/para_etl_01_03_05.py; estructura de la clave del Marco Geoestadístico del INEGI
+gold,ind_negocios_ageb_merida,cvegeo_ageb,object,True,Clave de la AGEB urbana donde cae el punto (Marco Geoestadístico 2025); vacía si no cae en ninguna,clave,0.0,src/gold.py
 gold,ind_negocios_ageb_merida,nom_loc,string,False,Nombre de la localidad.,texto,0.0,"CONAPO, metadatos de campos (label/notes) del DataStore de datos.gob.mx, Índice de marginación urbana por AGEB 2020 (https://www.datos.gob.mx/api/3/action/datastore_search?limit=0&resource_id=9600f414-c1ba-408a-8dd6-7f73d76601d4; https://www.datos.gob.mx/dataset/indices_marginacion)"
 gold,ind_negocios_ageb_merida,pobtot,Int64,False,Total de personas que residen habitualmente en la localidad.,personas,0.0,"CONAPO, Análisis geoespacial de la accesibilidad a centros urbanos de las localidades de México, Anexo B.1 «Indicadores de accesibilidad a centros urbanos por localidad, 2020 - Diccionario de datos» (https://www.gob.mx/cms/uploads/attachment/file/859252/Anexo_B.pdf)"
 gold,ind_negocios_ageb_merida,establecimientos_2019,Int64,False,Establecimientos del DENUE de noviembre de 2019,establecimientos,0.0,src/gold.py
@@ -59,6 +75,7 @@ gold,ind_restaurantes_transporte,parada_cercana,str,False,Nombre de la parada m�
 gold,ind_restaurantes_transporte,distancia_parada_m,float64,False,Distancia en línea recta a la parada más cercana,metros,0.0,src/gold.py
 gold,ind_restaurantes_transporte,paradas_a_400_m,int64,False,Paradas a 400 m o menos,paradas,0.0,src/gold.py
 gold,ind_restaurantes_transporte,a_400_m_de_parada,bool,False,Verdadero si hay una parada a 400 m o menos,booleano,0.0,src/gold.py
+gold,ind_restaurantes_transporte,cvegeo_ageb,str,False,Clave de la AGEB urbana donde cae el punto (Marco Geoestadístico 2025); vacía si no cae en ninguna,clave,0.52,src/gold.py
 gold,ind_tren_maya_mensual,fecha_mes,string,True,"Primer día del mes, AAAA-MM-DD",fecha ISO 8601,0.0,src/gold.py
 gold,ind_tren_maya_mensual,boletos_vendidos,Float64,False,Boletos vendidos en el mes,boletos,0.0,src/gold.py
 gold,ind_tren_maya_mensual,boletos_vendidos_estaciones,Float64,False,"Boletos vendidos en taquillas de estación (recurso «Boletos vendidos (2024)», con datos hasta octubre de 2025)",boletos,52.38,src/gold.py
@@ -508,6 +525,17 @@ silver,inegi_censo_2020_ageb_yucatan,vph_sinrtv,Int64,False,"Viviendas particula
 silver,inegi_censo_2020_ageb_yucatan,vph_sinltc,Int64,False,"Viviendas particulares habitadas sin línea telefónica fija ni teléfono celular: Viviendas particulares habitadas que no cuentan con línea telefónica fija, ni teléfono celular. Comprende las viviendas particulares para las que se captaron las características de la vivienda, clasificadas como: casa única en el terreno; casa que comparte terreno con otra(s); casa dúplex; departamento en edificio; vivienda en vecindad o cuartería; vivienda en cuarto de azotea de un edificio y no especificado de vivienda particular. Incluye a las viviendas particulares sin información de ocupantes.",viviendas,18.6,"INEGI, Censo de Población y Vivienda 2020, diccionario de datos de AGEB y manzana urbana de Yucatán (diccionario_de_datos/diccionario_datos_ageb_urbana_31_cpv2020.csv dentro de datos/originales/03_inegi/3.3_censo_2020_ageb/ageb_mza_urbana_31_cpv2020_csv.zip; https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/ageb_manzana/ageb_mza_urbana_31_cpv2020_csv.zip)"
 silver,inegi_censo_2020_ageb_yucatan,vph_sincint,Int64,False,"Viviendas particulares habitadas sin computadora ni Internet: Viviendas particulares habitadas que no cuentan con computadora, laptop o tablet ni Internet. Comprende las viviendas particulares para las que se captaron las características de la vivienda, clasificadas como: casa única en el terreno; casa que comparte terreno con otra(s); casa dúplex; departamento en edificio; vivienda en vecindad o cuartería; vivienda en cuarto de azotea de un edificio y no especificado de vivienda particular. Incluye a las viviendas particulares sin información de ocupantes.",viviendas,6.33,"INEGI, Censo de Población y Vivienda 2020, diccionario de datos de AGEB y manzana urbana de Yucatán (diccionario_de_datos/diccionario_datos_ageb_urbana_31_cpv2020.csv dentro de datos/originales/03_inegi/3.3_censo_2020_ageb/ageb_mza_urbana_31_cpv2020_csv.zip; https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/ageb_manzana/ageb_mza_urbana_31_cpv2020_csv.zip)"
 silver,inegi_censo_2020_ageb_yucatan,vph_sintic,Int64,False,"Viviendas particulares habitadas sin tecnologías de la información y de la comunicación (TIC): Viviendas particulares habitadas que no cuentan con algún aparato o dispositivo para oír radio; televisor; computadora, laptop o tablet; línea telefónica fija; teléfono celular; Internet; servicio de televisión de paga (cable o satelital); servicio de películas, música o videos de paga por internet ni consola de videojuegos. Comprende las viviendas particulares para las que se captaron las características de la vivienda, clasificadas como: casa única en el terreno; casa que comparte terreno con otra(s); casa dúplex; departamento en edificio; vivienda en vecindad o cuartería; vivienda en cuarto de azotea de un edificio y no especificado de vivienda particular. Incluye a las viviendas particulares sin información de ocupantes.",viviendas,23.56,"INEGI, Censo de Población y Vivienda 2020, diccionario de datos de AGEB y manzana urbana de Yucatán (diccionario_de_datos/diccionario_datos_ageb_urbana_31_cpv2020.csv dentro de datos/originales/03_inegi/3.3_censo_2020_ageb/ageb_mza_urbana_31_cpv2020_csv.zip; https://www.inegi.org.mx/contenidos/programas/ccpv/2020/datosabiertos/ageb_manzana/ageb_mza_urbana_31_cpv2020_csv.zip)"
+silver,inegi_mg_ageb_urbana_yucatan,cvegeo_ageb,string,True,"Clave geoestadística de la AGEB urbana, de 13 caracteres: entidad (2) + municipio (3) + localidad (4) + AGEB (4).",clave,0.0,Servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (https://gaia.inegi.org.mx/wscatgeo/v2/)
+silver,inegi_mg_ageb_urbana_yucatan,cvegeo_mun,string,False,"Clave geoestadística del municipio, de 5 caracteres.",clave,0.0,Servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (https://gaia.inegi.org.mx/wscatgeo/v2/)
+silver,inegi_mg_ageb_urbana_yucatan,cvegeo_loc,string,False,"Clave geoestadística de la localidad, de 9 caracteres.",clave,0.0,Servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (https://gaia.inegi.org.mx/wscatgeo/v2/)
+silver,inegi_mg_ageb_urbana_yucatan,nom_mun,string,False,Nombre del municipio.,texto,0.0,Servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (https://gaia.inegi.org.mx/wscatgeo/v2/)
+silver,inegi_mg_ageb_urbana_yucatan,cve_ageb,string,False,"Clave de la AGEB dentro de la localidad, de 4 caracteres.",clave,0.0,Servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (https://gaia.inegi.org.mx/wscatgeo/v2/)
+silver,inegi_mg_ageb_urbana_yucatan,en_censo_2020,boolean,False,Verdadero si la AGEB existía en el Censo 2020; las AGEB nuevas del Marco 2025 no traen población.,booleano,0.0,script src/para_etl_01_03_05.py
+silver,inegi_mg_ageb_urbana_yucatan,pob_total,Int64,False,Población total de la AGEB en el Censo 2020; vacía si la AGEB es posterior.,personas,2.05,Servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (https://gaia.inegi.org.mx/wscatgeo/v2/)
+silver,inegi_mg_ageb_urbana_yucatan,total_viviendas_habitadas,Int64,False,Viviendas particulares habitadas en el Censo 2020; vacío si la AGEB es posterior.,viviendas,2.05,Servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (https://gaia.inegi.org.mx/wscatgeo/v2/)
+silver,inegi_mg_ageb_urbana_yucatan,area_km2,Float64,False,"Área del polígono, con proyección local equirectangular (error menor a 0.1 %).",km²,0.0,script src/para_etl_01_03_05.py
+silver,inegi_mg_ageb_urbana_yucatan,lat,Float64,False,"Latitud del promedio de los vértices del contorno exterior; es un punto de referencia, no el centroide exacto.",grados decimales EPSG:4326,0.0,script src/para_etl_01_03_05.py
+silver,inegi_mg_ageb_urbana_yucatan,lon,Float64,False,Longitud del promedio de los vértices del contorno exterior.,grados decimales EPSG:4326,0.0,script src/para_etl_01_03_05.py
 silver,osm_infraestructura_ciclista,osm_id,string,True,Identificador del elemento en OpenStreetMap: tipo (node o way) y número.,clave,0.0,Modelo de datos de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Elements)
 silver,osm_infraestructura_ciclista,categoria,string,False,"Ciclovía (vía exclusiva o sendero designado), carril en calle, estacionamiento o renta de bicicletas.",texto,0.0,"script src/04_geoportal_merida.py, a partir de las etiquetas highway, cycleway y amenity"
 silver,osm_infraestructura_ciclista,nombre,string,False,Nombre de la vía o del estacionamiento (etiqueta name); vacío si no lo tiene.,texto,49.92,Wiki de OpenStreetMap (https://wiki.openstreetmap.org/wiki/Key:name)
@@ -639,6 +667,180 @@ silver,tren_maya_servicio_mensual,periodo_fin,string,False,"Último día del per
 silver,tren_maya_servicio_mensual,variable,string,True,"Variable medida: pasajeros_transportados, boletos_vendidos, boletos_vendidos_estaciones, boletos_vendidos_puntos_venta o kilometros_recorridos (distancia recorrida por los trenes).",texto,0.0,"script src/para_etl_01_03_05.py; definiciones de las variables en los metadatos del DataStore de datos.gob.mx, conjunto Prestación del servicio ferroviario de pasajeros (https://www.datos.gob.mx/dataset/prestacion_servicio_ferroviario_pasajeros)"
 silver,tren_maya_servicio_mensual,valor,Float64,False,Valor de la variable en el periodo.,"pasajeros, boletos o km según la columna variable",5.74,"script src/para_etl_01_03_05.py; definiciones de las variables en los metadatos del DataStore de datos.gob.mx, conjunto Prestación del servicio ferroviario de pasajeros (https://www.datos.gob.mx/dataset/prestacion_servicio_ferroviario_pasajeros)"
 silver,tren_maya_servicio_mensual,archivo_origen,string,False,Archivo JSON original (descargado del DataStore de datos.gob.mx) del que sale la fila.,texto,0.0,script src/para_etl_01_03_05.py
+simulado,sim_campo_ar_entrada_1,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,id_sesion,str,True,Identificador de la prueba,clave,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,id_tarea,str,False,Tarea del protocolo,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,id_establecimiento,str,False,Identificador del anuncio en Sección Amarilla (fuente 9.1),clave,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,nombre_establecimiento,str,False,Nombre comercial del negocio,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,fecha,str,False,Fecha del levantamiento simulado (AAAA-MM-DD),fecha,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,hora,str,False,Hora local (HH:MM),hora,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,lat,float64,False,"Latitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,lon,float64,False,"Longitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,cvegeo_ageb,str,False,"AGEB urbana donde cae el punto (Marco Geoestadístico 2025, src/ageb.py)",clave,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,dispositivo,str,False,Celular usado,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,herramienta,str,False,Visor de realidad aumentada,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,modelo_virtual,str,False,"Archivo del modelo, en campo/07_ar_entradas/modelo/",archivo,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,ancho_modelo_m,float64,False,Ancho del modelo de silla de ruedas,m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,largo_modelo_m,float64,False,Largo del modelo de silla de ruedas,m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,ancho_libre_entrada_m,float64,False,"Ancho libre del acceso, medido con la app Medida",m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,altura_escalon_m,float64,False,Altura del escalón de la entrada,m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,resultado,str,False,"cabe, cabe con ajustes o no cabe, según 0.80 m de paso y 2 cm de escalón",texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,ajustes_necesarios,str,False,Lo que haría falta para que la silla entre,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,num_intentos,int64,False,Veces que se colocó el modelo hasta alinearlo,intentos,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,tiempo_s,int64,False,Duración de la prueba,segundos,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,archivo_video,object,False,Grabación de pantalla; vacía en la simulación,archivo,100.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_1,observaciones,str,False,Notas de quien hizo la prueba,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,id_sesion,str,True,Identificador de la prueba,clave,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,id_tarea,str,False,Tarea del protocolo,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,id_establecimiento,str,False,Identificador del anuncio en Sección Amarilla (fuente 9.1),clave,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,nombre_establecimiento,str,False,Nombre comercial del negocio,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,fecha,str,False,Fecha del levantamiento simulado (AAAA-MM-DD),fecha,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,hora,str,False,Hora local (HH:MM),hora,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,lat,float64,False,"Latitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,lon,float64,False,"Longitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,cvegeo_ageb,str,False,"AGEB urbana donde cae el punto (Marco Geoestadístico 2025, src/ageb.py)",clave,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,dispositivo,str,False,Celular usado,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,herramienta,str,False,Visor de realidad aumentada,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,modelo_virtual,str,False,"Archivo del modelo, en campo/07_ar_entradas/modelo/",archivo,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,ancho_modelo_m,float64,False,Ancho del modelo de silla de ruedas,m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,largo_modelo_m,float64,False,Largo del modelo de silla de ruedas,m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,ancho_libre_entrada_m,float64,False,"Ancho libre del acceso, medido con la app Medida",m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,altura_escalon_m,float64,False,Altura del escalón de la entrada,m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,resultado,str,False,"cabe, cabe con ajustes o no cabe, según 0.80 m de paso y 2 cm de escalón",texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,ajustes_necesarios,str,False,Lo que haría falta para que la silla entre,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,num_intentos,int64,False,Veces que se colocó el modelo hasta alinearlo,intentos,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,tiempo_s,int64,False,Duración de la prueba,segundos,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,archivo_video,object,False,Grabación de pantalla; vacía en la simulación,archivo,100.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_2,observaciones,str,False,Notas de quien hizo la prueba,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,id_sesion,str,True,Identificador de la prueba,clave,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,id_tarea,str,False,Tarea del protocolo,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,id_establecimiento,str,False,Identificador del anuncio en Sección Amarilla (fuente 9.1),clave,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,nombre_establecimiento,str,False,Nombre comercial del negocio,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,fecha,str,False,Fecha del levantamiento simulado (AAAA-MM-DD),fecha,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,hora,str,False,Hora local (HH:MM),hora,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,lat,float64,False,"Latitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,lon,float64,False,"Longitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,cvegeo_ageb,str,False,"AGEB urbana donde cae el punto (Marco Geoestadístico 2025, src/ageb.py)",clave,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,dispositivo,str,False,Celular usado,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,herramienta,str,False,Visor de realidad aumentada,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,modelo_virtual,str,False,"Archivo del modelo, en campo/07_ar_entradas/modelo/",archivo,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,ancho_modelo_m,float64,False,Ancho del modelo de silla de ruedas,m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,largo_modelo_m,float64,False,Largo del modelo de silla de ruedas,m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,ancho_libre_entrada_m,float64,False,"Ancho libre del acceso, medido con la app Medida",m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,altura_escalon_m,float64,False,Altura del escalón de la entrada,m,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,resultado,str,False,"cabe, cabe con ajustes o no cabe, según 0.80 m de paso y 2 cm de escalón",texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,ajustes_necesarios,str,False,Lo que haría falta para que la silla entre,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,num_intentos,int64,False,Veces que se colocó el modelo hasta alinearlo,intentos,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,tiempo_s,int64,False,Duración de la prueba,segundos,0.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,archivo_video,object,False,Grabación de pantalla; vacía en la simulación,archivo,100.0,src/simular_campo.py
+simulado,sim_campo_ar_entrada_3,observaciones,str,False,Notas de quien hizo la prueba,texto,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,id_respuesta,str,True,Identificador anónimo de la respuesta,clave,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,fecha,str,False,Fecha del levantamiento simulado (AAAA-MM-DD),fecha,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,hora,str,False,Hora local (HH:MM),hora,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,lat,float64,False,"Latitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,lon,float64,False,"Longitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,cvegeo_ageb,str,False,"AGEB urbana donde cae el punto (Marco Geoestadístico 2025, src/ageb.py)",clave,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,perfil,str,False,"vive aquí, trabaja aquí o de visita",texto,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,rango_edad,str,False,"Rango de edad estimado por quien entrevista, sin preguntarlo",texto,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,motivo_espera,str,False,Qué espera o por qué se detuvo,texto,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,tiempo_espera_min,int64,False,Tiempo que suele esperar en ese punto,minutos,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,encontro_asiento,str,False,"sí, no o no lo necesitaba",texto,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,necesidad_expresada,str,False,Lo que le haría más cómoda la espera,texto,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,comodidad_1a5,int64,False,"Qué tan cómodo es esperar ahí, de 1 a 5",escala 1-5,0.0,src/simular_campo.py
+simulado,sim_campo_entrevistas,comentario,str,False,"Comentario libre, resumido por quien entrevista; sin datos personales",texto,5.56,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,id_banca,str,True,Identificador de la banca en el recorrido,clave,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,fecha,str,False,Fecha del levantamiento simulado (AAAA-MM-DD),fecha,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,lat,float64,False,"Latitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,lon,float64,False,"Longitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,cvegeo_ageb,str,False,"AGEB urbana donde cae el punto (Marco Geoestadístico 2025, src/ageb.py)",clave,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,tipo,str,False,Tipo de asiento; «lugar informal» si no es mobiliario urbano,texto,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,material,str,False,Material del asiento,texto,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,largo_m,float64,False,Largo del asiento,m,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,alto_asiento_m,float64,False,Altura del asiento sobre el piso,m,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,profundidad_m,float64,False,Profundidad del asiento,m,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,respaldo,str,False,Tiene respaldo (sí o no),texto,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,descansabrazos,str,False,Tiene descansabrazos (sí o no),texto,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,sombra,str,False,"Sombra a mediodía: total, parcial o ninguna",texto,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,distancia_parada_m,float64,False,Distancia en línea recta a la parada del recorrido más cercana,m,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,estado,str,False,"Estado físico: bueno, regular o malo",texto,0.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,archivo_foto,object,False,Foto sin personas; vacía en la simulación,archivo,100.0,src/simular_campo.py
+simulado,sim_campo_inventario_bancas,observaciones,str,False,Notas de quien levantó el inventario,texto,35.71,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,id_captura,str,True,Identificador de la medición: tramo y número de obstáculo,clave,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,id_tramo,str,False,Tramo de banqueta (T1 a T3),clave,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,fecha,str,False,Fecha del levantamiento simulado (AAAA-MM-DD),fecha,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,hora,str,False,Hora local (HH:MM),hora,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,lat,float64,False,"Latitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,lon,float64,False,"Longitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,cvegeo_ageb,str,False,"AGEB urbana donde cae el punto (Marco Geoestadístico 2025, src/ageb.py)",clave,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,dispositivo,str,False,Celular o tableta con sensor LiDAR,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,app,str,False,Aplicación de escaneo,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,archivo_captura,str,False,"Nube de puntos del tramo, en la misma carpeta",archivo,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,largo_tramo_m,float64,False,Largo del tramo escaneado,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,ancho_total_m,float64,False,"Ancho de la banqueta, de la fachada a la orilla de la guarnición",m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,ancho_libre_m,float64,False,Ancho mínimo de paso libre en el tramo,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,obstaculo_tipo,str,False,Tipo de obstáculo; «ninguno» si no hay,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,obstaculo_largo_m,object,False,Largo del obstáculo en el sentido de la calle,m,100.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,obstaculo_ancho_m,object,False,Ancho del obstáculo hacia el arroyo,m,100.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,obstaculo_alto_m,object,False,Alto del obstáculo sobre la banqueta,m,100.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,pendiente_pct,float64,False,"Pendiente longitudinal del tramo (en T3, la de la rampa)",porcentaje,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_1,observaciones,str,False,Notas de quien midió,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,id_captura,str,True,Identificador de la medición: tramo y número de obstáculo,clave,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,id_tramo,str,False,Tramo de banqueta (T1 a T3),clave,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,fecha,str,False,Fecha del levantamiento simulado (AAAA-MM-DD),fecha,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,hora,str,False,Hora local (HH:MM),hora,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,lat,float64,False,"Latitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,lon,float64,False,"Longitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,cvegeo_ageb,str,False,"AGEB urbana donde cae el punto (Marco Geoestadístico 2025, src/ageb.py)",clave,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,dispositivo,str,False,Celular o tableta con sensor LiDAR,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,app,str,False,Aplicación de escaneo,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,archivo_captura,str,False,"Nube de puntos del tramo, en la misma carpeta",archivo,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,largo_tramo_m,float64,False,Largo del tramo escaneado,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,ancho_total_m,float64,False,"Ancho de la banqueta, de la fachada a la orilla de la guarnición",m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,ancho_libre_m,float64,False,Ancho mínimo de paso libre en el tramo,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,obstaculo_tipo,str,False,Tipo de obstáculo; «ninguno» si no hay,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,obstaculo_largo_m,float64,False,Largo del obstáculo en el sentido de la calle,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,obstaculo_ancho_m,float64,False,Ancho del obstáculo hacia el arroyo,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,obstaculo_alto_m,float64,False,Alto del obstáculo sobre la banqueta,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,pendiente_pct,float64,False,"Pendiente longitudinal del tramo (en T3, la de la rampa)",porcentaje,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_2,observaciones,str,False,Notas de quien midió,texto,50.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,id_captura,str,True,Identificador de la medición: tramo y número de obstáculo,clave,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,id_tramo,str,False,Tramo de banqueta (T1 a T3),clave,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,fecha,str,False,Fecha del levantamiento simulado (AAAA-MM-DD),fecha,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,hora,str,False,Hora local (HH:MM),hora,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,lat,float64,False,"Latitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,lon,float64,False,"Longitud, WGS84",grados decimales EPSG:4326,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,cvegeo_ageb,str,False,"AGEB urbana donde cae el punto (Marco Geoestadístico 2025, src/ageb.py)",clave,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,dispositivo,str,False,Celular o tableta con sensor LiDAR,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,app,str,False,Aplicación de escaneo,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,archivo_captura,str,False,"Nube de puntos del tramo, en la misma carpeta",archivo,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,largo_tramo_m,float64,False,Largo del tramo escaneado,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,ancho_total_m,float64,False,"Ancho de la banqueta, de la fachada a la orilla de la guarnición",m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,ancho_libre_m,float64,False,Ancho mínimo de paso libre en el tramo,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,obstaculo_tipo,str,False,Tipo de obstáculo; «ninguno» si no hay,texto,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,obstaculo_largo_m,float64,False,Largo del obstáculo en el sentido de la calle,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,obstaculo_ancho_m,float64,False,Ancho del obstáculo hacia el arroyo,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,obstaculo_alto_m,float64,False,Alto del obstáculo sobre la banqueta,m,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,pendiente_pct,float64,False,"Pendiente longitudinal del tramo (en T3, la de la rampa)",porcentaje,0.0,src/simular_campo.py
+simulado,sim_campo_lidar_tramo_3,observaciones,str,False,Notas de quien midió,texto,50.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,id_conteo,str,True,Identificador del conteo,clave,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,id_banca,str,False,Banca del inventario 8.1,clave,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,fecha,str,False,Fecha del levantamiento simulado (AAAA-MM-DD),fecha,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,franja,str,False,"mañana, mediodía o tarde",texto,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,hora_inicio,str,False,Inicio del conteo (HH:MM),hora,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,hora_fin,str,False,Fin del conteo (HH:MM),hora,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,personas_sentadas,int64,False,Personas sentadas en la banca durante el conteo (máximo observado),personas,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,personas_esperando_de_pie,int64,False,Personas esperando de pie junto a la banca,personas,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,personas_sentadas_en_otro_lugar,int64,False,"Personas sentadas en escalones, jardineras o la banqueta",personas,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,temperatura_c,float64,False,Temperatura del aire al inicio del conteo,°C,0.0,src/simular_campo.py
+simulado,sim_campo_ocupacion_bancas,observaciones,str,False,Notas de quien contó,texto,61.11,src/simular_campo.py
 simulado,sim_obras_banquetas_centro,origen_dato,str,False,Marca fija «SIMULADO»: el registro no es dato oficial,texto,0.0,src/simular_solicitudes.py
 simulado,sim_obras_banquetas_centro,numero_obra,str,True,Identificador de la obra en la simulación (SIM-OP-año-consecutivo); no es un número de contrato real,código,0.0,src/simular_solicitudes.py
 simulado,sim_obras_banquetas_centro,descripcion,str,False,Nombre o descripción de la obra,texto,0.0,src/simular_solicitudes.py

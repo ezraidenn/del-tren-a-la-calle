@@ -1,5 +1,8 @@
 """Prepara para el ETL las fuentes de los subtemas 1, 3.3 y 5.1.
 
+Para 3.3 también escribe los polígonos de las AGEB urbanas (GeoJSON) y una
+tabla con su área y un punto de referencia (promedio de los vértices).
+
 Lee los originales sin modificarlos y escribe CSV UTF-8 en datos/para-etl/ con:
 - nombres de columna en minúsculas;
 - claves geográficas del INEGI como texto con ceros a la izquierda:
@@ -17,6 +20,7 @@ import json
 import re
 import zipfile
 
+import numpy as np
 import pandas as pd
 
 import comun
@@ -114,6 +118,50 @@ def subtema_3() -> None:
     for c in ageb.columns.difference(list(textos)):
         ageb[c] = pd.to_numeric(ageb[c], errors="coerce")
     escribir(ageb, "03_inegi", "3.3_censo_2020_ageb", "censo_2020_ageb_urbana_yucatan.csv")
+    poligonos_ageb()
+
+
+def area_km2(anillo: list) -> float:
+    """Área de un anillo lon/lat con proyección equirectangular local (error < 0.1 % a esta escala)."""
+    xy = np.array(anillo, dtype=float)
+    lat0 = np.radians(xy[:, 1].mean())
+    x = np.radians(xy[:, 0]) * 6371.0088 * np.cos(lat0)
+    y = np.radians(xy[:, 1]) * 6371.0088
+    return abs(float(np.dot(x, np.roll(y, -1)) - np.dot(y, np.roll(x, -1)))) / 2
+
+
+def poligonos_ageb() -> None:
+    """Polígonos de AGEB urbanas del Marco Geoestadístico: GeoJSON ordenado y tabla con área y centroide."""
+    ruta = comun.ORIGINALES / "03_inegi" / "3.3_censo_2020_ageb" / "mg_ageb_urbana_31.geojson"
+    datos = json.loads(ruta.read_text(encoding="utf-8"))
+    rasgos, filas = [], []
+    # 32 AGEB nuevas del Marco 2025 no existían en el Censo 2020: no traen nombre ni población.
+    nombres = {r["properties"]["cvegeo"][:5]: r["properties"]["nom_mun"]
+               for r in datos["features"] if "nom_mun" in r["properties"]}
+    for r in sorted(datos["features"], key=lambda r: r["properties"]["cvegeo"]):
+        p = r["properties"]
+        poligonos = r["geometry"]["coordinates"]
+        area = sum(area_km2(pol[0]) - sum(area_km2(h) for h in pol[1:]) for pol in poligonos)
+        exterior = np.array(max((pol[0] for pol in poligonos), key=len), dtype=float)
+        fila = {
+            "cvegeo_ageb": p["cvegeo"], "cvegeo_mun": p["cvegeo"][:5], "cvegeo_loc": p["cvegeo"][:9],
+            "nom_mun": nombres.get(p["cvegeo"][:5]), "cve_ageb": p["cve_ageb"],
+            "en_censo_2020": "pob_total" in p,
+            "pob_total": int(p["pob_total"]) if "pob_total" in p else None,
+            "total_viviendas_habitadas": (int(p["total_viviendas_habitadas"])
+                                          if "total_viviendas_habitadas" in p else None),
+            "area_km2": round(area, 4),
+            "lat": round(float(exterior[:, 1].mean()), 6), "lon": round(float(exterior[:, 0].mean()), 6),
+        }
+        filas.append(fila)
+        rasgos.append({"type": "Feature", "geometry": r["geometry"],
+                       "properties": {k: v for k, v in fila.items() if k not in {"lat", "lon"}}})
+    destino = comun.carpeta_fuente("03_inegi", "3.3_censo_2020_ageb", base=comun.PARA_ETL)
+    (destino / "ageb_urbana_yucatan_poligonos.geojson").write_text(json.dumps(
+        {"type": "FeatureCollection", "name": "ageb_urbana_yucatan_poligonos",
+         "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}},
+         "features": rasgos}, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    escribir(pd.DataFrame(filas), "03_inegi", "3.3_censo_2020_ageb", "ageb_urbana_yucatan_poligonos.csv")
 
 
 def subtema_5() -> None:

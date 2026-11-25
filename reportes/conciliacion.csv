@@ -1,4 +1,10 @@
 capa,tabla,id_fuente,filas_original,filas_para_etl,filas_curado,filas_rechazadas,cuadra_original_para_etl,cuadra_para_etl_curado,nota
+gold,ind_ageb_entorno_merida,,3256,,2551,,,True,paradas_transporte: 3256 = 2551 en AGEB urbanas de Mérida + 450 en AGEB de otros municipios + 255 fuera de AGEB urbana
+gold,ind_ageb_entorno_merida,,193,,189,,,True,restaurantes_seccion_amarilla: 193 = 189 en AGEB urbanas de Mérida + 3 en AGEB de otros municipios + 1 fuera de AGEB urbana
+gold,ind_ageb_entorno_merida,,825,,733,,,True,instalaciones_deportivas: 825 = 733 en AGEB urbanas de Mérida + 0 en AGEB de otros municipios + 92 fuera de AGEB urbana
+gold,ind_ageb_entorno_merida,,99,,98,,,True,estacionamientos_bicicleta: 99 = 98 en AGEB urbanas de Mérida + 0 en AGEB de otros municipios + 1 fuera de AGEB urbana
+gold,ind_ageb_entorno_merida,,702,,617,,,True,instalaciones_deportivas_publicas: 702 = 617 en AGEB urbanas de Mérida + 0 en AGEB de otros municipios + 85 fuera de AGEB urbana
+gold,ind_ageb_entorno_merida,,194802,,194801,,,True,km de ciclovías y carriles asignados por el punto medio de cada tramo: 194.8 km en AGEB urbanas de Mérida
 gold,ind_municipio_contexto,,533275,,270,,,True,DENUE 2019 5 estados: 533275 = 533275 en municipios de CONAPO 2020 + 0 en municipios creados después de 2020
 gold,ind_municipio_contexto,,604594,,270,,,True,DENUE 2025 5 estados: 604594 = 603325 en municipios de CONAPO 2020 + 1269 en municipios creados después de 2020
 gold,ind_negocios_ageb_merida,,53183,,526,,,True,DENUE 2019 Mérida: 53183 establecimientos = 52675 en AGEB urbanas del Censo + 505 en AGEB sin renglón urbano en el Censo + 3 sin AGEB
@@ -18,6 +24,7 @@ silver,conapo_marginacion_ageb_yucatan_2020,E8-01.1,1220,1220,1220,0,True,True,
 silver,conapo_marginacion_municipal_2020,E8-01.1,270,270,270,0,True,True,
 silver,conapo_poblacion_quinquenal_municipal,E8-01.2,27642,27642,27642,0,True,True,
 silver,inegi_censo_2020_ageb_yucatan,E8-03.3,1532,1532,1532,0,True,True,Del original se toman solo los renglones de total por AGEB (MZA = 000 y AGEB distinta de 0000).
+silver,inegi_mg_ageb_urbana_yucatan,E8-03.3,1562,1562,1562,0,True,True,Una fila por polígono de AGEB urbana; la geometría completa está en ageb_urbana_yucatan_poligonos.geojson.
 silver,osm_infraestructura_ciclista,E8-04.2,1198,1198,1198,0,True,True,Se cuentan los elementos de la respuesta de Overpass que traen coordenada o geometría.
 silver,osm_unidades_deportivas,E8-04.1,825,825,825,0,True,True,Se cuentan los elementos de la respuesta de Overpass que traen coordenada o centro.
 silver,rutatrenmaya_conexiones_teya,E8-09.3,,3,3,0,,True,Sin conteo independiente del original.
@@ -29,6 +36,19 @@ silver,siegy_turismo_2025_09,E8-02.2,,11,11,0,,True,El original es un PDF de una
 silver,srft_obras_banquetas_merida,E8-05.3,,101,101,0,,True,Filtro de proyectos de guarniciones y banquetas del municipio de Mérida sobre los extractos del SRFT.
 silver,tren_maya_horarios,E8-09.2,,32,32,0,,True,El original es una tabla HTML; no hay conteo independiente.
 silver,tren_maya_servicio_mensual,E8-05.1,122,122,122,0,True,True,Formato largo: un renglón por variable y periodo; los boletos de 2024 traen 2 variables por registro.
+simulado,sim_campo_ar_entrada_1,E8-07.1,1,,1,,,True,el restaurante LA CHAYA MAYA (Sección Amarilla 998900181) cae en una AGEB urbana
+simulado,sim_campo_ar_entrada_2,E8-07.2,1,,1,,,True,el restaurante CAFÉ ROLLAL (Sección Amarilla 3593856) cae en una AGEB urbana
+simulado,sim_campo_ar_entrada_3,E8-07.3,1,,1,,,True,el restaurante EL CHILE HABANERO RESTAURANTE (Sección Amarilla 996034481) cae en una AGEB urbana
+simulado,sim_campo_entrevistas,E8-08.3,18,,18,,,True,todas las respuestas usan la escala de comodidad de 1 a 5
+simulado,sim_campo_entrevistas,E8-08.3,58,,58,,,True,"las 58 filas simuladas de campo pasan src/validar_campo.py (fechas, coordenadas, AGEB, rangos, archivos y datos personales)"
+simulado,sim_campo_inventario_bancas,E8-08.1,14,,14,,,True,todas las bancas caen en una AGEB urbana de Mérida
+simulado,sim_campo_lidar_tramo_1,E8-06.1,1,,1,,,True,el ancho libre no supera el ancho total en ninguna medición
+simulado,sim_campo_lidar_tramo_1,E8-06.1,142,,142,,,True,"la nube SIMULADO_captura_T1.ply (89,039 puntos) reproduce el ancho medido de 1.42 m (±1 cm)"
+simulado,sim_campo_lidar_tramo_2,E8-06.2,2,,2,,,True,el ancho libre no supera el ancho total en ninguna medición
+simulado,sim_campo_lidar_tramo_2,E8-06.2,118,,118,,,True,"la nube SIMULADO_captura_T2.ply (86,032 puntos) reproduce el ancho medido de 1.18 m (±1 cm)"
+simulado,sim_campo_lidar_tramo_3,E8-06.3,2,,2,,,True,el ancho libre no supera el ancho total en ninguna medición
+simulado,sim_campo_lidar_tramo_3,E8-06.3,135,,135,,,True,"la nube SIMULADO_captura_T3.ply (76,228 puntos) reproduce el ancho medido de 1.35 m (±1 cm)"
+simulado,sim_campo_ocupacion_bancas,E8-08.2,18,,18,,,True,cada conteo corresponde a una banca del inventario 8.1
 simulado,sim_obras_banquetas_centro,E8-05.3-SIM,32,,32,,,True,"todas las obras caen dentro del Centro Histórico (20.955-20.980 N, 89.605-89.640 O)"
 simulado,sim_obras_banquetas_centro,E8-05.3-SIM,1,,1,,,True,"costo mediano por m² simulado (1,777) entre 1 y 3 veces el del SRFT (942)"
 simulado,sim_r901_corridas_mes,E8-05.2-SIM,5460,,5460,,,True,corridas programadas = viajes del GTFS por tipo de día × días del mes

@@ -1,6 +1,7 @@
 """Capa gold: dimensiones compartidas e indicadores reproducibles.
 
-Lee solo la capa silver (datos/curados) y los ZIP originales del DENUE. Escribe
+Lee la capa silver (datos/curados), los ZIP originales del DENUE y los
+polígonos de AGEB preparados en datos/para-etl/03_inegi/3.3_censo_2020_ageb/. Escribe
 en datos/gold/ una tabla por dimensión o indicador, en Parquet y CSV, y
 documenta cada indicador con su fórmula, numerador y denominador en
 datos/gold/indicadores.csv.
@@ -20,6 +21,10 @@ Indicadores:
   por kilómetro y variación anual.
 - ind_restaurantes_transporte: distancia de cada restaurante con coordenadas a
   la parada de transporte público más cercana.
+- ind_ageb_entorno_merida: paradas, restaurantes, instalaciones deportivas,
+  estacionamientos de bicicletas y km de ciclovía por AGEB urbana de Mérida,
+  con densidades y tasas por 10,000 habitantes. Los puntos se asignan a su
+  AGEB con los polígonos del Marco Geoestadístico (src/ageb.py).
 - ind_obras_banquetas_anual: obras, superficie y monto de banquetas por año.
 
 Cada indicador concilia sus totales contra su entrada y lo registra en
@@ -39,6 +44,7 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import ageb  # noqa: E402
 import curar  # noqa: E402
 
 RAIZ = curar.RAIZ
@@ -223,10 +229,55 @@ def ind_restaurantes_transporte() -> pd.DataFrame:
     r["distancia_parada_m"] = dist.min(axis=1).round(1)
     r["paradas_a_400_m"] = (dist <= 400).sum(axis=1)
     r["a_400_m_de_parada"] = r["distancia_parada_m"] <= 400
+    r["cvegeo_ageb"] = ageb.Agebs().asignar(r["lat"], r["lon"])
     control("ind_restaurantes_transporte", int(silver("seccion_amarilla_restaurantes_merida")["lat"].notna().sum()),
             len(r), f"{len(r)} restaurantes con coordenadas; {int(r['a_400_m_de_parada'].sum())} a 400 m o menos "
             f"de una parada", True)
     return r.reset_index(drop=True)
+
+
+def ind_ageb_entorno_merida() -> pd.DataFrame:
+    """Infraestructura de transporte, deporte, bicicleta y restaurantes por AGEB urbana de Mérida."""
+    base = silver("inegi_mg_ageb_urbana_yucatan")
+    base = base[base["cvegeo_mun"] == MERIDA][["cvegeo_ageb", "en_censo_2020", "pob_total",
+                                                "total_viviendas_habitadas", "area_km2"]].copy()
+    agebs = ageb.Agebs()
+    capas = {
+        "paradas_transporte": silver("aty_paraderos").query("num_rutas > 0"),
+        "restaurantes_seccion_amarilla": silver("seccion_amarilla_restaurantes_merida").dropna(subset=["lat"]),
+        "instalaciones_deportivas": silver("osm_unidades_deportivas"),
+        "estacionamientos_bicicleta": silver("osm_infraestructura_ciclista").query("categoria == 'estacionamiento'"),
+    }
+    deportivas = capas["instalaciones_deportivas"]
+    capas["instalaciones_deportivas_publicas"] = deportivas[deportivas["acceso_publico_probable"].astype(bool)]
+    tramos = silver("osm_infraestructura_ciclista")
+    tramos = tramos[tramos["categoria"].isin(["ciclovía", "carril en calle"])]
+    for nombre, capa in capas.items():
+        clave = pd.Series(agebs.asignar(capa["lat"], capa["lon"]), index=capa.index)
+        conteo = clave.value_counts()
+        base[nombre] = base["cvegeo_ageb"].map(conteo).fillna(0).astype("Int64")
+        en_merida = int(clave.str[:5].eq(MERIDA).sum())
+        control("ind_ageb_entorno_merida", len(capa), int(base[nombre].sum()),
+                f"{nombre}: {len(capa)} = {en_merida} en AGEB urbanas de Mérida + {int(clave.notna().sum()) - en_merida} "
+                f"en AGEB de otros municipios + {int(clave.isna().sum())} fuera de AGEB urbana",
+                int(base[nombre].sum()) == en_merida)
+    clave = pd.Series(agebs.asignar(tramos["lat"], tramos["lon"]), index=tramos.index)
+    km = (tramos["longitud_m"].astype(float) / 1000).groupby(clave).sum()
+    base["km_ciclovia"] = base["cvegeo_ageb"].map(km).fillna(0).round(3)
+    km_merida = float(km[km.index.str[:5] == MERIDA].sum())
+    control("ind_ageb_entorno_merida", round(km_merida * 1000), round(float(base["km_ciclovia"].sum()) * 1000),
+            f"km de ciclovías y carriles asignados por el punto medio de cada tramo: {km_merida:,.1f} km en AGEB "
+            f"urbanas de Mérida", abs(km_merida - float(base["km_ciclovia"].sum())) < 0.01)
+    pob = base["pob_total"].astype("Float64")
+    # Las tasas por habitante se omiten en AGEB de menos de 100 habitantes (centros comerciales, parques,
+    # zonas industriales): con tan poca población, una sola instalación da tasas de miles.
+    hab = pob.where(pob >= 100)
+    base["densidad_hab_km2"] = (pob / base["area_km2"].astype(float)).round(1)
+    base["paradas_por_km2"] = (base["paradas_transporte"] / base["area_km2"].astype(float)).round(2)
+    base["deportivas_publicas_por_10mil_hab"] = (base["instalaciones_deportivas_publicas"] / hab * 10_000).round(2)
+    base["km_ciclovia_por_10mil_hab"] = (base["km_ciclovia"] / hab * 10_000).round(3)
+    base["restaurantes_por_10mil_hab"] = (base["restaurantes_seccion_amarilla"] / hab * 10_000).round(2)
+    return base.sort_values("cvegeo_ageb").reset_index(drop=True)
 
 
 def ind_obras_banquetas_anual() -> pd.DataFrame:
@@ -271,6 +322,11 @@ SALIDAS = [
     (ind_restaurantes_transporte, spec("ind_restaurantes_transporte", ["id_anuncio"], "restaurante", "Municipio de Mérida",
                                        ("2026-11-24", "2026-11-24"), "metros y número de paradas", "E8-09.1;E8-04.3",
                                        "Sección Amarilla 2026-11-24 y GTFS ATY 12.1", "espacial")),
+    (ind_ageb_entorno_merida, spec("ind_ageb_entorno_merida", ["cvegeo_ageb"], "AGEB urbana", "Municipio de Mérida",
+                                   ("2020", "2026"), "conteos, km, densidades y tasas por 10,000 habitantes",
+                                   "E8-03.3;E8-04.1;E8-04.2;E8-04.3;E8-09.1",
+                                   "Marco Geoestadístico 2025-12 y Censo 2020; OpenStreetMap 2026-11-25; GTFS ATY 12.1; "
+                                   "Sección Amarilla 2026-11-24", "espacial")),
     (ind_obras_banquetas_anual, spec("ind_obras_banquetas_anual", ["anio_inicio"], "año de inicio de obra",
                                      "Municipio de Mérida", "anio_inicio", "obras, metros cuadrados y MXN", "E8-05.3",
                                      "SRFT 2023 a 2026 3.er trimestre")),
@@ -306,6 +362,21 @@ INDICADORES = [
     ("ind_restaurantes_transporte", "a_400_m_de_parada", "Restaurante a 400 m o menos de una parada",
      "distancia_parada_m ≤ 400", "no aplica", "no aplica", "booleano",
      "400 m es la distancia de caminata usual en planeación de transporte público."),
+    ("ind_ageb_entorno_merida", "paradas_por_km2", "Paradas de transporte público por km²",
+     "paradas_transporte / area_km2", "Paradas del GTFS con al menos una ruta dentro de la AGEB",
+     "Área de la AGEB", "paradas por km²", "Cuenta la parada en la AGEB donde cae su punto."),
+    ("ind_ageb_entorno_merida", "deportivas_publicas_por_10mil_hab", "Instalaciones deportivas de acceso público por 10,000 habitantes",
+     "instalaciones_deportivas_publicas / pob_total × 10,000", "Instalaciones de OpenStreetMap sin acceso restringido en la AGEB",
+     "Población de la AGEB en el Censo 2020", "instalaciones por 10,000 habitantes",
+     "OpenStreetMap no está completo: es un mínimo. Vacío si la AGEB tiene menos de 100 habitantes."),
+    ("ind_ageb_entorno_merida", "km_ciclovia_por_10mil_hab", "Kilómetros de ciclovía por 10,000 habitantes",
+     "km_ciclovia / pob_total × 10,000", "Kilómetros de ciclovías y carriles en la AGEB",
+     "Población de la AGEB en el Censo 2020", "km por 10,000 habitantes",
+     "Cada tramo se asigna completo a la AGEB de su punto medio; en tramos que cruzan AGEB es una aproximación. Vacío si la AGEB tiene menos de 100 habitantes."),
+    ("ind_ageb_entorno_merida", "restaurantes_por_10mil_hab", "Restaurantes anunciados por 10,000 habitantes",
+     "restaurantes_seccion_amarilla / pob_total × 10,000", "Restaurantes de Sección Amarilla con coordenadas en la AGEB",
+     "Población de la AGEB en el Censo 2020", "restaurantes por 10,000 habitantes",
+     "Solo los 193 anuncios con coordenadas válidas; el Centro concentra a quienes trabajan, no a quienes viven. Vacío si la AGEB tiene menos de 100 habitantes."),
     ("ind_obras_banquetas_anual", "monto_aprobado_por_m2_mxn", "Monto aprobado por metro cuadrado",
      "Σ monto_aprobado_mxn / Σ metros_cuadrados", "Suma del monto aprobado de las obras del año",
      "Suma de metros cuadrados de las obras del año", "MXN por m²", "Vacío si las obras del año no reportan m²."),
@@ -342,6 +413,22 @@ DESCRIPCIONES_GOLD = {
     "station_id": ("Identificador de la estación del Tren Maya", "clave"),
     "estacion": ("Nombre de la estación", "texto"), "estado": ("Estado de la estación", "texto"),
     "municipio": ("Municipio de la estación", "texto"),
+    "en_censo_2020": ("Verdadero si la AGEB existía en el Censo 2020", "booleano"),
+    "pob_total": ("Población total de la AGEB en el Censo 2020", "personas"),
+    "total_viviendas_habitadas": ("Viviendas particulares habitadas en el Censo 2020", "viviendas"),
+    "area_km2": ("Área de la AGEB", "km²"),
+    "paradas_transporte": ("Paradas del GTFS de la ATY con al menos una ruta dentro de la AGEB", "paradas"),
+    "restaurantes_seccion_amarilla": ("Restaurantes de Sección Amarilla con coordenadas dentro de la AGEB", "restaurantes"),
+    "instalaciones_deportivas": ("Instalaciones deportivas de OpenStreetMap dentro de la AGEB", "instalaciones"),
+    "instalaciones_deportivas_publicas": ("Instalaciones deportivas de OpenStreetMap sin acceso restringido", "instalaciones"),
+    "estacionamientos_bicicleta": ("Estacionamientos de bicicletas de OpenStreetMap dentro de la AGEB", "estacionamientos"),
+    "km_ciclovia": ("Kilómetros de ciclovías y carriles cuyo punto medio cae en la AGEB", "km"),
+    "densidad_hab_km2": ("Habitantes por km² (Censo 2020)", "personas por km²"),
+    "paradas_por_km2": ("Paradas de transporte por km²", "paradas por km²"),
+    "deportivas_publicas_por_10mil_hab": ("Instalaciones deportivas de acceso público por 10,000 habitantes", "instalaciones por 10,000 habitantes"),
+    "km_ciclovia_por_10mil_hab": ("Kilómetros de ciclovía por 10,000 habitantes", "km por 10,000 habitantes"),
+    "restaurantes_por_10mil_hab": ("Restaurantes anunciados por 10,000 habitantes", "restaurantes por 10,000 habitantes"),
+    "cvegeo_ageb": ("Clave de la AGEB urbana donde cae el punto (Marco Geoestadístico 2025); vacía si no cae en ninguna", "clave"),
     "cve_loc": ("Clave de localidad del INEGI", "clave"), "cve_ageb": ("Clave de AGEB del INEGI", "clave"),
 }
 

@@ -4,7 +4,7 @@
   Tren Maya (Campeche 04, Chiapas 07, Quintana Roo 23, Tabasco 27, Yucatán 31).
   Son la entrada de procesamiento/03_denue_datamart.
 - 3.3 Censo de Población y Vivienda 2020, resultados por AGEB y manzana urbana
-  de Yucatán.
+  de Yucatán, y los polígonos de sus AGEB urbanas (Marco Geoestadístico).
 
 Los ZIP se guardan sin descomprimir, tal como los publica el INEGI.
 
@@ -17,6 +17,7 @@ ESTADOS = ["04", "07", "23", "27", "31"]
 LICENCIA = "Términos de libre uso de la información del INEGI"
 URL_LICENCIA = "https://www.inegi.org.mx/inegi/terminos.html"
 INSTITUCION = "Instituto Nacional de Estadística y Geografía (INEGI)"
+URL_MG_AGEB = "https://gaia.inegi.org.mx/wscatgeo/v2/geo/agebu/31"
 
 
 def denue(carpeta_nombre: str, ident: str, nombre: str, edicion: str, sufijo: str) -> None:
@@ -45,6 +46,11 @@ def main() -> None:
              "acceso": "Datos abiertos del Censo de Población y Vivienda 2020"}
     print(ficha["id"], ficha["nombre"])
     comun.descargar(url, carpeta, "ageb_mza_urbana_31_cpv2020_csv.zip", ficha, nota="Entidad 31")
+    # Polígonos de las AGEB urbanas: permiten asignar cvegeo_ageb a cualquier punto.
+    comun.descargar(URL_MG_AGEB, carpeta, "mg_ageb_urbana_31.geojson", ficha,
+                    nota=("Polígonos de AGEB urbanas de Yucatán, servicio web del Catálogo Único de Claves "
+                          "Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025, población del "
+                          "Censo 2020), EPSG:4326"))
 
 
 if __name__ == "__main__":

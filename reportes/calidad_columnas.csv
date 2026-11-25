@@ -21,6 +21,22 @@ gold,dim_tiempo,anio,int32,0,0.0,8,2019,2026,2019
 gold,dim_tiempo,mes,int32,0,0.0,12,1,12,1
 gold,dim_tiempo,trimestre,int32,0,0.0,4,1,4,1
 gold,dim_tiempo,nombre_mes,str,0,0.0,12,,,enero
+gold,ind_ageb_entorno_merida,cvegeo_ageb,string,0,0.0,545,,,3105000010027
+gold,ind_ageb_entorno_merida,en_censo_2020,boolean,0,0.0,2,,,True
+gold,ind_ageb_entorno_merida,pob_total,Int64,19,3.49,479,0,7244,21
+gold,ind_ageb_entorno_merida,total_viviendas_habitadas,Int64,19,3.49,414,0,2499,10
+gold,ind_ageb_entorno_merida,area_km2,Float64,0,0.0,534,0.0149,6.626,0.2406
+gold,ind_ageb_entorno_merida,paradas_transporte,Int64,0,0.0,24,0,60,2
+gold,ind_ageb_entorno_merida,restaurantes_seccion_amarilla,Int64,0,0.0,8,0,11,0
+gold,ind_ageb_entorno_merida,instalaciones_deportivas,Int64,0,0.0,21,0,31,0
+gold,ind_ageb_entorno_merida,estacionamientos_bicicleta,Int64,0,0.0,7,0,22,0
+gold,ind_ageb_entorno_merida,instalaciones_deportivas_publicas,Int64,0,0.0,19,0,25,0
+gold,ind_ageb_entorno_merida,km_ciclovia,float64,0,0.0,137,0.0,10.778,0.0
+gold,ind_ageb_entorno_merida,densidad_hab_km2,Float64,19,3.49,520,0.0,17777.8,87.3
+gold,ind_ageb_entorno_merida,paradas_por_km2,Float64,0,0.0,414,0.0,106.08,8.31
+gold,ind_ageb_entorno_merida,deportivas_publicas_por_10mil_hab,Float64,51,9.36,187,0.0,500.0,39.53
+gold,ind_ageb_entorno_merida,km_ciclovia_por_10mil_hab,Float64,51,9.36,133,0.0,93.871,8.893
+gold,ind_ageb_entorno_merida,restaurantes_por_10mil_hab,Float64,51,9.36,108,0.0,158.31,0.0
 gold,ind_municipio_contexto,cvegeo_mun,object,0,0.0,270,,,04001
 gold,ind_municipio_contexto,nom_ent,string,0,0.0,5,,,Campeche
 gold,ind_municipio_contexto,nom_mun,string,0,0.0,269,,,Calkiní
@@ -59,6 +75,7 @@ gold,ind_restaurantes_transporte,parada_cercana,str,0,0.0,161,,,Centro Internaci
 gold,ind_restaurantes_transporte,distancia_parada_m,float64,0,0.0,176,3.7,138424.7,50.4
 gold,ind_restaurantes_transporte,paradas_a_400_m,int64,0,0.0,25,0,46,12
 gold,ind_restaurantes_transporte,a_400_m_de_parada,bool,0,0.0,2,,,True
+gold,ind_restaurantes_transporte,cvegeo_ageb,str,1,0.52,114,,,3105000010224
 gold,ind_tren_maya_mensual,fecha_mes,string,0,0.0,21,,,2025-01-01
 gold,ind_tren_maya_mensual,boletos_vendidos,Float64,0,0.0,21,72489.0,149151.0,106534.0
 gold,ind_tren_maya_mensual,boletos_vendidos_estaciones,Float64,11,52.38,10,7264.0,83948.0,57966.0
@@ -508,6 +525,17 @@ silver,inegi_censo_2020_ageb_yucatan,vph_sinrtv,Int64,248,16.19,94,0,160,11
 silver,inegi_censo_2020_ageb_yucatan,vph_sinltc,Int64,285,18.6,156,0,307,43
 silver,inegi_censo_2020_ageb_yucatan,vph_sincint,Int64,97,6.33,442,0,1007,164
 silver,inegi_censo_2020_ageb_yucatan,vph_sintic,Int64,361,23.56,57,0,85,7
+silver,inegi_mg_ageb_urbana_yucatan,cvegeo_ageb,string,0,0.0,1562,,,3100100010107
+silver,inegi_mg_ageb_urbana_yucatan,cvegeo_mun,string,0,0.0,106,,,31001
+silver,inegi_mg_ageb_urbana_yucatan,cvegeo_loc,string,0,0.0,133,,,310010001
+silver,inegi_mg_ageb_urbana_yucatan,nom_mun,string,0,0.0,106,,,Abalá
+silver,inegi_mg_ageb_urbana_yucatan,cve_ageb,string,0,0.0,1044,,,0107
+silver,inegi_mg_ageb_urbana_yucatan,en_censo_2020,boolean,0,0.0,2,,,True
+silver,inegi_mg_ageb_urbana_yucatan,pob_total,Int64,32,2.05,1064,0,7244,0
+silver,inegi_mg_ageb_urbana_yucatan,total_viviendas_habitadas,Int64,32,2.05,724,0,2499,0
+silver,inegi_mg_ageb_urbana_yucatan,area_km2,Float64,0,0.0,1450,0.0018,6.626,0.6047
+silver,inegi_mg_ageb_urbana_yucatan,lat,Float64,0,0.0,1561,20.062131,21.593351,20.646233
+silver,inegi_mg_ageb_urbana_yucatan,lon,Float64,0,0.0,1561,-90.401461,-87.562192,-89.683655
 silver,osm_infraestructura_ciclista,osm_id,string,0,0.0,1198,,,node/11792820815
 silver,osm_infraestructura_ciclista,categoria,string,0,0.0,4,,,estacionamiento
 silver,osm_infraestructura_ciclista,nombre,string,598,49.92,63,,,Evo Bike
@@ -639,6 +667,180 @@ silver,tren_maya_servicio_mensual,periodo_fin,string,0,0.0,34,,,2025-01-31
 silver,tren_maya_servicio_mensual,variable,string,0,0.0,5,,,boletos_vendidos
 silver,tren_maya_servicio_mensual,valor,Float64,7,5.74,114,238.0,281268.88,106534.0
 silver,tren_maya_servicio_mensual,archivo_origen,string,0,0.0,8,,,boletos_2025.json
+simulado,sim_campo_ar_entrada_1,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_campo_ar_entrada_1,id_sesion,str,0,0.0,1,,,AR-01
+simulado,sim_campo_ar_entrada_1,id_tarea,str,0,0.0,1,,,silla_en_entrada
+simulado,sim_campo_ar_entrada_1,id_establecimiento,str,0,0.0,1,,,SA-998900181
+simulado,sim_campo_ar_entrada_1,nombre_establecimiento,str,0,0.0,1,,,LA CHAYA MAYA
+simulado,sim_campo_ar_entrada_1,fecha,str,0,0.0,1,,,2026-11-24
+simulado,sim_campo_ar_entrada_1,hora,str,0,0.0,1,,,10:05
+simulado,sim_campo_ar_entrada_1,lat,float64,0,0.0,1,20.970049,20.970049,20.970049
+simulado,sim_campo_ar_entrada_1,lon,float64,0,0.0,1,-89.624031,-89.624031,-89.624031
+simulado,sim_campo_ar_entrada_1,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+simulado,sim_campo_ar_entrada_1,dispositivo,str,0,0.0,1,,,Samsung Galaxy S23
+simulado,sim_campo_ar_entrada_1,herramienta,str,0,0.0,1,,,Scene Viewer (ARCore)
+simulado,sim_campo_ar_entrada_1,modelo_virtual,str,0,0.0,1,,,silla_ruedas.glb
+simulado,sim_campo_ar_entrada_1,ancho_modelo_m,float64,0,0.0,1,0.7,0.7,0.7
+simulado,sim_campo_ar_entrada_1,largo_modelo_m,float64,0,0.0,1,1.2,1.2,1.2
+simulado,sim_campo_ar_entrada_1,ancho_libre_entrada_m,float64,0,0.0,1,1.52,1.52,1.52
+simulado,sim_campo_ar_entrada_1,altura_escalon_m,float64,0,0.0,1,0.24,0.24,0.24
+simulado,sim_campo_ar_entrada_1,resultado,str,0,0.0,1,,,cabe con ajustes
+simulado,sim_campo_ar_entrada_1,ajustes_necesarios,str,0,0.0,1,,,rampa portátil para un escalón de 0.24 m (unos 3.0 m de largo al 8 %)
+simulado,sim_campo_ar_entrada_1,num_intentos,int64,0,0.0,1,2,2,2
+simulado,sim_campo_ar_entrada_1,tiempo_s,int64,0,0.0,1,118,118,118
+simulado,sim_campo_ar_entrada_1,archivo_video,object,1,100.0,0,,,
+simulado,sim_campo_ar_entrada_1,observaciones,str,0,0.0,1,,,Portón de casona con escalón de piedra; la silla cabe de ancho pero no sube el e
+simulado,sim_campo_ar_entrada_2,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_campo_ar_entrada_2,id_sesion,str,0,0.0,1,,,AR-02
+simulado,sim_campo_ar_entrada_2,id_tarea,str,0,0.0,1,,,silla_en_entrada
+simulado,sim_campo_ar_entrada_2,id_establecimiento,str,0,0.0,1,,,SA-3593856
+simulado,sim_campo_ar_entrada_2,nombre_establecimiento,str,0,0.0,1,,,CAFÉ ROLLAL
+simulado,sim_campo_ar_entrada_2,fecha,str,0,0.0,1,,,2026-11-24
+simulado,sim_campo_ar_entrada_2,hora,str,0,0.0,1,,,10:31
+simulado,sim_campo_ar_entrada_2,lat,float64,0,0.0,1,20.96991,20.96991,20.96991
+simulado,sim_campo_ar_entrada_2,lon,float64,0,0.0,1,-89.62378,-89.62378,-89.62378
+simulado,sim_campo_ar_entrada_2,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+simulado,sim_campo_ar_entrada_2,dispositivo,str,0,0.0,1,,,Samsung Galaxy S23
+simulado,sim_campo_ar_entrada_2,herramienta,str,0,0.0,1,,,Scene Viewer (ARCore)
+simulado,sim_campo_ar_entrada_2,modelo_virtual,str,0,0.0,1,,,silla_ruedas.glb
+simulado,sim_campo_ar_entrada_2,ancho_modelo_m,float64,0,0.0,1,0.7,0.7,0.7
+simulado,sim_campo_ar_entrada_2,largo_modelo_m,float64,0,0.0,1,1.2,1.2,1.2
+simulado,sim_campo_ar_entrada_2,ancho_libre_entrada_m,float64,0,0.0,1,0.86,0.86,0.86
+simulado,sim_campo_ar_entrada_2,altura_escalon_m,float64,0,0.0,1,0.02,0.02,0.02
+simulado,sim_campo_ar_entrada_2,resultado,str,0,0.0,1,,,cabe
+simulado,sim_campo_ar_entrada_2,ajustes_necesarios,str,0,0.0,1,,,ninguno
+simulado,sim_campo_ar_entrada_2,num_intentos,int64,0,0.0,1,1,1,1
+simulado,sim_campo_ar_entrada_2,tiempo_s,int64,0,0.0,1,64,64,64
+simulado,sim_campo_ar_entrada_2,archivo_video,object,1,100.0,0,,,
+simulado,sim_campo_ar_entrada_2,observaciones,str,0,0.0,1,,,Puerta de una hoja al nivel de la banqueta; quedan 8 cm por lado. Simulación: si
+simulado,sim_campo_ar_entrada_3,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_campo_ar_entrada_3,id_sesion,str,0,0.0,1,,,AR-03
+simulado,sim_campo_ar_entrada_3,id_tarea,str,0,0.0,1,,,silla_en_entrada
+simulado,sim_campo_ar_entrada_3,id_establecimiento,str,0,0.0,1,,,SA-996034481
+simulado,sim_campo_ar_entrada_3,nombre_establecimiento,str,0,0.0,1,,,EL CHILE HABANERO RESTAURANTE
+simulado,sim_campo_ar_entrada_3,fecha,str,0,0.0,1,,,2026-11-24
+simulado,sim_campo_ar_entrada_3,hora,str,0,0.0,1,,,10:52
+simulado,sim_campo_ar_entrada_3,lat,float64,0,0.0,1,20.970238,20.970238,20.970238
+simulado,sim_campo_ar_entrada_3,lon,float64,0,0.0,1,-89.62252,-89.62252,-89.62252
+simulado,sim_campo_ar_entrada_3,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+simulado,sim_campo_ar_entrada_3,dispositivo,str,0,0.0,1,,,Samsung Galaxy S23
+simulado,sim_campo_ar_entrada_3,herramienta,str,0,0.0,1,,,Scene Viewer (ARCore)
+simulado,sim_campo_ar_entrada_3,modelo_virtual,str,0,0.0,1,,,silla_ruedas.glb
+simulado,sim_campo_ar_entrada_3,ancho_modelo_m,float64,0,0.0,1,0.7,0.7,0.7
+simulado,sim_campo_ar_entrada_3,largo_modelo_m,float64,0,0.0,1,1.2,1.2,1.2
+simulado,sim_campo_ar_entrada_3,ancho_libre_entrada_m,float64,0,0.0,1,0.78,0.78,0.78
+simulado,sim_campo_ar_entrada_3,altura_escalon_m,float64,0,0.0,1,0.17,0.17,0.17
+simulado,sim_campo_ar_entrada_3,resultado,str,0,0.0,1,,,no cabe
+simulado,sim_campo_ar_entrada_3,ajustes_necesarios,str,0,0.0,1,,,abrir la segunda hoja o ampliar el acceso a 0.80 m; rampa para un escalón de 0.1
+simulado,sim_campo_ar_entrada_3,num_intentos,int64,0,0.0,1,3,3,3
+simulado,sim_campo_ar_entrada_3,tiempo_s,int64,0,0.0,1,141,141,141
+simulado,sim_campo_ar_entrada_3,archivo_video,object,1,100.0,0,,,
+simulado,sim_campo_ar_entrada_3,observaciones,str,0,0.0,1,,,Una hoja abierta y una mesa junto al acceso; la segunda hoja estaba fija. Simula
+simulado,sim_campo_entrevistas,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_campo_entrevistas,id_respuesta,str,0,0.0,18,,,E01
+simulado,sim_campo_entrevistas,fecha,str,0,0.0,2,,,2026-11-24
+simulado,sim_campo_entrevistas,hora,str,0,0.0,18,,,08:22
+simulado,sim_campo_entrevistas,lat,float64,0,0.0,18,20.968603,20.970092,20.97006
+simulado,sim_campo_entrevistas,lon,float64,0,0.0,17,-89.624269,-89.621521,-89.624269
+simulado,sim_campo_entrevistas,cvegeo_ageb,str,0,0.0,2,,,3105000010440
+simulado,sim_campo_entrevistas,perfil,str,0,0.0,3,,,trabaja aquí
+simulado,sim_campo_entrevistas,rango_edad,str,0,0.0,4,,,30-44
+simulado,sim_campo_entrevistas,motivo_espera,str,0,0.0,4,,,esperar el camión
+simulado,sim_campo_entrevistas,tiempo_espera_min,int64,0,0.0,6,10,40,15
+simulado,sim_campo_entrevistas,encontro_asiento,str,0,0.0,3,,,no
+simulado,sim_campo_entrevistas,necesidad_expresada,str,0,0.0,5,,,asiento
+simulado,sim_campo_entrevistas,comodidad_1a5,int64,0,0.0,4,1,4,2
+simulado,sim_campo_entrevistas,comentario,str,1,5.56,17,,,Siempre me toca parada; el escalón es de la casa y a veces nos corren.
+simulado,sim_campo_inventario_bancas,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_campo_inventario_bancas,id_banca,str,0,0.0,14,,,B01
+simulado,sim_campo_inventario_bancas,fecha,str,0,0.0,1,,,2026-11-24
+simulado,sim_campo_inventario_bancas,lat,float64,0,0.0,14,20.96856,20.97014,20.96884
+simulado,sim_campo_inventario_bancas,lon,float64,0,0.0,14,-89.62436,-89.62151,-89.62348
+simulado,sim_campo_inventario_bancas,cvegeo_ageb,str,0,0.0,2,,,3105000010440
+simulado,sim_campo_inventario_bancas,tipo,str,0,0.0,5,,,silla confidente
+simulado,sim_campo_inventario_bancas,material,str,0,0.0,4,,,concreto
+simulado,sim_campo_inventario_bancas,largo_m,float64,0,0.0,6,1.15,3.4,1.15
+simulado,sim_campo_inventario_bancas,alto_asiento_m,float64,0,0.0,5,0.21,0.46,0.42
+simulado,sim_campo_inventario_bancas,profundidad_m,float64,0,0.0,6,0.25,0.5,0.48
+simulado,sim_campo_inventario_bancas,respaldo,str,0,0.0,2,,,sí
+simulado,sim_campo_inventario_bancas,descansabrazos,str,0,0.0,2,,,no
+simulado,sim_campo_inventario_bancas,sombra,str,0,0.0,3,,,total
+simulado,sim_campo_inventario_bancas,distancia_parada_m,float64,0,0.0,14,6.0,192.2,164.5
+simulado,sim_campo_inventario_bancas,estado,str,0,0.0,3,,,bueno
+simulado,sim_campo_inventario_bancas,archivo_foto,object,14,100.0,0,,,
+simulado,sim_campo_inventario_bancas,observaciones,str,5,35.71,9,,,Bajo laurel
+simulado,sim_campo_lidar_tramo_1,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_campo_lidar_tramo_1,id_captura,str,0,0.0,1,,,C-T1-01
+simulado,sim_campo_lidar_tramo_1,id_tramo,str,0,0.0,1,,,T1
+simulado,sim_campo_lidar_tramo_1,fecha,str,0,0.0,1,,,2026-11-24
+simulado,sim_campo_lidar_tramo_1,hora,str,0,0.0,1,,,07:42
+simulado,sim_campo_lidar_tramo_1,lat,float64,0,0.0,1,20.96906,20.96906,20.96906
+simulado,sim_campo_lidar_tramo_1,lon,float64,0,0.0,1,-89.62385,-89.62385,-89.62385
+simulado,sim_campo_lidar_tramo_1,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+simulado,sim_campo_lidar_tramo_1,dispositivo,str,0,0.0,1,,,iPhone 13 Pro
+simulado,sim_campo_lidar_tramo_1,app,str,0,0.0,1,,,"3d Scanner App, modo LiDAR"
+simulado,sim_campo_lidar_tramo_1,archivo_captura,str,0,0.0,1,,,SIMULADO_captura_T1.ply
+simulado,sim_campo_lidar_tramo_1,largo_tramo_m,float64,0,0.0,1,2.8,2.8,2.8
+simulado,sim_campo_lidar_tramo_1,ancho_total_m,float64,0,0.0,1,1.42,1.42,1.42
+simulado,sim_campo_lidar_tramo_1,ancho_libre_m,float64,0,0.0,1,1.31,1.31,1.31
+simulado,sim_campo_lidar_tramo_1,obstaculo_tipo,str,0,0.0,1,,,ninguno
+simulado,sim_campo_lidar_tramo_1,obstaculo_largo_m,object,1,100.0,0,,,
+simulado,sim_campo_lidar_tramo_1,obstaculo_ancho_m,object,1,100.0,0,,,
+simulado,sim_campo_lidar_tramo_1,obstaculo_alto_m,object,1,100.0,0,,,
+simulado,sim_campo_lidar_tramo_1,pendiente_pct,float64,0,0.0,1,1.2,1.2,1.2
+simulado,sim_campo_lidar_tramo_1,observaciones,str,0,0.0,1,,,"Banqueta de concreto en buen estado, sin obstáculos. El ancho libre descuenta la"
+simulado,sim_campo_lidar_tramo_2,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_campo_lidar_tramo_2,id_captura,str,0,0.0,2,,,C-T2-01
+simulado,sim_campo_lidar_tramo_2,id_tramo,str,0,0.0,1,,,T2
+simulado,sim_campo_lidar_tramo_2,fecha,str,0,0.0,1,,,2026-11-24
+simulado,sim_campo_lidar_tramo_2,hora,str,0,0.0,1,,,07:58
+simulado,sim_campo_lidar_tramo_2,lat,float64,0,0.0,1,20.96903,20.96903,20.96903
+simulado,sim_campo_lidar_tramo_2,lon,float64,0,0.0,1,-89.62245,-89.62245,-89.62245
+simulado,sim_campo_lidar_tramo_2,cvegeo_ageb,str,0,0.0,1,,,3105000010455
+simulado,sim_campo_lidar_tramo_2,dispositivo,str,0,0.0,1,,,iPhone 13 Pro
+simulado,sim_campo_lidar_tramo_2,app,str,0,0.0,1,,,"3d Scanner App, modo LiDAR"
+simulado,sim_campo_lidar_tramo_2,archivo_captura,str,0,0.0,1,,,SIMULADO_captura_T2.ply
+simulado,sim_campo_lidar_tramo_2,largo_tramo_m,float64,0,0.0,1,2.6,2.6,2.6
+simulado,sim_campo_lidar_tramo_2,ancho_total_m,float64,0,0.0,1,1.18,1.18,1.18
+simulado,sim_campo_lidar_tramo_2,ancho_libre_m,float64,0,0.0,1,0.71,0.71,0.71
+simulado,sim_campo_lidar_tramo_2,obstaculo_tipo,str,0,0.0,2,,,poste de concreto (red eléctrica)
+simulado,sim_campo_lidar_tramo_2,obstaculo_largo_m,float64,0,0.0,2,0.3,0.6,0.3
+simulado,sim_campo_lidar_tramo_2,obstaculo_ancho_m,float64,0,0.0,2,0.3,0.45,0.3
+simulado,sim_campo_lidar_tramo_2,obstaculo_alto_m,float64,0,0.0,2,0.03,2.5,2.5
+simulado,sim_campo_lidar_tramo_2,pendiente_pct,float64,0,0.0,1,0.8,0.8,0.8
+simulado,sim_campo_lidar_tramo_2,observaciones,str,1,50.0,1,,,El poste deja 0.71 m de paso entre la fachada y el poste; la tapa del registro s
+simulado,sim_campo_lidar_tramo_3,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_campo_lidar_tramo_3,id_captura,str,0,0.0,2,,,C-T3-01
+simulado,sim_campo_lidar_tramo_3,id_tramo,str,0,0.0,1,,,T3
+simulado,sim_campo_lidar_tramo_3,fecha,str,0,0.0,1,,,2026-11-24
+simulado,sim_campo_lidar_tramo_3,hora,str,0,0.0,1,,,08:13
+simulado,sim_campo_lidar_tramo_3,lat,float64,0,0.0,1,20.96893,20.96893,20.96893
+simulado,sim_campo_lidar_tramo_3,lon,float64,0,0.0,1,-89.62322,-89.62322,-89.62322
+simulado,sim_campo_lidar_tramo_3,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+simulado,sim_campo_lidar_tramo_3,dispositivo,str,0,0.0,1,,,iPhone 13 Pro
+simulado,sim_campo_lidar_tramo_3,app,str,0,0.0,1,,,"3d Scanner App, modo LiDAR"
+simulado,sim_campo_lidar_tramo_3,archivo_captura,str,0,0.0,1,,,SIMULADO_captura_T3.ply
+simulado,sim_campo_lidar_tramo_3,largo_tramo_m,float64,0,0.0,1,2.4,2.4,2.4
+simulado,sim_campo_lidar_tramo_3,ancho_total_m,float64,0,0.0,1,1.35,1.35,1.35
+simulado,sim_campo_lidar_tramo_3,ancho_libre_m,float64,0,0.0,1,1.05,1.05,1.05
+simulado,sim_campo_lidar_tramo_3,obstaculo_tipo,str,0,0.0,2,,,rampa de esquina
+simulado,sim_campo_lidar_tramo_3,obstaculo_largo_m,float64,0,0.0,2,0.4,1.2,1.2
+simulado,sim_campo_lidar_tramo_3,obstaculo_ancho_m,float64,0,0.0,2,0.2,1.0,1.0
+simulado,sim_campo_lidar_tramo_3,obstaculo_alto_m,float64,0,0.0,2,0.06,0.13,0.13
+simulado,sim_campo_lidar_tramo_3,pendiente_pct,float64,0,0.0,1,10.8,10.8,10.8
+simulado,sim_campo_lidar_tramo_3,observaciones,str,1,50.0,1,,,"Rampa de esquina hacia el cruce con la calle 60; pendiente de 10.8 %, mayor que "
+simulado,sim_campo_ocupacion_bancas,origen_dato,str,0,0.0,1,,,SIMULADO
+simulado,sim_campo_ocupacion_bancas,id_conteo,str,0,0.0,18,,,O01
+simulado,sim_campo_ocupacion_bancas,id_banca,str,0,0.0,6,,,B01
+simulado,sim_campo_ocupacion_bancas,fecha,str,0,0.0,1,,,2026-11-24
+simulado,sim_campo_ocupacion_bancas,franja,str,0,0.0,3,,,mañana
+simulado,sim_campo_ocupacion_bancas,hora_inicio,str,0,0.0,3,,,08:15
+simulado,sim_campo_ocupacion_bancas,hora_fin,str,0,0.0,3,,,08:30
+simulado,sim_campo_ocupacion_bancas,personas_sentadas,int64,0,0.0,5,0,4,1
+simulado,sim_campo_ocupacion_bancas,personas_esperando_de_pie,int64,0,0.0,7,0,9,0
+simulado,sim_campo_ocupacion_bancas,personas_sentadas_en_otro_lugar,int64,0,0.0,3,0,2,0
+simulado,sim_campo_ocupacion_bancas,temperatura_c,float64,0,0.0,16,21.9,31.7,22.2
+simulado,sim_campo_ocupacion_bancas,observaciones,str,11,61.11,7,,,Pareja comparte la confidente; una persona en el borde
 simulado,sim_obras_banquetas_centro,origen_dato,str,0,0.0,1,,,SIMULADO
 simulado,sim_obras_banquetas_centro,numero_obra,str,0,0.0,32,,,SIM-OP-2023-001
 simulado,sim_obras_banquetas_centro,descripcion,str,0,0.0,32,,,"Construcción de rampas y cruces peatonales accesibles en calle 55 entre 54 y 56,"
