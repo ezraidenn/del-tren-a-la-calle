@@ -18,6 +18,7 @@ silver,conapo_marginacion_ageb_yucatan_2020,E8-01.1,1220,1220,1220,0,True,True,
 silver,conapo_marginacion_municipal_2020,E8-01.1,270,270,270,0,True,True,
 silver,conapo_poblacion_quinquenal_municipal,E8-01.2,27642,27642,27642,0,True,True,
 silver,inegi_censo_2020_ageb_yucatan,E8-03.3,1532,1532,1532,0,True,True,Del original se toman solo los renglones de total por AGEB (MZA = 000 y AGEB distinta de 0000).
+silver,osm_infraestructura_ciclista,E8-04.2,1198,1198,1198,0,True,True,Se cuentan los elementos de la respuesta de Overpass que traen coordenada o geometría.
 silver,osm_unidades_deportivas,E8-04.1,825,825,825,0,True,True,Se cuentan los elementos de la respuesta de Overpass que traen coordenada o centro.
 silver,rutatrenmaya_conexiones_teya,E8-09.3,,3,3,0,,True,Sin conteo independiente del original.
 silver,rutatrenmaya_tarifas_teya,E8-09.3,,202,202,0,,True,Sin conteo independiente del original.

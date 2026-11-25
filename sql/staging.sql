@@ -647,6 +647,26 @@ CREATE TABLE IF NOT EXISTS e8_staging.inegi_censo_2020_ageb_yucatan (
 );
 COMMENT ON TABLE e8_staging.inegi_censo_2020_ageb_yucatan IS 'AGEB urbana; Yucatán; cobertura 2020 a 2020; fuente E8-03.3';
 
+-- silver: osm_infraestructura_ciclista
+CREATE TABLE IF NOT EXISTS e8_staging.osm_infraestructura_ciclista (
+    osm_id text,
+    categoria text,
+    nombre text,
+    tipo_via text,
+    tipo_carril text,
+    superficie text,
+    segregada text,
+    iluminado text,
+    capacidad bigint,
+    longitud_m double precision,
+    lat double precision,
+    lon double precision,
+    fuente text,
+    version_osm text,
+    PRIMARY KEY (osm_id)
+);
+COMMENT ON TABLE e8_staging.osm_infraestructura_ciclista IS 'tramo de ciclovía o carril, o estacionamiento de bicicletas; Municipio de Mérida; cobertura 2026-11-25 a 2026-11-25; fuente E8-04.2';
+
 -- silver: osm_unidades_deportivas
 CREATE TABLE IF NOT EXISTS e8_staging.osm_unidades_deportivas (
     osm_id text,

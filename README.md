@@ -18,7 +18,7 @@ Cada paso concilia sus conteos con el anterior, y todo se reproduce con un solo 
 
 ## Fuentes
 
-Estado al 2026-11-25: **17 reales** y **10 pendientes** (9 de levantamiento en campo y la capa 4.2 del Geoportal). Ninguna fuente del catálogo es simulada. Las respuestas simuladas a las solicitudes son tablas complementarias, con su propio id `E8-05.N-SIM`. El catálogo completo, con licencia y fecha de descarga, está en [`fuentes.csv`](fuentes.csv).
+Estado al 2026-11-25: **18 reales** y **9 pendientes**, todas de levantamiento en campo. Ninguna fuente del catálogo es simulada. Las respuestas simuladas a las solicitudes son tablas complementarias, con su propio id `E8-05.N-SIM`. El catálogo completo, con licencia y fecha de descarga, está en [`fuentes.csv`](fuentes.csv).
 
 | Subtema | Tipo | Fuente | Estado | Datos para el ETL |
 |---|---|---|---|---|
@@ -32,7 +32,7 @@ Estado al 2026-11-25: **17 reales** y **10 pendientes** (9 de levantamiento en c
 | | | 3.2 DENUE mayo 2025 | real | 604,594 establecimientos; data mart en `procesamiento/` |
 | | | 3.3 Censo 2020 por AGEB y manzana urbana | real | 1,532 AGEB urbanas de Yucatán |
 | 4. Una ciudad preparada para recibirlos | Geoportal de Mérida | 4.1 Unidades deportivas | real (sustituto) | 825 instalaciones deportivas de OpenStreetMap en el municipio de Mérida, mientras se exporta la capa del Geoportal ([pasos](datos/originales/04_geoportal_merida/4.1_unidades_deportivas/PENDIENTE.md)) |
-| | | 4.2 Circuito Enlace | pendiente | Exportación manual ([pasos](datos/originales/04_geoportal_merida/4.2_circuito_enlace/PENDIENTE.md)) |
+| | | 4.2 Circuito Enlace | real (sustituto) | 1,198 elementos de infraestructura ciclista de OpenStreetMap en Mérida (241 km de ciclovías y carriles), porque el recorrido no se publica fuera del Geoportal ([detalle](datos/originales/04_geoportal_merida/4.2_circuito_enlace/PENDIENTE.md)) |
 | | | 4.3 Paraderos de transporte público | real (sustituto) | 3,256 paradas del GTFS oficial del Va y Ven, mientras se exporta la capa del Geoportal |
 | 5. Llegar del transporte al negocio | Solicitud de datos | 5.1 Tren Maya: pasajeros por mes | real | 122 registros mensuales, de dic 2023 a 2026 |
 | | | 5.2 ATY: ruta R901 La Plancha – Teya | real | Horario, tarifas, 10 paradas y trazo |
@@ -44,7 +44,7 @@ Estado al 2026-11-25: **17 reales** y **10 pendientes** (9 de levantamiento en c
 | | | 9.2 Tren Maya, horarios oficiales | real | 32 tramos de 23 circulaciones |
 | | | 9.3 Guía de la estación Teya-Mérida | real | 202 tarifas desde Teya y 3 conexiones |
 
-Sobre el subtema 5, «Solicitud de datos»: las tres solicitudes de acceso a la información están redactadas en [`campo/05_solicitud_datos/`](campo/05_solicitud_datos/). Mientras llega la respuesta, se usa el dato público del mismo tema, como marca la regla del proyecto: si no hay respuesta en 3 semanas, queda el dato público.
+Sobre el subtema 5, «Solicitud de datos»: las tres solicitudes de acceso a la información se presentaron el 2026-11-25 en la Plataforma Nacional de Transparencia. Su texto, folio y fecha límite (23 y 24 de diciembre de 2026) están en [`campo/05_solicitud_datos/`](campo/05_solicitud_datos/). Mientras llega la respuesta, se usa el dato público del mismo tema, como marca la regla del proyecto: si no hay respuesta en 3 semanas, queda el dato público.
 
 Para practicar con el nivel de detalle que piden las solicitudes, `src/simular_solicitudes.py` genera una respuesta **simulada** a cada una. Las tablas están calibradas con los datos reales y sus totales cuadran con ellos:
 
@@ -61,8 +61,8 @@ Para practicar con el nivel de detalle que piden las solicitudes, `src/simular_s
 | Entregable | Archivo | Contenido |
 |---|---|---|
 | Catálogo de fuentes | [`fuentes.csv`](fuentes.csv) | Las 27 fuentes con tipo, URL, licencia, fecha de descarga y estado |
-| Catálogo de tablas | [`catalogo_tablas.csv`](catalogo_tablas.csv) | Las 40 tablas (22 silver, 9 gold y 9 simuladas): clave, granularidad, cobertura temporal, territorio, fuente, unidad, versión de la fuente, formato, filas y responsable |
-| Diccionario de columnas | [`diccionario_columnas.csv`](diccionario_columnas.csv) | 703 columnas con tipo, descripción, unidad, % de vacíos y origen de la definición (diccionarios oficiales del INEGI, CONAPO, GTFS, SRFT y OpenStreetMap) |
+| Catálogo de tablas | [`catalogo_tablas.csv`](catalogo_tablas.csv) | Las 41 tablas (23 silver, 9 gold y 9 simuladas): clave, granularidad, cobertura temporal, territorio, fuente, unidad, versión de la fuente, formato, filas y responsable |
+| Diccionario de columnas | [`diccionario_columnas.csv`](diccionario_columnas.csv) | 717 columnas con tipo, descripción, unidad, % de vacíos y origen de la definición (diccionarios oficiales del INEGI, CONAPO, GTFS, SRFT y OpenStreetMap) |
 | Archivos curados | `datos/curados/` y `datos/gold/` | Parquet y CSV UTF-8 |
 | Registros rechazados | `datos/rechazados/` | Un CSV por tabla con la regla y el motivo de cada rechazo |
 | Reporte de calidad | [`reportes/calidad.md`](reportes/calidad.md) | Conciliación por tabla, rechazos, columnas con vacíos y cobertura. Detalle por columna en `reportes/calidad_columnas.csv` |
@@ -95,10 +95,10 @@ Indicadores de la capa gold:
 
 Estado de los datos al 2026-11-24:
 
-- **Conteos:** cuadran en las 22 tablas silver, en los 7 controles gold y en los 10 controles de las tablas simuladas contra el dato real que las calibra.
-- **Rechazos:** 5 de 52,292 registros. Son anuncios de Sección Amarilla que declaran otro municipio.
+- **Conteos:** cuadran en las 23 tablas silver, en los 7 controles gold y en los 10 controles de las tablas simuladas contra el dato real que las calibra.
+- **Rechazos:** 5 de 53,490 registros. Son anuncios de Sección Amarilla que declaran otro municipio.
 - **Cruces:** las 526 AGEB del indicador encuentran su dimensión, sin huérfanos.
-- **Reproducibilidad:** al regenerar todo desde cero, los 217 archivos del manifiesto salen idénticos, byte por byte.
+- **Reproducibilidad:** al regenerar todo desde cero, los 225 archivos del manifiesto salen idénticos, byte por byte.
 
 ## Estructura
 
@@ -118,6 +118,7 @@ datos/
   simulados/05_solicitud_datos/    respuestas SIMULADAS a las solicitudes; LEEME_SIMULADO.md por carpeta
 reportes/                          calidad.md, calidad_columnas.csv y conciliacion.csv
 sql/staging.sql                    esquema staging para PostgreSQL
+campo/RECORRIDO.md                 recorrido y puntos del levantamiento de campo
 campo/NN_tipo/N.M_fuente/          protocolos, plantillas y capturas propias (subtemas 6, 7 y 8)
 campo/05_solicitud_datos/          solicitudes de acceso a la información y su seguimiento
 procesamiento/03_denue_datamart/   data mart del DENUE: modelo estrella para PostgreSQL
@@ -147,13 +148,14 @@ Scripts por etapa:
 
 | Etapa | Script |
 |---|---|
-| Descarga | `01_05_datos_gob.py` (API CKAN de datos.gob.mx), `02_siegy.py`, `03_inegi.py`, `04_geoportal_merida.py` (incluye el sustituto de OpenStreetMap para 4.1), `05_aty_ruta_r901.py`, `05_ayuntamiento_banquetas.py` y `scraping/9.x_*.py` |
+| Descarga | `01_05_datos_gob.py` (API CKAN de datos.gob.mx), `02_siegy.py`, `03_inegi.py`, `04_geoportal_merida.py` (incluye los sustitutos de OpenStreetMap para 4.1 y 4.2), `05_aty_ruta_r901.py`, `05_ayuntamiento_banquetas.py` y `scraping/9.x_*.py` |
 | Preparación | `para_etl_01_03_05.py`; las demás fuentes se preparan en su script de descarga |
 | Silver | `curar.py`, con la especificación de cada tabla en `tablas.py` y las descripciones en `descripciones.csv` |
 | Gold | `gold.py` |
 | Simulados | `simular_solicitudes.py` (semilla fija; reproduce los mismos archivos) |
 | Control | `reporte_calidad.py`, `generar_manifest.py`, `validar_entrega.py` (sirve para cualquier equipo: `--raiz` y `--equipo`) y `validar_campo.py` |
 | Carga | `cargar_staging.py` |
+| Campo | `generar_modelo_silla.py` (modelo de la silla de ruedas para la realidad aumentada) |
 
 El data mart del subtema 3 se corre aparte; los pasos están en [su README](procesamiento/03_denue_datamart/README.md). Con los ZIP de este repositorio, ese pipeline reproduce el data mart sin diferencias.
 
@@ -168,6 +170,7 @@ El data mart del subtema 3 se corre aparte; los pasos están en [su README](proc
   - **Tren Maya (5.1):** los datos reales son de toda la red, no por estación. El dato por estación es el que pide la solicitud 5.1; mientras tanto existe su versión simulada.
   - **Sección Amarilla:** en silver se rechazan 5 anuncios que declaran otro municipio. A los que no traen municipio se les asigna Mérida y quedan marcados en `municipio_imputado`. `colonia_normalizada` agrupa variantes como «CENTRO» y «MERIDA CENTRO».
   - **SRFT (5.3):** ninguna de las 101 obras está en el Centro Histórico. El dato del Centro es el que pide la solicitud 5.3; mientras tanto existe su versión simulada.
+  - **OpenStreetMap (4.2):** `categoria` separa ciclovías, carriles en calle y estacionamientos. Para medir kilómetros, sumar `longitud_m` solo de ciclovías y carriles. Es un sustituto: describe la red ciclista, no el Circuito Enlace.
   - **OpenStreetMap (4.1):** incluye canchas de escuelas, clubes y fraccionamientos, no solo las unidades del Ayuntamiento. `acceso_publico_probable` separa las que tienen acceso restringido. La licencia ODbL pide atribución y compartir con la misma licencia las bases que se deriven.
   - **Tablas simuladas:** no se mezclan con las reales en un mismo indicador sin rotularlo. Cuando llegue la respuesta real, se guarda en `campo/05_solicitud_datos/`, se agrega su tabla y se dejan de usar las `sim_*` de esa solicitud.
   - **CONAPO, indicadores demográficos:** las notas oficiales de `ind_env_60`, `ind_env_65` y `raz_dep_adu` no cuadran con los datos. El diccionario trae la definición que sí cuadra y lo indica.
@@ -177,9 +180,9 @@ El data mart del subtema 3 se corre aparte; los pasos están en [su README](proc
 
 | Qué | Quién | Cómo |
 |---|---|---|
-| Exportar las capas 4.1 y 4.2 del Geoportal (4.1 ya tiene sustituto de OpenStreetMap) | Cualquier integrante, desde el navegador | Los pasos están en el `PENDIENTE.md` de cada carpeta. Después: `python src/04_geoportal_merida.py`, cambiar el estado en `fuentes.csv` y agregar la tabla en `src/tablas.py` |
-| Presentar las 3 solicitudes | Cualquier integrante, en la Plataforma Nacional de Transparencia | Texto listo en `campo/05_solicitud_datos/*/solicitud.md`. Guardar el acuse y llenar la tabla de seguimiento |
-| Levantamiento LiDAR, AR y bancas (9 fuentes) | Equipo en campo | Protocolos en `campo/`. Al terminar: `python src/validar_campo.py` |
+| Exportar las capas 4.1, 4.2 y 4.3 del Geoportal (opcional: las tres ya tienen sustituto) | Cualquier integrante, desde el navegador | Los pasos están en el `PENDIENTE.md` de cada carpeta. Después: `python src/04_geoportal_merida.py`, cambiar el estado en `fuentes.csv` y agregar la tabla en `src/tablas.py` |
+| Dar seguimiento a las 3 solicitudes | Quien las presentó (2026-11-25), en la Plataforma Nacional de Transparencia | Folios y fechas límite en la tabla de seguimiento de cada `campo/05_solicitud_datos/*/solicitud.md`. Falta guardar el acuse en PDF de cada una como `acuse.pdf`. Al llegar la respuesta, guardarla como `respuesta.<ext>` |
+| Levantamiento LiDAR, AR y bancas (9 fuentes) | Equipo en campo | Recorrido, puntos y lista de lo que hay que llevar en [`campo/RECORRIDO.md`](campo/RECORRIDO.md). Protocolos en cada carpeta de `campo/`. Modelo de la silla para la realidad aumentada en `campo/07_ar_entradas/modelo/`. Al terminar: `python src/validar_campo.py` |
 
 Antes de subir cualquier cambio:
 

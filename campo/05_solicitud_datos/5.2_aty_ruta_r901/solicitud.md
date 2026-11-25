@@ -43,11 +43,11 @@ Si en **3 semanas** desde la fecha de presentación no hay respuesta útil, el a
 
 | Campo | Valor |
 |---|---|
-| Folio | |
-| Fecha de presentación | |
-| Fecha límite de respuesta (20 días hábiles; verificar en el acuse) | |
-| Fecha límite de la regla del proyecto (3 semanas) | |
+| Folio | 1163168926000225 |
+| Fecha de presentación | 2026-11-25 (estatus en la PNT: en proceso) |
+| Fecha límite de respuesta (20 días hábiles; verificar en el acuse) | 2026-12-24, según la PNT |
+| Fecha límite de la regla del proyecto (3 semanas) | 2026-12-16 |
 | Prórroga notificada (sí/no, nueva fecha) | |
 | Respuesta (fecha y resumen) | |
 | Archivos recibidos | |
-| ¿Se usó en el análisis? | |
+| ¿Se usó en el análisis? | Todavía no. Mientras tanto se usan el dato público y la respuesta simulada |

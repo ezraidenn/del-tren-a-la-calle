@@ -4,10 +4,10 @@ Generado: 2026-11-25. Se regenera con `python src/curar.py`, `python src/gold.py
 
 ## Resumen
 
-- **Silver:** 22 tablas curadas. 52,292 registros de entrada: 52,287 curados y 5 rechazados, que se conservan en `datos/rechazados/`.
-- **Conteos de silver:** cuadran en 22 de 22 tablas (entrada = curados + rechazados). En 10 tablas además coincide el conteo independiente del archivo original.
+- **Silver:** 23 tablas curadas. 53,490 registros de entrada: 53,485 curados y 5 rechazados, que se conservan en `datos/rechazados/`.
+- **Conteos de silver:** cuadran en 23 de 23 tablas (entrada = curados + rechazados). En 11 tablas además coincide el conteo independiente del archivo original.
 - **Gold:** 9 tablas (dimensiones e indicadores). Sus 7 controles de totales cuadran en 7.
-- **Diccionario:** 703 columnas documentadas; 0 sin descripción.
+- **Diccionario:** 717 columnas documentadas; 0 sin descripción.
 - **Claves:** son únicas en todas las tablas. La regla R3 rechaza los duplicados y gold verifica la clave antes de escribir.
 
 ## Conciliación por tabla
@@ -26,6 +26,7 @@ Generado: 2026-11-25. Se regenera con `python src/curar.py`, `python src/gold.py
 | silver | conapo_marginacion_municipal_2020 | 270 | 270 | 270 | 0 | sí | sí |  |
 | silver | conapo_poblacion_quinquenal_municipal | 27642 | 27642 | 27642 | 0 | sí | sí |  |
 | silver | inegi_censo_2020_ageb_yucatan | 1532 | 1532 | 1532 | 0 | sí | sí | Del original se toman solo los renglones de total por AGEB (MZA = 000 y AGEB distinta de 0000). |
+| silver | osm_infraestructura_ciclista | 1198 | 1198 | 1198 | 0 | sí | sí | Se cuentan los elementos de la respuesta de Overpass que traen coordenada o geometría. |
 | silver | osm_unidades_deportivas | 825 | 825 | 825 | 0 | sí | sí | Se cuentan los elementos de la respuesta de Overpass que traen coordenada o centro. |
 | silver | rutatrenmaya_conexiones_teya | — | 3 | 3 | 0 | sin conteo independiente | sí | Sin conteo independiente del original. |
 | silver | rutatrenmaya_tarifas_teya | — | 202 | 202 | 0 | sin conteo independiente | sí | Sin conteo independiente del original. |
@@ -105,6 +106,12 @@ Columnas con 20 % o más de valores vacíos. El dato falta en la fuente; no se i
 | silver | inegi_censo_2020_ageb_yucatan | p3hlinhe_m | 22.6 |
 | silver | inegi_censo_2020_ageb_yucatan | vph_ndeaed | 22.1 |
 | silver | inegi_censo_2020_ageb_yucatan | pder_imssb | 21.3 |
+| silver | osm_infraestructura_ciclista | segregada | 99.3 |
+| silver | osm_infraestructura_ciclista | iluminado | 98.8 |
+| silver | osm_infraestructura_ciclista | capacidad | 93.0 |
+| silver | osm_infraestructura_ciclista | tipo_carril | 52.8 |
+| silver | osm_infraestructura_ciclista | superficie | 50.8 |
+| silver | osm_infraestructura_ciclista | nombre | 49.9 |
 | silver | osm_unidades_deportivas | operador | 98.9 |
 | silver | osm_unidades_deportivas | iluminado | 91.8 |
 | silver | osm_unidades_deportivas | superficie | 90.2 |
@@ -149,6 +156,7 @@ Columnas con 20 % o más de valores vacíos. El dato falta en la fuente; no se i
 | silver | conapo_marginacion_municipal_2020 | municipio | 2020 a 2020 | 5 estados del Tren Maya | 270 |
 | silver | conapo_poblacion_quinquenal_municipal | municipio por sexo y año | 1990 a 2040 | 5 estados del Tren Maya | 27642 |
 | silver | inegi_censo_2020_ageb_yucatan | AGEB urbana | 2020 a 2020 | Yucatán | 1532 |
+| silver | osm_infraestructura_ciclista | tramo de ciclovía o carril, o estacionamiento de bicicletas | 2026-11-25 a 2026-11-25 | Municipio de Mérida | 1198 |
 | silver | osm_unidades_deportivas | instalación deportiva | 2026-11-25 a 2026-11-25 | Municipio de Mérida | 825 |
 | silver | rutatrenmaya_conexiones_teya | conexión de transporte | 2026-11-24 a 2026-11-24 | Estación Teya-Mérida | 3 |
 | silver | rutatrenmaya_tarifas_teya | tarifa por destino y tipo | 2026-11-24 a 2026-11-24 | Desde la estación Teya-Mérida | 202 |

@@ -1,0 +1,1199 @@
+osm_id,categoria,nombre,tipo_via,tipo_carril,superficie,segregada,iluminado,capacidad,longitud_m,lat,lon,fuente,version_osm
+node/11792820815,estacionamiento,,,,,,,5.0,,21.0058826,-89.6879977,OpenStreetMap,2026-11-25T08:24:49Z
+node/11792820816,estacionamiento,,,,,,,17.0,,21.0077027,-89.6898484,OpenStreetMap,2026-11-25T08:24:49Z
+node/11794329023,estacionamiento,,,,,,,5.0,,21.0056963,-89.6876951,OpenStreetMap,2026-11-25T08:24:49Z
+node/11794329024,estacionamiento,,,,,,,6.0,,20.9960724,-89.673144,OpenStreetMap,2026-11-25T08:24:49Z
+node/11794329025,estacionamiento,,,,,,,12.0,,20.9959878,-89.6730008,OpenStreetMap,2026-11-25T08:24:49Z
+node/11794329026,estacionamiento,,,,,,,9.0,,20.9894813,-89.6631674,OpenStreetMap,2026-11-25T08:24:49Z
+node/11794329027,estacionamiento,,,,,,,9.0,,20.9886254,-89.6618337,OpenStreetMap,2026-11-25T08:24:49Z
+node/11798910066,estacionamiento,,,,,,,2.0,,20.976077,-89.6195489,OpenStreetMap,2026-11-25T08:24:49Z
+node/11798910067,estacionamiento,,,,,,,2.0,,20.9761621,-89.6195332,OpenStreetMap,2026-11-25T08:24:49Z
+node/11798910068,estacionamiento,,,,,,,2.0,,20.9786075,-89.6190686,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062069,estacionamiento,,,,,,,2.0,,20.9786868,-89.6190553,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062070,estacionamiento,,,,,,,2.0,,20.9796855,-89.6188681,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062071,estacionamiento,,,,,,,2.0,,20.979769,-89.6188518,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062072,estacionamiento,,,,,,,2.0,,20.9798137,-89.6188465,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062073,estacionamiento,,,,,,,2.0,,20.9798474,-89.61884,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062074,estacionamiento,,,,,,,2.0,,20.9803084,-89.6187535,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062075,estacionamiento,,,,,,,2.0,,20.9803344,-89.6187494,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062076,estacionamiento,,,,,,,2.0,,20.9811671,-89.6185927,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062077,estacionamiento,,,,,,,2.0,,20.9811318,-89.6185991,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062085,estacionamiento,,,,,,,2.0,,20.9832521,-89.6181965,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062086,estacionamiento,,,,,,,2.0,,20.9833215,-89.618185,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062087,estacionamiento,,,,,,,2.0,,20.9848766,-89.6178892,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062088,estacionamiento,,,,,,,2.0,,20.9849299,-89.6178815,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062089,estacionamiento,,,,,,,2.0,,20.9853681,-89.6177955,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062090,estacionamiento,,,,,,,2.0,,20.9854269,-89.6177839,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062091,estacionamiento,,,,,,,2.0,,20.9864586,-89.6175893,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062092,estacionamiento,,,,,,,2.0,,20.9863973,-89.6176033,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062093,estacionamiento,,,,,,,2.0,,20.9889279,-89.6171174,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062094,estacionamiento,,,,,,,2.0,,20.9886303,-89.6171972,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062095,estacionamiento,,,,,,,1.0,,20.9892818,-89.6170487,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062096,estacionamiento,,,,,,,1.0,,20.9892958,-89.6170472,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062097,estacionamiento,,,,,,,1.0,,20.9893092,-89.6170456,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062098,estacionamiento,,,,,,,1.0,,20.9893228,-89.6170451,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062099,estacionamiento,,,,,,,1.0,,20.9893485,-89.6171665,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062100,estacionamiento,,,,,,,1.0,,20.9893522,-89.6171616,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062101,estacionamiento,,,,,,,1.0,,20.9893565,-89.6171563,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062102,estacionamiento,,,,,,,1.0,,20.989361,-89.6171506,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062103,estacionamiento,,,,,,,1.0,,20.9893658,-89.6171457,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062104,estacionamiento,,,,,,,1.0,,20.9892427,-89.6166829,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062105,estacionamiento,,,,,,,1.0,,20.9892412,-89.6166908,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062106,estacionamiento,,,,,,,1.0,,20.98924,-89.6166973,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062107,estacionamiento,,,,,,,1.0,,20.9892394,-89.6167028,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062108,estacionamiento,,,,,,,1.0,,20.9892386,-89.6167101,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062109,estacionamiento,,,,,,,1.0,,20.9892373,-89.6167177,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062110,estacionamiento,,,,,,,2.0,,20.9891447,-89.6168393,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062111,estacionamiento,,,,,,,2.0,,20.9891124,-89.6168447,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062112,estacionamiento,,,,,,,2.0,,20.9881884,-89.6170214,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062113,estacionamiento,,,,,,,2.0,,20.9882355,-89.6170125,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062114,estacionamiento,,,,,,,2.0,,20.988299,-89.617,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062115,estacionamiento,,,,,,,2.0,,20.9883559,-89.6169919,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062116,estacionamiento,,,,,,,2.0,,20.9863726,-89.6173679,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062117,estacionamiento,,,,,,,2.0,,20.986437,-89.6173564,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062118,estacionamiento,,,,,,,2.0,,20.9864569,-89.6173523,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062119,estacionamiento,,,,,,,2.0,,20.9853178,-89.6175556,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062120,estacionamiento,,,,,,,2.0,,20.9853762,-89.6175469,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062121,estacionamiento,,,,,,,2.0,,20.982637,-89.6180602,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062122,estacionamiento,,,,,,,2.0,,20.9826023,-89.6180662,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062123,estacionamiento,,,,,,,2.0,,20.9811505,-89.6183392,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062124,estacionamiento,,,,,,,2.0,,20.9811231,-89.6183412,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062125,estacionamiento,,,,,,,2.0,,20.9808143,-89.6184025,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062126,estacionamiento,,,,,,,2.0,,20.9806767,-89.6184326,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062127,estacionamiento,,,,,,,2.0,,20.9806479,-89.6184403,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062128,estacionamiento,,,,,,,2.0,,20.9798442,-89.618588,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062129,estacionamiento,,,,,,,2.0,,20.9798791,-89.6185822,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062130,estacionamiento,,,,,,,2.0,,20.9789923,-89.6187463,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062131,estacionamiento,,,,,,,2.0,,20.978551,-89.61883,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062132,estacionamiento,,,,,,,2.0,,20.9786218,-89.6188168,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062133,estacionamiento,,,,,,,2.0,,20.9786687,-89.6188097,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062134,estacionamiento,,,,,,,2.0,,20.9783515,-89.6188617,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062135,estacionamiento,,,,,,,2.0,,20.9783942,-89.6188536,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062136,estacionamiento,,,,,,,2.0,,20.9776457,-89.6190029,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062137,estacionamiento,,,,,,,2.0,,20.9765698,-89.6192082,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062138,estacionamiento,,,,,,,2.0,,20.976619,-89.6192,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062139,estacionamiento,,,,,,,2.0,,20.9760366,-89.6193063,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062140,estacionamiento,,,,,,,2.0,,20.9759771,-89.6193158,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062141,estacionamiento,,,,,,,2.0,,20.9759521,-89.6193215,OpenStreetMap,2026-11-25T08:24:49Z
+node/11799062142,estacionamiento,,,,,,,2.0,,20.9754219,-89.6194253,OpenStreetMap,2026-11-25T08:24:49Z
+node/11800237476,estacionamiento,,,,,,,4.0,,20.9861762,-89.6196292,OpenStreetMap,2026-11-25T08:24:49Z
+node/11800237477,estacionamiento,,,,,,,12.0,,20.9845302,-89.6196611,OpenStreetMap,2026-11-25T08:24:49Z
+node/11802791117,estacionamiento,,,,,,,7.0,,20.962842,-89.6253872,OpenStreetMap,2026-11-25T08:24:49Z
+node/11802791118,estacionamiento,,,,,,,7.0,,20.962842,-89.6253623,OpenStreetMap,2026-11-25T08:24:49Z
+node/11804003679,estacionamiento,,,,,,,6.0,,20.9845209,-89.6196808,OpenStreetMap,2026-11-25T08:24:49Z
+node/12086287548,estacionamiento,,,,,,,,,20.9440736,-89.6913087,OpenStreetMap,2026-11-25T08:24:49Z
+node/12175657976,estacionamiento,,,,,,,,,20.9756663,-89.6209862,OpenStreetMap,2026-11-25T08:24:49Z
+node/12175667243,estacionamiento,,,,,,,,,20.9710812,-89.6227634,OpenStreetMap,2026-11-25T08:24:49Z
+node/12175670940,estacionamiento,,,,,,,,,20.9705412,-89.6301009,OpenStreetMap,2026-11-25T08:24:49Z
+node/12346042148,renta de bicicletas,Evo Bike,,,,,,,,20.9591418,-89.5918717,OpenStreetMap,2026-11-25T08:24:49Z
+node/12357211001,estacionamiento,,,,,,,12.0,,20.9894008,-89.6751038,OpenStreetMap,2026-11-25T08:24:49Z
+node/12363793801,estacionamiento,,,,,,,16.0,,21.0472204,-89.6403221,OpenStreetMap,2026-11-25T08:24:49Z
+node/12437416932,estacionamiento,,,,,,,,,20.9740757,-89.6134308,OpenStreetMap,2026-11-25T08:24:49Z
+node/12437416933,estacionamiento,,,,,,,,,20.9787645,-89.6114366,OpenStreetMap,2026-11-25T08:24:49Z
+node/13841737006,estacionamiento,,,,,,,,,20.9898248,-89.6617984,OpenStreetMap,2026-11-25T08:24:49Z
+node/6247204773,estacionamiento,,,,,,,,,20.9979156,-89.5744806,OpenStreetMap,2026-11-25T08:24:49Z
+node/6247204774,estacionamiento,,,,,,,,,21.0171245,-89.5833444,OpenStreetMap,2026-11-25T08:24:49Z
+node/8071175006,estacionamiento,,,,,,,,,21.1310693,-89.7807745,OpenStreetMap,2026-11-25T08:24:49Z
+node/8707752934,estacionamiento,,,,,,,,,20.962434,-89.6254094,OpenStreetMap,2026-11-25T08:24:49Z
+node/8707752935,estacionamiento,,,,,,,,,20.9579906,-89.6036808,OpenStreetMap,2026-11-25T08:24:49Z
+node/8707752936,estacionamiento,,,,,,,,,20.9557601,-89.6025047,OpenStreetMap,2026-11-25T08:24:49Z
+node/9419728517,renta de bicicletas,Bicimérida,,,,,,,,20.9761281,-89.6196479,OpenStreetMap,2026-11-25T08:24:49Z
+way/1010817773,ciclovía,,cycleway,,,,,,143.2,21.0124521,-89.6890514,OpenStreetMap,2026-11-25T08:24:49Z
+way/1012867502,ciclovía,,cycleway,,,,,,71.0,20.9778896,-89.6579047,OpenStreetMap,2026-11-25T08:24:49Z
+way/1012867504,ciclovía,,cycleway,,,,,,17.3,20.9762442,-89.6558946,OpenStreetMap,2026-11-25T08:24:49Z
+way/1012867506,ciclovía,,cycleway,,unpaved,,yes,,70.4,20.9745511,-89.6561788,OpenStreetMap,2026-11-25T08:24:49Z
+way/1012867507,ciclovía,,cycleway,,asphalt,,yes,,18.0,20.9743472,-89.6566666,OpenStreetMap,2026-11-25T08:24:49Z
+way/1012867508,ciclovía,,cycleway,,unpaved,,yes,,166.4,20.9745414,-89.6559396,OpenStreetMap,2026-11-25T08:24:49Z
+way/1012867509,ciclovía,,cycleway,,,,,,178.3,20.9767273,-89.6602464,OpenStreetMap,2026-11-25T08:24:49Z
+way/1016298341,ciclovía,,cycleway,,,,,,1127.9,20.9529237,-89.6842598,OpenStreetMap,2026-11-25T08:24:49Z
+way/1016298342,ciclovía,,cycleway,,,,,,48.9,20.9578754,-89.6829701,OpenStreetMap,2026-11-25T08:24:49Z
+way/1016423924,ciclovía,,cycleway,,,,,,568.2,20.9781953,-89.6777257,OpenStreetMap,2026-11-25T08:24:49Z
+way/1016426296,ciclovía,,cycleway,,,,,,891.4,20.9724872,-89.6792756,OpenStreetMap,2026-11-25T08:24:49Z
+way/1016427209,ciclovía,,cycleway,,,,,,79.1,20.9684708,-89.6801794,OpenStreetMap,2026-11-25T08:24:49Z
+way/1016429487,ciclovía,,cycleway,,,,,,256.3,20.9658419,-89.6815684,OpenStreetMap,2026-11-25T08:24:49Z
+way/1016429488,ciclovía,,cycleway,,,,,,1153.4,20.9625671,-89.681706,OpenStreetMap,2026-11-25T08:24:49Z
+way/1055822503,ciclovía,,cycleway,,asphalt,,,,1098.1,21.0051566,-89.7253531,OpenStreetMap,2026-11-25T08:24:49Z
+way/1085398880,estacionamiento,,,,,,,,,20.9995947,-89.7174091,OpenStreetMap,2026-11-25T08:24:49Z
+way/1085401196,estacionamiento,,,,,,,,,21.0108906,-89.7196207,OpenStreetMap,2026-11-25T08:24:49Z
+way/1098119447,ciclovía,,cycleway,,,,,,1310.3,20.9417214,-89.6878691,OpenStreetMap,2026-11-25T08:24:49Z
+way/1152801382,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,45.7,21.0317267,-89.6274601,OpenStreetMap,2026-11-25T08:24:49Z
+way/1186900162,ciclovía,,cycleway,,,,,,162.1,20.8822497,-89.5969397,OpenStreetMap,2026-11-25T08:24:49Z
+way/1246871624,ciclovía,Calle 69,cycleway,,,,,,1593.8,20.9580786,-89.6083474,OpenStreetMap,2026-11-25T08:24:49Z
+way/1246872974,ciclovía,Calle 67,cycleway,,,,,,1696.8,20.9596265,-89.6096733,OpenStreetMap,2026-11-25T08:24:49Z
+way/1246874607,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,92.7,20.9829045,-89.6526045,OpenStreetMap,2026-11-25T08:24:49Z
+way/1246878593,ciclovía,Av Mérida 2000,cycleway,,,,,,1544.1,20.9828272,-89.6633724,OpenStreetMap,2026-11-25T08:24:49Z
+way/1246878594,ciclovía,Av Mérida 2000,cycleway,,,,,,1561.4,20.9833882,-89.6640377,OpenStreetMap,2026-11-25T08:24:49Z
+way/1246882450,ciclovía,Av Mérida 2000,cycleway,,,,,,2399.7,21.0040921,-89.6597277,OpenStreetMap,2026-11-25T08:24:49Z
+way/1246882451,ciclovía,Av Mérida 2000,cycleway,,,,,,3268.3,21.0027317,-89.6601324,OpenStreetMap,2026-11-25T08:24:49Z
+way/1247397904,ciclovía,Periférico - Dzityá,cycleway,,,,,,843.9,21.035938,-89.6599036,OpenStreetMap,2026-11-25T08:24:49Z
+way/1247397905,ciclovía,Periférico - Dzityá,cycleway,,,,,,837.5,21.0359184,-89.6594265,OpenStreetMap,2026-11-25T08:24:49Z
+way/1247402593,ciclovía,Periférico - Dzityá,cycleway,,,,,,1630.2,21.0440877,-89.6659769,OpenStreetMap,2026-11-25T08:24:49Z
+way/1263023714,ciclovía,,cycleway,,grass,no,,,380.7,21.0027703,-89.684551,OpenStreetMap,2026-11-25T08:24:49Z
+way/1263212675,ciclovía,,cycleway,,asphalt,no,,,253.9,20.9993362,-89.6790677,OpenStreetMap,2026-11-25T08:24:49Z
+way/1263253249,ciclovía,Av Canek,cycleway,,,,,,92.9,20.992514,-89.6681622,OpenStreetMap,2026-11-25T08:24:49Z
+way/1263253250,ciclovía,Av Canek,cycleway,,,,,,27.6,20.9883243,-89.6614077,OpenStreetMap,2026-11-25T08:24:49Z
+way/1263529059,ciclovía,,cycleway,,,,,,233.0,21.0122558,-89.6897193,OpenStreetMap,2026-11-25T08:24:49Z
+way/1263529061,ciclovía,,cycleway,,,,,,49.5,21.0118177,-89.6885171,OpenStreetMap,2026-11-25T08:24:49Z
+way/1263805994,ciclovía,,cycleway,crossing,,,,,38.8,21.0032501,-89.6871165,OpenStreetMap,2026-11-25T08:24:49Z
+way/1263805997,ciclovía,,cycleway,,,,,,81.9,21.0046557,-89.6880308,OpenStreetMap,2026-11-25T08:24:49Z
+way/1263805999,ciclovía,,cycleway,,,,,,42.6,21.004298,-89.6866014,OpenStreetMap,2026-11-25T08:24:49Z
+way/1265852972,ciclovía,,cycleway,,asphalt,,,,20.5,20.9816537,-89.618553,OpenStreetMap,2026-11-25T08:24:49Z
+way/1265852973,ciclovía,,cycleway,,asphalt,,,,30.8,20.98137,-89.6186235,OpenStreetMap,2026-11-25T08:24:49Z
+way/1265852975,ciclovía,,cycleway,,asphalt,,,,340.5,20.9879677,-89.6170799,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172158,ciclovía,,cycleway,,asphalt,,,,99.8,20.975848,-89.6195812,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172159,ciclovía,,cycleway,crossing,asphalt,,,,10.6,20.9764482,-89.6194548,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172161,ciclovía,,cycleway,,asphalt,,,,97.6,20.9759167,-89.6193433,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172163,ciclovía,,cycleway,crossing,asphalt,,,,6.5,20.9763694,-89.6192676,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172167,ciclovía,,cycleway,,asphalt,,,,127.0,20.9768021,-89.619186,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172168,ciclovía,,cycleway,crossing,asphalt,,,,8.3,20.9775615,-89.6190424,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172171,ciclovía,,cycleway,,asphalt,,,,136.7,20.9782024,-89.6189211,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172172,ciclovía,,cycleway,crossing,asphalt,,,,9.1,20.9788519,-89.6187982,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172174,ciclovía,,cycleway,,asphalt,,,,137.7,20.9793246,-89.6187083,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172175,ciclovía,,cycleway,crossing,asphalt,,,,7.7,20.9801409,-89.6185529,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172183,ciclovía,,cycleway,,asphalt,,,,129.8,20.976883,-89.6193739,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172184,ciclovía,,cycleway,crossing,asphalt,,,,7.6,20.9802031,-89.6187545,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172187,ciclovía,,cycleway,,asphalt,,,,140.9,20.9793657,-89.6189096,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172188,ciclovía,,cycleway,crossing,asphalt,,,,9.3,20.9788783,-89.6189998,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172190,ciclovía,,cycleway,,asphalt,,,,126.5,20.9782749,-89.6191132,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270172191,ciclovía,,cycleway,crossing,asphalt,,,,8.2,20.9776801,-89.6192251,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270204483,ciclovía,,cycleway,,asphalt,,,,223.2,20.9869676,-89.6174793,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270204484,ciclovía,,cycleway,crossing,asphalt,,,,9.3,20.9881471,-89.6172535,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270204485,ciclovía,,cycleway,,asphalt,,,,87.2,20.9886243,-89.6171618,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270204486,ciclovía,,cycleway,crossing,asphalt,,,,11.5,20.9890143,-89.6170868,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270204490,ciclovía,,cycleway,,asphalt,,,,112.2,20.9808891,-89.6186274,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270204491,ciclovía,,cycleway,crossing,asphalt,,,,9.3,20.982899,-89.618242,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270204494,ciclovía,,cycleway,crossing,,,,,22.1,20.9817482,-89.618352,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270204497,ciclovía,,cycleway,,asphalt,,,,144.4,20.9811589,-89.618299,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270204498,ciclovía,,cycleway,crossing,asphalt,,,,6.5,20.9828482,-89.6180392,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270383878,ciclovía,,cycleway,,asphalt,,,,25.6,20.9858986,-89.6176969,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270383879,ciclovía,,cycleway,crossing,asphalt,,,,11.1,20.9860906,-89.6176507,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270383880,ciclovía,,cycleway,,asphalt,,,,300.7,20.9842577,-89.6177802,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270383881,ciclovía,,cycleway,crossing,asphalt,,,,13.3,20.9860203,-89.6174382,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270383882,ciclovía,,cycleway,crossing,asphalt,,,,10.5,20.9857555,-89.6177194,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270383883,ciclovía,,cycleway,,asphalt,,,,295.9,20.9839949,-89.6180369,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270383891,ciclovía,,cycleway,,asphalt,,,,22.2,20.9858483,-89.6174651,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270383892,ciclovía,,cycleway,crossing,asphalt,,,,14.3,20.9856971,-89.6175057,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270390324,ciclovía,Prolongación Paseo Montejo,cycleway,,,,,,115.9,21.0330348,-89.6273224,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270425757,ciclovía,,cycleway,crossing,,,,,27.4,21.0336665,-89.6274416,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270425758,ciclovía,Prolongación Paseo Montejo,cycleway,,,,,,656.3,21.0368301,-89.6279717,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270425759,ciclovía,Prolongación Paseo Montejo,cycleway,,,,,,122.4,21.0402022,-89.628534,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270425760,ciclovía,,cycleway,crossing,,,,,11.4,21.0396362,-89.6284403,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270425761,ciclovía,,cycleway,crossing,,,,,7.3,21.0407664,-89.6286844,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270425762,ciclovía,,cycleway,crossing,,,,,19.0,21.0407662,-89.6288057,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270560613,ciclovía,,cycleway,crossing,,,,,22.5,20.9812123,-89.6184533,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270928634,ciclovía,,cycleway,crossing,asphalt,,,,13.2,20.9899936,-89.616697,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270928640,ciclovía,,cycleway,crossing,asphalt,,,,10.1,20.9899997,-89.6168694,OpenStreetMap,2026-11-25T08:24:49Z
+way/1270928641,ciclovía,,cycleway,,asphalt,,,,6.6,20.989997,-89.6167919,OpenStreetMap,2026-11-25T08:24:49Z
+way/1272415031,ciclovía,,cycleway,,,,,,762.1,20.9973076,-89.7263011,OpenStreetMap,2026-11-25T08:24:49Z
+way/1272415034,ciclovía,,cycleway,crossing,,,,,6.9,20.9937714,-89.7265919,OpenStreetMap,2026-11-25T08:24:49Z
+way/1272415035,ciclovía,,cycleway,crossing,,,,,3.6,20.9939162,-89.7266031,OpenStreetMap,2026-11-25T08:24:49Z
+way/1272415036,ciclovía,,cycleway,crossing,,,,,6.4,21.0009353,-89.7263435,OpenStreetMap,2026-11-25T08:24:49Z
+way/1272415037,ciclovía,,cycleway,crossing,,,,,7.5,21.0007429,-89.7252386,OpenStreetMap,2026-11-25T08:24:49Z
+way/1272415040,ciclovía,,cycleway,,,,,,751.7,20.9975622,-89.7257804,OpenStreetMap,2026-11-25T08:24:49Z
+way/1272415041,ciclovía,,cycleway,,,,,,806.8,20.9903762,-89.7254704,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258899,ciclovía,,cycleway,,,,,,714.9,21.0185479,-89.7250933,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258900,ciclovía,,cycleway,,,,,,655.2,21.0137289,-89.7258054,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258901,ciclovía,,cycleway,,,,,,12.9,21.0225332,-89.7231234,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258902,ciclovía,,cycleway,crossing,,,,,10.3,21.0226171,-89.7229267,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258903,ciclovía,,cycleway,,,,,,706.4,21.0195946,-89.7241709,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258904,ciclovía,,cycleway,,,,,,11.5,21.0224317,-89.7228552,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258905,ciclovía,,cycleway,,,,,,14.4,21.0165274,-89.7256247,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258906,ciclovía,,cycleway,crossing,,,,,6.1,21.0164356,-89.7256339,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258907,ciclovía,,cycleway,,,,,,586.6,21.0129164,-89.7251641,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273258908,ciclovía,,cycleway,crossing,,,,,11.2,21.0156001,-89.7258039,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273647501,ciclovía,,cycleway,,,,,,147.4,21.0034483,-89.6930208,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273647502,ciclovía,,cycleway,crossing,,,,,8.0,21.0040964,-89.6926681,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273647506,ciclovía,,cycleway,,,,,,30.8,21.0042494,-89.6925812,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273647507,ciclovía,,cycleway,crossing,,,,,6.0,21.0043969,-89.6924973,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273647510,ciclovía,,cycleway,,,,,,8.9,21.0044545,-89.6924645,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273647512,ciclovía,,cycleway,crossing,,,,,5.4,21.0045117,-89.692432,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273647515,ciclovía,,cycleway,crossing,,,,,10.5,21.0062952,-89.6914368,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273647517,ciclovía,,cycleway,,,,,,87.3,21.0047892,-89.692275,OpenStreetMap,2026-11-25T08:24:49Z
+way/1273647518,ciclovía,,cycleway,crossing,,,,,7.4,21.0052586,-89.6920106,OpenStreetMap,2026-11-25T08:24:49Z
+way/1275931591,ciclovía,,cycleway,,,,,,946.0,20.9800838,-89.7069238,OpenStreetMap,2026-11-25T08:24:49Z
+way/1275931592,ciclovía,,cycleway,,,,,,32.0,20.9830629,-89.7036733,OpenStreetMap,2026-11-25T08:24:49Z
+way/1275931593,ciclovía,,cycleway,,,,,,14.6,20.9856175,-89.7022587,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278429352,ciclovía,,cycleway,,asphalt,,,,347.4,21.0005143,-89.6274644,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278429353,ciclovía,,cycleway,crossing,asphalt,,,,5.3,21.002201,-89.6284726,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278429354,ciclovía,,cycleway,,asphalt,,,,82.3,20.9982727,-89.6261615,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278429355,ciclovía,,cycleway,crossing,asphalt,,,,11.6,20.9986936,-89.6264114,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278429356,ciclovía,,cycleway,,asphalt,,,,77.3,20.998909,-89.6265334,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278429357,ciclovía,,cycleway,crossing,asphalt,,,,13.3,20.9994032,-89.6268187,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278429358,ciclovía,,cycleway,,asphalt,,,,62.2,20.9976858,-89.6258132,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278429359,ciclovía,,cycleway,crossing,asphalt,,,,9.3,20.9979687,-89.6259743,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278429360,ciclovía,,cycleway,crossing,asphalt,,,,11.4,20.9973893,-89.6256853,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771636,ciclovía,Av Mérida 2000,cycleway,,,,,,262.4,20.9911305,-89.6634412,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771637,ciclovía,Av Mérida 2000,cycleway,crossing,,,,,34.6,20.9920907,-89.6634453,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771638,ciclovía,Av Mérida 2000,cycleway,,,,,,110.8,20.9927519,-89.6634428,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771639,ciclovía,Av Mérida 2000,cycleway,crossing,,,,,10.9,20.9932829,-89.6634407,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771640,ciclovía,Av Mérida 2000,cycleway,,,,,,21.1,20.9934323,-89.6634401,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771641,ciclovía,Av Mérida 2000,cycleway,crossing,,,,,10.8,20.9935881,-89.6634395,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771642,ciclovía,Av Mérida 2000,cycleway,,,,,,199.4,20.9957247,-89.6634344,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771643,ciclovía,Av Mérida 2000,cycleway,crossing,,,,,26.7,20.9967393,-89.6634341,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771644,ciclovía,Av Mérida 2000,cycleway,,,,,,88.4,20.9940214,-89.6634385,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278771645,ciclovía,Av Mérida 2000,cycleway,crossing,,,,,45.5,20.994631,-89.663437,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278995216,ciclovía,,cycleway,crossing,,,,,2.8,21.0076382,-89.6641565,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278995217,ciclovía,,cycleway,,,,,,1370.7,21.0128657,-89.6618625,OpenStreetMap,2026-11-25T08:24:49Z
+way/1278995218,ciclovía,,cycleway,crossing,,,,,22.6,21.0185888,-89.6598853,OpenStreetMap,2026-11-25T08:24:49Z
+way/1279027232,ciclovía,,cycleway,,,,,,506.3,21.0201692,-89.6588423,OpenStreetMap,2026-11-25T08:24:49Z
+way/1279027233,ciclovía,,cycleway,crossing,,,,,11.6,21.0226088,-89.6578377,OpenStreetMap,2026-11-25T08:24:49Z
+way/1279027236,ciclovía,,cycleway,,,,,,1387.7,21.028947,-89.6552186,OpenStreetMap,2026-11-25T08:24:49Z
+way/1279027238,ciclovía,,cycleway,crossing,,,,,21.1,21.0342514,-89.6534481,OpenStreetMap,2026-11-25T08:24:49Z
+way/1279027239,ciclovía,,cycleway,,,,,,1723.6,21.0405472,-89.6498763,OpenStreetMap,2026-11-25T08:24:49Z
+way/1279266774,ciclovía,,cycleway,,asphalt,,,,75.2,21.0218132,-89.6825193,OpenStreetMap,2026-11-25T08:24:49Z
+way/1279266779,ciclovía,,cycleway,,asphalt,,,,297.5,21.0092715,-89.6890003,OpenStreetMap,2026-11-25T08:24:49Z
+way/1279266780,ciclovía,,cycleway,crossing,asphalt,,,,18.5,21.0072208,-89.6901433,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280170828,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,111.0,21.0359918,-89.6281614,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280170829,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,84.6,21.0352893,-89.6280169,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280170830,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,67.1,21.0345736,-89.6279157,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280170834,carril en calle,Calle 50,primary,lane,asphalt,,,,24.6,21.0321785,-89.627279,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280520797,carril en calle,Calle 3 A,tertiary,shared_lane,asphalt,,,,25.9,21.0378301,-89.6342101,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280520798,carril en calle,Calle 3 A,tertiary,shared_lane,asphalt,,,,18.6,21.0380633,-89.6326745,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280520799,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,12.7,21.0379897,-89.6325663,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280520800,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,19.3,21.0407499,-89.628994,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280520803,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,18.8,21.0413197,-89.6290722,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280823539,ciclovía,,cycleway,,asphalt,,,,70.9,20.9895407,-89.6166346,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280823540,ciclovía,,cycleway,,asphalt,,,,23.7,20.9861929,-89.6174096,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280823542,ciclovía,,cycleway,,asphalt,,,,29.0,20.9891909,-89.6170528,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280823551,ciclovía,,cycleway,,asphalt,,,,19.8,20.9857312,-89.6177714,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280823554,ciclovía,,cycleway,,asphalt,,,,11.0,20.9855949,-89.6175279,OpenStreetMap,2026-11-25T08:24:49Z
+way/1280823555,ciclovía,,cycleway,,asphalt,,,,15.9,20.9856137,-89.6177367,OpenStreetMap,2026-11-25T08:24:49Z
+way/1281077312,ciclovía,,cycleway,,asphalt,,,,60.5,21.0014706,-89.6824287,OpenStreetMap,2026-11-25T08:24:49Z
+way/1281381137,ciclovía,,cycleway,crossing,,,,,20.4,21.0017677,-89.6829504,OpenStreetMap,2026-11-25T08:24:49Z
+way/1281381138,ciclovía,,cycleway,,,,,,10.3,21.0017014,-89.6828167,OpenStreetMap,2026-11-25T08:24:49Z
+way/1281381139,ciclovía,,cycleway,,asphalt,,,,6.5,21.001705,-89.6827833,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385955,ciclovía,,cycleway,,asphalt,,,,74.3,20.9971188,-89.6755825,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385956,ciclovía,,cycleway,,asphalt,,,,44.3,20.9981539,-89.6772675,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385957,ciclovía,,cycleway,crossing,,,,,2.7,20.9980389,-89.6770775,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385958,ciclovía,,cycleway,,asphalt,,,,7.7,20.9980135,-89.6770351,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385959,ciclovía,,cycleway,crossing,,,,,42.8,20.9978904,-89.6768378,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385961,ciclovía,,cycleway,,asphalt,,,,13.3,20.9977454,-89.6766091,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385962,ciclovía,,cycleway,crossing,,,,,19.8,20.9976635,-89.6764787,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385963,ciclovía,,cycleway,,asphalt,,,,5.8,20.9975985,-89.6763745,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385964,ciclovía,,cycleway,crossing,,,,,57.9,20.9974445,-89.676118,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385965,ciclovía,,cycleway,,asphalt,,,,26.5,20.9968414,-89.6751308,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385966,ciclovía,,cycleway,crossing,,,,,5.7,20.9969201,-89.6752599,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385979,ciclovía,,cycleway,,dirt,,,,44.8,20.9984001,-89.6776715,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385980,ciclovía,,cycleway,crossing,,,,,10.4,20.998506,-89.6778352,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385981,ciclovía,,cycleway,,dirt,,,,24.5,20.9986151,-89.6779806,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385982,ciclovía,,cycleway,,asphalt,,,,4.8,21.0006936,-89.6811448,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385983,ciclovía,,cycleway,crossing,asphalt,,,,24.1,21.0006184,-89.681028,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385991,ciclovía,,cycleway,crossing,,,,,13.4,21.0014429,-89.6822617,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385992,ciclovía,,cycleway,,concrete,,,,14.6,21.0014585,-89.6821665,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385993,ciclovía,,cycleway,crossing,,,,,16.5,21.0013789,-89.6820547,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385994,ciclovía,,cycleway,,concrete,,,,45.7,21.001183,-89.6818288,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385996,ciclovía,,cycleway,crossing,,,,,8.6,21.0017726,-89.6827943,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282385998,ciclovía,,cycleway,,asphalt,,,,109.7,21.0003342,-89.6805922,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282419760,ciclovía,,cycleway,,asphalt,,,,283.4,21.002595,-89.6847726,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282419761,ciclovía,,cycleway,crossing,asphalt,,,,19.4,21.0020375,-89.6839019,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282419762,ciclovía,,cycleway,,dirt,,,,25.8,21.0035741,-89.6863593,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282701544,ciclovía,,cycleway,,dirt,,,,68.1,21.0040205,-89.686191,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282701545,ciclovía,,cycleway,,asphalt,,,,84.3,21.0043802,-89.687036,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282701546,ciclovía,,cycleway,crossing,asphalt,,,,19.3,21.0046797,-89.687523,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282701553,ciclovía,,cycleway,,asphalt,,,,161.2,21.0051105,-89.6882113,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282701554,ciclovía,,cycleway,crossing,asphalt,,,,20.0,21.0055635,-89.6889796,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282701555,ciclovía,,cycleway,,asphalt,,,,20.3,21.0070711,-89.6902285,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282701556,ciclovía,,cycleway,,asphalt,,,,56.0,21.0075196,-89.6899723,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282701557,ciclovía,,cycleway,crossing,asphalt,,,,29.0,21.0078541,-89.689783,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282701560,ciclovía,,cycleway,,asphalt,,,,60.3,21.0106166,-89.6885915,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282708486,ciclovía,,cycleway,crossing,,,,,10.9,21.0048495,-89.6883601,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282708487,ciclovía,,cycleway,,,,,,56.7,21.0041325,-89.6871758,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282708488,ciclovía,,cycleway,crossing,,,,,24.3,21.0043677,-89.6875426,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282708493,ciclovía,,cycleway,,,,,,58.7,21.0036996,-89.6869447,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282708494,ciclovía,,cycleway,crossing,,,,,8.4,21.0039816,-89.6869972,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282708497,ciclovía,,cycleway,crossing,,,,,16.1,21.0029848,-89.687263,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282708505,ciclovía,,cycleway,,,,,,40.4,21.0055903,-89.6895715,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282750229,ciclovía,,cycleway,crossing,,,,,7.1,21.0010217,-89.6816431,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282750231,ciclovía,,cycleway,,asphalt,,,,60.7,20.9974868,-89.6767129,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282750232,ciclovía,,cycleway,,asphalt,,,,100.4,21.0017555,-89.6834231,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282750233,ciclovía,,cycleway,,asphalt,,,,164.5,21.0003385,-89.6811639,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282750234,ciclovía,,cycleway,,asphalt,,,,58.5,21.0011628,-89.6825977,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282750235,ciclovía,,cycleway,,asphalt,no,,,21.0,21.0013442,-89.6828144,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282750236,ciclovía,,cycleway,,asphalt,,,,39.4,21.0007973,-89.6820082,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282750238,ciclovía,,cycleway,,asphalt,,,,16.2,21.0008935,-89.6822644,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282750240,ciclovía,,cycleway,,asphalt,,,,16.8,21.0014605,-89.6829482,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820406,ciclovía,,cycleway,,,no,,,41.2,20.9957398,-89.6739931,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820407,ciclovía,,cycleway,,asphalt,,,,38.8,20.9954395,-89.6738355,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820409,ciclovía,,cycleway,crossing,,,,,20.5,20.995917,-89.6742342,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820414,ciclovía,Av Canek,cycleway,,,,,,46.7,20.9953696,-89.6726499,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820415,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,135.6,20.9949306,-89.6720383,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820417,ciclovía,Av Canek,cycleway,,asphalt,,,,9.5,20.9945112,-89.6713737,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820418,ciclovía,Av Canek,cycleway,crossing,,,,,5.5,20.9944751,-89.6713166,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820419,ciclovía,Av Canek,cycleway,,asphalt,,,,11.3,20.9944071,-89.6712088,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820420,ciclovía,Av Canek,cycleway,crossing,,,,,13.6,20.994344,-89.6711088,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820421,ciclovía,Av Canek,cycleway,,,,,,17.3,20.9942665,-89.6709861,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820422,ciclovía,Av Canek,cycleway,crossing,,,,,6.2,20.9942074,-89.6708924,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820423,ciclovía,Av Canek,cycleway,,,,,,3.0,20.9941843,-89.6708558,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820424,ciclovía,Av Canek,cycleway,crossing,,,,,53.1,20.9940184,-89.6705928,OpenStreetMap,2026-11-25T08:24:49Z
+way/1282820425,ciclovía,,cycleway,crossing,asphalt,,,,26.7,20.995023,-89.6725869,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791241,ciclovía,Av Canek,cycleway,crossing,,,,,20.2,20.9808897,-89.6492997,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791242,ciclovía,Av Canek,cycleway,crossing,,,,,8.5,20.9827271,-89.6523164,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791243,ciclovía,Av Canek,cycleway,,,,,,6.3,20.9827625,-89.6523745,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791244,ciclovía,Av Canek,cycleway,,,,,,27.0,20.9826393,-89.6521718,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791245,ciclovía,Av Canek,cycleway,crossing,,,,,8.3,20.9825516,-89.6520278,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791246,ciclovía,Av Canek,cycleway,,,,,,13.2,20.9824965,-89.6519378,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791247,ciclovía,Av Canek,cycleway,crossing,,,,,2.9,20.9824599,-89.6518778,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791248,ciclovía,Av Canek,cycleway,,,,,,54.9,20.9823179,-89.6516445,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791249,ciclovía,Av Canek,cycleway,crossing,,,,,4.5,20.982172,-89.651405,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791250,ciclovía,Av Canek,cycleway,,,,,,7.8,20.9819626,-89.6510613,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791251,ciclovía,Av Canek,cycleway,crossing,,,,,6.6,20.9819272,-89.6510031,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791252,ciclovía,Av Canek,cycleway,,,,,,10.0,20.9821364,-89.6513466,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791253,ciclovía,Av Canek,cycleway,crossing,,,,,6.3,20.9820955,-89.6512794,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791257,ciclovía,Av Canek,cycleway,,,,,,7.0,20.9820634,-89.6512268,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791258,ciclovía,Av Canek,cycleway,crossing,,,,,4.5,20.9820356,-89.651181,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791259,ciclovía,Av Canek,cycleway,,,,,,4.3,20.9820135,-89.6511448,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791260,ciclovía,Av Canek,cycleway,crossing,,,,,4.3,20.9819917,-89.6511089,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791261,ciclovía,Av Canek,cycleway,,,,,,32.5,20.9818311,-89.6508454,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791262,ciclovía,Av Canek,cycleway,crossing,,,,,3.5,20.9817428,-89.6507003,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791263,ciclovía,Av Canek,cycleway,crossing,,,,,14.7,20.9816539,-89.6505543,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791264,ciclovía,Av Canek,cycleway,,,,,,9.8,20.98171,-89.6506465,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791265,ciclovía,Av Canek,cycleway,,,,,,23.0,20.9815573,-89.6503957,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791266,ciclovía,Av Canek,cycleway,crossing,,,,,2.5,20.9814947,-89.6502929,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791267,ciclovía,Av Canek,cycleway,,,,,,6.9,20.9814717,-89.6502551,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791268,ciclovía,Av Canek,cycleway,crossing,,,,,6.0,20.98144,-89.6502031,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791269,ciclovía,Av Canek,cycleway,,,,,,11.6,20.9813967,-89.650132,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791270,ciclovía,Av Canek,cycleway,crossing,,,,,4.1,20.9813579,-89.6500684,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791271,ciclovía,Av Canek,cycleway,,,,,,48.1,20.9812294,-89.6498575,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791272,ciclovía,Av Canek,cycleway,crossing,,,,,26.5,20.981046,-89.6495565,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791273,ciclovía,Av Canek,cycleway,,,,,,8.1,20.9809611,-89.6494169,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791274,ciclovía,Av Canek,cycleway,,,,,,3.0,20.9808346,-89.6492092,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791275,ciclovía,,cycleway,crossing,,,,,5.4,20.9808145,-89.6491749,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791298,ciclovía,Av Canek,cycleway,,asphalt,,,,69.9,20.982242,-89.6518756,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791299,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,10.3,20.9803489,-89.6487423,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791300,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,17.3,20.9805786,-89.6491174,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791301,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,19.4,20.9808366,-89.6495439,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791302,ciclovía,Av Canek,cycleway,,asphalt,,,,39.3,20.9812109,-89.6501857,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791303,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,21.9,20.9813636,-89.6504355,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791304,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,48.3,20.9815229,-89.6506868,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791305,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,21.5,20.9817276,-89.6510219,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791306,ciclovía,Av Canek,cycleway,,asphalt,,,,18.4,20.9818323,-89.6511944,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284791308,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,10.6,20.9819014,-89.6513106,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796605,ciclovía,Av Canek,cycleway,,asphalt,,,,21.6,20.9804288,-89.6488699,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796606,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,2.4,20.9804875,-89.6489668,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796607,ciclovía,Av Canek,cycleway,,asphalt,,,,13.5,20.9807565,-89.6494115,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796608,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,8.0,20.9807039,-89.6493247,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796609,ciclovía,Av Canek,cycleway,,asphalt,,,,13.0,20.9806527,-89.64924,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796610,ciclovía,Av Canek,cycleway,,asphalt,,,,8.7,20.9805148,-89.649012,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796611,ciclovía,Av Canek,cycleway,,asphalt,,,,20.8,20.9809335,-89.6497077,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796612,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,12.5,20.9810122,-89.6498433,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796615,ciclovía,Av Canek,cycleway,,asphalt,,,,13.3,20.9810738,-89.6499493,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796616,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,2.6,20.9811115,-89.6500144,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284796617,ciclovía,Av Canek,cycleway,,asphalt,,,,5.0,20.9816696,-89.6509264,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847034,ciclovía,Av Canek,cycleway,,asphalt,,,,9.1,20.9864579,-89.6583498,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847035,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,8.1,20.9864132,-89.6582776,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847036,ciclovía,Av Canek,cycleway,,asphalt,,,,14.6,20.9863589,-89.6581898,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847037,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,5.5,20.9863057,-89.6581038,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847038,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,33.0,20.9861962,-89.6579268,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847039,ciclovía,Av Canek,cycleway,,asphalt,,,,22.0,20.9860545,-89.6576977,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847040,ciclovía,Av Canek,cycleway,,asphalt,,,,4.5,20.9862842,-89.658069,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847043,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,45.7,20.9857223,-89.6571606,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847044,ciclovía,Av Canek,cycleway,,asphalt,,,,19.6,20.9855602,-89.6568985,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847045,ciclovía,Av Canek,cycleway,,asphalt,,,,20.2,20.9858859,-89.6574249,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847046,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,12.9,20.9859678,-89.6575574,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847049,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,189.0,20.9850783,-89.6561191,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847050,ciclovía,Av Canek,cycleway,,asphalt,,,,50.1,20.9844488,-89.6551013,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847051,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,33.5,20.9842269,-89.6547444,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847052,ciclovía,Av Canek,cycleway,,asphalt,,,,15.4,20.9841183,-89.6545708,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847053,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,34.5,20.9839932,-89.654371,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847054,ciclovía,Av Canek,cycleway,,asphalt,,,,20.9,20.9838544,-89.6541492,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847056,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,10.8,20.9837754,-89.654023,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847057,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,12.5,20.9836726,-89.6538554,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847058,ciclovía,Av Canek,cycleway,,asphalt,,,,9.1,20.9837257,-89.6539425,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847059,ciclovía,Av Canek,cycleway,,asphalt,,,,7.3,20.983624,-89.6537755,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847060,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,4.4,20.9835954,-89.6537283,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847061,ciclovía,Av Canek,cycleway,,asphalt,,,,17.0,20.9835429,-89.6536421,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847062,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,6.9,20.9834843,-89.6535458,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847063,ciclovía,Av Canek,cycleway,,asphalt,,,,9.9,20.983443,-89.6534778,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847064,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,2.3,20.983413,-89.6534283,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847065,ciclovía,Av Canek,cycleway,,asphalt,,,,7.1,20.9833899,-89.6533905,OpenStreetMap,2026-11-25T08:24:49Z
+way/1284847066,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,27.1,20.9833213,-89.6532788,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068587,carril en calle,Circuito Colonias,tertiary,shared_lane,asphalt,,,,231.7,20.9858938,-89.6535376,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068595,carril en calle,Calle 46,residential,shared_lane,asphalt,,,,254.7,20.9849848,-89.6546389,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068596,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,18.3,20.9829305,-89.6530161,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068597,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,29.0,20.9826794,-89.6526002,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068598,ciclovía,Av Canek,cycleway,,asphalt,,,,26.7,20.9828195,-89.6528323,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068599,ciclovía,Av Canek,cycleway,,asphalt,,,,31.5,20.9825358,-89.6523624,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068600,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,18.9,20.9824115,-89.6521564,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068601,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,11.6,20.9819971,-89.65147,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068602,ciclovía,Av Canek,cycleway,,asphalt,,,,8.3,20.9819462,-89.6513856,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068605,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,73.8,20.9834957,-89.653946,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068606,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,11.2,20.9862139,-89.6584153,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068607,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,43.1,20.9859817,-89.6580335,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068608,ciclovía,Av Canek,cycleway,,asphalt,,,,24.1,20.9861272,-89.6582728,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068609,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,8.4,20.9858061,-89.6577448,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068610,ciclovía,Av Canek,cycleway,,asphalt,,,,6.1,20.9858416,-89.6578032,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068611,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,27.0,20.9856213,-89.657441,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068612,ciclovía,Av Canek,cycleway,,asphalt,,,,19.5,20.9857376,-89.6576322,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068613,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,5.8,20.9855429,-89.6573121,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068614,ciclovía,Av Canek,cycleway,,asphalt,,,,4.4,20.985518,-89.657271,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068615,ciclovía,Av Canek,cycleway,,asphalt,,,,31.5,20.98543,-89.6571263,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068616,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,9.5,20.9853294,-89.6569609,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068617,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,6.4,20.9852716,-89.6568659,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068618,ciclovía,Av Canek,cycleway,,asphalt,,,,7.9,20.9852365,-89.6568082,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068619,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,16.1,20.9851777,-89.6567115,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068620,ciclovía,Av Canek,cycleway,,asphalt,,,,3.8,20.9851288,-89.656631,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068621,ciclovía,Av Canek,cycleway,,asphalt,,,,3.8,20.9852967,-89.6569072,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068622,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,16.9,20.9850798,-89.6565573,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068623,ciclovía,Av Canek,cycleway,,asphalt,,,,11.1,20.9850021,-89.6564395,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068624,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,1.9,20.9849702,-89.6563871,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068625,ciclovía,Av Canek,cycleway,,asphalt,,,,7.2,20.9849478,-89.6563503,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068626,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,16.2,20.9848903,-89.6562557,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068627,ciclovía,Av Canek,cycleway,,asphalt,,,,4.1,20.9848405,-89.6561737,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068628,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,2.0,20.9848255,-89.6561492,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068629,ciclovía,Av Canek,cycleway,,asphalt,,,,12.1,20.9847908,-89.6560922,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068630,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,4.4,20.9847502,-89.6560254,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068631,ciclovía,Av Canek,cycleway,,asphalt,,,,16.3,20.9846993,-89.6559417,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068632,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,2.9,20.9846522,-89.6558641,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068633,ciclovía,Av Canek,cycleway,,asphalt,,,,3.0,20.9846377,-89.6558404,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068634,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,144.0,20.9841909,-89.6550952,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068635,ciclovía,Av Canek,cycleway,,asphalt,,,,21.0,20.9838858,-89.6545874,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068636,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,5.0,20.9837698,-89.6543967,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068637,ciclovía,Av Canek,cycleway,,asphalt,,,,4.5,20.9837928,-89.6544345,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068638,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,4.9,20.9838148,-89.6544706,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068642,ciclovía,Av Canek,cycleway,,asphalt,,,,12.9,20.9837259,-89.6543245,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068643,ciclovía,Av Canek,cycleway,,asphalt,,,,16.8,20.9831839,-89.6534334,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068644,ciclovía,Av Canek,cycleway,,asphalt,,,,18.8,20.9832859,-89.6536009,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068645,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,3.0,20.9832325,-89.6535132,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068646,ciclovía,Av Canek,cycleway,,asphalt,,,,22.5,20.9830292,-89.653179,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285068647,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,11.9,20.9831136,-89.6533177,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140763,ciclovía,Av Canek,cycleway,crossing,,,,,32.3,20.9865525,-89.658505,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140764,ciclovía,Av Canek,cycleway,,,,,,5.8,20.9875248,-89.6600952,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140765,ciclovía,Av Canek,cycleway,crossing,,,,,3.2,20.9875017,-89.6600574,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140766,ciclovía,Av Canek,cycleway,,,,,,55.0,20.987359,-89.6598245,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140767,ciclovía,Av Canek,cycleway,crossing,,,,,4.5,20.9872109,-89.659583,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140768,ciclovía,Av Canek,cycleway,crossing,,,,,6.4,20.9871576,-89.6594961,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140769,ciclovía,Av Canek,cycleway,,,,,,6.2,20.9871859,-89.6595421,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140770,ciclovía,Av Canek,cycleway,,,,,,44.9,20.9870171,-89.6592668,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140771,ciclovía,Av Canek,cycleway,crossing,,,,,10.6,20.9868913,-89.6590616,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140772,ciclovía,Av Canek,cycleway,,,,,,11.3,20.9868372,-89.6589733,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140773,ciclovía,Av Canek,cycleway,crossing,,,,,12.9,20.9867757,-89.6588726,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140774,ciclovía,Av Canek,cycleway,,,,,,2.9,20.9867385,-89.6588116,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140775,ciclovía,Av Canek,cycleway,crossing,,,,,13.1,20.9866965,-89.6587423,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140776,ciclovía,Av Canek,cycleway,,,,,,5.8,20.9866529,-89.6586706,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140789,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,13.4,20.9867893,-89.6593281,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140790,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,75.1,20.9864083,-89.6587247,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140791,ciclovía,Av Canek,cycleway,,asphalt,,,,3.7,20.9867447,-89.6592576,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140792,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,5.7,20.9867209,-89.6592198,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140793,ciclovía,Av Canek,cycleway,,asphalt,,,,17.2,20.9866631,-89.6591282,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140794,ciclovía,Av Canek,cycleway,,asphalt,,,,2.9,20.9873907,-89.6602805,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140795,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,5.6,20.9873691,-89.6602463,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140796,ciclovía,Av Canek,cycleway,,asphalt,,,,2.8,20.9873478,-89.6602127,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140797,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,9.2,20.9873178,-89.6601652,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140798,ciclovía,Av Canek,cycleway,,asphalt,,,,2.3,20.9872888,-89.6601193,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140799,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,11.1,20.9872552,-89.6600661,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140800,ciclovía,Av Canek,cycleway,,asphalt,,,,2.9,20.98722,-89.6600103,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140801,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,6.6,20.9871961,-89.6599724,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140802,ciclovía,Av Canek,cycleway,,asphalt,,,,18.4,20.9871329,-89.6598724,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140803,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,13.1,20.9870536,-89.6597467,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140804,ciclovía,Av Canek,cycleway,,asphalt,,,,2.2,20.9869766,-89.6596248,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140805,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,6.0,20.9869973,-89.6596576,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140806,ciclovía,Av Canek,cycleway,,asphalt,,,,1.6,20.9870165,-89.659688,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140807,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,13.2,20.9869377,-89.6595631,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140808,ciclovía,Av Canek,cycleway,,asphalt,,,,2.2,20.9868989,-89.6595016,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140809,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,9.5,20.9868692,-89.6594548,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140810,ciclovía,Av Canek,cycleway,,asphalt,,,,4.7,20.9868336,-89.6593983,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140811,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,8.7,20.9874183,-89.6603246,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285140812,ciclovía,Av Canek,cycleway,,asphalt,,,,2.3,20.9874475,-89.6603712,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463023,ciclovía,Av Canek,cycleway,crossing,,,,,44.1,20.9876534,-89.6603081,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463024,ciclovía,Av Canek,cycleway,,,,,,25.7,20.9878177,-89.6605789,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463025,ciclovía,Av Canek,cycleway,crossing,,,,,4.5,20.9878901,-89.6606973,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463026,ciclovía,Av Canek,cycleway,,,,,,41.1,20.9879882,-89.6608574,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463027,ciclovía,Av Canek,cycleway,crossing,,,,,30.6,20.9881614,-89.6611412,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463028,ciclovía,Av Canek,cycleway,,,,,,12.0,20.9894967,-89.6633055,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463029,ciclovía,Av Canek,cycleway,crossing,,,,,25.5,20.9893887,-89.6631307,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463030,ciclovía,Av Canek,cycleway,,,,,,9.4,20.9893171,-89.6630146,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463032,ciclovía,Av Canek,cycleway,,,,,,28.1,20.9890742,-89.6626215,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463033,ciclovía,Av Canek,cycleway,crossing,,,,,33.5,20.9889184,-89.6623693,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463034,ciclovía,Av Canek,cycleway,,,,,,28.6,20.9887673,-89.6621247,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463035,ciclovía,Av Canek,cycleway,crossing,,,,,23.7,20.9886383,-89.6619159,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463036,ciclovía,Av Canek,cycleway,,,,,,3.8,20.9885692,-89.6618039,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463037,ciclovía,Av Canek,cycleway,crossing,,,,,13.1,20.9885281,-89.6617375,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463038,ciclovía,Av Canek,cycleway,,,,,,6.9,20.9884775,-89.6616556,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463039,ciclovía,Av Canek,cycleway,crossing,,,,,13.6,20.9884308,-89.66158,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463040,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,26.8,20.9875203,-89.6604876,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463041,ciclovía,Av Canek,cycleway,,asphalt,,,,5.3,20.9876006,-89.6606158,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463042,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,4.5,20.987625,-89.6606549,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463043,ciclovía,Av Canek,cycleway,,asphalt,,,,3.3,20.9876445,-89.6606859,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463044,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,32.4,20.9877178,-89.6608046,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463045,ciclovía,Av Canek,cycleway,,asphalt,,,,3.7,20.9878223,-89.6609741,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463046,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,3.6,20.9878405,-89.6610036,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463047,ciclovía,Av Canek,cycleway,,asphalt,,,,9.2,20.9878722,-89.6610551,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463048,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,18.5,20.9879402,-89.6611654,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463049,ciclovía,Av Canek,cycleway,,asphalt,,,,12.4,20.9880173,-89.6612908,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463050,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,32.2,20.9881278,-89.6614704,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463051,ciclovía,Av Canek,cycleway,,asphalt,,,,5.7,20.9882216,-89.6616229,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463052,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,14.1,20.9882707,-89.6617025,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463053,ciclovía,Av Canek,cycleway,,asphalt,,,,5.2,20.9883848,-89.6618881,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463054,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,8.6,20.9883507,-89.6618327,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463055,ciclovía,Av Canek,cycleway,,asphalt,,,,4.8,20.9883175,-89.6617786,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463056,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,22.1,20.9884592,-89.6620094,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463057,ciclovía,Av Canek,cycleway,,asphalt,,,,55.2,20.9886428,-89.6623098,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463058,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,56.0,20.9889365,-89.6627896,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463059,ciclovía,Av Canek,cycleway,,asphalt,,,,12.2,20.9890855,-89.6630323,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463060,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,94.7,20.9893731,-89.6634986,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285463061,ciclovía,Av Canek,cycleway,,asphalt,,,,27.9,20.9896542,-89.6639551,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834819,ciclovía,Av Canek,cycleway,crossing,,,,,104.3,20.989682,-89.6636155,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834820,ciclovía,Av Canek,cycleway,,,,,,3.8,20.990046,-89.6642099,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834821,ciclovía,Av Canek,cycleway,,,,,,88.1,20.9936923,-89.6700646,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834822,ciclovía,Av Canek,cycleway,crossing,,,,,10.6,20.9900824,-89.664269,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834823,ciclovía,Av Canek,cycleway,,,,,,12.0,20.9901378,-89.6643586,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834824,ciclovía,Av Canek,cycleway,crossing,,,,,6.4,20.9902442,-89.6645309,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834825,ciclovía,Av Canek,cycleway,,,,,,5.6,20.9902747,-89.6645801,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834826,ciclovía,Av Canek,cycleway,,,,,,5.8,20.9902138,-89.6644816,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834827,ciclovía,Av Canek,cycleway,crossing,,,,,6.4,20.9901834,-89.6644324,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834828,ciclovía,Av Canek,cycleway,crossing,,,,,22.9,20.9903336,-89.6646754,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834829,ciclovía,Av Canek,cycleway,,,,,,5.3,20.9904147,-89.6648066,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834830,ciclovía,Av Canek,cycleway,,,,,,22.7,20.9905758,-89.6650672,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834831,ciclovía,Av Canek,cycleway,,,,,,5.4,20.9907445,-89.66534,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834832,ciclovía,Av Canek,cycleway,crossing,,,,,8.2,20.9907107,-89.6652854,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834833,ciclovía,Av Canek,cycleway,,,,,,5.8,20.9906762,-89.6652295,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834834,ciclovía,Av Canek,cycleway,crossing,,,,,6.0,20.990647,-89.6651823,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834835,ciclovía,Av Canek,cycleway,crossing,,,,,18.5,20.9904737,-89.664902,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834836,ciclovía,Av Canek,cycleway,crossing,,,,,27.6,20.9908418,-89.6654973,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834837,ciclovía,Av Canek,cycleway,,,,,,10.7,20.9909216,-89.6656265,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834839,ciclovía,Av Canek,cycleway,crossing,,,,,30.3,20.9910234,-89.6657911,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834840,ciclovía,Av Canek,cycleway,,,,,,4.8,20.9911106,-89.6659322,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834841,ciclovía,Av Canek,cycleway,crossing,,,,,23.1,20.9911799,-89.6660442,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834842,ciclovía,Av Canek,cycleway,,,,,,3.0,20.9912446,-89.666149,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834843,ciclovía,Av Canek,cycleway,crossing,,,,,60.3,20.9914652,-89.6665057,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834844,ciclovía,Av Canek,cycleway,,,,,,16.9,20.9915941,-89.6667132,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834845,ciclovía,Av Canek,cycleway,crossing,,,,,103.2,20.991816,-89.6670743,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834846,ciclovía,Av Canek,cycleway,,,,,,20.3,20.9930435,-89.669028,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834847,ciclovía,Av Canek,cycleway,,,,,,23.9,20.9922125,-89.6677017,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834850,ciclovía,Av Canek,cycleway,,,,,,19.6,20.9928301,-89.6686704,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834851,ciclovía,Av Canek,cycleway,crossing,,,,,7.1,20.9927654,-89.668562,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834852,ciclovía,Av Canek,cycleway,crossing,,,,,9.6,20.9929712,-89.6689067,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834853,ciclovía,Av Canek,cycleway,,,,,,7.6,20.9929294,-89.6688368,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834854,ciclovía,Av Canek,cycleway,crossing,,,,,6.9,20.9928941,-89.6687778,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834855,ciclovía,Av Canek,cycleway,,asphalt,,,,100.4,20.9946961,-89.6720694,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834856,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,146.5,20.990021,-89.6645462,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834857,ciclovía,Av Canek,cycleway,,asphalt,,,,6.6,20.9904703,-89.6652675,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834858,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,22.6,20.9905425,-89.6653834,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834859,ciclovía,Av Canek,cycleway,,asphalt,,,,11.0,20.9906268,-89.6655187,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834860,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,22.0,20.99071,-89.6656525,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834861,ciclovía,Av Canek,cycleway,,asphalt,,,,5.1,20.9907765,-89.6657592,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834862,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,38.9,20.9908863,-89.6659355,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834863,ciclovía,Av Canek,cycleway,,asphalt,,,,6.3,20.9909991,-89.6661165,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834864,ciclovía,Av Canek,cycleway,,asphalt,,,,22.1,20.9911647,-89.6663825,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834865,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,19.0,20.9910687,-89.6662283,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285834866,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,30.1,20.9912875,-89.6665797,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851791,ciclovía,Av Canek,cycleway,,asphalt,,,,72.7,20.9914954,-89.6669135,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851792,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,5.4,20.9917463,-89.6673163,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851793,ciclovía,Av Canek,cycleway,,asphalt,,,,92.6,20.9919911,-89.6677093,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851794,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,19.5,20.9922709,-89.6681586,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851795,ciclovía,Av Canek,cycleway,,asphalt,,,,4.9,20.9923318,-89.6682564,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851796,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,8.0,20.9923639,-89.668308,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851797,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,22.1,20.9924717,-89.668481,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851798,ciclovía,Av Canek,cycleway,,asphalt,,,,6.6,20.9924002,-89.6683662,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851799,ciclovía,Av Canek,cycleway,,asphalt,,,,119.8,20.9928619,-89.6691076,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851800,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,4.8,20.9932162,-89.6696765,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851801,ciclovía,Av Canek,cycleway,,asphalt,,,,8.6,20.9931829,-89.6696228,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851802,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,7.4,20.9931429,-89.6695589,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851803,ciclovía,Av Canek,cycleway,,asphalt,,,,14.3,20.9932638,-89.6697528,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851804,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,4.8,20.9933115,-89.6698293,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851805,ciclovía,Av Canek,cycleway,,asphalt,,,,56.3,20.9934639,-89.6700742,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851806,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,5.8,20.9936188,-89.6703228,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851807,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,69.9,20.9938569,-89.670727,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851808,ciclovía,Av Canek,cycleway,,asphalt,,,,11.0,20.9936606,-89.67039,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851809,ciclovía,Av Canek,cycleway,,asphalt,,,,7.3,20.9940548,-89.6710229,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851810,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,30.0,20.9941596,-89.6712015,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851811,ciclovía,Av Canek,cycleway,,asphalt,,,,33.9,20.9942982,-89.6714319,OpenStreetMap,2026-11-25T08:24:49Z
+way/1285851812,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,14.2,20.9944106,-89.6716135,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286164421,ciclovía,Av Canek,cycleway,crossing,,,,,18.7,20.9931247,-89.6691606,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286164422,ciclovía,Av Canek,cycleway,,,,,,7.3,20.9932058,-89.6692876,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286164423,ciclovía,Av Canek,cycleway,crossing,,,,,7.7,20.9932438,-89.669347,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286164424,ciclovía,Av Canek,cycleway,,,,,,9.9,20.9932885,-89.6694169,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286164425,ciclovía,Av Canek,cycleway,crossing,,,,,11.8,20.9933435,-89.6695031,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286164426,ciclovía,Av Canek,cycleway,,,,,,7.9,20.9934284,-89.6696358,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286164427,ciclovía,Av Canek,cycleway,crossing,,,,,5.3,20.9934624,-89.6696892,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286164428,ciclovía,Av Canek,cycleway,crossing,asphalt,,,,4.8,20.9944476,-89.6712729,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410730,ciclovía,Av Colón,cycleway,crossing,,,,,4.5,20.9852578,-89.6563703,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410731,ciclovía,Av Colón,cycleway,,,,,,14.4,20.9853303,-89.656323,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410732,ciclovía,Av Colón,cycleway,crossing,,,,,3.3,20.9853982,-89.6562786,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410733,ciclovía,Av Colón,cycleway,,,,,,41.7,20.9855709,-89.6561657,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410734,ciclovía,Av Colón,cycleway,crossing,,,,,6.0,20.9857542,-89.6560459,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410735,ciclovía,Av Colón,cycleway,,,,,,30.3,20.9858939,-89.6559547,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410736,ciclovía,Av Colón,cycleway,crossing,,,,,25.5,20.9861082,-89.6558146,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410737,ciclovía,Av Colón,cycleway,,,,,,2.3,20.9862148,-89.655745,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410738,ciclovía,Av Colón,cycleway,crossing,,,,,39.4,20.9863749,-89.6556404,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410739,ciclovía,Av Colón,cycleway,,,,,,15.8,20.9868725,-89.6553153,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410740,ciclovía,Av Colón,cycleway,crossing,,,,,5.8,20.9867894,-89.6553696,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410741,ciclovía,Av Colón,cycleway,,,,,,3.8,20.9865408,-89.6555321,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410742,ciclovía,Av Colón,cycleway,crossing,,,,,2.7,20.9865657,-89.6555158,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410743,ciclovía,Av Colón,cycleway,,,,,,3.7,20.9865905,-89.6554996,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410744,ciclovía,Av Colón,cycleway,crossing,,,,,3.6,20.9866185,-89.6554813,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410745,ciclovía,Av Colón,cycleway,,,,,,3.8,20.986647,-89.6554627,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410746,ciclovía,Av Colón,cycleway,crossing,,,,,2.2,20.9866703,-89.6554474,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410747,ciclovía,Av Colón,cycleway,,,,,,5.4,20.9866994,-89.6554284,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410748,ciclovía,Av Colón,cycleway,crossing,,,,,2.2,20.9867283,-89.6554096,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410749,ciclovía,Av Colón,cycleway,,,,,,3.9,20.9867517,-89.6553942,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410750,ciclovía,Av Colón,cycleway,,,,,,376.2,20.9883048,-89.6544247,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410751,ciclovía,Av Colón,cycleway,crossing,,,,,20.0,20.9898688,-89.653359,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410752,ciclovía,Av Colón,cycleway,,,,,,195.7,20.9894468,-89.6525149,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410755,ciclovía,Av Colón,cycleway,crossing,,,,,51.5,20.9884043,-89.6387742,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410756,ciclovía,Av Colón,cycleway,crossing,,,,,101.5,20.9889763,-89.6387836,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410757,ciclovía,Av Colón,cycleway,,,,,,35.1,20.9885449,-89.6390991,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410758,ciclovía,Av Colón,cycleway,crossing,,,,,22.4,20.988582,-89.6384568,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410759,ciclovía,Av Colón,cycleway,,,,,,3.6,20.9887568,-89.6384206,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410760,ciclovía,Av Colón,cycleway,,,,,,2.5,20.9884774,-89.6385231,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286410761,ciclovía,Av Colón,cycleway,crossing,,,,,8.2,20.9889719,-89.6515965,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694853,carril en calle,Circuito Colonias,tertiary,shared_lane,asphalt,,,,72.7,20.9843429,-89.6545748,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694854,ciclovía,,cycleway,crossing,,,,,21.7,20.9876102,-89.6523452,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694856,ciclovía,,cycleway,crossing,,,,,13.5,20.9865889,-89.6530228,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694857,ciclovía,,cycleway,crossing,,,,,30.3,20.9869385,-89.6527885,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694858,ciclovía,,cycleway,,,,,,2.3,20.9867898,-89.6528881,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694859,ciclovía,,cycleway,crossing,,,,,4.0,20.9867659,-89.652904,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694860,ciclovía,,cycleway,,,,,,6.5,20.986726,-89.6529308,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694861,ciclovía,,cycleway,crossing,,,,,4.0,20.986686,-89.6529576,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694862,ciclovía,,cycleway,,,,,,4.0,20.9866556,-89.6529781,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694863,ciclovía,,cycleway,crossing,,,,,1.4,20.9864227,-89.6531342,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694864,ciclovía,,cycleway,,,,,,5.9,20.9864504,-89.6531156,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694865,ciclovía,,cycleway,crossing,,,,,1.5,20.9864789,-89.6530965,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694866,ciclovía,,cycleway,,,,,,4.4,20.9865015,-89.6530812,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694867,ciclovía,,cycleway,crossing,,,,,2.5,20.9865279,-89.6530636,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694868,ciclovía,,cycleway,,,,,,16.0,20.9870908,-89.6526869,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694869,ciclovía,,cycleway,crossing,,,,,10.2,20.9871907,-89.6526202,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694870,ciclovía,,cycleway,,,,,,17.9,20.9872983,-89.6525486,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694871,carril en calle,Circuito Colonias,tertiary,shared_lane,asphalt,,,,90.4,20.989495,-89.6510907,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694875,ciclovía,,cycleway,crossing,,,,,15.8,20.9874275,-89.6524635,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694876,ciclovía,,cycleway,,,,,,5.8,20.9875105,-89.6524098,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694877,ciclovía,,cycleway,,,,,,10.8,20.9877405,-89.65226,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694879,carril en calle,Circuito Colonias,tertiary,shared_lane,asphalt,,,,168.7,20.9884573,-89.6518116,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694881,ciclovía,Av Colón,cycleway,crossing,,,,,4.6,20.9886908,-89.6391695,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694885,ciclovía,Av Colón,cycleway,crossing,,,,,17.2,20.988784,-89.6391604,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286694887,ciclovía,Av Colón,cycleway,crossing,,,,,8.7,20.9887045,-89.638419,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698373,ciclovía,Avenida Cupules,cycleway,,,,,,66.8,20.986436,-89.6181097,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698374,ciclovía,Av Colón,cycleway,crossing,asphalt,,,,82.5,20.9894092,-89.6222402,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698375,ciclovía,Av Colón,cycleway,crossing,asphalt,,,,13.3,20.9905434,-89.6238822,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698376,ciclovía,,cycleway,crossing,,,,,8.8,20.9904459,-89.6239394,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698377,ciclovía,Av Colón,cycleway,crossing,asphalt,,,,27.8,20.9904838,-89.6237194,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698378,ciclovía,Av Colón,cycleway,,,,,,56.7,20.9902714,-89.6234242,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698379,ciclovía,Av Colón,cycleway,crossing,asphalt,,,,6.9,20.9900968,-89.6231815,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698380,ciclovía,Av Colón,cycleway,,,,,,63.3,20.9899061,-89.6229121,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698383,carril en calle,Avenida Cupules,tertiary,shared_lane,asphalt,,,,69.6,20.9888813,-89.6215786,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698384,ciclovía,Avenida Cupules,cycleway,crossing,,,,,25.1,20.9886178,-89.6211573,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698385,ciclovía,Avenida Cupules,cycleway,,,,,,15.8,20.9885193,-89.6209875,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698386,ciclovía,Avenida Cupules,cycleway,,,,,,12.7,20.988406,-89.6208312,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698387,ciclovía,Avenida Cupules,cycleway,crossing,,,,,6.3,20.9884584,-89.6209035,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698388,ciclovía,Avenida Cupules,cycleway,crossing,,,,,6.3,20.9883533,-89.6207586,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698389,ciclovía,Av Colón,cycleway,,,,,,5.5,20.9883206,-89.6207134,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698390,ciclovía,Av Colón,cycleway,crossing,,,,,3.5,20.9882957,-89.6206791,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698391,ciclovía,Avenida Cupules,cycleway,crossing,,,,,33.7,20.988078,-89.6203788,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698392,ciclovía,Avenida Cupules,cycleway,,,,,,28.8,20.9879057,-89.6201411,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698393,ciclovía,Av Colón,cycleway,crossing,,,,,3.6,20.9878163,-89.6200178,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698394,ciclovía,Avenida Cupules,cycleway,,,,,,26.6,20.9877386,-89.6199235,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698395,ciclovía,Avenida Cupules,cycleway,crossing,,,,,22.1,20.9875949,-89.6197358,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698396,ciclovía,Avenida Cupules,cycleway,,,,,,14.9,20.9874887,-89.6195868,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698397,ciclovía,Avenida Cupules,cycleway,crossing,,,,,66.1,20.9873177,-89.6193461,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698398,ciclovía,Avenida Cupules,cycleway,crossing,,,,,32.8,20.9862558,-89.6177288,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698399,ciclovía,Avenida Cupules,cycleway,,,,,,22.6,20.9870258,-89.6189373,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698400,ciclovía,Avenida Cupules,cycleway,crossing,,,,,13.1,20.9868161,-89.6186429,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698401,ciclovía,Avenida Cupules,cycleway,,,,,,20.9,20.9867234,-89.6185129,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698402,ciclovía,Avenida Cupules,cycleway,crossing,,,,,8.8,20.9866424,-89.6183992,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698403,ciclovía,Avenida Cupules,cycleway,,,,,,16.6,20.9868969,-89.6187564,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698404,ciclovía,Avenida Cupules,cycleway,crossing,,,,,4.0,20.9869531,-89.6188352,OpenStreetMap,2026-11-25T08:24:49Z
+way/1286698405,ciclovía,Avenida Cupules,cycleway,,,,,,20.9,20.9882286,-89.6205864,OpenStreetMap,2026-11-25T08:24:49Z
+way/1287275144,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,393.1,20.9798741,-89.6477202,OpenStreetMap,2026-11-25T08:24:49Z
+way/1287666163,ciclovía,,cycleway,crossing,,,,,17.7,21.0113988,-89.6530499,OpenStreetMap,2026-11-25T08:24:49Z
+way/1287666165,ciclovía,,cycleway,crossing,,,,,12.6,21.0180031,-89.6512939,OpenStreetMap,2026-11-25T08:24:49Z
+way/1287933756,ciclovía,,cycleway,crossing,,,,,9.0,21.0174733,-89.6512544,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803761,ciclovía,,cycleway,,asphalt,,,,24.8,20.9900315,-89.616647,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803766,ciclovía,,cycleway,,asphalt,,,,99.8,20.9898977,-89.6170171,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803770,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,asphalt,,,,69.2,20.997261,-89.6162022,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803771,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,paving_stones,,,,69.3,20.9978989,-89.6159478,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803773,carril en calle,Prolongación Paseo Montejo,secondary,lane,concrete,,,,489.1,21.0159932,-89.6159843,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803776,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,paving_stones,,,,8.3,21.0005461,-89.615511,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803777,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,paving_stones,,,,27.3,20.9989732,-89.6157492,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803778,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,paving_stones,,,,29.1,20.9990314,-89.6160201,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803779,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,paving_stones,,,,9.7,21.0005741,-89.6156611,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288803781,carril en calle,Prolongación Paseo Montejo,secondary,lane,concrete,,,,413.9,21.0178122,-89.6176544,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988094,ciclovía,,cycleway,,,,,,395.4,21.0308827,-89.6444845,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988095,ciclovía,,cycleway,,,,,,387.8,21.0309424,-89.6441837,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988109,ciclovía,,cycleway,,,,,,274.8,21.0279559,-89.6289921,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988111,ciclovía,,cycleway,crossing,asphalt,,,,41.1,21.0281995,-89.6304474,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988112,carril en calle,,primary_link,shared_lane,concrete,,,,11.0,21.0296046,-89.6271206,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988113,carril en calle,,primary_link,shared_lane,concrete,,,,82.3,21.0280565,-89.6271348,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988114,carril en calle,Avenida Marcelino Champagnat,secondary,shared_lane,asphalt,,,,76.3,21.0278241,-89.6271865,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988118,ciclovía,,cycleway,,,,,,409.6,21.0278161,-89.62923,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988123,ciclovía,,cycleway,,,,,,864.4,21.0334511,-89.6510303,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988125,ciclovía,,cycleway,,,,,,863.9,21.0332678,-89.6509862,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988126,ciclovía,Francisco de Montejo,cycleway,,,,,,946.8,21.0274586,-89.6481539,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288988128,ciclovía,Francisco de Montejo,cycleway,,,,,,947.1,21.027181,-89.6480682,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288991460,ciclovía,Francisco de Montejo,cycleway,,,,,,584.4,21.0207647,-89.6507125,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288991464,ciclovía,Francisco de Montejo,cycleway,,,,,,642.7,21.0206882,-89.6505037,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288991466,ciclovía,Francisco de Montejo,cycleway,,,,,,908.6,21.0361136,-89.6445512,OpenStreetMap,2026-11-25T08:24:49Z
+way/1288991467,ciclovía,Francisco de Montejo,cycleway,,,,,,908.5,21.0360936,-89.6443547,OpenStreetMap,2026-11-25T08:24:49Z
+way/1290158218,ciclovía,,cycleway,,,,,,16.8,20.9699841,-89.7050002,OpenStreetMap,2026-11-25T08:24:49Z
+way/1290724732,ciclovía,Av Canek,cycleway,crossing,,,,,6.9,20.9933909,-89.6695772,OpenStreetMap,2026-11-25T08:24:49Z
+way/1290724745,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,14.5,20.9807236,-89.6491227,OpenStreetMap,2026-11-25T08:24:49Z
+way/1290724746,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,208.6,20.9798476,-89.6478588,OpenStreetMap,2026-11-25T08:24:49Z
+way/1291595632,carril en calle,,tertiary,shared_lane,asphalt,,,,35.8,21.0377815,-89.6344476,OpenStreetMap,2026-11-25T08:24:49Z
+way/1291595635,carril en calle,Calle 29,tertiary,shared_lane,asphalt,,,,8.9,21.0379226,-89.6345135,OpenStreetMap,2026-11-25T08:24:49Z
+way/1291595636,carril en calle,Calle 29,tertiary,shared_lane,asphalt,,,,10.5,21.0397669,-89.6348268,OpenStreetMap,2026-11-25T08:24:49Z
+way/1291597703,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,255.4,21.0451567,-89.6296876,OpenStreetMap,2026-11-25T08:24:49Z
+way/1294643585,ciclovía,,cycleway,crossing,,,,,14.6,21.0007311,-89.6812289,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296253853,ciclovía,,cycleway,,asphalt,,,,4025.7,20.9123751,-89.647129,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296253857,ciclovía,,cycleway,,asphalt,,,,4026.1,20.9130786,-89.6473229,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262520,ciclovía,,cycleway,,asphalt,,,,1431.5,20.8965917,-89.6577827,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262522,ciclovía,,cycleway,crossing,,,,,11.7,20.8967058,-89.6646241,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262525,ciclovía,,cycleway,,asphalt,,,,1065.2,20.9016121,-89.6733533,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262526,ciclovía,,cycleway,,asphalt,,,,1010.2,20.900898,-89.6727814,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262527,ciclovía,,cycleway,,concrete,,,,165.5,20.8975659,-89.6702257,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262528,ciclovía,,cycleway,,concrete,,,,308.2,20.8966512,-89.6676489,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262529,ciclovía,,cycleway,,concrete,,,,272.0,20.8970413,-89.6698347,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262530,ciclovía,,cycleway,crossing,,,,,41.4,20.8969841,-89.6701665,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262532,ciclovía,,cycleway,crossing,,,,,13.0,20.8966942,-89.6694092,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262533,ciclovía,,cycleway,crossing,,,,,16.5,20.8966852,-89.6664067,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262534,ciclovía,,cycleway,,concrete,,,,178.4,20.8966623,-89.6654531,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262535,ciclovía,,cycleway,,,,,,419.1,20.8990992,-89.6656227,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262536,ciclovía,,cycleway,,concrete,,,,414.3,20.8988032,-89.6654492,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296262540,ciclovía,,cycleway,,asphalt,,,,417.7,20.896521,-89.6533914,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296329149,ciclovía,,cycleway,,asphalt,,,,15.2,20.9893614,-89.6170493,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296329150,ciclovía,,cycleway,crossing,asphalt,,,,7.0,20.9894325,-89.6171335,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296329151,ciclovía,,cycleway,crossing,asphalt,,,,4.7,20.989941,-89.6166138,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296329152,ciclovía,,cycleway,crossing,asphalt,,,,7.8,20.9898527,-89.6165773,OpenStreetMap,2026-11-25T08:24:49Z
+way/1296329153,ciclovía,,cycleway,,asphalt,,,,4.6,20.9899014,-89.6165978,OpenStreetMap,2026-11-25T08:24:49Z
+way/1298710433,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,23.5,21.0327918,-89.6276464,OpenStreetMap,2026-11-25T08:24:49Z
+way/1298710434,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,12.8,21.0356395,-89.6280857,OpenStreetMap,2026-11-25T08:24:49Z
+way/1300775409,carril en calle,Calle 17,residential,shared_lane,asphalt,,,,209.4,20.9888651,-89.6266814,OpenStreetMap,2026-11-25T08:24:49Z
+way/1304747410,ciclovía,,cycleway,,,,,,1212.6,20.9870511,-89.7300172,OpenStreetMap,2026-11-25T08:24:49Z
+way/1304747411,ciclovía,,cycleway,,,,,,712.2,20.9869804,-89.7301695,OpenStreetMap,2026-11-25T08:24:49Z
+way/1304747412,ciclovía,,cycleway,,,,,,100.2,20.9871415,-89.7267293,OpenStreetMap,2026-11-25T08:24:49Z
+way/1304747413,ciclovía,,cycleway,crossing,,,,,35.4,20.9875242,-89.7253945,OpenStreetMap,2026-11-25T08:24:49Z
+way/1304747414,ciclovía,,cycleway,,,,,,53.7,20.9876666,-89.7257982,OpenStreetMap,2026-11-25T08:24:49Z
+way/1304747415,ciclovía,,cycleway,crossing,,,,,34.4,20.9875688,-89.726097,OpenStreetMap,2026-11-25T08:24:49Z
+way/1305193830,ciclovía,,cycleway,,asphalt,,,,2153.5,20.9813918,-89.5740298,OpenStreetMap,2026-11-25T08:24:49Z
+way/1308317599,ciclovía,Circuito Morado,cycleway,,,,,,1248.0,20.9783819,-89.6114724,OpenStreetMap,2026-11-25T08:24:49Z
+way/1308317600,ciclovía,Circuito Naranja,cycleway,,concrete:plates,,,,608.8,20.9741614,-89.6131422,OpenStreetMap,2026-11-25T08:24:49Z
+way/1308317601,ciclovía,Circuito Naranja,cycleway,,,,,,42.6,20.9769664,-89.6126111,OpenStreetMap,2026-11-25T08:24:49Z
+way/1308317602,ciclovía,,cycleway,crossing,,,,,19.2,20.9766445,-89.6126721,OpenStreetMap,2026-11-25T08:24:49Z
+way/1310815693,ciclovía,,cycleway,,,,,,324.8,20.9770144,-89.6572396,OpenStreetMap,2026-11-25T08:24:49Z
+way/1311385171,carril en calle,Avenida Miguel Hidalgo,tertiary,shared_lane,asphalt,,,,197.4,20.9888369,-89.639936,OpenStreetMap,2026-11-25T08:24:49Z
+way/1313897260,ciclovía,,cycleway,,,,,,265.8,20.9570331,-89.6605326,OpenStreetMap,2026-11-25T08:24:49Z
+way/1313897261,ciclovía,,cycleway,,,,,,8.6,20.9568233,-89.6605675,OpenStreetMap,2026-11-25T08:24:49Z
+way/1313897262,ciclovía,,cycleway,,,,,,19.5,20.9571932,-89.6606349,OpenStreetMap,2026-11-25T08:24:49Z
+way/1313897263,ciclovía,,cycleway,,,,,,7.9,20.9572206,-89.6606794,OpenStreetMap,2026-11-25T08:24:49Z
+way/1313897264,ciclovía,,cycleway,,,,,,8.2,20.9572327,-89.6605775,OpenStreetMap,2026-11-25T08:24:49Z
+way/1313897268,ciclovía,,cycleway,,,,,,35.7,20.9569127,-89.6601323,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217953,ciclovía,,cycleway,crossing,asphalt,,,,10.2,20.981548,-89.618646,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217954,ciclovía,,cycleway,,asphalt,,,,155.1,20.981731,-89.6181972,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217955,ciclovía,,cycleway,crossing,asphalt,,,,12.1,20.9814218,-89.6181588,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217956,ciclovía,,cycleway,,asphalt,,,,133.9,20.9821626,-89.6183824,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217957,ciclovía,,cycleway,,asphalt,,,,4.9,20.9812528,-89.6183387,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217960,ciclovía,,cycleway,crossing,asphalt,,,,11.7,20.98136,-89.6185366,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217961,ciclovía,,cycleway,,asphalt,,,,8.9,20.981266,-89.6185524,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217962,ciclovía,,cycleway,crossing,asphalt,,,,12.4,20.9813282,-89.6183142,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217963,ciclovía,,cycleway,,asphalt,,,,14.1,20.9814723,-89.6185205,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217964,ciclovía,,cycleway,,asphalt,,,,13.5,20.9814396,-89.6182862,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217965,ciclovía,,cycleway,crossing,asphalt,,,,15.7,20.9815991,-89.6184889,OpenStreetMap,2026-11-25T08:24:49Z
+way/1314217966,ciclovía,,cycleway,crossing,asphalt,,,,18.3,20.9815743,-89.6182706,OpenStreetMap,2026-11-25T08:24:49Z
+way/1315637153,carril en calle,Avenida Mérida 2000,secondary,lane,asphalt,,,,272.2,20.9807618,-89.6633108,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316053442,ciclovía,,cycleway,,,,,,66.9,20.9643492,-89.6816388,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316053443,ciclovía,,cycleway,,,,,,86.3,20.9674917,-89.6813297,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316053449,ciclovía,,cycleway,,,,,,25.7,20.9679444,-89.6803757,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316053450,ciclovía,,cycleway,,,,,,46.6,20.9679993,-89.6806922,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316053453,ciclovía,,cycleway,,,,,,44.1,20.9669138,-89.6813787,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316053454,ciclovía,,cycleway,,,,,,37.8,20.9679828,-89.6810937,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316063653,ciclovía,,cycleway,,,,,,143.2,20.9617663,-89.6820373,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316063657,ciclovía,,cycleway,,asphalt,,,,177.5,20.9691497,-89.6807585,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316063658,ciclovía,,cycleway,,asphalt,,,,36.3,20.9707415,-89.6804076,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316063659,ciclovía,,cycleway,,asphalt,,,,99.1,20.9702547,-89.6804577,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316292643,ciclovía,,cycleway,,,,,,77.1,20.9868239,-89.6715551,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316292644,ciclovía,,cycleway,,,,,,254.5,20.9872006,-89.6711468,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316292645,ciclovía,,cycleway,,,,,,189.5,20.9871646,-89.6716657,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316292656,ciclovía,,cycleway,,,,,,20.4,20.9868418,-89.6719736,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316298731,ciclovía,,cycleway,,,,,,168.9,20.9771997,-89.6688376,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316298732,ciclovía,,cycleway,,,,,,103.3,20.9781595,-89.6686898,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316298734,ciclovía,,cycleway,,,,,,98.7,20.98001,-89.6700973,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316298735,ciclovía,,cycleway,,,,,,36.7,20.9796308,-89.6704054,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858805,ciclovía,,cycleway,,,,,,180.7,20.9608618,-89.678863,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858806,ciclovía,,cycleway,,,,,,49.7,20.9611205,-89.6790469,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858807,ciclovía,,cycleway,,,,,,41.0,20.9604664,-89.6791381,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858808,ciclovía,,cycleway,crossing,,,,,9.1,20.960695,-89.6791832,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858809,ciclovía,,cycleway,,,,,,17.1,20.9608024,-89.6792027,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858810,ciclovía,,cycleway,crossing,,,,,9.8,20.9609311,-89.6792146,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858811,ciclovía,,cycleway,,,,,,40.7,20.9615228,-89.6786035,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858812,ciclovía,,cycleway,crossing,,,,,13.3,20.9613229,-89.6788248,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858818,ciclovía,,cycleway,crossing,,,,,102.9,20.9616617,-89.6783258,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858819,ciclovía,,cycleway,crossing,,,,,8.0,20.9601324,-89.6789108,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316858820,ciclovía,,cycleway,crossing,,,,,5.5,20.9602664,-89.6790988,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871443,ciclovía,,cycleway,,,,,,189.0,20.9613123,-89.6775907,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871444,ciclovía,,cycleway,,,,,,127.9,20.9611555,-89.6772045,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871445,ciclovía,,cycleway,,,,,,91.3,20.9615943,-89.6776532,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871446,ciclovía,,cycleway,crossing,,,,,2.8,20.9614998,-89.6773361,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871447,ciclovía,,cycleway,,,,,,37.8,20.9673869,-89.6777068,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871448,ciclovía,,cycleway,crossing,,,,,107.3,20.9676947,-89.6777522,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871449,ciclovía,,cycleway,,,,,,38.0,20.9619383,-89.6782299,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871450,ciclovía,,cycleway,crossing,,,,,10.9,20.9621544,-89.6782092,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871451,ciclovía,,cycleway,,,,,,40.6,20.9623872,-89.6781869,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871452,ciclovía,,cycleway,crossing,,,,,10.9,20.9626157,-89.6781649,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871453,ciclovía,,cycleway,,,,,,39.9,20.9628454,-89.6781429,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871454,ciclovía,,cycleway,crossing,,,,,9.3,20.9630678,-89.6781215,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871455,ciclovía,,cycleway,,,,,,52.7,20.9633432,-89.678095,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871456,ciclovía,,cycleway,crossing,,,,,9.8,20.9636229,-89.6780682,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871457,ciclovía,,cycleway,,,,,,14.0,20.9637357,-89.6780574,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871458,ciclovía,,cycleway,crossing,,,,,14.2,20.9638581,-89.6780456,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871459,ciclovía,,cycleway,,,,,,51.1,20.9641487,-89.6780178,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871460,ciclovía,,cycleway,crossing,,,,,11.0,20.9644283,-89.6779909,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871461,ciclovía,,cycleway,,,,,,40.8,20.9646581,-89.6779688,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871462,ciclovía,,cycleway,crossing,,,,,9.7,20.9648827,-89.6779473,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871463,ciclovía,,cycleway,,,,,,41.1,20.965112,-89.6779253,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871464,ciclovía,,cycleway,crossing,,,,,10.6,20.9653413,-89.6779032,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871465,ciclovía,,cycleway,,,,,,41.7,20.9655776,-89.6778805,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871466,ciclovía,,cycleway,crossing,,,,,10.2,20.9658087,-89.6778583,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871467,ciclovía,,cycleway,,,,,,37.6,20.9660241,-89.6778376,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871468,ciclovía,,cycleway,crossing,,,,,14.8,20.9662571,-89.6778153,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871469,ciclovía,,cycleway,,,,,,37.8,20.9664938,-89.6777925,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871470,ciclovía,,cycleway,crossing,,,,,11.4,20.9667147,-89.6777714,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871471,ciclovía,,cycleway,,,,,,39.2,20.9669404,-89.6777498,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871472,ciclovía,,cycleway,crossing,,,,,11.4,20.967169,-89.6777278,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871473,ciclovía,,cycleway,,,,,,42.4,20.9624052,-89.6783464,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871474,ciclovía,,cycleway,,,,,,36.7,20.9674144,-89.6778703,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871475,ciclovía,,cycleway,crossing,,,,,10.7,20.9671999,-89.6778907,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871476,ciclovía,,cycleway,,,,,,39.2,20.9669783,-89.6779117,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871477,ciclovía,,cycleway,crossing,,,,,12.7,20.9667438,-89.677934,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871478,ciclovía,,cycleway,,,,,,38.4,20.966517,-89.6779556,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871479,ciclovía,,cycleway,crossing,,,,,12.2,20.9662888,-89.6779773,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871480,ciclovía,,cycleway,,,,,,39.8,20.9660576,-89.6779992,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871481,ciclovía,,cycleway,crossing,,,,,10.9,20.9658317,-89.6780207,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871482,ciclovía,,cycleway,,,,,,40.2,20.9656016,-89.6780426,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871483,ciclovía,,cycleway,crossing,,,,,11.1,20.9653707,-89.6780646,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871484,ciclovía,,cycleway,,,,,,38.3,20.9651509,-89.6780854,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871485,ciclovía,,cycleway,crossing,,,,,12.2,20.9649208,-89.6781073,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871486,ciclovía,,cycleway,,,,,,40.3,20.9646903,-89.6781293,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871487,ciclovía,,cycleway,crossing,,,,,10.5,20.9644636,-89.6781508,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871488,ciclovía,,cycleway,,,,,,39.9,20.9642377,-89.6781723,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871489,ciclovía,,cycleway,crossing,,,,,12.8,20.9640018,-89.6781947,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871490,ciclovía,,cycleway,,,,,,37.6,20.9637757,-89.6782161,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871491,ciclovía,,cycleway,crossing,,,,,12.8,20.9635468,-89.6782379,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871492,ciclovía,,cycleway,,,,,,38.3,20.9633214,-89.6782593,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871493,ciclovía,,cycleway,crossing,,,,,11.1,20.9631004,-89.6782803,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871494,ciclovía,,cycleway,,,,,,40.2,20.9628709,-89.6783022,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871495,ciclovía,,cycleway,crossing,,,,,10.7,20.9626427,-89.6783238,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871496,ciclovía,,cycleway,,,,,,38.4,20.961961,-89.6783887,OpenStreetMap,2026-11-25T08:24:49Z
+way/1316871497,ciclovía,,cycleway,crossing,,,,,9.1,20.9621746,-89.6783683,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082110,ciclovía,,cycleway,,,,,,24.2,20.9741868,-89.6565909,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082111,ciclovía,,cycleway,,unpaved,,yes,,49.2,20.9741801,-89.6564299,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082112,ciclovía,,cycleway,,unpaved,,yes,,115.7,20.9761502,-89.6557493,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082114,ciclovía,,cycleway,,,,,,6.9,20.9741235,-89.6561757,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082116,ciclovía,,cycleway,,,,,,45.3,20.9748553,-89.6562254,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082117,ciclovía,,cycleway,,,,,,152.8,20.9755947,-89.6559079,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082118,ciclovía,,cycleway,,,,,,48.1,20.9757931,-89.6560492,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082119,ciclovía,,cycleway,,,,,,17.8,20.9761377,-89.6560839,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082120,ciclovía,,cycleway,,,,,,7.5,20.9762088,-89.6560189,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082121,ciclovía,,cycleway,,,,,,10.2,20.9762762,-89.6557776,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082123,ciclovía,,cycleway,,,,,,18.3,20.9764608,-89.6556887,OpenStreetMap,2026-11-25T08:24:49Z
+way/1317082127,ciclovía,,cycleway,,,,,,26.8,20.9777951,-89.6595861,OpenStreetMap,2026-11-25T08:24:49Z
+way/1318244932,ciclovía,,cycleway,crossing,,,,,13.4,20.9601538,-89.6789678,OpenStreetMap,2026-11-25T08:24:49Z
+way/1318244934,ciclovía,,cycleway,crossing,,,,,16.6,20.9602972,-89.6790233,OpenStreetMap,2026-11-25T08:24:49Z
+way/1318244937,ciclovía,,cycleway,crossing,,,,,16.9,20.9607493,-89.6791123,OpenStreetMap,2026-11-25T08:24:49Z
+way/1318244950,ciclovía,,cycleway,,,,,,7.0,20.9604239,-89.6772043,OpenStreetMap,2026-11-25T08:24:49Z
+way/1318244951,ciclovía,,cycleway,,,,,,1.9,20.9603847,-89.6771961,OpenStreetMap,2026-11-25T08:24:49Z
+way/1319190926,ciclovía,,cycleway,,,,,,70.5,20.9750982,-89.670125,OpenStreetMap,2026-11-25T08:24:49Z
+way/1319190933,ciclovía,,cycleway,crossing,,,,,30.0,20.9796383,-89.6706894,OpenStreetMap,2026-11-25T08:24:49Z
+way/1319190934,ciclovía,,cycleway,,,,,,53.1,20.9818188,-89.6701237,OpenStreetMap,2026-11-25T08:24:49Z
+way/1319190937,ciclovía,,cycleway,,,,,,23.9,20.9818004,-89.6702954,OpenStreetMap,2026-11-25T08:24:49Z
+way/1319190938,ciclovía,,cycleway,,,,,,533.5,20.9795083,-89.6670175,OpenStreetMap,2026-11-25T08:24:49Z
+way/1319190939,ciclovía,,cycleway,,,,,,22.1,20.9793353,-89.6673471,OpenStreetMap,2026-11-25T08:24:49Z
+way/1338766153,carril en calle,Calle 7,secondary,shared_lane,asphalt,,,,252.0,21.030433,-89.6385083,OpenStreetMap,2026-11-25T08:24:49Z
+way/1339544967,carril en calle,,secondary_link,lane,,,,,34.6,21.0476237,-89.6398281,OpenStreetMap,2026-11-25T08:24:49Z
+way/1343628743,ciclovía,,cycleway,,asphalt,,,,45.2,20.9907183,-89.6167544,OpenStreetMap,2026-11-25T08:24:49Z
+way/1343628744,ciclovía,,cycleway,crossing,asphalt,,,,29.6,20.9903763,-89.6168329,OpenStreetMap,2026-11-25T08:24:49Z
+way/1344497684,carril en calle,Calle 118,residential,shared_lane,asphalt,,,,246.3,20.9833432,-89.6554225,OpenStreetMap,2026-11-25T08:24:49Z
+way/1344497685,carril en calle,Calle 118,residential,shared_lane,asphalt,,,,105.9,20.9821227,-89.656604,OpenStreetMap,2026-11-25T08:24:49Z
+way/1366465555,ciclovía,,cycleway,crossing,asphalt,,,,224.7,20.9916766,-89.5284376,OpenStreetMap,2026-11-25T08:24:49Z
+way/1374864706,ciclovía,,cycleway,,asphalt,,,,364.9,21.0142215,-89.6861954,OpenStreetMap,2026-11-25T08:24:49Z
+way/1379188396,carril en calle,Avenida Carlos Castillo Peraza,secondary,shared_lane,asphalt,,,,68.9,21.0303187,-89.6422304,OpenStreetMap,2026-11-25T08:24:49Z
+way/1379188397,carril en calle,Avenida Carlos Castillo Peraza,secondary,shared_lane,asphalt,,,,64.3,21.0302122,-89.6422822,OpenStreetMap,2026-11-25T08:24:49Z
+way/1379188398,carril en calle,Calle 51,secondary,shared_lane,asphalt,,,,153.8,21.0302224,-89.6412557,OpenStreetMap,2026-11-25T08:24:49Z
+way/1379188399,carril en calle,Calle 7,secondary,shared_lane,asphalt,,,,16.5,21.0305078,-89.633618,OpenStreetMap,2026-11-25T08:24:49Z
+way/1379188400,carril en calle,Calle 20 C Diagonal,secondary,shared_lane,asphalt,,,,48.9,21.0303291,-89.6333515,OpenStreetMap,2026-11-25T08:24:49Z
+way/1379188401,carril en calle,Calle 1,secondary,shared_lane,asphalt,,,,59.0,21.0303225,-89.633488,OpenStreetMap,2026-11-25T08:24:49Z
+way/1379620768,ciclovía,Periférico - Dzityá,cycleway,,,,,,32.0,21.0380835,-89.6616619,OpenStreetMap,2026-11-25T08:24:49Z
+way/1379620769,ciclovía,Periférico - Dzityá,cycleway,crossing,concrete,,,,9.1,21.0381828,-89.6617835,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380126129,carril en calle,Calle 69,secondary,lane,asphalt,,,,86.6,21.0577855,-89.6450741,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380348469,carril en calle,Calle 69,secondary,shared_lane,asphalt,,,,44.0,21.0578557,-89.6443976,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380348470,carril en calle,Calle 69,secondary,shared_lane,asphalt,,,,11.2,21.0578956,-89.6441088,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380432592,carril en calle,Calle 50 Diagonal,primary,lane,asphalt,,,,64.0,21.0296216,-89.6264226,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380432593,carril en calle,Prolongación Paseo Montejo,secondary,lane,asphalt,,,,287.3,21.0244204,-89.6229719,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380460525,carril en calle,Prolongación Paseo Montejo,secondary,lane,asphalt,,,,375.1,21.0245442,-89.6232178,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380460526,carril en calle,Prolongación Paseo Montejo,secondary,lane,asphalt,,,,50.7,21.0229785,-89.6219268,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380460542,carril en calle,Prolongación Paseo Montejo,secondary,lane,concrete,,,,240.0,21.0185868,-89.6181182,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380583611,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,109.8,21.0474347,-89.6300857,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380583613,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,16.8,21.042498,-89.6291899,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380583640,carril en calle,,secondary,lane,asphalt,,,,91.3,21.0472659,-89.6400968,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380583641,carril en calle,Calle 50,secondary,lane,asphalt,,,,99.5,21.0466244,-89.6399899,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380583642,carril en calle,,secondary,lane,asphalt,,,,42.3,21.0469485,-89.6396002,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380840451,carril en calle,,secondary,lane,asphalt,,,,27.5,21.0475467,-89.6397853,OpenStreetMap,2026-11-25T08:24:49Z
+way/1380840452,carril en calle,,secondary,lane,asphalt,,,,30.6,21.0475829,-89.6395079,OpenStreetMap,2026-11-25T08:24:49Z
+way/1385625701,ciclovía,,cycleway,,,,,,147.6,20.9232349,-89.6905981,OpenStreetMap,2026-11-25T08:24:49Z
+way/1387623509,carril en calle,Calle 53,secondary,lane,asphalt,,,,122.7,21.0781225,-89.6522146,OpenStreetMap,2026-11-25T08:24:49Z
+way/1387876746,carril en calle,Calle 74,secondary,lane,asphalt,,,,386.1,21.0596325,-89.6456695,OpenStreetMap,2026-11-25T08:24:49Z
+way/1387876747,ciclovía,,cycleway,,asphalt,,,,1383.9,21.0663278,-89.6445369,OpenStreetMap,2026-11-25T08:24:49Z
+way/1387876748,carril en calle,Calle 74,secondary,lane,,,,,42.6,21.0730488,-89.6451968,OpenStreetMap,2026-11-25T08:24:49Z
+way/1387876749,ciclovía,,cycleway,,concrete,,,,1044.3,21.0729385,-89.6533276,OpenStreetMap,2026-11-25T08:24:49Z
+way/1387876750,ciclovía,,cycleway,,,,,,640.5,21.0755311,-89.6526326,OpenStreetMap,2026-11-25T08:24:49Z
+way/1387876754,carril en calle,Calle 74,secondary,lane,,,,,108.8,21.0728691,-89.6453583,OpenStreetMap,2026-11-25T08:24:49Z
+way/1388106090,carril en calle,Prolongación Paseo Montejo,secondary,shared_lane,asphalt,,,,107.9,21.0256324,-89.6239652,OpenStreetMap,2026-11-25T08:24:49Z
+way/1388106093,carril en calle,Avenida Tecnológico,residential,lane,concrete,,,,117.0,21.0252159,-89.6260615,OpenStreetMap,2026-11-25T08:24:49Z
+way/1388106094,carril en calle,Avenida Tecnológico,primary,lane,concrete,,,,328.8,21.0264002,-89.6265156,OpenStreetMap,2026-11-25T08:24:49Z
+way/1396117401,carril en calle,Calle 21,tertiary,lane,asphalt,,,,601.6,20.9431349,-89.7023925,OpenStreetMap,2026-11-25T08:24:49Z
+way/1396117402,carril en calle,Calle 21,tertiary,lane,asphalt,,,,391.6,20.9436167,-89.7146754,OpenStreetMap,2026-11-25T08:24:49Z
+way/1414549341,ciclovía,,cycleway,,asphalt,,,,316.9,21.0235352,-89.537606,OpenStreetMap,2026-11-25T08:24:49Z
+way/1414549342,ciclovía,,cycleway,,concrete,,,,167.7,21.0244351,-89.5363362,OpenStreetMap,2026-11-25T08:24:49Z
+way/1414549351,ciclovía,,cycleway,,asphalt,,,,554.5,21.029235,-89.534114,OpenStreetMap,2026-11-25T08:24:49Z
+way/1414549354,ciclovía,,cycleway,,asphalt,,,,388.7,21.0239561,-89.537513,OpenStreetMap,2026-11-25T08:24:49Z
+way/1414549355,ciclovía,,cycleway,,asphalt,,,,566.2,21.0289361,-89.5346688,OpenStreetMap,2026-11-25T08:24:49Z
+way/1414549356,ciclovía,,cycleway,,concrete,,,,204.5,21.0256816,-89.5357679,OpenStreetMap,2026-11-25T08:24:49Z
+way/1414549357,ciclovía,,cycleway,,concrete,,,,180.7,21.0255429,-89.5353861,OpenStreetMap,2026-11-25T08:24:49Z
+way/1417030674,ciclovía,,cycleway,,,,,,1419.1,20.9328388,-89.7105281,OpenStreetMap,2026-11-25T08:24:49Z
+way/1417030675,ciclovía,,cycleway,,,,,,326.9,20.9331868,-89.7036816,OpenStreetMap,2026-11-25T08:24:49Z
+way/1419544380,carril en calle,Avenida Colón,tertiary,shared_lane,concrete,,,,92.8,20.9860499,-89.6193172,OpenStreetMap,2026-11-25T08:24:49Z
+way/1419891704,carril en calle,Prolongación Paseo Montejo,secondary,lane,asphalt,,,,15.9,21.0191826,-89.6187924,OpenStreetMap,2026-11-25T08:24:49Z
+way/1419891705,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,47.2,21.0393741,-89.6287646,OpenStreetMap,2026-11-25T08:24:49Z
+way/1419891706,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,15.9,21.0388399,-89.6286749,OpenStreetMap,2026-11-25T08:24:49Z
+way/1419891707,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,15.5,21.046895,-89.6299877,OpenStreetMap,2026-11-25T08:24:49Z
+way/1419891728,carril en calle,Prolongación Paseo Montejo,secondary,shared_lane,asphalt,,,,3.2,21.0260448,-89.6242999,OpenStreetMap,2026-11-25T08:24:49Z
+way/1420111686,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,19.6,21.0390036,-89.6287024,OpenStreetMap,2026-11-25T08:24:49Z
+way/1420827743,carril en calle,Avenida Cupules,tertiary,shared_lane,asphalt,,,,19.8,20.9892004,-89.6220052,OpenStreetMap,2026-11-25T08:24:49Z
+way/1420827744,carril en calle,Avenida Cupules,tertiary,shared_lane,asphalt,,,,20.1,20.9886991,-89.621335,OpenStreetMap,2026-11-25T08:24:49Z
+way/1420851047,carril en calle,Prolongación Paseo Montejo,secondary,lane,asphalt,,,,13.8,21.019224,-89.6186429,OpenStreetMap,2026-11-25T08:24:49Z
+way/1421423408,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,12.1,20.9787348,-89.6458386,OpenStreetMap,2026-11-25T08:24:49Z
+way/1421423409,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,12.3,20.9786672,-89.6458869,OpenStreetMap,2026-11-25T08:24:49Z
+way/145493911,carril en calle,,secondary,lane,asphalt,,,,84.4,21.0472918,-89.6392639,OpenStreetMap,2026-11-25T08:24:49Z
+way/1462815245,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,39.7,21.0336418,-89.631821,OpenStreetMap,2026-11-25T08:24:49Z
+way/1462815248,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,21.7,21.033905,-89.6318661,OpenStreetMap,2026-11-25T08:24:49Z
+way/1561313734,carril en calle,Avenida Colón,tertiary,shared_lane,asphalt,,,,401.5,20.9882716,-89.6355214,OpenStreetMap,2026-11-25T08:24:49Z
+way/1572329177,ciclovía,,cycleway,crossing,,,,,5.8,20.8950678,-89.6695206,OpenStreetMap,2026-11-25T08:24:49Z
+way/1572329178,ciclovía,,cycleway,crossing,,,,,5.6,20.8955033,-89.6691944,OpenStreetMap,2026-11-25T08:24:49Z
+way/1572329179,ciclovía,,cycleway,crossing,paving_stones,,,,53.4,20.8952791,-89.6693619,OpenStreetMap,2026-11-25T08:24:49Z
+way/170125688,carril en calle,Calle 19,secondary,lane,,,,,272.1,21.0982708,-89.5988471,OpenStreetMap,2026-11-25T08:24:49Z
+way/170125715,carril en calle,Calle 19,secondary,lane,,,,,158.5,21.0975015,-89.5824847,OpenStreetMap,2026-11-25T08:24:49Z
+way/181530558,carril en calle,Calle 60,secondary,lane,asphalt,,,,469.3,21.0759915,-89.6353938,OpenStreetMap,2026-11-25T08:24:49Z
+way/181530559,carril en calle,Avenida Industrias No Contaminantes,secondary,lane,asphalt,,,,1187.5,21.0535787,-89.6411798,OpenStreetMap,2026-11-25T08:24:49Z
+way/192300934,carril en calle,,primary_link,lane,concrete,,,,26.7,21.0247213,-89.6260767,OpenStreetMap,2026-11-25T08:24:49Z
+way/192305126,carril en calle,Calle 1 Bis,residential,lane,concrete,,,,131.7,21.0258882,-89.6253067,OpenStreetMap,2026-11-25T08:24:49Z
+way/192305128,carril en calle,,secondary_link,lane,asphalt,,,,72.4,21.0259197,-89.624587,OpenStreetMap,2026-11-25T08:24:49Z
+way/194664109,carril en calle,,secondary,lane,asphalt,,,,132.5,21.0396131,-89.6429878,OpenStreetMap,2026-11-25T08:24:49Z
+way/195681976,carril en calle,Calle 69,secondary,shared_lane,asphalt,,,,198.0,21.0580353,-89.6430561,OpenStreetMap,2026-11-25T08:24:49Z
+way/195681985,carril en calle,,secondary,lane,asphalt,,,,285.6,21.0692235,-89.6450825,OpenStreetMap,2026-11-25T08:24:49Z
+way/195684333,carril en calle,Avenida Organización de las Naciones Unidas,secondary,lane,,,,,247.5,21.0692538,-89.6675264,OpenStreetMap,2026-11-25T08:24:49Z
+way/195684336,carril en calle,,secondary,lane,asphalt,,,,124.1,21.0694496,-89.6691656,OpenStreetMap,2026-11-25T08:24:49Z
+way/195684352,carril en calle,Calle 122,secondary_link,lane,,,,,56.0,21.0694464,-89.6643014,OpenStreetMap,2026-11-25T08:24:49Z
+way/195684360,carril en calle,Avenida Organización de las Naciones Unidas,secondary,lane,,,,,784.1,21.0695472,-89.6534462,OpenStreetMap,2026-11-25T08:24:49Z
+way/195687790,carril en calle,Calle 55,secondary,lane,asphalt,,,,92.2,21.0736491,-89.6586985,OpenStreetMap,2026-11-25T08:24:49Z
+way/195687793,carril en calle,Calle 55 Diagonal,secondary,lane,asphalt,,,,330.9,21.0736629,-89.6554909,OpenStreetMap,2026-11-25T08:24:49Z
+way/195687796,carril en calle,,secondary,lane,asphalt,,,,197.2,21.0727478,-89.6538237,OpenStreetMap,2026-11-25T08:24:49Z
+way/195687798,carril en calle,,secondary,lane,asphalt,,,,158.8,21.0740071,-89.6592598,OpenStreetMap,2026-11-25T08:24:49Z
+way/195687889,carril en calle,Calle 108,secondary,lane,asphalt,,,,347.6,21.0755372,-89.6594959,OpenStreetMap,2026-11-25T08:24:49Z
+way/195687890,carril en calle,,secondary,lane,asphalt,,,,131.3,21.0774849,-89.6595766,OpenStreetMap,2026-11-25T08:24:49Z
+way/195687891,carril en calle,Calle 108,secondary,lane,asphalt,,,,347.0,21.0755069,-89.6592918,OpenStreetMap,2026-11-25T08:24:49Z
+way/195687892,carril en calle,Calle 53,secondary,shared_lane,asphalt,,,,362.7,21.0778961,-89.654853,OpenStreetMap,2026-11-25T08:24:49Z
+way/202429089,ciclovía,,cycleway,,,,,,1953.1,20.8692562,-89.6255077,OpenStreetMap,2026-11-25T08:24:49Z
+way/202429100,ciclovía,,cycleway,,,,,,269.0,20.8824835,-89.6256607,OpenStreetMap,2026-11-25T08:24:49Z
+way/202463398,carril en calle,Calle 108,secondary,lane,asphalt,,,,593.8,21.0803448,-89.6597649,OpenStreetMap,2026-11-25T08:24:49Z
+way/202463401,carril en calle,Calle 108,secondary,lane,asphalt,,,,594.2,21.0803284,-89.6599418,OpenStreetMap,2026-11-25T08:24:49Z
+way/26223089,carril en calle,Avenida Miguel Hidalgo,tertiary,shared_lane,asphalt,,,,260.5,20.9890994,-89.6420193,OpenStreetMap,2026-11-25T08:24:49Z
+way/26263653,carril en calle,Calle 77,residential,shared_lane,asphalt,,,,1296.5,20.9588135,-89.6378098,OpenStreetMap,2026-11-25T08:24:49Z
+way/26264142,carril en calle,Calle 6 A,residential,shared_lane,asphalt,,,,261.9,20.9896612,-89.6245743,OpenStreetMap,2026-11-25T08:24:49Z
+way/26264773,carril en calle,Calle 17,tertiary,shared_lane,asphalt,,,,1153.1,20.9897868,-89.6333627,OpenStreetMap,2026-11-25T08:24:49Z
+way/26436456,carril en calle,Avenida Colón,tertiary,shared_lane,asphalt,,,,1233.2,20.9873023,-89.6284168,OpenStreetMap,2026-11-25T08:24:49Z
+way/26647374,carril en calle,Glorieta de la Paz,primary,lane,concrete,,,,134.8,20.998773,-89.6159277,OpenStreetMap,2026-11-25T08:24:49Z
+way/26647420,carril en calle,Prolongación Paseo Montejo,secondary,lane,asphalt,,,,339.0,21.0279561,-89.6254426,OpenStreetMap,2026-11-25T08:24:49Z
+way/26976680,carril en calle,Circuito Colonias,tertiary,shared_lane,asphalt,,,,269.0,20.9825535,-89.6548628,OpenStreetMap,2026-11-25T08:24:49Z
+way/28905936,carril en calle,Calle 43,secondary,shared_lane,asphalt,,,,332.0,21.0303115,-89.639446,OpenStreetMap,2026-11-25T08:24:49Z
+way/28906009,carril en calle,Avenida Mérida 2000,secondary,shared_lane,asphalt,,,,659.9,21.0201394,-89.6507738,OpenStreetMap,2026-11-25T08:24:49Z
+way/28907527,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,151.0,21.0304158,-89.6272314,OpenStreetMap,2026-11-25T08:24:49Z
+way/29500940,carril en calle,,primary,lane,asphalt,,,,149.4,21.0324376,-89.6274549,OpenStreetMap,2026-11-25T08:24:49Z
+way/29568031,carril en calle,Calle 133,residential,shared_lane,asphalt,,,,1653.4,20.9250709,-89.6353977,OpenStreetMap,2026-11-25T08:24:49Z
+way/29568188,carril en calle,Calle 127,secondary,shared_lane,asphalt,,,,1814.9,20.9281689,-89.6352879,OpenStreetMap,2026-11-25T08:24:49Z
+way/31280974,carril en calle,Calle 41,secondary,shared_lane,asphalt,,,,549.4,20.9671806,-89.675096,OpenStreetMap,2026-11-25T08:24:49Z
+way/31280975,carril en calle,Calle 41,secondary,shared_lane,asphalt,,,,545.1,20.9673349,-89.6755459,OpenStreetMap,2026-11-25T08:24:49Z
+way/31829693,carril en calle,Avenida Mérida 2000,secondary,shared_lane,asphalt,,,,673.1,21.0144432,-89.6523679,OpenStreetMap,2026-11-25T08:24:49Z
+way/319354564,carril en calle,Calle 60,primary,shared_lane,concrete,,,,189.9,21.0285947,-89.6269006,OpenStreetMap,2026-11-25T08:24:49Z
+way/319354566,carril en calle,,primary_link,shared_lane,concrete,,,,141.7,21.0288991,-89.6270335,OpenStreetMap,2026-11-25T08:24:49Z
+way/32563233,carril en calle,Calle 12 Diagonal,tertiary,shared_lane,asphalt,,,,477.5,20.9686939,-89.6714011,OpenStreetMap,2026-11-25T08:24:49Z
+way/32659642,carril en calle,Calle 12 Diagonal,tertiary,shared_lane,asphalt,,,,471.4,20.9690314,-89.6711192,OpenStreetMap,2026-11-25T08:24:49Z
+way/353687610,ciclovía,,cycleway,,,,,,3609.2,20.8649993,-89.5998744,OpenStreetMap,2026-11-25T08:24:49Z
+way/353687613,ciclovía,,cycleway,,,,,,1748.1,20.8956206,-89.5989446,OpenStreetMap,2026-11-25T08:24:49Z
+way/362099613,carril en calle,,service,shared_lane,gravel,,,,10778.2,20.9282098,-89.6455,OpenStreetMap,2026-11-25T08:24:49Z
+way/372506691,ciclovía,Ciclopista Dzununcán-San José Tzal,cycleway,,,,,,2941.0,20.8449024,-89.6583279,OpenStreetMap,2026-11-25T08:24:49Z
+way/372516342,ciclovía,Ciclopista Caucel - Ucú,cycleway,,,,,,2651.3,21.0247957,-89.7280195,OpenStreetMap,2026-11-25T08:24:49Z
+way/372901033,carril en calle,,secondary,lane,asphalt,,,,130.9,21.0831292,-89.6601041,OpenStreetMap,2026-11-25T08:24:49Z
+way/372901034,carril en calle,,secondary,lane,asphalt,,,,140.4,21.0777507,-89.656507,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915296,carril en calle,,secondary,lane,asphalt,,,,207.7,21.0779494,-89.6508628,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915297,carril en calle,,secondary,lane,asphalt,,,,125.3,21.0777638,-89.6460519,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915303,carril en calle,Calle 53,secondary,lane,asphalt,,,,51.2,21.0780793,-89.6513253,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915312,carril en calle,Calle 53,secondary,lane,asphalt,,,,65.1,21.0782117,-89.6512194,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915333,carril en calle,Calle 53,secondary,lane,asphalt,,,,467.7,21.0775998,-89.649051,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915335,carril en calle,Calle 74,secondary,lane,asphalt,,,,477.0,21.0759413,-89.6456758,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915338,carril en calle,Calle 53,secondary,lane,asphalt,,,,475.4,21.0774569,-89.6490991,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915339,carril en calle,Calle 53,secondary,lane,asphalt,,,,479.8,21.0769799,-89.6353935,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915342,carril en calle,Calle 53,secondary,lane,asphalt,,,,1056.3,21.0784861,-89.6417067,OpenStreetMap,2026-11-25T08:24:49Z
+way/372915343,carril en calle,Calle 53,secondary,lane,asphalt,,,,1062.4,21.0785037,-89.6403076,OpenStreetMap,2026-11-25T08:24:49Z
+way/372920067,carril en calle,,secondary,lane,asphalt,,,,104.2,21.0732985,-89.6453585,OpenStreetMap,2026-11-25T08:24:49Z
+way/374382444,carril en calle,Calle 52,residential,shared_lane,asphalt,,,,17.8,20.9897394,-89.6486638,OpenStreetMap,2026-11-25T08:24:49Z
+way/374382447,carril en calle,Calle 52,residential,shared_lane,asphalt,,,,19.6,20.9897426,-89.6486088,OpenStreetMap,2026-11-25T08:24:49Z
+way/37824422,carril en calle,Calle 50,secondary,lane,asphalt,,,,757.9,21.043231,-89.6414453,OpenStreetMap,2026-11-25T08:24:49Z
+way/37824425,carril en calle,Calle 50,secondary,lane,asphalt,,,,846.3,21.0440172,-89.6412283,OpenStreetMap,2026-11-25T08:24:49Z
+way/379691766,carril en calle,Circuito Colonias,tertiary,shared_lane,asphalt,,,,125.4,20.9893122,-89.6513023,OpenStreetMap,2026-11-25T08:24:49Z
+way/379691769,carril en calle,Circuito Colonias,tertiary,shared_lane,asphalt,,,,209.0,20.9899084,-89.6499342,OpenStreetMap,2026-11-25T08:24:49Z
+way/384701802,ciclovía,Ciclovía Komchén - Cosgaya,cycleway,,,,,,3161.1,21.1004375,-89.6877448,OpenStreetMap,2026-11-25T08:24:49Z
+way/384729080,ciclovía,,cycleway,,,,,,665.4,21.0989732,-89.7128441,OpenStreetMap,2026-11-25T08:24:49Z
+way/384729081,ciclovía,,cycleway,,,,,,652.2,21.0991551,-89.7127389,OpenStreetMap,2026-11-25T08:24:49Z
+way/384747406,ciclovía,,cycleway,,,,,,1373.2,21.0997811,-89.6073409,OpenStreetMap,2026-11-25T08:24:49Z
+way/384747408,ciclovía,,cycleway,,,,,,2645.9,21.103431,-89.6254682,OpenStreetMap,2026-11-25T08:24:49Z
+way/384763978,carril en calle,,secondary_link,lane,,,,,41.1,21.097426,-89.5818586,OpenStreetMap,2026-11-25T08:24:49Z
+way/384770499,carril en calle,Calle 20,secondary,lane,,,,,78.9,21.1025533,-89.5774999,OpenStreetMap,2026-11-25T08:24:49Z
+way/384770500,ciclovía,,cycleway,,,,,,3665.2,21.1161033,-89.5798002,OpenStreetMap,2026-11-25T08:24:49Z
+way/384772566,ciclovía,,cycleway,,,,,,1997.7,21.0620602,-89.6222186,OpenStreetMap,2026-11-25T08:24:49Z
+way/384773326,ciclovía,,cycleway,,,,,,2654.9,21.0315142,-89.5354846,OpenStreetMap,2026-11-25T08:24:49Z
+way/384776141,ciclovía,,cycleway,,asphalt,no,,,449.5,20.998811,-89.678765,OpenStreetMap,2026-11-25T08:24:49Z
+way/384776143,ciclovía,,cycleway,,,no,,,118.2,20.9961432,-89.6746145,OpenStreetMap,2026-11-25T08:24:49Z
+way/384879158,ciclovía,,cycleway,,,,,,1799.8,20.8541149,-89.5970323,OpenStreetMap,2026-11-25T08:24:49Z
+way/384922835,ciclovía,,cycleway,,,,,,1640.5,20.9528051,-89.5826789,OpenStreetMap,2026-11-25T08:24:49Z
+way/384933002,ciclovía,,cycleway,,,,,,605.0,20.9689875,-89.6932196,OpenStreetMap,2026-11-25T08:24:49Z
+way/384933011,ciclovía,,cycleway,,,,,,366.9,20.9697513,-89.7031226,OpenStreetMap,2026-11-25T08:24:49Z
+way/385001976,ciclovía,,cycleway,,,,,,918.5,20.9434412,-89.7026033,OpenStreetMap,2026-11-25T08:24:49Z
+way/385001978,carril en calle,Calle 21,tertiary,lane,asphalt,,,,744.1,20.9431502,-89.7089892,OpenStreetMap,2026-11-25T08:24:49Z
+way/385192453,ciclovía,Ciclopista Dzununcán - Santa Cruz Palomeque,cycleway,,asphalt,,,,1224.0,20.8738808,-89.6541118,OpenStreetMap,2026-11-25T08:24:49Z
+way/385296267,ciclovía,,cycleway,,,,,,1447.9,20.9051324,-89.6195822,OpenStreetMap,2026-11-25T08:24:49Z
+way/385348304,ciclovía,,cycleway,,,,,,1425.3,20.8906478,-89.6231754,OpenStreetMap,2026-11-25T08:24:49Z
+way/385443394,ciclovía,,cycleway,,,,,,122.3,20.90317,-89.6387991,OpenStreetMap,2026-11-25T08:24:49Z
+way/385443395,ciclovía,,cycleway,,asphalt,,,,1014.8,20.90703,-89.6373172,OpenStreetMap,2026-11-25T08:24:49Z
+way/385449977,ciclovía,,cycleway,,,,,,272.6,20.9010255,-89.6399561,OpenStreetMap,2026-11-25T08:24:49Z
+way/385487762,ciclovía,,cycleway,,,,,,116.7,20.9161817,-89.6296196,OpenStreetMap,2026-11-25T08:24:49Z
+way/385487765,ciclovía,,cycleway,,,,,,438.2,20.9179868,-89.6294283,OpenStreetMap,2026-11-25T08:24:49Z
+way/385493256,ciclovía,,cycleway,,,,,,584.0,20.9176202,-89.6289871,OpenStreetMap,2026-11-25T08:24:49Z
+way/385493257,ciclovía,,cycleway,,,,,,363.7,20.9156809,-89.631279,OpenStreetMap,2026-11-25T08:24:49Z
+way/385515011,ciclovía,,cycleway,,,,,,9.0,20.7879807,-89.6577527,OpenStreetMap,2026-11-25T08:24:49Z
+way/385515014,ciclovía,,cycleway,,,,,,4196.9,20.8005008,-89.6565167,OpenStreetMap,2026-11-25T08:24:49Z
+way/388611845,ciclovía,,cycleway,,,,,,796.5,20.9995286,-89.6952126,OpenStreetMap,2026-11-25T08:24:49Z
+way/388611846,ciclovía,,cycleway,,,,,,121.0,21.0059145,-89.6916471,OpenStreetMap,2026-11-25T08:24:49Z
+way/388611851,ciclovía,,cycleway,,,,,,1184.1,21.0010932,-89.6935611,OpenStreetMap,2026-11-25T08:24:49Z
+way/388612062,ciclovía,,cycleway,,asphalt,,,,543.8,21.0077847,-89.6923551,OpenStreetMap,2026-11-25T08:24:49Z
+way/388797740,ciclovía,,cycleway,,,,,,340.7,21.0084359,-89.6940663,OpenStreetMap,2026-11-25T08:24:49Z
+way/426220518,carril en calle,Calle 61,residential,shared_lane,asphalt,,,,193.1,20.960272,-89.6778186,OpenStreetMap,2026-11-25T08:24:49Z
+way/42679359,carril en calle,Avenida Industrias No Contaminantes,secondary,lane,asphalt,,,,1207.4,21.0523895,-89.6406222,OpenStreetMap,2026-11-25T08:24:49Z
+way/43053602,carril en calle,Avenida Miguel Hidalgo,tertiary,shared_lane,asphalt,,,,832.3,20.9895184,-89.6448968,OpenStreetMap,2026-11-25T08:24:49Z
+way/43053651,carril en calle,,tertiary,shared_lane,asphalt,,,,103.5,20.9899145,-89.6487434,OpenStreetMap,2026-11-25T08:24:49Z
+way/43053670,carril en calle,Circuito Colonias,tertiary,shared_lane,asphalt,,,,210.9,20.9899782,-89.6499429,OpenStreetMap,2026-11-25T08:24:49Z
+way/443625114,carril en calle,Calle 55 Diagonal,secondary,lane,asphalt,,,,263.3,21.0733461,-89.655321,OpenStreetMap,2026-11-25T08:24:49Z
+way/443627080,carril en calle,Avenida Organización de las Naciones Unidas,secondary,lane,asphalt,,,,791.3,21.069398,-89.6536723,OpenStreetMap,2026-11-25T08:24:49Z
+way/445060985,carril en calle,Calle 52,residential,shared_lane,asphalt,,,,64.9,20.9893884,-89.6487587,OpenStreetMap,2026-11-25T08:24:49Z
+way/445177897,carril en calle,Calle 7,secondary,shared_lane,asphalt,,,,373.1,21.0305099,-89.6349803,OpenStreetMap,2026-11-25T08:24:49Z
+way/445177900,carril en calle,Avenida Marcelino Champagnat,secondary,shared_lane,asphalt,,,,341.9,21.0292782,-89.6319939,OpenStreetMap,2026-11-25T08:24:49Z
+way/445177905,carril en calle,Avenida Marcelino Champagnat,secondary,shared_lane,asphalt,,,,343.6,21.0291486,-89.6319838,OpenStreetMap,2026-11-25T08:24:49Z
+way/445188631,carril en calle,Calle 7,secondary,shared_lane,asphalt,,,,231.7,21.0303639,-89.6406867,OpenStreetMap,2026-11-25T08:24:49Z
+way/445188639,carril en calle,Calle 1,secondary,shared_lane,asphalt,,,,158.9,21.0304429,-89.6344359,OpenStreetMap,2026-11-25T08:24:49Z
+way/471365873,ciclovía,,cycleway,,unpaved,,yes,,1326.9,20.9766716,-89.6581405,OpenStreetMap,2026-11-25T08:24:49Z
+way/487233942,ciclovía,,cycleway,,unpaved,,yes,,134.6,20.9770968,-89.6584613,OpenStreetMap,2026-11-25T08:24:49Z
+way/487233943,ciclovía,,cycleway,,unpaved,,yes,,91.1,20.9768321,-89.6560553,OpenStreetMap,2026-11-25T08:24:49Z
+way/487233944,ciclovía,,cycleway,,unpaved,,yes,,428.2,20.9753683,-89.6570085,OpenStreetMap,2026-11-25T08:24:49Z
+way/487233945,ciclovía,,cycleway,,asphalt,,yes,,37.2,20.9745888,-89.6567228,OpenStreetMap,2026-11-25T08:24:49Z
+way/489837672,ciclovía,,cycleway,,asphalt,,,,1454.4,20.9180319,-89.6209729,OpenStreetMap,2026-11-25T08:24:49Z
+way/489837673,ciclovía,,cycleway,,asphalt,,yes,,1293.4,20.9202152,-89.6207394,OpenStreetMap,2026-11-25T08:24:49Z
+way/51280643,carril en calle,Calle 50 Diagonal,primary,lane,asphalt,,,,135.2,21.0304404,-89.6269013,OpenStreetMap,2026-11-25T08:24:49Z
+way/515690062,ciclovía,,cycleway,,,,,,554.9,21.0107339,-89.6891813,OpenStreetMap,2026-11-25T08:24:49Z
+way/517732484,carril en calle,,primary,lane,concrete,,,,147.9,21.0278179,-89.6267069,OpenStreetMap,2026-11-25T08:24:49Z
+way/517981378,carril en calle,Calle 29,tertiary,shared_lane,asphalt,,,,198.2,21.0387732,-89.6346461,OpenStreetMap,2026-11-25T08:24:49Z
+way/544749512,ciclovía,,cycleway,,concrete,no,yes,,13.7,21.0288112,-89.6516021,OpenStreetMap,2026-11-25T08:24:49Z
+way/544749513,ciclovía,,cycleway,,concrete,no,yes,,9.9,21.028743,-89.6517312,OpenStreetMap,2026-11-25T08:24:49Z
+way/545599211,ciclovía,,cycleway,,,,,,717.1,20.9830003,-89.665582,OpenStreetMap,2026-11-25T08:24:49Z
+way/567125980,ciclovía,,cycleway,,,,,,1123.1,21.0048645,-89.7248198,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378146,ciclovía,,cycleway,,,,,,1335.2,20.9765004,-89.6687949,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378149,ciclovía,,cycleway,,,,,,21.0,20.9773988,-89.6673105,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378152,ciclovía,,cycleway,,,,,,41.4,20.9814229,-89.6695476,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378153,ciclovía,,cycleway,,,,,,59.4,20.9816884,-89.6698335,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378154,ciclovía,,cycleway,,,,,,48.0,20.9820542,-89.6697787,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378156,ciclovía,,cycleway,,,,,,36.3,20.9814877,-89.6697633,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378157,ciclovía,,cycleway,,,,,,285.1,20.9826972,-89.6698348,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378158,ciclovía,,cycleway,,,,,,116.4,20.9819643,-89.6695188,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378159,ciclovía,,cycleway,,,,,,98.6,20.9818214,-89.6694997,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378160,ciclovía,,cycleway,,,,,,8.3,20.9820369,-89.6698956,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378161,ciclovía,,cycleway,,,,,,574.3,20.9817403,-89.6686688,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378951,ciclovía,,cycleway,,,,,,880.4,20.9784159,-89.6695944,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378952,ciclovía,,cycleway,,,,,,249.6,20.9752599,-89.6680592,OpenStreetMap,2026-11-25T08:24:49Z
+way/568378953,ciclovía,,cycleway,,,,,,314.8,20.9760359,-89.6686205,OpenStreetMap,2026-11-25T08:24:49Z
+way/584809921,ciclovía,,cycleway,,asphalt,,,,213.8,21.0064389,-89.6900933,OpenStreetMap,2026-11-25T08:24:49Z
+way/584829591,ciclovía,,cycleway,,asphalt,,,,1498.7,21.0206163,-89.6839746,OpenStreetMap,2026-11-25T08:24:49Z
+way/607822356,ciclovía,,cycleway,,asphalt,,,,1765.1,21.0294088,-89.696386,OpenStreetMap,2026-11-25T08:24:49Z
+way/607822357,ciclovía,,cycleway,,asphalt,,,,2808.0,21.0294026,-89.693982,OpenStreetMap,2026-11-25T08:24:49Z
+way/633168629,ciclovía,,cycleway,,asphalt,,,,124.1,21.0117856,-89.6876001,OpenStreetMap,2026-11-25T08:24:49Z
+way/633168640,ciclovía,,cycleway,,asphalt,,,,783.4,21.0200652,-89.6829359,OpenStreetMap,2026-11-25T08:24:49Z
+way/633180441,ciclovía,,cycleway,,asphalt,,,,1176.2,20.9918692,-89.6995,OpenStreetMap,2026-11-25T08:24:49Z
+way/633532201,carril en calle,Avenida Organización de las Naciones Unidas,secondary,lane,asphalt,,,,781.5,21.0691525,-89.6598604,OpenStreetMap,2026-11-25T08:24:49Z
+way/633532205,carril en calle,Avenida Organización de las Naciones Unidas,secondary,lane,,,,,796.1,21.0692219,-89.6581953,OpenStreetMap,2026-11-25T08:24:49Z
+way/633532216,carril en calle,Calle 53,secondary,shared_lane,asphalt,,,,276.9,21.0776271,-89.6580074,OpenStreetMap,2026-11-25T08:24:49Z
+way/633532234,carril en calle,Calle 74,secondary,lane,asphalt,,,,471.5,21.0751616,-89.6457163,OpenStreetMap,2026-11-25T08:24:49Z
+way/633532471,ciclovía,,cycleway,,asphalt,,,,514.1,20.9818813,-89.6766869,OpenStreetMap,2026-11-25T08:24:49Z
+way/633532472,ciclovía,,cycleway,,asphalt,,,,1740.1,20.9791193,-89.6779975,OpenStreetMap,2026-11-25T08:24:49Z
+way/633532473,ciclovía,,cycleway,,asphalt,,,,111.9,20.9855115,-89.6760712,OpenStreetMap,2026-11-25T08:24:49Z
+way/633532474,ciclovía,,cycleway,,asphalt,,,,789.4,20.9858205,-89.6759272,OpenStreetMap,2026-11-25T08:24:49Z
+way/641397010,ciclovía,,cycleway,,asphalt,,,,1015.0,20.9812207,-89.7067278,OpenStreetMap,2026-11-25T08:24:49Z
+way/665239667,carril en calle,Calle 69,secondary,shared_lane,,,,,345.2,21.0578822,-89.6436848,OpenStreetMap,2026-11-25T08:24:49Z
+way/680192076,carril en calle,Avenida Organización de las Naciones Unidas,secondary,lane,,,,,542.6,21.069511,-89.6667049,OpenStreetMap,2026-11-25T08:24:49Z
+way/680192077,carril en calle,Avenida Organización de las Naciones Unidas,secondary,lane,asphalt,,,,334.5,21.0692532,-89.6463422,OpenStreetMap,2026-11-25T08:24:49Z
+way/680192078,carril en calle,Avenida Organización de las Naciones Unidas,secondary,lane,asphalt,,,,339.2,21.0694269,-89.6464193,OpenStreetMap,2026-11-25T08:24:49Z
+way/680192081,carril en calle,Calle 55,secondary,lane,asphalt,,,,227.0,21.0742005,-89.6579201,OpenStreetMap,2026-11-25T08:24:49Z
+way/680192082,carril en calle,Calle 55 A,secondary,lane,asphalt,,,,197.3,21.0736115,-89.6574455,OpenStreetMap,2026-11-25T08:24:49Z
+way/681697016,carril en calle,Avenida Colón,tertiary,shared_lane,asphalt,,,,103.4,20.9885865,-89.6378522,OpenStreetMap,2026-11-25T08:24:49Z
+way/681891809,carril en calle,Calle 3 A,tertiary,shared_lane,asphalt,,,,141.1,21.0379873,-89.6334441,OpenStreetMap,2026-11-25T08:24:49Z
+way/685489465,carril en calle,Calle 19,secondary,lane,,,,,1553.4,21.0983467,-89.5938307,OpenStreetMap,2026-11-25T08:24:49Z
+way/688244215,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,paving_stones,,,,156.5,20.9997564,-89.6156506,OpenStreetMap,2026-11-25T08:24:49Z
+way/688244216,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,paving_stones,,,,123.1,20.9983863,-89.6161002,OpenStreetMap,2026-11-25T08:24:49Z
+way/688244217,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,paving_stones,,,,52.0,20.9984725,-89.6158443,OpenStreetMap,2026-11-25T08:24:49Z
+way/688244218,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,paving_stones,,,,156.2,20.9997918,-89.6158375,OpenStreetMap,2026-11-25T08:24:49Z
+way/702583269,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,150.3,21.0334158,-89.6277411,OpenStreetMap,2026-11-25T08:24:49Z
+way/848305465,carril en calle,Calle 132,secondary_link,lane,,,,,34.7,21.0693389,-89.6666695,OpenStreetMap,2026-11-25T08:24:49Z
+way/848305466,carril en calle,Avenida Organización de las Naciones Unidas,secondary,lane,,,,,305.5,21.0692218,-89.6648471,OpenStreetMap,2026-11-25T08:24:49Z
+way/884817324,carril en calle,Prolongación Paseo Montejo,secondary,lane,asphalt,,,,499.7,21.0202621,-89.6196926,OpenStreetMap,2026-11-25T08:24:49Z
+way/884817325,carril en calle,Prolongación Paseo Montejo,secondary,lane,asphalt,,,,555.5,21.0213825,-89.6204462,OpenStreetMap,2026-11-25T08:24:49Z
+way/885179940,carril en calle,Avenida Colón,tertiary,shared_lane,concrete,,,,219.4,20.986258,-89.6208154,OpenStreetMap,2026-11-25T08:24:49Z
+way/885179942,carril en calle,Avenida Colón,tertiary,shared_lane,asphalt,,,,82.8,20.9859331,-89.618453,OpenStreetMap,2026-11-25T08:24:49Z
+way/885683671,carril en calle,Prolongación Paseo Montejo,secondary,shared_lane,asphalt,,,,43.3,21.0265148,-89.6246773,OpenStreetMap,2026-11-25T08:24:49Z
+way/885972862,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,120.1,21.0399814,-89.6288666,OpenStreetMap,2026-11-25T08:24:49Z
+way/885972863,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,161.8,21.0430472,-89.6293187,OpenStreetMap,2026-11-25T08:24:49Z
+way/886053845,carril en calle,Prolongación Paseo Montejo,tertiary,shared_lane,asphalt,,,,33.7,20.9974475,-89.6160266,OpenStreetMap,2026-11-25T08:24:49Z
+way/886288113,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,66.3,21.0416274,-89.6290592,OpenStreetMap,2026-11-25T08:24:49Z
+way/886288114,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,46.3,21.0410289,-89.6290363,OpenStreetMap,2026-11-25T08:24:49Z
+way/886361384,carril en calle,Calle 50,primary,lane,asphalt,,,,34.6,21.0319137,-89.627268,OpenStreetMap,2026-11-25T08:24:49Z
+way/886361385,carril en calle,Calle 50,primary,lane,asphalt,,,,84.8,21.0312918,-89.6271659,OpenStreetMap,2026-11-25T08:24:49Z
+way/886368198,carril en calle,,primary_link,shared_lane,asphalt,,,,73.3,21.0321935,-89.6277047,OpenStreetMap,2026-11-25T08:24:49Z
+way/886368201,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,58.7,21.0368834,-89.6283161,OpenStreetMap,2026-11-25T08:24:49Z
+way/886368202,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,177.9,21.038019,-89.6285231,OpenStreetMap,2026-11-25T08:24:49Z
+way/886368203,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,8.3,21.0391274,-89.6287232,OpenStreetMap,2026-11-25T08:24:49Z
+way/886368204,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,49.4,21.0422379,-89.6291121,OpenStreetMap,2026-11-25T08:24:49Z
+way/886368205,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,39.3,21.0442003,-89.6295039,OpenStreetMap,2026-11-25T08:24:49Z
+way/886368970,carril en calle,Prolongación Paseo Montejo,secondary,shared_lane,asphalt,,,,46.2,21.0262363,-89.6244548,OpenStreetMap,2026-11-25T08:24:49Z
+way/887621900,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,56.5,21.0378275,-89.6323957,OpenStreetMap,2026-11-25T08:24:49Z
+way/887621901,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,35.7,21.0359229,-89.6322114,OpenStreetMap,2026-11-25T08:24:49Z
+way/887621902,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,33.8,21.0359429,-89.6320922,OpenStreetMap,2026-11-25T08:24:49Z
+way/887621904,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,20.7,21.0361919,-89.6322569,OpenStreetMap,2026-11-25T08:24:49Z
+way/887621905,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,42.3,21.0377478,-89.6325137,OpenStreetMap,2026-11-25T08:24:49Z
+way/887915158,carril en calle,Avenida Miguel Hidalgo,tertiary,shared_lane,asphalt,,,,528.4,20.9896572,-89.6466932,OpenStreetMap,2026-11-25T08:24:49Z
+way/887918187,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,279.8,20.9762721,-89.6420461,OpenStreetMap,2026-11-25T08:24:49Z
+way/887918188,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,130.3,20.9789532,-89.6463683,OpenStreetMap,2026-11-25T08:24:49Z
+way/887918191,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,284.3,20.9763474,-89.6420313,OpenStreetMap,2026-11-25T08:24:49Z
+way/888003307,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,25.8,20.9772027,-89.6433771,OpenStreetMap,2026-11-25T08:24:49Z
+way/888003308,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,34.3,20.9771761,-89.6434759,OpenStreetMap,2026-11-25T08:24:49Z
+way/888003310,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,13.7,20.9773119,-89.6435261,OpenStreetMap,2026-11-25T08:24:49Z
+way/888003311,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,274.5,20.9779728,-89.6445965,OpenStreetMap,2026-11-25T08:24:49Z
+way/888003313,carril en calle,Avenida Jacinto Canek,primary,shared_lane,asphalt,,,,281.5,20.977841,-89.6445335,OpenStreetMap,2026-11-25T08:24:49Z
+way/889379400,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,40.8,21.0311771,-89.6273566,OpenStreetMap,2026-11-25T08:24:49Z
+way/889379401,carril en calle,Calle 60,primary,shared_lane,asphalt,,,,18.8,21.031441,-89.6274066,OpenStreetMap,2026-11-25T08:24:49Z
+way/889596398,carril en calle,Calle 1,secondary,shared_lane,asphalt,,,,135.8,21.0304047,-89.6361743,OpenStreetMap,2026-11-25T08:24:49Z
+way/889620181,carril en calle,Calle 32,primary,shared_lane,asphalt,,,,174.0,20.9894417,-89.6388047,OpenStreetMap,2026-11-25T08:24:49Z
+way/890195287,carril en calle,Calle 1,secondary,shared_lane,asphalt,,,,52.3,21.0303787,-89.6370237,OpenStreetMap,2026-11-25T08:24:49Z
+way/894014623,ciclovía,,cycleway,,asphalt,,,,1239.6,20.9533568,-89.5979865,OpenStreetMap,2026-11-25T08:24:49Z
+way/894014629,ciclovía,,cycleway,,asphalt,,,,1245.2,20.9535143,-89.5985332,OpenStreetMap,2026-11-25T08:24:49Z
+way/894014630,ciclovía,,cycleway,,asphalt,,,,1644.7,20.9467603,-89.5861094,OpenStreetMap,2026-11-25T08:24:49Z
+way/894014642,ciclovía,,cycleway,,asphalt,,,,1647.3,20.9468632,-89.5867832,OpenStreetMap,2026-11-25T08:24:49Z
+way/897664220,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,164.6,21.0368441,-89.6322372,OpenStreetMap,2026-11-25T08:24:49Z
+way/897664221,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,143.5,21.0370117,-89.6323922,OpenStreetMap,2026-11-25T08:24:49Z
+way/905684376,ciclovía,,cycleway,,unpaved,,yes,,150.0,20.9746958,-89.6563012,OpenStreetMap,2026-11-25T08:24:49Z
+way/915966846,carril en calle,Avenida Miguel Hidalgo,tertiary,shared_lane,asphalt,,,,155.3,20.9888964,-89.6397156,OpenStreetMap,2026-11-25T08:24:49Z
+way/952103229,ciclovía,,cycleway,,asphalt,,,,233.9,20.9853724,-89.7026702,OpenStreetMap,2026-11-25T08:24:49Z
+way/952103230,ciclovía,,cycleway,,asphalt,,,,172.3,20.9832636,-89.7034008,OpenStreetMap,2026-11-25T08:24:49Z
+way/97421243,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,261.0,21.0346961,-89.6318822,OpenStreetMap,2026-11-25T08:24:49Z
+way/97421249,carril en calle,Calle 20 A,tertiary,shared_lane,asphalt,,,,199.5,21.035055,-89.6320628,OpenStreetMap,2026-11-25T08:24:49Z

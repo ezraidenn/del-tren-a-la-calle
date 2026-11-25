@@ -43,10 +43,14 @@ def conteo_censo_ageb() -> int:
     return int(((df["MZA"] == "000") & (df["AGEB"] != "0000")).sum())
 
 
+def conteo_osm(ruta: str) -> int:
+    """Elementos de una respuesta de Overpass que traen coordenada, centro o geometría."""
+    datos = json.loads((ORIG / "04_geoportal_merida" / ruta).read_text(encoding="utf-8"))
+    return sum(1 for e in datos["elements"] if "lat" in e or "center" in e or e.get("geometry"))
+
+
 def conteo_osm_deportes() -> int:
-    datos = json.loads((ORIG / "04_geoportal_merida/4.1_unidades_deportivas/osm_instalaciones_deportivas.json")
-                       .read_text(encoding="utf-8"))
-    return sum(1 for e in datos["elements"] if "lat" in e or "center" in e)
+    return conteo_osm("4.1_unidades_deportivas/osm_instalaciones_deportivas.json")
 
 
 def conteo_gtfs(tabla: str) -> int:
@@ -150,6 +154,14 @@ TABLAS = [
       version_fuente="OpenStreetMap vía API Overpass, límite municipal de Mérida (relación 5961522)",
       conteo_original=conteo_osm_deportes,
       nota_conciliacion="Se cuentan los elementos de la respuesta de Overpass que traen coordenada o centro."),
+    t(tabla="osm_infraestructura_ciclista", id_fuente="E8-04.2", formato="espacial",
+      archivo="04_geoportal_merida/4.2_circuito_enlace/infraestructura_ciclista_osm.csv",
+      clave=["osm_id"], granularidad="tramo de ciclovía o carril, o estacionamiento de bicicletas",
+      territorio="Municipio de Mérida", cobertura=("2026-11-25", "2026-11-25"),
+      unidad="tramo (longitud en m) o estacionamiento (capacidad en bicicletas)",
+      version_fuente="OpenStreetMap vía API Overpass, límite municipal de Mérida (relación 5961522)",
+      conteo_original=lambda: conteo_osm("4.2_circuito_enlace/osm_infraestructura_ciclista.json"),
+      nota_conciliacion="Se cuentan los elementos de la respuesta de Overpass que traen coordenada o geometría."),
     t(tabla="aty_paraderos", id_fuente="E8-04.3", formato="espacial",
       archivo="04_geoportal_merida/4.3_paraderos/paraderos_aty.csv",
       clave=["stop_id"], granularidad="parada", territorio="Zona metropolitana de Mérida",

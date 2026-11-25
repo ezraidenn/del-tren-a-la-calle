@@ -7,10 +7,10 @@
   "estado": "sustituto",
   "acceso": "Exportación manual desde el navegador; ver PENDIENTE.md",
   "comprobacion_acceso": {
-    "fecha_utc": "2026-11-25T07:10:23Z",
-    "http": 200,
-    "antibots": false,
-    "resultado": "responde 200 de forma intermitente; las demás peticiones redirigen a la verificación antibots y robots.txt prohíbe /geoapijs, /vistas y /embed/"
+    "fecha_utc": "2026-11-25T08:28:42Z",
+    "http": 302,
+    "antibots": true,
+    "resultado": "redirige a la verificación antibots (validate.perfdrive.com)"
   },
   "archivos": [
     {

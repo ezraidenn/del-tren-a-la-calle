@@ -9,8 +9,9 @@ mano desde el navegador.
 - 4.1 Unidades deportivas: sustituto público mientras se exporta la capa.
   Se usan las instalaciones deportivas de OpenStreetMap dentro del límite
   municipal de Mérida (API Overpass).
-- 4.2 Circuito Enlace: pendiente de exportación manual. OpenStreetMap no tiene
-  la ruta.
+- 4.2 Circuito Enlace: sustituto público mientras se exporta la capa. El
+  recorrido no se publica fuera del Geoportal (ni en OpenStreetMap ni en la
+  prensa); se usa la infraestructura ciclista de OpenStreetMap en Mérida.
 - 4.3 Paraderos: sustituto público. Se usan las paradas del GTFS oficial de la
   Agencia de Transporte de Yucatán (Sistema Va-y-Ven), que cubre el
   transporte público de Mérida y su zona metropolitana.
@@ -18,6 +19,8 @@ mano desde el navegador.
 Salidas en datos/para-etl/04_geoportal_merida/:
 - 4.1_unidades_deportivas/unidades_deportivas_osm.csv y .geojson: una fila por
   instalación con lat/lon (EPSG:4326), tipo, deporte y acceso.
+- 4.2_circuito_enlace/infraestructura_ciclista_osm.csv y .geojson: ciclovías y
+  carriles (líneas, con longitud) y estacionamientos de bicicletas (puntos).
 - 4.3_paraderos/paraderos_aty.csv: una fila por parada con lat/lon (EPSG:4326) y rutas.
 - 4.3_paraderos/paraderos_aty.geojson: los mismos puntos en GeoJSON (EPSG:4326).
 
@@ -30,6 +33,7 @@ import json
 import time
 from urllib.parse import urlencode
 
+import numpy as np
 import pandas as pd
 import requests
 
@@ -65,6 +69,16 @@ LICENCIA_OSM = "ODbL 1.0 (© colaboradores de OpenStreetMap); las bases derivada
 OSM_ARCHIVO = "osm_instalaciones_deportivas.json"
 OSM_CONSULTA = ('[out:json][timeout:120];area(3605961522)->.m;'
                 '(nwr["leisure"~"^(sports_centre|stadium|pitch|sports_hall|track)$"](area.m););out center tags;')
+OSM_CICLISTA_ARCHIVO = "osm_infraestructura_ciclista.json"
+OSM_CICLISTA_CONSULTA = (
+    '[out:json][timeout:180];area(3605961522)->.m;('
+    'way["highway"="cycleway"](area.m);'
+    'way["cycleway"~"^(lane|track|shared_lane|share_busway)$"](area.m);'
+    'way["cycleway:both"~"^(lane|track|shared_lane)$"](area.m);'
+    'way["cycleway:left"~"^(lane|track|shared_lane)$"](area.m);'
+    'way["cycleway:right"~"^(lane|track|shared_lane)$"](area.m);'
+    'way["highway"="path"]["bicycle"="designated"](area.m);'
+    'nwr["amenity"="bicycle_parking"](area.m);nwr["amenity"="bicycle_rental"](area.m););out geom tags;')
 OVERPASS = ["https://maps.mail.ru/osm/tools/overpass/api/interpreter",
             "https://overpass-api.de/api/interpreter"]
 
@@ -200,7 +214,7 @@ def capas_pendientes() -> None:
         manuales = exportaciones_manuales(carpeta)
         ficha = comun.leer_procedencia(destino)
         ficha.update(CAPAS[carpeta])
-        con_sustituto = carpeta == "4.1_unidades_deportivas"
+        con_sustituto = True  # 4.1 y 4.2 tienen sustituto de OpenStreetMap
         ficha.update({
             "licencia": LICENCIA_OSM if con_sustituto and not manuales else LICENCIA_PENDIENTE,
             "estado": "real" if manuales else "sustituto" if con_sustituto else "pendiente",
@@ -290,18 +304,15 @@ def paraderos() -> None:
         convertir_manual(carpeta, manuales)
 
 
-def unidades_deportivas_osm() -> None:
-    """Sustituto de 4.1: instalaciones deportivas de OpenStreetMap dentro del municipio de Mérida."""
-    carpeta = "4.1_unidades_deportivas"
-    origen = comun.carpeta_fuente(TIPO, carpeta)
-    ruta = origen / OSM_ARCHIVO
-    url_usada = next((a["url"] for a in comun.leer_procedencia(origen).get("archivos", [])
-                      if a["archivo"] == OSM_ARCHIVO), "")
+def descargar_overpass(origen, archivo: str, consulta: str) -> dict:
+    """Guarda la respuesta de Overpass una sola vez y la registra; devuelve el JSON."""
+    ruta = origen / archivo
     if not ruta.exists():
         # Overpass es un servicio público y a veces está saturado: se prueba cada espejo con espera creciente.
+        url_usada = ""
         for intento in range(5):
             for servidor in OVERPASS:
-                url = f"{servidor}?{urlencode({'data': OSM_CONSULTA})}"
+                url = f"{servidor}?{urlencode({'data': consulta})}"
                 try:
                     r = comun.SESION.get(url, timeout=200)
                     if r.ok and r.text.lstrip().startswith("{") and '"elements"' in r.text:
@@ -316,22 +327,29 @@ def unidades_deportivas_osm() -> None:
         else:
             raise SystemExit("Overpass no respondió; vuelve a intentar más tarde")
         comun.registrar(origen, {}, {
-            "archivo": OSM_ARCHIVO, "url": url_usada, "descargado_utc": comun.ahora_utc(),
+            "archivo": archivo, "url": url_usada, "descargado_utc": comun.ahora_utc(),
             "bytes": ruta.stat().st_size, "sha256": comun.sha256_de(ruta), "content_type": "application/json",
             "nota": "Respuesta de la API Overpass de OpenStreetMap; la consulta va en el parámetro data de la URL.",
         })
+    return json.loads(ruta.read_text(encoding="utf-8"))
+
+
+def marcar_sustituto(origen, descripcion: str) -> None:
     ficha = comun.leer_procedencia(origen)
     if ficha.get("estado") != "real":
-        ficha.update({
-            "estado": "sustituto",
-            "sustituto": ("Instalaciones deportivas de OpenStreetMap (leisure = sports_centre, stadium, pitch, "
-                          "sports_hall o track) dentro del límite municipal de Mérida (relación OSM 5961522)"),
-            "url_sustituto": "https://www.openstreetmap.org/relation/5961522",
-            "licencia": LICENCIA_OSM,
-        })
+        ficha.update({"estado": "sustituto", "sustituto": descripcion,
+                      "url_sustituto": "https://www.openstreetmap.org/relation/5961522",
+                      "licencia": LICENCIA_OSM})
         comun.guardar_procedencia(origen, ficha)
 
-    datos = json.loads(ruta.read_text(encoding="utf-8"))
+
+def unidades_deportivas_osm() -> None:
+    """Sustituto de 4.1: instalaciones deportivas de OpenStreetMap dentro del municipio de Mérida."""
+    carpeta = "4.1_unidades_deportivas"
+    origen = comun.carpeta_fuente(TIPO, carpeta)
+    datos = descargar_overpass(origen, OSM_ARCHIVO, OSM_CONSULTA)
+    marcar_sustituto(origen, "Instalaciones deportivas de OpenStreetMap (leisure = sports_centre, stadium, pitch, "
+                             "sports_hall o track) dentro del límite municipal de Mérida (relación OSM 5961522)")
     filas = []
     for e in datos["elements"]:
         t = e.get("tags", {})
@@ -356,10 +374,86 @@ def unidades_deportivas_osm() -> None:
           f"({int(salida['acceso_publico_probable'].sum()):,} sin acceso restringido)")
 
 
+def categoria_ciclista(t: dict) -> str:
+    if t.get("amenity") == "bicycle_parking":
+        return "estacionamiento"
+    if t.get("amenity") == "bicycle_rental":
+        return "renta de bicicletas"
+    if t.get("highway") in {"cycleway", "path"}:
+        return "ciclovía"
+    return "carril en calle"
+
+
+def longitud_m(geometria: list[dict]) -> float:
+    if len(geometria) < 2:
+        return 0.0
+    lat = np.radians([g["lat"] for g in geometria])
+    lon = np.radians([g["lon"] for g in geometria])
+    a = np.sin(np.diff(lat) / 2) ** 2 + np.cos(lat[:-1]) * np.cos(lat[1:]) * np.sin(np.diff(lon) / 2) ** 2
+    return float((2 * 6_371_000 * np.arcsin(np.sqrt(a))).sum())
+
+
+def infraestructura_ciclista_osm() -> None:
+    """Sustituto de 4.2: ciclovías, carriles y estacionamientos de bicicletas de OpenStreetMap en Mérida."""
+    carpeta = "4.2_circuito_enlace"
+    origen = comun.carpeta_fuente(TIPO, carpeta)
+    if exportaciones_manuales(carpeta):
+        return
+    datos = descargar_overpass(origen, OSM_CICLISTA_ARCHIVO, OSM_CICLISTA_CONSULTA)
+    marcar_sustituto(origen, "Infraestructura ciclista de OpenStreetMap (ciclovías, carriles en calle, "
+                             "estacionamientos y renta de bicicletas) dentro del límite municipal de Mérida "
+                             "(relación OSM 5961522). El recorrido del Circuito Enlace no se publica fuera del "
+                             "Geoportal")
+    version = datos.get("osm3s", {}).get("timestamp_osm_base", "")
+    filas, rasgos = [], []
+    for e in datos["elements"]:
+        t = e.get("tags", {})
+        geom = e.get("geometry") or []
+        if e["type"] == "node":
+            lat, lon = e["lat"], e["lon"]
+            figura = {"type": "Point", "coordinates": [round(lon, 7), round(lat, 7)]}
+        elif geom:
+            lat = sum(g["lat"] for g in geom) / len(geom)
+            lon = sum(g["lon"] for g in geom) / len(geom)
+            coords = [[round(g["lon"], 7), round(g["lat"], 7)] for g in geom]
+            cerrado = t.get("amenity") == "bicycle_parking" and len(coords) > 3 and coords[0] == coords[-1]
+            figura = ({"type": "Polygon", "coordinates": [coords]} if cerrado
+                      else {"type": "LineString", "coordinates": coords})
+        else:
+            continue
+        fila = {
+            "osm_id": f"{e['type']}/{e['id']}", "categoria": categoria_ciclista(t), "nombre": t.get("name"),
+            "tipo_via": t.get("highway"),
+            "tipo_carril": (t.get("cycleway") or t.get("cycleway:both") or t.get("cycleway:right")
+                            or t.get("cycleway:left")),
+            "superficie": t.get("surface"), "segregada": t.get("segregated"), "iluminado": t.get("lit"),
+            "capacidad": int(t["capacity"]) if str(t.get("capacity", "")).isdigit() else None,
+            "longitud_m": round(longitud_m(geom), 1) if figura["type"] == "LineString" else None,
+            "lat": round(float(lat), 7), "lon": round(float(lon), 7),
+            "fuente": "OpenStreetMap", "version_osm": version,
+        }
+        filas.append(fila)
+        rasgos.append({"type": "Feature", "geometry": figura,
+                       "properties": {k: (None if pd.isna(v) else v) for k, v in fila.items()
+                                      if k not in {"lat", "lon"}}})
+    salida = pd.DataFrame(filas).sort_values("osm_id", kind="stable")
+    destino = comun.carpeta_fuente(TIPO, carpeta, base=comun.PARA_ETL)
+    salida.to_csv(destino / "infraestructura_ciclista_osm.csv", index=False, encoding="utf-8")
+    rasgos.sort(key=lambda r: r["properties"]["osm_id"])
+    (destino / "infraestructura_ciclista_osm.geojson").write_text(json.dumps(
+        {"type": "FeatureCollection", "name": "infraestructura_ciclista_osm",
+         "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}},
+         "features": rasgos}, ensure_ascii=False) + "\n", encoding="utf-8")
+    km = salida.loc[salida["categoria"].isin(["ciclovía", "carril en calle"]), "longitud_m"].sum() / 1000
+    print(f"  {carpeta}: {len(salida):,} elementos de infraestructura ciclista de OpenStreetMap "
+          f"({km:,.1f} km de ciclovías y carriles)")
+
+
 def main() -> None:
     print("Subtema 4: Geoportal de Mérida")
     capas_pendientes()
     unidades_deportivas_osm()
+    infraestructura_ciclista_osm()
     paraderos()
 
 

@@ -5,7 +5,7 @@ Prueba de realidad aumentada en la entrada de tres negocios del recorrido: se co
 ## Herramienta
 
 - Visor web con soporte AR: https://modelviewer.dev/ (Scene Viewer en Android, Quick Look en iPhone).
-- Modelo: silla de ruedas manual de 0.70 m de ancho y 1.20 m de largo, en `modelo/`.
+- Modelo: silla de ruedas manual de 0.70 m de ancho, 1.20 m de largo y 0.90 m de alto, en `modelo/` (`.glb` para Android y `.usdz` para iPhone). Cómo abrirlo: [modelo/README.md](modelo/README.md).
 - Grabación de pantalla del celular durante cada prueba.
 - Verificación con la app Medida (ancho de la puerta y altura del escalón).
 

@@ -1,4 +1,18 @@
-# 4.2 Circuito Enlace: exportación manual pendiente
+# 4.2 Circuito Enlace: se usa un sustituto; la capa original sigue pendiente
+
+## Sustituto en uso
+
+`osm_infraestructura_ciclista.json`: respuesta de la API Overpass de OpenStreetMap con la infraestructura ciclista dentro del límite municipal de Mérida (relación 5961522). Incluye ciclovías, carriles en calle, estacionamientos y renta de bicicletas. La consulta exacta está en la URL registrada en `procedencia.json`.
+
+- Salidas: `datos/para-etl/04_geoportal_merida/4.2_circuito_enlace/infraestructura_ciclista_osm.csv` y `.geojson`. Los tramos son líneas con su longitud y los estacionamientos son puntos.
+- Licencia: ODbL 1.0, con atribución «© colaboradores de OpenStreetMap».
+- Por qué este sustituto:
+  - El recorrido del Circuito Enlace no se publica fuera del Geoportal. Se revisaron OpenStreetMap y las notas del Ayuntamiento y de la prensa de 2020 y 2022, y solo dan los nombres de las rutas.
+  - En la consulta del 2026-11-25 el Geoportal mostró el mapa, pero sin descarga y sin respuestas con coordenadas.
+  - La infraestructura ciclista es la otra red de movilidad urbana del subtema 4, distinta del GTFS que ya usa 4.3.
+- No es equivalente: describe la red ciclista, no el transporte gratuito del Centro.
+
+Si se consigue la capa original con los pasos de abajo, o digitalizándola desde el mapa del Geoportal, el script la convierte y la fuente pasa a usar la capa original.
 
 Capa: https://geoportal.merida.gob.mx/circuitoenlace (Geoportal del Ayuntamiento de Mérida). Es el servicio gratuito de transporte del Centro que opera el Ayuntamiento, no la ATY.
 

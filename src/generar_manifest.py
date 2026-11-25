@@ -63,6 +63,10 @@ def id_fuente(ruta: Path) -> str:
             return f"E8-{int(n):02d}.{m}"
     if "03_denue_datamart" in ruta.parts:
         return "E8-03.1;E8-03.2"
+    # Archivo común a las 3 fuentes de un subtema de campo (p. ej. el modelo de la silla del subtema 7).
+    if ruta.parts[0] == "campo" and len(ruta.parts) > 1 and ruta.parts[1][:2].isdigit():
+        n = int(ruta.parts[1][:2])
+        return ";".join(f"E8-{n:02d}.{m}" for m in range(1, 4))
     return ""
 
 

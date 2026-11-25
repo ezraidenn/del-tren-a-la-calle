@@ -2,7 +2,7 @@
 
 - Tipo de fuente: LiDAR
 - Elemento: tramo de banqueta de 2 a 3 m
-- Ubicación: por definir en el recorrido
+- Ubicación: esquina de la calle 59 con la 60, junto al Parque Hidalgo (ver [RECORRIDO.md](../../RECORRIDO.md))
 - Estado: pendiente de levantamiento
 
 ## Archivos

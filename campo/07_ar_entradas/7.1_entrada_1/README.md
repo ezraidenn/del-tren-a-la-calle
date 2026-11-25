@@ -2,7 +2,7 @@
 
 - Tipo de fuente: realidad aumentada
 - Prueba: colocar una silla de ruedas virtual en la entrada
-- Negocio: por definir en el recorrido
+- Negocio: La Chaya Maya, calle 62 x 57; confirmar en el lugar (ver [RECORRIDO.md](../../RECORRIDO.md))
 - Estado: pendiente de levantamiento
 
 ## Archivos

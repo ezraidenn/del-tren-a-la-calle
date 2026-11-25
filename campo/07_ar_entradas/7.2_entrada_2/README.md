@@ -2,7 +2,7 @@
 
 - Tipo de fuente: realidad aumentada
 - Prueba: colocar una silla de ruedas virtual en la entrada
-- Negocio: por definir en el recorrido
+- Negocio: Café Rollal, sobre el recorrido; confirmar en el lugar (ver [RECORRIDO.md](../../RECORRIDO.md))
 - Estado: pendiente de levantamiento
 
 ## Archivos

@@ -508,6 +508,20 @@ silver,inegi_censo_2020_ageb_yucatan,vph_sinrtv,Int64,248,16.19,94,0,160,11
 silver,inegi_censo_2020_ageb_yucatan,vph_sinltc,Int64,285,18.6,156,0,307,43
 silver,inegi_censo_2020_ageb_yucatan,vph_sincint,Int64,97,6.33,442,0,1007,164
 silver,inegi_censo_2020_ageb_yucatan,vph_sintic,Int64,361,23.56,57,0,85,7
+silver,osm_infraestructura_ciclista,osm_id,string,0,0.0,1198,,,node/11792820815
+silver,osm_infraestructura_ciclista,categoria,string,0,0.0,4,,,estacionamiento
+silver,osm_infraestructura_ciclista,nombre,string,598,49.92,63,,,Evo Bike
+silver,osm_infraestructura_ciclista,tipo_via,string,101,8.43,8,,,cycleway
+silver,osm_infraestructura_ciclista,tipo_carril,string,632,52.75,3,,,shared_lane
+silver,osm_infraestructura_ciclista,superficie,string,609,50.83,8,,,unpaved
+silver,osm_infraestructura_ciclista,segregada,string,1190,99.33,1,,,no
+silver,osm_infraestructura_ciclista,iluminado,string,1184,98.83,1,,,yes
+silver,osm_infraestructura_ciclista,capacidad,Int64,1114,92.99,10,1,17,5
+silver,osm_infraestructura_ciclista,longitud_m,Float64,101,8.43,728,1.4,10778.2,143.2
+silver,osm_infraestructura_ciclista,lat,Float64,0,0.0,1197,20.7879807,21.1310693,21.0058826
+silver,osm_infraestructura_ciclista,lon,Float64,0,0.0,1197,-89.7807745,-89.5284376,-89.6879977
+silver,osm_infraestructura_ciclista,fuente,string,0,0.0,1,,,OpenStreetMap
+silver,osm_infraestructura_ciclista,version_osm,string,0,0.0,1,,,2026-11-25T08:24:49Z
 silver,osm_unidades_deportivas,osm_id,string,0,0.0,825,,,node/11677824230
 silver,osm_unidades_deportivas,nombre,string,742,89.94,81,,,Escuela de natación Acuarium
 silver,osm_unidades_deportivas,tipo,string,0,0.0,5,,,pitch
