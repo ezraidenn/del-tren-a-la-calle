@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --morado: #600d8b;
+  --morado-medio: #9b5bbf;
+  --morado-suave: #e9d8f3;
+  --oro: #ed9f22;
+  --oro-oscuro: #9a5b08;
+  --oro-suave: #fbe3b8;
+  --gris: #9ca3af;
+  --gris-claro: #e5e7eb;
+  --gris-texto: #4b5563;
+  --tinta: #0d0d0d;
+  --fondo: #ffffff;
+  --fuente: 'Outfit', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scrollbar-width: thin; scrollbar-color: rgba(96, 13, 139, 0.35) transparent; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(96, 13, 139, 0.35); border-radius: 8px; }
+::-webkit-scrollbar-button { display: none; }
+
+body {
+  font-family: var(--fuente);
+  color: var(--tinta);
+  background: var(--fondo);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.pagina { max-width: 1040px; margin: 0 auto; padding: 2rem 1.5rem 3rem; }
+
+.portada { border-bottom: 3px solid var(--morado); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+.portada .rotulo { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--morado); }
+.portada h1 { font-size: 2.1rem; font-weight: 800; line-height: 1.15; margin: 0.4rem 0 0.75rem; }
+.portada p { font-size: 1.05rem; color: var(--gris-texto); max-width: 70ch; }
+
+.datos-clave { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1.25rem; }
+.dato { border-left: 4px solid var(--morado); padding: 0.25rem 0 0.25rem 0.85rem; }
+.dato strong { display: block; font-size: 1.6rem; font-weight: 800; color: var(--morado); line-height: 1.1; }
+.dato span { font-size: 0.92rem; color: var(--gris-texto); }
+
+.escena { border: 1px solid var(--gris-claro); border-radius: 12px; padding: 1.5rem 1.6rem 1.2rem; margin-bottom: 2rem; break-inside: avoid; }
+.escena .rotulo { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--morado); }
+.escena h2 { font-size: 1.45rem; font-weight: 800; line-height: 1.2; margin: 0.35rem 0 0.4rem; }
+.escena .subtitulo { font-size: 0.98rem; color: var(--gris-texto); margin-bottom: 1rem; }
+.escena .lectura { font-size: 0.95rem; margin-top: 0.9rem; }
+.escena .fuente { font-size: 0.8rem; color: var(--gris-texto); border-top: 1px solid var(--gris-claro); margin-top: 0.9rem; padding-top: 0.6rem; display: flex; flex-wrap: wrap; gap: 0.3rem 1.25rem; }
+.escena code, .notas code { font-size: 0.85em; }
+
+.grafica svg { display: block; width: 100%; height: auto; overflow: visible; }
+.grafica text { font-family: var(--fuente); fill: var(--tinta); }
+.grafica .eje text { font-size: 15px; fill: var(--gris-texto); }
+.grafica .eje line, .grafica .eje path { stroke: var(--gris-claro); }
+.grafica .rejilla line { stroke: var(--gris-claro); stroke-dasharray: 2 4; }
+.grafica .rejilla path { display: none; }
+.grafica .aviso { font-size: 15px; fill: var(--gris-texto); }
+
+.leyenda { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; font-size: 0.9rem; color: var(--gris-texto); margin-bottom: 0.6rem; }
+.leyenda i { display: inline-block; width: 14px; height: 14px; border-radius: 3px; vertical-align: -2px; margin-right: 0.35rem; }
+
+.notas { border-top: 3px solid var(--morado); padding-top: 1.25rem; }
+.notas h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 0.6rem; }
+.notas ol { padding-left: 1.3rem; }
+.notas li { margin-bottom: 0.5rem; font-size: 0.95rem; }
+
+.error-carga { color: var(--oro-oscuro); font-size: 0.95rem; }
+
+@media (max-width: 600px) {
+  .pagina { padding: 1.25rem 0.9rem 2rem; }
+  .portada h1 { font-size: 1.6rem; }
+  .escena { padding: 1.1rem 1rem 1rem; }
+  .escena h2 { font-size: 1.2rem; }
+}
+
+@media print {
+  .pagina { max-width: none; padding: 0; }
+  .escena { border: none; padding: 0; page-break-inside: avoid; }
+}

@@ -3,7 +3,7 @@
 - Tipo de fuente: realidad aumentada
 - Prueba: colocar una silla de ruedas virtual en la entrada
 - Negocio: Café Rollal, sobre el recorrido; confirmar en el lugar (ver [RECORRIDO.md](../../RECORRIDO.md))
-- Estado: simulado; la versión simulada está en `datos/simulados/` (ver [LEEME_SIMULADO.md](../../LEEME_SIMULADO.md)). Esta plantilla queda para un levantamiento real
+- Estado: pendiente de levantamiento
 
 ## Archivos
 

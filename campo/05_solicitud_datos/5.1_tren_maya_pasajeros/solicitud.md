@@ -30,10 +30,6 @@ Borrador para presentar en la Plataforma Nacional de Transparencia (https://www.
 - Guarda el acuse en PDF en esta carpeta como `acuse.pdf` y la respuesta como `respuesta.<ext>`.
 - Dato público que se usa mientras tanto: `datos/originales/05_solicitud_datos/5.1_tren_maya_pasajeros/` (datos.gob.mx, conjunto «Prestación del servicio ferroviario de pasajeros»).
 
-## Respuesta simulada mientras tanto
-
-En [`datos/simulados/05_solicitud_datos/5.1_tren_maya_pasajeros/`](../../../datos/simulados/05_solicitud_datos/5.1_tren_maya_pasajeros/) hay una respuesta **simulada** con la forma que pide esta solicitud: pasajeros por estación y mes, Teya por día y corrida, origen-destino con Teya y boletos por tarifa. Está calibrada con los datos públicos y marcada como simulada en cada archivo, tabla y renglón. El método está en su `LEEME_SIMULADO.md`. No es un dato oficial y no sustituye a la presentación de la solicitud. Cuando llegue la respuesta real, se guarda aquí y se dejan de usar las tablas simuladas.
-
 ## Regla del proyecto
 
 Si en **3 semanas** desde la fecha de presentación no hay respuesta útil, el análisis usa el dato público que ya está en `datos/` y la solicitud se reporta como «presentada, sin respuesta a tiempo». Si la respuesta llega después, se agrega como fuente complementaria.
@@ -49,4 +45,4 @@ Si en **3 semanas** desde la fecha de presentación no hay respuesta útil, el a
 | Prórroga notificada (sí/no, nueva fecha) | |
 | Respuesta (fecha y resumen) | |
 | Archivos recibidos | |
-| ¿Se usó en el análisis? | Todavía no. Mientras tanto se usan el dato público y la respuesta simulada |
+| ¿Se usó en el análisis? | Todavía no. Mientras tanto se usa el dato público |

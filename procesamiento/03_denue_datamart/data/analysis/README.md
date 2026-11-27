@@ -1,6 +1,6 @@
 # Analytical Outputs — Tren Maya Data Mart
 
-Esta carpeta contiene resultados analíticos derivados del Data Mart del proyecto **“El tren que movió el mapa: qué cambió alrededor de 34 estaciones”**.
+Esta carpeta contiene resultados analíticos derivados del Data Mart del proyecto **«Del tren a la calle: qué cambió alrededor de 34 estaciones»**.
 
 El análisis compara establecimientos DENUE de 2019 y 2025 ubicados dentro de un radio máximo de 5 km alrededor de las estaciones estudiadas.
 

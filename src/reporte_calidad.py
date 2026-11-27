@@ -79,17 +79,6 @@ def main() -> None:
         lineas.append(f"| {c['tabla']} | {c['filas_original']} | {c['filas_curado']} | "
                       f"{si_no(c['cuadra_para_etl_curado'])} | {c['nota']} |")
 
-    sim = con[con["capa"] == "simulado"]
-    tablas_sim = cat[cat["capa"] == "simulado"]
-    if len(tablas_sim):
-        lineas += ["", "## Datos simulados", "",
-                   f"{len(tablas_sim)} tablas en `datos/simulados/` son respuestas **SIMULADAS** a las solicitudes de "
-                   "acceso a la información; no son datos oficiales. Cada una está calibrada con un dato real y sus "
-                   "totales se comprueban contra él:", "",
-                   "| Tabla | Real | Simulado | Cuadra | Control |", "|---|---|---|---|---|"]
-        for _, c in sim.iterrows():
-            lineas.append(f"| {c['tabla']} | {c['filas_original']} | {c['filas_curado']} | "
-                          f"{si_no(c['cuadra_para_etl_curado'])} | {c['nota']} |")
     lineas += ["", "## Registros rechazados", ""]
     if rechazos:
         lineas += ["| Tabla | Regla | Motivo | Filas |", "|---|---|---|---|"]

@@ -1,6 +1,6 @@
 # Tren Maya Data Mart
 
-## El tren que movió el mapa: ¿qué cambió alrededor de 34 estaciones?
+## Del tren a la calle: ¿qué cambió alrededor de 34 estaciones?
 
 Proyecto de **Business Intelligence y Data Engineering** para analizar cómo cambió la actividad empresarial alrededor de 34 estaciones del Tren Maya entre 2019 y 2025, utilizando información del **Directorio Estadístico Nacional de Unidades Económicas (DENUE)** de INEGI.
 
@@ -454,4 +454,4 @@ Cortes utilizados:
 **Data Mart:** completado  
 **PostgreSQL:** completado  
 **Vistas analíticas:** completadas  
-**Dashboard Power BI:** en desarrollo
+**Visualización:** capítulo del booklet en D3, en [`booklet/`](../../booklet/) en la raíz del repositorio

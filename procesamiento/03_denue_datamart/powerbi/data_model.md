@@ -4,7 +4,7 @@
 
 Este documento describe cómo construir en Power BI el modelo dimensional del proyecto:
 
-**El tren que movió el mapa: ¿qué cambió alrededor de 34 estaciones?**
+**Del tren a la calle: ¿qué cambió alrededor de 34 estaciones?**
 
 ---
 

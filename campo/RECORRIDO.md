@@ -2,8 +2,6 @@
 
 Las 9 fuentes de campo (subtemas 6, 7 y 8) se levantan sobre un mismo recorrido a pie, entre dos paradas de transporte público, con restaurantes en el camino.
 
-Hoy las 9 están **simuladas** sobre este recorrido (ver [LEEME_SIMULADO.md](LEEME_SIMULADO.md)). Esta guía sirve para hacer el levantamiento real y reemplazarlas.
-
 ## Calle 62 de la 57 a la 59, y calle 59 de la 62 a la 58 (Centro)
 
 | Punto | Parada del GTFS de la ATY | Cruce | Lat, lon | Rutas |

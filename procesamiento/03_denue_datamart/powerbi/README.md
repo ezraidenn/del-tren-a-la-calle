@@ -1,6 +1,8 @@
 # Power BI Handoff — Tren Maya Data Mart
 
-## El tren que movió el mapa: ¿qué cambió alrededor de 34 estaciones?
+## Del tren a la calle: ¿qué cambió alrededor de 34 estaciones?
+
+> La visualización final de este data mart es el capítulo del booklet en D3, en [`booklet/`](../../../booklet/) en la raíz del repositorio. Esta guía de Power BI queda como alternativa; no hay archivo `.pbix`.
 
 Esta carpeta contiene las instrucciones necesarias para construir y validar el dashboard de Power BI utilizando el Data Mart preparado para el proyecto.
 
@@ -158,7 +160,7 @@ Responder rápidamente:
 Título:
 
 ```text
-El tren que movió el mapa
+Del tren a la calle
 ```
 
 Subtítulo:

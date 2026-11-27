@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escena 4 · Del tren a la calle</title>
+  <link rel="stylesheet" href="estilo.css">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="datos.js"></script>
+  <script src="comun.js"></script>
+</head>
+<body>
+  <!-- Generado por src/booklet.py a partir de booklet/index.html. Los textos se editan en index.html. -->
+  <main class="pagina">
+    <article class="escena">
+      <div class="rotulo">Escena 4 · Negocios por AGEB en Mérida</div>
+      <h2>En Mérida, 350 de 526 AGEB urbanas ganaron negocios, pero la del Centro perdió 507</h2>
+      <p class="subtitulo">Negocios ganados o perdidos en cada AGEB urbana del municipio de Mérida, de noviembre de 2019 a mayo de 2025. El mapa encuadra la ciudad; las 43 AGEB urbanas de las comisarías quedan fuera del recuadro, pero cuentan en los totales.</p>
+      <div id="grafica-escena-4" class="grafica"></div>
+      <p class="lectura"><strong>Cómo leer esta escena:</strong> el morado marca las AGEB que ganaron negocios y el oro las que perdieron. El municipio pasó de 52,675 a 55,864 negocios (+6.1 %). La AGEB del Centro, la que más negocios tiene, bajó de 3,400 a 2,893 (−14.9 %), y las AGEB de la periferia, a más de 20 km de la estación Teya, crecieron 47.6 %. Las AGEB con marginación alta y muy alta crecieron 40.1 % y 52.3 %, aunque partían de pocos negocios.</p>
+      <footer class="fuente"><span>Fuente: INEGI, DENUE noviembre 2019 y mayo 2025, Censo de Población y Vivienda 2020 y Marco Geoestadístico 2025; CONAPO, índice de marginación urbana 2020. Tabla gold <code>ind_negocios_ageb_merida</code>.</span><span>Datos: <code>booklet/datos/escena-4.csv</code> y <code>merida_ageb.geojson</code></span></footer>
+    </article>
+  </main>
+  <script src="escena-4.js"></script>
+  <script>dibujarEscena4();</script>
+</body>
+</html>

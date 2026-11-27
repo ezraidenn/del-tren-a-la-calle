@@ -3,7 +3,7 @@
 - Tipo de fuente: LiDAR
 - Elemento: tramo de banqueta de 2 a 3 m
 - Ubicación: esquina de la calle 59 con la 60, junto al Parque Hidalgo (ver [RECORRIDO.md](../../RECORRIDO.md))
-- Estado: simulado; la versión simulada está en `datos/simulados/` (ver [LEEME_SIMULADO.md](../../LEEME_SIMULADO.md)). Esta plantilla queda para un levantamiento real
+- Estado: pendiente de levantamiento
 
 ## Archivos
 
