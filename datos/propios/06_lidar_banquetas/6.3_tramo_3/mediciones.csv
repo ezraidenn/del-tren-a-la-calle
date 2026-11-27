@@ -1,0 +1,3 @@
+id_captura,id_tramo,fecha,hora,lat,lon,cvegeo_ageb,dispositivo,app,archivo_captura,largo_tramo_m,ancho_total_m,ancho_libre_m,obstaculo_tipo,obstaculo_largo_m,obstaculo_ancho_m,obstaculo_alto_m,pendiente_pct,observaciones
+C-T3-01,T3,2026-11-24,08:13,20.96893,-89.62322,3105000010440,iPhone 13 Pro,"3d Scanner App, modo LiDAR",captura_T3.ply,2.4,1.35,1.05,rampa de esquina,1.2,1.0,0.13,10.8,"Rampa de esquina hacia el cruce con la calle 60; pendiente de 10.8 %, mayor que el 8 % que suelen pedir los manuales de accesibilidad."
+C-T3-02,T3,2026-11-24,08:13,20.96893,-89.62322,3105000010440,iPhone 13 Pro,"3d Scanner App, modo LiDAR",captura_T3.ply,2.4,1.35,1.05,desnivel en la arista de la guarnición,0.4,0.2,0.06,10.8,

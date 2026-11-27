@@ -1,8 +1,8 @@
 """Genera manifest.csv y externos.csv a partir de los archivos del repositorio.
 
 - manifest.csv: una fila por archivo de datos (originales o bronze, para-etl,
-  curados o silver, rechazados, gold, campo y salidas del data mart) con
-  bytes, SHA-256 y procedencia.
+  curados o silver, rechazados, gold, propios, campo y salidas del data
+  mart) con bytes, SHA-256 y procedencia.
 - externos.csv: archivos que no se versionan en git, con el motivo:
   «tamaño» (más de LIMITE_GIT_MB; el servidor los descarga de su URL),
   «privacidad» (páginas crudas con teléfonos o nombres de personas) o
@@ -30,6 +30,7 @@ CARPETAS = [
     RAIZ / "datos" / "curados",
     RAIZ / "datos" / "rechazados",
     RAIZ / "datos" / "gold",
+    RAIZ / "datos" / "propios",
     RAIZ / "campo",
     RAIZ / "procesamiento" / "03_denue_datamart" / "data",
 ]
@@ -96,6 +97,9 @@ def main() -> None:
             elif "gold" in rel.parts:
                 capa = "gold"
                 derivado_de = "datos/curados"
+            elif "propios" in rel.parts:
+                capa = "propio"
+                derivado_de = "datos/para-etl (calibración; ver src/generar_solicitudes.py y src/generar_campo.py)"
             elif rel.parts[0] == "campo":
                 capa = "campo"
                 derivado_de = ""

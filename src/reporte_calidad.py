@@ -78,6 +78,13 @@ def main() -> None:
     for _, c in gold.iterrows():
         lineas.append(f"| {c['tabla']} | {c['filas_original']} | {c['filas_curado']} | "
                       f"{si_no(c['cuadra_para_etl_curado'])} | {c['nota']} |")
+    propios = con[con["capa"] == "propio"]
+    if len(propios):
+        lineas += ["", "Controles de las tablas propias (solicitudes y campo, `datos/propios/`):", "",
+                   "| Tabla | Esperado | Obtenido | Cuadra | Control |", "|---|---|---|---|---|"]
+        for _, c in propios.iterrows():
+            lineas.append(f"| {c['tabla']} | {c['filas_original']} | {c['filas_curado']} | "
+                          f"{si_no(c['cuadra_para_etl_curado'])} | {c['nota']} |")
 
     lineas += ["", "## Registros rechazados", ""]
     if rechazos:

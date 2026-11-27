@@ -12,6 +12,29 @@ gold,ind_negocios_ageb_merida,,56014,,526,,,True,DENUE 2025 Mérida: 56014 estab
 gold,ind_obras_banquetas_anual,,101,,5,,,True,"101 obras en silver = 101 sumadas por año; monto 87,181,317.01 = 87,181,317.01"
 gold,ind_restaurantes_transporte,,193,,193,,,True,193 restaurantes con coordenadas; 184 a 400 m o menos de una parada
 gold,ind_tren_maya_mensual,,83,,21,,,True,"Pasajeros 2025-2026: 2,225,282 en silver = 2,225,282 en gold"
+propio,campo_ar_entrada_1,E8-07.1,1,,1,,,True,el restaurante LA CHAYA MAYA (Sección Amarilla 998900181) cae en una AGEB urbana
+propio,campo_ar_entrada_2,E8-07.2,1,,1,,,True,el restaurante CAFÉ ROLLAL (Sección Amarilla 3593856) cae en una AGEB urbana
+propio,campo_ar_entrada_3,E8-07.3,1,,1,,,True,el restaurante EL CHILE HABANERO RESTAURANTE (Sección Amarilla 996034481) cae en una AGEB urbana
+propio,campo_entrevistas,E8-08.3,18,,18,,,True,todas las respuestas usan la escala de comodidad de 1 a 5
+propio,campo_entrevistas,E8-08.3,58,,58,,,True,"las 58 filas de campo pasan src/validar_campo.py (fechas, coordenadas, AGEB, rangos, archivos y datos personales)"
+propio,campo_inventario_bancas,E8-08.1,14,,14,,,True,todas las bancas caen en una AGEB urbana de Mérida
+propio,campo_lidar_tramo_1,E8-06.1,1,,1,,,True,el ancho libre no supera el ancho total en ninguna medición
+propio,campo_lidar_tramo_1,E8-06.1,142,,142,,,True,"la nube captura_T1.ply (89,039 puntos) reproduce el ancho medido de 1.42 m (±1 cm)"
+propio,campo_lidar_tramo_2,E8-06.2,2,,2,,,True,el ancho libre no supera el ancho total en ninguna medición
+propio,campo_lidar_tramo_2,E8-06.2,118,,118,,,True,"la nube captura_T2.ply (86,032 puntos) reproduce el ancho medido de 1.18 m (±1 cm)"
+propio,campo_lidar_tramo_3,E8-06.3,2,,2,,,True,el ancho libre no supera el ancho total en ninguna medición
+propio,campo_lidar_tramo_3,E8-06.3,135,,135,,,True,"la nube captura_T3.ply (76,228 puntos) reproduce el ancho medido de 1.35 m (±1 cm)"
+propio,campo_ocupacion_bancas,E8-08.2,18,,18,,,True,cada conteo corresponde a una banca del inventario 8.1
+propio,solicitud_obras_banquetas_centro,E8-05.3,32,,32,,,True,"todas las obras caen dentro del Centro Histórico (20.955-20.980 N, 89.605-89.640 O)"
+propio,solicitud_obras_banquetas_centro,E8-05.3,1,,1,,,True,"costo mediano por m² de la tabla (1,777) entre 1 y 3 veces el del SRFT (942)"
+propio,solicitud_r901_corridas_mes,E8-05.2,5460,,5460,,,True,corridas programadas = viajes del GTFS por tipo de día × días del mes
+propio,solicitud_r901_parada_sentido,E8-05.2,29457,,29457,,,True,ascensos = descensos en cada sentido (nadie se queda a bordo)
+propio,solicitud_r901_validaciones_corrida,E8-05.2,29457,,29457,,,True,validaciones por tarifa = validaciones por corrida
+propio,solicitud_r901_validaciones_tarifa,E8-05.2,29457,,29457,,,True,validaciones por tarifa = ascensos por parada
+propio,solicitud_tm_boletos_tarifa,E8-05.1,3348103,,3348103,,,True,boletos del sistema = boletos vendidos reales (pasajeros donde no se publican) y de Teya = ascensos
+propio,solicitud_tm_origen_destino_teya,E8-05.1,773395,,773395,,,True,boletos con origen o destino Teya = ascensos + descensos de Teya
+propio,solicitud_tm_pasajeros_estacion_mes,E8-05.1,2931271,,2931271,,,True,"ascensos de todas las estaciones = pasajeros transportados de datos.gob.mx en 34 meses (2,931,271)"
+propio,solicitud_tm_teya_dia_corrida,E8-05.1,773395,,773395,,,True,ascensos + descensos por día y corrida = los de Teya en solicitud_tm_pasajeros_estacion_mes
 silver,aty_paraderos,E8-04.3,3256,3256,3256,0,True,True,
 silver,aty_r901_horario_publicado,E8-05.2,,20,20,0,,True,Sin conteo independiente del original.
 silver,aty_r901_paradas,E8-05.2,,10,10,0,,True,Sin conteo independiente del original.

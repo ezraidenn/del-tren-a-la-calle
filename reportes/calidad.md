@@ -7,7 +7,7 @@ Generado: 2026-11-27. Se regenera con `python src/curar.py`, `python src/gold.py
 - **Silver:** 24 tablas curadas. 55,052 registros de entrada: 55,047 curados y 5 rechazados, que se conservan en `datos/rechazados/`.
 - **Conteos de silver:** cuadran en 24 de 24 tablas (entrada = curados + rechazados). En 12 tablas además coincide el conteo independiente del archivo original.
 - **Gold:** 10 tablas (dimensiones e indicadores). Sus 13 controles de totales cuadran en 13.
-- **Diccionario:** 668 columnas documentadas; 0 sin descripción.
+- **Diccionario:** 901 columnas documentadas; 0 sin descripción.
 - **Claves:** son únicas en todas las tablas. La regla R3 rechaza los duplicados y gold verifica la clave antes de escribir.
 
 ## Conciliación por tabla
@@ -56,6 +56,34 @@ Controles de la capa gold:
 | ind_obras_banquetas_anual | 101 | 5 | sí | 101 obras en silver = 101 sumadas por año; monto 87,181,317.01 = 87,181,317.01 |
 | ind_restaurantes_transporte | 193 | 193 | sí | 193 restaurantes con coordenadas; 184 a 400 m o menos de una parada |
 | ind_tren_maya_mensual | 83 | 21 | sí | Pasajeros 2025-2026: 2,225,282 en silver = 2,225,282 en gold |
+
+Controles de las tablas propias (solicitudes y campo, `datos/propios/`):
+
+| Tabla | Esperado | Obtenido | Cuadra | Control |
+|---|---|---|---|---|
+| campo_ar_entrada_1 | 1 | 1 | sí | el restaurante LA CHAYA MAYA (Sección Amarilla 998900181) cae en una AGEB urbana |
+| campo_ar_entrada_2 | 1 | 1 | sí | el restaurante CAFÉ ROLLAL (Sección Amarilla 3593856) cae en una AGEB urbana |
+| campo_ar_entrada_3 | 1 | 1 | sí | el restaurante EL CHILE HABANERO RESTAURANTE (Sección Amarilla 996034481) cae en una AGEB urbana |
+| campo_entrevistas | 18 | 18 | sí | todas las respuestas usan la escala de comodidad de 1 a 5 |
+| campo_entrevistas | 58 | 58 | sí | las 58 filas de campo pasan src/validar_campo.py (fechas, coordenadas, AGEB, rangos, archivos y datos personales) |
+| campo_inventario_bancas | 14 | 14 | sí | todas las bancas caen en una AGEB urbana de Mérida |
+| campo_lidar_tramo_1 | 1 | 1 | sí | el ancho libre no supera el ancho total en ninguna medición |
+| campo_lidar_tramo_1 | 142 | 142 | sí | la nube captura_T1.ply (89,039 puntos) reproduce el ancho medido de 1.42 m (±1 cm) |
+| campo_lidar_tramo_2 | 2 | 2 | sí | el ancho libre no supera el ancho total en ninguna medición |
+| campo_lidar_tramo_2 | 118 | 118 | sí | la nube captura_T2.ply (86,032 puntos) reproduce el ancho medido de 1.18 m (±1 cm) |
+| campo_lidar_tramo_3 | 2 | 2 | sí | el ancho libre no supera el ancho total en ninguna medición |
+| campo_lidar_tramo_3 | 135 | 135 | sí | la nube captura_T3.ply (76,228 puntos) reproduce el ancho medido de 1.35 m (±1 cm) |
+| campo_ocupacion_bancas | 18 | 18 | sí | cada conteo corresponde a una banca del inventario 8.1 |
+| solicitud_obras_banquetas_centro | 32 | 32 | sí | todas las obras caen dentro del Centro Histórico (20.955-20.980 N, 89.605-89.640 O) |
+| solicitud_obras_banquetas_centro | 1 | 1 | sí | costo mediano por m² de la tabla (1,777) entre 1 y 3 veces el del SRFT (942) |
+| solicitud_r901_corridas_mes | 5460 | 5460 | sí | corridas programadas = viajes del GTFS por tipo de día × días del mes |
+| solicitud_r901_parada_sentido | 29457 | 29457 | sí | ascensos = descensos en cada sentido (nadie se queda a bordo) |
+| solicitud_r901_validaciones_corrida | 29457 | 29457 | sí | validaciones por tarifa = validaciones por corrida |
+| solicitud_r901_validaciones_tarifa | 29457 | 29457 | sí | validaciones por tarifa = ascensos por parada |
+| solicitud_tm_boletos_tarifa | 3348103 | 3348103 | sí | boletos del sistema = boletos vendidos reales (pasajeros donde no se publican) y de Teya = ascensos |
+| solicitud_tm_origen_destino_teya | 773395 | 773395 | sí | boletos con origen o destino Teya = ascensos + descensos de Teya |
+| solicitud_tm_pasajeros_estacion_mes | 2931271 | 2931271 | sí | ascensos de todas las estaciones = pasajeros transportados de datos.gob.mx en 34 meses (2,931,271) |
+| solicitud_tm_teya_dia_corrida | 773395 | 773395 | sí | ascensos + descensos por día y corrida = los de Teya en solicitud_tm_pasajeros_estacion_mes |
 
 ## Registros rechazados
 
@@ -116,6 +144,18 @@ Columnas con 20 % o más de valores vacíos. El dato falta en la fuente; no se i
 | silver | seccion_amarilla_restaurantes_merida | url_ficha | 47.6 |
 | silver | srft_obras_banquetas_merida | metros_lineales | 100.0 |
 | silver | tren_maya_horarios | tiempo_recorrido | 43.8 |
+| propio | campo_ar_entrada_1 | archivo_video | 100.0 |
+| propio | campo_ar_entrada_2 | archivo_video | 100.0 |
+| propio | campo_ar_entrada_3 | archivo_video | 100.0 |
+| propio | campo_inventario_bancas | archivo_foto | 100.0 |
+| propio | campo_inventario_bancas | observaciones | 35.7 |
+| propio | campo_lidar_tramo_1 | obstaculo_largo_m | 100.0 |
+| propio | campo_lidar_tramo_1 | obstaculo_ancho_m | 100.0 |
+| propio | campo_lidar_tramo_1 | obstaculo_alto_m | 100.0 |
+| propio | campo_lidar_tramo_2 | observaciones | 50.0 |
+| propio | campo_lidar_tramo_3 | observaciones | 50.0 |
+| propio | campo_ocupacion_bancas | observaciones | 61.1 |
+| propio | solicitud_obras_banquetas_centro | nota | 96.9 |
 | gold | ind_tren_maya_mensual | variacion_anual_pasajeros_pct | 57.1 |
 | gold | ind_tren_maya_mensual | boletos_vendidos_estaciones | 52.4 |
 | gold | ind_tren_maya_mensual | boletos_vendidos_puntos_venta | 52.4 |
@@ -134,6 +174,24 @@ Columnas con 20 % o más de valores vacíos. El dato falta en la fuente; no se i
 | gold | ind_obras_banquetas_anual | año de inicio de obra | 2022 a 2026 | Municipio de Mérida | 5 |
 | gold | ind_restaurantes_transporte | restaurante | 2026-11-24 a 2026-11-24 | Municipio de Mérida | 193 |
 | gold | ind_tren_maya_mensual | mes | 2025-01-01 a 2026-09-01 | Red completa del Tren Maya | 21 |
+| propio | campo_ar_entrada_1 | Prueba en una entrada | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 1 |
+| propio | campo_ar_entrada_2 | Prueba en una entrada | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 1 |
+| propio | campo_ar_entrada_3 | Prueba en una entrada | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 1 |
+| propio | campo_entrevistas | Persona entrevistada | 2026-11-24 a 2026-11-25 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 18 |
+| propio | campo_inventario_bancas | Banca o lugar para sentarse | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 14 |
+| propio | campo_lidar_tramo_1 | Obstáculo medido en el tramo (una fila si no hay obstáculos) | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 1 |
+| propio | campo_lidar_tramo_2 | Obstáculo medido en el tramo (una fila si no hay obstáculos) | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 2 |
+| propio | campo_lidar_tramo_3 | Obstáculo medido en el tramo (una fila si no hay obstáculos) | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 2 |
+| propio | campo_ocupacion_bancas | Conteo de 15 minutos por banca y franja | 2026-11-24 a 2026-11-24 | Centro de Mérida, recorrido de campo/RECORRIDO.md | 18 |
+| propio | solicitud_obras_banquetas_centro | Obra | 2023-01-10 a 2026-10-24 | Centro Histórico de Mérida, perímetros A y B | 32 |
+| propio | solicitud_r901_corridas_mes | Mes y tipo de día | 2026-01 a 2026-09 | Ruta R901 IE-TRAM La Plancha – Teya | 27 |
+| propio | solicitud_r901_parada_sentido | Mes, sentido y parada | 2026-01 a 2026-09 | Ruta R901 IE-TRAM La Plancha – Teya | 90 |
+| propio | solicitud_r901_validaciones_corrida | Mes y corrida del GTFS | 2026-01 a 2026-09 | Ruta R901 IE-TRAM La Plancha – Teya | 540 |
+| propio | solicitud_r901_validaciones_tarifa | Mes y tipo de tarifa | 2026-01 a 2026-09 | Ruta R901 IE-TRAM La Plancha – Teya | 36 |
+| propio | solicitud_tm_boletos_tarifa | Mes, ámbito y tipo de tarifa | 2023-12 a 2026-09 | Estación Teya-Mérida y red completa | 272 |
+| propio | solicitud_tm_origen_destino_teya | Mes y par origen-destino con Teya | 2023-12 a 2026-09 | Red del Tren Maya, viajes desde o hacia Teya | 1984 |
+| propio | solicitud_tm_pasajeros_estacion_mes | Estación y mes | 2023-12 a 2026-09 | Red del Tren Maya (34 estaciones) | 1026 |
+| propio | solicitud_tm_teya_dia_corrida | Mes, día de la semana y corrida en la estación Teya-Mérida | 2023-12 a 2026-09 | Estación Teya-Mérida | 2142 |
 | silver | aty_paraderos | parada | 2026-11-24 a 2026-11-24 | Zona metropolitana de Mérida | 3256 |
 | silver | aty_r901_horario_publicado | corrida por sentido | 2026-11-24 a 2026-11-24 | Ruta R901 La Plancha – Teya | 20 |
 | silver | aty_r901_paradas | parada por sentido | 2026-11-24 a 2026-11-24 | Ruta R901 La Plancha – Teya | 10 |

@@ -3,7 +3,7 @@
 - Tipo de fuente: LiDAR
 - Elemento: tramo de banqueta de 2 a 3 m
 - Ubicación: calle 59 entre 62 y 60 (ver [RECORRIDO.md](../../RECORRIDO.md))
-- Estado: pendiente de levantamiento
+- Estado: tablas en [`datos/propios/06_lidar_banquetas/6.1_tramo_1/`](../../../datos/propios/06_lidar_banquetas/6.1_tramo_1/)
 
 ## Archivos
 

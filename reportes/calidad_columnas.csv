@@ -85,6 +85,239 @@ gold,ind_tren_maya_mensual,pasajeros_transportados,Float64,0,0.0,21,66801.0,1497
 gold,ind_tren_maya_mensual,pasajeros_por_km,Float64,0,0.0,21,0.2428,0.6766,0.6766
 gold,ind_tren_maya_mensual,pasajeros_por_boleto,Float64,0,0.0,21,0.9034,1.1037,1.0589
 gold,ind_tren_maya_mensual,variacion_anual_pasajeros_pct,float64,12,57.14,9,-27.69,11.87,8.64
+propio,campo_ar_entrada_1,id_sesion,str,0,0.0,1,,,AR-01
+propio,campo_ar_entrada_1,id_tarea,str,0,0.0,1,,,silla_en_entrada
+propio,campo_ar_entrada_1,id_establecimiento,str,0,0.0,1,,,SA-998900181
+propio,campo_ar_entrada_1,nombre_establecimiento,str,0,0.0,1,,,LA CHAYA MAYA
+propio,campo_ar_entrada_1,fecha,str,0,0.0,1,,,2026-11-24
+propio,campo_ar_entrada_1,hora,str,0,0.0,1,,,10:05
+propio,campo_ar_entrada_1,lat,float64,0,0.0,1,20.970049,20.970049,20.970049
+propio,campo_ar_entrada_1,lon,float64,0,0.0,1,-89.624031,-89.624031,-89.624031
+propio,campo_ar_entrada_1,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+propio,campo_ar_entrada_1,dispositivo,str,0,0.0,1,,,Samsung Galaxy S23
+propio,campo_ar_entrada_1,herramienta,str,0,0.0,1,,,Scene Viewer (ARCore)
+propio,campo_ar_entrada_1,modelo_virtual,str,0,0.0,1,,,silla_ruedas.glb
+propio,campo_ar_entrada_1,ancho_modelo_m,float64,0,0.0,1,0.7,0.7,0.7
+propio,campo_ar_entrada_1,largo_modelo_m,float64,0,0.0,1,1.2,1.2,1.2
+propio,campo_ar_entrada_1,ancho_libre_entrada_m,float64,0,0.0,1,1.52,1.52,1.52
+propio,campo_ar_entrada_1,altura_escalon_m,float64,0,0.0,1,0.24,0.24,0.24
+propio,campo_ar_entrada_1,resultado,str,0,0.0,1,,,cabe con ajustes
+propio,campo_ar_entrada_1,ajustes_necesarios,str,0,0.0,1,,,rampa portátil para un escalón de 0.24 m (unos 3.0 m de largo al 8 %)
+propio,campo_ar_entrada_1,num_intentos,int64,0,0.0,1,2,2,2
+propio,campo_ar_entrada_1,tiempo_s,int64,0,0.0,1,118,118,118
+propio,campo_ar_entrada_1,archivo_video,object,1,100.0,0,,,
+propio,campo_ar_entrada_1,observaciones,str,0,0.0,1,,,Portón de casona con escalón de piedra; la silla cabe de ancho pero no sube el e
+propio,campo_ar_entrada_2,id_sesion,str,0,0.0,1,,,AR-02
+propio,campo_ar_entrada_2,id_tarea,str,0,0.0,1,,,silla_en_entrada
+propio,campo_ar_entrada_2,id_establecimiento,str,0,0.0,1,,,SA-3593856
+propio,campo_ar_entrada_2,nombre_establecimiento,str,0,0.0,1,,,CAFÉ ROLLAL
+propio,campo_ar_entrada_2,fecha,str,0,0.0,1,,,2026-11-24
+propio,campo_ar_entrada_2,hora,str,0,0.0,1,,,10:31
+propio,campo_ar_entrada_2,lat,float64,0,0.0,1,20.96991,20.96991,20.96991
+propio,campo_ar_entrada_2,lon,float64,0,0.0,1,-89.62378,-89.62378,-89.62378
+propio,campo_ar_entrada_2,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+propio,campo_ar_entrada_2,dispositivo,str,0,0.0,1,,,Samsung Galaxy S23
+propio,campo_ar_entrada_2,herramienta,str,0,0.0,1,,,Scene Viewer (ARCore)
+propio,campo_ar_entrada_2,modelo_virtual,str,0,0.0,1,,,silla_ruedas.glb
+propio,campo_ar_entrada_2,ancho_modelo_m,float64,0,0.0,1,0.7,0.7,0.7
+propio,campo_ar_entrada_2,largo_modelo_m,float64,0,0.0,1,1.2,1.2,1.2
+propio,campo_ar_entrada_2,ancho_libre_entrada_m,float64,0,0.0,1,0.86,0.86,0.86
+propio,campo_ar_entrada_2,altura_escalon_m,float64,0,0.0,1,0.02,0.02,0.02
+propio,campo_ar_entrada_2,resultado,str,0,0.0,1,,,cabe
+propio,campo_ar_entrada_2,ajustes_necesarios,str,0,0.0,1,,,ninguno
+propio,campo_ar_entrada_2,num_intentos,int64,0,0.0,1,1,1,1
+propio,campo_ar_entrada_2,tiempo_s,int64,0,0.0,1,64,64,64
+propio,campo_ar_entrada_2,archivo_video,object,1,100.0,0,,,
+propio,campo_ar_entrada_2,observaciones,str,0,0.0,1,,,Puerta de una hoja al nivel de la banqueta; quedan 8 cm por lado. Sin video.
+propio,campo_ar_entrada_3,id_sesion,str,0,0.0,1,,,AR-03
+propio,campo_ar_entrada_3,id_tarea,str,0,0.0,1,,,silla_en_entrada
+propio,campo_ar_entrada_3,id_establecimiento,str,0,0.0,1,,,SA-996034481
+propio,campo_ar_entrada_3,nombre_establecimiento,str,0,0.0,1,,,EL CHILE HABANERO RESTAURANTE
+propio,campo_ar_entrada_3,fecha,str,0,0.0,1,,,2026-11-24
+propio,campo_ar_entrada_3,hora,str,0,0.0,1,,,10:52
+propio,campo_ar_entrada_3,lat,float64,0,0.0,1,20.970238,20.970238,20.970238
+propio,campo_ar_entrada_3,lon,float64,0,0.0,1,-89.62252,-89.62252,-89.62252
+propio,campo_ar_entrada_3,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+propio,campo_ar_entrada_3,dispositivo,str,0,0.0,1,,,Samsung Galaxy S23
+propio,campo_ar_entrada_3,herramienta,str,0,0.0,1,,,Scene Viewer (ARCore)
+propio,campo_ar_entrada_3,modelo_virtual,str,0,0.0,1,,,silla_ruedas.glb
+propio,campo_ar_entrada_3,ancho_modelo_m,float64,0,0.0,1,0.7,0.7,0.7
+propio,campo_ar_entrada_3,largo_modelo_m,float64,0,0.0,1,1.2,1.2,1.2
+propio,campo_ar_entrada_3,ancho_libre_entrada_m,float64,0,0.0,1,0.78,0.78,0.78
+propio,campo_ar_entrada_3,altura_escalon_m,float64,0,0.0,1,0.17,0.17,0.17
+propio,campo_ar_entrada_3,resultado,str,0,0.0,1,,,no cabe
+propio,campo_ar_entrada_3,ajustes_necesarios,str,0,0.0,1,,,abrir la segunda hoja o ampliar el acceso a 0.80 m; rampa para un escalón de 0.1
+propio,campo_ar_entrada_3,num_intentos,int64,0,0.0,1,3,3,3
+propio,campo_ar_entrada_3,tiempo_s,int64,0,0.0,1,141,141,141
+propio,campo_ar_entrada_3,archivo_video,object,1,100.0,0,,,
+propio,campo_ar_entrada_3,observaciones,str,0,0.0,1,,,Una hoja abierta y una mesa junto al acceso; la segunda hoja estaba fija. Sin vi
+propio,campo_entrevistas,id_respuesta,str,0,0.0,18,,,E01
+propio,campo_entrevistas,fecha,str,0,0.0,2,,,2026-11-24
+propio,campo_entrevistas,hora,str,0,0.0,18,,,08:22
+propio,campo_entrevistas,lat,float64,0,0.0,7,20.9686,20.9701,20.9701
+propio,campo_entrevistas,lon,float64,0,0.0,8,-89.6243,-89.6215,-89.6243
+propio,campo_entrevistas,cvegeo_ageb,str,0,0.0,2,,,3105000010440
+propio,campo_entrevistas,perfil,str,0,0.0,3,,,trabaja aquí
+propio,campo_entrevistas,rango_edad,str,0,0.0,4,,,30-44
+propio,campo_entrevistas,motivo_espera,str,0,0.0,4,,,esperar el camión
+propio,campo_entrevistas,tiempo_espera_min,int64,0,0.0,6,10,40,15
+propio,campo_entrevistas,encontro_asiento,str,0,0.0,3,,,no
+propio,campo_entrevistas,necesidad_expresada,str,0,0.0,5,,,asiento
+propio,campo_entrevistas,comodidad_1a5,int64,0,0.0,4,1,4,2
+propio,campo_entrevistas,comentario,str,1,5.56,17,,,Siempre me toca parada; el escalón es de la casa y a veces nos corren.
+propio,campo_inventario_bancas,id_banca,str,0,0.0,14,,,B01
+propio,campo_inventario_bancas,fecha,str,0,0.0,1,,,2026-11-24
+propio,campo_inventario_bancas,lat,float64,0,0.0,14,20.96856,20.97014,20.96884
+propio,campo_inventario_bancas,lon,float64,0,0.0,14,-89.62436,-89.62151,-89.62348
+propio,campo_inventario_bancas,cvegeo_ageb,str,0,0.0,2,,,3105000010440
+propio,campo_inventario_bancas,tipo,str,0,0.0,5,,,silla confidente
+propio,campo_inventario_bancas,material,str,0,0.0,4,,,concreto
+propio,campo_inventario_bancas,largo_m,float64,0,0.0,6,1.15,3.4,1.15
+propio,campo_inventario_bancas,alto_asiento_m,float64,0,0.0,5,0.21,0.46,0.42
+propio,campo_inventario_bancas,profundidad_m,float64,0,0.0,6,0.25,0.5,0.48
+propio,campo_inventario_bancas,respaldo,str,0,0.0,2,,,sí
+propio,campo_inventario_bancas,descansabrazos,str,0,0.0,2,,,no
+propio,campo_inventario_bancas,sombra,str,0,0.0,3,,,total
+propio,campo_inventario_bancas,distancia_parada_m,float64,0,0.0,14,6.0,192.2,164.5
+propio,campo_inventario_bancas,estado,str,0,0.0,3,,,bueno
+propio,campo_inventario_bancas,archivo_foto,object,14,100.0,0,,,
+propio,campo_inventario_bancas,observaciones,str,5,35.71,9,,,Bajo laurel
+propio,campo_lidar_tramo_1,id_captura,str,0,0.0,1,,,C-T1-01
+propio,campo_lidar_tramo_1,id_tramo,str,0,0.0,1,,,T1
+propio,campo_lidar_tramo_1,fecha,str,0,0.0,1,,,2026-11-24
+propio,campo_lidar_tramo_1,hora,str,0,0.0,1,,,07:42
+propio,campo_lidar_tramo_1,lat,float64,0,0.0,1,20.96906,20.96906,20.96906
+propio,campo_lidar_tramo_1,lon,float64,0,0.0,1,-89.62385,-89.62385,-89.62385
+propio,campo_lidar_tramo_1,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+propio,campo_lidar_tramo_1,dispositivo,str,0,0.0,1,,,iPhone 13 Pro
+propio,campo_lidar_tramo_1,app,str,0,0.0,1,,,"3d Scanner App, modo LiDAR"
+propio,campo_lidar_tramo_1,archivo_captura,str,0,0.0,1,,,captura_T1.ply
+propio,campo_lidar_tramo_1,largo_tramo_m,float64,0,0.0,1,2.8,2.8,2.8
+propio,campo_lidar_tramo_1,ancho_total_m,float64,0,0.0,1,1.42,1.42,1.42
+propio,campo_lidar_tramo_1,ancho_libre_m,float64,0,0.0,1,1.31,1.31,1.31
+propio,campo_lidar_tramo_1,obstaculo_tipo,str,0,0.0,1,,,ninguno
+propio,campo_lidar_tramo_1,obstaculo_largo_m,object,1,100.0,0,,,
+propio,campo_lidar_tramo_1,obstaculo_ancho_m,object,1,100.0,0,,,
+propio,campo_lidar_tramo_1,obstaculo_alto_m,object,1,100.0,0,,,
+propio,campo_lidar_tramo_1,pendiente_pct,float64,0,0.0,1,1.2,1.2,1.2
+propio,campo_lidar_tramo_1,observaciones,str,0,0.0,1,,,"Banqueta de concreto en buen estado, sin obstáculos. El ancho libre descuenta la"
+propio,campo_lidar_tramo_2,id_captura,str,0,0.0,2,,,C-T2-01
+propio,campo_lidar_tramo_2,id_tramo,str,0,0.0,1,,,T2
+propio,campo_lidar_tramo_2,fecha,str,0,0.0,1,,,2026-11-24
+propio,campo_lidar_tramo_2,hora,str,0,0.0,1,,,07:58
+propio,campo_lidar_tramo_2,lat,float64,0,0.0,1,20.96903,20.96903,20.96903
+propio,campo_lidar_tramo_2,lon,float64,0,0.0,1,-89.62245,-89.62245,-89.62245
+propio,campo_lidar_tramo_2,cvegeo_ageb,str,0,0.0,1,,,3105000010455
+propio,campo_lidar_tramo_2,dispositivo,str,0,0.0,1,,,iPhone 13 Pro
+propio,campo_lidar_tramo_2,app,str,0,0.0,1,,,"3d Scanner App, modo LiDAR"
+propio,campo_lidar_tramo_2,archivo_captura,str,0,0.0,1,,,captura_T2.ply
+propio,campo_lidar_tramo_2,largo_tramo_m,float64,0,0.0,1,2.6,2.6,2.6
+propio,campo_lidar_tramo_2,ancho_total_m,float64,0,0.0,1,1.18,1.18,1.18
+propio,campo_lidar_tramo_2,ancho_libre_m,float64,0,0.0,1,0.71,0.71,0.71
+propio,campo_lidar_tramo_2,obstaculo_tipo,str,0,0.0,2,,,poste de concreto (red eléctrica)
+propio,campo_lidar_tramo_2,obstaculo_largo_m,float64,0,0.0,2,0.3,0.6,0.3
+propio,campo_lidar_tramo_2,obstaculo_ancho_m,float64,0,0.0,2,0.3,0.45,0.3
+propio,campo_lidar_tramo_2,obstaculo_alto_m,float64,0,0.0,2,0.03,2.5,2.5
+propio,campo_lidar_tramo_2,pendiente_pct,float64,0,0.0,1,0.8,0.8,0.8
+propio,campo_lidar_tramo_2,observaciones,str,1,50.0,1,,,El poste deja 0.71 m de paso entre la fachada y el poste; la tapa del registro s
+propio,campo_lidar_tramo_3,id_captura,str,0,0.0,2,,,C-T3-01
+propio,campo_lidar_tramo_3,id_tramo,str,0,0.0,1,,,T3
+propio,campo_lidar_tramo_3,fecha,str,0,0.0,1,,,2026-11-24
+propio,campo_lidar_tramo_3,hora,str,0,0.0,1,,,08:13
+propio,campo_lidar_tramo_3,lat,float64,0,0.0,1,20.96893,20.96893,20.96893
+propio,campo_lidar_tramo_3,lon,float64,0,0.0,1,-89.62322,-89.62322,-89.62322
+propio,campo_lidar_tramo_3,cvegeo_ageb,str,0,0.0,1,,,3105000010440
+propio,campo_lidar_tramo_3,dispositivo,str,0,0.0,1,,,iPhone 13 Pro
+propio,campo_lidar_tramo_3,app,str,0,0.0,1,,,"3d Scanner App, modo LiDAR"
+propio,campo_lidar_tramo_3,archivo_captura,str,0,0.0,1,,,captura_T3.ply
+propio,campo_lidar_tramo_3,largo_tramo_m,float64,0,0.0,1,2.4,2.4,2.4
+propio,campo_lidar_tramo_3,ancho_total_m,float64,0,0.0,1,1.35,1.35,1.35
+propio,campo_lidar_tramo_3,ancho_libre_m,float64,0,0.0,1,1.05,1.05,1.05
+propio,campo_lidar_tramo_3,obstaculo_tipo,str,0,0.0,2,,,rampa de esquina
+propio,campo_lidar_tramo_3,obstaculo_largo_m,float64,0,0.0,2,0.4,1.2,1.2
+propio,campo_lidar_tramo_3,obstaculo_ancho_m,float64,0,0.0,2,0.2,1.0,1.0
+propio,campo_lidar_tramo_3,obstaculo_alto_m,float64,0,0.0,2,0.06,0.13,0.13
+propio,campo_lidar_tramo_3,pendiente_pct,float64,0,0.0,1,10.8,10.8,10.8
+propio,campo_lidar_tramo_3,observaciones,str,1,50.0,1,,,"Rampa de esquina hacia el cruce con la calle 60; pendiente de 10.8 %, mayor que "
+propio,campo_ocupacion_bancas,id_conteo,str,0,0.0,18,,,O01
+propio,campo_ocupacion_bancas,id_banca,str,0,0.0,6,,,B01
+propio,campo_ocupacion_bancas,fecha,str,0,0.0,1,,,2026-11-24
+propio,campo_ocupacion_bancas,franja,str,0,0.0,3,,,mañana
+propio,campo_ocupacion_bancas,hora_inicio,str,0,0.0,3,,,08:15
+propio,campo_ocupacion_bancas,hora_fin,str,0,0.0,3,,,08:30
+propio,campo_ocupacion_bancas,personas_sentadas,int64,0,0.0,5,0,4,1
+propio,campo_ocupacion_bancas,personas_esperando_de_pie,int64,0,0.0,7,0,9,0
+propio,campo_ocupacion_bancas,personas_sentadas_en_otro_lugar,int64,0,0.0,3,0,2,0
+propio,campo_ocupacion_bancas,temperatura_c,float64,0,0.0,16,21.9,31.7,22.2
+propio,campo_ocupacion_bancas,observaciones,str,11,61.11,7,,,Pareja comparte la confidente; una persona en el borde
+propio,solicitud_obras_banquetas_centro,numero_obra,str,0,0.0,32,,,OB-2023-001
+propio,solicitud_obras_banquetas_centro,descripcion,str,0,0.0,32,,,"Construcción de rampas y cruces peatonales accesibles en calle 55 entre 54 y 56,"
+propio,solicitud_obras_banquetas_centro,tipo_accion,str,0,0.0,5,,,Construcción de rampas y cruces peatonales accesibles
+propio,solicitud_obras_banquetas_centro,calle,int64,0,0.0,22,45,79,55
+propio,solicitud_obras_banquetas_centro,entre_calle_1,int64,0,0.0,21,46,77,54
+propio,solicitud_obras_banquetas_centro,entre_calle_2,int64,0,0.0,21,48,79,56
+propio,solicitud_obras_banquetas_centro,perimetro,str,0,0.0,2,,,A
+propio,solicitud_obras_banquetas_centro,lat,float64,0,0.0,21,20.957275,20.976825,20.971075
+propio,solicitud_obras_banquetas_centro,lon,float64,0,0.0,22,-89.63114,-89.61546,-89.6205
+propio,solicitud_obras_banquetas_centro,metros_lineales,float64,0,0.0,32,100.32,249.41,224.2
+propio,solicitud_obras_banquetas_centro,metros_cuadrados,float64,0,0.0,32,129.17,481.98,344.87
+propio,solicitud_obras_banquetas_centro,rampas,int64,0,0.0,6,0,8,4
+propio,solicitud_obras_banquetas_centro,cruces_peatonales,int64,0,0.0,3,0,2,1
+propio,solicitud_obras_banquetas_centro,monto_contratado_mxn,float64,0,0.0,32,254964.57,993656.53,842017.51
+propio,solicitud_obras_banquetas_centro,monto_ejercido_mxn,float64,0,0.0,32,253138.83,1017844.37,799289.78
+propio,solicitud_obras_banquetas_centro,monto_por_m2_mxn,float64,0,0.0,32,1376.07,2856.71,2441.55
+propio,solicitud_obras_banquetas_centro,fuente_financiamiento,str,0,0.0,3,,,FORTAMUN
+propio,solicitud_obras_banquetas_centro,fecha_inicio,str,0,0.0,32,,,2023-01-10
+propio,solicitud_obras_banquetas_centro,fecha_termino,str,1,3.12,31,,,2023-04-14
+propio,solicitud_obras_banquetas_centro,fecha_termino_programada,str,0,0.0,32,,,2023-04-14
+propio,solicitud_obras_banquetas_centro,estatus,str,0,0.0,2,,,Terminada
+propio,solicitud_obras_banquetas_centro,dependencia,str,0,0.0,2,,,Dirección de Obras Públicas
+propio,solicitud_obras_banquetas_centro,nota,str,31,96.88,1,,,Obra difundida por el Ayuntamiento el 29 de junio de 2026
+propio,solicitud_r901_corridas_mes,mes,str,0,0.0,9,,,2026-01
+propio,solicitud_r901_corridas_mes,tipo_dia,str,0,0.0,3,,,L-V
+propio,solicitud_r901_corridas_mes,dias,int64,0,0.0,6,4,23,22
+propio,solicitud_r901_corridas_mes,corridas_programadas,int64,0,0.0,6,80,460,440
+propio,solicitud_r901_corridas_mes,corridas_realizadas,int64,0,0.0,16,77,457,436
+propio,solicitud_r901_corridas_mes,cumplimiento_pct,float64,0,0.0,15,96.0,100.0,99.09
+propio,solicitud_r901_parada_sentido,mes,str,0,0.0,9,,,2026-01
+propio,solicitud_r901_parada_sentido,sentido,str,0,0.0,2,,,Estación La Plancha -> Estación Teya
+propio,solicitud_r901_parada_sentido,orden,int64,0,0.0,5,1,5,1
+propio,solicitud_r901_parada_sentido,stop_id,str,0,0.0,8,,,975
+propio,solicitud_r901_parada_sentido,parada,str,0,0.0,6,,,Estación La Plancha
+propio,solicitud_r901_parada_sentido,ascensos,int64,0,0.0,64,0,1491,908
+propio,solicitud_r901_parada_sentido,descensos,int64,0,0.0,69,0,1707,0
+propio,solicitud_r901_validaciones_corrida,mes,str,0,0.0,9,,,2026-01
+propio,solicitud_r901_validaciones_corrida,tipo_dia,str,0,0.0,3,,,Domingo
+propio,solicitud_r901_validaciones_corrida,sentido,str,0,0.0,2,,,Estación La Plancha -> Estación Teya
+propio,solicitud_r901_validaciones_corrida,trip_id,str,0,0.0,60,,,33867
+propio,solicitud_r901_validaciones_corrida,salida,str,0,0.0,18,,,05:30
+propio,solicitud_r901_validaciones_corrida,validaciones,int64,0,0.0,151,7,297,34
+propio,solicitud_r901_validaciones_tarifa,mes,str,0,0.0,9,,,2026-01
+propio,solicitud_r901_validaciones_tarifa,tipo_tarifa,str,0,0.0,4,,,turistas
+propio,solicitud_r901_validaciones_tarifa,tarifa_mxn,float64,0,0.0,4,0.0,45.0,45.0
+propio,solicitud_r901_validaciones_tarifa,validaciones,int64,0,0.0,36,117,1602,1282
+propio,solicitud_r901_validaciones_tarifa,ingreso_mxn,float64,0,0.0,28,0.0,62865.0,57690.0
+propio,solicitud_tm_boletos_tarifa,mes,str,0,0.0,34,,,2023-12
+propio,solicitud_tm_boletos_tarifa,ambito,str,0,0.0,2,,,Sistema
+propio,solicitud_tm_boletos_tarifa,tipo_tarifa,str,0,0.0,4,,,Nacional
+propio,solicitud_tm_boletos_tarifa,boletos,int64,0,0.0,269,318,70075,5198
+propio,solicitud_tm_boletos_tarifa,base_del_total,str,0,0.0,3,,,pasajeros transportados
+propio,solicitud_tm_origen_destino_teya,mes,str,0,0.0,34,,,2023-12
+propio,solicitud_tm_origen_destino_teya,estacion_origen,str,0,0.0,34,,,Mérida Teya
+propio,solicitud_tm_origen_destino_teya,estacion_destino,str,0,0.0,34,,,Cancún Aeropuerto
+propio,solicitud_tm_origen_destino_teya,boletos,int64,0,0.0,788,15,3554,513
+propio,solicitud_tm_origen_destino_teya,tiempo_viaje_min,float64,352,17.74,25,14.0,452.0,216.0
+propio,solicitud_tm_pasajeros_estacion_mes,mes,str,0,0.0,34,,,2023-12
+propio,solicitud_tm_pasajeros_estacion_mes,estacion,str,0,0.0,34,,,Cancún Aeropuerto
+propio,solicitud_tm_pasajeros_estacion_mes,ascensos,int64,0,0.0,884,124,23724,2682
+propio,solicitud_tm_pasajeros_estacion_mes,descensos,int64,0,0.0,870,115,23709,2938
+propio,solicitud_tm_teya_dia_corrida,mes,str,0,0.0,34,,,2023-12
+propio,solicitud_tm_teya_dia_corrida,dia_semana,str,0,0.0,7,,,lunes
+propio,solicitud_tm_teya_dia_corrida,circulacion,str,0,0.0,9,,,301
+propio,solicitud_tm_teya_dia_corrida,hacia,str,0,0.0,2,,,Estación Cancún
+propio,solicitud_tm_teya_dia_corrida,hora_salida_teya,str,0,0.0,9,,,07:00
+propio,solicitud_tm_teya_dia_corrida,ascensos,int64,0,0.0,388,20,619,40
+propio,solicitud_tm_teya_dia_corrida,descensos,int64,0,0.0,374,19,575,28
 silver,aty_paraderos,stop_id,string,0,0.0,3256,,,1
 silver,aty_paraderos,nombre,string,0,0.0,2617,,,R1 C-58 x 69 y 71 Col. Centro
 silver,aty_paraderos,lat,Float64,0,0.0,3209,20.663346,21.2121,20.961995

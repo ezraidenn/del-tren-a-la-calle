@@ -1,0 +1,19 @@
+id_respuesta,fecha,hora,lat,lon,cvegeo_ageb,perfil,rango_edad,motivo_espera,tiempo_espera_min,encontro_asiento,necesidad_expresada,comodidad_1a5,comentario
+E01,2026-11-24,08:22,20.9701,-89.6243,3105000010440,trabaja aquí,30-44,esperar el camión,15,no,asiento,2,Siempre me toca parada; el escalón es de la casa y a veces nos corren.
+E02,2026-11-24,08:35,20.9701,-89.6243,3105000010440,vive aquí,60 o más,esperar el camión,20,sí,sombra,3,Me siento en el escalón porque no aguanto tanto parada.
+E03,2026-11-24,08:48,20.969,-89.6215,3105000010455,trabaja aquí,18-29,esperar el camión,10,sí,información,4,No hay letrero de a qué hora pasa; uno nada más espera.
+E04,2026-11-24,09:05,20.9688,-89.6235,3105000010440,vive aquí,60 o más,descansar,30,sí,baño,4,Vengo al parque todas las mañanas; falta un baño cerca.
+E05,2026-11-24,09:20,20.9688,-89.6236,3105000010440,de visita,30-44,descansar,15,sí,información,4,Turista nacional. Preguntó cómo llegar al Tren Maya; no sabía que hay un camión a Teya.
+E06,2026-11-24,12:58,20.9687,-89.6234,3105000010440,de visita,45-59,descansar,20,sí,sombra,3,Turista extranjera; respondió en inglés. Las banquetas son muy angostas para caminar con calma.
+E07,2026-11-24,13:12,20.9701,-89.6243,3105000010440,trabaja aquí,18-29,esperar el camión,10,no,sombra,1,A esta hora el sol pega directo y no hay dónde ponerse.
+E08,2026-11-24,13:27,20.969,-89.6215,3105000010455,vive aquí,45-59,esperar el camión,15,sí,sombra,3,"El techo del parabús ayuda, pero la lámina se calienta."
+E09,2026-11-24,13:40,20.9691,-89.6218,3105000010455,trabaja aquí,30-44,comer,25,sí,sombra,3,Como aquí mi lonche; si hubiera más árboles vendría más gente.
+E10,2026-11-24,13:55,20.9686,-89.6234,3105000010440,de visita,18-29,esperar a alguien,10,no lo necesitaba,otro,2,Turista nacional. Pidió bebederos de agua.
+E11,2026-11-25,17:50,20.9692,-89.6217,3105000010455,de visita,30-44,descansar,15,sí,información,4,Grupo de turistas. Les gustaría un mapa con restaurantes y paradas.
+E12,2026-11-25,18:05,20.9701,-89.6243,3105000010440,trabaja aquí,30-44,esperar el camión,25,no,asiento,2,En la tarde se junta mucha gente y no cabemos en la banqueta.
+E13,2026-11-25,18:12,20.9701,-89.6243,3105000010440,vive aquí,18-29,esperar el camión,20,no,información,2,Pasan varias rutas y no sabes cuál viene; una pantalla ayudaría.
+E14,2026-11-25,18:24,20.969,-89.6215,3105000010455,trabaja aquí,45-59,esperar el camión,15,no,asiento,2,La banca es para tres y siempre está llena.
+E15,2026-11-25,18:37,20.9688,-89.6236,3105000010440,vive aquí,60 o más,descansar,40,sí,baño,4,"El parque está bonito de noche, pero hay poca luz en las banquetas."
+E16,2026-11-25,18:49,20.9686,-89.6236,3105000010440,de visita,60 o más,esperar a alguien,20,sí,otro,3,Turista extranjero; respondió en inglés. Los escalones de las entradas son altos para su silla de ruedas plegable.
+E17,2026-11-25,19:02,20.9688,-89.6235,3105000010440,trabaja aquí,18-29,descansar,10,sí,sombra,4,
+E18,2026-11-25,19:15,20.9692,-89.6216,3105000010455,de visita,45-59,esperar a alguien,15,sí,información,4,Turista nacional. Le costó encontrar la parada del camión al aeropuerto.

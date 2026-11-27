@@ -1,0 +1,1027 @@
+mes,estacion,ascensos,descensos
+2023-12,Cancún Aeropuerto,2682,2938
+2023-12,Mérida Teya,2549,2330
+2023-12,Valladolid,1201,1388
+2023-12,San Fco. Campeche,1431,1309
+2023-12,Chichén Itzá,1105,1019
+2023-12,Izamal,503,450
+2023-12,Leona Vicario,201,197
+2023-12,Nuevo Xcán,192,198
+2023-12,Calkiní,182,182
+2023-12,Maxcanú,162,163
+2023-12,Umán,201,198
+2023-12,Hecelchakán,153,174
+2023-12,Tenabo,124,115
+2023-12,Tixkokob,164,189
+2024-01,Cancún Aeropuerto,6788,6556
+2024-01,Mérida Teya,6696,7052
+2024-01,Valladolid,3415,3778
+2024-01,San Fco. Campeche,3766,3280
+2024-01,Chichén Itzá,2980,3164
+2024-01,Izamal,1536,1172
+2024-01,Leona Vicario,502,657
+2024-01,Nuevo Xcán,528,627
+2024-01,Calkiní,469,538
+2024-01,Maxcanú,419,442
+2024-01,Umán,519,428
+2024-01,Hecelchakán,419,393
+2024-01,Tenabo,336,292
+2024-01,Tixkokob,412,406
+2024-02,Cancún Aeropuerto,5665,6766
+2024-02,Mérida Teya,5143,4367
+2024-02,Playa del Carmen,4739,4314
+2024-02,Valladolid,2758,2826
+2024-02,San Fco. Campeche,2265,2279
+2024-02,Chichén Itzá,1884,1807
+2024-02,Izamal,945,1097
+2024-02,Puerto Morelos,650,682
+2024-02,Leona Vicario,380,449
+2024-02,Nuevo Xcán,427,323
+2024-02,Calkiní,353,349
+2024-02,Maxcanú,342,323
+2024-02,Umán,332,360
+2024-02,Hecelchakán,297,239
+2024-02,Tenabo,210,217
+2024-02,Tixkokob,311,303
+2024-03,Cancún Aeropuerto,7010,7160
+2024-03,Mérida Teya,7002,7268
+2024-03,Playa del Carmen,5783,4593
+2024-03,Valladolid,3139,3875
+2024-03,Tulum,2731,3382
+2024-03,San Fco. Campeche,2878,3222
+2024-03,Chichén Itzá,2759,2868
+2024-03,Palenque,3341,2449
+2024-03,Tulum Aeropuerto,1575,1437
+2024-03,Izamal,1398,1422
+2024-03,Escárcega,981,1102
+2024-03,Puerto Morelos,884,1061
+2024-03,Leona Vicario,448,524
+2024-03,Nuevo Xcán,489,543
+2024-03,Calkiní,540,449
+2024-03,Maxcanú,421,369
+2024-03,Umán,564,376
+2024-03,Hecelchakán,389,322
+2024-03,Tenabo,326,334
+2024-03,Tixkokob,459,354
+2024-03,Edzná,344,294
+2024-03,Candelaria,367,380
+2024-03,Tenosique,403,447
+2024-03,Boca del Cerro,217,307
+2024-03,Triunfo,221,186
+2024-03,Carrillo Puerto Camp.,256,201
+2024-04,Cancún Aeropuerto,7958,7344
+2024-04,Mérida Teya,5087,6266
+2024-04,Playa del Carmen,4929,4439
+2024-04,Valladolid,3494,3901
+2024-04,Tulum,2666,3014
+2024-04,San Fco. Campeche,3423,3079
+2024-04,Chichén Itzá,2852,2265
+2024-04,Palenque,2581,2761
+2024-04,Tulum Aeropuerto,1461,1334
+2024-04,Izamal,1245,1014
+2024-04,Escárcega,876,1118
+2024-04,Puerto Morelos,858,836
+2024-04,Leona Vicario,483,487
+2024-04,Nuevo Xcán,404,529
+2024-04,Calkiní,479,489
+2024-04,Maxcanú,339,413
+2024-04,Umán,420,486
+2024-04,Hecelchakán,273,316
+2024-04,Tenabo,308,314
+2024-04,Tixkokob,421,433
+2024-04,Edzná,312,314
+2024-04,Candelaria,392,285
+2024-04,Tenosique,429,267
+2024-04,Boca del Cerro,222,256
+2024-04,Triunfo,255,196
+2024-04,Carrillo Puerto Camp.,223,234
+2024-05,Cancún Aeropuerto,7090,6027
+2024-05,Mérida Teya,5774,5403
+2024-05,Playa del Carmen,4782,4311
+2024-05,Valladolid,2828,3309
+2024-05,Tulum,2430,2852
+2024-05,San Fco. Campeche,2917,2857
+2024-05,Chichén Itzá,2361,2609
+2024-05,Palenque,2375,2467
+2024-05,Tulum Aeropuerto,1429,1402
+2024-05,Izamal,1221,1169
+2024-05,Escárcega,940,898
+2024-05,Puerto Morelos,857,887
+2024-05,Leona Vicario,481,492
+2024-05,Nuevo Xcán,463,532
+2024-05,Calkiní,401,527
+2024-05,Maxcanú,406,466
+2024-05,Umán,449,557
+2024-05,Hecelchakán,331,312
+2024-05,Tenabo,268,323
+2024-05,Tixkokob,389,434
+2024-05,Edzná,306,316
+2024-05,Candelaria,252,373
+2024-05,Tenosique,377,518
+2024-05,Boca del Cerro,236,277
+2024-05,Triunfo,175,215
+2024-05,Carrillo Puerto Camp.,220,225
+2024-06,Cancún Aeropuerto,6073,6873
+2024-06,Mérida Teya,6244,6403
+2024-06,Playa del Carmen,4815,4429
+2024-06,Valladolid,2973,3362
+2024-06,Tulum,2875,2712
+2024-06,San Fco. Campeche,3018,2616
+2024-06,Chichén Itzá,2664,2236
+2024-06,Palenque,2400,2522
+2024-06,Tulum Aeropuerto,1417,1240
+2024-06,Izamal,1214,1284
+2024-06,Escárcega,987,1062
+2024-06,Puerto Morelos,777,828
+2024-06,Leona Vicario,527,470
+2024-06,Nuevo Xcán,544,358
+2024-06,Calkiní,474,522
+2024-06,Maxcanú,336,404
+2024-06,Umán,441,420
+2024-06,Hecelchakán,285,323
+2024-06,Tenabo,242,288
+2024-06,Tixkokob,415,344
+2024-06,Edzná,293,283
+2024-06,Candelaria,272,251
+2024-06,Tenosique,315,385
+2024-06,Boca del Cerro,214,214
+2024-06,Triunfo,197,200
+2024-06,Carrillo Puerto Camp.,243,226
+2024-07,Cancún Aeropuerto,10478,11463
+2024-07,Mérida Teya,11755,9040
+2024-07,Playa del Carmen,7896,7692
+2024-07,Valladolid,5238,5440
+2024-07,Tulum,4391,4281
+2024-07,San Fco. Campeche,3940,4688
+2024-07,Chichén Itzá,4060,3760
+2024-07,Palenque,4276,4659
+2024-07,Tulum Aeropuerto,2200,2266
+2024-07,Izamal,2154,2081
+2024-07,Escárcega,1441,1652
+2024-07,Puerto Morelos,1098,1280
+2024-07,Leona Vicario,682,702
+2024-07,Nuevo Xcán,590,685
+2024-07,Calkiní,638,765
+2024-07,Maxcanú,621,601
+2024-07,Umán,598,670
+2024-07,Hecelchakán,506,417
+2024-07,Tenabo,446,459
+2024-07,Tixkokob,542,657
+2024-07,Edzná,399,499
+2024-07,Candelaria,441,498
+2024-07,Tenosique,636,616
+2024-07,Boca del Cerro,343,389
+2024-07,Triunfo,270,346
+2024-07,Carrillo Puerto Camp.,359,392
+2024-08,Cancún Aeropuerto,10519,14308
+2024-08,Mérida Teya,12571,11225
+2024-08,Playa del Carmen,8493,9126
+2024-08,Valladolid,7598,7130
+2024-08,Tulum,6724,5845
+2024-08,San Fco. Campeche,6126,6122
+2024-08,Chichén Itzá,5177,5358
+2024-08,Palenque,5696,4219
+2024-08,Tulum Aeropuerto,2542,2235
+2024-08,Izamal,2426,2328
+2024-08,Escárcega,1938,1881
+2024-08,Puerto Morelos,1546,1729
+2024-08,Leona Vicario,1157,879
+2024-08,Nuevo Xcán,803,821
+2024-08,Calkiní,791,888
+2024-08,Maxcanú,777,794
+2024-08,Umán,944,960
+2024-08,Hecelchakán,624,526
+2024-08,Tenabo,535,475
+2024-08,Tixkokob,796,864
+2024-08,Edzná,492,595
+2024-08,Candelaria,525,606
+2024-08,Tenosique,696,726
+2024-08,Boca del Cerro,453,445
+2024-08,Triunfo,373,381
+2024-08,Carrillo Puerto Camp.,569,425
+2024-09,Cancún Aeropuerto,9174,10382
+2024-09,Mérida Teya,8201,7841
+2024-09,Playa del Carmen,7726,7893
+2024-09,Valladolid,5697,6917
+2024-09,Tulum,5405,5106
+2024-09,San Fco. Campeche,4755,4742
+2024-09,Chichén Itzá,4003,3356
+2024-09,Palenque,4520,3815
+2024-09,Tulum Aeropuerto,2120,2481
+2024-09,Izamal,1735,1820
+2024-09,Escárcega,1447,1488
+2024-09,Puerto Morelos,1361,1116
+2024-09,Leona Vicario,935,674
+2024-09,Nuevo Xcán,664,550
+2024-09,Calkiní,783,801
+2024-09,Maxcanú,583,616
+2024-09,Umán,722,711
+2024-09,Hecelchakán,572,504
+2024-09,Tenabo,483,381
+2024-09,Tixkokob,659,598
+2024-09,Edzná,428,414
+2024-09,Candelaria,530,400
+2024-09,Tenosique,674,591
+2024-09,Boca del Cerro,356,371
+2024-09,Triunfo,321,289
+2024-09,Carrillo Puerto Camp.,343,340
+2024-10,Cancún Aeropuerto,11082,10983
+2024-10,Mérida Teya,10490,11119
+2024-10,Playa del Carmen,9872,7577
+2024-10,Valladolid,5209,6220
+2024-10,Tulum,4908,5409
+2024-10,San Fco. Campeche,5157,5713
+2024-10,Chichén Itzá,4299,3893
+2024-10,Palenque,4116,4538
+2024-10,Tulum Aeropuerto,3178,2588
+2024-10,Izamal,2273,2534
+2024-10,Escárcega,1583,1622
+2024-10,Puerto Morelos,1303,1407
+2024-10,Leona Vicario,859,918
+2024-10,Nuevo Xcán,912,722
+2024-10,Calkiní,802,691
+2024-10,Maxcanú,554,766
+2024-10,Umán,685,821
+2024-10,Hecelchakán,619,448
+2024-10,Tenabo,583,478
+2024-10,Tixkokob,709,626
+2024-10,Edzná,532,559
+2024-10,Candelaria,583,607
+2024-10,Tenosique,792,859
+2024-10,Boca del Cerro,408,469
+2024-10,Triunfo,365,313
+2024-10,Carrillo Puerto Camp.,397,390
+2024-11,Cancún Aeropuerto,11249,14564
+2024-11,Mérida Teya,11138,11853
+2024-11,Playa del Carmen,10030,7531
+2024-11,Valladolid,5107,6793
+2024-11,Tulum,5636,4866
+2024-11,San Fco. Campeche,5818,5569
+2024-11,Chichén Itzá,4561,4337
+2024-11,Palenque,6108,4531
+2024-11,Tulum Aeropuerto,2797,2693
+2024-11,Izamal,2217,2316
+2024-11,Escárcega,1879,1729
+2024-11,Puerto Morelos,1507,1422
+2024-11,Leona Vicario,792,817
+2024-11,Nuevo Xcán,830,892
+2024-11,Calkiní,893,967
+2024-11,Maxcanú,691,740
+2024-11,Umán,872,885
+2024-11,Hecelchakán,596,698
+2024-11,Tenabo,624,473
+2024-11,Tixkokob,722,600
+2024-11,Edzná,559,540
+2024-11,Candelaria,572,449
+2024-11,Tenosique,618,704
+2024-11,Boca del Cerro,434,390
+2024-11,Triunfo,425,340
+2024-11,Carrillo Puerto Camp.,443,419
+2024-12,Cancún Aeropuerto,17099,14917
+2024-12,Mérida Teya,13042,15643
+2024-12,Playa del Carmen,10337,13099
+2024-12,Valladolid,8156,7602
+2024-12,Tulum,9360,6752
+2024-12,San Fco. Campeche,7308,6190
+2024-12,Chichén Itzá,4773,6325
+2024-12,Palenque,5851,6382
+2024-12,Tulum Aeropuerto,4498,3348
+2024-12,Bacalar,3538,4021
+2024-12,Izamal,3295,3196
+2024-12,Chetumal Aeropuerto,3239,2879
+2024-12,Escárcega,2612,2507
+2024-12,Puerto Morelos,2318,1779
+2024-12,Felipe Carrillo Puerto,1789,1704
+2024-12,Leona Vicario,1138,1196
+2024-12,Nuevo Xcán,1015,1048
+2024-12,Calkiní,1056,1288
+2024-12,Maxcanú,968,962
+2024-12,Umán,918,1089
+2024-12,Hecelchakán,789,715
+2024-12,Tenabo,693,687
+2024-12,Tixkokob,938,863
+2024-12,Edzná,674,885
+2024-12,Xpujil,1257,1119
+2024-12,Calakmul,688,708
+2024-12,Candelaria,670,790
+2024-12,Tenosique,820,996
+2024-12,Boca del Cerro,536,506
+2024-12,Triunfo,475,497
+2024-12,Carrillo Puerto Camp.,587,626
+2024-12,Chacchoben,473,572
+2024-12,Kohunlich,509,489
+2024-12,Centenario,432,471
+2025-01,Cancún Aeropuerto,14892,14913
+2025-01,Mérida Teya,13858,15482
+2025-01,Playa del Carmen,12243,11424
+2025-01,Valladolid,8065,7732
+2025-01,Tulum,7736,7552
+2025-01,San Fco. Campeche,8103,8204
+2025-01,Chichén Itzá,6278,6016
+2025-01,Palenque,5885,5963
+2025-01,Tulum Aeropuerto,4200,3097
+2025-01,Bacalar,3716,3984
+2025-01,Izamal,3164,3078
+2025-01,Chetumal Aeropuerto,2830,2974
+2025-01,Escárcega,2391,2786
+2025-01,Puerto Morelos,2430,1881
+2025-01,Felipe Carrillo Puerto,1974,1743
+2025-01,Leona Vicario,1199,1223
+2025-01,Nuevo Xcán,1100,1068
+2025-01,Calkiní,1122,862
+2025-01,Maxcanú,890,1013
+2025-01,Umán,1079,1097
+2025-01,Hecelchakán,813,947
+2025-01,Tenabo,638,899
+2025-01,Tixkokob,992,960
+2025-01,Edzná,723,762
+2025-01,Xpujil,1055,1254
+2025-01,Calakmul,677,746
+2025-01,Candelaria,727,723
+2025-01,Tenosique,732,1016
+2025-01,Boca del Cerro,622,684
+2025-01,Triunfo,502,449
+2025-01,Carrillo Puerto Camp.,652,739
+2025-01,Chacchoben,576,643
+2025-01,Kohunlich,424,504
+2025-01,Centenario,520,390
+2025-02,Cancún Aeropuerto,11933,12008
+2025-02,Mérida Teya,9287,10104
+2025-02,Playa del Carmen,9037,8981
+2025-02,Valladolid,6572,5619
+2025-02,Tulum,5743,5199
+2025-02,San Fco. Campeche,5035,5762
+2025-02,Chichén Itzá,4235,4172
+2025-02,Palenque,4457,3396
+2025-02,Tulum Aeropuerto,2075,2421
+2025-02,Bacalar,2451,2791
+2025-02,Izamal,2020,2409
+2025-02,Chetumal Aeropuerto,2247,2234
+2025-02,Escárcega,1630,1987
+2025-02,Puerto Morelos,1654,1398
+2025-02,Felipe Carrillo Puerto,1255,1469
+2025-02,Leona Vicario,929,880
+2025-02,Nuevo Xcán,959,830
+2025-02,Calkiní,897,582
+2025-02,Maxcanú,750,753
+2025-02,Umán,861,794
+2025-02,Hecelchakán,576,730
+2025-02,Tenabo,474,527
+2025-02,Tixkokob,627,625
+2025-02,Edzná,522,477
+2025-02,Xpujil,989,897
+2025-02,Calakmul,476,533
+2025-02,Candelaria,537,485
+2025-02,Tenosique,603,619
+2025-02,Boca del Cerro,378,501
+2025-02,Triunfo,372,336
+2025-02,Carrillo Puerto Camp.,398,428
+2025-02,Chacchoben,397,408
+2025-02,Kohunlich,416,396
+2025-02,Centenario,344,385
+2025-03,Cancún Aeropuerto,11858,14018
+2025-03,Mérida Teya,11171,12254
+2025-03,Playa del Carmen,8555,8940
+2025-03,Valladolid,7904,6592
+2025-03,Tulum,5884,5248
+2025-03,San Fco. Campeche,5473,5283
+2025-03,Chichén Itzá,4535,5015
+2025-03,Palenque,4953,4571
+2025-03,Tulum Aeropuerto,2746,2686
+2025-03,Bacalar,3284,2898
+2025-03,Izamal,2138,2430
+2025-03,Chetumal Aeropuerto,2073,2108
+2025-03,Escárcega,2160,1705
+2025-03,Puerto Morelos,1618,1758
+2025-03,Felipe Carrillo Puerto,1622,1438
+2025-03,Leona Vicario,1024,890
+2025-03,Nuevo Xcán,737,922
+2025-03,Calkiní,794,810
+2025-03,Maxcanú,754,600
+2025-03,Umán,826,756
+2025-03,Hecelchakán,677,549
+2025-03,Tenabo,529,612
+2025-03,Tixkokob,744,765
+2025-03,Edzná,622,552
+2025-03,Xpujil,1072,721
+2025-03,Calakmul,520,471
+2025-03,Candelaria,550,537
+2025-03,Tenosique,741,609
+2025-03,Boca del Cerro,410,499
+2025-03,Triunfo,412,360
+2025-03,Carrillo Puerto Camp.,496,448
+2025-03,Chacchoben,494,452
+2025-03,Kohunlich,371,331
+2025-03,Centenario,409,328
+2025-04,Cancún Aeropuerto,14691,16665
+2025-04,Mérida Teya,15261,14663
+2025-04,Playa del Carmen,13214,11851
+2025-04,Valladolid,8673,9207
+2025-04,Tulum,7400,7459
+2025-04,San Fco. Campeche,6929,8508
+2025-04,Chichén Itzá,6505,5014
+2025-04,Palenque,4965,5471
+2025-04,Tulum Aeropuerto,3408,3141
+2025-04,Bacalar,3564,3861
+2025-04,Izamal,3015,2529
+2025-04,Chetumal Aeropuerto,3242,3819
+2025-04,Escárcega,2489,2418
+2025-04,Puerto Morelos,2319,2436
+2025-04,Felipe Carrillo Puerto,2156,1631
+2025-04,Leona Vicario,1455,1222
+2025-04,Nuevo Xcán,1218,1147
+2025-04,Calkiní,1294,1004
+2025-04,Maxcanú,1207,937
+2025-04,Umán,1185,1260
+2025-04,Hecelchakán,772,952
+2025-04,Tenabo,842,762
+2025-04,Tixkokob,919,1167
+2025-04,Edzná,917,592
+2025-04,Xpujil,1508,1233
+2025-04,Calakmul,723,692
+2025-04,Candelaria,682,829
+2025-04,Tenosique,947,1071
+2025-04,Boca del Cerro,630,673
+2025-04,Triunfo,577,451
+2025-04,Carrillo Puerto Camp.,561,633
+2025-04,Chacchoben,693,667
+2025-04,Kohunlich,413,545
+2025-04,Centenario,573,437
+2025-05,Cancún Aeropuerto,13840,15767
+2025-05,Mérida Teya,13017,12812
+2025-05,Playa del Carmen,12169,10736
+2025-05,Valladolid,7883,7693
+2025-05,Tulum,7287,6144
+2025-05,San Fco. Campeche,5224,6720
+2025-05,Chichén Itzá,5150,4933
+2025-05,Palenque,5563,5433
+2025-05,Tulum Aeropuerto,3262,3206
+2025-05,Bacalar,2628,2780
+2025-05,Izamal,2954,2434
+2025-05,Chetumal Aeropuerto,2739,2590
+2025-05,Escárcega,2020,2078
+2025-05,Puerto Morelos,2148,2031
+2025-05,Felipe Carrillo Puerto,1335,1583
+2025-05,Leona Vicario,1006,1094
+2025-05,Nuevo Xcán,1041,950
+2025-05,Calkiní,989,764
+2025-05,Maxcanú,828,869
+2025-05,Umán,938,909
+2025-05,Hecelchakán,724,757
+2025-05,Tenabo,693,611
+2025-05,Tixkokob,821,939
+2025-05,Edzná,680,656
+2025-05,Xpujil,859,1180
+2025-05,Calakmul,718,713
+2025-05,Candelaria,811,623
+2025-05,Tenosique,890,954
+2025-05,Boca del Cerro,525,562
+2025-05,Triunfo,401,396
+2025-05,Carrillo Puerto Camp.,568,543
+2025-05,Chacchoben,496,555
+2025-05,Kohunlich,390,499
+2025-05,Centenario,342,425
+2025-06,Cancún Aeropuerto,17717,15717
+2025-06,Mérida Teya,14017,12852
+2025-06,Playa del Carmen,8754,11239
+2025-06,Valladolid,6826,8220
+2025-06,Tulum,6881,6756
+2025-06,San Fco. Campeche,5610,6944
+2025-06,Chichén Itzá,5671,4804
+2025-06,Palenque,6209,5648
+2025-06,Tulum Aeropuerto,3159,3205
+2025-06,Bacalar,3735,3212
+2025-06,Izamal,3087,3075
+2025-06,Chetumal Aeropuerto,2689,2571
+2025-06,Escárcega,2156,2021
+2025-06,Puerto Morelos,1982,1705
+2025-06,Felipe Carrillo Puerto,1696,1573
+2025-06,Leona Vicario,926,1202
+2025-06,Nuevo Xcán,959,823
+2025-06,Calkiní,823,997
+2025-06,Maxcanú,836,671
+2025-06,Umán,952,907
+2025-06,Hecelchakán,631,790
+2025-06,Tenabo,572,614
+2025-06,Tixkokob,831,766
+2025-06,Edzná,805,625
+2025-06,Xpujil,942,1192
+2025-06,Calakmul,657,752
+2025-06,Candelaria,593,754
+2025-06,Tenosique,833,925
+2025-06,Boca del Cerro,597,560
+2025-06,Triunfo,446,477
+2025-06,Carrillo Puerto Camp.,564,481
+2025-06,Chacchoben,568,490
+2025-06,Kohunlich,458,492
+2025-06,Centenario,349,471
+2025-07,Cancún Aeropuerto,21625,20173
+2025-07,Mérida Teya,17363,17659
+2025-07,Playa del Carmen,13031,14896
+2025-07,Valladolid,8892,8580
+2025-07,Tulum,9326,8511
+2025-07,San Fco. Campeche,9462,9280
+2025-07,Chichén Itzá,6326,6871
+2025-07,Palenque,6572,7185
+2025-07,Tulum Aeropuerto,4202,4315
+2025-07,Bacalar,4634,3697
+2025-07,Izamal,3420,3910
+2025-07,Chetumal Aeropuerto,3249,3151
+2025-07,Escárcega,3124,3011
+2025-07,Puerto Morelos,2704,2563
+2025-07,Felipe Carrillo Puerto,1980,2092
+2025-07,Leona Vicario,1325,1453
+2025-07,Nuevo Xcán,1423,1400
+2025-07,Calkiní,1121,1409
+2025-07,Maxcanú,1100,1106
+2025-07,Umán,1332,1278
+2025-07,Hecelchakán,1007,927
+2025-07,Tenabo,932,748
+2025-07,Tixkokob,954,1270
+2025-07,Edzná,851,776
+2025-07,Xpujil,1458,1341
+2025-07,Calakmul,878,899
+2025-07,Candelaria,900,757
+2025-07,Tenosique,1007,1211
+2025-07,Boca del Cerro,818,663
+2025-07,Triunfo,592,515
+2025-07,Carrillo Puerto Camp.,748,681
+2025-07,Chacchoben,668,663
+2025-07,Kohunlich,576,591
+2025-07,Centenario,647,665
+2025-08,Cancún Aeropuerto,23724,22542
+2025-08,Mérida Teya,19914,17322
+2025-08,Playa del Carmen,14896,15968
+2025-08,Valladolid,10825,12127
+2025-08,Tulum,9593,10773
+2025-08,San Fco. Campeche,9433,9202
+2025-08,Chichén Itzá,8020,8607
+2025-08,Palenque,7010,7158
+2025-08,Tulum Aeropuerto,5655,4568
+2025-08,Bacalar,4144,4932
+2025-08,Izamal,3888,3812
+2025-08,Chetumal Aeropuerto,4284,3761
+2025-08,Escárcega,2928,3341
+2025-08,Puerto Morelos,3153,2651
+2025-08,Felipe Carrillo Puerto,2054,2467
+2025-08,Leona Vicario,1464,1609
+2025-08,Nuevo Xcán,1122,1540
+2025-08,Calkiní,1573,1578
+2025-08,Maxcanú,1119,1318
+2025-08,Umán,1323,1393
+2025-08,Hecelchakán,1191,1259
+2025-08,Tenabo,978,995
+2025-08,Tixkokob,1402,1191
+2025-08,Edzná,1008,993
+2025-08,Xpujil,1722,1529
+2025-08,Calakmul,900,758
+2025-08,Candelaria,937,886
+2025-08,Tenosique,1356,1252
+2025-08,Boca del Cerro,849,777
+2025-08,Triunfo,692,558
+2025-08,Carrillo Puerto Camp.,729,785
+2025-08,Chacchoben,705,848
+2025-08,Kohunlich,555,580
+2025-08,Centenario,601,667
+2025-09,Cancún Aeropuerto,9983,12493
+2025-09,Mérida Teya,11023,9895
+2025-09,Playa del Carmen,8252,9818
+2025-09,Valladolid,5346,5765
+2025-09,Tulum,5854,5256
+2025-09,San Fco. Campeche,5489,4506
+2025-09,Chichén Itzá,4800,3200
+2025-09,Palenque,4503,5215
+2025-09,Tulum Aeropuerto,2712,2778
+2025-09,Bacalar,2521,2737
+2025-09,Izamal,2277,1899
+2025-09,Chetumal Aeropuerto,2164,1772
+2025-09,Escárcega,1638,1628
+2025-09,Puerto Morelos,1542,1517
+2025-09,Felipe Carrillo Puerto,1153,1342
+2025-09,Leona Vicario,871,834
+2025-09,Nuevo Xcán,821,851
+2025-09,Calkiní,795,776
+2025-09,Maxcanú,739,687
+2025-09,Umán,762,841
+2025-09,Hecelchakán,613,546
+2025-09,Tenabo,525,519
+2025-09,Tixkokob,846,631
+2025-09,Edzná,460,468
+2025-09,Xpujil,1067,968
+2025-09,Calakmul,487,557
+2025-09,Candelaria,507,527
+2025-09,Tenosique,718,759
+2025-09,Boca del Cerro,462,433
+2025-09,Triunfo,348,381
+2025-09,Carrillo Puerto Camp.,446,383
+2025-09,Chacchoben,501,411
+2025-09,Kohunlich,452,346
+2025-09,Centenario,364,302
+2025-10,Cancún Aeropuerto,11658,11408
+2025-10,Mérida Teya,9446,9786
+2025-10,Playa del Carmen,9517,10500
+2025-10,Valladolid,5952,7734
+2025-10,Tulum,5485,5169
+2025-10,San Fco. Campeche,5625,4964
+2025-10,Chichén Itzá,4382,4029
+2025-10,Palenque,4461,4154
+2025-10,Tulum Aeropuerto,2707,2661
+2025-10,Bacalar,2785,2340
+2025-10,Izamal,2541,2056
+2025-10,Chetumal Aeropuerto,1997,2421
+2025-10,Escárcega,1796,1735
+2025-10,Puerto Morelos,1424,1469
+2025-10,Felipe Carrillo Puerto,1541,1177
+2025-10,Leona Vicario,743,980
+2025-10,Nuevo Xcán,815,715
+2025-10,Calkiní,769,782
+2025-10,Maxcanú,673,778
+2025-10,Umán,860,837
+2025-10,Hecelchakán,657,635
+2025-10,Tenabo,486,545
+2025-10,Tixkokob,745,642
+2025-10,Edzná,549,492
+2025-10,Xpujil,827,841
+2025-10,Calakmul,463,397
+2025-10,Candelaria,577,507
+2025-10,Tenosique,763,698
+2025-10,Boca del Cerro,468,437
+2025-10,Triunfo,338,348
+2025-10,Carrillo Puerto Camp.,501,450
+2025-10,Chacchoben,624,452
+2025-10,Kohunlich,362,415
+2025-10,Centenario,375,358
+2025-11,Cancún Aeropuerto,22167,16194
+2025-11,Mérida Teya,16455,19225
+2025-11,Playa del Carmen,15029,15303
+2025-11,Valladolid,10484,11359
+2025-11,Tulum,8536,8611
+2025-11,San Fco. Campeche,7367,9340
+2025-11,Chichén Itzá,6366,6763
+2025-11,Palenque,7611,6807
+2025-11,Tulum Aeropuerto,4345,4525
+2025-11,Bacalar,4262,4491
+2025-11,Izamal,3403,3729
+2025-11,Chetumal Aeropuerto,3673,4272
+2025-11,Escárcega,3084,2906
+2025-11,Puerto Morelos,3156,2811
+2025-11,Felipe Carrillo Puerto,2183,2318
+2025-11,Leona Vicario,1432,1517
+2025-11,Nuevo Xcán,1348,1401
+2025-11,Calkiní,1474,1131
+2025-11,Maxcanú,1468,1130
+2025-11,Umán,1388,1501
+2025-11,Hecelchakán,885,1015
+2025-11,Tenabo,878,961
+2025-11,Tixkokob,1042,1253
+2025-11,Edzná,795,661
+2025-11,Xpujil,1748,1310
+2025-11,Calakmul,846,839
+2025-11,Candelaria,816,837
+2025-11,Tenosique,1339,1142
+2025-11,Boca del Cerro,736,715
+2025-11,Triunfo,522,551
+2025-11,Carrillo Puerto Camp.,735,699
+2025-11,Chacchoben,636,614
+2025-11,Kohunlich,537,725
+2025-11,Centenario,596,686
+2025-12,Cancún Aeropuerto,23625,23709
+2025-12,Mérida Teya,18399,16128
+2025-12,Playa del Carmen,14115,17058
+2025-12,Valladolid,13805,10405
+2025-12,Tulum,8441,8433
+2025-12,San Fco. Campeche,10701,10130
+2025-12,Chichén Itzá,7971,8586
+2025-12,Palenque,7055,6116
+2025-12,Tulum Aeropuerto,4273,5131
+2025-12,Bacalar,4446,4476
+2025-12,Izamal,3630,3719
+2025-12,Chetumal Aeropuerto,3354,3775
+2025-12,Escárcega,3225,3487
+2025-12,Puerto Morelos,2538,3197
+2025-12,Felipe Carrillo Puerto,2502,2428
+2025-12,Leona Vicario,1518,1691
+2025-12,Nuevo Xcán,1411,1741
+2025-12,Calkiní,1407,1404
+2025-12,Maxcanú,1189,1130
+2025-12,Umán,1377,1482
+2025-12,Hecelchakán,1100,1173
+2025-12,Tenabo,1168,923
+2025-12,Tixkokob,1087,1227
+2025-12,Edzná,864,1162
+2025-12,Xpujil,1486,1523
+2025-12,Calakmul,817,858
+2025-12,Candelaria,811,717
+2025-12,Tenosique,1058,1357
+2025-12,Boca del Cerro,767,888
+2025-12,Triunfo,585,557
+2025-12,Carrillo Puerto Camp.,784,829
+2025-12,Chacchoben,668,756
+2025-12,Kohunlich,564,630
+2025-12,Centenario,675,590
+2026-01,Cancún Aeropuerto,18299,16726
+2026-01,Mérida Teya,17121,14496
+2026-01,Playa del Carmen,12440,14315
+2026-01,Valladolid,8563,8826
+2026-01,Tulum,7102,8433
+2026-01,San Fco. Campeche,8789,8453
+2026-01,Chichén Itzá,6024,6183
+2026-01,Palenque,6966,6702
+2026-01,Tulum Aeropuerto,3469,4219
+2026-01,Bacalar,3176,4421
+2026-01,Izamal,3095,3169
+2026-01,Chetumal Aeropuerto,3351,3259
+2026-01,Escárcega,2918,2372
+2026-01,Puerto Morelos,2552,2534
+2026-01,Felipe Carrillo Puerto,2028,1974
+2026-01,Leona Vicario,1021,1140
+2026-01,Nuevo Xcán,1237,1132
+2026-01,Calkiní,1017,1159
+2026-01,Maxcanú,977,983
+2026-01,Umán,1409,1092
+2026-01,Hecelchakán,1013,775
+2026-01,Tenabo,706,790
+2026-01,Tixkokob,1013,1000
+2026-01,Edzná,851,857
+2026-01,Xpujil,1291,1290
+2026-01,Calakmul,770,850
+2026-01,Candelaria,703,694
+2026-01,Tenosique,1106,1083
+2026-01,Boca del Cerro,701,701
+2026-01,Triunfo,484,562
+2026-01,Carrillo Puerto Camp.,536,634
+2026-01,Chacchoben,785,597
+2026-01,Kohunlich,489,616
+2026-01,Centenario,547,512
+2026-02,Cancún Aeropuerto,12093,14117
+2026-02,Mérida Teya,11433,11469
+2026-02,Playa del Carmen,10055,10034
+2026-02,Valladolid,6346,7313
+2026-02,Tulum,6085,6318
+2026-02,San Fco. Campeche,6387,6474
+2026-02,Chichén Itzá,4848,4243
+2026-02,Palenque,5385,4210
+2026-02,Tulum Aeropuerto,2888,3109
+2026-02,Bacalar,2789,2623
+2026-02,Izamal,2852,1913
+2026-02,Chetumal Aeropuerto,2593,2180
+2026-02,Escárcega,1970,2020
+2026-02,Puerto Morelos,1466,1568
+2026-02,Felipe Carrillo Puerto,1274,1477
+2026-02,Leona Vicario,825,941
+2026-02,Nuevo Xcán,873,718
+2026-02,Calkiní,874,859
+2026-02,Maxcanú,812,731
+2026-02,Umán,972,778
+2026-02,Hecelchakán,586,554
+2026-02,Tenabo,511,642
+2026-02,Tixkokob,712,667
+2026-02,Edzná,612,447
+2026-02,Xpujil,1003,992
+2026-02,Calakmul,527,524
+2026-02,Candelaria,545,616
+2026-02,Tenosique,809,722
+2026-02,Boca del Cerro,490,456
+2026-02,Triunfo,431,387
+2026-02,Carrillo Puerto Camp.,449,462
+2026-02,Chacchoben,480,461
+2026-02,Kohunlich,353,407
+2026-02,Centenario,437,333
+2026-03,Cancún Aeropuerto,14498,14677
+2026-03,Mérida Teya,12099,10088
+2026-03,Playa del Carmen,8348,10141
+2026-03,Valladolid,7661,6997
+2026-03,Tulum,6348,5650
+2026-03,San Fco. Campeche,6854,5814
+2026-03,Chichén Itzá,4691,5343
+2026-03,Palenque,4390,4954
+2026-03,Tulum Aeropuerto,3994,3296
+2026-03,Bacalar,2656,3230
+2026-03,Izamal,2263,2903
+2026-03,Chetumal Aeropuerto,2589,2386
+2026-03,Escárcega,1877,2026
+2026-03,Puerto Morelos,1838,1613
+2026-03,Felipe Carrillo Puerto,1288,1589
+2026-03,Leona Vicario,827,927
+2026-03,Nuevo Xcán,835,953
+2026-03,Calkiní,943,872
+2026-03,Maxcanú,781,783
+2026-03,Umán,994,917
+2026-03,Hecelchakán,668,647
+2026-03,Tenabo,599,559
+2026-03,Tixkokob,716,748
+2026-03,Edzná,508,566
+2026-03,Xpujil,868,1059
+2026-03,Calakmul,543,575
+2026-03,Candelaria,715,564
+2026-03,Tenosique,689,864
+2026-03,Boca del Cerro,449,533
+2026-03,Triunfo,450,392
+2026-03,Carrillo Puerto Camp.,458,636
+2026-03,Chacchoben,520,448
+2026-03,Kohunlich,312,467
+2026-03,Centenario,356,408
+2026-04,Cancún Aeropuerto,18484,16026
+2026-04,Mérida Teya,13905,14615
+2026-04,Playa del Carmen,13418,12527
+2026-04,Valladolid,7575,8598
+2026-04,Tulum,7759,7492
+2026-04,San Fco. Campeche,7353,7548
+2026-04,Chichén Itzá,6533,6739
+2026-04,Palenque,5689,6138
+2026-04,Tulum Aeropuerto,3737,3580
+2026-04,Bacalar,3313,3767
+2026-04,Izamal,2880,3213
+2026-04,Chetumal Aeropuerto,2912,2545
+2026-04,Escárcega,2248,2717
+2026-04,Puerto Morelos,2047,2584
+2026-04,Felipe Carrillo Puerto,1585,1822
+2026-04,Leona Vicario,1179,1288
+2026-04,Nuevo Xcán,1242,1013
+2026-04,Calkiní,1427,1166
+2026-04,Maxcanú,879,890
+2026-04,Umán,997,1110
+2026-04,Hecelchakán,865,899
+2026-04,Tenabo,753,672
+2026-04,Tixkokob,840,868
+2026-04,Edzná,569,702
+2026-04,Xpujil,1226,1145
+2026-04,Calakmul,819,704
+2026-04,Candelaria,826,651
+2026-04,Tenosique,955,1080
+2026-04,Boca del Cerro,686,590
+2026-04,Triunfo,470,507
+2026-04,Carrillo Puerto Camp.,520,515
+2026-04,Chacchoben,590,571
+2026-04,Kohunlich,530,569
+2026-04,Centenario,484,444
+2026-05,Cancún Aeropuerto,14852,13970
+2026-05,Mérida Teya,15248,13800
+2026-05,Playa del Carmen,10309,10155
+2026-05,Valladolid,8389,8053
+2026-05,Tulum,5656,7893
+2026-05,San Fco. Campeche,5897,6208
+2026-05,Chichén Itzá,5124,5292
+2026-05,Palenque,4884,4784
+2026-05,Tulum Aeropuerto,3201,3544
+2026-05,Bacalar,2590,2689
+2026-05,Izamal,2318,2408
+2026-05,Chetumal Aeropuerto,2937,2521
+2026-05,Escárcega,2087,1993
+2026-05,Puerto Morelos,1948,1701
+2026-05,Felipe Carrillo Puerto,1829,1662
+2026-05,Leona Vicario,866,984
+2026-05,Nuevo Xcán,688,736
+2026-05,Calkiní,1107,1025
+2026-05,Maxcanú,719,965
+2026-05,Umán,935,864
+2026-05,Hecelchakán,613,814
+2026-05,Tenabo,479,577
+2026-05,Tixkokob,818,735
+2026-05,Edzná,647,555
+2026-05,Xpujil,948,1195
+2026-05,Calakmul,479,698
+2026-05,Candelaria,637,653
+2026-05,Tenosique,996,734
+2026-05,Boca del Cerro,433,549
+2026-05,Triunfo,444,364
+2026-05,Carrillo Puerto Camp.,529,540
+2026-05,Chacchoben,428,480
+2026-05,Kohunlich,455,383
+2026-05,Centenario,419,385
+2026-06,Cancún Aeropuerto,10912,13754
+2026-06,Mérida Teya,9655,10162
+2026-06,Playa del Carmen,9447,9204
+2026-06,Valladolid,6029,5588
+2026-06,Tulum,6247,5057
+2026-06,San Fco. Campeche,6471,5500
+2026-06,Chichén Itzá,4103,5115
+2026-06,Palenque,4124,4126
+2026-06,Tulum Aeropuerto,2829,2381
+2026-06,Bacalar,3494,2749
+2026-06,Izamal,2215,2329
+2026-06,Chetumal Aeropuerto,2519,2196
+2026-06,Escárcega,1625,2072
+2026-06,Puerto Morelos,1575,1390
+2026-06,Felipe Carrillo Puerto,1508,1267
+2026-06,Leona Vicario,935,917
+2026-06,Nuevo Xcán,906,756
+2026-06,Calkiní,872,853
+2026-06,Maxcanú,765,734
+2026-06,Umán,858,805
+2026-06,Hecelchakán,768,817
+2026-06,Tenabo,570,498
+2026-06,Tixkokob,834,714
+2026-06,Edzná,559,578
+2026-06,Xpujil,965,850
+2026-06,Calakmul,515,557
+2026-06,Candelaria,465,599
+2026-06,Tenosique,733,749
+2026-06,Boca del Cerro,483,494
+2026-06,Triunfo,365,353
+2026-06,Carrillo Puerto Camp.,504,446
+2026-06,Chacchoben,441,555
+2026-06,Kohunlich,332,384
+2026-06,Centenario,330,404
+2026-07,Cancún Aeropuerto,15268,17326
+2026-07,Mérida Teya,13669,13100
+2026-07,Playa del Carmen,13081,10710
+2026-07,Valladolid,8226,7219
+2026-07,Tulum,6170,7246
+2026-07,San Fco. Campeche,6386,7012
+2026-07,Chichén Itzá,5783,6404
+2026-07,Palenque,6813,5486
+2026-07,Tulum Aeropuerto,3686,3913
+2026-07,Bacalar,3238,3487
+2026-07,Izamal,2907,2714
+2026-07,Chetumal Aeropuerto,2931,2996
+2026-07,Escárcega,1971,2371
+2026-07,Puerto Morelos,2090,2119
+2026-07,Felipe Carrillo Puerto,1688,1593
+2026-07,Leona Vicario,1148,1134
+2026-07,Nuevo Xcán,959,1011
+2026-07,Calkiní,1089,1109
+2026-07,Maxcanú,895,1042
+2026-07,Umán,971,1120
+2026-07,Hecelchakán,982,864
+2026-07,Tenabo,674,767
+2026-07,Tixkokob,813,1036
+2026-07,Edzná,790,661
+2026-07,Xpujil,1342,1019
+2026-07,Calakmul,635,698
+2026-07,Candelaria,670,799
+2026-07,Tenosique,916,808
+2026-07,Boca del Cerro,560,520
+2026-07,Triunfo,406,461
+2026-07,Carrillo Puerto Camp.,523,542
+2026-07,Chacchoben,721,633
+2026-07,Kohunlich,438,462
+2026-07,Centenario,442,499
+2026-08,Cancún Aeropuerto,17003,14737
+2026-08,Mérida Teya,14730,13613
+2026-08,Playa del Carmen,10478,11199
+2026-08,Valladolid,7735,8784
+2026-08,Tulum,5811,7667
+2026-08,San Fco. Campeche,6548,6510
+2026-08,Chichén Itzá,5580,5465
+2026-08,Palenque,6100,6099
+2026-08,Tulum Aeropuerto,3152,3479
+2026-08,Bacalar,4224,3293
+2026-08,Izamal,3330,2832
+2026-08,Chetumal Aeropuerto,2662,3148
+2026-08,Escárcega,1962,2289
+2026-08,Puerto Morelos,1808,2108
+2026-08,Felipe Carrillo Puerto,1824,1646
+2026-08,Leona Vicario,1042,1258
+2026-08,Nuevo Xcán,1031,1013
+2026-08,Calkiní,1122,1095
+2026-08,Maxcanú,981,965
+2026-08,Umán,1142,1026
+2026-08,Hecelchakán,726,763
+2026-08,Tenabo,756,706
+2026-08,Tixkokob,1011,920
+2026-08,Edzná,778,787
+2026-08,Xpujil,1281,1089
+2026-08,Calakmul,623,767
+2026-08,Candelaria,554,803
+2026-08,Tenosique,979,1013
+2026-08,Boca del Cerro,692,639
+2026-08,Triunfo,437,463
+2026-08,Carrillo Puerto Camp.,546,621
+2026-08,Chacchoben,600,621
+2026-08,Kohunlich,526,404
+2026-08,Centenario,508,460
+2026-09,Cancún Aeropuerto,9077,10351
+2026-09,Mérida Teya,7288,8009
+2026-09,Playa del Carmen,7302,7707
+2026-09,Valladolid,5354,5696
+2026-09,Tulum,4110,3715
+2026-09,San Fco. Campeche,4627,4122
+2026-09,Chichén Itzá,3877,3744
+2026-09,Palenque,3698,3457
+2026-09,Tulum Aeropuerto,2092,2098
+2026-09,Bacalar,2351,1936
+2026-09,Izamal,2186,1598
+2026-09,Chetumal Aeropuerto,1493,1724
+2026-09,Escárcega,1577,1493
+2026-09,Puerto Morelos,1176,1095
+2026-09,Felipe Carrillo Puerto,1197,999
+2026-09,Leona Vicario,810,809
+2026-09,Nuevo Xcán,634,597
+2026-09,Calkiní,632,619
+2026-09,Maxcanú,586,586
+2026-09,Umán,668,644
+2026-09,Hecelchakán,503,466
+2026-09,Tenabo,493,397
+2026-09,Tixkokob,502,630
+2026-09,Edzná,419,369
+2026-09,Xpujil,783,591
+2026-09,Calakmul,428,453
+2026-09,Candelaria,429,460
+2026-09,Tenosique,570,491
+2026-09,Boca del Cerro,404,369
+2026-09,Triunfo,315,281
+2026-09,Carrillo Puerto Camp.,321,335
+2026-09,Chacchoben,327,342
+2026-09,Kohunlich,282,326
+2026-09,Centenario,290,292

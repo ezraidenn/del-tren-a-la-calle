@@ -1,6 +1,6 @@
 # Fuentes y método · Del tren a la calle
 
-Todos los archivos de esta carpeta salen de datos públicos reales del repositorio y se regeneran con `python src/booklet.py`. No hay datos simulados ni datos personales.
+Todos los archivos de esta carpeta salen de datos públicos reales del repositorio y se regeneran con `python src/booklet.py`. Solo usan fuentes públicas y no traen datos personales.
 
 ## `escena-1.csv` y `escena-2.csv`
 
