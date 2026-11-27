@@ -47,13 +47,15 @@ window.dibujarEscena3 = async function (selector = "#grafica-escena-3") {
 
   // Etiqueta de cada serie al final de su línea.
   g.append("text").attr("x", (s) => x(s.valores[s.valores.length - 1].m) + 12)
-    .attr("y", (s) => y(s.valores[s.valores.length - 1].pasajeros)).attr("dy", "0.35em")
+    .attr("y", (s) => y(s.valores[s.valores.length - 1].pasajeros) - (s.anio === 2026 ? 0 : 0)).attr("dy", (s) => (s.anio === 2026 ? "-0.4em" : "0.35em"))
     .style("font-size", "17px").style("font-weight", 800).style("fill", (s) => (s.anio === 2026 ? COLOR.morado : COLOR.oroOscuro))
     .text((s) => s.anio);
 
   // Variación anual de los meses con caída, entre el punto de 2026 y el de 2025.
   svg.append("g").selectAll("text").data(caidas).join("text")
-    .attr("x", (d) => x(d.m)).attr("y", (d) => y(d.pasajeros) - 14).attr("text-anchor", "middle")
+    // El último mes va debajo del punto: ahí las dos líneas casi se tocan.
+    .attr("x", (d) => x(d.m)).attr("y", (d) => y(d.pasajeros) + (d.m === d3.max(caidas, (c) => c.m) ? 30 : -14))
+    .attr("text-anchor", "middle")
     .style("paint-order", "stroke").style("stroke", "#fff").style("stroke-width", "4px")
     .style("font-size", "15px").style("font-weight", 700).style("fill", COLOR.oroOscuro)
     .text((d) => pct(d.variacion_anual_pct, 0));

@@ -51,6 +51,11 @@ def main() -> None:
                     nota=("Polígonos de AGEB urbanas de Yucatán, servicio web del Catálogo Único de Claves "
                           "Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025, población del "
                           "Censo 2020), EPSG:4326"))
+    # Contorno de los 5 estados del Tren Maya: base del mapa de estaciones del booklet.
+    for e in ESTADOS:
+        comun.descargar(f"https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgee/{e}", carpeta, f"mg_estado_{e}.geojson",
+                        ficha, nota=(f"Polígono de la entidad {e}, servicio web del Catálogo Único de Claves "
+                                     "Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025), EPSG:4326"))
 
 
 if __name__ == "__main__":

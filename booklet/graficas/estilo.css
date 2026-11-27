@@ -76,7 +76,25 @@ body {
   .escena h2 { font-size: 1.2rem; }
 }
 
+@page { size: letter; margin: 1.3cm 1.5cm; }
+
 @media print {
   .pagina { max-width: none; padding: 0; }
-  .escena { border: none; padding: 0; page-break-inside: avoid; }
+  .portada { padding-bottom: 0.6rem; margin-bottom: 0.8rem; }
+  .portada .rotulo { font-size: 0.7rem; }
+  .portada h1 { font-size: 1.45rem; margin: 0.2rem 0 0.4rem; }
+  .portada p { font-size: 0.85rem; line-height: 1.4; }
+  .datos-clave { grid-template-columns: repeat(3, 1fr); gap: 0.6rem; margin-top: 0.5rem; }
+  .dato strong { font-size: 1.15rem; }
+  .dato span { font-size: 0.72rem; line-height: 1.35; display: block; }
+  .escena .rotulo { font-size: 0.7rem; }
+  .escena h2 { margin: 0.15rem 0 0.2rem; }
+  .escena { border: none; padding: 0; margin-bottom: 1rem; break-inside: avoid; }
+  .escena h2 { font-size: 1.2rem; }
+  .escena .subtitulo, .escena .lectura { font-size: 0.85rem; margin-bottom: 0.4rem; }
+  .escena .fuente { font-size: 0.72rem; }
+  /* Las gráficas van a todo lo ancho: así 15 unidades del SVG son unos 8 pt, el mínimo impreso del plan. */
+  .notas { padding-top: 0.6rem; break-inside: avoid; }
+  .notas h2 { font-size: 1.05rem; }
+  .notas li, .notas p { font-size: 0.8rem; margin-bottom: 0.25rem; }
 }

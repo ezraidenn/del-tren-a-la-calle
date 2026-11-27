@@ -6,7 +6,8 @@ Todos los archivos de esta carpeta salen de datos públicos reales del repositor
 
 - **Contenido:**
   - `escena-1.csv`: negocios en tres anillos de distancia (0-1, 1-3 y 3-5 km) alrededor de las 34 estaciones del Tren Maya, en 2019 y 2025, con el cambio absoluto y porcentual.
-  - `escena-2.csv`: lo mismo por estación, a 5 km, con su lugar en el ranking, estado, municipio y cuántas estaciones tiene su estado.
+  - `escena-2.csv`: lo mismo por estación, a 5 km. Trae su lugar en el ranking, estado, municipio, coordenadas (`lat`, `lon`), orden en la ruta (`orden_ruta`, según el número del catálogo) y cuántas estaciones tiene su estado.
+  - `estados_tren_maya.geojson`: contorno de los 5 estados del Tren Maya, base del mapa de la escena 2.
 - **Fuentes:**
   - INEGI, DENUE noviembre 2019 y mayo 2025, de Campeche, Chiapas, Quintana Roo, Tabasco y Yucatán, descarga masiva por estado (por ejemplo, Yucatán: <https://www.inegi.org.mx/contenidos/masiva/denue/2019_11/denue_31_1119_csv.zip> y <https://www.inegi.org.mx/contenidos/masiva/denue/2025_05/denue_31_0525_csv.zip>; las URL de los cinco estados están en el `procedencia.json` de `datos/originales/03_inegi/3.1_denue_2019_11/` y `3.2_denue_2025_05/`)
   - Catálogo de estaciones del Tren Maya: `procesamiento/03_denue_datamart/data/reference/estaciones_tren_maya_catalogo_maestro.csv`, con coordenadas del mapa oficial (<https://trenmaya.gob.mx/>) y cotejo secundario.
@@ -17,6 +18,11 @@ Todos los archivos de esta carpeta salen de datos públicos reales del repositor
   - Los datos se toman de `data/processed/station_ring_change_2019_2025.csv`.
   - Las estaciones sin negocios a 5 km (Edzná y Calakmul) quedan en cero.
   - El script comprueba que los totales de las dos escenas coincidan entre sí y con el data mart: 39,350 negocios en 2019 y 44,838 en 2025.
+
+- **Contorno de los estados:**
+  - Fuente: INEGI, Marco Geoestadístico de diciembre de 2025, servicio `wscatgeo` (<https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgee/04>; igual para 07, 23, 27 y 31).
+  - Originales: `datos/originales/03_inegi/3.3_censo_2020_ageb/mg_estado_NN.geojson`.
+  - Se conservan los polígonos de más de unos 25 km² y se simplifican con Ramer-Douglas-Peucker a cerca de 1 km (0.01°).
 
 ## `escena-3.csv`
 

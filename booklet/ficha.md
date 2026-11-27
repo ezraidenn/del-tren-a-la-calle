@@ -38,18 +38,21 @@ En `index.html` estas tres cifras se calculan de los CSV (`graficas/portada.js`)
 
 - **Subtítulo:** negocios del DENUE en tres anillos alrededor de las 34 estaciones del Tren Maya, noviembre de 2019 contra mayo de 2025. Cada negocio cuenta una sola vez, en la estación más cercana.
 - **Datos:** [`datos/escena-1.csv`](datos/escena-1.csv) · **D3:** [`graficas/escena-1.html`](graficas/escena-1.html)
-- **Lectura:** cada grupo es un anillo de distancia.
-  - La barra oro son los negocios de 2019 y la morada, los de 2025.
+- **Lectura:** la estación va al centro y cada anillo es una distancia.
+  - Dentro de cada anillo va lo que ganó; el morado es más intenso donde creció más.
+  - A la derecha, cada anillo en 2019 (oro) y en 2025 (morado).
   - El anillo de 1 a 3 km creció +16.2 %. El de junto a la estación creció +12.7 % y el de 3 a 5 km, +12.3 %.
 - **Fuente:** INEGI, DENUE noviembre 2019 y mayo 2025; catálogo de estaciones del Tren Maya. Data mart del equipo. Corte: mayo de 2025.
 
 ### Escena 2 · Tulum se llevó la vagonada, +900 negocios a 5 km de su estación, y Mérida Teya quedó tercera con +677
 
 - **Subtítulo:** negocios ganados o perdidos a menos de 5 km de cada una de las 34 estaciones, de noviembre de 2019 a mayo de 2025.
-- **Datos:** [`datos/escena-2.csv`](datos/escena-2.csv) · **D3:** [`graficas/escena-2.html`](graficas/escena-2.html)
-- **Lectura:** en morado va Mérida Teya, en oro las dos estaciones que perdieron negocios (Candelaria y Chetumal Aeropuerto) y en gris las demás.
+- **Datos:** [`datos/escena-2.csv`](datos/escena-2.csv) y [`datos/estados_tren_maya.geojson`](datos/estados_tren_maya.geojson) · **D3:** [`graficas/escena-2.html`](graficas/escena-2.html)
+- **Lectura:** cada círculo es una estación en su lugar de la península, del tamaño de los negocios que ganó (morado) o perdió (oro) a 5 km.
+  - Mérida Teya lleva borde negro. Las que perdieron son Candelaria y Chetumal Aeropuerto.
+  - La línea punteada une las estaciones en el orden de la ruta; no es el trazo real de la vía.
   - Palenque, segunda con +732, es la única estación de Chiapas: su cambio es el de todo el estado. Por eso no comparamos estados por su total.
-- **Fuente:** igual que la escena 1. Corte: mayo de 2025.
+- **Fuente:** igual que la escena 1; contorno de los estados: INEGI, Marco Geoestadístico (diciembre 2025). Corte: mayo de 2025.
 
 ### Escena 3 · En pleno calor, el tren se enfrió: de junio a septiembre de 2026 llevó entre 18 % y 28 % menos pasajeros que en 2025
 
@@ -106,3 +109,10 @@ python -m http.server -d booklet # y abrir http://localhost:8000
 ```
 
 Los títulos y las lecturas se editan en `index.html`; las páginas por escena se generan desde ahí.
+
+Impreso en tamaño carta, el capítulo ocupa 5 páginas:
+- la portada con la escena 1;
+- una página para cada una de las escenas 2, 3 y 4;
+- una para los límites y la frase puente.
+
+Las gráficas van a todo lo ancho para que su texto no baje de 8 pt.

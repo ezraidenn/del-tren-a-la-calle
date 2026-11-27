@@ -24,6 +24,51 @@
       "sha256": "c9a2678b9c3121abb94f43b041b75a8c645ffdca2c41326679b701910c0bb11c",
       "content_type": "application/json;charset=utf-8",
       "nota": "Polígonos de AGEB urbanas de Yucatán, servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025, población del Censo 2020), EPSG:4326"
+    },
+    {
+      "archivo": "mg_estado_04.geojson",
+      "url": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgee/04",
+      "descargado_utc": "2026-11-27T16:33:12Z",
+      "bytes": 1304293,
+      "sha256": "040ad4a4166468c0d2f74781cb6ccab55ba37fe9ff178a41c389c4191e754105",
+      "content_type": "application/json;charset=utf-8",
+      "nota": "Polígono de la entidad 04, servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025), EPSG:4326"
+    },
+    {
+      "archivo": "mg_estado_07.geojson",
+      "url": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgee/07",
+      "descargado_utc": "2026-11-27T16:33:13Z",
+      "bytes": 498026,
+      "sha256": "99b18e4235e0a7fddcce9165527a5062d8aef19ab270539bda4032acc2871229",
+      "content_type": "application/json;charset=utf-8",
+      "nota": "Polígono de la entidad 07, servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025), EPSG:4326"
+    },
+    {
+      "archivo": "mg_estado_23.geojson",
+      "url": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgee/23",
+      "descargado_utc": "2026-11-27T16:33:15Z",
+      "bytes": 1231793,
+      "sha256": "93841374fef9cc614fcc71e2fcff67259e62a287286fef6d649b4f7d65792d93",
+      "content_type": "application/json;charset=utf-8",
+      "nota": "Polígono de la entidad 23, servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025), EPSG:4326"
+    },
+    {
+      "archivo": "mg_estado_27.geojson",
+      "url": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgee/27",
+      "descargado_utc": "2026-11-27T16:33:15Z",
+      "bytes": 602002,
+      "sha256": "3054a215b933452f8ce8bf66ea2ee6d11f0a1a3d4da2e3c9810fb4d945a21f7d",
+      "content_type": "application/json;charset=utf-8",
+      "nota": "Polígono de la entidad 27, servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025), EPSG:4326"
+    },
+    {
+      "archivo": "mg_estado_31.geojson",
+      "url": "https://gaia.inegi.org.mx/wscatgeo/v2/geo/mgee/31",
+      "descargado_utc": "2026-11-27T16:33:16Z",
+      "bytes": 249401,
+      "sha256": "bded09803dbdb7a4d16e3dfea27d72682e2c92f28acab0eb9a8b4962a2b79b27",
+      "content_type": "application/json;charset=utf-8",
+      "nota": "Polígono de la entidad 31, servicio web del Catálogo Único de Claves Geoestadísticas del INEGI (Marco Geoestadístico de diciembre de 2025), EPSG:4326"
     }
   ]
 }

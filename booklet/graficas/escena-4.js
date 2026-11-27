@@ -1,10 +1,13 @@
 // Escena 4 · Variación de negocios por AGEB urbana de Mérida, 2019 a 2025.
 window.dibujarEscena4 = async function (selector = "#grafica-escena-4") {
   const { COLOR, cargarCsv, cargarJson, entero, conSigno, pct, fallo } = window.E8;
-  let datos, geo;
+  let datos, geo, estaciones;
   try {
-    [datos, geo] = await Promise.all([cargarCsv("escena-4", ["cvegeo_ageb"]), cargarJson("merida_ageb")]);
+    [datos, geo, estaciones] = await Promise.all([
+      cargarCsv("escena-4", ["cvegeo_ageb"]), cargarJson("merida_ageb"), cargarCsv("escena-2", ["estacion_id"]),
+    ]);
   } catch (e) { return fallo(selector, e); }
+  const teya = estaciones.find((d) => d.estacion_id === "TM015");
 
   const porClave = new Map(datos.map((d) => [d.cvegeo_ageb, d]));
   const CENTRO = "3105000010510";
@@ -15,7 +18,7 @@ window.dibujarEscena4 = async function (selector = "#grafica-escena-4") {
   const escala = d3.scaleThreshold().domain(cortes).range(colores);
   const etiquetas = ["−50 o más", "−49 a −10", "−9 a −1", "sin cambio", "+1 a +9", "+10 a +49", "+50 o más"];
 
-  const W = 960, H = 760, mapaW = 700;
+  const W = 960, H = 660, mapaW = 640;
   const svg = d3.select(selector).append("svg").attr("viewBox", `0 0 ${W} ${H}`)
     .attr("role", "img").attr("aria-label", "Mapa de las AGEB urbanas de Mérida coloreadas por negocios ganados o perdidos");
 
@@ -50,7 +53,7 @@ window.dibujarEscena4 = async function (selector = "#grafica-escena-4") {
     svg.append("circle").attr("cx", cx).attr("cy", cy).attr("r", 9).attr("fill", "none")
       .attr("stroke", COLOR.tinta).attr("stroke-width", 2);
     // La etiqueta va fuera de la mancha urbana, a la izquierda, con halo blanco para leerse sobre el mapa.
-    const lx = 150, ly = cy + 150;
+    const lx = cx - 70, ly = cy + 120;
     svg.append("line").attr("x1", cx - 7).attr("y1", cy + 7).attr("x2", lx + 4).attr("y2", ly - 22)
       .attr("stroke", COLOR.tinta).attr("stroke-width", 1.5);
     const t = svg.append("text").attr("x", lx).attr("y", ly).attr("text-anchor", "end")
@@ -59,6 +62,25 @@ window.dibujarEscena4 = async function (selector = "#grafica-escena-4") {
     t.append("tspan").text("Centro");
     t.append("tspan").attr("x", lx).attr("dy", "1.2em").style("font-weight", 600)
       .text(`${conSigno(dCentro.cambio)} negocios (${pct(dCentro.cambio_pct)})`);
+  }
+
+  // La estación Teya: se marca donde cae; si queda fuera del recuadro, una flecha en el borde apunta hacia ella.
+  if (teya) {
+    let [tx, ty] = proy([teya.lon, teya.lat]);
+    const fuera = tx > mapaW;
+    if (fuera) tx = mapaW - 6;
+    const g = svg.append("g").attr("transform", `translate(${tx},${ty})`);
+    if (fuera) {
+      g.append("path").attr("d", "M-18,-9 L0,0 L-18,9 Z").attr("fill", COLOR.tinta);
+    } else {
+      g.append("rect").attr("x", -12).attr("y", -7).attr("width", 24).attr("height", 14).attr("rx", 4).attr("fill", COLOR.tinta);
+      g.append("rect").attr("x", -8).attr("y", -3).attr("width", 16).attr("height", 2.5).attr("rx", 1).attr("fill", COLOR.oro);
+    }
+    const tt = g.append("text").attr("x", fuera ? -24 : 0).attr("y", fuera ? 0 : 26)
+      .attr("text-anchor", fuera ? "end" : "middle").style("font-size", "15px").style("font-weight", 800)
+      .style("paint-order", "stroke").style("stroke", "#fff").style("stroke-width", "4px");
+    tt.append("tspan").attr("x", fuera ? -24 : 0).attr("dy", fuera ? "-0.2em" : 0).text(fuera ? "hacia la estación Teya" : "Estación Teya");
+    tt.append("tspan").attr("x", fuera ? -24 : 0).attr("dy", "1.2em").style("font-weight", 500).text("(Kanasín)");
   }
 
   // Leyenda y resumen a la derecha del mapa.

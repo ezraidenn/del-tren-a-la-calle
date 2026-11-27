@@ -32,7 +32,7 @@ Las tablas generadas por el equipo están en `datos/propios/`. El catálogo comp
 | | | 2.3 Boletín Día Mundial de la Resiliencia del Turismo, feb 2025 | real | 24 indicadores |
 | 3. Los negocios que encuentra esa demanda | INEGI | 3.1 DENUE noviembre 2019 | real | 533,275 establecimientos; data mart en `procesamiento/` |
 | | | 3.2 DENUE mayo 2025 | real | 604,594 establecimientos; data mart en `procesamiento/` |
-| | | 3.3 Censo 2020 por AGEB y manzana urbana | real | 1,532 AGEB urbanas de Yucatán, y los polígonos de las 1,562 AGEB urbanas del Marco Geoestadístico 2025 |
+| | | 3.3 Censo 2020 por AGEB y manzana urbana | real | 1,532 AGEB urbanas de Yucatán, los polígonos de las 1,562 AGEB urbanas del Marco Geoestadístico 2025 y el contorno de los 5 estados del Tren Maya |
 | 4. Una ciudad preparada para recibirlos | Geoportal de Mérida | 4.1 Unidades deportivas | real (sustituto) | 825 instalaciones deportivas de OpenStreetMap en el municipio de Mérida, mientras se exporta la capa del Geoportal ([pasos](datos/originales/04_geoportal_merida/4.1_unidades_deportivas/PENDIENTE.md)) |
 | | | 4.2 Circuito Enlace | real (sustituto) | 1,198 elementos de infraestructura ciclista de OpenStreetMap en Mérida (241 km de ciclovías y carriles), porque el recorrido no se publica fuera del Geoportal ([detalle](datos/originales/04_geoportal_merida/4.2_circuito_enlace/PENDIENTE.md)) |
 | | | 4.3 Paraderos de transporte público | real (sustituto) | 3,256 paradas del GTFS oficial del Va y Ven, mientras se exporta la capa del Geoportal |
@@ -100,7 +100,7 @@ Estado de los datos al 2026-11-24:
 - **Conteos:** cuadran en las 24 tablas silver, en los 13 controles gold y en los 23 controles de las tablas propias.
 - **Rechazos:** 5 de 55,052 registros. Son anuncios de Sección Amarilla que declaran otro municipio.
 - **Cruces:** las 526 AGEB del indicador encuentran su dimensión, sin huérfanos.
-- **Reproducibilidad:** al regenerar todo desde cero, los 254 archivos del manifiesto salen idénticos, byte por byte.
+- **Reproducibilidad:** al regenerar todo desde cero, los 259 archivos del manifiesto salen idénticos, byte por byte.
 
 ## Estructura
 

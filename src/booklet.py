@@ -63,11 +63,14 @@ def escena_1_y_2() -> tuple[pd.DataFrame, pd.DataFrame]:
 
     tot = (anillos.groupby(["nearest_station_id"], as_index=False)[["businesses_2019", "businesses_2025"]].sum()
            .rename(columns={"nearest_station_id": "station_id"}))
-    e2 = catalogo[["station_id", "station_name", "state", "municipality"]].merge(tot, on="station_id", how="left")
+    e2 = catalogo[["station_id", "station_name", "state", "municipality", "latitude", "longitude"]].merge(
+        tot, on="station_id", how="left")
     e2[["businesses_2019", "businesses_2025"]] = e2[["businesses_2019", "businesses_2025"]].fillna(0).astype(int)
     e2 = e2.rename(columns={"station_id": "estacion_id", "station_name": "estacion", "state": "estado",
-                            "municipality": "municipio", "businesses_2019": "negocios_2019",
-                            "businesses_2025": "negocios_2025"})
+                            "municipality": "municipio", "latitude": "lat", "longitude": "lon",
+                            "businesses_2019": "negocios_2019", "businesses_2025": "negocios_2025"})
+    # El catálogo numera las estaciones en el orden de la ruta (TM001 Palenque ... TM034 Centenario).
+    e2["orden_ruta"] = e2["estacion_id"].str[2:].astype(int)
     e2["cambio"] = e2["negocios_2025"] - e2["negocios_2019"]
     e2["cambio_pct"] = [pct(a, b) for a, b in zip(e2["negocios_2019"], e2["negocios_2025"])]
     e2["estaciones_en_su_estado"] = e2.groupby("estado")["estacion_id"].transform("count")
@@ -129,6 +132,36 @@ def simplificar_anillo(anillo: list[list[float]], exterior: bool) -> list[list[f
 
 def simplificar_poligono(anillos: list[list[list[float]]]) -> list[list[list[float]]]:
     return [simplificar_anillo(a, i == 0) for i, a in enumerate(anillos)]
+
+
+ESTADOS = {"04": "Campeche", "07": "Chiapas", "23": "Quintana Roo", "27": "Tabasco", "31": "Yucatán"}
+TOLERANCIA_ESTADOS = 0.01  # cerca de 1 km: basta para un mapa de la península en media página
+
+
+def estados_tren_maya() -> dict:
+    """Contorno simplificado de los 5 estados del Tren Maya (Marco Geoestadístico, dic 2025)."""
+    carpeta = RAIZ / "datos" / "originales" / "03_inegi" / "3.3_censo_2020_ageb"
+    feats = []
+    for cve, nombre in ESTADOS.items():
+        g = json.loads((carpeta / f"mg_estado_{cve}.geojson").read_text(encoding="utf-8"))
+        geom = g["features"][0]["geometry"]
+        poligonos = geom["coordinates"] if geom["type"] == "MultiPolygon" else [geom["coordinates"]]
+        # Se quedan los polígonos de más de ~25 km² (tierra firme e islas grandes como Cozumel).
+        grandes = [p for p in poligonos if abs(area_con_signo(p[0])) > 0.002]
+        coords = []
+        for p in grandes:
+            ext = p[0]
+            mitad = len(ext) // 2
+            s = rdp(ext[: mitad + 1], TOLERANCIA_ESTADOS)[:-1] + rdp(ext[mitad:], TOLERANCIA_ESTADOS)
+            s = [[round(x, 4), round(y, 4)] for x, y in s]
+            if len(s) >= 4:
+                if area_con_signo(s) > 0:
+                    s.reverse()
+                coords.append([s])
+        feats.append({"type": "Feature", "properties": {"cve_ent": cve, "nombre": nombre},
+                      "geometry": {"type": "MultiPolygon", "coordinates": coords}})
+    return {"type": "FeatureCollection", "name": "estados_tren_maya_simplificados",
+            "crs": {"type": "name", "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}}, "features": feats}
 
 
 def escena_4() -> tuple[pd.DataFrame, dict]:
@@ -230,6 +263,9 @@ def main() -> None:
     geo_texto = json.dumps(gj, ensure_ascii=False, separators=(",", ":"))
     (SALIDA / "merida_ageb.geojson").write_text(geo_texto, encoding="utf-8")
     (GRAFICAS / "datos.js").unlink(missing_ok=True)
+    est = json.dumps(estados_tren_maya(), ensure_ascii=False, separators=(",", ":"))
+    (SALIDA / "estados_tren_maya.geojson").write_text(est, encoding="utf-8")
+    print(f"estados: {len(est) / 1e3:.0f} KB")
 
     print(e1.to_string(index=False))
     print(e2.head(6).to_string(index=False))
