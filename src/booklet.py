@@ -77,6 +77,19 @@ def escena_1_y_2() -> tuple[pd.DataFrame, pd.DataFrame]:
     e2 = e2.sort_values(["cambio", "estacion_id"], ascending=[False, True]).reset_index(drop=True)
     e2.insert(0, "lugar", range(1, len(e2) + 1))
 
+    # Detalle de la escena 2: cada estación por anillo (34 × 3 filas; cero donde no hay negocios).
+    rejilla = pd.MultiIndex.from_product([catalogo["station_id"], ANILLOS], names=["estacion_id", "anillo"]).to_frame(index=False)
+    det = anillos.rename(columns={"nearest_station_id": "estacion_id", "distance_band": "anillo",
+                                  "businesses_2019": "negocios_2019", "businesses_2025": "negocios_2025"})
+    det = rejilla.merge(det[["estacion_id", "anillo", "negocios_2019", "negocios_2025"]], how="left")
+    det[["negocios_2019", "negocios_2025"]] = det[["negocios_2019", "negocios_2025"]].fillna(0).astype(int)
+    det["cambio"] = det["negocios_2025"] - det["negocios_2019"]
+    det["cambio_pct"] = [pct(a, b) for a, b in zip(det["negocios_2019"], det["negocios_2025"])]
+    det["anillo"] = pd.Categorical(det["anillo"], ANILLOS, ordered=True)
+    det = det.sort_values(["estacion_id", "anillo"]).reset_index(drop=True)
+    assert len(det) == 34 * 3 and det["negocios_2025"].sum() == anillos["businesses_2025"].sum()
+    e2.attrs["anillos"] = det
+
     assert len(e2) == 34, len(e2)
     assert e1["negocios_2019"].sum() == e2["negocios_2019"].sum() == anillos["businesses_2019"].sum()
     assert e1["negocios_2025"].sum() == e2["negocios_2025"].sum() == anillos["businesses_2025"].sum()
@@ -260,6 +273,7 @@ def main() -> None:
     e4, gj = escena_4()
     for n, df in enumerate([e1, e2, e3, e4], start=1):
         csv(df, f"escena-{n}.csv")
+    csv(e2.attrs["anillos"], "escena-2-anillos.csv")
     geo_texto = json.dumps(gj, ensure_ascii=False, separators=(",", ":"))
     (SALIDA / "merida_ageb.geojson").write_text(geo_texto, encoding="utf-8")
     (GRAFICAS / "datos.js").unlink(missing_ok=True)

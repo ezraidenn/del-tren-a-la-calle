@@ -30,8 +30,9 @@ window.dibujarEscena4 = async function (selector = "#grafica-escena-4") {
   const recorte = "recorte-mapa-escena-4";
   svg.append("clipPath").attr("id", recorte).append("rect").attr("width", mapaW + 10).attr("height", H);
 
-  svg.append("g").attr("clip-path", `url(#${recorte})`).selectAll("path").data(geo.features).join("path")
-    .attr("d", camino)
+  const agebs = svg.append("g").attr("clip-path", `url(#${recorte})`).selectAll("path").data(geo.features).join("path")
+    .attr("d", camino);
+  agebs
     .attr("fill", (f) => {
       const d = porClave.get(f.properties.cvegeo_ageb);
       return d ? escala(d.cambio) : "#ffffff";
@@ -85,6 +86,18 @@ window.dibujarEscena4 = async function (selector = "#grafica-escena-4") {
 
   // Leyenda y resumen a la derecha del mapa.
   const ley = svg.append("g").attr("transform", `translate(${mapaW + 30},40)`);
+  // Entrada: la ciudad se pinta del Centro hacia las orillas; la señal del Centro y el resumen llegan al final.
+  const centro = fCentro ? camino.centroid(fCentro) : [mapaW / 2, H / 2];
+  const lejania = (f) => Math.hypot(camino.centroid(f)[0] - centro[0], camino.centroid(f)[1] - centro[1]);
+  const maxLejania = d3.max(geo.features, lejania) || 1;
+  window.E8.animar(svg.node(), {
+    inicio() { agebs.attr("opacity", 0); ley.attr("opacity", 0); },
+    correr() {
+      agebs.transition().delay((f) => (lejania(f) / maxLejania) * 1800).duration(500).attr("opacity", 1);
+      ley.transition().delay(1500).duration(600).attr("opacity", 1);
+    },
+    fin() { agebs.attr("opacity", 1); ley.attr("opacity", 1); },
+  });
   ley.append("text").style("font-size", "16px").style("font-weight", 800).text("Negocios ganados o");
   ley.append("text").attr("y", 20).style("font-size", "16px").style("font-weight", 800).text("perdidos, 2019 a 2025");
   colores.slice().reverse().forEach((c, i) => {

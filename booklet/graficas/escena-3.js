@@ -36,7 +36,10 @@ window.dibujarEscena3 = async function (selector = "#grafica-escena-3") {
   }
 
   const linea = d3.line().x((d) => x(d.m)).y((d) => y(d.pasajeros));
-  const g = svg.append("g").selectAll("g").data(series).join("g");
+  // Las series se descubren de izquierda a derecha con un recorte que crece (solo en pantalla).
+  const cortina = svg.append("clipPath").attr("id", "recorte-series-escena-3").append("rect")
+    .attr("x", 0).attr("y", 0).attr("width", W).attr("height", H);
+  const g = svg.append("g").attr("clip-path", "url(#recorte-series-escena-3)").selectAll("g").data(series).join("g");
   g.append("path").attr("d", (s) => linea(s.valores)).attr("fill", "none")
     .attr("stroke", (s) => colorDe(s.anio)).attr("stroke-width", (s) => (s.anio === 2026 ? 3.5 : 2.5));
   g.selectAll("circle").data((s) => s.valores).join("circle")
@@ -52,11 +55,20 @@ window.dibujarEscena3 = async function (selector = "#grafica-escena-3") {
     .text((s) => s.anio);
 
   // Variación anual de los meses con caída, entre el punto de 2026 y el de 2025.
-  svg.append("g").selectAll("text").data(caidas).join("text")
+  const etiquetasCaida = svg.append("g").selectAll("text").data(caidas).join("text")
     // El último mes va debajo del punto: ahí las dos líneas casi se tocan.
     .attr("x", (d) => x(d.m)).attr("y", (d) => y(d.pasajeros) + (d.m === d3.max(caidas, (c) => c.m) ? 30 : -14))
     .attr("text-anchor", "middle")
     .style("paint-order", "stroke").style("stroke", "#fff").style("stroke-width", "4px")
     .style("font-size", "15px").style("font-weight", 700).style("fill", COLOR.oroOscuro)
     .text((d) => pct(d.variacion_anual_pct, 0));
+
+  window.E8.animar(svg.node(), {
+    inicio() { cortina.attr("transform", "scale(0,1)"); etiquetasCaida.attr("opacity", 0); },
+    correr() {
+      cortina.transition().duration(2600).ease(d3.easeCubicInOut).attr("transform", "scale(1,1)");
+      etiquetasCaida.transition().delay((d) => 600 + (x(d.m) / W) * 2600).duration(450).attr("opacity", 1);
+    },
+    fin() { cortina.attr("transform", null); etiquetasCaida.attr("opacity", 1); },
+  });
 };

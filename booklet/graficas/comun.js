@@ -40,5 +40,23 @@
       .text("No se pudieron leer los datos de la escena. Abre la carpeta booklet/ con un servidor local: python -m http.server -d booklet");
   }
 
-  window.E8 = { COLOR, cargarCsv, cargarJson, entero, conSigno, pct, MESES, fallo };
+  // Animación de entrada, solo en pantalla. Cada escena se dibuja ya terminada; «inicio» la lleva al estado
+  // de arranque y «correr» la anima cuando entra en la vista. Con «reducir movimiento» o al imprimir no se
+  // anima: «fin» deja el estado final.
+  const quietos = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const finales = [];
+  window.addEventListener("beforeprint", () => finales.forEach((f) => f()));
+  function animar(nodo, { inicio, correr, fin }) {
+    if (quietos || window.matchMedia("print").matches || !("IntersectionObserver" in window)) return;
+    const svg = d3.select(nodo);
+    const terminar = () => { svg.selectAll("*").interrupt(); fin(); };
+    finales.push(terminar);
+    inicio();
+    const vigia = new IntersectionObserver((entradas) => {
+      if (entradas.some((e) => e.isIntersecting)) { vigia.disconnect(); correr(); }
+    }, { threshold: 0.35 });
+    vigia.observe(nodo);
+  }
+
+  window.E8 = { COLOR, cargarCsv, cargarJson, entero, conSigno, pct, MESES, fallo, animar };
 })();

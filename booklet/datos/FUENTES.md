@@ -7,6 +7,7 @@ Todos los archivos de esta carpeta salen de datos públicos reales del repositor
 - **Contenido:**
   - `escena-1.csv`: negocios en tres anillos de distancia (0-1, 1-3 y 3-5 km) alrededor de las 34 estaciones del Tren Maya, en 2019 y 2025, con el cambio absoluto y porcentual.
   - `escena-2.csv`: lo mismo por estación, a 5 km. Trae su lugar en el ranking, estado, municipio, coordenadas (`lat`, `lon`), orden en la ruta (`orden_ruta`, según el número del catálogo) y cuántas estaciones tiene su estado.
+  - `escena-2-anillos.csv`: detalle de la escena 2. Cada una de las 34 estaciones por anillo (0-1, 1-3 y 3-5 km), con los negocios de 2019 y de 2025 y su cambio. Hay cero donde no hay negocios. Suma lo mismo que `escena-2.csv`.
   - `estados_tren_maya.geojson`: contorno de los 5 estados del Tren Maya, base del mapa de la escena 2.
 - **Fuentes:**
   - INEGI, DENUE noviembre 2019 y mayo 2025, de Campeche, Chiapas, Quintana Roo, Tabasco y Yucatán, descarga masiva por estado (por ejemplo, Yucatán: <https://www.inegi.org.mx/contenidos/masiva/denue/2019_11/denue_31_1119_csv.zip> y <https://www.inegi.org.mx/contenidos/masiva/denue/2025_05/denue_31_0525_csv.zip>; las URL de los cinco estados están en el `procedencia.json` de `datos/originales/03_inegi/3.1_denue_2019_11/` y `3.2_denue_2025_05/`)

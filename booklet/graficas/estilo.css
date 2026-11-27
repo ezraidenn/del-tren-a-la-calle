@@ -78,7 +78,10 @@ body {
 
 @page { size: letter; margin: 1.3cm 1.5cm; }
 
+.grafica .estacion:focus-visible circle { stroke: var(--tinta); stroke-width: 3; }
+
 @media print {
+  .solo-pantalla { display: none; }
   .pagina { max-width: none; padding: 0; }
   .portada { padding-bottom: 0.6rem; margin-bottom: 0.8rem; }
   .portada .rotulo { font-size: 0.7rem; }

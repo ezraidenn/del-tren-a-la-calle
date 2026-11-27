@@ -17,11 +17,11 @@ window.dibujarEscena1 = async function (selector = "#grafica-escena-1") {
 
   const arco = d3.arc().startAngle(0).endAngle(2 * Math.PI);
   const anillos = svg.append("g").attr("transform", `translate(${cx},${cy})`);
-  anillos.selectAll("path").data(datos.slice().reverse()).join("path")
+  const aros = anillos.selectAll("path").data(datos.slice().reverse()).join("path")
     .attr("d", (d) => arco({ innerRadius: radio(d.min), outerRadius: radio(d.max) }))
     .attr("fill", COLOR.morado).attr("fill-opacity", (d) => tono(d.cambio_pct))
-    .attr("stroke", "#fff").attr("stroke-width", 2)
-    .append("title").text((d) => `${d.anillo}: ${entero(d.negocios_2019)} negocios en 2019 y ${entero(d.negocios_2025)} en 2025`);
+    .attr("stroke", "#fff").attr("stroke-width", 2);
+  aros.append("title").text((d) => `${d.anillo}: ${entero(d.negocios_2019)} negocios en 2019 y ${entero(d.negocios_2025)} en 2025`);
 
   // La estación al centro y las distancias sobre el eje horizontal.
   anillos.append("rect").attr("x", -16).attr("y", -9).attr("width", 32).attr("height", 18).attr("rx", 5)
@@ -37,7 +37,7 @@ window.dibujarEscena1 = async function (selector = "#grafica-escena-1") {
     .style("paint-order", "stroke").style("stroke", "#fff").style("stroke-width", "4px").text((k) => `${k} km`);
 
   // Ganancia escrita dentro de cada anillo, arriba del centro.
-  anillos.selectAll("text.cambio").data(datos).join("text").attr("class", "cambio")
+  const ganancias = anillos.selectAll("text.cambio").data(datos).join("text").attr("class", "cambio")
     .attr("y", (d) => -(d.min === 0 ? radio(d.max) * 0.45 : (radio(d.min) + radio(d.max)) / 2))
     .attr("text-anchor", "middle").attr("dy", "0.35em")
     .style("font-size", (d) => (d.min === 0 ? "15px" : "22px")).style("font-weight", 800)
@@ -47,8 +47,10 @@ window.dibujarEscena1 = async function (selector = "#grafica-escena-1") {
   // Panel derecho: cada anillo con 2019 (oro, comparación) y 2025 (morado).
   const p = svg.append("g").attr("transform", "translate(560,50)");
   const ancho = d3.scaleLinear().domain([0, d3.max(datos, (d) => d.negocios_2025)]).range([0, 250]);
+  const filas = [];
   datos.forEach((d, i) => {
     const g = p.append("g").attr("transform", `translate(0,${i * 125})`);
+    filas.push(g.node());
     g.append("text").style("font-size", "17px").style("font-weight", 800).text(`De ${d.min} a ${d.max} km`);
     g.append("text").attr("x", 340).attr("text-anchor", "end").style("font-size", "17px").style("font-weight", 800)
       .style("fill", COLOR.morado).text(pct(d.cambio_pct));
@@ -60,5 +62,27 @@ window.dibujarEscena1 = async function (selector = "#grafica-escena-1") {
         g.append("text").attr("x", 44 + ancho(v) + 8).attr("y", y + 17).style("font-size", "15px").style("font-weight", 700)
           .style("fill", ct).text(entero(v));
       });
+  });
+
+  // Entrada: los anillos se abren desde la estación, del más cercano al más lejano, y luego llega cada fila.
+  const orden = (d) => datos.indexOf(d);
+  const renglones = d3.selectAll(filas);
+  window.E8.animar(svg.node(), {
+    inicio() {
+      aros.attr("transform", "scale(0.15)").attr("opacity", 0);
+      ganancias.attr("opacity", 0);
+      renglones.attr("opacity", 0);
+    },
+    correr() {
+      aros.transition().delay((d) => 150 + orden(d) * 420).duration(800).ease(d3.easeBackOut.overshoot(1.3))
+        .attr("transform", "scale(1)").attr("opacity", 1);
+      ganancias.transition().delay((d) => 650 + orden(d) * 420).duration(450).attr("opacity", 1);
+      renglones.transition().delay((_, i) => 450 + i * 420).duration(500).attr("opacity", 1);
+    },
+    fin() {
+      aros.attr("transform", null).attr("opacity", 1);
+      ganancias.attr("opacity", 1);
+      renglones.attr("opacity", 1);
+    },
   });
 };

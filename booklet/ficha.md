@@ -47,9 +47,10 @@ En `index.html` estas tres cifras se calculan de los CSV (`graficas/portada.js`)
 ### Escena 2 · Tulum se llevó la vagonada, +900 negocios a 5 km de su estación, y Mérida Teya quedó tercera con +677
 
 - **Subtítulo:** negocios ganados o perdidos a menos de 5 km de cada una de las 34 estaciones, de noviembre de 2019 a mayo de 2025.
-- **Datos:** [`datos/escena-2.csv`](datos/escena-2.csv) y [`datos/estados_tren_maya.geojson`](datos/estados_tren_maya.geojson) · **D3:** [`graficas/escena-2.html`](graficas/escena-2.html)
+- **Datos:** [`datos/escena-2.csv`](datos/escena-2.csv), [`datos/escena-2-anillos.csv`](datos/escena-2-anillos.csv) y [`datos/estados_tren_maya.geojson`](datos/estados_tren_maya.geojson) · **D3:** [`graficas/escena-2.html`](graficas/escena-2.html)
 - **Lectura:** cada círculo es una estación en su lugar de la península, del tamaño de los negocios que ganó (morado) o perdió (oro) a 5 km.
-  - Mérida Teya lleva borde negro. Las que perdieron son Candelaria y Chetumal Aeropuerto.
+  - El borde negro marca la estación cuyo detalle por anillo (2019 contra 2025) se ve a la derecha: Mérida Teya en el impreso; en pantalla, la que se toque.
+  - Las que perdieron son Candelaria y Chetumal Aeropuerto.
   - La línea punteada une las estaciones en el orden de la ruta; no es el trazo real de la vía.
   - Palenque, segunda con +732, es la única estación de Chiapas: su cambio es el de todo el estado. Por eso no comparamos estados por su total.
 - **Fuente:** igual que la escena 1; contorno de los estados: INEGI, Marco Geoestadístico (diciembre 2025). Corte: mayo de 2025.
@@ -116,3 +117,11 @@ Impreso en tamaño carta, el capítulo ocupa 5 páginas:
 - una para los límites y la frase puente.
 
 Las gráficas van a todo lo ancho para que su texto no baje de 8 pt.
+
+En pantalla, cada escena tiene una entrada animada que arranca al llegar a ella:
+- **Escena 1:** los anillos se abren desde la estación.
+- **Escena 2:** un tren recorre la ruta, cada estación aparece cuando pasa y el contador sube hasta +5,488. Al tocar una estación se ve su detalle por anillo.
+- **Escena 3:** las líneas se dibujan mes a mes.
+- **Escena 4:** Mérida se pinta del Centro hacia las orillas.
+
+Con «reducir movimiento» activado, o al imprimir, las escenas aparecen ya terminadas.
