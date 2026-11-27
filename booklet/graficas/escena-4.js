@@ -11,7 +11,7 @@ window.dibujarEscena4 = async function (selector = "#grafica-escena-4") {
 
   // Cortes del cambio absoluto: oro para pérdida, morado para ganancia, gris claro sin cambio.
   const cortes = [-49.5, -9.5, -0.5, 0.5, 9.5, 49.5];
-  const colores = ["#9a5b08", "#ed9f22", "#fbe3b8", "#f3f4f6", "#e9d8f3", "#9b5bbf", "#600d8b"];
+  const colores = ["#b45309", "#ed9f22", "#fbe3b8", "#f3f4f6", "#e9d8f3", "#9b5bbf", "#600d8b"];
   const escala = d3.scaleThreshold().domain(cortes).range(colores);
   const etiquetas = ["−50 o más", "−49 a −10", "−9 a −1", "sin cambio", "+1 a +9", "+10 a +49", "+50 o más"];
 
@@ -24,7 +24,7 @@ window.dibujarEscena4 = async function (selector = "#grafica-escena-4") {
   const ciudad = { type: "FeatureCollection", features: geo.features.filter((f) => f.properties.cvegeo_ageb.slice(5, 9) === "0001") };
   const proy = d3.geoMercator().fitExtent([[10, 10], [mapaW, H - 10]], ciudad);
   const camino = d3.geoPath(proy);
-  const recorte = `recorte-mapa-${Math.random().toString(36).slice(2, 8)}`;
+  const recorte = "recorte-mapa-escena-4";
   svg.append("clipPath").attr("id", recorte).append("rect").attr("width", mapaW + 10).attr("height", H);
 
   svg.append("g").attr("clip-path", `url(#${recorte})`).selectAll("path").data(geo.features).join("path")

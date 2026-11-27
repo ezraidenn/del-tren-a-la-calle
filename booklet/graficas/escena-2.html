@@ -6,7 +6,6 @@
   <title>Escena 2 · Del tren a la calle</title>
   <link rel="stylesheet" href="estilo.css">
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-  <script src="datos.js"></script>
   <script src="comun.js"></script>
 </head>
 <body>
@@ -14,11 +13,11 @@
   <main class="pagina">
     <article class="escena">
       <div class="rotulo">Escena 2 · Ranking de estaciones</div>
-      <h2>Tulum, Palenque y Mérida Teya sumaron 2,309 de los 5,488 negocios nuevos; Chetumal Aeropuerto y Candelaria perdieron</h2>
+      <h2>Tulum se llevó la vagonada, +900 negocios a 5 km de su estación, y Mérida Teya quedó tercera con +677</h2>
       <p class="subtitulo">Negocios ganados o perdidos a menos de 5 km de cada una de las 34 estaciones, de noviembre de 2019 a mayo de 2025.</p>
       <div id="grafica-escena-2" class="grafica"></div>
-      <p class="lectura"><strong>Cómo leer esta escena:</strong> las barras moradas son estaciones que ganaron negocios y las de color oro, las que perdieron. Tulum ganó 900 (+53.7 %) y Mérida Teya 677 (+48.6 %). Palenque es la única estación de Chiapas, así que su cambio es el de todo el estado: por eso no comparamos estados por su total. Edzná y Calakmul no tienen negocios registrados a 5 km.</p>
-      <footer class="fuente"><span>Fuente: INEGI, DENUE noviembre 2019 y mayo 2025; catálogo de estaciones del Tren Maya. Data mart del equipo.</span><span>Datos: <code>booklet/datos/escena-2.csv</code></span></footer>
+      <p class="lectura"><strong>Cómo leer esta escena:</strong> en morado va Mérida Teya, la estación de nuestra ciudad; en oro, las dos que perdieron negocios (Candelaria y Chetumal Aeropuerto); en gris, las demás. Palenque, segunda con +732, es la única estación de Chiapas, así que su cambio es el de todo el estado: por eso no comparamos estados por su total. Edzná y Calakmul no tienen negocios registrados a 5 km.</p>
+      <footer class="fuente"><span>Fuente: INEGI, DENUE (noviembre 2019 y mayo 2025); catálogo de estaciones del Tren Maya. Data mart del equipo. Corte: mayo de 2025.</span><span>Datos: <code>booklet/datos/escena-2.csv</code></span></footer>
     </article>
   </main>
   <script src="escena-2.js"></script>

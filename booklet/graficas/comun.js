@@ -4,7 +4,7 @@
 
   const COLOR = {
     morado: "#600d8b", moradoMedio: "#9b5bbf", moradoSuave: "#e9d8f3",
-    oro: "#ed9f22", oroOscuro: "#9a5b08", oroSuave: "#fbe3b8",
+    oro: "#ed9f22", oroOscuro: "#b45309", oroSuave: "#fbe3b8",
     gris: "#9ca3af", grisClaro: "#e5e7eb", grisTexto: "#4b5563", tinta: "#0d0d0d",
   };
 
@@ -19,24 +19,14 @@
     });
   }
 
-  // Primero el CSV publicado; si el navegador no deja leerlo (archivo abierto sin servidor), la copia de datos.js.
+  // Las escenas solo leen los CSV y el GeoJSON de booklet/datos/, con rutas relativas.
   async function cargarCsv(nombre, comoTexto = []) {
-    try {
-      const texto = await d3.text(`${BASE}${nombre}.csv`);
-      return parsear(texto, comoTexto);
-    } catch (e) {
-      if (window.E8_DATOS && window.E8_DATOS[nombre]) return parsear(window.E8_DATOS[nombre], comoTexto);
-      throw e;
-    }
+    const texto = await d3.text(`${BASE}${nombre}.csv`);
+    return parsear(texto, comoTexto);
   }
 
   async function cargarJson(nombre) {
-    try {
-      return await d3.json(`${BASE}${nombre}.geojson`);
-    } catch (e) {
-      if (window.E8_DATOS && window.E8_DATOS[nombre]) return window.E8_DATOS[nombre];
-      throw e;
-    }
+    return d3.json(`${BASE}${nombre}.geojson`);
   }
 
   const entero = d3.format(",d");
@@ -47,7 +37,7 @@
   function fallo(selector, error) {
     console.error(error);
     d3.select(selector).append("p").attr("class", "error-carga")
-      .text("No se pudieron leer los datos de la escena. Abre la carpeta booklet/ con un servidor local (python -m http.server) o revisa que exista graficas/datos.js.");
+      .text("No se pudieron leer los datos de la escena. Abre la carpeta booklet/ con un servidor local: python -m http.server -d booklet");
   }
 
   window.E8 = { COLOR, cargarCsv, cargarJson, entero, conSigno, pct, MESES, fallo };

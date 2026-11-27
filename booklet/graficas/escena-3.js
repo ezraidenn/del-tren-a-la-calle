@@ -6,7 +6,8 @@ window.dibujarEscena3 = async function (selector = "#grafica-escena-3") {
   datos.forEach((d) => { d.m = +d.mes.slice(5, 7); });
 
   const series = d3.groups(datos, (d) => d.anio).map(([anio, valores]) => ({ anio, valores }));
-  const colorDe = (anio) => (anio === 2026 ? COLOR.morado : COLOR.gris);
+  // Morado: 2026, lo que se analiza. Oro: 2025, contra qué se compara.
+  const colorDe = (anio) => (anio === 2026 ? COLOR.morado : COLOR.oro);
 
   const W = 960, H = 460, m = { t: 30, r: 90, b: 50, l: 90 };
   const svg = d3.select(selector).append("svg").attr("viewBox", `0 0 ${W} ${H}`)
@@ -28,7 +29,7 @@ window.dibujarEscena3 = async function (selector = "#grafica-escena-3") {
     const paso = x.step();
     const x0 = x(d3.min(caidas, (d) => d.m)) - paso / 2, x1 = x(d3.max(caidas, (d) => d.m)) + paso / 2;
     svg.insert("rect", ":first-child").attr("x", x0).attr("width", x1 - x0).attr("y", m.t).attr("height", H - m.b - m.t)
-      .attr("fill", COLOR.oroSuave).attr("opacity", 0.6);
+      .attr("fill", "#f3f4f6");
     svg.append("text").attr("x", (x0 + x1) / 2).attr("y", m.t + 20).attr("text-anchor", "middle")
       .style("font-size", "15px").style("font-weight", 700).style("fill", COLOR.oroOscuro)
       .text("2026 por debajo de 2025");
@@ -47,7 +48,7 @@ window.dibujarEscena3 = async function (selector = "#grafica-escena-3") {
   // Etiqueta de cada serie al final de su línea.
   g.append("text").attr("x", (s) => x(s.valores[s.valores.length - 1].m) + 12)
     .attr("y", (s) => y(s.valores[s.valores.length - 1].pasajeros)).attr("dy", "0.35em")
-    .style("font-size", "17px").style("font-weight", 800).style("fill", (s) => (s.anio === 2026 ? COLOR.morado : COLOR.grisTexto))
+    .style("font-size", "17px").style("font-weight", 800).style("fill", (s) => (s.anio === 2026 ? COLOR.morado : COLOR.oroOscuro))
     .text((s) => s.anio);
 
   // Variación anual de los meses con caída, entre el punto de 2026 y el de 2025.

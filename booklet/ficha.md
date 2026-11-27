@@ -1,11 +1,20 @@
-# Del tren a la calle
-**Acto 3 · Moverse** · Equipo 8
+# CAPÍTULO 02 · DEL TREN A LA CALLE · ACTO 1: LLEGAN
+
+Equipo 8: Damian, Raúl y Ricardo · Repositorio `ezraidenn/del-tren-a-la-calle`
 
 ---
 
-## A 5 km de las 34 estaciones del Tren Maya hay 5,488 negocios más que en 2019, pero en 2026 el tren lleva 7.8 % menos pasajeros que en 2025
+## Título-hallazgo
 
-Comparamos los negocios del DENUE de noviembre de 2019 y de mayo de 2025 alrededor de cada estación, los pasajeros que publica el Tren Maya cada mes y, ya en Mérida, cómo cambió el número de negocios en cada AGEB urbana.
+**Llegó el tren y llegaron 5,488 negocios más a sus alrededores, pero en 2026 el tren lleva 7.8 % menos pasajeros**
+
+## Pregunta del capítulo
+
+¿Qué cambió alrededor de las estaciones del Tren Maya y, ya en Mérida, quién ganó negocios?
+
+## Entrada
+
+Entre 2019 y 2025 crecieron los negocios cerca de casi todas las estaciones, sobre todo de 1 a 3 km y no pegados a la vía. En Mérida crecieron las orillas y el Centro perdió negocios, mientras el tren, en 2026, lleva menos gente que un año antes.
 
 Capítulo completo en D3: [`index.html`](index.html). Una página por escena en [`graficas/`](graficas/).
 
@@ -13,87 +22,87 @@ Capítulo completo en D3: [`index.html`](index.html). Una página por escena en 
 
 ## La historia en 10 segundos
 
-| Dato clave | Descripción y contexto | Fuente y corte |
+| Cifra | Qué es | Fuente y corte |
 | :--- | :--- | :--- |
-| **+5,488 negocios** | A 5 km de las 34 estaciones: de 39,350 en 2019 a 44,838 en 2025 (+13.9 %). | INEGI, DENUE nov 2019 y may 2025 (`escena-2.csv`) |
-| **−7.8 % pasajeros** | De enero a septiembre de 2026 el tren llevó 891,060 pasajeros, frente a 966,552 en el mismo periodo de 2025. | Tren Maya, datos abiertos, corte sep 2026 (`escena-3.csv`) |
-| **−507 negocios** | La AGEB del Centro de Mérida pasó de 3,400 a 2,893 negocios, mientras 350 de las 526 AGEB urbanas ganaron negocios. | INEGI, DENUE y Censo 2020 (`escena-4.csv`) |
+| **+5,488 negocios** | A 5 km de las 34 estaciones: de 39,350 en 2019 a 44,838 en 2025 (+13.9 %). | INEGI, DENUE nov 2019 y may 2025 (`datos/escena-2.csv`) |
+| **−7.8 % pasajeros** | De enero a septiembre de 2026 el tren llevó 891,060 pasajeros, frente a 966,552 en el mismo periodo de 2025. | Tren Maya, datos.gob.mx, corte sep 2026 (`datos/escena-3.csv`) |
+| **−507 negocios** | En la AGEB del Centro de Mérida (`3105000010510`), de 3,400 a 2,893, mientras 350 de las 526 AGEB urbanas ganaron negocios. | INEGI, DENUE y Censo 2020 (`datos/escena-4.csv`) |
+
+En `index.html` estas tres cifras se calculan de los CSV (`graficas/portada.js`); no están escritas en el código.
 
 ---
 
-## Escena 1 · El crecimiento no se quedó pegado a la vía: de 1 a 3 km de las estaciones se sumaron 2,651 negocios y a menos de 1 km, 484
+## Escenas
 
-- **Subtítulo:** negocios del DENUE en tres anillos alrededor de las 34 estaciones, noviembre de 2019 contra mayo de 2025. Cada negocio cuenta una sola vez, en la estación más cercana.
-- **Archivo:** [`datos/escena-1.csv`](datos/escena-1.csv) · **Gráfica D3:** [`graficas/escena-1.html`](graficas/escena-1.html)
-- **Cómo leer esta escena:**
-  - Cada grupo de barras es un anillo de distancia; la barra gris es 2019 y la morada, 2025.
+### Escena 1 · Los negocios no se subieron al andén: +2,651 de 1 a 3 km de la estación y solo +484 a menos de 1 km
+
+- **Subtítulo:** negocios del DENUE en tres anillos alrededor de las 34 estaciones del Tren Maya, noviembre de 2019 contra mayo de 2025. Cada negocio cuenta una sola vez, en la estación más cercana.
+- **Datos:** [`datos/escena-1.csv`](datos/escena-1.csv) · **D3:** [`graficas/escena-1.html`](graficas/escena-1.html)
+- **Lectura:** cada grupo es un anillo de distancia.
+  - La barra oro son los negocios de 2019 y la morada, los de 2025.
   - El anillo de 1 a 3 km creció +16.2 %. El de junto a la estación creció +12.7 % y el de 3 a 5 km, +12.3 %.
-  - A menos de 1 km hay pocos negocios porque varias estaciones están fuera de la mancha urbana.
-- **Fuente:** INEGI, DENUE noviembre 2019 y mayo 2025; catálogo de estaciones del Tren Maya. Data mart del equipo (`procesamiento/03_denue_datamart/`).
+- **Fuente:** INEGI, DENUE noviembre 2019 y mayo 2025; catálogo de estaciones del Tren Maya. Data mart del equipo. Corte: mayo de 2025.
 
----
-
-## Escena 2 · Tulum, Palenque y Mérida Teya sumaron 2,309 de los 5,488 negocios nuevos; Chetumal Aeropuerto y Candelaria perdieron
+### Escena 2 · Tulum se llevó la vagonada, +900 negocios a 5 km de su estación, y Mérida Teya quedó tercera con +677
 
 - **Subtítulo:** negocios ganados o perdidos a menos de 5 km de cada una de las 34 estaciones, de noviembre de 2019 a mayo de 2025.
-- **Archivo:** [`datos/escena-2.csv`](datos/escena-2.csv) · **Gráfica D3:** [`graficas/escena-2.html`](graficas/escena-2.html)
-- **Cómo leer esta escena:**
-  - Las barras moradas son las estaciones que ganaron negocios y las de color oro, las que perdieron.
-  - Tulum ganó 900 negocios (+53.7 %) y Mérida Teya, 677 (+48.6 %).
-  - Edzná y Calakmul no tienen negocios registrados a 5 km.
-  - **Palenque es la única estación de Chiapas**: su cambio (+732) es el de todo el estado. Por eso el capítulo no compara estados por su total.
-- **Fuente:** igual que la escena 1.
+- **Datos:** [`datos/escena-2.csv`](datos/escena-2.csv) · **D3:** [`graficas/escena-2.html`](graficas/escena-2.html)
+- **Lectura:** en morado va Mérida Teya, en oro las dos estaciones que perdieron negocios (Candelaria y Chetumal Aeropuerto) y en gris las demás.
+  - Palenque, segunda con +732, es la única estación de Chiapas: su cambio es el de todo el estado. Por eso no comparamos estados por su total.
+- **Fuente:** igual que la escena 1. Corte: mayo de 2025.
 
----
-
-## Escena 3 · De junio a septiembre de 2026 el Tren Maya llevó entre 18 % y 28 % menos pasajeros que en los mismos meses de 2025
+### Escena 3 · En pleno calor, el tren se enfrió: de junio a septiembre de 2026 llevó entre 18 % y 28 % menos pasajeros que en 2025
 
 - **Subtítulo:** pasajeros transportados por mes en toda la red, enero de 2025 a septiembre de 2026.
-- **Archivo:** [`datos/escena-3.csv`](datos/escena-3.csv) · **Gráfica D3:** [`graficas/escena-3.html`](graficas/escena-3.html)
-- **Cómo leer esta escena:**
-  - La línea gris es 2025 y la morada, 2026, mes contra mes.
-  - 2026 empezó arriba: +8.6 % en enero y +11.9 % en febrero. Desde junio quedó abajo.
-  - Agosto tuvo la mayor caída (−27.7 %). Septiembre de 2026, con 66,801 pasajeros, es el mes más bajo de la serie.
-- **Fuente:** Tren Maya, prestación del servicio ferroviario de pasajeros, datos abiertos en datos.gob.mx. Tabla gold `ind_tren_maya_mensual`.
+- **Datos:** [`datos/escena-3.csv`](datos/escena-3.csv) · **D3:** [`graficas/escena-3.html`](graficas/escena-3.html)
+- **Lectura:** la línea oro es 2025 y la morada, 2026.
+  - 2026 empezó arriba y desde junio quedó abajo.
+  - Agosto tuvo la mayor caída (−27.7 %).
+  - Septiembre de 2026, con 66,801 pasajeros, es el mes más bajo de la serie.
+- **Fuente:** Tren Maya, prestación del servicio ferroviario de pasajeros, datos.gob.mx. Tabla gold `ind_tren_maya_mensual`. Corte: septiembre de 2026.
 
----
-
-## Escena 4 · En Mérida, 350 de 526 AGEB urbanas ganaron negocios, pero la del Centro perdió 507
+### Escena 4 · Los negocios agarraron pa' las orillas: 350 de 526 AGEB de Mérida ganaron negocios y la del Centro perdió 507
 
 - **Subtítulo:** negocios ganados o perdidos en cada AGEB urbana del municipio de Mérida, de noviembre de 2019 a mayo de 2025.
-- **Archivos:** [`datos/escena-4.csv`](datos/escena-4.csv) y [`datos/merida_ageb.geojson`](datos/merida_ageb.geojson) · **Gráfica D3:** [`graficas/escena-4.html`](graficas/escena-4.html)
-- **Cómo leer esta escena:**
-  - El morado marca las AGEB que ganaron negocios y el oro, las que perdieron.
+- **Datos:** [`datos/escena-4.csv`](datos/escena-4.csv) y [`datos/merida_ageb.geojson`](datos/merida_ageb.geojson) · **D3:** [`graficas/escena-4.html`](graficas/escena-4.html)
+- **Lectura:**
   - El municipio pasó de 52,675 a 55,864 negocios (+6.1 %).
-  - La AGEB del Centro (`3105000010510`), la que más negocios tiene, bajó de 3,400 a 2,893 (−14.9 %).
-  - Las AGEB de la periferia, a más de 20 km de la estación Teya, crecieron 47.6 %.
-  - Las AGEB con marginación alta y muy alta crecieron 40.1 % y 52.3 %, aunque partían de pocos negocios.
-  - El mapa encuadra la ciudad. Las 43 AGEB urbanas de las comisarías quedan fuera del recuadro, pero cuentan en los totales.
-- **Fuente:** INEGI, DENUE noviembre 2019 y mayo 2025, Censo de Población y Vivienda 2020 y Marco Geoestadístico 2025; CONAPO, índice de marginación urbana 2020. Tabla gold `ind_negocios_ageb_merida`.
+  - El Centro bajó de 3,400 a 2,893 negocios (−14.9 %).
+  - Las AGEB a más de 20 km de la estación Teya crecieron 47.6 %.
+  - Es el indicador por AGEB que aportamos al mapa de síntesis del cierre.
+- **Fuente:** INEGI, DENUE noviembre 2019 y mayo 2025, Censo 2020 y Marco Geoestadístico (diciembre 2025); CONAPO, índice de marginación urbana 2020. Tabla gold `ind_negocios_ageb_merida`. Corte: mayo de 2025.
 
 ---
 
 ## Lo que estos datos no dicen
 
 1. **No prueban que el tren causó el cambio.** El DENUE de 2019 es anterior a la obra y el de mayo de 2025 llega año y medio después de la apertura (diciembre de 2023). En medio también hubo pandemia y crecimiento urbano.
-2. **El DENUE cuenta establecimientos, no ventas ni empleos.** Si un negocio cierra y otro abre en el mismo lugar, el conteo no cambia.
+2. **El DENUE cuenta establecimientos, no ventas ni empleos.**
 3. **Los estados no se comparan por su total.** Chiapas solo tiene la estación de Palenque y Tabasco tiene tres, frente a las once de Campeche y las doce de Quintana Roo.
 4. **Los pasajeros son de toda la red.** El dato por estación se pidió por transparencia (folio 343053500035426). La respuesta vence el 23 de diciembre de 2026.
-5. **La estación Teya está en Kanasín,** a 6.4 km del centro de la AGEB urbana de Mérida más cercana. El mapa de la escena 4 muestra cómo cambió la ciudad, no el efecto directo de la estación.
-6. **La población por AGEB es la del Censo 2020.** Las 19 AGEB nuevas del Marco Geoestadístico 2025 no tienen dato del Censo y aparecen en blanco.
+5. **La estación Teya está en Kanasín,** a 6.4 km del centro de la AGEB urbana de Mérida más cercana. El mapa muestra cómo cambió la ciudad, no el efecto directo de la estación.
+6. **La población por AGEB es la del Censo 2020.** Las 19 AGEB nuevas del Marco Geoestadístico 2025 aparecen en blanco.
+
+## Puente al Acto 2
+
+Llegaron el tren y miles de negocios nuevos; falta saber si a quien vive en Mérida le alcanza el sueldo para comprar en ellos.
 
 ---
 
-## Cómo se regenera
+## Fallas del repositorio (sección 6 del plan)
+
+| Falla | Qué se hizo |
+| :--- | :--- |
+| El diseño era para Power BI, no había `.pbix` y las gráficas de `libro/graficas_e8.csv` solo estaban especificadas | Se hicieron las 4 escenas en D3 7.9.0 en `graficas/`. Leen los CSV de `datos/` y cada una lleva su título-hallazgo. `libro/` se retiró y la guía de Power BI del data mart quedó como alternativa |
+| Datos simulados del campo y de las 3 solicitudes | No entran al booklet: las 4 escenas solo usan fuentes públicas. En el repositorio quedan en `datos/propios/`, con su aviso en el README. Las entrevistas ya no guardan coordenadas exactas: llevan el punto del recorrido donde se hicieron (banca o parada), a 4 decimales |
+| Dos títulos («Del tren a la calle» y «El tren que movió el mapa») | Queda «Del tren a la calle» en todo el repositorio |
+| Chiapas solo tiene la estación de Palenque | Se marca en la escena 2 y en «Lo que estos datos no dicen»; no se comparan estados por su total |
+
+## Cómo se regenera y cómo se ve
 
 ```bash
-python src/booklet.py
+python src/booklet.py            # escribe datos/ y graficas/escena-N.html
+python -m http.server -d booklet # y abrir http://localhost:8000
 ```
 
-El script toma los datos del data mart del DENUE y de la capa gold, y escribe `datos/`, `graficas/datos.js` y las páginas `graficas/escena-N.html`. Los títulos y las lecturas se editan en `index.html`. Las gráficas usan D3 7.9.0.
-
-Para verlas, se abre `index.html` en el navegador; funciona también sin servidor, con la copia de los datos en `graficas/datos.js`. Con servidor:
-
-```bash
-python -m http.server -d booklet
-```
+Los títulos y las lecturas se editan en `index.html`; las páginas por escena se generan desde ahí.

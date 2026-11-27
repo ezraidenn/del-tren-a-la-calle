@@ -9,9 +9,7 @@ Solo usa datos reales del repositorio:
   ind_negocios_ageb_merida) y sus polígonos simplificados del Marco
   Geoestadístico.
 
-También escribe booklet/graficas/datos.js con el mismo contenido, para que las
-gráficas abran sin servidor (file://); las gráficas leen primero los CSV. Y
-escribe booklet/graficas/escena-N.html, una página por escena, con el texto
+También escribe booklet/graficas/escena-N.html, una página por escena, con el texto
 de booklet/index.html, que es donde se editan los títulos y las lecturas.
 
 El GeoJSON va con los anillos en el sentido que usa D3 (exterior en sentido
@@ -196,7 +194,6 @@ PAGINA = """<!DOCTYPE html>
   <title>Escena {n} · Del tren a la calle</title>
   <link rel="stylesheet" href="estilo.css">
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
-  <script src="datos.js"></script>
   <script src="comun.js"></script>
 </head>
 <body>
@@ -228,19 +225,11 @@ def main() -> None:
     e1, e2 = escena_1_y_2()
     e3 = escena_3()
     e4, gj = escena_4()
-    textos = {
-        "escena-1": csv(e1, "escena-1.csv"),
-        "escena-2": csv(e2, "escena-2.csv"),
-        "escena-3": csv(e3, "escena-3.csv"),
-        "escena-4": csv(e4, "escena-4.csv"),
-    }
+    for n, df in enumerate([e1, e2, e3, e4], start=1):
+        csv(df, f"escena-{n}.csv")
     geo_texto = json.dumps(gj, ensure_ascii=False, separators=(",", ":"))
     (SALIDA / "merida_ageb.geojson").write_text(geo_texto, encoding="utf-8")
-    js = ("// Generado por src/booklet.py a partir de booklet/datos/. No editar a mano.\n"
-          "// Copia de los CSV y del GeoJSON para abrir las gráficas sin servidor.\n"
-          f"window.E8_DATOS = {json.dumps(textos, ensure_ascii=False)};\n"
-          f"window.E8_DATOS['merida_ageb'] = {geo_texto};\n")
-    (GRAFICAS / "datos.js").write_text(js, encoding="utf-8")
+    (GRAFICAS / "datos.js").unlink(missing_ok=True)
 
     print(e1.to_string(index=False))
     print(e2.head(6).to_string(index=False))

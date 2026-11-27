@@ -9,7 +9,7 @@ window.dibujarEscena1 = async function (selector = "#grafica-escena-1") {
     .attr("role", "img").attr("aria-label", "Barras agrupadas de negocios por anillo de distancia en 2019 y 2025");
 
   const anios = [
-    { clave: "negocios_2019", etiqueta: "2019", color: COLOR.gris },
+    { clave: "negocios_2019", etiqueta: "2019", color: COLOR.oro },
     { clave: "negocios_2025", etiqueta: "2025", color: COLOR.morado },
   ];
   const x0 = d3.scaleBand().domain(datos.map((d) => d.anillo)).range([m.l, W - m.r]).paddingInner(0.28).paddingOuter(0.12);
@@ -36,7 +36,7 @@ window.dibujarEscena1 = async function (selector = "#grafica-escena-1") {
   grupo.selectAll("text.valor").data((d) => anios.map((a) => ({ ...a, valor: d[a.clave] }))).join("text")
     .attr("class", "valor").attr("x", (d) => x1(d.clave) + x1.bandwidth() / 2).attr("y", (d) => y(d.valor) - 8)
     .attr("text-anchor", "middle").style("font-size", "15px").style("font-weight", 600)
-    .style("fill", (d) => (d.clave === "negocios_2025" ? COLOR.morado : COLOR.grisTexto))
+    .style("fill", (d) => (d.clave === "negocios_2025" ? COLOR.morado : COLOR.oroOscuro))
     .text((d) => entero(d.valor));
 
   // Cambio de cada anillo, arriba del grupo.

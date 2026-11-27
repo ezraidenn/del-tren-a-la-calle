@@ -25,23 +25,26 @@ window.dibujarEscena2 = async function (selector = "#grafica-escena-2") {
   const g = svg.append("g").selectAll("g").data(datos).join("g")
     .attr("transform", (d) => `translate(0,${y(d.estacion_id)})`);
 
-  const destacada = (d) => d.estacion_id === "TM015" || d.estacion_id === "TM001";
+  // Foco del capítulo: la estación de Mérida (morado). Oro: las que perdieron. Gris: el resto.
+  const TEYA = "TM015";
+  const destacada = (d) => d.estacion_id === TEYA;
 
   g.append("text").attr("x", m.l - 12).attr("y", y.bandwidth() / 2).attr("dy", "0.35em").attr("text-anchor", "end")
     .style("font-size", "15px").style("font-weight", (d) => (destacada(d) ? 800 : 500))
+    .style("fill", (d) => (destacada(d) ? COLOR.morado : COLOR.tinta))
     .text((d) => `${d.lugar}. ${d.estacion} (${ABREV[d.estado] || d.estado})${d.estaciones_en_su_estado === 1 ? " *" : ""}`);
 
   g.append("rect")
     .attr("x", (d) => x(Math.min(0, d.cambio))).attr("width", (d) => Math.abs(x(d.cambio) - x(0)))
     .attr("height", y.bandwidth()).attr("rx", 3)
-    .attr("fill", (d) => (d.cambio < 0 ? COLOR.oro : destacada(d) ? COLOR.morado : COLOR.moradoMedio))
+    .attr("fill", (d) => (d.cambio < 0 ? COLOR.oro : d.estacion_id === TEYA ? COLOR.morado : COLOR.gris))
     .append("title").text((d) => `${d.estacion}, ${d.estado}: ${entero(d.negocios_2019)} negocios en 2019 y ` +
       `${entero(d.negocios_2025)} en 2025 (${conSigno(d.cambio)}, ${pct(d.cambio_pct)})`);
 
   g.append("text")
     .attr("x", (d) => (d.cambio < 0 ? x(0) + 8 : x(d.cambio) + 8)).attr("y", y.bandwidth() / 2).attr("dy", "0.35em")
     .style("font-size", "15px").style("font-weight", 600)
-    .style("fill", (d) => (d.cambio < 0 ? COLOR.oroOscuro : COLOR.grisTexto))
+    .style("fill", (d) => (d.cambio < 0 ? COLOR.oroOscuro : destacada(d) ? COLOR.morado : COLOR.grisTexto))
     .text((d) => {
       if (d.negocios_2019 === 0 && d.negocios_2025 === 0) return "sin negocios a 5 km";
       if (d.negocios_2019 === 0) return `${conSigno(d.cambio)} (no había en 2019)`;
