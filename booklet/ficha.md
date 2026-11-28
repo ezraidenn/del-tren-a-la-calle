@@ -70,7 +70,7 @@ En `index.html` estas tres cifras se calculan de los CSV (`graficas/portada.js`)
 - **Subtítulo:** negocios ganados o perdidos en cada AGEB urbana del municipio de Mérida, de noviembre de 2019 a mayo de 2025.
 - **Datos:** [`datos/escena-4.csv`](datos/escena-4.csv) y [`datos/merida_ageb.geojson`](datos/merida_ageb.geojson) · **D3:** [`graficas/escena-4.html`](graficas/escena-4.html)
 - **Lectura:**
-  - El municipio pasó de 52,675 a 55,864 negocios (+6.1 %).
+  - Las 526 AGEB urbanas pasaron de 52,675 a 55,864 negocios (+6.1 %). No es el total del municipio: el DENUE del municipio completo, que incluye lo que queda fuera de AGEB urbanas, pasa de 53,183 a 56,014.
   - El Centro bajó de 3,400 a 2,893 negocios (−14.9 %).
   - Las AGEB a más de 20 km de la estación Teya crecieron 47.6 %.
   - Es el indicador por AGEB que aportamos al mapa de síntesis del cierre.
